@@ -1,0 +1,105 @@
+{
+  "Course Title": "Over-Reliance on AI (Automation Bias)",
+  "Category": "Corporate",
+  "Description": "Why people trust AI too much and how it leads to poor decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have basic familiarity with using digital tools or software in a workplace setting, such as email platforms, productivity apps, or any automated system they interact with regularly.",
+  "Learning objectives": "By the end of this course, learners will be able to identify the key causes of automation bias and explain how over-reliance on AI tools can lead to poor decision-making in the workplace. Learners will also apply practical strategies to critically evaluate AI-generated outputs and maintain human judgment in everyday corporate tasks.",
+  "lessons": [
+    {
+      "lesson title": "Over-Reliance on AI (Automation Bias)",
+      "order": 1,
+      "Description": "This lesson explores why people often trust AI systems more than they should, and how that blind trust can lead to serious mistakes. You will learn about automation bias, which is the tendency to over-rely on automated tools and accept their outputs without question. Through real-world examples, you will see how this behavior shows up in everyday situations, from medical diagnoses to navigation apps to workplace decisions. By the end of this lesson, you will understand the risks of handing too much decision-making power to AI, and you will have practical strategies to stay critically engaged when working with these tools. Whether you are new to AI or just starting to use it regularly, this lesson will help you build healthier, more balanced habits around technology.",
+      "status": "draft",
+      "content": "Why people trust AI too much and how it leads to poor decisions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Trusting AI Too Much",
+          "subtitle": "When Confidence Becomes a Blind Spot",
+          "slidecontent": "• AI tools can feel so accurate and fast that users stop questioning their outputs\n• Automation bias is the tendency to over-trust automated systems even when they are wrong\n• This blind spot affects doctors, pilots, and everyday users alike\n• High confidence in AI often leads to skipping the verification steps that catch errors\n• The problem grows as AI becomes more capable and more embedded in daily decisions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Automation Bias",
+          "subtitle": "When machines lead, judgment follows.",
+          "slidecontent": "• Automation bias is the tendency to over-trust and over-follow automated system suggestions\n• It happens when people accept machine outputs without applying their own critical thinking\n• The bias grows stronger when systems appear confident, fast, or highly accurate\n• Even experts (doctors, pilots, analysts) are vulnerable to this pattern\n• The result is that human judgment gets quietly replaced by machine defaults\n• It is not about distrust of technology, but about knowing when to stay in control"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When AI Feels Infallible",
+          "subtitle": "Confidence can silence our critical thinking.",
+          "slidecontent": "• AI systems that respond quickly and confidently can feel more reliable than they actually are\n• Smooth, fluent outputs trigger trust even when the underlying information is wrong\n• People often skip verification steps when a tool seems authoritative or certain\n• High accuracy in past interactions builds false expectations of consistent perfection\n• The more we rely on AI without pushback, the harder it becomes to notice errors"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognizing Automation Bias in Action",
+          "subtitle": "When AI Errors Go Unnoticed",
+          "slidecontent": "• A GPS routes you into a flooded road and you follow it without question\n• An AI spell-checker misses a wrong word used correctly, like \"their\" instead of \"there,\" and you submit without reading\n• A medical AI flags the wrong diagnosis and the doctor approves it without reviewing the patient's chart\n• An autopilot system drifts off course and the pilot notices too late because they stopped monitoring\n• Errors slip through most often when people assume the AI already caught them"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Bias in Real Life",
+          "subtitle": "Where automation bias shows up daily",
+          "slidecontent": "• Trusting GPS directions even when the route looks obviously wrong\n• Accepting spell-check corrections without reading the suggested word in context\n• Following autopilot alerts on planes without manually verifying the situation\n• Approving AI-generated reports at work without checking the facts or numbers\n• Relying on recommendation algorithms to decide what news, products, or content to consume\n• Using AI medical symptom checkers as a final answer instead of a starting point"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognizing Your Own Automation Bias",
+          "subtitle": "Spot the signs before they escalate.",
+          "slidecontent": "• Feeling annoyed or impatient when asked to double-check an AI suggestion\n• Automatically approving AI outputs without reading them fully\n• Assuming the AI must be right when its answer conflicts with your own judgment\n• Noticing you rarely (or never) question results that look clean and confident\n• Skipping verification steps because \"the AI already handled it\"\n• Feeling less confident in your own expertise the longer you rely on AI tools"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Staying Alert Around AI",
+          "subtitle": "Practical tips to stay in control",
+          "slidecontent": "• Question AI outputs before acting, especially on high-stakes decisions\n• Set a habit of checking one independent source when AI gives surprising results\n• Stay involved in tasks instead of handing full control to AI tools\n• Notice when you feel too rushed or too comfortable to double-check AI suggestions\n• Keep your own skills sharp so you can spot errors AI might miss\n• Treat AI as a helpful assistant, not the final word"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• AI tools can be wrong, even when they sound confident and clear\n• Automation bias happens when we trust machines more than our own judgment\n• Always verify AI outputs against your own knowledge or a second source\n• Staying mentally engaged (not just accepting answers) keeps your thinking sharp\n• Small habits like pausing to question AI responses can prevent costly mistakes\n• Start today by picking one AI tool you use and checking its next output before acting on it"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start by talking about something that catches a lot of people off guard: trusting AI a little too much. When a tool gives you answers that are fast, confident, and usually correct, it's natural to start relying on it without really questioning it. Researchers actually have a name for this. It's called automation bias, and it simply means we tend to trust automated systems even when those systems get things wrong. And this isn't just a problem for tech enthusiasts. Studies show it affects pilots, doctors, and really anyone who works alongside automated tools on a regular basis. Here's where it gets tricky. The better AI becomes, the more we lower our guard. We skip the double-checks. We stop asking \"does this actually make sense?\" And that's exactly when small errors slip through and turn into bigger problems. So as we go through this course, keep that in mind. Capability and accuracy are not the same thing."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by understanding what automation bias actually means. At its core, it is the tendency to trust automated systems a little too much, to the point where we stop questioning what they tell us. When a machine gives us an answer quickly and confidently, it is very easy to just go along with it without really thinking it through. And here is the thing, this does not just happen to beginners or casual users. Doctors, pilots, financial analysts, highly trained professionals, they all fall into this pattern too. What ends up happening is that our own judgment quietly takes a back seat, and the machine's output becomes the default decision. Now, this is not about being suspicious of technology or refusing to use it. AI tools can be incredibly helpful. This is really about knowing when to stay engaged, when to pause, and when to apply your own critical thinking rather than simply accepting what the system suggests."
+        },
+        {
+          "number": 3,
+          "script": "There is something almost magnetic about a tool that responds instantly and sounds completely sure of itself. When AI gives us a smooth, well-structured answer, our brain tends to interpret that confidence as correctness, even when the information is actually wrong. And because many AI tools perform really well most of the time, we start to expect that they will always get it right. So we stop double-checking. We skip the verification step because, honestly, it has never let us down before. But here is the problem: the less we push back, the less we question, the harder it becomes to spot mistakes when they do happen. And they do happen. This is what automation bias looks like in practice. It is not that we blindly trust technology. It is that the tool feels so reliable, so polished, so certain, that our critical thinking quietly steps aside without us even noticing."
+        },
+        {
+          "number": 4,
+          "script": "Let's look at what automation bias actually looks like in real life, because it shows up in more places than you might expect. Think about following your GPS straight into a flooded road because you trusted it without glancing up. Or submitting a document because spell-check ran, even though it missed the word \"their\" when you meant \"there,\" since both spellings are technically correct. These feel like small moments, but the same pattern plays out in high-stakes situations too. A doctor approves an AI diagnosis without pulling up the patient's chart. A pilot stops actively monitoring the controls because the autopilot is on, and by the time something goes wrong, it is almost too late to correct. What all of these have in common is that the error was not invisible. It was just never looked for. When we assume the AI already caught the problem, we stop checking ourselves, and that is exactly when mistakes slip through."
+        },
+        {
+          "number": 5,
+          "script": "So where does automation bias actually show up in your everyday life? Probably more places than you'd expect. Think about the last time you followed GPS directions even though something felt off about the route. Or when you hit \"accept\" on a spell-check suggestion without really reading it in context. These are small examples, but the same pattern plays out in much higher-stakes situations too. Pilots can over-trust autopilot systems without manually confirming what's happening. At work, people approve AI-generated reports without checking whether the numbers actually make sense. We let recommendation algorithms decide what news or content we consume, often without questioning why we're seeing it. And some people use AI symptom checkers as a final medical answer rather than a starting point for a real conversation with a doctor. The common thread here is that we hand over our judgment to the machine, sometimes without even realizing we've done it."
+        },
+        {
+          "number": 6,
+          "script": "So how do you know if automation bias is already affecting you? There are some honest signals worth watching for. Do you feel a little frustrated when someone asks you to verify what the AI just told you? Do you find yourself clicking \"approve\" before you have actually finished reading the output? Or maybe the AI gives you an answer that contradicts your own instincts, and your first reaction is to assume you must be the one who is wrong. Another sign is that you never really question results that look polished and confident, because they seem so certain. You might also be skipping verification steps entirely, telling yourself the AI already took care of it. And perhaps the most subtle sign of all is that you are starting to trust your own expertise less the longer you use these tools. Recognizing these patterns in yourself is the first and most important step toward correcting them."
+        },
+        {
+          "number": 7,
+          "script": "So how do we actually stay in control when we're working with AI? It comes down to a few simple habits. First, get into the practice of questioning what AI tells you, especially when the stakes are high. If something surprises you, take a moment to check it against another source. And rather than handing a task over completely, stay involved in the process. It is also worth noticing your own mindset. Are you feeling rushed? Are you just a little too comfortable to bother checking? Those are the moments when errors slip through. Another big one is keeping your own skills and knowledge sharp, because the better you understand a topic, the easier it is to catch a mistake the AI might make. And finally, think of AI as a helpful assistant, not the person with the final say. You are still the one responsible for the decisions you make."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The big idea here is simple: AI can be wrong, and it can be wrong in a way that sounds completely convincing. That tendency we have to just trust the machine without questioning it is called automation bias, and it affects all of us. The good news is that awareness is already half the battle. When you get an output from an AI tool, take a moment to check it against what you already know, or look it up somewhere else. Keep your brain in the game rather than just accepting whatever the tool gives you. That habit of pausing and asking \"does this actually make sense?\" is what protects you from making decisions based on bad information. And here is a practical place to start: pick one AI tool you use regularly, and before you act on its next response, just verify it. One small step like that can make a real difference over time."
+        }
+      ]
+    }
+  ]
+}
