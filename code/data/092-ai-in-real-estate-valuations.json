@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Real Estate Valuations",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "When automated valuations misrepresent market reality.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with property markets and an openness to exploring how technology is reshaping real estate practice are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key limitations of automated valuation models and explain how algorithmic outputs can misrepresent true market conditions in residential and commercial property. You will also apply practical frameworks to critically evaluate AI-generated valuations, ensuring that professional judgement and local market knowledge are used to challenge and correct inaccurate assessments.",
+  "lessons": [
+    {
+      "lesson title": "AI in Real Estate Valuations",
+      "order": 1,
+      "Description": "Automated valuation models are increasingly being used across the property industry, but they do not always reflect the true complexity of local markets. This lesson introduces you to how AI-driven tools generate property valuations and where they are most likely to fall short. You will explore real-world scenarios in which automated estimates have diverged significantly from actual market conditions, helping you to recognise the warning signs. By the end of this lesson, you will have a clearer understanding of how to interpret AI valuations critically and use them as one input among many, rather than as a definitive answer.",
+      "status": "draft",
+      "content": "When automated valuations misrepresent market reality.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Real Estate Valuations",
+          "subtitle": "When Algorithms Miss the Full Picture",
+          "slidecontent": "• Algorithms don't see everything\n• Data gaps distort values\n• Local nuance gets missed\n• Valuers still matter\n• Know the limitations"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Market Data and Its Limits",
+          "subtitle": "What data reveals and conceals",
+          "slidecontent": "• Property market data drawn from past sales, listings, and valuations\n• Always backward-looking by nature\n• Gaps in data common in rural or low-transaction areas\n• Outlier sales (distressed properties, family deals) can skew averages significantly\n• Data rarely captures condition, local sentiment, or recent neighbourhood change\n• What gets measured shapes what the model sees"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Valuation Red Flags",
+          "subtitle": "When data distorts true property worth",
+          "slidecontent": "• Outdated sales data used\n• Missing local market context\n• Unusual sales skew results\n• Algorithm ignores renovation quality\n• Flood risk often overlooked"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Valuation Red Flags",
+          "subtitle": "When data distorts true property worth",
+          "slidecontent": "• Automated valuations that rely on outdated comparable sales can significantly understate or overstate a property's current market value\n• Postcode-level data masking hyper-local differences between streets\n• A recent flood event or planning restriction may not yet be reflected in an algorithm's training data\n• Overreliance on square footage without accounting for condition, aspect, or layout\n• Sudden price spikes in thin markets where very few transactions skew the model's output\n• Properties with unusual features (listed buildings, non-standard construction) often confuse automated systems entirely"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Valuation Red Flags",
+          "subtitle": "When data hides the bigger picture.",
+          "slidecontent": "• Automated valuations trained on historical data can miss sudden local market shifts\n• Outlier sales skewing averages upward\n• Thin data in rural or niche property markets leads to wider error margins\n• A high confidence score does not guarantee accuracy, just consistency with past patterns\n• Seasonal fluctuations and one-off regeneration projects often go unweighted\n• Always cross-reference with on-the-ground evidence from local agents and recent comparable sales"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Valuation Red Flags",
+          "subtitle": "When data signals demand closer scrutiny",
+          "slidecontent": "• Sudden price spikes in a postcode with no supporting sales evidence\n• Comparable properties drawn from mismatched neighbourhoods or property types\n• Thin data\n• Confidence intervals that appear unusually narrow for a volatile or illiquid market\n• Valuations that ignore recent planning decisions, flood risk updates, or local infrastructure changes\n• A single outlier sale skewing the automated estimate significantly upward"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Challenging AI Valuation Outputs",
+          "subtitle": "When data gaps distort property worth.",
+          "slidecontent": "• Missing data skews results\n• Local quirks get ignored\n• Outdated sales mislead\n• Question every low estimate\n• Request the data sources"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for confident AI use",
+          "slidecontent": "• AI valuations can mislead\n• Context always matters most\n• Check data sources carefully\n• Question outlier results always\n• Combine AI with judgement\n• Verify before you advise"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Real Estate Valuations. Now, artificial intelligence is genuinely transforming the way properties are valued, and there is a lot of excitement around what these tools can do. But this course is really about taking an honest look at the full picture, because as powerful as these algorithms are, they do not see everything. They rely on data, and when that data has gaps or simply does not capture what makes a particular street, neighbourhood, or property special, the valuations they produce can be quite misleading. Local knowledge, context, and professional judgement are things that a machine genuinely struggles to replicate. So throughout this course, we are going to explore where AI adds real value, where it falls short, and why skilled valuers remain absolutely essential in this process. Understanding the limitations of these tools is not about being negative towards technology. It is about using it wisely and responsibly."
+        },
+        {
+          "number": 2,
+          "script": "Before we look at what AI can do with property data, it's worth understanding where that data actually comes from and what its limitations are. Most market data is built from past sales, listings, and previous valuations, which means it's always telling us about what has already happened, not what's happening right now. And in quieter rural areas where properties rarely change hands, there simply isn't much data to work with. Even where data does exist, it can be misleading. A distressed sale or a property sold within the family at below market value can pull averages in the wrong direction. There's also a lot that data just doesn't capture at all, things like the condition of a property, how a neighbourhood feels to live in, or changes happening on the ground right now. So when we feed this data into an AI model, the model can only work with what it's given. That's a really important idea to keep in mind throughout this course."
+        },
+        {
+          "number": 3,
+          "script": "Now, even when AI tools produce a valuation figure, it is worth knowing where those figures can go wrong. One common issue is that the data being used is simply out of date. Property markets move quickly, and stale sales figures can paint a very misleading picture. Equally, an algorithm might not understand the nuances of a particular neighbourhood, things like a new school opening nearby or a local regeneration project that is changing demand. There is also the problem of unusual sales skewing the results, perhaps a distressed sale or a transaction between family members at a below-market price. On top of that, AI often struggles to account for the quality of a renovation. A beautifully extended kitchen adds real value, but the algorithm may not see it that way. And flood risk is frequently underweighted or missed entirely, which can be a serious oversight for buyers and lenders alike. So always look critically at what sits behind that number."
+        },
+        {
+          "number": 4,
+          "script": "So, automated valuation tools are genuinely useful, but they do have blind spots, and it's important you know what to watch out for. One common issue is stale data. If the comparable sales an algorithm is drawing on are months or even years old, the figure it produces can be well off the mark. Another problem is that postcode-level data can hide real differences between individual streets. And if something significant has happened locally, say a flood or a new planning restriction, the model may simply not know about it yet. Algorithms also tend to lean heavily on square footage, which tells you very little about a property's actual condition or how well it's laid out. In quieter markets with very few sales, just one or two unusual transactions can throw the whole output off. And properties like listed buildings or those with non-standard construction often baffle these systems entirely. So always treat automated valuations as a starting point, not the final word."
+        },
+        {
+          "number": 5,
+          "script": "Now, even the most sophisticated AI valuation tools have blind spots, and it is important you know what to look for. These systems are trained on historical data, so if the local market shifts suddenly, the model may simply not have caught up yet. You might also find that a handful of unusually high sales are pulling the average upward, or that in rural and niche markets there just is not enough data to produce a reliable figure. Here is something that catches a lot of people out: a high confidence score does not mean the valuation is correct. It just means the result is consistent with past patterns. On top of that, seasonal changes and one-off regeneration projects are often underweighted or missed entirely. So the practical advice here is straightforward: never rely on an automated valuation in isolation. Always cross-reference it with insight from local agents and recent comparable sales in the area. That combination of AI and human knowledge is where the real value lies."
+        },
+        {
+          "number": 6,
+          "script": "Now, even when an AI valuation looks polished and precise, there are certain warning signs that should prompt you to dig a little deeper. If you see a sudden price spike in a postcode but there are no recent sales to back it up, that is a red flag. Similarly, if the comparable properties being used are from completely different neighbourhoods or property types, the model is not comparing like with like. Watch out for situations where very little data is available, because thin data can produce unreliable results. And if the confidence interval looks suspiciously tight for a market that is known to be volatile, treat that with caution. AI tools can also miss important local context, such as a new planning decision, a flood risk update, or a major infrastructure change nearby. Finally, a single unusual sale can pull an automated estimate significantly higher than it should be. These are the moments where human judgement really earns its place."
+        },
+        {
+          "number": 7,
+          "script": "Now, AI valuations are only as good as the data feeding them, and that's where things can go wrong. If a property has unusual features, or sits in a postcode with very few recent sales, the model may simply not have enough to work with, and the estimate it produces can be way off the mark. Local nuances are another blind spot. Things like a particularly sought-after school catchment, a new development nearby, or even a well-known noisy road, these are details that algorithms often miss entirely. And if the comparable sales data is outdated, perhaps from a market that looked very different two or three years ago, that skews the result further still. So if an AI tool spits out a valuation that feels surprisingly low, don't just accept it. Push back, ask questions, and crucially, find out what data sources the tool actually used. That context tells you a great deal about how much you can trust the number."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and pull together the key things to hold onto from this lesson. AI valuation tools are genuinely useful, but they can mislead you if you take the numbers at face value without thinking critically. Context is everything in property, and no algorithm fully understands a neighbourhood the way an experienced professional does. Always check where the data is coming from, because poor quality inputs will produce poor quality outputs. If a result looks unusual or doesn't feel right, don't ignore that instinct. Question it, dig into it, and find out why it's appearing. The real skill here is combining what AI gives you with your own professional judgement, not replacing one with the other. And perhaps most importantly, never advise a client based solely on an AI figure. Verify it first. These six points really do sum up a responsible and confident approach to using AI in valuations."
+        }
+      ]
+    }
+  ]
+}

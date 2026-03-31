@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in 5G and Telecom Infrastructure",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "New attack surfaces in intelligent network management.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with networking concepts and a general interest in how mobile telecommunications systems work are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways artificial intelligence is being integrated into 5G and telecom infrastructure, and explain the new attack surfaces that emerge when intelligent systems are used to manage modern networks. You will also apply foundational security awareness principles to recognise potential vulnerabilities in AI-driven network management, helping you make more informed decisions about protecting critical telecom systems.",
+  "lessons": [
+    {
+      "lesson title": "AI in 5G and Telecom Infrastructure",
+      "order": 1,
+      "Description": "As 5G networks become more intelligent and automated, artificial intelligence is playing an increasingly central role in how telecom infrastructure is managed, monitored, and optimised. This lesson introduces learners to the ways AI is being embedded into network functions, from traffic management and fault detection to predictive maintenance and resource allocation. While these capabilities bring significant efficiency gains, they also introduce new attack surfaces that security professionals and network engineers need to understand. We will explore how malicious actors can exploit AI-driven systems within telecom environments, and why traditional security approaches may not be sufficient to address these emerging risks. By the end of this lesson, you will have a clear foundational understanding of where AI sits within 5G infrastructure and why securing these intelligent systems is becoming a critical priority for the industry.",
+      "status": "draft",
+      "content": "New attack surfaces in intelligent network management.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in 5G Networks",
+          "subtitle": "Redefining Connectivity Through Intelligent Automation",
+          "slidecontent": "• 5G networks use AI heavily\n• Automation replaces manual configuration\n• Networks self-optimise in real time\n• New risks emerge with intelligence\n• Security must evolve accordingly"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Intelligent Networks: New Threat Surfaces",
+          "subtitle": "Mapping Risks in AI-Driven Networks",
+          "slidecontent": "• AI systems now manage core 5G functions like traffic routing, slicing, and fault detection automatically\n• Each automated decision point becomes a potential entry for attackers\n• New attack surfaces emerge wherever AI replaces human oversight\n• Adversaries can manipulate training data to corrupt how the network behaves\n• More connected, more exposed"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Intelligent Networks, New Vulnerabilities",
+          "subtitle": "Smarter Networks, Greater Security Risks",
+          "slidecontent": "• AI systems now make real-time decisions about how 5G networks route and manage traffic\n• More automation means more entry points for attackers to exploit\n• Vulnerable by design\n• Intelligent network functions run on software, making them targets for code-level attacks\n• Misconfigured AI models can silently degrade network performance or expose sensitive data"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Exploiting AI-Driven Network Vulnerabilities",
+          "subtitle": "Targeting Weaknesses in Automated Systems",
+          "slidecontent": "• AI systems have blind spots\n• Attackers exploit automated decisions\n• Poisoned data skews responses\n• Feedback loops amplify errors\n• Speed hides malicious activity"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Exploiting AI-Driven Network Vulnerabilities",
+          "subtitle": "Targeting Weaknesses in Automated Systems",
+          "slidecontent": "• AI systems in 5G networks make automated decisions at speed, leaving little time for human review\n• Attackers can feed manipulated data into AI models to trigger incorrect routing or resource allocation\n• Adversarial inputs, small deliberate changes to network traffic, can fool AI-based anomaly detectors\n• Poisoned training data a growing threat\n• Compromising the data used to train network AI can embed persistent blind spots into the system\n• Automated responses can be weaponised, causing AI to amplify an attack rather than contain it"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Exploiting AI-Driven Network Vulnerabilities",
+          "subtitle": "Targeting Weaknesses in Automated Systems",
+          "slidecontent": "• AI systems have known flaws\n• Attackers exploit automation gaps\n• Poisoned data misleads decisions\n• APIs expose control interfaces\n• Trust models break under attack"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI-Driven Network Threats",
+          "subtitle": "Defending Networks Against Intelligent Threats",
+          "slidecontent": "• AI-powered attacks can learn and adapt faster than traditional rule-based defences\n• Zero-trust architecture limits damage by verifying every user and device continuously\n• Anomaly detection tools flag unusual traffic patterns before breaches escalate\n• Regular adversarial testing exposes weaknesses in AI-driven network management systems\n• Keep humans in the loop\n• Patching AI models and retraining them on fresh threat data closes gaps that attackers exploit"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always.",
+          "slidecontent": "• AI expands network attack surfaces\n• Automate carefully, audit always\n• Patch AI systems regularly\n• Trust no input by default\n• Monitor anomalies in real time\n• Learn, adapt, stay vigilant"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in 5G and Telecom Infrastructure. Over the coming lessons, we are going to explore how artificial intelligence is fundamentally changing the way modern networks are built and managed. 5G is not simply a faster version of 4G. It is a much more complex system, and AI is right at the heart of how it operates. Rather than engineers manually configuring every part of the network, intelligent automation now handles much of that work, and it does so continuously, adjusting and optimising in real time based on what is actually happening across the network. That is a remarkable shift. But with that intelligence comes new challenges, particularly around security. When a network can make decisions on its own, we need to think very carefully about what happens when things go wrong or when that intelligence is exploited. So throughout this course, we will look at both the opportunities and the risks, giving you a well-rounded understanding of this fascinating and fast-moving field."
+        },
+        {
+          "number": 2,
+          "script": "So as networks become more intelligent, they also become more complex, and with that complexity comes new risk. In modern 5G infrastructure, AI is quietly running the show behind the scenes, making decisions about how traffic flows, how the network is sliced up for different users, and how faults are detected and resolved. That all sounds brilliant, and in many ways it is. But here is the catch: every single one of those automated decision points is a potential opening for an attacker. Wherever we remove a human from the loop and hand control to an AI system, we create a new surface that someone could try to exploit. And one of the more concerning ways they can do that is by tampering with the data the AI learns from, essentially teaching the network to behave in ways that suit the attacker rather than the operator. The more connected and automated these networks become, the broader that exposure gets."
+        },
+        {
+          "number": 3,
+          "script": "So as 5G networks become more intelligent, they also become more complex, and that complexity introduces new risks. AI systems are now making real-time decisions about how traffic flows across the network, which is genuinely impressive, but it also means there are far more moving parts that could go wrong or be exploited. When you automate more of the network, you create more potential entry points for attackers. And here is something worth pausing on: because intelligent network functions are built on software, they are vulnerable to the same kinds of code-level attacks that affect any software system. It is not just about external threats either. If an AI model is poorly configured, it might quietly degrade performance or accidentally expose sensitive data without anyone noticing straight away. So the message here is straightforward: smarter networks are powerful, but that intelligence comes with a responsibility to understand and manage the security risks that come alongside it."
+        },
+        {
+          "number": 4,
+          "script": "Now, here's where things get really interesting from a security perspective. AI systems, as clever as they are, aren't perfect. They have blind spots, and attackers know exactly how to exploit them. Because so many network decisions are now automated, a bad actor doesn't need to target a human operator. They can target the algorithm itself. One particularly nasty technique is data poisoning, where attackers feed corrupted or misleading data into the system, causing it to make poor decisions without even realising anything is wrong. And because AI systems often learn from their own outputs, a small error can feed back into the system and grow into a much larger problem over time. What makes this even more challenging is the sheer speed of 5G networks. Things happen so fast that malicious activity can slip through before anyone notices. So understanding these vulnerabilities is absolutely essential if we want to build networks that are both intelligent and secure."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the more unsettling aspects of AI in 5G networks is that the very intelligence making these systems so efficient can also be turned against them. Because AI makes decisions at incredible speed, there is very little opportunity for a human to step in and catch a mistake. Attackers know this, and they can exploit it in several ways. For example, they might feed corrupted or misleading data into an AI model, tricking it into misrouting traffic or misallocating resources. They can also make tiny, carefully crafted changes to network traffic that are invisible to us but completely fool an AI anomaly detector. Even more concerning is the idea of poisoning the training data, so the AI learns bad habits from the very beginning, creating blind spots that persist long after deployment. And in some cases, the AI's own automated responses can actually be hijacked, causing the system to make an attack worse rather than shut it down."
+        },
+        {
+          "number": 6,
+          "script": "Now let's look at how attackers actually go after AI-driven networks, because this is where things get quite concerning. AI systems, as clever as they are, do have known weaknesses, and cybercriminals are becoming very good at finding them. One common approach is exploiting the gaps in automation, essentially tricking automated processes into making poor decisions without any human noticing. There's also something called data poisoning, where attackers deliberately feed corrupt or misleading data into an AI system, causing it to behave incorrectly. Think of it like slowly contaminating the information an AI relies on to make judgements. Another vulnerability comes from APIs, which are the interfaces that allow different systems to talk to each other. If those aren't properly secured, they become an open door into the network's control systems. And finally, the trust relationships that AI systems build up over time can actually be exploited and broken, undermining the whole decision-making process. So automation brings real benefits, but it also introduces a new attack surface we need to understand."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually defend against threats that are powered by AI? The challenge is that AI-driven attacks can learn and adapt in real time, which means traditional defences simply can't keep up. One of the most effective approaches is zero-trust architecture, where every user and device is continuously verified rather than trusted by default. Alongside that, anomaly detection tools are constantly watching for unusual traffic patterns, catching problems early before they spiral into something serious. It's also worth regularly stress-testing your AI systems through adversarial testing, essentially trying to break them yourself so attackers can't do it first. And here's something really important: keep humans involved in the decision-making process. AI is a powerful tool, but human judgement remains essential. Finally, just like any software, your AI models need regular updates and retraining on the latest threat data, because the moment they go stale, they become a vulnerability in themselves."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, remember that AI genuinely does expand the attack surface of your network, so more capability means more responsibility. When you automate processes, do it carefully, and always keep humans in the loop through regular audits. Your AI systems also need patching and updating just like any other software, so don't neglect them. Treat every input as potentially suspicious until it's been validated, because assuming trust is how attackers get in. Keep a close eye on your network behaviour in real time, because anomalies are often your earliest warning sign that something isn't right. And finally, this field moves incredibly quickly, so commit to continuous learning and staying alert to new threats as they emerge. These aren't just good habits, they're the foundation of responsible AI-driven network management. Keep them in mind as you move forward in your career."
+        }
+      ]
+    }
+  ]
+}

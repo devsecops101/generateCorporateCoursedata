@@ -54,6 +54,16 @@ You can also choose the model:
 python read_courses_excel.py --rows 1 --use-claude --claude-model "auto"
 ```
 
+### Resuming after failures (Claude)
+
+With `--use-claude`, the script **writes the JSON after each slide** and **after each narration script** (via a temporary file, then replace). If the run stops mid-way, run the **same command again**: it reloads the existing file (same `Course Title`) and **only fills placeholders**, so completed slides are not regenerated.
+
+To **start from scratch** for that output file, use:
+
+```bash
+python read_courses_excel.py --rows 1 --use-claude --force
+```
+
 Or pass an explicit Excel path:
 
 ```bash

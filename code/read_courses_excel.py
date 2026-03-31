@@ -1,13 +1,16 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
+import random
 import re
+import time
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import pandas as pd
 
@@ -19,8 +22,14 @@ class CourseRow:
     category: str
 
 
+UK_AUTHOR_VOICE = """Author voice:
+- The author/presenter is based in the United Kingdom
+- Use British English spelling and phrasing (e.g., organise, programme, prioritise)
+"""
+
 CLAUDE_PROMPTS: dict[str, str] = {
     "prerequisites": """You are an expert course designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -35,6 +44,7 @@ Constraints:
 - No bullet points, no quotes
 Return only the sentence.""",
     "learning_objectives": """You are an expert course designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -49,6 +59,7 @@ Constraints:
 - Do not use em dashes (—) or en dashes (–). Use commas or parentheses instead.
 Return only the 2 sentences.""",
     "lesson_description_expand": """You are an expert instructional designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -63,6 +74,7 @@ Constraints:
 - Do not use em dashes (—) or en dashes (–). Use commas or parentheses instead.
 Return only the paragraph.""",
     "slide_title": """You are an expert instructional designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -76,6 +88,7 @@ Write a short slide title (max 5 words).
 Do not use em dashes (—) or en dashes (–).
 Return only the title.""",
     "slide_subtitle": """You are an expert instructional designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -90,6 +103,7 @@ Write a short slide subtitle (max 6 words) that complements the slide title.
 Do not use em dashes (—) or en dashes (–).
 Return only the subtitle.""",
     "slide_content": """You are an expert instructional designer.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -102,6 +116,7 @@ Given:
 Write slide body content as 3-6 concise bullet points.
 Constraints:
 - Each bullet is one sentence fragment (no periods)
+- {bullet_style}
 - Beginner-friendly, concrete, no fluff
 - Do not mention "Claude", "AI model", or that you are generating text
 - Do not use em dashes (—) or en dashes (–). Use commas or parentheses instead.
@@ -109,6 +124,7 @@ Constraints:
  - For slide 8, include key points to remember and a short next-step suggestion, but do NOT use the word "takeaway" or "takeaways"
 Return only the bullet list.""",
     "slide_script": """You are an expert speaking coach and course presenter.
+""" + UK_AUTHOR_VOICE + """
 
 Given:
 - Course Title: "{course_title}"
@@ -130,6 +146,33 @@ Return only the narration text, as a single paragraph.""",
 }
 
 DEFAULT_CLAUDE_MODEL = "auto"
+
+
+def _select_compact_bullet_slides(course_title: str, *, total_slides: int = 8, compact_count: int = 4) -> set[int]:
+    """
+    Pick a deterministic subset of slide numbers for "compact bullets" mode.
+    Deterministic per course title so resume/re-runs are stable.
+    """
+    total = max(1, int(total_slides))
+    k = max(0, min(int(compact_count), total))
+    if k == 0:
+        return set()
+    if k >= total:
+        return set(range(1, total + 1))
+
+    seed_material = (course_title or "").strip().lower().encode("utf-8")
+    seed_int = int.from_bytes(hashlib.sha256(seed_material).digest()[:8], "big", signed=False)
+    rng = random.Random(seed_int)
+
+    slides = list(range(1, total + 1))
+    rng.shuffle(slides)
+    return set(slides[:k])
+
+
+def _bullet_style_for_slide(slide_number: int, *, compact_slides: set[int]) -> str:
+    if slide_number in compact_slides:
+        return "For this slide, keep bullets ultra-short, max 5 words per bullet"
+    return "Vary bullet length across bullets, include some very short ones"
 
 
 def _normalize_col_name(name: str) -> str:
@@ -275,6 +318,375 @@ class ClaudeTextGenerator:
         return "\n".join(p.strip("\n") for p in parts).strip()
 
 
+def _is_ai_placeholder(text: str) -> bool:
+    return not (text or "").strip() or "[PLACEHOLDER" in text
+
+
+def _atomic_write_json(path: Path, data: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
+def _assemble_course_payload(
+    course: CourseRow,
+    *,
+    prereq: str,
+    objectives: str,
+    lesson_desc: str,
+    slide_titles: dict[int, str],
+    slide_subtitles: dict[int, str],
+    slide_contents: dict[int, str],
+    slide_scripts: dict[int, str],
+) -> dict[str, Any]:
+    return {
+        "Course Title": course.course_title,
+        "Category": course.category,
+        "Description": course.description,
+        "Duration": "8",
+        "Difficulty": "Beginner",
+        "Price": "$29",
+        "Instructor": "AI Security",
+        "Published Status": "Draft",
+        "Prerequisites": prereq,
+        "Learning objectives": objectives,
+        "lessons": [
+            {
+                "lesson title": course.course_title,
+                "order": 1,
+                "Description": lesson_desc,
+                "status": "draft",
+                "content": course.description,
+                "slides": [
+                    {
+                        "number": n,
+                        "slidetitle": (
+                            slide_titles.get(n) or f"[PLACEHOLDER: slide {n} title via Claude AI]"
+                        ),
+                        "subtitle": (
+                            slide_subtitles.get(n)
+                            or f"[PLACEHOLDER: slide {n} subtitle via Claude AI]"
+                        ),
+                        "slidecontent": (
+                            slide_contents.get(n)
+                            or f"[PLACEHOLDER: slide {n} content via Claude AI]"
+                        ),
+                    }
+                    for n in range(1, 9)
+                ],
+                "scripts": [
+                    {
+                        "number": n,
+                        "script": (
+                            slide_scripts.get(n)
+                            or f"[PLACEHOLDER: slide {n} 1-minute narration script via Claude AI]"
+                        ),
+                    }
+                    for n in range(1, 9)
+                ],
+            }
+        ],
+    }
+
+
+def _try_load_partial_json(path: Path, *, course: CourseRow) -> dict[str, Any] | None:
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    if not isinstance(data, dict):
+        return None
+    if str(data.get("Course Title", "")).strip() != course.course_title.strip():
+        return None
+    return data
+
+
+def _hydrate_ai_fields_from_existing(
+    existing: dict[str, Any],
+) -> tuple[
+    str,
+    str,
+    str,
+    dict[int, str],
+    dict[int, str],
+    dict[int, str],
+    dict[int, str],
+]:
+    prereq = str(existing.get("Prerequisites", "") or "")
+    objectives = str(existing.get("Learning objectives", "") or "")
+    lessons = existing.get("lessons")
+    lesson_desc = ""
+    slide_titles: dict[int, str] = {}
+    slide_subtitles: dict[int, str] = {}
+    slide_contents: dict[int, str] = {}
+    slide_scripts: dict[int, str] = {}
+    if isinstance(lessons, list) and lessons:
+        L = lessons[0]
+        if isinstance(L, dict):
+            lesson_desc = str(L.get("Description", "") or "")
+            for s in L.get("slides", []) or []:
+                if not isinstance(s, dict):
+                    continue
+                n_obj = s.get("number")
+                n = int(n_obj) if isinstance(n_obj, int) else None
+                if n is None and isinstance(n_obj, float) and n_obj == int(n_obj):
+                    n = int(n_obj)
+                if isinstance(n, int) and 1 <= n <= 8:
+                    slide_titles[n] = str(s.get("slidetitle", "") or "")
+                    slide_subtitles[n] = str(s.get("subtitle", "") or "")
+                    slide_contents[n] = str(s.get("slidecontent", "") or "")
+            for s in L.get("scripts", []) or []:
+                if not isinstance(s, dict):
+                    continue
+                n_obj = s.get("number")
+                n = int(n_obj) if isinstance(n_obj, int) else None
+                if n is None and isinstance(n_obj, float) and n_obj == int(n_obj):
+                    n = int(n_obj)
+                if isinstance(n, int) and 1 <= n <= 8:
+                    slide_scripts[n] = str(s.get("script", "") or "")
+    return prereq, objectives, lesson_desc, slide_titles, slide_subtitles, slide_contents, slide_scripts
+
+
+def generate_course_with_claude_resilient(
+    course: CourseRow,
+    output_path: Path,
+    *,
+    claude_api_key: str,
+    claude_model: str,
+    resume: bool,
+    force: bool,
+    script_retries: int = 3,
+    script_retry_delay_sec: float = 2.0,
+) -> dict[str, Any]:
+    """
+    Writes checkpoints to disk after each slide and after each narration script so failures
+    do not force regenerating earlier slide content. With resume=True, reloads existing
+    JSON for the same Course Title and only fills missing or placeholder fields.
+    """
+    placeholder_prereq = "[PLACEHOLDER: generate 1 sentence with Claude AI]"
+    placeholder_objectives = "[PLACEHOLDER: generate 2 sentences with Claude AI]"
+    placeholder_lesson = "[PLACEHOLDER: expand description with Claude AI]"
+
+    prereq = placeholder_prereq
+    objectives = placeholder_objectives
+    lesson_desc = placeholder_lesson
+    slide_titles: dict[int, str] = {}
+    slide_subtitles: dict[int, str] = {}
+    slide_contents: dict[int, str] = {}
+    slide_scripts: dict[int, str] = {}
+
+    lesson_title = course.course_title
+    compact_slides = _select_compact_bullet_slides(course.course_title, total_slides=8, compact_count=4)
+
+    if resume and not force:
+        existing = _try_load_partial_json(output_path, course=course)
+        if existing:
+            (
+                p0,
+                o0,
+                l0,
+                slide_titles,
+                slide_subtitles,
+                slide_contents,
+                slide_scripts,
+            ) = _hydrate_ai_fields_from_existing(existing)
+            if not _is_ai_placeholder(p0):
+                prereq = p0
+            if not _is_ai_placeholder(o0):
+                objectives = o0
+            if not _is_ai_placeholder(l0):
+                lesson_desc = l0
+            print(f"Resume: loaded partial JSON from {output_path}")
+
+    claude = ClaudeTextGenerator(api_key=claude_api_key, requested_model=claude_model)
+
+    def _gen_with_retries(
+        label: str, fn: Callable[[], str], attempts: int = script_retries
+    ) -> str | None:
+        last_err: BaseException | None = None
+        for attempt in range(1, attempts + 1):
+            try:
+                out = fn()
+                if out and str(out).strip():
+                    return str(out).strip()
+            except BaseException as e:
+                last_err = e
+                if attempt < attempts:
+                    print(f"  {label} failed ({e!s}); retry {attempt}/{attempts}...")
+                    time.sleep(script_retry_delay_sec)
+        print(f"  {label} gave up after {attempts} attempts: {last_err}")
+        return None
+
+    def _checkpoint() -> None:
+        payload = _assemble_course_payload(
+            course,
+            prereq=prereq,
+            objectives=objectives,
+            lesson_desc=lesson_desc,
+            slide_titles=slide_titles,
+            slide_subtitles=slide_subtitles,
+            slide_contents=slide_contents,
+            slide_scripts=slide_scripts,
+        )
+        _atomic_write_json(output_path, payload)
+
+    if _is_ai_placeholder(prereq):
+        out = _gen_with_retries(
+            "Prerequisites",
+            lambda: claude.generate(
+                prompt=CLAUDE_PROMPTS["prerequisites"].format(
+                    course_title=course.course_title,
+                    category=course.category,
+                    description=course.description,
+                ),
+                max_tokens=120,
+            ),
+        )
+        if out:
+            prereq = out
+        _checkpoint()
+
+    if _is_ai_placeholder(objectives):
+        out = _gen_with_retries(
+            "Learning objectives",
+            lambda: claude.generate(
+                prompt=CLAUDE_PROMPTS["learning_objectives"].format(
+                    course_title=course.course_title,
+                    category=course.category,
+                    description=course.description,
+                ),
+                max_tokens=180,
+            ),
+        )
+        if out:
+            objectives = out
+        _checkpoint()
+
+    if _is_ai_placeholder(lesson_desc):
+        out = _gen_with_retries(
+            "Lesson description",
+            lambda: claude.generate(
+                prompt=CLAUDE_PROMPTS["lesson_description_expand"].format(
+                    course_title=course.course_title,
+                    lesson_title=lesson_title,
+                    description=course.description,
+                ),
+                max_tokens=350,
+            ),
+        )
+        if out:
+            lesson_desc = out
+        _checkpoint()
+
+    for n in range(1, 9):
+        title = slide_titles.get(n, "").strip()
+        subtitle = slide_subtitles.get(n, "").strip()
+        content = slide_contents.get(n, "").strip()
+
+        if _is_ai_placeholder(title):
+            t = _gen_with_retries(
+                f"Slide {n} title",
+                lambda: claude.generate(
+                    prompt=CLAUDE_PROMPTS["slide_title"].format(
+                        course_title=course.course_title,
+                        lesson_title=lesson_title,
+                        slide_number=n,
+                        description=course.description,
+                    ),
+                    max_tokens=40,
+                ),
+            )
+            if t:
+                title = t
+                slide_titles[n] = title
+
+        if _is_ai_placeholder(subtitle) and not _is_ai_placeholder(title):
+            st = _gen_with_retries(
+                f"Slide {n} subtitle",
+                lambda: claude.generate(
+                    prompt=CLAUDE_PROMPTS["slide_subtitle"].format(
+                        course_title=course.course_title,
+                        lesson_title=lesson_title,
+                        slide_number=n,
+                        slide_title=title,
+                        description=course.description,
+                    ),
+                    max_tokens=60,
+                ),
+            )
+            if st:
+                subtitle = st
+                slide_subtitles[n] = subtitle
+
+        if _is_ai_placeholder(content) and not _is_ai_placeholder(title) and not _is_ai_placeholder(
+            subtitle
+        ):
+            ct = _gen_with_retries(
+                f"Slide {n} content",
+                lambda: claude.generate(
+                    prompt=CLAUDE_PROMPTS["slide_content"].format(
+                        course_title=course.course_title,
+                        lesson_title=lesson_title,
+                        slide_number=n,
+                        slide_title=title,
+                        slide_subtitle=subtitle,
+                        description=course.description,
+                        bullet_style=_bullet_style_for_slide(n, compact_slides=compact_slides),
+                    ),
+                    max_tokens=350,
+                ),
+            )
+            if ct:
+                content = ct
+                slide_contents[n] = content
+
+        _checkpoint()
+
+    for n in range(1, 9):
+        if _is_ai_placeholder(slide_contents.get(n, "")):
+            continue
+        if not _is_ai_placeholder(slide_scripts.get(n, "")):
+            continue
+
+        title = slide_titles.get(n, "")
+        subtitle = slide_subtitles.get(n, "")
+        content = slide_contents.get(n, "")
+        if _is_ai_placeholder(title) or _is_ai_placeholder(subtitle):
+            continue
+
+        sc = _gen_with_retries(
+            f"Slide {n} narration script",
+            lambda t=title, st=subtitle, c=content, sn=n: claude.generate(
+                prompt=CLAUDE_PROMPTS["slide_script"].format(
+                    course_title=course.course_title,
+                    lesson_title=lesson_title,
+                    slide_number=sn,
+                    slide_title=t,
+                    slide_subtitle=st,
+                    slide_content=c,
+                ),
+                max_tokens=500,
+            ),
+        )
+        if sc:
+            slide_scripts[n] = sc
+        _checkpoint()
+
+    return _assemble_course_payload(
+        course,
+        prereq=prereq,
+        objectives=objectives,
+        lesson_desc=lesson_desc,
+        slide_titles=slide_titles,
+        slide_subtitles=slide_subtitles,
+        slide_contents=slide_contents,
+        slide_scripts=slide_scripts,
+    )
+
+
 def load_courses_from_excel(path: str | Path, *, sheet_name: str | int | None = 0) -> list[CourseRow]:
     """
     Reads an Excel file and returns rows in memory.
@@ -324,157 +736,25 @@ def load_courses_from_excel(path: str | Path, *, sheet_name: str | int | None = 
     return courses
 
 
-def course_to_detail_json(
-    course: CourseRow,
-    *,
-    use_claude: bool = False,
-    claude_api_key: str | None = None,
-    claude_model: str = DEFAULT_CLAUDE_MODEL,
-) -> dict[str, Any]:
+def course_to_detail_json(course: CourseRow) -> dict[str, Any]:
+    """Template payload with placeholders (no Claude). Use generate_course_with_claude_resilient for AI."""
     prereq = "[PLACEHOLDER: generate 1 sentence with Claude AI]"
     objectives = "[PLACEHOLDER: generate 2 sentences with Claude AI]"
     lesson_desc = "[PLACEHOLDER: expand description with Claude AI]"
-
-    lesson_title = course.course_title
-
     slide_titles: dict[int, str] = {}
     slide_subtitles: dict[int, str] = {}
     slide_contents: dict[int, str] = {}
     slide_scripts: dict[int, str] = {}
-
-    if use_claude:
-        if not claude_api_key:
-            raise RuntimeError(
-                "ANTHROPIC_API_KEY is not set. Export it (or pass via environment) before using --use-claude."
-            )
-
-        claude = ClaudeTextGenerator(api_key=claude_api_key, requested_model=claude_model)
-
-        prereq = claude.generate(
-            prompt=CLAUDE_PROMPTS["prerequisites"].format(
-                course_title=course.course_title,
-                category=course.category,
-                description=course.description,
-            ),
-            max_tokens=120,
-        )
-
-        objectives = claude.generate(
-            prompt=CLAUDE_PROMPTS["learning_objectives"].format(
-                course_title=course.course_title,
-                category=course.category,
-                description=course.description,
-            ),
-            max_tokens=180,
-        )
-
-        lesson_desc = claude.generate(
-            prompt=CLAUDE_PROMPTS["lesson_description_expand"].format(
-                course_title=course.course_title,
-                lesson_title=lesson_title,
-                description=course.description,
-            ),
-            max_tokens=350,
-        )
-
-        for n in range(1, 9):
-            title = claude.generate(
-                prompt=CLAUDE_PROMPTS["slide_title"].format(
-                    course_title=course.course_title,
-                    lesson_title=lesson_title,
-                    slide_number=n,
-                    description=course.description,
-                ),
-                max_tokens=40,
-            )
-            slide_titles[n] = title
-
-            subtitle = claude.generate(
-                prompt=CLAUDE_PROMPTS["slide_subtitle"].format(
-                    course_title=course.course_title,
-                    lesson_title=lesson_title,
-                    slide_number=n,
-                    slide_title=title,
-                    description=course.description,
-                ),
-                max_tokens=60,
-            )
-            slide_subtitles[n] = subtitle
-
-            content = claude.generate(
-                prompt=CLAUDE_PROMPTS["slide_content"].format(
-                    course_title=course.course_title,
-                    lesson_title=lesson_title,
-                    slide_number=n,
-                    slide_title=title,
-                    slide_subtitle=subtitle,
-                    description=course.description,
-                ),
-                max_tokens=350,
-            )
-            slide_contents[n] = content
-
-            script = claude.generate(
-                prompt=CLAUDE_PROMPTS["slide_script"].format(
-                    course_title=course.course_title,
-                    lesson_title=lesson_title,
-                    slide_number=n,
-                    slide_title=title,
-                    slide_subtitle=subtitle,
-                    slide_content=content,
-                ),
-                max_tokens=500,
-            )
-            slide_scripts[n] = script
-
-    return {
-        "Course Title": course.course_title,
-        "Category": course.category,
-        "Description": course.description,
-        "Duration": "8",
-        "Difficulty": "Beginner",
-        "Price": "$29",
-        "Instructor": "AI Security",
-        "Published Status": "Draft",
-        "Prerequisites": prereq,
-        "Learning objectives": objectives,
-        "lessons": [
-            {
-                "lesson title": course.course_title,
-                "order": 1,
-                "Description": lesson_desc,
-                "status": "draft",
-                "content": course.description,
-                "slides": [
-                    {
-                        "number": n,
-                        "slidetitle": (
-                            slide_titles.get(n) or f"[PLACEHOLDER: slide {n} title via Claude AI]"
-                        ),
-                        "subtitle": (
-                            slide_subtitles.get(n)
-                            or f"[PLACEHOLDER: slide {n} subtitle via Claude AI]"
-                        ),
-                        "slidecontent": (
-                            slide_contents.get(n)
-                            or f"[PLACEHOLDER: slide {n} content via Claude AI]"
-                        ),
-                    }
-                    for n in range(1, 9)
-                ],
-                "scripts": [
-                    {
-                        "number": n,
-                        "script": (
-                            slide_scripts.get(n)
-                            or f"[PLACEHOLDER: slide {n} 1-minute narration script via Claude AI]"
-                        ),
-                    }
-                    for n in range(1, 9)
-                ],
-            }
-        ],
-    }
+    return _assemble_course_payload(
+        course,
+        prereq=prereq,
+        objectives=objectives,
+        lesson_desc=lesson_desc,
+        slide_titles=slide_titles,
+        slide_subtitles=slide_subtitles,
+        slide_contents=slide_contents,
+        slide_scripts=slide_scripts,
+    )
 
 
 def _default_output_dir(repo_root: Path) -> Path:
@@ -528,6 +808,11 @@ def main() -> int:
         default="",
         help="Output directory for JSON files (default: repo data/ folder, fallback: code/data/).",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="With --use-claude: ignore any existing JSON for that course and regenerate from scratch.",
+    )
     args = parser.parse_args()
 
     if args.rows < 1:
@@ -550,7 +835,11 @@ def main() -> int:
 
     to_generate = courses[: args.rows]
     claude_key = os.environ.get("ANTHROPIC_API_KEY")
-    if args.use_claude and claude_key:
+    if args.use_claude and not claude_key:
+        raise SystemExit(
+            "ANTHROPIC_API_KEY is not set. Export it or put it in .venv/.env before using --use-claude."
+        )
+    if args.use_claude:
         # Resolve once and show the actual model ID used.
         resolved = _resolve_model_id(str(args.claude_model), api_key=claude_key)
         requested = str(args.claude_model).strip() or "auto"
@@ -559,15 +848,22 @@ def main() -> int:
         else:
             print(f'Using Claude model: "{resolved}"')
     for i, course in enumerate(to_generate, start=1):
-        payload = course_to_detail_json(
-            course,
-            use_claude=bool(args.use_claude),
-            claude_api_key=claude_key,
-            claude_model=str(args.claude_model),
-        )
         filename = f"{i:03d}-{_safe_filename(course.course_title)}.json"
         path = out_dir / filename
-        path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        if args.use_claude:
+            generate_course_with_claude_resilient(
+                course,
+                path,
+                claude_api_key=str(claude_key),
+                claude_model=str(args.claude_model),
+                resume=not args.force,
+                force=bool(args.force),
+            )
+        else:
+            payload = course_to_detail_json(course)
+            path.write_text(
+                json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
 
     print(f"Wrote {len(to_generate)} JSON file(s) to: {out_dir}")
     return 0

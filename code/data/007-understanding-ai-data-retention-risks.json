@@ -1,0 +1,105 @@
+{
+  "Course Title": "Understanding AI Data Retention Risks",
+  "Category": "Corporate",
+  "Description": "What happens to your data after you submit it to AI tools.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using everyday digital tools such as email, web browsers, or workplace software, and an awareness that AI assistants (such as chatbots or writing tools) exist and are increasingly common in professional settings.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with submitting data to AI tools and explain how corporate information may be stored, processed, or shared beyond your organisation's control. You will also be able to apply practical strategies to protect sensitive data and recognise which types of information should never be entered into external AI systems.",
+  "lessons": [
+    {
+      "lesson title": "Understanding AI Data Retention Risks",
+      "order": 1,
+      "Description": "When you type a question or share information with an AI tool, that data does not simply disappear once you receive your answer. Many AI services retain your inputs for purposes such as improving their systems, training future models, or fulfilling legal obligations, and understanding this process is essential for protecting your privacy. This lesson explains what data retention means in the context of AI tools, how long your information may be stored, and who might have access to it. You will also learn about the practical risks that can arise when sensitive or confidential information is shared without considering where it ends up. By the end of this lesson, you will feel more confident making informed decisions about what you share with AI tools and when.",
+      "status": "draft",
+      "content": "What happens to your data after you submit it to AI tools.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Happens to Your Data",
+          "subtitle": "After you hit submit",
+          "slidecontent": "• Your data doesn't always disappear when you close the chat\n• AI tools often store, log, or review what you type\n• Inputs can be used to improve future versions of the tool\n• Personal details you share may be retained longer than you expect\n• Different tools have very different data policies"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What AI Tools Do With Data",
+          "subtitle": "Behind the scenes data processing explained",
+          "slidecontent": "• Your input is stored temporarily\n• Data may train future models\n• Providers log your sessions\n• Queries can be reviewed internally\n• Settings affect data handling"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Training Data and Model Learning",
+          "subtitle": "How AI learns from your input",
+          "slidecontent": "• Some AI tools use your submitted text to improve their systems over time\n• Your words can become part of future training data\n• Permanent retention possible\n• The AI learns patterns, preferences, and phrasing from real user inputs\n• Sensitive details you share may be stored well beyond your session"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Training Data and Model Learning",
+          "subtitle": "How AI learns from your input",
+          "slidecontent": "• Some AI tools use your submitted text to improve their systems over time\n• Your words can become part of future training data\n• Permanent inclusion in a model is possible\n• Sensitive details typed into a prompt may be stored and reused in ways you did not intend\n• Not all tools behave the same way"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Training Data and Model Learning",
+          "subtitle": "How AI learns from your inputs",
+          "slidecontent": "• AI learns from user inputs\n• Your words become training data\n• Patterns stored, not forgotten\n• Repeated use refines the model\n• Data shapes future responses"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Minimising Your Data Exposure",
+          "subtitle": "Practical steps to protect your information",
+          "slidecontent": "• Avoid sharing personal details\n• Use anonymous or vague inputs\n• Review tool privacy settings\n• Opt out where possible\n• Delete sessions after use"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Yourself Going Forward",
+          "subtitle": "Practical steps to safeguard your data",
+          "slidecontent": "• Read privacy settings first\n• Avoid sharing personal details\n• Use anonymous or test data\n• Review and delete chat history\n• Opt out where possible"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Essential points to carry forward always",
+          "slidecontent": "• AI tools often retain your submitted data for training, review, or improvement purposes\n• Assume anything you type could be stored\n• Sensitive information (passwords, personal details, confidential work) should never be entered into public AI tools\n• Default settings rarely offer the strongest privacy protections, so always check them\n• Read the privacy policy before using any new AI tool\n• One simple next step: audit the AI tools you use this week and adjust your data-sharing settings where possible"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "So you've typed something into an AI tool, hit submit, and got your answer. Job done, right? Well, not quite. What many people don't realise is that closing the chat window doesn't necessarily mean your data is gone. A lot of AI tools will store or log what you've typed, and in some cases, real people may review those conversations to help improve the system. That means anything you share, whether it's a client's name, a financial figure, or a personal detail, could be retained well beyond that single session. And here's the thing: it varies enormously from one tool to the next. Some platforms have quite strict data policies, others are far more relaxed about what they keep and for how long. So before you start typing sensitive information into any AI tool, it's really worth understanding what actually happens to your data once you press that button."
+        },
+        {
+          "number": 2,
+          "script": "So when you type something into an AI tool, what actually happens to that information? Most people assume it just disappears once they close the window, but that is rarely the case. Behind the scenes, quite a lot is going on. For a start, your input is held temporarily on the provider's servers while it is being processed. Beyond that, depending on the terms you agreed to, your conversations might be used to help train and improve future versions of the model. Providers also tend to log your sessions, which means there is a record of your activity. In some cases, staff at the company can review queries internally, for safety or quality purposes. Now, this does not mean you should panic, but it does mean you need to be aware. The good news is that many tools offer privacy settings that can change how your data is handled, and we will be looking at those as we go through this course."
+        },
+        {
+          "number": 3,
+          "script": "So here's something that surprises a lot of people when they first hear it. When you type something into an AI tool, that text doesn't always just disappear once you close the window. Many AI systems are designed to learn and improve over time, and they do that by studying real conversations from real users, which could include yours. What you write, the way you phrase things, the details you share, can potentially be used to train future versions of the system. And the tricky part is that this retention can be permanent. It's not like a search engine that forgets your query after a moment. The AI may hold onto patterns from your input long after your session has ended. So if you've shared anything sensitive, whether that's personal information, confidential business details, or private client data, there's a real possibility that information has been stored somewhere you have no visibility or control over."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what actually happens when you type something into an AI tool. Many of these systems are designed to learn and improve over time, and one of the ways they do that is by using the conversations and prompts that people submit. That means the text you type in could potentially become part of the data used to train future versions of the model. In some cases, that inclusion can be permanent. So if you share something sensitive, perhaps a client's name, a financial figure, or a confidential project detail, there is a real possibility that information gets stored and used in ways you never intended or expected. Now, it is worth saying that not every AI tool works this way. Some have stronger privacy protections than others. But the key point here is that you cannot assume your input simply disappears after you press send. Understanding this is the first step towards using these tools more safely."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about how AI actually learns, because this is where things get really interesting, and perhaps a little surprising. When you type something into an AI tool, that input does not simply disappear once you get your answer. Many AI systems are designed to learn from the conversations they have with users. Your words, your questions, even the specific way you phrase things, can become part of the training data that shapes the model going forward. Think of it like teaching a very attentive student. The more you interact with it, the more it picks up on patterns, preferences, and the kinds of responses that seem to work well. Over time, repeated use helps refine how the model behaves, not just for you, but potentially for everyone who uses it. So the data you put in genuinely influences future outputs. That is why it is so important to think carefully about what you share in the first place."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect yourself. The good news is that a few simple habits can make a real difference. First, try to avoid putting personal details into AI tools unnecessarily. If you can phrase your question in a more general way and still get a useful answer, do that instead. Think of it like using a search engine, you do not need to share your name, your location, or anything identifying. It is also worth taking a few minutes to explore the privacy settings within any AI tool you use regularly. Many of them offer options to limit how your data is used, and some will let you opt out of having your conversations used for training purposes altogether. And when you have finished a session, delete the chat history if that option is available. Small steps like these add up, and they put you back in control of your information."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect yourself. The first thing I'd encourage you to do before you start using any AI tool is to spend a few minutes reading through the privacy settings. It sounds obvious, but most people skip this step entirely. Next, be mindful about what you share. If you wouldn't post it publicly, don't type it into a chatbot. Where possible, use made-up or test data instead of real names, addresses, or business information. It's also worth getting into the habit of reviewing your chat history regularly and deleting conversations you no longer need. Many tools store your history by default, so clearing it out is a simple but effective step. And finally, if a service gives you the option to opt out of having your data used for training purposes, take it. These are small habits, but together they make a real difference."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The core thing to hold onto is this: when you type something into an AI tool, there is a very real chance that information is being stored, reviewed, or used to train the system. That means anything sensitive, whether it is a password, personal details, or confidential work, should simply never go into a public AI tool. Full stop. It is also worth knowing that the default privacy settings on most tools are not the strongest available, so it is always worth taking a few minutes to check and adjust them. And before you start using any new AI tool, have a quick read of the privacy policy. I know that sounds a bit dry, but it genuinely matters. As a practical next step this week, have a look at the AI tools you are already using and see where you can tighten up your data-sharing settings. Small changes like that can make a real difference."
+        }
+      ]
+    }
+  ]
+}

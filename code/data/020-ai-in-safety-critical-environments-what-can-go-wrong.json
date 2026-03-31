@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Safety-Critical Environments: What Can Go Wrong?",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "How AI errors can impact physical safety in farms, rigs, and mines.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday technology and a general awareness of how farms, energy sites, or mining operations function in practice are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI failure points in safety-critical agricultural, mining, and energy environments, and explain how these errors can lead to real-world physical risks for workers and operations. You will also apply a practical framework for recognising warning signs of AI-related hazards on farms, oil rigs, and in mines, helping you contribute to safer decision-making in your workplace.",
+  "lessons": [
+    {
+      "lesson title": "AI in Safety-Critical Environments: What Can Go Wrong?",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used in high-risk physical environments such as farms, oil rigs, and mines, and what can happen when these systems make mistakes. You will learn about real-world scenarios where AI errors have led to, or could lead to, serious safety incidents, helping you understand the practical risks involved. The lesson is designed for beginners, so no technical background is required. By the end, you will have a clearer picture of why human oversight remains essential when AI is deployed in safety-critical settings.",
+      "status": "draft",
+      "content": "How AI errors can impact physical safety in farms, rigs, and mines.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Where AI errors put lives at risk.",
+          "slidecontent": "• AI errors can kill\n• Real farms, rigs, mines\n• Mistakes happen fast\n• Lives depend on accuracy\n• You need to know this"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Makes AI Safety-Critical?",
+          "subtitle": "When errors cost more than money",
+          "slidecontent": "• Lives depend on accuracy\n• Errors cause injury or death\n• No easy \"undo\" button\n• Machines, people, environments at risk\n• Failures happen fast"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Signals That Warn Us Early",
+          "subtitle": "Before harm becomes an incident",
+          "slidecontent": "• Unexpected sensor silence\n• Repeated small alerts ignored\n• Outputs that \"almost\" match\n• Staff overriding warnings often\n• Logs showing frequent corrections"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Sensor Failures and False Readings",
+          "subtitle": "When sensors mislead, AI follows suit.",
+          "slidecontent": "• Sensors measure temperature, pressure, gas levels, and movement in hazardous environments\n• A faulty sensor sends bad data\n• AI systems trained to trust sensor input will act on that bad data without question\n• In a mine or on an oil rig, a false \"all clear\" reading can delay a critical safety response\n• Sensor degradation from dust, heat, or moisture is common in these settings\n• No built-in scepticism means AI cannot tell the difference between a real reading and a corrupted one"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Sensor Failures and False Readings",
+          "subtitle": "When sensors mislead, AI follows suit.",
+          "slidecontent": "• Sensors measure temperature, pressure, gas levels, and movement in hazardous environments\n• Faulty or dirty sensors can send incorrect data to the AI system\n• AI acts on bad data\n• A blocked methane sensor on a mine site, for example, could cause an AI to miss a dangerous gas build-up\n• No built-in common sense means the AI cannot question whether a reading seems wrong\n• Regular sensor maintenance and calibration checks are essential to keep AI decisions reliable"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Lessons From Real Failures",
+          "subtitle": "What history teaches us about risk",
+          "slidecontent": "• Early automation failures in mining (like sensor misreads triggering false \"all clear\" signals) led to updated safety protocols still used today\n• Aviation's near-misses shaped how we now think about human oversight of automated systems\n• Lessons rarely come cheap\n• The Deepwater Horizon disaster highlighted how automated warnings can be dismissed or overridden under pressure\n• Repeated failures across industries show that complexity and speed are the two biggest enemies of safe AI deployment\n• Small errors in high-stakes environments rarely stay small"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Lessons Learned, Moving Forward",
+          "subtitle": "Applying insights to prevent future failures",
+          "slidecontent": "• Test AI before deployment\n• Train staff regularly\n• Review failures honestly\n• Update systems often\n• Share lessons across teams"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward always.",
+          "slidecontent": "• AI errors in farms, rigs, and mines can cause real physical harm, not just data problems\n• Always verify AI outputs with human judgement before acting\n• Context matters\n• Faulty sensor data fed into AI systems can silently trigger dangerous decisions\n• Report unexpected AI behaviour immediately, even if nothing goes wrong\n• Start by identifying one AI-assisted process in your workplace and asking who checks its outputs"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. What we're going to explore together is something that genuinely matters, because we're not talking about AI making a minor inconvenience or sending you the wrong film recommendation. We're talking about situations where an AI system gets something wrong and a person gets hurt, or worse. This course is grounded in the real world, in places like farms, offshore oil rigs, and mines, environments where the stakes are already high before you introduce any technology into the mix. And here's the thing about those environments: when something goes wrong, it often goes wrong very quickly. There isn't always time to pause and double-check. Decisions happen in seconds, and people's lives depend on those decisions being accurate. So whether you're working in one of these industries, managing a team, or simply curious about where AI can fail, this course is for you. Let's get started."
+        },
+        {
+          "number": 2,
+          "script": "So, let us start by thinking about what actually makes an environment \"safety-critical\" in the first place. The simplest way to put it is this: in some situations, if something goes wrong, people can get hurt or killed. We are not talking about a software bug that causes a minor inconvenience, or a system error that costs a business a bit of money. We are talking about decisions where the stakes are genuinely life and death. Think about medical diagnosis, aircraft control, or industrial machinery operating around people. In those contexts, a mistake does not come with an undo button. You cannot roll back the clock. And what makes AI particularly challenging here is the speed at which these systems operate. Failures can unfold in fractions of a second, leaving no time for a human to step in and correct things. It is not just people at risk either; it is equipment, infrastructure, and entire environments. That is what sets safety-critical AI apart from everything else."
+        },
+        {
+          "number": 3,
+          "script": "Before a serious incident occurs, there are almost always warning signs. The challenge is that they can be easy to dismiss, especially when things seem to be running smoothly. So what should we be watching for? Think about moments when a sensor suddenly goes quiet, not because everything is fine, but because something has stopped reporting. Or consider those small, low-level alerts that keep appearing and keep getting ignored because they seem minor. Then there are AI outputs that are close to correct but not quite right, which can be just as dangerous as being completely wrong. Pay attention too when staff are regularly overriding system warnings, because that pattern tells you something important about trust in the system. And if your logs are full of frequent human corrections to AI decisions, that is a signal worth investigating. None of these things on their own necessarily means disaster, but together they paint a picture that deserves serious attention."
+        },
+        {
+          "number": 4,
+          "script": "One of the most fundamental problems with AI in safety-critical environments is that it can only be as good as the data it receives. In places like mines, oil rigs, or chemical plants, sensors are constantly monitoring things like temperature, pressure, gas levels, and movement. But those sensors operate in incredibly harsh conditions. Dust, heat, and moisture can all cause them to degrade over time, and when a sensor starts giving inaccurate readings, the AI system has absolutely no way of knowing that. It simply trusts what it is told. So if a faulty sensor sends back a false \"all clear\" signal, the AI will act on that as though everything is perfectly fine. There is no built-in scepticism, no ability to question whether the data makes sense. And in a genuinely dangerous situation, that delay in response could have very serious consequences. The AI is not broken, it is just blind to the problem."
+        },
+        {
+          "number": 5,
+          "script": "So, let's think about where AI gets its information from in a safety-critical environment. It relies entirely on sensors, things that measure temperature, pressure, gas levels, movement, and so on. And here's the problem: if those sensors are faulty, dirty, or poorly calibrated, the AI has absolutely no way of knowing that. It just receives the data and acts on it. Imagine a methane sensor on a mine site that's become blocked with dust. It stops detecting gas, so it reports everything as normal. The AI sees normal readings and raises no alarm, even as dangerous levels of gas are building up. A human with experience might notice something feels off, but AI has no instinct like that. It cannot question whether a reading seems plausible. That's why regular sensor maintenance and calibration aren't just good practice, they're absolutely critical. The AI is only ever as reliable as the data it receives."
+        },
+        {
+          "number": 6,
+          "script": "History has a habit of teaching us the same lessons over and over, often at great cost. In mining, early automated systems sometimes sent false \"all clear\" signals, and those mistakes directly shaped the safety protocols we still rely on today. Aviation has done something similar, using near-misses to rethink how much we trust automated systems without keeping a human firmly in the loop. And then there is Deepwater Horizon, where automated warnings were dismissed under pressure, with catastrophic results. What these incidents share is a common thread: complexity and speed make it genuinely difficult to catch problems before they escalate. A small error in a normal environment might be an inconvenience. In a safety-critical environment, that same small error can spiral very quickly. So as we look at AI in these high-stakes settings, we are not starting from scratch. We have history to learn from. The question is whether we are actually listening to it."
+        },
+        {
+          "number": 7,
+          "script": "So, having looked at what can go wrong, let's think about how we actually move forward. The good news is that most failures teach us something valuable, but only if we're willing to act on those lessons. Before any AI system goes live in a safety-critical environment, it needs to be thoroughly tested under realistic conditions, not just ideal ones. Once it's deployed, your staff need regular, ongoing training, because technology changes and people's understanding needs to keep pace with it. When something does go wrong, and at some point it will, the response needs to be honest and open rather than defensive. That means reviewing failures properly and updating systems based on what you find. And perhaps most importantly, don't keep those lessons to yourself. Sharing what you've learned across teams and organisations is how the whole industry gets safer over time. Progress here really is a collective effort."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The most important thing to hold onto is this: when AI gets it wrong in a farm, on a rig, or down a mine, the consequences aren't just a dodgy spreadsheet. People can get hurt. That's why human judgement must always sit alongside any AI output before you act on it. And remember, context matters enormously. An AI system doesn't always understand the full picture the way you do. We also talked about sensor data. If what's going into the system is faulty, the decisions coming out can be quietly dangerous. If you ever notice AI behaving in an unexpected way, report it straight away, even if nothing bad happened this time. Finally, here's a practical starting point. Think of one AI-assisted process in your workplace and ask yourself: who is actually checking what it produces? That single question could make a real difference."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Course Title": "Sensor Integrity and AI Decisions",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "What happens when AI trusts faulty or manipulated sensor data.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with manufacturing or industrial environments and a general understanding of how automated systems or sensors are used in production processes.",
+  "Learning objectives": "By the end of this course, you will be able to identify common ways that faulty or manipulated sensor data can compromise AI decision-making across manufacturing environments, and explain the potential consequences for safety, quality, and operational integrity. You will also be able to apply basic principles for recognising warning signs of sensor integrity issues and describe practical steps to support more reliable AI-driven processes in your workplace.",
+  "lessons": [
+    {
+      "lesson title": "Sensor Integrity and AI Decisions",
+      "order": 1,
+      "Description": "Modern AI systems rely heavily on sensor data to make decisions, whether that means a self-driving car reading road conditions or a smart building adjusting its energy use. When that sensor data is faulty, outdated, or deliberately manipulated, the AI can make confident decisions based on completely wrong information. This lesson explores how sensor integrity affects AI behaviour, why errors and interference can go unnoticed, and what the real-world consequences can look like. You will also learn about some of the practical safeguards that engineers and organisations use to protect sensor inputs and maintain trustworthy AI outputs. No prior technical knowledge is required, just a curiosity about how AI systems can go wrong and what we can do about it.",
+      "status": "draft",
+      "content": "What happens when AI trusts faulty or manipulated sensor data.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Is Sensor Integrity?",
+          "subtitle": "The foundation of reliable AI systems.",
+          "slidecontent": "• Sensor integrity refers to how accurate, complete, and trustworthy the data a sensor produces actually is\n• Without reliable sensor data, AI systems have no solid foundation for making decisions\n• Sensors can fail, degrade, or be deliberately manipulated\n• Even small errors in sensor readings can cascade into serious AI misjudgements\n• Covers everything from temperature gauges to cameras to GPS receivers\n• The quality of AI output is only ever as good as the data feeding into it"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When Sensors Feed AI Data",
+          "subtitle": "The data pipeline starts here.",
+          "slidecontent": "• Sensors collect real-world data\n• Data feeds directly into AI\n• AI trusts what sensors report\n• Bad data means bad decisions\n• It starts at the sensor"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Corrupted Data, Flawed Decisions",
+          "subtitle": "Garbage in, garbage out — always.\n\nWait, I need to avoid em dashes and en dashes.\n\nGarbage in, garbage out, always.",
+          "slidecontent": "• AI systems rely entirely on sensor data to understand the world around them\n• Corrupted or manipulated data leads directly to wrong decisions\n• No built-in common sense to catch the error\n• A self-driving car fed false speed readings may brake or accelerate at entirely the wrong moment\n• The AI does not know the data is bad, it simply acts on what it receives\n• Small errors in input can cascade into serious, large-scale failures"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Corrupted Data, Flawed Decisions",
+          "subtitle": "Garbage in, garbage out, every time.",
+          "slidecontent": "• AI decisions are only as reliable as the sensor data feeding them\n• Corrupted inputs lead to confidently wrong outputs\n• No built-in suspicion\n• A spoofed GPS signal, for example, can redirect an autonomous vehicle without triggering any obvious alert\n• Small data errors compound quickly across interconnected systems\n• The system rarely knows it has been misled"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Corrupted Data, Flawed Decisions",
+          "subtitle": "Garbage in, garbage out — always.\n\nWait, I need to avoid em dashes and en dashes.\n\nGarbage in means garbage out always.",
+          "slidecontent": "• Bad data, bad decisions\n• Errors spread fast\n• AI cannot self-correct\n• Flawed sensors mislead systems\n• Small faults, big consequences"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Corrupted Data, Flawed Decisions",
+          "subtitle": "Garbage in, garbage out, always.",
+          "slidecontent": "• Bad data, bad decisions\n• Sensors lie, AI believes\n• Errors compound quickly\n• Small faults, big consequences\n• Rubbish in, rubbish out"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Preventing AI Sensor Failures",
+          "subtitle": "Strategies to maintain reliable sensor data",
+          "slidecontent": "• Calibrate sensors regularly\n• Remove dust and debris\n• Use backup sensor systems\n• Check data for anomalies\n• Update firmware frequently"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always",
+          "slidecontent": "• Faulty or manipulated sensor data can silently corrupt every decision an AI system makes\n• Garbage in, garbage out\n• Always question the source and quality of data before trusting an AI's output\n• Physical sensors are vulnerable to damage, drift, and deliberate interference\n• Even small errors in sensor readings can compound into serious, real-world consequences\n• As a next step, review one system you rely on and ask how it would behave if its sensors were wrong"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a fundamental question: what do we actually mean by sensor integrity? In simple terms, it's about how much you can trust the data coming from a sensor. Is it accurate? Is it complete? Is it giving you a true picture of what's happening in the real world? The reason this matters so much is that AI systems rely entirely on that incoming data to make decisions. If the data is poor, the decisions will be poor. And sensors can let us down in all sorts of ways. They can wear out over time, develop faults, or in some cases be deliberately tampered with. We're talking about all kinds of sensors here, from temperature gauges and cameras through to GPS receivers. The key point to hold onto throughout this course is a straightforward one: the quality of any AI decision is only ever as good as the data feeding into it. Garbage in, garbage out, as they say."
+        },
+        {
+          "number": 2,
+          "script": "Before an AI system can make any kind of decision, it needs information. And where does that information come from? It comes from sensors. Sensors are the eyes and ears of an AI system. They sit out in the real world, measuring temperature, pressure, speed, position, whatever the application requires, and they feed that data directly into the AI. Now, here is the important thing to understand: the AI does not question what it receives. It simply trusts the data and acts on it. So if a sensor is working correctly and reporting accurate readings, the AI has a solid foundation to work from. But if something goes wrong at the sensor level, if the data is inaccurate, corrupted, or missing entirely, the AI has no way of knowing that. It just carries on making decisions based on bad information. That is why sensor integrity matters so much. The whole process starts right here, at the sensor."
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration for Slide 3:\n\nThere is an old saying in computing: garbage in, garbage out. And when it comes to AI systems, that could not be more true. These systems have no way of understanding the world directly. They rely completely on the data coming in from their sensors. So if that data is corrupted, manipulated, or simply wrong, the AI has absolutely no way of knowing. It has no common sense to fall back on. It just acts on whatever it receives. Think about a self-driving car that is being fed false speed readings. It might brake suddenly on a clear road, or accelerate when it should be slowing down. The AI is not being reckless, it genuinely believes it is doing the right thing based on the information it has. And that is what makes this so dangerous. A small error at the input stage does not stay small. It can very quickly grow into something far more serious."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nThere is an old saying in computing: garbage in, garbage out. And it applies perfectly to AI systems that rely on sensor data. The AI is only ever as good as the information it receives. If that data is corrupted, spoofed, or simply wrong, the system will still process it with complete confidence and produce a flawed decision, often without any warning at all. Think about a GPS signal being manipulated to mislead an autonomous vehicle. The vehicle does not question the signal, it just follows it. That is the core problem here. AI has no built-in suspicion. It does not pause and ask whether the data makes sense. And because many of these systems are interconnected, even a small error can ripple outward and grow into something much more serious. The system carries on, completely unaware that it has been misled. That is what makes corrupted sensor data so dangerous."
+        },
+        {
+          "number": 5,
+          "script": "There is an old saying in computing: garbage in means garbage out. And it applies just as much to AI systems as it does to anything else. If the data coming into an AI is wrong, the decisions coming out will be wrong too. Simple as that. Now here is the part that catches a lot of people off guard. Errors do not stay contained. They spread through the system quickly, influencing one decision after another before anyone has had a chance to notice something is wrong. And the AI itself cannot flag the problem, because it has no way of knowing the data is bad in the first place. It simply works with what it is given. So if a sensor is faulty or giving misleading readings, the AI will treat that as truth. And this is where small faults become genuinely serious. A minor inaccuracy at the sensor level can lead to significant failures further down the line."
+        },
+        {
+          "number": 6,
+          "script": "There's an old saying in computing: rubbish in, rubbish out. And it applies perfectly here. If the data feeding into an AI system is corrupted, incomplete, or just plain wrong, then the decisions that come out the other side will be wrong too. The AI isn't magic. It can only work with what it's given. So if a sensor is quietly feeding it bad readings, the AI will trust those readings and act on them, without question. And here's where it gets concerning. Errors don't just sit there on their own. They compound. One small fault influences the next calculation, which influences the next decision, and before long you've got a significant problem that started from something tiny. A slightly miscalibrated sensor, a minor drift in readings, something that might seem trivial at first glance, can snowball into a serious failure. That's why sensor integrity isn't just a technical detail. It's absolutely fundamental to everything the AI does."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand how sensor failures can affect AI decisions, let's look at what we can actually do to prevent them. The good news is that most sensor problems are avoidable with a bit of routine care. First, make sure your sensors are calibrated on a regular basis, because even small drifts in accuracy can cause big problems over time. Physical maintenance matters too, so keep sensors clean and free from dust or debris that might interfere with their readings. It's also worth building in some redundancy by having backup sensors in place, so if one fails, the system can still function reliably. On the software side, set up checks that flag unusual or unexpected data values, because catching anomalies early can stop a small issue from becoming a serious one. And finally, keep your sensor firmware up to date, as manufacturers regularly release updates that fix bugs and improve performance. These steps together give your AI a much more solid foundation to work from."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together. The central idea running through this entire lesson is simple but really important: if the data coming into an AI system is wrong, then everything that system decides will also be wrong. We sometimes call this \"garbage in, garbage out,\" and it is as true for AI as it is for any other kind of computing. Physical sensors can wear out, drift out of calibration, get damaged, or even be deliberately tampered with, and the AI has no way of knowing that unless we build in proper checks. Even a tiny error at the sensor level can grow into something much more serious once an AI starts acting on it repeatedly. So always ask yourself where the data is coming from and whether you can actually trust it before you rely on what the AI is telling you. As a practical next step, think about one system you use regularly and ask yourself honestly: what would happen if its sensors were giving it the wrong information?"
+        }
+      ]
+    }
+  ]
+}

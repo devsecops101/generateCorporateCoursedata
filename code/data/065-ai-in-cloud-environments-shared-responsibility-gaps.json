@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Cloud Environments: Shared Responsibility Gaps",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Misunderstandings between provider and customer responsibilities.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with cloud computing concepts (such as storage, servers, and online services) and a general awareness of what artificial intelligence means in everyday technology contexts.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key shared responsibility boundaries between cloud providers and customers in AI environments, and explain how common misunderstandings arise across security, data management, and compliance. You will also apply practical frameworks to clarify accountability gaps, helping you to organise responsibilities effectively and reduce risk within your organisation's AI and cloud programmes.",
+  "lessons": [
+    {
+      "lesson title": "AI in Cloud Environments: Shared Responsibility Gaps",
+      "order": 1,
+      "Description": "When organisations move AI workloads into the cloud, it is easy to assume that the cloud provider handles all aspects of security and compliance. In reality, responsibility is divided between the provider and the customer, and misunderstanding where one ends and the other begins can leave serious gaps in protection. This lesson introduces the shared responsibility model as it applies specifically to AI environments, helping you understand which safeguards your cloud provider manages and which ones your organisation must put in place. Using clear, practical examples, you will explore common misconceptions that lead to vulnerabilities, data exposure, and compliance failures. By the end of this lesson, you will have a solid foundation for identifying and addressing the responsibility gaps that are most likely to affect your AI deployments.",
+      "status": "draft",
+      "content": "Misunderstandings between provider and customer responsibilities.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Is Responsible for What?",
+          "subtitle": "Navigating the blurred lines of accountability",
+          "slidecontent": "• Cloud AI services split responsibilities between the provider and the customer\n• Providers secure the infrastructure\n• Customers must protect their data, configurations, and access controls\n• Many breaches occur in the gap between what each side assumes the other is handling\n• Shared responsibility sounds simple but causes real confusion in practice"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Who Owns What in Cloud?",
+          "subtitle": "The shared responsibility model explained.",
+          "slidecontent": "• Provider secures the infrastructure\n• You secure your data\n• Shared does not mean equal\n• Gaps cause real breaches\n• Assumptions create vulnerabilities"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Who Manages What, Exactly?",
+          "subtitle": "Roles rarely align as expected",
+          "slidecontent": "• Provider secures the infrastructure\n• You secure your data\n• AI tools blur these lines\n• Gaps appear unexpectedly\n• Nobody owns every risk"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Who Secures the AI Model?",
+          "subtitle": "Responsibility lines are rarely clear-cut.",
+          "slidecontent": "• Cloud providers secure the infrastructure, but not always the model itself\n• Customers often assume full protection is included\n• A shared gap\n• Fine-tuned or custom models may fall entirely outside provider coverage\n• Logging, monitoring, and access controls can belong to either party, or neither\n• Contracts rarely spell out who owns responsibility for model behaviour"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Who Secures the AI Model?",
+          "subtitle": "Responsibility gaps leave models exposed.",
+          "slidecontent": "• Provider secures the infrastructure\n• You secure the model\n• Gaps exist between both\n• Nobody claims the middle\n• Misconfigurations go unnoticed"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Who Secures the AI Model?",
+          "subtitle": "Responsibility gaps leave models exposed.",
+          "slidecontent": "• Provider secures the infrastructure\n• You secure the model\n• Gaps exist between both\n• Nobody claims the middle\n• Misconfigurations go unnoticed"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Closing the Responsibility Gap",
+          "subtitle": "Practical Steps to Bridge the Gap",
+          "slidecontent": "• Audit your cloud AI setup to identify which controls fall under your responsibility\n• Document ownership clearly\n• Use your provider's shared responsibility matrix as a starting point, not a final answer\n• Train your team on the specific gaps that apply to your AI workloads\n• Review configurations regularly, as AI services evolve and responsibilities can shift\n• Treat responsibility mapping as an ongoing process, not a one-time task"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What you must keep in mind",
+          "slidecontent": "• Cloud AI security is always a shared responsibility between you and your provider\n• Gaps appear when neither side assumes ownership of a specific task\n• Know your layer\n• Review your provider's shared responsibility model before deploying any AI workload\n• Misconfigurations, not breaches, are the most common cause of cloud AI incidents\n• Start by mapping which controls you own and which your provider covers"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "When you use AI services in the cloud, there is an unspoken agreement happening in the background about who is responsible for keeping things secure. The cloud provider takes care of the underlying infrastructure, the servers, the networking, the physical hardware. But everything above that, your data, your settings, your access controls, that part falls to you as the customer. And here is where things get interesting, and honestly, where things go wrong. Both sides often assume the other is handling something, and in that gap, breaches happen. It is not that the model is broken, it is that it is widely misunderstood. People hear \"shared responsibility\" and think it sounds straightforward, but in practice it creates real confusion, especially when AI services are involved, because they add extra layers that do not always fit neatly into the traditional model. So throughout this lesson, we are going to untangle exactly where those lines sit and what you need to own on your side."
+        },
+        {
+          "number": 2,
+          "script": "Before we dive into AI specifically, we need to make sure we understand the foundation everything else is built on: the shared responsibility model. When you use a cloud provider, they take care of securing the physical infrastructure, the servers, the networking, the underlying platform. That part is their job. But here is the thing, securing your data, your applications, and how your users access everything, that falls on you. Now, the word \"shared\" can be a little misleading. It does not mean the responsibility is split equally down the middle. And this is where organisations get into trouble. People assume that because their cloud provider is handling security, they are covered. That assumption leaves gaps, and those gaps are exactly where breaches happen. We see this time and again in real-world incidents. So as we start exploring how AI fits into cloud environments, keep this in mind: understanding who owns what is absolutely critical, because confusion about responsibility is one of the biggest vulnerabilities you will face."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about who is actually responsible for what when you're running AI tools in the cloud, because this is where a lot of organisations get caught out. The cloud provider, whether that's AWS, Azure, or Google Cloud, will secure the physical infrastructure, the servers, the networking, all of that underlying layer. But your data, your configurations, your AI models, those are your responsibility. Now here's where it gets complicated. AI tools don't sit neatly in one category. They touch infrastructure, they process your data, they call external APIs, and suddenly the lines between \"their job\" and \"your job\" start to blur quite significantly. What tends to happen is that gaps appear, not because anyone is being careless, but because nobody has explicitly claimed ownership of certain risks. And when nobody owns a risk, it simply goes unmanaged. That's the core problem we're going to be exploring throughout this lesson, so keep that in mind as we go forward."
+        },
+        {
+          "number": 4,
+          "script": "So here is where things start to get genuinely murky. Cloud providers do a brilliant job of securing the underlying infrastructure, the servers, the networks, the physical layer. But the AI model sitting on top of that? That is often a different story entirely. Many customers assume they are fully covered, that because they are using a reputable cloud platform, everything is protected. That assumption can be dangerous. If you have fine-tuned a model or built something custom, there is a very good chance your provider's standard protections simply do not extend to it. And then there are the grey areas around logging, monitoring, and access controls. Sometimes the provider handles those, sometimes it falls to you, and sometimes, honestly, nobody has clearly claimed ownership at all. The contracts rarely help either. Model behaviour and accountability are frequently left unaddressed. So the question we need to sit with is this: if something goes wrong with your AI model, who is actually responsible?"
+        },
+        {
+          "number": 5,
+          "script": "So here's a question that trips up a lot of organisations: who is actually responsible for securing the AI model itself? The answer is more complicated than you might expect. Your cloud provider does a brilliant job of securing the underlying infrastructure, the servers, the networking, the physical hardware. But securing your actual AI model? That falls to you. And here's where things get tricky. Between what the provider covers and what you're expected to handle, there's a gap in the middle, and quite often, nobody is clearly claiming ownership of that space. That ambiguity is dangerous. When responsibility isn't clearly defined, misconfigurations slip through unnoticed. Nobody spots them because everyone assumes someone else is looking after it. Think of it like a block of flats where the landlord maintains the building, but nobody is quite sure who is responsible for the communal hallway. Things get missed. And with AI systems, those missed things can become serious security vulnerabilities."
+        },
+        {
+          "number": 6,
+          "script": "So here's a question that catches a lot of organisations off guard: who is actually responsible for securing the AI model itself? The cloud provider will absolutely look after the underlying infrastructure, the servers, the networking, the physical security. That part is covered. But the model you deploy, the data you feed it, the way you configure it, that sits with you. And here is where things get tricky. Between what the provider handles and what you handle, there is a grey area, and that grey area is where problems quietly take root. Neither side is actively watching it, so misconfigurations can sit there unnoticed for weeks or even months. Nobody raises the alarm because everybody assumes someone else has it covered. This is what we mean by a shared responsibility gap. It is not about blame, it is about awareness. Once you understand where that middle ground is, you can start taking deliberate steps to close it."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand where the gaps exist, let's talk about what you can actually do about them. The first step is to audit your current cloud AI setup and get clear on which controls are genuinely your responsibility. Use your provider's shared responsibility matrix as a starting point, but don't treat it as the complete picture, because it rarely is. Once you know what falls on your side, document it clearly and make sure the right people own the right areas. It's also worth training your team specifically on the gaps that apply to your AI workloads, not just general cloud security. And here's something that catches a lot of organisations off guard: responsibilities can shift over time as AI services evolve and providers update their offerings. So this isn't something you do once and forget. Treat responsibility mapping as a living process, something you revisit regularly to make sure nothing slips through the cracks."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring together the most important ideas from this lesson. The first thing to hold onto is that cloud AI security is never the responsibility of just one party. It is always shared between you and your provider, and the danger zone is wherever that line is unclear. When nobody has explicitly claimed ownership of a control, that is where gaps appear, and that is where incidents happen. And speaking of incidents, it is worth knowing that most cloud AI security problems are not caused by sophisticated attacks. They are caused by misconfigurations, simple mistakes that could have been avoided. The practical step you can take right now is to go and review your provider's shared responsibility model before you deploy anything. Then map it out clearly: which controls sit with you, and which sit with them. Once you know your layer, you can actually defend it. That clarity is really the foundation of everything we have covered today."
+        }
+      ]
+    }
+  ]
+}
