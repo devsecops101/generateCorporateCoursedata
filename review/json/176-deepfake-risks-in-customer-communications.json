@@ -1,0 +1,105 @@
+{
+  "Course Title": "Deepfake Risks in Customer Communications",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Fraudulent confirmations or impersonated staff.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with everyday customer communication tools such as email, messaging platforms, or booking systems, as used in a hospitality or travel setting.",
+  "Learning objectives": "By the end of this course, you will be able to identify the warning signs of deepfake fraud in customer communications, including fraudulent booking confirmations and impersonated staff interactions. You will also be able to apply practical verification strategies to protect your guests and colleagues from deceptive content across digital and voice-based channels.",
+  "lessons": [
+    {
+      "lesson title": "Deepfake Risks in Customer Communications",
+      "order": 1,
+      "Description": "Deepfakes are realistic but fraudulent audio, video, or text communications created using artificial intelligence, and they are increasingly being used to deceive both customers and staff. In this lesson, you will explore how criminals can impersonate company representatives or fabricate customer confirmations to commit fraud. We will look at practical, real-world examples of how these threats appear in everyday business communications, such as fake voice calls, forged video messages, and spoofed written correspondence. By the end of this lesson, you will be able to recognise the warning signs of deepfake activity and understand the steps your organisation can take to protect itself and its customers.",
+      "status": "draft",
+      "content": "Fraudulent confirmations or impersonated staff.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfake Risks: An Introduction",
+          "subtitle": "When fraudsters wear familiar faces.",
+          "slidecontent": "• Fake voices, real damage\n• Staff impersonated by fraudsters\n• Customers deceived by false confirmations\n• Trust exploited through familiar faces\n• Awareness is your first defence"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising Deepfake Warning Signs",
+          "subtitle": "Spotting the subtle signs of fraud",
+          "slidecontent": "• Unexpected urgency or pressure to act immediately\n• Slight mismatches in a sender's name, email address, or job title\n• Audio or video calls where lip movements feel slightly out of sync with speech\n• Familiar voices sounding oddly flat or robotic\n• Requests for sensitive information that bypass normal verification steps\n• A gut feeling that something is \"off\", even if you cannot pinpoint exactly why"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Fraudulent Customer Messages",
+          "subtitle": "Recognising the warning signs early on",
+          "slidecontent": "• Mismatched sender details\n• Urgent, pressured language used\n• Blurry logos or signatures\n• Unusual payment requests made\n• Poor grammar or odd phrasing"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Suspicious Customer Messages",
+          "subtitle": "Warning signs to watch for carefully",
+          "slidecontent": "• Urgent requests for sensitive data\n• Mismatched sender details\n• Unusual tone or phrasing\n• Requests bypassing normal process\n• Pressure to act immediately"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Suspicious Customer Communications",
+          "subtitle": "Recognising the warning signs early on",
+          "slidecontent": "• Odd sender names or addresses\n• Mismatched logos or branding\n• Urgent, unusual payment requests\n• Poor lip sync in video calls\n• Unverified staff identity claims\n• Unexpected account detail changes"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Suspicious Customer Communications",
+          "subtitle": "Recognising the warning signs early on",
+          "slidecontent": "• Unexpected requests for sensitive account details via email or phone\n• Messages with urgent or threatening language pushing you to act fast\n• Slight mismatches in sender names, email addresses, or staff job titles\n• Poor audio or video quality on calls, with unnatural lip sync or robotic tone\n• Unsolicited confirmations for transactions you never made\n• A gut feeling that something feels off"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting Suspicious Communications Promptly",
+          "subtitle": "Act quickly; protect customers and colleagues.",
+          "slidecontent": "• Report any suspicious message or call to your line manager or security team immediately\n• Do not attempt to investigate alone\n• Note the time, channel, and exact content of the suspicious communication before reporting\n• Trust your instincts if something feels off\n• Prompt reporting limits the window for fraudsters to cause harm to customers or colleagues\n• Your organisation likely has a dedicated reporting process, so familiarise yourself with it now"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core points to carry forward always",
+          "slidecontent": "• Deepfakes can convincingly mimic staff voices, faces, and written communication styles\n• Always verify unexpected requests through a separate, trusted channel\n• No legitimate process requires you to bypass standard checks\n• Urgency is a red flag\n• Report anything suspicious to your line manager or security team promptly\n• Start practising verification habits now, before an incident occurs"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on deepfake risks in customer communications. Now, you might be wondering what deepfakes actually have to do with your day-to-day work, so let's start by painting a picture. Deepfake technology allows fraudsters to create convincing fake audio and video, meaning they can make it sound or look like someone is saying something they never actually said. In a business context, that is genuinely alarming. Imagine a customer receiving what sounds like a call from one of your colleagues, confirming a transaction or sharing sensitive details, except it was never your colleague at all. Or picture a member of staff being impersonated to manipulate a customer into handing over money or personal information. The damage to trust, and to your organisation's reputation, can be very real and very serious. Throughout this course, we will help you understand how these threats work and, most importantly, how to spot them before they cause harm."
+        },
+        {
+          "number": 2,
+          "script": "So, how do you actually spot a deepfake in the real world? There are a few warning signs worth keeping in mind. First, be cautious if someone is pushing you to act immediately, that pressure is often deliberate. Also, take a closer look at the small details, a slightly misspelled name, an unusual email address, or a job title that does not quite match. On video or audio calls, watch for lips that seem out of sync with the words being spoken, or a voice that sounds strangely flat and artificial, almost like it has had the life drained out of it. Be especially wary if someone is asking for sensitive information and wants to skip your usual verification steps. And finally, trust your instincts. If something feels a little off, even if you cannot explain exactly why, that gut feeling is worth paying attention to. These small signals, taken together, can make a real difference in catching fraud early."
+        },
+        {
+          "number": 3,
+          "script": "So, how do we actually spot a fraudulent customer message before it causes any harm? There are a few telltale signs worth keeping an eye out for. First, check whether the sender's name, email address, or phone number looks a little off, perhaps slightly misspelled or from an unexpected domain. Fraudulent messages often use urgent or pressured language, pushing you to act immediately without giving you time to think. If you notice a company logo or signature that looks blurry or pixelated, that is another red flag, as genuine organisations tend to have clean, professional branding. Be especially cautious if a message includes an unusual or unexpected request involving payments or financial details. And finally, pay attention to the writing itself. Poor grammar, awkward phrasing, or sentences that just do not quite read naturally can all suggest something is not right. None of these signs on their own is definitive, but together they paint a very clear picture."
+        },
+        {
+          "number": 4,
+          "script": "So, how do you actually spot a suspicious message before it causes harm? There are a few key warning signs worth keeping in mind. First, be cautious any time a message creates a sense of urgency, particularly if it's asking for sensitive information like passwords or account details. Genuine requests rarely need an immediate response. Next, take a moment to check the sender's details carefully. If the name and email address don't quite match up, that's a red flag. Also pay attention to the tone and language used. If something feels slightly off, perhaps the phrasing sounds unusual or out of character for that person or organisation, trust your instincts. Watch out too for requests that seem to skip your normal verification procedures, because that's often deliberate. And finally, if someone is pressuring you to act right now without giving you time to think, slow down. That pressure is frequently a tactic designed to make you act before you've had a chance to question it."
+        },
+        {
+          "number": 5,
+          "script": "So, how do we actually spot a deepfake or fraudulent communication before it causes harm? There are several warning signs worth keeping an eye out for. Start with the basics: does the sender's name or email address look slightly off, perhaps with an unusual spelling or a strange domain? Are the logos or branding in the message inconsistent with what you'd normally expect? These small details can reveal a lot. Be particularly cautious if someone is pressuring you to make an urgent or unusual payment, as that kind of urgency is a classic manipulation tactic. If you're on a video call, watch for poor lip synchronisation or unnatural facial movements, which can indicate a deepfake in progress. Also, be wary if someone claims to be a member of staff but cannot verify their identity through your normal channels. And finally, treat any unexpected requests to change account details as a serious red flag until properly confirmed."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually spot when something suspicious is going on? There are a few warning signs worth keeping in mind. First, be cautious if someone unexpectedly asks for sensitive account information, whether that is over email or on a phone call. Genuine organisations rarely do this out of the blue. Also watch out for messages that feel pushy or threatening, trying to rush you into acting quickly. That urgency is often deliberate. Look closely at the small details too, like whether a sender's name or email address looks slightly wrong, or if a job title does not quite match. On video or voice calls, poor quality audio, robotic-sounding speech, or lips that do not quite match the words can all be red flags. And if you receive a confirmation for a transaction you never made, that needs investigating straight away. Finally, trust your instincts. If something simply feels off, it probably is worth a second look."
+        },
+        {
+          "number": 7,
+          "script": "If you ever come across a message or call that feels wrong, the most important thing you can do is report it straight away, either to your line manager or your security team. Please do not try to handle it yourself or dig into it alone, because that can actually make things worse. Before you report, quickly jot down a few details: when it happened, which channel it came through, and what was actually said or shown. That information is genuinely useful to the people investigating it. And if something simply feels off, trust that instinct. You do not need to be certain before raising the alarm. The sooner a suspicious communication is flagged, the less time fraudsters have to cause real harm to your customers or colleagues. Most organisations already have a dedicated process for reporting these incidents, so if you are not sure what yours is, find out now, before you ever need to use it."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The core thing to hold onto is this: deepfakes are genuinely convincing. They can replicate a colleague's voice, their face, even the way they write. So if something feels off, trust that instinct. Whenever you receive an unexpected request, especially one involving money, data, or access, verify it through a separate channel you already trust. Pick up the phone, use a known number, not one provided in the message itself. And remember, no legitimate process in your organisation will ever ask you to skip the usual checks. If someone is pushing urgency at you, that pressure is actually a warning sign, not a reason to act faster. If you spot something suspicious, report it straight away to your line manager or your security team. And perhaps most importantly, do not wait for an incident to start building these habits. Start practising them today, so they feel natural when it matters most."
+        }
+      ]
+    }
+  ]
+}

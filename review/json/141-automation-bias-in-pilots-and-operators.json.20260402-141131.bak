@@ -1,0 +1,105 @@
+{
+  "Course Title": "Automation Bias in Pilots and Operators",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Over-reliance on AI-assisted navigation and control systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with aviation or transport operations, either through professional experience or general interest, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key signs of automation bias in aviation and transport operations, and explain how over-reliance on AI-assisted navigation and control systems can compromise safety. You will also apply practical strategies to recognise and reduce automation bias in your day-to-day role as a pilot or operator.",
+  "lessons": [
+    {
+      "lesson title": "Automation Bias in Pilots and Operators",
+      "order": 1,
+      "Description": "This lesson explores how pilots and operators can develop an over-reliance on automated and AI-assisted systems, sometimes to the point where they stop questioning the information those systems provide. You will learn what automation bias is, why it occurs, and how it can lead to serious errors in navigation and control environments. We will look at real-world examples that illustrate the risks of trusting automated outputs without applying critical human judgement. By the end of this lesson, you will have a clearer understanding of how to strike the right balance between using automation effectively and maintaining your own situational awareness. This is a beginner-friendly introduction, so no prior technical knowledge is required.",
+      "status": "draft",
+      "content": "Over-reliance on AI-assisted navigation and control systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing Automation Bias",
+          "subtitle": "When Automation Shapes Pilot Decision-Making",
+          "slidecontent": "• Modern cockpits rely heavily on automated systems for navigation, alerts, and control\n• Pilots can begin to trust automation more than their own judgement\n• This over-reliance is known as automation bias\n• A small shift in trust can lead to serious decision-making errors\n• Affects both experienced pilots and operators across aviation and beyond"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Automation Bias?",
+          "subtitle": "Trusting machines more than ourselves",
+          "slidecontent": "• Machines make errors too\n• Pilots can over-trust automation\n• Alerts get ignored or missed\n• Judgement becomes passive, complacent\n• Human oversight still matters"
+        },
+        {
+          "number": 3,
+          "slidetitle": "What Is Automation Bias?",
+          "subtitle": "Trusting Automation Over Human Judgement",
+          "slidecontent": "• Trusting machines over yourself\n• Ignoring warnings, following automation\n• Reduces active human monitoring\n• Common in cockpits and control rooms\n• Can cause critical errors fast"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising the Warning Signs",
+          "subtitle": "When Automation Quietly Erodes Your Vigilance",
+          "slidecontent": "• Ignoring unexpected system alerts\n• Skipping manual cross-checks\n• Trusting displays without verifying\n• Reduced situational awareness overall\n• Delayed response to anomalies"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising the Warning Signs",
+          "subtitle": "Spotting the Signs Before It's Too Late",
+          "slidecontent": "• Pilots accepting incorrect altitude data without cross-checking instruments manually\n• Trusting the autopilot even when warning lights are active\n• Skipping routine checks\n• Operators assuming the system has already flagged any critical anomalies\n• Reduced situational awareness when screens show \"normal\" status for extended periods\n• Hesitation to override automation even when instinct and evidence suggest something is wrong"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognising the Warning Signs",
+          "subtitle": "Spotting the Signs Before It's Too Late",
+          "slidecontent": "• Ignoring cockpit warning alerts\n• Skipping manual cross-checks\n• Trusting displays over instruments\n• Delayed response to anomalies\n• Reduced situational awareness"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Automation Bias Going Forward",
+          "subtitle": "Strategies for Safer Human-Machine Interaction",
+          "slidecontent": "• Regular manual flying practice to maintain core skills without automation support\n• Treat system alerts as meaningful, not background noise\n• Cross-check automated outputs against independent sources whenever possible\n• Build habits of active monitoring rather than passive watching\n• Question the system, especially in unfamiliar or degraded conditions\n• Organisations should train crews to recognise the early signs of over-reliance"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for safer automated operations",
+          "slidecontent": "• Always verify automated outputs with your own situational awareness\n• Trust your training, not just the screen\n• Automation can fail silently, without any obvious warning\n• Regularly practise manual skills to prevent over-reliance from setting in\n• Question unexpected system behaviour rather than assuming the system is correct\n• Review your organisation's guidance on automation use and raise concerns early"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on automation bias in pilots and operators. To get us started, let's think about what modern cockpits actually look like today. They are filled with sophisticated automated systems that handle everything from navigation to alerts and flight control. And because these systems are so capable and so reliable, it is completely natural for pilots to place a great deal of trust in them. But here is where things get interesting. When that trust starts to tip over into over-reliance, when a pilot begins to favour what the automation is telling them over their own judgement and training, we enter the territory of automation bias. And even a small shift in that balance of trust can lead to significant errors in decision-making. What makes this particularly important is that automation bias does not just affect inexperienced pilots. It affects seasoned professionals too, as well as operators across the wider aviation industry and beyond. So let us explore exactly what that means and why it matters."
+        },
+        {
+          "number": 2,
+          "script": "So let's start with the basics. Automation bias is what happens when we place too much trust in automated systems, to the point where we stop thinking critically for ourselves. Now, you might assume that because a machine is doing the work, it must be doing it correctly. But here's the thing: machines make mistakes too. They can fail, misinterpret data, or simply not account for something unexpected. The problem is that when pilots and operators over-rely on automation, they can become passive. They stop actively monitoring what's happening and start assuming everything is fine because no alarm has gone off. And that's dangerous, because alerts can be missed or even ignored when we're not fully engaged. Our judgement starts to take a back seat. The core message here is that automation is a tool to support human decision-making, not replace it. Human oversight remains absolutely essential, no matter how advanced the technology becomes."
+        },
+        {
+          "number": 3,
+          "script": "So, what exactly is automation bias? In simple terms, it's what happens when we start to trust a machine's judgement more than our own. And this happens more often than you might think. When an automated system tells us everything is fine, we tend to believe it, even if something in our gut, or right in front of us, is suggesting otherwise. We might ignore a warning light or override our own instincts simply because the system hasn't flagged a problem. Over time, this creates a really dangerous habit where we stop actively monitoring what's going on around us. We become passive. We're just watching the automation do its job rather than staying mentally engaged ourselves. This is particularly common in cockpits and industrial control rooms, where operators are surrounded by sophisticated technology. And the scary part is that when things do go wrong, they can go wrong very quickly indeed."
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually know when automation bias is starting to creep in? There are some tell-tale warning signs to watch for. One of the most common is when pilots or operators begin dismissing unexpected alerts, perhaps assuming the system has made an error rather than stopping to investigate. Alongside that, you might notice people skipping the manual cross-checks they would normally carry out, simply because the automation appears to be handling everything. There is also a tendency to trust what a display is showing without independently verifying whether that information is actually correct. Over time, these habits quietly chip away at your overall situational awareness, meaning you have a less accurate picture of what is really happening around you. And perhaps most dangerously, when something does go wrong, the response can be noticeably slower because the operator has mentally handed control over to the system. Recognising these patterns early is absolutely essential."
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually spot automation bias in action? There are some tell-tale warning signs to watch out for. One of the most common is when pilots accept altitude or navigation data from the system without bothering to cross-check it against their other instruments. Equally concerning is when someone continues to trust the autopilot even though warning lights are clearly active. We also see people skipping routine manual checks altogether, simply assuming the system would have caught anything important. Operators can fall into a similar trap, believing that if something were seriously wrong, the system would have already flagged it. Then there is the gradual erosion of situational awareness that happens when everything appears normal for a long stretch of time. And perhaps most worrying of all is that moment of hesitation, when your instincts and the evidence in front of you are both telling you something is wrong, but you still feel reluctant to override the automation."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually spot automation bias before it causes a serious problem? There are some clear warning signs to watch out for. One of the most common is when a pilot or operator starts ignoring cockpit alerts, perhaps assuming the system will sort itself out. Alongside that, you might notice people skipping manual cross-checks entirely, because they simply trust the automation to have it right. There is also a tendency to believe what a screen is showing over what the physical instruments are telling you, which can be genuinely dangerous. When something unusual does happen, a delayed response is another red flag, that hesitation where someone waits for the system to confirm what they already suspect. And underpinning all of this is a gradual reduction in situational awareness, where the operator loses their mental picture of what is actually happening around them. Recognising these signs early is absolutely critical to staying safe."
+        },
+        {
+          "number": 7,
+          "script": "So, what can we actually do about automation bias? The good news is that awareness is already a strong first step. Pilots and operators should make a point of practising manual skills regularly, so those abilities stay sharp when automation isn't available or fails unexpectedly. When a system alert appears, treat it as genuinely important rather than something to dismiss. It's also worth getting into the habit of checking automated outputs against other sources, rather than simply accepting what the system tells you. The shift from passive watching to active monitoring is a small but powerful change in mindset. And crucially, it's absolutely fine to question what the system is telling you, particularly in unusual or degraded situations. At an organisational level, training programmes should help crews spot the early warning signs of over-reliance before it becomes a problem. These aren't complicated changes, but practised consistently, they can make a real difference to safety."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few essential reminders to carry forward. First, never rely solely on what the automation is telling you. Use your own situational awareness to sense-check what you're seeing on screen. Your training exists for a reason, so trust it. Remember that automation can fail quietly, with no alarm and no obvious sign that anything is wrong, which is precisely what makes it so dangerous. To guard against over-reliance, keep your manual skills sharp by practising them regularly. If something the system does doesn't quite add up, question it rather than assuming the machine must be right. And finally, make sure you're familiar with your organisation's guidance on how automation should be used. If you have concerns, raise them early rather than waiting for a problem to develop. These points aren't complicated, but keeping them in mind genuinely makes a difference to how safely you operate in an automated environment."
+        }
+      ]
+    }
+  ]
+}

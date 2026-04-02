@@ -1,0 +1,105 @@
+{
+  "Course Title": "Cybersecurity Risks in Public Sector AI Systems",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Protecting critical services from disruption and misuse.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday digital tools and a general awareness of how public sector organisations use technology is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the most common cybersecurity risks associated with AI systems used in public sector organisations and explain how these vulnerabilities can disrupt critical government and educational services. You will also apply practical strategies to recognise, report, and help mitigate threats, ensuring that AI-powered public services remain secure, trustworthy, and resilient against misuse.",
+  "lessons": [
+    {
+      "lesson title": "Cybersecurity Risks in Public Sector AI Systems",
+      "order": 1,
+      "Description": "Public sector organisations are increasingly adopting artificial intelligence to deliver essential services, from healthcare and benefits processing to law enforcement and infrastructure management. This lesson introduces the key cybersecurity risks that arise when AI systems are deployed in these high-stakes environments, including data breaches, adversarial attacks, and the misuse of automated decision-making. You will explore real-world examples of how vulnerabilities in AI systems can disrupt critical services and undermine public trust. By the end of this lesson, you will have a clearer understanding of the threat landscape and the practical steps organisations can take to protect their AI-powered systems and the citizens who depend on them.",
+      "status": "draft",
+      "content": "Protecting critical services from disruption and misuse.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Cybersecurity Risks: An Introduction",
+          "subtitle": "Why AI security matters for government.",
+          "slidecontent": "• AI powers critical public services\n• Attacks cause real harm\n• Data breaches risk lives\n• Threats are growing fast\n• Security protects everyone"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Why AI Systems Are Targeted",
+          "subtitle": "High value targets attract sophisticated threats.",
+          "slidecontent": "• Holds sensitive citizen data\n• Runs critical public services\n• Often under-resourced for security\n• Trusted by millions daily\n• Attractive to state-level attackers"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Threat Vectors Targeting AI Systems",
+          "subtitle": "How attackers exploit AI vulnerabilities",
+          "slidecontent": "• Data poisoning attacks\n• Model theft via queries\n• Adversarial input manipulation\n• Prompt injection exploits\n• Backdoors in training data"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Data Poisoning and Model Manipulation",
+          "subtitle": "Corrupting the Data AI Systems Trust",
+          "slidecontent": "• Attackers secretly inject false or misleading data into the datasets used to train AI systems\n• This corrupts how the AI learns, causing it to make wrong or harmful decisions\n• Subtle and hard to detect\n• A public sector example: manipulated training data could cause a fraud detection system to approve fraudulent claims\n• Poisoning can happen during initial training or when a system updates itself with new data\n• Even small amounts of corrupted data can significantly skew an AI system's outputs over time"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Securing AI Against Insider Threats",
+          "subtitle": "Recognising Risks From Within Your Organisation",
+          "slidecontent": "• Staff with legitimate access can misuse or leak sensitive AI training data\n• Disgruntled employees, contractors, and third-party vendors all pose insider risk\n• Privilege creep (accumulating unnecessary access over time) quietly increases exposure\n• Monitor unusual query patterns or bulk data exports from AI systems\n• Limit who can retrain, update, or interact directly with AI models\n• Regular access reviews help catch risks before damage occurs"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Defending Against Adversarial Attacks",
+          "subtitle": "Strengthening AI resilience against manipulation attempts",
+          "slidecontent": "• Adversarial attacks trick AI systems by feeding them subtly altered inputs designed to cause errors or unsafe outputs\n• Common in image recognition, fraud detection, and automated decision tools used across public services\n• Input validation and anomaly detection help catch suspicious data before it reaches the model\n• Regular stress-testing against known attack patterns\n• Keeping training data clean and well-governed reduces the risk of manipulation taking hold\n• Human oversight at critical decision points adds a vital layer of defence"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Strengthening AI Security Posture",
+          "subtitle": "Building resilience across AI security layers",
+          "slidecontent": "• Regular security audits tailored specifically to AI components and data pipelines\n• Staff training on recognising unusual AI behaviour\n• Layered access controls limiting who can query, modify, or retrain AI systems\n• Incident response plans updated to cover AI-specific failure scenarios\n• Continuous monitoring of model outputs for signs of manipulation or drift\n• Collaboration with national cyber agencies to stay current on emerging AI threats"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer AI deployment.",
+          "slidecontent": "• Verify AI data sources always\n• Monitor systems for anomalies\n• Limit access, reduce risk\n• Train staff on AI threats\n• Report incidents without delay\n• Review policies regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on cybersecurity risks in public sector AI systems. Over the next few lessons, we are going to explore why protecting artificial intelligence in government is so important, and what the real consequences can be when things go wrong. AI is now quietly running in the background of many essential public services, from healthcare systems to benefits processing to emergency response tools. That means when something goes wrong, it is not just an inconvenience. It can directly affect people's lives, their safety, and their personal data. And the threat landscape is not standing still. Cybercriminals and hostile actors are becoming more sophisticated all the time, specifically targeting the systems that governments rely on. The good news is that strong, well-designed security measures can protect both the technology and the people who depend on it. So throughout this course, we will build a clear picture of the risks involved and how to address them responsibly."
+        },
+        {
+          "number": 2,
+          "script": "So why are AI systems in the public sector such an attractive target for attackers? Well, think about what these systems actually hold and do. They process enormous amounts of sensitive personal data, things like health records, tax information, and benefit details belonging to millions of ordinary citizens. On top of that, they often power essential services that people rely on every single day, so any disruption can have very real consequences. The challenge is that many public sector organisations simply do not have the same security budgets or specialist resources that large private companies might have, which can leave gaps that attackers are keen to exploit. And because these systems are trusted at such a massive scale, they become especially appealing to highly sophisticated threat actors, including those operating at a nation-state level. So when we combine high-value data, critical services, and sometimes limited security investment, we end up with a very compelling target indeed."
+        },
+        {
+          "number": 3,
+          "script": "Now that we understand why AI systems in the public sector are attractive targets, let's look at the specific ways attackers actually go about exploiting them. One common method is corrupting the data that an AI learns from, so that it produces flawed or biased outputs right from the start. Attackers can also reverse-engineer a model simply by sending it thousands of carefully crafted queries and observing the responses, effectively stealing the system without ever touching the underlying code. Then there's the manipulation of inputs, where subtle changes to data, invisible to the human eye, can completely fool an AI into making the wrong decision. In systems that use large language models, attackers can inject malicious instructions disguised as normal text, hijacking the AI's behaviour. And finally, threats can be hidden inside training data long before a system even goes live. Each of these vectors presents a very real risk, and we'll be unpacking all of them throughout this course."
+        },
+        {
+          "number": 4,
+          "script": "One of the more insidious threats to AI systems is something called data poisoning. Here's how it works: attackers secretly introduce false or misleading information into the data that an AI system learns from. Because the AI trusts that data, it starts making decisions based on corrupted foundations, and the results can be seriously harmful. What makes this particularly dangerous is how difficult it is to spot. There's no obvious alarm going off. To put this in a public sector context, imagine a fraud detection system that has been fed manipulated training data. It could end up approving fraudulent benefit claims rather than flagging them. And this kind of attack doesn't only happen when a system is first built. It can also occur later, when the AI updates itself with new information. Perhaps most worrying of all, even a relatively small amount of corrupted data can gradually skew an AI's outputs in ways that compound significantly over time."
+        },
+        {
+          "number": 5,
+          "script": "When we think about cybersecurity threats, we often picture hackers attacking from the outside. But some of the most serious risks come from inside your own organisation. Staff who have legitimate access to your AI systems can, whether deliberately or accidentally, misuse or expose sensitive data. This includes contractors and third-party vendors, not just your own employees. One thing to watch out for is what we call privilege creep, where someone gradually accumulates access they no longer actually need. Over time, that quietly increases your risk. So what can you do? Keep a close eye on unusual behaviour, such as someone running large numbers of queries or exporting bulk data from your AI systems. Restrict who is able to retrain or directly interact with your AI models. And carry out regular access reviews, so you can spot and address problems before any real damage is done. Insider risk is manageable, but only if you are actively looking for it."
+        },
+        {
+          "number": 6,
+          "script": "One of the more subtle threats facing AI systems is something called an adversarial attack. This is where someone deliberately feeds the system slightly altered inputs, perhaps a tweaked image or a manipulated data entry, designed to confuse it into making the wrong decision. It sounds technical, but it happens in real public services, from fraud detection to automated eligibility checks. So how do we defend against it? A few layers of protection work together here. First, validating inputs and monitoring for unusual patterns helps catch suspicious data before it ever reaches the model. Second, regularly stress-testing the system against known attack methods means weaknesses get spotted early. Third, keeping training data clean and properly governed is essential, because if the data is compromised, the model's judgement will be too. And finally, perhaps most importantly, keeping a human in the loop at critical decision points gives us a crucial safety net when the system might otherwise go wrong."
+        },
+        {
+          "number": 7,
+          "script": "So, having looked at the risks, let's talk about what organisations can actually do to protect themselves. Building a strong AI security posture really comes down to layering your defences. That means running regular audits that are specifically designed with AI systems in mind, not just your standard IT checks. It means making sure your staff know what normal AI behaviour looks like, so they can spot when something seems off. You also want tight controls over who can access, adjust, or retrain your models, because that access is genuinely powerful. Your incident response plans need updating too, because an AI failure can look very different from a traditional cyber incident. Alongside that, continuously monitoring what your models are actually producing helps you catch manipulation or drift early. And finally, working closely with national cyber agencies keeps you informed about the latest threats as they emerge. None of this is optional; it all works together."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, always question where your AI's data is coming from, because poor quality or tampered data leads to poor decisions. Keep a close eye on your systems too, watching for anything unusual or out of the ordinary. When it comes to access, the fewer people who can reach sensitive AI functions, the smaller your attack surface becomes. Your staff are absolutely critical here, so make sure they understand the threats that AI systems can introduce and how to spot them. If something does go wrong, report it straight away, because delays only make things worse. And finally, your policies and procedures shouldn't just sit in a drawer gathering dust. Review them regularly, because the threat landscape changes quickly and your guidance needs to keep pace. These six principles won't eliminate every risk, but they will put you and your organisation in a much stronger position."
+        }
+      ]
+    }
+  ]
+}

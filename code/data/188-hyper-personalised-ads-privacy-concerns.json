@@ -1,0 +1,105 @@
+{
+  "Course Title": "Hyper-Personalised Ads: Privacy Concerns",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "When targeting becomes intrusive or non-compliant.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with digital advertising concepts and a general awareness of how online data is collected will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key privacy concerns associated with hyper-personalised advertising and explain where targeting strategies risk becoming intrusive or non-compliant with UK and international data regulations. You will also be able to apply practical guidelines to recognise the boundaries between effective personalisation and unacceptable data use within publishing, film, gaming, and broader communications contexts.",
+  "lessons": [
+    {
+      "lesson title": "Hyper-Personalised Ads: Privacy Concerns",
+      "order": 1,
+      "Description": "Hyper-personalised advertising uses detailed data about individuals to deliver highly targeted messages, but this level of precision raises serious questions about privacy and consent. In this lesson, you will explore where the line sits between effective targeting and intrusive or non-compliant practices. We will look at the types of data commonly used in personalised advertising, the regulations that govern how that data can be collected and used, and the risks businesses face when they cross legal or ethical boundaries. By the end of this lesson, you will have a clearer understanding of how to approach personalised advertising in a way that respects both the law and your audience. No prior knowledge of data privacy or advertising is required, making this an ideal starting point for anyone looking to understand this increasingly important topic.",
+      "status": "draft",
+      "content": "When targeting becomes intrusive or non-compliant.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Are Hyper-Personalised Ads?",
+          "subtitle": "Ads tailored to your every move.",
+          "slidecontent": "• Ads built from your data\n• Tracking your clicks and habits\n• Using location, age, interests\n• Feels personal, often unsettling\n• Powered by real-time profiling"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Hyper-Personalisation?",
+          "subtitle": "Ads tailored beyond basic demographics.",
+          "slidecontent": "• Ads built from browsing history, location data, and real-time behaviour\n\n• Goes far beyond age or gender\n\n• Uses detailed personal profiles to predict what you want before you ask\n\n• Powered by tracking across apps, websites, and devices\n\n• Feels relevant, but relies on extensive data collection behind the scenes"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When Data Collection Goes Wrong",
+          "subtitle": "Real cases, real consequences.",
+          "slidecontent": "• Cambridge Analytica harvested data from millions of Facebook users without clear consent\n• Target predicted a teenager's pregnancy before her family knew\n• Advertisers caught retargeting users based on sensitive health searches\n• Real harm to real people\n• GDPR fines issued to companies using personal data for ads without lawful basis\n• Users left feeling watched, manipulated, and powerless"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Balancing Personalisation With Privacy",
+          "subtitle": "Finding the right ethical balance.",
+          "slidecontent": "• Personalisation improves relevance, but privacy builds trust\n• Collecting only the data you genuinely need\n• Transparency with users about how their data is used\n• Consent matters\n• Avoiding targeting that feels surveillance-like or manipulative\n• Striking a balance that respects both business goals and user rights"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Balancing Personalisation With Privacy",
+          "subtitle": "Finding the right ethical balance.",
+          "slidecontent": "• Personalisation improves relevance, but privacy protects trust\n• Collecting only the data you genuinely need (data minimisation) reduces risk\n• Transparency matters\n• Users should always know what data is collected and why\n• Giving people real control over their preferences builds confidence in your brand\n• Ethical targeting means respecting boundaries, not just following the law"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Balancing Personalisation With Privacy",
+          "subtitle": "Finding the right ethical balance.",
+          "slidecontent": "• Collect only what's needed\n• Be transparent with users\n• Offer real opt-out choices\n• Respect user preferences always\n• Less data, more trust"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Privacy in Practice",
+          "subtitle": "Practical steps for responsible ad targeting",
+          "slidecontent": "• Collect only essential data\n• Always offer opt-out options\n• Audit your targeting regularly\n• Be transparent with users\n• Follow GDPR guidelines strictly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible ad targeting.",
+          "slidecontent": "• Consent comes first, always\n• Less data, less risk\n• Transparency builds user trust\n• Know your legal obligations\n• Review your targeting regularly\n• Start auditing your ads today"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start by asking a simple question: what exactly are hyper-personalised ads? You've almost certainly encountered them. You search for a pair of trainers, and within minutes, adverts for those exact trainers seem to follow you around the internet. That's not a coincidence. These ads are built using data collected about you, things like the links you click, the websites you visit, your location, your age, and your interests. Advertisers use all of that information to build a detailed picture of who you are, often in real time, and then serve you adverts that feel almost unnervingly relevant. And that's really the key tension here. On one hand, it can feel convenient, even helpful. On the other hand, many people find it quite unsettling to realise just how closely their online behaviour is being watched and analysed. Throughout this lesson, we're going to explore how this all works and why it raises some serious privacy concerns."
+        },
+        {
+          "number": 2,
+          "script": "So, what do we actually mean by hyper-personalisation? Most of us are familiar with basic targeted advertising, where a platform knows your age or your location and shows you something broadly relevant. But hyper-personalisation goes much further than that. Instead of working from simple demographic details, it builds a detailed picture of you as an individual, drawing on your browsing history, the apps you use, where you go, and even what you are doing right now in real time. The result is advertising that can feel almost uncannily accurate, as though it knows what you want before you have even thought to search for it. And that is not a coincidence. Behind the scenes, your behaviour is being tracked across multiple devices and platforms, all feeding into a profile designed to predict your next move. It feels personalised and helpful on the surface, but there is a significant amount of data collection happening that most people are completely unaware of."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at what happens when data collection goes too far, because these aren't just theoretical risks, they're things that have actually happened. Cambridge Analytica harvested data from tens of millions of Facebook users without their knowledge or proper consent, and used it to influence political campaigns. Target, the American retailer, famously figured out a teenage girl was pregnant from her shopping habits before her own family did. Advertisers have been caught retargeting people based on sensitive health searches, things like mental illness or fertility issues. And regulators have taken notice. Under GDPR, companies have faced significant fines for using personal data in advertising without a lawful basis to do so. But beyond the legal consequences, there's a very human cost here. People are left feeling watched, manipulated, and completely powerless over their own information. These cases matter because they show us exactly why this conversation about privacy in advertising is so important."
+        },
+        {
+          "number": 4,
+          "script": "So we've established that hyper-personalised ads can be incredibly powerful, but the real question is: how do we use that power responsibly? The key is finding a genuine balance. Yes, personalisation makes your ads more relevant and effective, but privacy is what earns you long-term trust from your audience. Practically speaking, that means only collecting the data you actually need, being upfront with users about how their information is used, and making sure consent is genuinely obtained rather than buried in small print. It also means being mindful of how your targeting feels from the user's perspective. If someone feels watched or manipulated, you've already lost them. The goal is to create advertising experiences that feel helpful rather than intrusive. When you respect both your business objectives and your users' rights, you build something far more valuable than a single conversion. You build a relationship based on trust."
+        },
+        {
+          "number": 5,
+          "script": "So how do we get the balance right between making ads feel relevant and actually respecting people's privacy? The honest answer is that both things matter, and they are not mutually exclusive. A good starting point is only collecting the data you truly need. The less you gather, the less risk you carry. Beyond that, transparency is absolutely essential. People should never be left wondering what information you hold about them or how you are using it. When you are upfront about that, and when you give users genuine control over their own preferences, something interesting happens: they start to trust you more. And trust is genuinely valuable for any brand. The final point worth emphasising is this: ethical targeting goes beyond simply ticking legal boxes. It means actively respecting people's boundaries and treating their data with care. Get that right, and personalisation becomes a strength rather than a liability."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually strike the right balance between personalisation and privacy? Well, it starts with restraint. Rather than hoarding every scrap of data you can get your hands on, only collect what you genuinely need to do the job. And whatever you do collect, be upfront about it. Tell people clearly what you're gathering and why. Alongside that, give users a real choice. Not a buried, confusing opt-out that takes ten clicks to find, but a genuine, straightforward option to say no. And when someone does say no, respect that. Always. Here is the thing that many businesses miss: using less data does not mean worse results. In fact, when people feel respected and in control, they trust you more, and that trust is incredibly valuable. So think of privacy not as a barrier to good advertising, but as the foundation for a much stronger relationship with your audience."
+        },
+        {
+          "number": 7,
+          "script": "So now let's talk about what responsible ad targeting actually looks like in practice. The first thing to keep in mind is data minimalism. Only collect what you genuinely need, nothing more. If a piece of data is not directly useful to your campaign, do not gather it. Next, always give your users a way out. Opt-out options are not just good manners, they are increasingly a legal requirement. Speaking of which, if you are operating in the UK or Europe, GDPR compliance is non-negotiable, so make sure you understand those guidelines thoroughly. It is also worth building in regular audits of your targeting practices, because what seemed appropriate six months ago may not be appropriate today. And finally, be honest with your audience. Tell them what data you are collecting and why. Transparency builds trust, and trust is genuinely one of the most valuable things a brand can have. These are straightforward steps, but they make an enormous difference."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First and foremost, always get consent before you collect or use someone's data. It is not optional, it is the foundation of everything. Alongside that, try to collect only what you genuinely need, because the less data you hold, the less risk you carry if something goes wrong. Being open and honest with your users about how you use their information goes a long way in building real trust. You also need to make sure you understand the legal requirements that apply to your business, whether that is GDPR or other relevant regulations. And do not just set your targeting once and forget about it. Review it regularly to make sure it still aligns with best practice and current rules. Finally, do not wait to get started. Begin auditing your ads now, even small improvements can make a meaningful difference. These principles are straightforward, but they genuinely matter."
+        }
+      ]
+    }
+  ]
+}

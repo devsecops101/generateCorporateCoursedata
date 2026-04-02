@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI-Generated Code in Production: Hidden Risks",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Subtle vulnerabilities and logic flaws introduced by AI-assisted coding.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A working knowledge of at least one programming language and a basic familiarity with software development practices are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify subtle vulnerabilities and logic flaws commonly introduced by AI-assisted coding tools, and explain the potential risks these issues pose in production environments. You will also apply practical techniques to review, test, and validate AI-generated code so that it meets the security and reliability standards required for real-world software deployment.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Code in Production: Hidden Risks",
+      "order": 1,
+      "Description": "AI-generated code can feel like a shortcut to faster, cleaner development, but it often introduces subtle risks that are easy to overlook. In this lesson, you will explore the hidden vulnerabilities and logic flaws that can slip into your codebase when you rely on AI-assisted coding tools without careful review. We will look at real-world examples of how generated code can appear correct on the surface while containing security weaknesses, incorrect assumptions, or outdated practices. By the end of this lesson, you will have a clearer understanding of what to watch out for and how to approach AI-generated code with a more critical eye. No prior security expertise is required, just a willingness to think carefully about the code you ship to production.",
+      "status": "draft",
+      "content": "Subtle vulnerabilities and logic flaws introduced by AI-assisted coding.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Hidden Risks: An Introduction",
+          "subtitle": "When AI code hides subtle dangers",
+          "slidecontent": "• AI-generated code can look clean and correct but still contain subtle, hidden flaws\n• These flaws often pass basic testing\n• Logic errors, security gaps, and faulty assumptions are common culprits\n• The risks are not always obvious to developers who trust the output too quickly\n• Understanding these dangers is the first step to using AI coding tools safely",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks Lurking in AI Code",
+          "subtitle": "Subtle flaws hiding in plain sight",
+          "slidecontent": "• Code looks correct, isn't\n• Hidden logic flaws slip through\n• Security gaps go unnoticed\n• AI confuses similar patterns\n• Small errors compound quickly",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Logic Flaws Early",
+          "subtitle": "Before flaws reach your codebase",
+          "slidecontent": "• AI-generated code can pass syntax checks while hiding flawed assumptions in the logic itself\n• Review outputs, not just errors\n• Off-by-one errors and incorrect boundary conditions are among the most common subtle flaws\n• Testing edge cases manually helps catch what automated tools miss\n• Reading code aloud or explaining it line by line often reveals gaps in reasoning\n• A quick peer review adds a valuable second perspective before anything is committed",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Subtle Logic Flaws Explained",
+          "subtitle": "When logic looks right but isn't",
+          "slidecontent": "• AI-generated code often passes basic tests yet contains flawed assumptions about edge cases\n• Off-by-one errors in loops or index calculations\n• Conditions checked in the wrong order, silently producing incorrect results\n• Logic that works for typical inputs but breaks under unexpected or boundary values\n• Missing negation in a single boolean check can invert an entire feature's behaviour\n• Subtle flaws rarely trigger errors, making them far harder to spot than outright crashes",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Flaws Before Deployment",
+          "subtitle": "Catching Issues Before They Reach Users",
+          "slidecontent": "• Manual code review focused on logic, not just syntax errors\n• Testing edge cases that AI tools commonly overlook, such as empty inputs or unexpected data types\n• Static analysis tools to flag security weaknesses automatically\n• Checking that generated code actually matches the original requirement\n• Short feedback loops between writing and reviewing",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Flaws Before Deployment",
+          "subtitle": "Catching Issues Before They Reach Users",
+          "slidecontent": "• Review logic, not just syntax\n• Test edge cases manually\n• Check for hardcoded secrets\n• Validate all user inputs\n• Use a linter every time",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI Code Risks",
+          "subtitle": "Strategies to Reduce Exposure and Risk",
+          "slidecontent": "• Review all AI-generated code\n• Test edge cases thoroughly\n• Never skip security checks\n• Validate logic, not just syntax\n• Use linters and static analysis",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Points to carry forward with confidence",
+          "slidecontent": "• AI code needs human review\n• Verify logic, not just syntax\n• Test edge cases always\n• Trust your instincts\n• Stay curious, stay cautious",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI-generated code in production. Now, if you've ever used a tool like GitHub Copilot or ChatGPT to help you write code, you'll know how impressive it can be. The output often looks polished, well-structured, and perfectly reasonable. But here's the thing: looking correct and actually being correct are two very different things. AI-generated code can carry hidden flaws that slip through basic testing without raising any red flags. We're talking about subtle logic errors, security vulnerabilities, and assumptions baked into the code that simply don't hold up in the real world. And the danger is that developers, quite understandably, place a lot of trust in that output. That trust can lead to problems making it into production before anyone realises something is wrong. So throughout this course, we're going to shine a light on exactly where those risks hide, and how you can protect yourself and your projects from them.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So here's the thing about AI-generated code that catches a lot of developers off guard. It often looks perfectly fine at first glance. The syntax is clean, it runs without errors, and it does roughly what you asked for. But underneath that polished surface, there can be some genuinely tricky problems hiding. Logic flaws that only show up in edge cases, security vulnerabilities that aren't obvious until something goes wrong, and subtle mistakes that seem harmless on their own but start to stack up over time. One of the reasons this happens is that AI models learn from patterns, and when two situations look similar enough, the model can mix them up and produce code that feels right but behaves incorrectly. Throughout this course, we're going to unpack exactly how these risks appear in real code, why they're so easy to miss, and what you can do to catch them before they cause serious problems in a production environment.",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "script": "One of the trickiest things about AI-generated code is that it can look perfectly fine on the surface. It compiles, it passes your linter, no errors in sight. But that does not mean the logic is actually correct. The code might be making assumptions that are subtly wrong, and those assumptions will not show up until something breaks in production. Off-by-one errors are a classic example, where a boundary condition is just slightly off and causes unexpected behaviour. So rather than only checking for errors, get into the habit of actually reading through what the AI has produced. Try explaining the code line by line, either to a colleague or even just out loud to yourself. You will often spot gaps in the reasoning that you would otherwise miss. Testing edge cases manually is also really valuable here, because automated tools will not always catch the unusual scenarios. And if you can get a quick peer review before committing anything, that second pair of eyes is genuinely worth it.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "One of the trickiest problems with AI-generated code is that it can look completely fine on the surface, and even pass your initial tests, yet still contain subtle mistakes buried in the logic. We're talking about things like a loop that runs one iteration too many, or a condition that checks things in the wrong order, quietly producing the wrong result without throwing any kind of error. The code works perfectly well for normal, everyday inputs, but the moment something unusual or unexpected comes along, it falls apart. And sometimes it's something as small as a missing \"not\" in a single boolean check, which can completely flip how an entire feature behaves. The really dangerous thing here is that these flaws don't crash your application. There's no red error message to alert you. The software just carries on running, doing the wrong thing, and that makes these issues far harder to catch than a straightforward bug.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "So, once you have AI-generated code in front of you, how do you actually catch problems before they reach your users? The first thing to do is review the logic carefully, not just glance at it for obvious typos or syntax errors. AI tools can produce code that looks perfectly clean but behaves incorrectly in certain situations, so you want to test those awkward edge cases, like what happens when someone submits an empty form or passes in an unexpected data type. Alongside manual review, static analysis tools are really useful here because they can automatically flag potential security weaknesses that are easy to miss. It is also worth stepping back and asking whether the code actually does what you originally asked for, because AI can sometimes solve a slightly different problem than the one you intended. And finally, keep your feedback loops short. The quicker you move between writing and reviewing, the easier it is to spot and fix issues early.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "So, AI can generate code that looks perfectly fine on the surface, but still contains serious problems underneath. That's why reviewing AI-generated code before it goes anywhere near production is absolutely essential. Don't just glance at it and assume it works because it compiles or passes a basic check. Actually read through the logic and ask yourself whether it genuinely does what you intended. Then test it yourself, particularly with unusual or unexpected inputs, because edge cases are where things tend to break. While you're at it, scan for anything sensitive that might have been hardcoded, like API keys or passwords, because that's a surprisingly common issue with AI-generated code. Make sure any data coming in from users is properly validated, as that's a frequent source of security vulnerabilities. And finally, run a linter every single time, without exception. It won't catch everything, but it will flag a good number of issues quickly and consistently. These habits together will save you a great deal of trouble down the line.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand the risks, let's talk about what you can actually do to protect yourself and your team. The most important habit to build is treating every piece of AI-generated code as if a junior developer wrote it. That means reading it properly, not just skimming it. You also want to make sure your testing goes beyond the happy path. Think about edge cases, unusual inputs, and what happens when things go wrong. Security checks are non-negotiable, so please do not skip them just because the code looks clean. And here is something people often miss: the logic itself needs scrutiny. Code can be syntactically perfect and still do entirely the wrong thing. Finally, lean on your tooling. Linters and static analysis tools are brilliant for catching issues that human eyes miss, especially when you are reviewing a lot of generated code quickly. These habits together will significantly reduce your exposure to the risks we have been discussing.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The most important thing to hold onto is that AI-generated code is a tool, not a replacement for your judgement. Every piece of code it produces needs a human set of eyes on it, and that means going beyond just checking whether it runs without errors. You need to ask yourself whether the logic actually makes sense for your specific situation. And please, do test those edge cases, because that is often where things quietly go wrong in production. Now, if something feels off when you are reading through AI-generated code, trust that instinct. You have experience and context that the AI simply does not have. Finally, the best mindset you can bring to this is one of curiosity combined with healthy caution. Keep exploring what these tools can do, but never switch off your critical thinking. That combination is genuinely what separates confident, responsible developers from those who get caught out.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

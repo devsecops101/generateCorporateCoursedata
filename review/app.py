@@ -35,6 +35,33 @@ def _atomic_write_json(path: Path, data: dict[str, Any]) -> None:
     tmp.replace(path)
 
 
+def _build_script_export_text(data: dict[str, Any]) -> str:
+    """Plain text of included scripts only (do_not_include is false)."""
+    lessons = data.get("lessons")
+    if not isinstance(lessons, list) or not lessons:
+        return ""
+    lesson0 = lessons[0]
+    if not isinstance(lesson0, dict):
+        return ""
+    scripts = lesson0.get("scripts")
+    if not isinstance(scripts, list):
+        return ""
+    blocks: list[str] = []
+    ordered = sorted(scripts, key=lambda d: _coerce_int(d.get("number"), default=0))
+    sep = "-" * 72
+    slide_export_n = 0
+    for sc in ordered:
+        if not isinstance(sc, dict):
+            continue
+        if sc.get("do_not_include"):
+            continue
+        slide_export_n += 1
+        n = _coerce_int(sc.get("number"), default=0)
+        body = _as_str(sc.get("script")).rstrip()
+        blocks.append(f"Script {n} (Slide {slide_export_n})\n{sep}\n{body}")
+    return "\n\n".join(blocks) + ("\n" if blocks else "")
+
+
 def _backup_file(path: Path) -> Path:
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
     bak = path.with_suffix(path.suffix + f".{ts}.bak")
@@ -212,6 +239,17 @@ with st.sidebar:
             f"File {st.session_state['file_index'] + 1} of {len(file_labels)}"
         )
 
+    jump_to = st.number_input(
+        "Jump to file #",
+        min_value=1,
+        max_value=len(file_labels),
+        value=st.session_state["file_index"] + 1,
+        step=1,
+        key="jump_to_file_number",
+    )
+    if int(jump_to) - 1 != st.session_state["file_index"]:
+        st.session_state["file_index"] = int(jump_to) - 1
+
     selected_label = st.selectbox(
         "Select a JSON file",
         options=file_labels,
@@ -245,6 +283,7 @@ data: dict[str, Any] = st.session_state["working_data"]
 
 top_left, top_right = st.columns([2, 1], gap="large")
 
+export_clicked = False
 with top_right:
     st.subheader("Validation")
     issues = _validate_course(data)
@@ -277,6 +316,8 @@ with top_right:
             st.success("Saved.")
         except Exception as e:
             st.error(f"Save failed: {e!s}")
+
+    export_clicked = st.button("Export Script")
 
     st.subheader("Raw JSON")
     st.download_button(
@@ -348,15 +389,36 @@ with top_left:
     lesson0_slides = _ensure_numbered_items(
         lesson0.get("slides"),
         count=8,
-        template={"slidetitle": "", "subtitle": "", "slidecontent": ""},
+        template={"slidetitle": "", "subtitle": "", "slidecontent": "", "do_not_include": False},
     )
     lesson0["slides"] = lesson0_slides
+
+    lesson0_scripts = _ensure_numbered_items(
+        lesson0.get("scripts"),
+        count=8,
+        template={"script": "", "do_not_include": False},
+    )
+    lesson0["scripts"] = lesson0_scripts
+    scripts_by_number: dict[int, dict[str, Any]] = {}
+    for sc in lesson0_scripts:
+        n = _coerce_int(sc.get("number"), default=0)
+        if n:
+            scripts_by_number[n] = sc
 
     with tabs[2]:
         st.caption("Edit slide title, subtitle, and bullet content.")
         for slide in lesson0_slides:
             n = _coerce_int(slide.get("number"), default=0)
             with st.expander(f"Slide {n}", expanded=True):
+                do_not_include = st.checkbox(
+                    "Do Not Include",
+                    value=bool(slide.get("do_not_include", False)),
+                    key=f"slide_do_not_include_{n}_{path.name}",
+                )
+                slide["do_not_include"] = bool(do_not_include)
+                if n in scripts_by_number:
+                    scripts_by_number[n]["do_not_include"] = bool(do_not_include)
+
                 slide["slidetitle"] = st.text_input(
                     f"Slide {n} title",
                     value=_as_str(slide.get("slidetitle", "")),
@@ -374,18 +436,17 @@ with top_left:
                     key=f"slide_content_{n}_{path.name}",
                 )
 
-    lesson0_scripts = _ensure_numbered_items(
-        lesson0.get("scripts"),
-        count=8,
-        template={"script": ""},
-    )
-    lesson0["scripts"] = lesson0_scripts
-
     with tabs[3]:
         st.caption("Edit narration scripts for each slide.")
         for sc in lesson0_scripts:
             n = _coerce_int(sc.get("number"), default=0)
             with st.expander(f"Script {n}", expanded=True):
+                st.checkbox(
+                    "Do Not Include (from Slide)",
+                    value=bool(sc.get("do_not_include", False)),
+                    key=f"script_do_not_include_{n}_{path.name}",
+                    disabled=True,
+                )
                 sc["script"] = st.text_area(
                     f"Slide {n} script",
                     value=_as_str(sc.get("script", "")),
@@ -395,4 +456,15 @@ with top_left:
 
     with tabs[4]:
         st.json(data, expanded=False)
+
+if export_clicked:
+    try:
+        export_dir = path.parent / "script exports"
+        export_dir.mkdir(parents=True, exist_ok=True)
+        out_path = export_dir / path.with_suffix(".txt").name
+        text = _build_script_export_text(data)
+        out_path.write_text(text, encoding="utf-8")
+        st.success(f"Script export saved: {out_path}")
+    except Exception as e:
+        st.error(f"Export failed: {e!s}")
 

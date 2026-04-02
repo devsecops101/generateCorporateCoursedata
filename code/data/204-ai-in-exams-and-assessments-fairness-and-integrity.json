@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Exams and Assessments: Fairness and Integrity",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Detection errors, false accusations, and system manipulation.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with how exams or assessments are conducted in their organisation or institution, along with a general awareness that AI tools exist and are increasingly used in educational settings.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key limitations of AI detection tools in educational assessments and explain how false accusations can arise from detection errors. You will also be able to apply practical strategies to recognise and respond to attempts to manipulate AI-based assessment systems, helping to protect fairness and integrity in your organisation.",
+  "lessons": [
+    {
+      "lesson title": "AI in Exams and Assessments: Fairness and Integrity",
+      "order": 1,
+      "Description": "As AI tools become more common in education, schools and universities are increasingly using AI detection software to identify whether students have used artificial intelligence in their work. However, these detection systems are far from perfect, and they can make serious errors, including falsely accusing honest students of cheating. This lesson explores how AI detection tools work, why they sometimes get things wrong, and what the consequences of those errors can be for students and institutions. We will also look at how some individuals attempt to manipulate or bypass these systems, and why that creates new challenges for maintaining fairness in assessments. By the end of this lesson, you will have a clearer understanding of the limitations of AI detection and what fair, balanced assessment practices might look like in an AI-aware world.",
+      "status": "draft",
+      "content": "Detection errors, false accusations, and system manipulation.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome and Course Overview",
+          "subtitle": "Exploring fairness, integrity, and detection challenges.",
+          "slidecontent": "• Why AI detection in education is more complicated than it first appears\n• Real risks of false accusations and what they mean for students\n• How detection tools can fail, and who gets hurt when they do\n• Ways people attempt to manipulate or bypass these systems\n• Practical guidance for educators, institutions, and learners\n• A clear, honest look at fairness in a rapidly changing landscape"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Spotting the Flaws in Detection",
+          "subtitle": "Where detection tools fall short",
+          "slidecontent": "• Tools misidentify human writing\n• False positives harm students\n• Paraphrasing fools detectors easily\n• No tool is fully reliable\n• Bias affects certain writing styles"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting the Flaws in Detection",
+          "subtitle": "Where detection tools fall short",
+          "slidecontent": "• Tools misidentify human writing\n• False positives harm students\n• Paraphrasing fools detectors easily\n• No tool is fully reliable\n• Bias skews results unfairly"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Errors and False Accusations",
+          "subtitle": "When detection tools get it wrong",
+          "slidecontent": "• Tools flag innocent students\n• False positives cause real harm\n• No tool is fully accurate\n• Human review always needed\n• Appeals processes exist"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Beating the Detection Systems",
+          "subtitle": "How students exploit AI detection flaws",
+          "slidecontent": "• Paraphrasing tools fool detectors\n• Mixing AI and human writing\n• Translating text repeatedly\n• Adding deliberate typos\n• Using older AI models\n• Splitting tasks across tools"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Beating the Detection Systems",
+          "subtitle": "How students exploit AI detection flaws",
+          "slidecontent": "• Paraphrasing AI-generated text manually to confuse detection algorithms\n• Mixing human and AI writing within the same submission\n• Simply effective\n• Using lesser-known AI tools that detectors have not yet been trained to recognise\n• Running text through multiple rewriting apps to strip away detectable patterns\n• Deliberately inserting spelling errors or unusual phrasing to appear more human"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Beating the Detection Systems",
+          "subtitle": "How students exploit AI detection flaws",
+          "slidecontent": "• Paraphrasing AI-generated text through a second tool to disguise its origin\n• Mixing human-written sentences with AI output to confuse detectors\n• Simple tricks like adding typos or unusual punctuation to break detection patterns\n• Deliberately lowering the reading level or changing sentence rhythm\n• Using AI to rewrite content multiple times until it scores as \"human\"\n• Free \"humaniser\" tools widely available and easy for any student to find"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for fair AI assessment",
+          "slidecontent": "• AI detection tools make mistakes, so no student should face consequences based on a single automated flag\n• Always combine AI signals with human judgement and contextual evidence\n• False accusations cause real harm\n• Institutions must have clear, transparent policies that students and staff can access and understand\n• Familiarise yourself with your organisation's assessment integrity guidelines before a problem arises\n• As a next step, review your current assessment processes and identify where AI detection is being used and how decisions are made"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. Over the next several lessons, we're going to explore something that sounds straightforward on the surface but is actually quite nuanced: the use of AI detection in education. We'll look at why these tools are far more complicated than many people assume, and why that matters enormously for students and educators alike. We'll talk honestly about the very real risk of false accusations, how detection systems can and do fail, and who ends up bearing the consequences when they get things wrong. We'll also look at the ways people attempt to game or bypass these systems, because understanding that is part of understanding the bigger picture. And throughout it all, we'll offer practical, grounded guidance for everyone involved, whether you're a learner, a teacher, or working within an institution. The goal here is a clear, fair, and honest conversation about a landscape that is changing very rapidly indeed. Let's get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's be honest about something: the tools we use to detect AI-written work are far from perfect. One of the biggest problems is that they regularly flag genuine student writing as AI-generated. That is a serious issue, because a false accusation can have real consequences for a student's academic record and their confidence. It gets more complicated when you consider that simply paraphrasing or rewording AI-generated text is often enough to slip past these detectors entirely. So they are not catching what they are supposed to catch, and at the same time they are wrongly catching things they should not. There is also a bias problem worth noting: certain writing styles, particularly those from students writing in English as a second language, tend to be flagged more often. The honest conclusion here is that no detection tool currently available is fully reliable, and that means we cannot treat their results as definitive proof of anything."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about why AI detection tools are far less reliable than many people assume. The core problem is that these tools make mistakes, and those mistakes have real consequences. They can flag perfectly genuine student work as AI-generated, which means an innocent person could face serious accusations through no fault of their own. That is not a small issue. On top of that, if a student simply paraphrases AI-generated text, most detectors will miss it entirely, so the tools are easy to fool. There is also a deeper concern around bias. Research has shown that these tools are more likely to flag writing from students who are not native English speakers, which raises serious questions about fairness. The honest truth is that no detection tool currently available is fully reliable. So before we place too much trust in them, we need to understand exactly where they fall short, and that is what we are exploring in this lesson."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most serious problems with AI detection tools is that they sometimes get it wrong, and when they do, the consequences for students can be devastating. Imagine being accused of cheating when you have done absolutely nothing wrong. That is a very real possibility, because no detection tool is one hundred percent accurate. They produce what are called false positives, meaning they flag work as AI-generated when it was actually written by a human. This can happen to any student, and it can cause enormous stress, damage to their reputation, and even affect their grades or qualifications. This is precisely why human judgement must always be part of the process. A tool should never be the final word on its own. Institutions do have appeals processes in place, so if a student is wrongly accused, there are routes to challenge that decision. But the best approach is to use these tools carefully and responsibly from the very start."
+        },
+        {
+          "number": 5,
+          "script": "So let's look at how some students are actively trying to get around these detection systems, because it's more sophisticated than you might expect. Rather than simply submitting raw AI output, students have learned to disguise it. They might run text through a paraphrasing tool to alter the wording enough to confuse detectors. Some will blend their own writing with AI-generated sections, making it much harder to flag. Others use a clever trick of translating text through several languages and back again, which scrambles the patterns detectors look for. There are even students who deliberately introduce spelling mistakes or use older AI models, because detection tools are often trained on output from the latest versions. And rather than relying on a single tool, some split the work across multiple platforms to avoid leaving a consistent fingerprint. The point here is not to give anyone ideas, but to help you understand why detection alone is not a reliable solution."
+        },
+        {
+          "number": 6,
+          "script": "So, students have become surprisingly resourceful when it comes to getting around detection tools. Some will take AI-generated text and manually reword it themselves, which can be enough to fool the algorithms. Others mix their own writing with AI-generated sections, making the whole thing much harder to flag. There are also lesser-known AI tools out there that detection systems simply have not been trained to recognise yet, so they slip straight through. Some students go a step further and run their text through several rewriting apps in sequence, which gradually strips away the patterns that detectors look for. And here is one that might surprise you: some deliberately introduce spelling mistakes or awkward phrasing to make the writing seem more authentically human. The uncomfortable truth is that many of these methods are straightforward and effective, which is exactly why understanding them matters if we want to design assessments that are genuinely fair and trustworthy."
+        },
+        {
+          "number": 7,
+          "script": "So if detection tools exist, why aren't they solving the problem? Well, students have already found ways around them, and it's easier than you might think. One common approach is running AI-generated text through a second tool, sometimes called a \"humaniser,\" which rewrites it just enough to fool detectors. Others mix their own writing with AI output, so the result looks blended and harder to flag. Some go even simpler, adding deliberate typos, tweaking punctuation, or changing the rhythm of sentences to break the patterns detectors look for. There are also tools that will rewrite a piece of AI content over and over until it finally scores as human-written. And here's the thing: these humaniser tools are free, widely available, and genuinely easy for any student to find with a quick search. So the idea that detection software is a reliable safety net is, unfortunately, not quite the reality we're working with."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the core principles from this lesson. The most important thing to remember is that AI detection tools are not infallible. They make mistakes, and no student should ever face serious consequences based on an automated flag alone. Human judgement and proper context must always be part of the process, because false accusations cause genuine harm to real people. On the institutional side, policies need to be clear and accessible, so that both staff and students know exactly where they stand. And on a personal level, don't wait for a problem to arise before you familiarise yourself with your organisation's guidelines. Know them now. As a practical next step, take some time to look at your current assessment processes and ask yourself where AI detection is being used, and crucially, how decisions are actually being made when a flag comes up. That kind of awareness is what helps us keep assessment fair and trustworthy for everyone involved."
+        }
+      ]
+    }
+  ]
+}

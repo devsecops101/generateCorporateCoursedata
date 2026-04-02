@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Project Scheduling: When Optimisation Fails",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Over-reliance on AI timelines that ignore real-world variability.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with construction or engineering project workflows and a general awareness of how scheduling tools (such as Gantt charts or project management software) are used in practice.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key limitations of AI-generated project schedules in construction and engineering contexts, and explain why over-reliance on automated timelines can introduce significant risk into real-world infrastructure projects. You will also apply practical strategies to critically evaluate AI scheduling outputs, recognising where human judgement and site-level variability must be factored in to produce more reliable and resilient project programmes.",
+  "lessons": [
+    {
+      "lesson title": "AI in Project Scheduling: When Optimisation Fails",
+      "order": 1,
+      "Description": "This lesson explores how AI-powered scheduling tools, while impressive in their ability to optimise timelines and allocate resources, can fall short when they encounter the unpredictable nature of real-world projects. Many project managers place too much trust in AI-generated schedules, not realising that these tools often rely on idealised assumptions that do not account for human factors, shifting priorities, or unexpected delays. By examining common failure points, you will begin to understand where AI optimisation breaks down and why a degree of human judgement remains essential. This lesson is designed for those who are new to AI in project management and want a clear, practical grounding in both the benefits and the limitations of these tools. By the end, you will be better equipped to use AI scheduling assistants critically, rather than accepting their outputs without question.",
+      "status": "draft",
+      "content": "Over-reliance on AI timelines that ignore real-world variability.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Schedules Go Wrong",
+          "subtitle": "The hidden cost of blind trust",
+          "slidecontent": "• AI scheduling tools promise speed and precision, but often miss what humans know instinctively\n• Real projects rarely follow the plan\n• Blind trust in AI-generated timelines can cause missed deadlines, budget overruns, and team burnout\n• The problem is not the technology itself\n• Over-reliance happens when teams treat AI output as fact rather than a starting point for judgement"
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Illusion of Perfect Schedules",
+          "subtitle": "When precision masks hidden complexity",
+          "slidecontent": "• Schedules look flawlessly precise\n• Reality rarely matches predictions\n• Small delays cascade quickly\n• AI ignores human unpredictability\n• Perfect plans hide real risk"
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Illusion of Perfect Schedules",
+          "subtitle": "When precision masks hidden complexity",
+          "slidecontent": "• Schedules look flawlessly precise\n• Hidden assumptions lurk beneath\n• Real work resists neat boxes\n• Confidence hides fragile guesses\n• Perfection signals danger ahead"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Ignoring Variability: Real Consequences",
+          "subtitle": "When plans meet unpredictable reality",
+          "slidecontent": "• Delays cascade quickly\n• Buffers get ignored\n• Teams miss critical deadlines\n• Costs spiral unexpectedly\n• Morale drops fast"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Ignoring Variability: Real Consequences",
+          "subtitle": "When plans meet unpredictable reality",
+          "slidecontent": "• AI schedulers often assume tasks take exactly as long as historical averages suggest\n• Supply delays, staff illness, and scope changes ignored entirely\n• One missed assumption can cascade into weeks of overrun\n• Real projects are messy\n• Teams left scrambling when the \"optimised\" plan collides with an unplanned absence or a late delivery\n• Buffer time dismissed as inefficiency, leaving no room to absorb the unexpected"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Rebuilding Trust in AI Schedules",
+          "subtitle": "Restoring Confidence Through Transparency and Oversight",
+          "slidecontent": "• Explain AI schedule outputs in plain language so teams understand the assumptions behind every date\n• Show your working\n• Flag where the AI lacked data or made estimates, rather than presenting results as certainties\n• Involve the team in reviewing AI-generated schedules before they are baselined\n• Build a short feedback loop so lessons from missed milestones improve future AI inputs\n• Transparency earns trust faster than accuracy alone"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust in AI Schedules",
+          "subtitle": "Restoring Confidence Through Transparency and Oversight",
+          "slidecontent": "• Explain AI scheduling decisions in plain language so teams can question and verify outputs\n• Show your working\n• Flag assumptions baked into the AI model, such as resource availability or fixed task durations\n• Involve the project team in reviewing AI-generated schedules before they are baselined\n• Build in regular checkpoints where human judgement overrides the algorithm if conditions change\n• Treat AI as a starting point, not a final answer"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Points to carry forward with confidence",
+          "slidecontent": "• AI schedules need human checks\n• Variability is always real\n• Question every tight timeline\n• Your judgement still matters\n• Start small, then scale up"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a question. Have you ever followed a sat nav that confidently sent you down a road that was completely closed? That is essentially what happens when teams put too much trust in AI-generated project schedules. These tools are genuinely impressive. They can process huge amounts of data and produce a detailed timeline in seconds. But they do not know that your best developer is moving house next week, or that a key supplier always runs late in December. Real projects are messy, and they rarely go exactly to plan. When teams treat an AI schedule as the final word rather than a useful starting point, things can go wrong quickly. Deadlines get missed, budgets stretch, and people burn out trying to hit targets that were never realistic in the first place. The technology is not the problem here. The problem is over-reliance, and that is what this course is all about helping you to avoid."
+        },
+        {
+          "number": 2,
+          "script": "When an AI generates a project schedule, it can look incredibly impressive. Every task is timed to the minute, dependencies are mapped out beautifully, and the whole thing feels completely airtight. But here is the problem: that precision is often an illusion. The real world does not behave like a spreadsheet. People get ill, suppliers run late, priorities shift, and suddenly that perfect plan starts to unravel. And because everything in a project schedule is connected, one small delay does not just affect one task, it ripples outwards and knocks everything else off course. What makes this particularly tricky is that AI is very good at crunching numbers and optimising sequences, but it has no real understanding of human behaviour. It cannot account for the colleague who is overwhelmed, or the client who keeps changing their mind. So the danger is that a beautifully precise schedule actually hides the very risks you most need to see."
+        },
+        {
+          "number": 3,
+          "script": "So here's something worth pausing on. When an AI tool produces a project schedule, it often looks incredibly polished. Neat timelines, precise dates, everything slotted into place. And that polish can actually work against you, because it creates a sense of confidence that may not be deserved. Underneath all that precision, there are assumptions baked in. Assumptions about how long tasks will take, about who will be available, about how smoothly things will go. But real work is messy. People get sick, priorities shift, a task that looked simple turns out to be anything but. The schedule doesn't know that. It just presents its output with the same clean formatting regardless of how solid or shaky the foundations are. And this is the trap. The more perfect a schedule looks, the easier it is to stop questioning it. So when you see something that looks flawless, that is actually your cue to look more carefully, not less."
+        },
+        {
+          "number": 4,
+          "script": "So what actually happens when an AI scheduling tool ignores variability? Let me paint you a picture. One task runs late, and suddenly everything connected to it is also late. That cascade effect moves surprisingly fast through a project. Now, most good project plans include buffers, those little pockets of extra time built in for the unexpected. But when an AI optimises purely for efficiency, it often strips those buffers out or simply ignores them altogether. The result? Teams find themselves missing critical deadlines with very little warning. And of course, when timelines slip, costs start to climb in ways nobody budgeted for. Unexpected overtime, rushed procurement, emergency fixes. It all adds up quickly. But perhaps the most overlooked consequence is what this does to your team. People working under constant pressure, chasing a schedule that was never realistic to begin with, burn out fast. Morale drops, and that affects everything that comes after."
+        },
+        {
+          "number": 5,
+          "script": "Here is the narration script for Slide 5:\n\nSo let's talk about what actually happens when these optimised schedules meet the real world. AI scheduling tools are typically trained on historical data, and they tend to assume that tasks will take roughly the same amount of time they always have. But that ignores a huge amount of variability. What happens when a key team member calls in sick? What if a supplier delivers materials two weeks late? What if the client changes the scope halfway through? These things happen all the time on real projects, and a tightly optimised schedule has no answer for them. In fact, one of the biggest problems is that AI tools often treat buffer time as waste, something to be stripped out in the name of efficiency. But without that breathing room, a single unexpected event can trigger a chain reaction, and suddenly you are looking at weeks of overrun from something as simple as one unplanned absence."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we rebuild trust once it has been damaged? The answer is not to produce a more accurate schedule. It is to be more open about how the schedule was produced. Start by explaining the AI's outputs in plain language. Tell your team what assumptions the tool made, where it had good data, and where it was essentially making educated guesses. Do not present AI-generated dates as though they are facts carved in stone. Show your working, just as you would in any professional context. Then bring the team into the process. Let them review the schedule before it is baselined, so they feel like participants rather than passengers. And when milestones are missed, capture why, and feed those lessons back into your next AI run. That short feedback loop is genuinely powerful. The big idea here is this: transparency builds trust faster than accuracy ever will. People can forgive a wrong date. They struggle to forgive feeling misled."
+        },
+        {
+          "number": 7,
+          "script": "So how do we rebuild trust once it has been dented? The answer really comes down to transparency and keeping humans in the loop. Start by making sure your team actually understands what the AI has produced. That means explaining the logic in plain language, being upfront about the assumptions the model has made, things like whether it assumed everyone is available full time, or that certain tasks have fixed durations. Those assumptions matter. From there, bring the team into the review process before any schedule gets baselined. Do not let the algorithm have the final word in isolation. Build in regular checkpoints where people can step in and apply their judgement, especially when circumstances shift. And perhaps most importantly, frame the AI output as a starting point for a conversation, not a finished plan handed down from on high. When teams feel they can question, challenge, and shape the schedule, confidence in the process follows naturally."
+        },
+        {
+          "number": 8,
+          "script": "So let us close with the things worth holding onto from this lesson. First, AI-generated schedules are genuinely useful, but they always need a human eye reviewing them before anyone acts on them. Second, variability in projects is real and constant, so do not let a clean-looking plan convince you otherwise. If a timeline looks unusually tight, it is absolutely worth asking why and pushing back on it. Third, and this is perhaps the most important point, your judgement as a project professional still has enormous value. AI is a tool to support your thinking, not replace it. And finally, if you are just starting to use AI in your scheduling work, begin with something small and low-risk, learn from that experience, and then gradually expand how you use it. Build your confidence step by step. These are simple principles, but if you keep them in mind, you will be in a much stronger position when working alongside these tools."
+        }
+      ]
+    }
+  ]
+}

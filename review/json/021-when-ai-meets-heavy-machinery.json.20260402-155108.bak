@@ -1,0 +1,121 @@
+{
+  "Course Title": "When AI Meets Heavy Machinery",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Risks of AI-assisted tractors, drilling systems, and autonomous equipment.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with either agricultural, forestry, mining, or energy sector operations is helpful, though no prior knowledge of artificial intelligence or advanced technology is required to follow this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-assisted tractors, autonomous drilling systems, and other heavy machinery used across agriculture, forestry, mining, and energy sectors. You will also be able to explain how to apply basic safety principles and risk management strategies to help protect yourself and your colleagues when working alongside AI-driven equipment.",
+  "lessons": [
+    {
+      "lesson title": "When AI Meets Heavy Machinery",
+      "order": 1,
+      "Description": "This lesson introduces learners to the growing use of artificial intelligence in heavy agricultural and industrial machinery, including tractors, drilling systems, and autonomous equipment. We will explore how AI is being used to automate and assist with tasks that were traditionally carried out by human operators, and why this shift brings both exciting opportunities and serious risks. You will gain a clear understanding of the types of hazards that can arise when AI systems interact with large, powerful machines in unpredictable environments. The lesson is designed for beginners, so no prior technical knowledge is required, just a willingness to think carefully about safety in an increasingly automated world. By the end, you will be better equipped to recognise the risks associated with AI-assisted machinery and understand why proper oversight, training, and regulation are so important.",
+      "status": "draft",
+      "content": "Risks of AI-assisted tractors, drilling systems, and autonomous equipment.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Meets Heavy Machinery",
+          "subtitle": "Exploring risks where AI controls machinery",
+          "slidecontent": "• AI now drives real machines\n• Tractors, drills, diggers\n• Errors can cause harm\n• Risks are often hidden\n• This course explains why",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Safety Risks You Must Know",
+          "subtitle": "Risks that could cost lives today",
+          "slidecontent": "• Sensors can fail suddenly\n• Equipment misreads the terrain\n• Workers caught off guard\n• Remote updates cause glitches\n• No human override nearby",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Autonomous Equipment and Hidden Risks",
+          "subtitle": "Where automation conceals unexpected dangers",
+          "slidecontent": "• Autonomous tractors and drilling rigs can operate without a human physically present, removing a key layer of real-time judgement\n• Sensors and algorithms make split-second decisions that operators may not see coming\n• Hidden risks emerge when machines behave unexpectedly in conditions they were not trained to handle\n• Blind spots in AI programming\n• A system that appears to be working correctly can still be moving toward a hazardous situation\n• Workers nearby may assume the machine \"knows\" what it is doing, reducing their own alertness",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Sensor Failures and Blind Spots",
+          "subtitle": "When sensors fail, machines lose awareness.",
+          "slidecontent": "• Sensors are the \"eyes\" of AI-controlled machinery, detecting obstacles, terrain, and position\n• Dirt, dust, and vibration can block or damage sensors without any visible warning\n• A blind spot\n• When one sensor fails, the AI may act on incomplete or misleading data\n• Autonomous equipment can make dangerous decisions based on what it cannot see\n• Regular sensor checks are as critical as any mechanical maintenance",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Sensor Failures and Blind Spots",
+          "subtitle": "When sensors fail, machines lose awareness.",
+          "slidecontent": "• Dirt blocks sensor lenses\n• Rain distorts distance readings\n• Vibration shifts sensor alignment\n• Dead zones hide obstacles\n• Faulty data triggers wrong actions",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Sensor Failures and Blind Spots",
+          "subtitle": "When sensors fail, machines lose awareness.",
+          "slidecontent": "• GPS signals drop suddenly\n• Cameras fail in bright sun\n• Frozen sensors give false data\n• Blind spots hide obstacles",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Staying Safe With AI Equipment",
+          "subtitle": "Practical steps to protect yourself daily",
+          "slidecontent": "• Always read the operator manual before working alongside any AI-assisted machine\n• Check that sensors and cameras are clean and unobstructed at the start of each shift\n• Stay visible\n• Never assume the system has detected you, confirm it has\n• Report unusual machine behaviour to your supervisor immediately, even if the job seems urgent\n• Keep bystanders and colleagues well clear of autonomous equipment operating zones",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Essential points to carry with you",
+          "slidecontent": "• AI in heavy machinery can act faster than any human can react, making pre-checks critical\n• Always verify sensor data manually before trusting an automated decision\n• Autonomous equipment still needs a trained human nearby\n• Know your override controls before the machine moves\n• Report every near-miss, even if the system \"corrected itself\"\n• Start small, one automated feature at a time, until you understand how it behaves in your conditions",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to \"When AI Meets Heavy Machinery.\" This course is about something that is happening right now, in fields, on construction sites, and deep underground. Artificial intelligence is no longer just answering questions or recommending films. It is actively controlling real, physical machines, things like tractors ploughing farmland, drilling rigs boring into the earth, and diggers moving tonnes of soil. And when those systems make a mistake, the consequences are not just an inconvenient error message on a screen. People can get hurt, equipment can be destroyed, and entire operations can go wrong very quickly. What makes this particularly challenging is that many of the risks are not obvious. They are hidden inside algorithms, buried in data, or tucked away in the gap between what the AI was designed to do and what actually happens in the real world. So throughout this course, we are going to shine a light on exactly those risks, and explain why they matter so much.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "Let's talk about something that really matters here, because when AI is controlling heavy machinery, the stakes couldn't be higher. One of the biggest concerns is that the sensors these machines rely on can stop working without any warning at all. And when a machine can't sense its environment properly, it might completely misread the ground it's operating on, perhaps thinking a slope is flat, or missing an obstacle entirely. The real danger is that workers nearby often have no idea this is happening. They assume the machine is functioning correctly, and that's when accidents occur. There's also a growing issue with software updates being pushed out remotely. These updates can introduce unexpected glitches, and suddenly a machine behaves in ways nobody anticipated. And if there's no human operator close enough to step in and take manual control, things can escalate very quickly. These aren't theoretical risks. They are happening on real sites right now, and that's exactly why this course exists.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So let us think about what actually changes when we hand control over to an autonomous machine. With a self-driving tractor or an automated drilling rig, there is no longer a person sitting in the cab making real-time judgements about what is happening around them. Instead, sensors and algorithms are making decisions in fractions of a second, and those decisions are invisible to the people working nearby. The trouble is, these systems are only as good as the conditions they were trained on. Put them in an unexpected situation, and they can behave in ways nobody anticipated. And here is the really subtle danger: a machine can look perfectly normal, moving smoothly and quietly, while it is actually heading toward a serious hazard. On top of that, workers nearby tend to assume the machine knows what it is doing, so they lower their guard. That false sense of security is where a lot of the hidden risk actually lives.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "Think of sensors as the eyes and ears of any AI-controlled machine. They're constantly reading the environment, picking up obstacles, tracking position, and monitoring the terrain ahead. But here's the problem: those sensors can fail quietly. Dirt builds up, dust settles over a lens, vibration loosens a connection, and there's no flashing warning light to tell you something's wrong. When that happens, the AI doesn't just pause and wait for help. It carries on, making decisions based on whatever incomplete or inaccurate information it still has. That's what we mean by a blind spot. The machine genuinely cannot see part of its environment, and it doesn't know what it's missing. On a busy site, that can lead to some very dangerous outcomes very quickly. So sensor maintenance isn't just a technical nicety. It's a genuine safety priority, every bit as important as checking your hydraulics or your brakes. Regular checks can quite literally save lives.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "Now, AI systems on heavy machinery rely almost entirely on sensors to understand the world around them. But sensors are physical components, and physical components can fail in all sorts of ways. Something as simple as a layer of mud or dust on a sensor lens can completely block its view. Rain can distort the distance readings that the machine depends on to judge how far away something is. Vibration from the machine itself, over time, can knock sensors slightly out of alignment, so they are no longer pointing where they should be. And even when sensors are working perfectly, there are often dead zones, areas the sensors simply cannot see, where an obstacle could be hiding. When any of this happens, the AI is not getting accurate information, and that is where things get dangerous. A system acting on faulty or incomplete data can make entirely the wrong decision, sometimes with serious consequences. So sensor reliability is absolutely fundamental to safe AI operation.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "Now, all of that AI intelligence we've been talking about depends entirely on one thing: the sensors feeding it information. And here's the problem. Sensors are physical components, and physical components fail. Something as simple as a layer of mud or dust on a lens can completely blind a camera or proximity sensor. GPS signals, which many machines rely on for positioning, can drop without warning, especially near tall structures or in remote areas. Bright sunlight can wash out camera feeds, and in cold conditions, frozen sensors can actually report incorrect readings, meaning the machine thinks everything is fine when it isn't. And then there are blind spots, areas around the machine that no sensor is covering at all, where an obstacle or a person could go completely undetected. So when we talk about AI-powered machinery, we always need to ask: what happens when the eyes and ears of that system stop working properly? That's a critical question for anyone operating or managing this equipment.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about what you can actually do, day to day, to stay safe around AI-assisted machinery. First, always read the operator manual before you work alongside any of these machines. Each system is different, and the manual tells you exactly how it behaves. At the start of every shift, take a moment to check that sensors and cameras are clean and clear, because a dirty lens can blind the system completely. Make sure you stay visible at all times, wear your high-vis, and never assume the machine has spotted you just because it should have. Always confirm it has. If the machine starts behaving oddly, report it to your supervisor straight away, even if you feel pressure to crack on with the job. And please, keep colleagues and bystanders well away from any zones where autonomous equipment is operating. These are simple habits, but followed consistently, they could genuinely save a life.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So before we wrap up this lesson, let's pull together the things that really matter. AI-driven machinery can react in milliseconds, which is why your pre-shift checks are so important. Never just trust what the system is telling you. Get eyes on those sensors yourself. And even when a machine is running autonomously, a qualified person needs to be present and ready to step in. That means knowing where your override controls are before anything starts moving, not after. If something goes wrong and the system catches it, please still report it. A near-miss is a near-miss, even if no harm was done. Finally, don't try to adopt everything at once. Pick one automated feature, get comfortable with how it behaves in your specific environment, and build from there. These points are not complicated, but they are the difference between working safely alongside AI and being caught off guard by it.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Content Recommendation Systems",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Bias, echo chambers, and audience manipulation.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how streaming, social media, or online publishing platforms work is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify how AI-driven recommendation systems operate across publishing, film, advertising, and gaming, and explain the key concepts of algorithmic bias, echo chambers, and audience manipulation. You will also apply practical frameworks to recognise and critically evaluate the ethical implications of content recommendation technologies in real-world media and entertainment contexts.",
+  "lessons": [
+    {
+      "lesson title": "AI in Content Recommendation Systems",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence powers the content recommendation systems used by streaming platforms, social media networks, and news websites to decide what you see and when you see it. You will learn how these systems are built, what data they rely on, and why they so often reflect and reinforce existing biases rather than offering a balanced view of the world. We will look at the concept of echo chambers, examining how recommendation algorithms can gradually narrow the range of content a person encounters and shape their opinions without them realising it. The lesson also considers the ethical questions around audience manipulation, including how platforms use AI to maximise engagement in ways that do not always serve the best interests of their users. By the end, you will have a clearer understanding of the forces shaping your online experience and the questions worth asking about the systems that influence what you read, watch, and believe.",
+      "status": "draft",
+      "content": "Bias, echo chambers, and audience manipulation.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI Recommendation Systems",
+          "subtitle": "How algorithms shape what we see",
+          "slidecontent": "• Recommendation systems are the algorithms that decide what content appears in your feed, queue, or search results\n• Used by platforms like Netflix, YouTube, Spotify, and TikTok\n• Powered by AI\n• They analyse your behaviour (clicks, watch time, likes) to predict what you will engage with next\n• Billions of content decisions made every day, with no human editor involved\n• The goal is to keep you on the platform as long as possible, not necessarily to inform or serve you well"
+        },
+        {
+          "number": 2,
+          "slidetitle": "How Recommendation Algorithms Work",
+          "subtitle": "Matching Content to User Behaviour Patterns",
+          "slidecontent": "• Recommendation algorithms analyse your past behaviour (clicks, watch time, likes) to predict what you will engage with next\n• They group users into clusters based on shared interests and habits\n• Content is ranked by predicted engagement, not quality or accuracy\n• Popularity matters too\n• The more you interact, the more the system narrows its view of who you are"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Filter Bubbles and Echo Chambers",
+          "subtitle": "When algorithms narrow what we see",
+          "slidecontent": "• Algorithms favour familiar content\n• New ideas get filtered out\n• Your feed becomes an echo\n• Diversity shrinks over time\n• Bias quietly goes unchallenged"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Filter Bubbles and Echo Chambers",
+          "subtitle": "When Algorithms Narrow Our World View",
+          "slidecontent": "• Algorithms show you similar content\n• You see less opposing views\n• Beliefs get quietly reinforced\n• Diversity of ideas shrinks\n• Your world view narrows gradually"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Filter Bubbles and Echo Chambers",
+          "subtitle": "When Algorithms Narrow Our World View",
+          "slidecontent": "• Recommendation algorithms learn from your past behaviour and keep serving similar content\n• Over time, this creates a \"filter bubble\" where you rarely encounter opposing views\n• Echo chambers form\n• Users may mistake their curated feed for a complete picture of reality\n• Personalisation that feels helpful can quietly limit exposure to diverse perspectives"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Filter Bubbles and Echo Chambers",
+          "subtitle": "When Algorithms Narrow Our World View",
+          "slidecontent": "• Algorithms show you similar content\n• New ideas get filtered out\n• Your feed becomes an echo chamber\n• Opinions feel more extreme over time\n• Diversity of thought shrinks"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Addressing Bias and Manipulation",
+          "subtitle": "Reducing Unfair Influence in AI Systems",
+          "slidecontent": "• AI learns from biased data\n• Bias shapes what users see\n• Echo chambers form quickly\n• Diverse content reduces bias\n• Audit systems regularly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Recommendation systems learn from your behaviour, which means they can quietly narrow what you see over time\n• Bias in, bias out\n• Echo chambers form gradually, often without users realising anything has changed\n• Platforms have commercial incentives that do not always align with showing you a balanced or accurate picture\n• Small, deliberate choices (seeking out opposing views, clearing watch history) can disrupt the cycle\n• As a next step, audit one platform you use regularly and notice what it never shows you"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in content recommendation systems. Let's start with the basics. Every time you open Netflix, YouTube, Spotify, or TikTok, something is quietly working behind the scenes, deciding what you see next. That something is a recommendation system, and it is powered by artificial intelligence. These algorithms are constantly watching how you behave on a platform: what you click on, how long you watch, what you skip, what you like. From all of that, they build a picture of you and use it to predict what will keep you engaged. And this is happening at an enormous scale, with billions of these decisions being made every single day, none of them involving a human editor. Now, here is something worth holding in mind throughout this course: the primary goal of these systems is not to inform you or serve your best interests. It is to keep you on the platform for as long as possible. That distinction matters quite a lot."
+        },
+        {
+          "number": 2,
+          "script": "So how do these recommendation systems actually work? At their core, they are constantly watching what you do. Every click, every video you finish, every post you like or scroll past, all of that behaviour is being recorded and analysed. The system then looks for patterns, grouping you together with other users who behave in similar ways. Based on that, it predicts what you are likely to engage with next and ranks content accordingly. And here is something really important to understand: the system is not asking whether content is accurate or high quality. It is asking whether you will click on it. Popular content also gets a boost, simply because lots of other people engaged with it. Now, the more you interact, the more the system builds a very specific picture of who it thinks you are. Over time, that picture can become quite narrow. That idea is something we will keep coming back to throughout this course."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the most important things to understand about recommendation algorithms is what happens over time. These systems are designed to show you content you already enjoy, which sounds helpful, right? But here is the problem. The more you engage with certain ideas or viewpoints, the more the algorithm learns to serve you similar content. Gradually, anything outside that comfort zone gets pushed further and further away. Your feed starts to feel like a room where everyone agrees with you, and that is what we call a filter bubble or an echo chamber. New perspectives rarely get a look in, and because everything you see tends to confirm what you already believe, any biases you hold simply go unchallenged. You are not necessarily aware this is happening, which is what makes it so significant. As we explore recommendation systems throughout this course, keeping this effect in mind will help you think more critically about the content these tools surface."
+        },
+        {
+          "number": 4,
+          "script": "Now, here's where things get a little uncomfortable. When recommendation algorithms keep showing you content that's similar to what you've already engaged with, something subtle starts to happen. You naturally see less and less of the views and opinions that challenge your own. And because the algorithm is quietly reinforcing what you already believe, it can feel like everyone around you thinks the same way. But that's not reality, that's the filter bubble at work. Over time, the range of ideas and perspectives you're exposed to genuinely shrinks, and your understanding of the world starts to narrow without you even noticing it. It's a bit like only ever reading one newspaper for years and assuming it represents the full picture. The algorithm isn't doing this to be malicious, it's simply doing what it was designed to do, keep you engaged. But it's worth being aware of the effect that has on how we see the world."
+        },
+        {
+          "number": 5,
+          "script": "So here's where things get a little uncomfortable. Recommendation algorithms are designed to learn what you like and keep giving you more of it. That sounds great on the surface, but over time it creates what researchers call a \"filter bubble.\" Essentially, the algorithm quietly starts hiding content that doesn't match your existing preferences or beliefs. And when lots of people with similar views are all being fed the same kind of content, you get an echo chamber, where those views just keep bouncing back and forth, getting reinforced without any real challenge. The tricky part is that most users don't even notice this is happening. Your feed feels perfectly normal, maybe even well-informed, but it's actually a very curated slice of reality. So personalisation, which is meant to be helpful, can end up quietly narrowing your world view without you ever realising it. That's a genuinely important thing to be aware of."
+        },
+        {
+          "number": 6,
+          "script": "Now, here's where things get a little uncomfortable. When recommendation algorithms keep showing you content similar to what you've already engaged with, they gradually start filtering out anything that challenges your existing views. It's a bit like only ever reading one newspaper for the rest of your life. Over time, your feed becomes what's often called an echo chamber, a space where the same ideas bounce around and get reinforced, again and again. And because you're rarely exposed to different perspectives, your own opinions can start to feel more certain, more absolute, even more extreme, simply because nothing is pushing back against them. This is what researchers refer to as a filter bubble, and it's one of the most significant criticisms of AI-driven recommendation systems. The algorithm isn't trying to manipulate you, it's just doing its job, but the side effect is a gradual narrowing of the world you see online."
+        },
+        {
+          "number": 7,
+          "script": "Now, one of the most important challenges we need to talk about is bias. When an AI system learns from historical data, it picks up the patterns and prejudices already baked into that data. So if certain types of content were historically favoured, the AI will keep pushing more of the same. Over time, this shapes what users actually see, often without them realising it. And here is where it gets a bit concerning: echo chambers can form surprisingly quickly. Users end up in a bubble, only ever seeing content that reinforces what they already believe or enjoy. So what can we do about it? Well, two things really help. First, deliberately introducing more diverse content into the recommendations breaks that cycle and gives users a broader experience. Second, and this is crucial, organisations need to audit their systems on a regular basis. That means actively checking for bias and correcting it before it causes real harm."
+        },
+        {
+          "number": 8,
+          "script": "So let's pull together the key ideas from this lesson. Recommendation systems are constantly learning from what you click, watch, and ignore, and over time that can quietly shrink the range of content you actually see. Remember the principle: bias in, bias out. If the data feeding these systems reflects skewed patterns, the recommendations will too. Echo chambers tend to creep up on people gradually, so most users never notice it happening. It's also worth keeping in mind that platforms are businesses, and their goals do not always line up with giving you a well-rounded or accurate view of the world. The good news is that small, conscious actions, like actively seeking out different perspectives or resetting your watch history, can genuinely disrupt those patterns. So here is something practical to try: pick one platform you use regularly and ask yourself what it never seems to show you. That question alone can be quite revealing."
+        }
+      ]
+    }
+  ]
+}

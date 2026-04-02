@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI-Driven Attacks on Infrastructure Projects",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Manipulation of plans, data, or operational systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering project workflows, along with a general understanding of how digital tools and software are used on infrastructure projects, is all that is required to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI-driven attack methods that target infrastructure and construction projects, and explain how manipulation of plans, data, and operational systems can compromise project integrity. You will also apply practical strategies to recognise vulnerabilities within your organisation's digital workflows and take informed steps to safeguard critical project information against emerging AI-enabled threats.",
+  "lessons": [
+    {
+      "lesson title": "AI-Driven Attacks on Infrastructure Projects",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is increasingly being used to target infrastructure projects through the manipulation of plans, data, and operational systems. You will learn how malicious actors can exploit AI tools to alter engineering designs, corrupt project data, or interfere with the systems that keep critical infrastructure running. The lesson breaks down real-world scenarios in plain language, making it accessible even if you have no prior technical background. By the end, you will have a clearer understanding of the risks involved and why recognising these threats is an essential first step in protecting the projects and systems we all depend on.",
+      "status": "draft",
+      "content": "Manipulation of plans, data, or operational systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI Attacks on Infrastructure Projects",
+          "subtitle": "When AI Becomes a Project Threat",
+          "slidecontent": "• AI can target projects\n• Plans and data at risk\n• Threats are growing fast\n• Anyone can be affected\n• Knowledge is your defence"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising the Threat Landscape",
+          "subtitle": "How AI Exploits Critical Project Vulnerabilities",
+          "slidecontent": "• AI tools can scan project data at speed, identifying weaknesses humans would likely miss\n\n• Attackers target design files, schedules, and cost models\n\n• Even small data changes can cascade into costly structural or operational failures\n\n• Supply chain systems are a common entry point\n\n• Manipulation is often subtle, making early detection difficult without the right controls in place"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Targeting Critical Infrastructure Systems",
+          "subtitle": "Why Infrastructure Systems Are Prime Targets",
+          "slidecontent": "• Critical infrastructure includes power grids, water systems, transport networks, and hospitals\n• Disrupting these systems causes immediate, widespread harm to large populations\n• Highly interconnected\n• Operational data (schedules, sensor readings, control commands) is extremely valuable to attackers\n• Many infrastructure systems rely on legacy technology with known security weaknesses\n• Even small manipulations to plans or data can trigger costly failures or safety incidents"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Manipulating Plans and Data",
+          "subtitle": "How attackers falsify critical project information",
+          "slidecontent": "• Fake blueprints replace real ones\n• Cost figures get altered silently\n• Deadlines shift without approval\n• Safety data quietly removed\n• Corrupted files look legitimate"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Exploiting Operational Systems and Data",
+          "subtitle": "Targeting Systems at the Heart of Operations",
+          "slidecontent": "• Sensors feed false readings\n• Controls get hijacked remotely\n• Schedules and plans altered\n• Safety systems bypassed silently\n• Data logs quietly corrupted"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Disrupting Operational Systems With AI",
+          "subtitle": "How AI Targets Critical Control Systems",
+          "slidecontent": "• AI disrupts industrial control systems\n• Fakes sensor readings remotely\n• Triggers false equipment alarms\n• Overrides automated safety controls\n• Causes physical infrastructure damage"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Against AI Threats",
+          "subtitle": "Strategies to Safeguard Critical Systems",
+          "slidecontent": "• Regular audits of AI-integrated systems to catch unusual changes in project data or plans\n• Multi-factor authentication on all operational platforms\n• Training staff to recognise suspicious automated activity or unexpected system behaviour\n• Separating critical infrastructure controls from general network access\n• Clear incident response procedures tested before a real attack occurs\n• Keeping human oversight at every key decision point in automated workflows"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying vigilant today",
+          "slidecontent": "• AI can silently alter plans, data, and operational systems without obvious signs of tampering\n• Verify critical project files through independent channels, not just digital records\n• Small, incremental changes are harder to spot\n• Train your team to question unexpected updates or approvals that arrive through automated systems\n• Audit trails matter, so protect and review them regularly\n• Start today by identifying the three most vulnerable data points in your current project"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI-driven attacks on infrastructure projects. Now, when most people hear the word \"AI,\" they think about helpful tools, automation, things that make life easier. But there is a darker side to this technology that we really need to talk about. Artificial intelligence is increasingly being used as a weapon, and infrastructure projects are very much in the firing line. Your project plans, your schedules, your sensitive data, all of it can be targeted. And what makes this particularly concerning is that the threat is growing rapidly. This is not something that only affects large corporations or government bodies either. Organisations of every size are vulnerable. The good news is that you do not need to be a cybersecurity expert to protect yourself and your projects. Understanding how these threats work is genuinely your strongest line of defence, and that is exactly what this course is here to help you with. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by understanding what we're actually up against. AI gives attackers a significant advantage because it can process enormous amounts of project data incredibly quickly, spotting vulnerabilities that a human analyst might easily overlook. And the targets aren't random. Attackers tend to go after the things that matter most to a project, things like design files, scheduling data, and cost models. What makes this particularly concerning is that even a small, seemingly insignificant change to that data can trigger a chain reaction, leading to serious structural problems or costly operational failures down the line. Supply chain systems are especially attractive entry points, because they connect so many different organisations and platforms. Perhaps the most unsettling part is that this kind of manipulation is often very subtle. There's no obvious alarm going off. Without the right controls in place, these changes can go unnoticed until the damage is already done. That's what we'll be exploring throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So why do attackers focus so heavily on critical infrastructure? Well, think about the systems that keep society running day to day: power grids, water treatment, transport networks, hospitals. If any of these are disrupted, the impact is immediate and it affects enormous numbers of people. What makes these systems particularly attractive to attackers is how deeply interconnected they are. A problem in one area can quickly ripple across others. On top of that, the operational data these systems generate, things like sensor readings, control commands, and scheduling information, is incredibly valuable to anyone with malicious intent. There is also a significant vulnerability issue. Many infrastructure systems were built decades ago and still rely on older technology that was never designed with modern cyber threats in mind. And here is the really concerning part: attackers do not always need to cause obvious damage. Even a small, subtle manipulation to data or plans can trigger serious failures or dangerous safety incidents down the line."
+        },
+        {
+          "number": 4,
+          "script": "Now let's look at one of the more unsettling tactics attackers use, which is quietly manipulating the actual plans and data behind a project. Imagine a contractor opens what looks like the latest set of blueprints, but they have actually been swapped out for a falsified version. Nobody notices, because the file looks completely legitimate. The same thing can happen with costs, where figures get nudged up or down without anyone signing off on the change. Deadlines can be shifted in project management systems, again with no approval trail. Perhaps most dangerously, safety-critical information can simply be removed from documents, so the people on the ground are working without the full picture. And because AI can generate convincing, polished files, none of this looks suspicious at first glance. The core problem here is trust. We tend to assume that a file sitting in our system is the right one. These attacks exploit exactly that assumption."
+        },
+        {
+          "number": 5,
+          "script": "Now let's look at what happens when attackers get inside the operational systems that keep an infrastructure project running day to day. These are the systems that monitor conditions, control equipment, and keep everything coordinated. When AI-driven attacks target them, the effects can be subtle but devastating. Imagine sensors quietly feeding incorrect readings to operators, so decisions are being made based on completely false information. Or think about control systems being hijacked remotely, with an attacker effectively sitting at the wheel without anyone realising. Project schedules and plans can be altered in ways that cause costly delays or dangerous misalignments. Even more worrying, safety systems can be silently bypassed, removing the very protections that are there to prevent accidents. And all the while, data logs are being corrupted in the background, so when something does go wrong, there is no reliable record of what actually happened. These attacks are designed to be invisible for as long as possible."
+        },
+        {
+          "number": 6,
+          "script": "Now let's look at how AI can actually interfere with the physical systems that keep our infrastructure running. Modern facilities like power stations, water treatment plants, and factories rely on industrial control systems to manage their operations automatically. What AI-driven attacks can do is manipulate those systems in really dangerous ways. For example, an attacker could use AI to feed false data into sensors, making operators believe everything is running normally when it absolutely isn't. It can trigger fake alarms, which causes confusion and wastes valuable response time. Even more seriously, it can override the automated safety controls that are specifically designed to prevent accidents and equipment failures. And when those protections are removed or bypassed, the consequences can move beyond the digital world entirely and result in real, physical damage to infrastructure. So we're not just talking about data breaches here. We're talking about AI being used as a tool to cause genuine harm in the physical environment around us."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the threat, let's talk about what we can actually do about it. Protecting your infrastructure from AI-driven attacks comes down to a few practical habits. First, audit your systems regularly so you can spot anything that looks out of place, whether that's unexpected changes to project data or unusual automated behaviour. Make sure every platform requires multi-factor authentication, and train your staff to recognise when something just does not feel right. It is also worth keeping your critical controls physically and digitally separate from your general network, so an attacker cannot simply walk through one open door and reach everything. Have a clear incident response plan ready, and actually test it before you need it. And perhaps most importantly, keep human beings involved at every significant decision point. Automation is powerful, but a person in the loop can catch what a machine might miss. These steps together give you a much stronger foundation against these kinds of threats."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core lessons to carry forward. The big thing to understand is that AI-driven attacks are often invisible. There are no obvious signs of tampering, which is exactly what makes them so dangerous. Files get quietly altered, data shifts slightly, and automated approvals slip through unchallenged. So the first habit to build is verification through independent channels, not just trusting what the digital record says. And pay close attention to small, incremental changes, because those are the ones most likely to go unnoticed. Make sure your team knows to question anything unexpected that arrives through an automated system, even if it looks perfectly routine. Protect your audit trails and review them regularly, because they are your best evidence when something goes wrong. And here is your practical starting point for today: identify the three most vulnerable data points in your current project. That single exercise will sharpen your awareness considerably."
+        }
+      ]
+    }
+  ]
+}

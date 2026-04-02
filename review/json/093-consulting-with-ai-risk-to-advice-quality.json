@@ -1,0 +1,105 @@
+{
+  "Course Title": "Consulting with AI: Risk to Advice Quality",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "How AI can weaken critical thinking and originality.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with professional consulting or advisory work in any finance or professional services setting, along with a general awareness of AI tools such as chatbots or writing assistants.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways that AI tools can weaken critical thinking and reduce the originality of professional advice across finance and consulting contexts. You will also be able to apply practical strategies to evaluate AI-generated outputs responsibly, ensuring your client recommendations remain accurate, independent, and fit for purpose.",
+  "lessons": [
+    {
+      "lesson title": "Consulting with AI: Risk to Advice Quality",
+      "order": 1,
+      "Description": "This lesson explores how the growing use of AI tools in consulting and advisory work can quietly erode the quality of professional advice. When consultants rely too heavily on AI-generated content, they risk producing recommendations that lack originality, depth, and genuine critical thinking. We will look at the specific ways AI can introduce subtle weaknesses into your work, from over-reliance on generic outputs to the gradual dulling of your own analytical skills. By understanding these risks, you will be better placed to use AI responsibly and maintain the high standards your clients expect. This lesson is designed to be accessible for beginners, with practical examples drawn from real consulting scenarios.",
+      "status": "draft",
+      "content": "How AI can weaken critical thinking and originality.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Consulting with AI: An Introduction",
+          "subtitle": "When AI shapes the advice we give.",
+          "slidecontent": "• AI tools now widely used to support professional advice and recommendations\n• Fast, confident-sounding outputs that can feel authoritative\n• Easy to accept without question\n• Risk of weakening the critical thinking that good advice depends on\n• Originality and professional judgement quietly eroded over time"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Over-Reliance on AI Outputs",
+          "subtitle": "When AI thinking replaces your own",
+          "slidecontent": "• Accepting AI-generated answers without questioning the reasoning behind them\n• Skipping your own analysis\n• Treating AI output as a final answer rather than a starting point for professional judgement\n• Gradual erosion of the habit of thinking critically through problems independently\n• Client advice shaped more by algorithmic patterns than by your expertise and context"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Over-Reliance on AI Outputs",
+          "subtitle": "When AI answers replace your judgement",
+          "slidecontent": "• AI answers feel authoritative\n• You stop questioning outputs\n• Judgement quietly switches off\n• Errors go unnoticed\n• Advice quality drops fast"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Over-Reliance on AI Outputs",
+          "subtitle": "When AI thinking replaces your own",
+          "slidecontent": "• Accepting AI answers without question\n• Skipping your own analysis\n• Losing professional judgement\n• Advice becomes generic, hollow\n• Your expertise fades fast"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Over-Reliance on AI Outputs",
+          "subtitle": "When AI Thinking Replaces Your Own",
+          "slidecontent": "• Accepting AI-generated answers without questioning the reasoning behind them\n• Skipping your own analysis\n• Gradual erosion of the habit of forming independent judgements before consulting a tool\n• Presenting AI output as your own considered advice without verification\n• Over time, reduced confidence in your own expertise"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Over-Reliance on AI Outputs",
+          "subtitle": "When AI thinking replaces your own.",
+          "slidecontent": "• Accepting AI-generated answers without questioning the reasoning behind them\n• Skipping your own analysis\n• Treating AI output as a final answer rather than a starting point for professional judgement\n• Gradual erosion of the habit of thinking independently through repeated over-reliance\n• Client advice shaped by AI assumptions, not your expertise"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Your Advice Quality",
+          "subtitle": "Safeguard Thinking, Strengthen Every Recommendation",
+          "slidecontent": "• Verify every AI suggestion\n• Cross-check with trusted sources\n• Apply your own judgement always\n• Question outputs, not just accept\n• Document your independent reasoning"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles for confident, independent advice.",
+          "slidecontent": "• Think first, then check AI\n• Your judgement matters most\n• Verify every AI claim\n• Own your advice always\n• Stay curious, stay critical"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on consulting with AI and what it means for the quality of the advice we give. AI tools have become a regular part of how many professionals work now. Whether you're drafting recommendations, researching options, or preparing guidance for a client, there's a good chance AI is somewhere in that process. And on the surface, that seems like a real advantage. These tools are fast, they sound confident, and the outputs can feel polished and authoritative. The problem is that when something sounds that credible, it's very easy to accept it without stopping to think critically. Over time, that habit can quietly erode the very things that make professional advice valuable, your own judgement, your original thinking, and your ability to weigh up a situation properly. This course is about helping you stay aware of that risk, so you can use AI as a useful tool without letting it undermine the quality of the advice you give."
+        },
+        {
+          "number": 2,
+          "script": "One of the biggest risks when using AI in your consulting work is simply relying on it too heavily. It can be tempting to take whatever the AI produces and run with it, without stopping to question whether the reasoning actually holds up. When that happens, you start skipping your own analysis, and the AI's output becomes the final word rather than a starting point. Over time, this quietly erodes something really important: your habit of thinking critically through problems yourself. And that matters enormously for your clients, because the advice they receive should be shaped by your professional judgement, your knowledge of their specific situation, and your expertise. Not by patterns an algorithm has picked up from data. AI can be a genuinely useful tool, but it works best when you stay in the driving seat. Your thinking needs to come first, and the AI should support that, not replace it."
+        },
+        {
+          "number": 3,
+          "script": "One of the most subtle risks with AI tools is how quickly we start to trust them without question. The responses often sound confident and well-structured, so it feels natural to accept them at face value. But here is where things get dangerous. When you stop questioning what the AI gives you, your own professional judgement starts to fade into the background. You are no longer actively thinking through the problem; you are simply passing on what the tool has produced. And AI tools do make mistakes. They can misunderstand context, present outdated information, or give answers that sound plausible but are simply wrong. If you are not critically reviewing the output, those errors will slip straight through into your advice. The result is that your advice quality can deteriorate quite quickly, often without you even realising it is happening. So the habit of staying mentally engaged, even when the AI sounds convincing, is absolutely essential."
+        },
+        {
+          "number": 4,
+          "script": "The biggest trap people fall into with AI is simply accepting whatever it produces without stopping to think critically. You ask a question, you get an answer, and it sounds confident and well-structured, so you go with it. But here is the problem: when you stop doing your own analysis, when you stop applying your professional judgement to what the AI gives you, the quality of your advice starts to suffer. It becomes generic. It could have been written for anyone, because in a sense, it was. Your clients are not just paying for information they could find elsewhere. They are paying for your expertise, your experience, your ability to read a situation and respond to it thoughtfully. And if you are not exercising that muscle regularly, it weakens. Over-reliance on AI does not just risk one piece of bad advice. Over time, it quietly erodes the very thing that makes you valuable as a professional."
+        },
+        {
+          "number": 5,
+          "script": "One of the biggest risks with AI tools is that they can quietly start doing your thinking for you. It begins simply enough: you get an answer, it sounds reasonable, and you move on without really questioning whether the reasoning behind it is sound. Over time, you might find yourself skipping your own analysis altogether, going straight to the AI rather than forming your own view first. That habit matters more than it might seem, because professional judgement is like a muscle. If you stop using it, it weakens. There is also a real risk of presenting AI output as your own considered advice, without checking whether it actually holds up in your specific context. And perhaps the most subtle consequence of all is that, gradually, you start to lose confidence in your own expertise. You begin to doubt yourself in situations where, actually, your knowledge and experience should be leading the way."
+        },
+        {
+          "number": 6,
+          "script": "One of the biggest risks we see with AI in professional practice is over-reliance, and it can creep up on you gradually. It starts with accepting what the AI tells you without really questioning whether the reasoning behind it is sound. Then you find yourself skipping your own analysis altogether, treating the output as a finished answer rather than a prompt for your own professional judgement. The danger here is that over time, if you keep doing this, you actually start to lose the habit of thinking independently. That critical thinking muscle weakens through lack of use. And the real consequence? Your clients end up receiving advice that reflects the assumptions baked into an AI model, rather than your knowledge, your experience, and your understanding of their specific situation. AI can be a genuinely useful tool, but it should always be the starting point for your thinking, never the replacement for it."
+        },
+        {
+          "number": 7,
+          "script": "So we've talked about the risks, and now let's focus on what you can actually do to protect the quality of your advice. The starting point is simple: never just accept what an AI tool gives you. Treat every suggestion as a first draft that needs your scrutiny. Go back to your trusted sources, your professional guidelines, your own experience, and check whether the output actually holds up. And crucially, apply your own judgement every single time. AI can generate a response that sounds completely confident and still be wrong, so it's your job to question it rather than simply pass it on. One of the most practical habits you can build is documenting your own reasoning separately. Write down why you reached the conclusion you did, independent of what the AI produced. That way, your advice is genuinely yours, it's defensible, and it reflects the professional standards your clients deserve. That's how you stay in control."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few core principles to carry forward. Before you even open an AI tool, do your own thinking first. Form a view, then use AI to sense-check or explore further. That way, you stay in the driving seat. And remember, your professional judgement is the most valuable thing you bring to any client conversation. AI does not replace that. Whatever AI gives you, treat it as a starting point, not a final answer. Check the facts, verify the sources, and make sure the information holds up. Most importantly, own your advice. If you put your name to it, it needs to reflect your thinking and your standards, not just something a machine generated. And finally, stay curious and stay critical. The landscape is changing quickly, so keep asking questions, keep learning, and never switch off that professional scepticism. Those habits will serve you and your clients well."
+        }
+      ]
+    }
+  ]
+}

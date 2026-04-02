@@ -1,0 +1,105 @@
+{
+  "Course Title": "Insecure AI API Integrations",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Risks when connecting applications to external AI services.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic understanding of how web applications work, including familiarity with APIs and HTTP requests, along with some experience using or integrating third-party services in a software project.",
+  "Learning objectives": "By the end of this course, you will be able to identify common security vulnerabilities that arise when integrating external AI services into applications, and explain the potential risks these weaknesses pose to data privacy and system integrity. You will also be able to apply practical strategies to assess, mitigate, and manage those risks, helping you build more secure and resilient AI-powered integrations.",
+  "lessons": [
+    {
+      "lesson title": "Insecure AI API Integrations",
+      "order": 1,
+      "Description": "When you connect an application to an external AI service, you introduce a range of security risks that are easy to overlook, especially if you are new to working with APIs. This lesson explores the most common vulnerabilities that arise from insecure AI API integrations, including exposed API keys, insufficient input validation, and overly permissive access controls. You will learn how sensitive data can be leaked or misused when integrations are not properly secured, and why these risks are particularly significant when AI services are involved. By the end of this lesson, you will have a clearer understanding of the practical steps you can take to protect your applications and the data they handle. No prior security expertise is required, just a willingness to think carefully about how your integrations are built and configured.",
+      "status": "draft",
+      "content": "Risks when connecting applications to external AI services.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Insecure AI API Integrations",
+          "subtitle": "Risks of connecting apps to AI",
+          "slidecontent": "• Apps increasingly rely on external AI services to add smart features\n• These connections introduce new security risks many developers overlook\n• Sensitive data can leak through poorly configured API calls\n• Attackers can manipulate inputs to hijack AI behaviour\n• Real consequences include data breaches, compliance failures, and reputational damage"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of AI API Connections",
+          "subtitle": "What can go wrong and why",
+          "slidecontent": "• Exposed API keys granting unauthorised access to your AI service account\n• Data leakage when sensitive user inputs are sent to third-party servers\n• Prompt injection attacks manipulating AI responses\n• Overly broad permissions allowing attackers to abuse connected systems\n• No visibility into how external providers store or process your data\n• Unexpected costs from unthrottled or hijacked API usage"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks of Insecure AI APIs",
+          "subtitle": "What can go wrong, and why.",
+          "slidecontent": "• Exposed API keys granting attackers full access to your AI service account\n• Data leakage through poorly secured request and response payloads\n• Excessive costs from unauthorised or runaway API usage\n• Prompt injection attacks manipulating AI behaviour in unexpected ways\n• No audit trail when logging and monitoring are overlooked\n• Compliance violations if sensitive user data crosses unsecured API boundaries"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Hardcoding Secrets in Requests",
+          "subtitle": "Exposing Keys Directly in Your Code",
+          "slidecontent": "• API keys visible in code\n• Anyone can steal them\n• Commits expose secrets permanently\n• Leaked keys cost money\n• Rotate keys immediately if exposed"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Hardcoding Secrets in Requests",
+          "subtitle": "Secrets exposed in plain sight",
+          "slidecontent": "• API keys visible in code\n• Anyone can read your repo\n• Keys get stolen quickly\n• Rotate secrets immediately\n• Use environment variables instead"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Securing Your API Connections",
+          "subtitle": "Best practices for safe integration",
+          "slidecontent": "• Always use HTTPS\n• Rotate API keys regularly\n• Restrict key permissions tightly\n• Validate all API responses\n• Log and monitor API calls"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI API Risks",
+          "subtitle": "Practical Steps to Reduce Exposure",
+          "slidecontent": "• Validate all API responses\n• Rotate keys regularly\n• Log every API call\n• Limit API permissions strictly\n• Use HTTPS always"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for secure AI integration",
+          "slidecontent": "• Always validate and sanitise data flowing between your application and any external AI service\n• Never expose raw API keys in client-side code or public repositories\n• Treat AI outputs as untrusted input\n• Apply the principle of least privilege when configuring API access and permissions\n• Log and monitor API calls to detect unusual patterns or unexpected behaviour early\n• Start small, review your integration against an established security checklist before moving to production"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on insecure AI API integrations. These days, it is incredibly common for applications to connect to external AI services, whether that is a chatbot, a recommendation engine, or a language model doing something clever in the background. And while these integrations can add real value, they also open up a whole new set of security risks that many developers simply do not think about. Sensitive information can leak out through poorly written API calls, and attackers can actually manipulate the inputs going into an AI system to make it behave in ways it was never supposed to. The consequences of getting this wrong are very real. We are talking about data breaches, falling foul of data protection regulations, and serious damage to your reputation. So throughout this lesson, we are going to look at exactly where these risks come from and what you can do to protect your applications. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by looking at what can actually go wrong when you connect your application to an AI API, because there are quite a few ways this can go badly. First, if your API keys are exposed, an attacker can use your account as if they were you, racking up costs or accessing sensitive data. Speaking of data, every time a user types something into your app and it gets sent off to a third-party AI service, you need to ask yourself: do you actually know what happens to that information on their servers? There's also a clever attack called prompt injection, where a malicious user crafts their input to manipulate what the AI does or says. On top of that, if your integration has overly generous permissions, attackers can pivot into other connected systems. And finally, without proper rate limiting, a hijacked or misconfigured API connection can generate enormous unexpected bills. These are the core risks we'll be unpacking throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at what can actually go wrong when AI API integrations aren't properly secured, because the risks are more varied than you might expect. The most obvious issue is exposed API keys. If those fall into the wrong hands, an attacker effectively has the run of your AI service account. Beyond that, the data travelling back and forth in your requests and responses can leak sensitive information if it isn't handled carefully. There are also financial risks to consider. Unauthorised or runaway API calls can rack up enormous costs very quickly. Then there's prompt injection, where an attacker manipulates the input to your AI model to make it behave in ways you never intended. If you're not logging and monitoring your API activity, you'll have no record of what happened when something goes wrong. And finally, if sensitive user data is crossing unsecured API boundaries, you could find yourself in serious trouble from a compliance and regulatory standpoint."
+        },
+        {
+          "number": 4,
+          "script": "One of the most common mistakes developers make when working with AI APIs is hardcoding their API keys directly into their source code. It might seem convenient in the moment, but it creates a serious security risk. If your key is sitting right there in your code, anyone who can read that file can simply copy it and use it themselves. And here is where it gets worse: once you commit that code to a version control system like Git, that secret is effectively baked into your history permanently, even if you delete it later. People can and do scan public repositories specifically looking for exposed keys, and when they find yours, they can rack up significant charges on your account before you even notice anything is wrong. So if you ever realise you have accidentally exposed a key, your very first action should be to rotate it immediately, meaning generate a new one and revoke the old one straight away. Prevention is always better, but speed matters enormously when things go wrong."
+        },
+        {
+          "number": 5,
+          "script": "One of the most common mistakes developers make when working with AI APIs is hardcoding their API keys directly into their source code. It looks harmless enough, but the moment that code is pushed to a repository, even a private one, that secret is exposed. Repositories get shared, forked, made public by accident, or simply accessed by someone who should not have that level of visibility. And here is the thing: automated bots are constantly scanning platforms like GitHub, looking specifically for exposed credentials. We are talking minutes, sometimes seconds, before a leaked key is picked up and abused. If you suspect a key has been compromised, rotate it immediately through your API provider's dashboard and revoke the old one. Going forward, the right approach is to store secrets in environment variables, keeping them completely out of your codebase. That one habit alone will protect you from a surprisingly large number of security incidents."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect yourself. First, make sure every connection to an AI API goes over HTTPS, never plain HTTP, because that encrypts the data in transit and stops anyone snooping on your requests. Next, think about your API keys like passwords. You should be rotating them on a regular basis, and if a key is ever exposed, you can revoke it quickly without too much damage. It is also worth restricting what each key is actually allowed to do. If a key only needs read access, do not give it write permissions as well. Once data comes back from the API, do not just trust it blindly. Validate those responses to make sure they look as expected before your application acts on them. And finally, keep logs of your API calls and monitor them for anything unusual. These habits together will significantly reduce your exposure to the risks we have been discussing."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect yourself. First, never blindly trust what an AI API sends back to you. Always validate those responses before your application acts on them. Next, treat your API keys like passwords, and rotate them on a regular basis. If a key does get compromised, you want to limit how long it remains useful. You should also be logging every single API call you make. That audit trail is invaluable when something goes wrong and you need to investigate. On top of that, apply the principle of least privilege to your API permissions. Only grant access to what is absolutely necessary, nothing more. And finally, this one should go without saying, but always use HTTPS. Sending API requests over an unencrypted connection is an open invitation for attackers. These are straightforward, practical steps, and together they significantly reduce your exposure to the risks we have been discussing."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, always treat data moving in and out of an AI service as potentially dangerous, which means validating and sanitising it properly. Keep your API keys out of client-side code and well away from public repositories like GitHub. And here is something people often overlook: just because an AI has generated a response does not mean you should trust it blindly. Treat that output the same way you would treat any unverified input. When you set up access and permissions, give the integration only what it absolutely needs, nothing more. Make sure you are logging your API calls so you can spot anything unusual before it becomes a real problem. And finally, do not rush to production. Start small, and check your integration against a proper security checklist first. These principles are straightforward, but following them consistently is what separates a secure integration from a vulnerable one."
+        }
+      ]
+    }
+  ]
+}

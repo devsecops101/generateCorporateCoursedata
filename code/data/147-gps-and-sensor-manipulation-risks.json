@@ -1,0 +1,105 @@
+{
+  "Course Title": "GPS and Sensor Manipulation Risks",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "How spoofing can mislead AI navigation systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with how GPS and navigation systems are used in everyday transport, such as in vehicles, aircraft, or shipping vessels, though no technical or engineering background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key methods used to spoof GPS and sensor data, and explain how these techniques can mislead AI-driven navigation systems across aviation, maritime, and automotive contexts. You will also be able to apply practical awareness strategies to recognise the warning signs of sensor manipulation and assess the potential risks posed to transportation and logistics operations.",
+  "lessons": [
+    {
+      "lesson title": "GPS and Sensor Manipulation Risks",
+      "order": 1,
+      "Description": "This lesson explores how GPS spoofing and sensor manipulation can deceive AI-powered navigation systems, leading to potentially dangerous outcomes in real-world applications. You will learn what spoofing actually means, how it works in practice, and why modern systems that rely on sensor data are particularly vulnerable to these kinds of attacks. We will look at practical examples of how false signals can mislead autonomous vehicles, drones, and other AI-driven technologies into making incorrect decisions. By the end of this lesson, you will have a clear understanding of the risks involved and why recognising these threats is an important first step in building safer, more resilient navigation systems.",
+      "status": "draft",
+      "content": "How spoofing can mislead AI navigation systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "GPS and Sensor Manipulation Risks",
+          "subtitle": "How spoofing deceives AI navigation systems.",
+          "slidecontent": "• GPS guides AI navigation\n• Sensors feed location data\n• Spoofing fakes those signals\n• AI gets deceived easily\n• Real risks, real consequences"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining GPS Spoofing Attacks",
+          "subtitle": "Manipulating location data to deceive systems",
+          "slidecontent": "• False GPS signals broadcast to override legitimate satellite data\n• Targeted systems believe they are somewhere they are not\n• Cheap, widely available hardware makes spoofing accessible to bad actors\n• Affects vehicles, drones, and AI navigation tools\n• No encryption in standard GPS signals, leaving them vulnerable to interference"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Signal Spoofing Explained",
+          "subtitle": "Deceiving Systems With Fake GPS Signals",
+          "slidecontent": "• Fake signals replace real ones\n• GPS trusts the strongest signal\n• Devices accept false locations\n• No error message appears\n• Navigation goes silently wrong"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spoofing Techniques and Methods",
+          "subtitle": "How attackers falsify location and sensor data.",
+          "slidecontent": "• Fake GPS signals broadcast nearby\n• Sensors receive false coordinates\n• Jammers block real signals\n• Spoofed data overrides true position\n• Attackers mimic trusted sources"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spoofing in Action: Real Scenarios",
+          "subtitle": "Where deception meets real-world consequences",
+          "slidecontent": "• Ships steered off course when fake GPS signals override real positioning data\n• Drones rerouted mid-flight by ground-based signal transmitters\n• Delivery robots confused in urban areas by reflected or spoofed coordinates\n• Autonomous vehicles misidentifying their location on a mapped road network\n• Aviation incidents triggered by false altitude or position readings\n• Small, cheap hardware used to broadcast convincing counterfeit signals"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Detecting and Mitigating Spoofing",
+          "subtitle": "Strategies to identify and counter threats",
+          "slidecontent": "• Cross-check multiple signal sources\n• Watch for sudden position jumps\n• Use signal strength monitoring\n• Trust inertial sensors as backup\n• Report anomalies immediately"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Defending Against GPS Spoofing",
+          "subtitle": "Practical Steps to Strengthen Navigation Security",
+          "slidecontent": "• Cross-checking GPS signals against multiple independent sources such as inertial navigation or visual landmarks\n• Monitoring for sudden, unexplained jumps in position data\n• Signal authentication using cryptographic verification where available\n• Training AI systems to treat inconsistent sensor data as a warning sign rather than a correction\n• Keeping navigation software updated to patch known spoofing vulnerabilities\n• Physical shielding of antenna hardware to reduce exposure to rogue signals"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying vigilant",
+          "slidecontent": "• GPS signals can be faked, and AI navigation systems may follow false data without question\n• Spoofing attacks are real and growing\n• Always cross-check navigation outputs against multiple independent sources when safety is critical\n• Physical sensors like accelerometers can also be manipulated, not just GPS\n• Stay sceptical of sudden, unexplained route changes or sensor readings that seem off\n• As a next step, review the security settings and update procedures for any navigation systems you rely on"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on GPS and sensor manipulation risks. Now, most of us take for granted that our navigation systems know exactly where we are, and increasingly, AI-powered vehicles and systems rely on that same assumption. They use GPS signals and a range of sensors to understand their position and make decisions accordingly. But here is the problem: those signals can be faked. This is called spoofing, and it involves tricking a system into believing it is somewhere it simply is not. Because AI navigation systems are designed to trust the data they receive, they can be deceived surprisingly easily when that data is manipulated. And this is not just a theoretical concern. When an AI system acts on false location information, the consequences can be serious, whether that involves a vehicle going off course, a drone being hijacked, or a logistics system being misled. Throughout this lesson, we will explore how this works and why it matters."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start by understanding exactly what GPS spoofing actually is. At its core, spoofing is about broadcasting fake GPS signals that are strong enough to override the genuine signals coming from satellites. When that happens, the targeted system, whether that's a car, a drone, or an AI navigation tool, genuinely believes it's in a completely different location. And here's what makes this particularly concerning: the hardware needed to do this is cheap and surprisingly easy to get hold of, which means it's not just nation-states or sophisticated criminal organisations we need to worry about. Standard GPS signals were never designed with encryption in mind, so there's no built-in protection to verify whether a signal is legitimate or not. That fundamental weakness is what makes spoofing so effective and so difficult to defend against. As we work through this lesson, keep that vulnerability in mind, because it underpins almost everything else we'll be discussing."
+        },
+        {
+          "number": 3,
+          "script": "So, let us talk about how GPS spoofing actually works, because it is simpler than you might expect. A spoofing attack involves broadcasting fake GPS signals that are stronger than the real ones coming from satellites. And here is the critical thing to understand: GPS receivers are designed to trust the strongest signal they receive. They have no way of verifying whether that signal is genuine. So when a fake signal comes in louder and clearer, the device simply accepts it and calculates a completely false location. What makes this particularly dangerous is that nothing alerts the user. There is no warning, no error message, no indication whatsoever that anything has gone wrong. The device just quietly starts reporting the wrong position. So a vehicle, a drone, or a ship could be navigating based on entirely fabricated data, and the person in control would have absolutely no idea. That silent failure is really what makes spoofing such a serious concern."
+        },
+        {
+          "number": 4,
+          "script": "So, how do attackers actually go about manipulating GPS and sensor data? Well, the most common approach is spoofing, and it works by broadcasting fake GPS signals in the vicinity of a target device. The device's sensors pick up these false signals and, because they appear legitimate, they accept the bogus coordinates as genuine. In some cases, attackers will also use jammers to block out the real signals entirely, which forces the device to rely solely on whatever false data is being fed to it. Once that happens, the spoofed information simply overrides the true position, and the system has no idea anything is wrong. What makes this particularly concerning is that attackers are often able to mimic trusted sources, so the device genuinely cannot tell the difference between a real signal and a fake one. It is a surprisingly straightforward technique, and that is exactly what makes it so dangerous."
+        },
+        {
+          "number": 5,
+          "script": "So let's look at what GPS spoofing actually looks like when it happens in the real world. We've seen ships being steered completely off course because fake signals have overridden their legitimate positioning data. Drones have been rerouted mid-flight by someone on the ground broadcasting a stronger, false signal. Delivery robots operating in busy city centres have become confused when spoofed coordinates send them in entirely the wrong direction. Autonomous vehicles have misidentified their position on a road network, which as you can imagine carries serious safety implications. Even in aviation, false altitude or position readings have triggered genuine incidents. And here's what makes all of this particularly concerning: the hardware needed to do this is small, inexpensive, and widely available. You don't need to be a sophisticated state actor to cause significant disruption. That's what makes spoofing such a credible and growing threat across so many different sectors."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually spot and deal with GPS spoofing when it happens? The first thing to do is never rely on a single source of information. Cross-referencing your GPS signal against other navigation systems or data sources gives you a much stronger picture of what is real. You should also stay alert to anything unusual, particularly if your displayed position suddenly jumps to a completely different location without any logical reason. That is a classic warning sign. Monitoring signal strength is equally important, because spoofed signals often appear unusually strong or behave inconsistently. If your GPS data looks suspicious, your inertial sensors, which measure movement and orientation independently, can serve as a reliable backup to help you verify your actual position. And finally, if something does not feel right, report it straight away. Getting anomalies logged quickly helps protect not just you, but everyone else operating in that environment."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand how GPS spoofing works, let's look at what we can actually do about it. The good news is there are several practical defences available. First, rather than relying on a single GPS signal, systems can cross-check position data against other sources, things like inertial navigation sensors or visual landmarks, so a spoofed signal gets caught out immediately. It also helps to monitor for sudden, unexplained jumps in location data, because real movement simply does not behave that way. Where it is available, cryptographic signal authentication adds another strong layer of protection. On the AI side, we want to train systems to treat inconsistent sensor readings as a red flag rather than quietly accepting them as a correction. Keeping navigation software regularly updated is equally important, as patches often address known spoofing weaknesses. And finally, physically shielding antenna hardware can reduce exposure to rogue signals in the first place. Layered together, these measures make a meaningful difference."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core message is this: GPS signals can be faked, and AI-powered navigation systems can be fooled into following false information without any warning. Spoofing attacks are not theoretical, they are happening right now and becoming more common. Whenever safety is on the line, always cross-check what your navigation system is telling you against other independent sources. And remember, it is not just GPS you need to think about. Physical sensors like accelerometers can also be tampered with. So if you notice a sudden unexplained route change, or a sensor reading that just does not seem right, trust that instinct and investigate further. Finally, here is something practical you can do straight away: take a look at the security settings on any navigation systems you use regularly, and make sure they are fully up to date. Small steps like that can make a real difference."
+        }
+      ]
+    }
+  ]
+}

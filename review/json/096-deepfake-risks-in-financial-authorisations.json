@@ -1,0 +1,105 @@
+{
+  "Course Title": "Deepfake Risks in Financial Authorisations",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Impersonation threats in approvals and transactions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday financial processes such as approving transactions, verifying identities, or authorising payments is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key characteristics of deepfake impersonation threats and explain how they are used to manipulate financial authorisations and transactions. You will also be able to apply practical verification strategies to recognise suspicious activity and protect your organisation from fraudulent approvals.",
+  "lessons": [
+    {
+      "lesson title": "Deepfake Risks in Financial Authorisations",
+      "order": 1,
+      "Description": "This lesson explores how deepfake technology is being used by fraudsters to impersonate trusted individuals in financial authorisation processes, including executives, colleagues, and clients. You will learn how convincing audio and video forgeries can trick employees into approving fraudulent transactions or releasing sensitive financial information. We will look at real-world examples of how these attacks have succeeded, the warning signs to watch out for, and the steps your organisation can take to verify identities before acting on financial instructions. By the end of this lesson, you will have a clearer understanding of the risks deepfakes pose to financial controls and feel more confident in spotting and responding to potential impersonation attempts.",
+      "status": "draft",
+      "content": "Impersonation threats in approvals and transactions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfake Risks: An Introduction",
+          "subtitle": "When voices and faces cannot be trusted",
+          "slidecontent": "• Deepfakes are realistic fake audio and video created using artificial intelligence\n• Fraudsters use them to impersonate executives, clients, or colleagues\n• Already used in real financial fraud cases\n• A convincing fake voice or face can trick staff into approving large transfers\n• Traditional verification methods are no longer enough on their own"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising Deepfake Impersonation Attempts",
+          "subtitle": "Spotting the Warning Signs Early",
+          "slidecontent": "• Unexpected requests to authorise payments or transfers, especially under time pressure\n• Caller claims to be a senior colleague or executive you rarely speak with directly\n• Slight audio glitches, unnatural pauses, or a voice that sounds \"almost right\"\n• Urgency and secrecy as red flags\n• Instructions to bypass normal approval channels or skip verification steps\n• The request arrives through an unusual channel, such as a personal mobile number or unfamiliar video platform"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Deepfake Warning Signs",
+          "subtitle": "Spotting the signs before it's too late.",
+          "slidecontent": "• Blurry or flickering facial edges\n• Unnatural blinking patterns\n• Voice sounds slightly robotic\n• Lip sync feels off\n• Lighting looks inconsistent"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Suspicious Authorisation Requests",
+          "subtitle": "Spotting the warning signs early",
+          "slidecontent": "• Requests that arrive urgently, pressuring you to skip normal verification steps\n• Caller claims to be a senior colleague but the voice sounds slightly off or robotic\n• Unusual timing\n• Instructions to transfer funds to an unfamiliar or newly added account\n• The person cannot answer basic security questions they should know without hesitation\n• Any request that bypasses your organisation's standard approval chain"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Suspicious Authorisation Requests",
+          "subtitle": "Warning signs to watch for carefully",
+          "slidecontent": "• Urgent, unexpected payment requests\n• Caller pushes for speed\n• Unusual account details given\n• Voice sounds slightly \"off\"\n• Request bypasses normal process\n• No written follow-up offered"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Red Flags Early",
+          "subtitle": "Warning signs before fraud occurs.",
+          "slidecontent": "• Caller rushes the decision\n• Voice sounds slightly \"off\"\n• Unusual payment destination\n• Request bypasses normal process\n• Pressure to skip verification"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Your Authorisation Processes",
+          "subtitle": "Strengthening defences against fraudulent requests",
+          "slidecontent": "• Verify all high-value or urgent payment requests through a second, independent channel such as a phone call to a known number\n• Use pre-agreed code words or challenge questions with regular counterparties\n• Never rely solely on video or voice alone\n• Establish clear internal policies that require dual authorisation for transfers above a set threshold\n• Train staff to pause and question any request that creates pressure to act quickly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Verify before you approve anything\n• Deepfakes mimic trusted voices\n• Always use a second channel\n• Urgency is a red flag\n• When in doubt, stop and check"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on deepfake risks in financial authorisations. Now, you may have heard the word \"deepfake\" before, but let's be clear about what it actually means in a financial context. Using artificial intelligence, criminals can now create highly convincing fake audio and video, realistic enough to make it appear that a senior executive, a client, or even a colleague is speaking directly to you. And this is not just a theoretical threat. There are already documented cases where fraudsters have used this technology to trick employees into authorising significant transfers of money. Think about that for a moment. If someone calls you and sounds exactly like your CEO, or appears on a video call looking just like them, your instinct is to trust what you are seeing and hearing. The problem is, that instinct can now be exploited. The verification methods many organisations have relied on for years simply are not sufficient on their own anymore. That is what this course is here to address."
+        },
+        {
+          "number": 2,
+          "script": "So, how do you actually spot a deepfake impersonation attempt in the moment? There are some clear warning signs to watch for. First, be cautious any time someone contacts you unexpectedly and asks you to authorise a payment quickly, especially if they're pushing you to act fast and keep it quiet. That combination of urgency and secrecy is a significant red flag. Pay attention if the caller claims to be a senior executive or colleague you don't normally speak with directly, because that's a common tactic. Also, trust your instincts with the voice itself. If something sounds slightly off, there are odd pauses, or the audio feels a little glitchy, don't dismiss that feeling. And finally, if you're being asked to skip the usual approval process, or the request is coming through a personal mobile number or an unfamiliar platform, stop and verify through official channels before doing anything else."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what to actually look for when you're on a video call or reviewing a recorded authorisation request. Deepfakes are getting better all the time, but they still leave clues if you know where to look. Start with the face itself. Around the edges, you might notice a slight blurriness or a flickering effect, almost like the image can't quite hold together. Watch the eyes too, because unnatural or irregular blinking is a common giveaway. Then listen carefully to the voice. Does it sound slightly flat or mechanical? That robotic quality is a real red flag. Pay attention to whether the lips are properly in sync with the words being spoken, because even a small delay can indicate something is wrong. And finally, look at the lighting. If it seems inconsistent across the face or doesn't match the background, that's worth questioning. None of these signs alone is definitive, but together they should prompt you to pause and verify before proceeding."
+        },
+        {
+          "number": 4,
+          "script": "So, how do you actually spot a deepfake authorisation attempt in the moment? There are a few reliable warning signs to watch for. First, be wary of any request that feels rushed or pressured, because urgency is often used deliberately to stop you thinking clearly. If someone claims to be a senior colleague but their voice sounds slightly unnatural or robotic, that is worth paying attention to. Timing matters too. A request that comes in late on a Friday afternoon or just before a bank holiday should raise your suspicion. Watch out for instructions to send funds to an account you do not recognise or that has only just been added. If the caller struggles to answer basic security questions they really ought to know, that is a significant red flag. And finally, if any request asks you to go around your organisation's normal approval process, stop and verify through a separate, trusted channel before doing anything else."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot when something might be wrong? There are a few warning signs worth keeping in mind. First, be cautious if a request arrives out of nowhere and feels urgent. Fraudsters deliberately create pressure to stop you thinking clearly. If the person on the other end is pushing you to act quickly, that is a red flag in itself. Pay attention if the account details seem unfamiliar or unusual compared to what you normally use. And trust your instincts about the voice. If something sounds slightly unnatural or robotic, it could well be a deepfake. Another big warning sign is when the request asks you to skip your usual approval process. Legitimate colleagues understand procedures exist for good reason. Finally, if the caller cannot or will not confirm the request in writing afterwards, that tells you something important. Any one of these signs should make you pause. Several of them together should make you stop completely."
+        },
+        {
+          "number": 6,
+          "script": "So, before a deepfake fraud actually succeeds, there are almost always warning signs. The trouble is, in the moment, they can be easy to dismiss. Let's walk through what to watch for. First, if someone is rushing you to make a decision quickly, that urgency is deliberate. Fraudsters want to stop you from thinking clearly. Second, pay attention to the voice itself. If something feels slightly unnatural, a bit robotic or oddly flat, trust that instinct. Third, take a close look at where the money is going. An unfamiliar or unexpected account destination is a serious concern. Fourth, if a request is asking you to sidestep your normal authorisation process, that is a significant red flag in itself. And fifth, any pressure to skip identity verification should stop you in your tracks. Legitimate colleagues and clients will never object to you following proper procedure. These signals rarely appear in isolation, so if you spot more than one, pause and investigate before doing anything else."
+        },
+        {
+          "number": 7,
+          "script": "So, now we know the risks, what can we actually do about them? The good news is that some fairly straightforward steps can make a real difference. Whenever a payment request feels urgent or involves a large sum, always verify it through a completely separate channel, so ring the person back on a number you already have saved, rather than one they have just given you. It is also worth agreeing a code word or a challenge question with people you deal with regularly, something a deepfake simply would not know. Beyond that, make sure your organisation has a clear policy requiring two people to sign off on transfers above a certain amount. And perhaps most importantly, train your team to treat urgency as a warning sign rather than a reason to rush. Fraudsters rely on pressure to short-circuit good judgement, so building in that moment to pause is one of your strongest defences."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the core lessons from this session. The most important habit you can build is to verify before you act. Never approve a financial request simply because a voice sounds familiar or trustworthy, because deepfakes are now sophisticated enough to mimic the people you work with every day. If a request arrives by phone or voicemail, always confirm it through a completely separate channel, such as a text message or a direct call back to a number you already know. And pay close attention to how a request is framed. If someone is pushing you to act quickly, telling you there is no time to check, that urgency itself should make you pause. It is one of the clearest warning signs we see in these kinds of attacks. Ultimately, the simplest rule is this: if something feels off, stop and verify before you go any further. That one habit could prevent a very costly mistake."
+        }
+      ]
+    }
+  ]
+}

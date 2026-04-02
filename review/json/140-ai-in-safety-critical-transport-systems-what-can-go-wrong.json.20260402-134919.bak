@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Safety-Critical Transport Systems: What Can Go Wrong?",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "How AI errors can directly impact passenger and cargo safety.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how transport systems operate (such as aviation, road, or maritime) and a general curiosity about technology are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI failure modes in safety-critical transport systems (including aviation, maritime, and automotive applications) and explain how these errors can directly threaten passenger and cargo safety. You will also be able to apply a structured risk awareness framework to recognise early warning signs of AI-related hazards and describe the human oversight measures used to mitigate them.",
+  "lessons": [
+    {
+      "lesson title": "AI in Safety-Critical Transport Systems: What Can Go Wrong?",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used across safety-critical transport systems, including aviation, rail, and road vehicles, and what happens when things go wrong. Designed for beginners, it breaks down real-world examples of AI failures and near-misses to help you understand the practical risks involved. You will learn how errors in AI decision-making, sensor interpretation, and automated control systems can have serious consequences for passengers, crew, and cargo. The lesson also introduces key concepts around system reliability, human oversight, and the importance of fail-safe design in transport environments. By the end, you will have a clearer picture of why getting AI right in these settings is not just a technical challenge but a matter of public safety.",
+      "status": "draft",
+      "content": "How AI errors can directly impact passenger and cargo safety.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome: AI and Transport Safety",
+          "subtitle": "Where AI meets life-or-death decisions",
+          "slidecontent": "• AI powers real transport systems\n• Errors can cost lives\n• Planes, trains, cars affected\n• Risks are growing fast\n• You need to know this"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Safety-Critical AI Systems",
+          "subtitle": "Where lives depend on system reliability.",
+          "slidecontent": "• AI systems where a failure can directly cause injury, death, or large-scale disaster\n• Found in aircraft autopilots, railway signalling, and autonomous vehicles\n• Lives on the line\n• Reliability standards far stricter than in everyday consumer software\n• Even rare errors can have catastrophic, irreversible consequences\n• No margin for \"good enough\""
+        },
+        {
+          "number": 3,
+          "slidetitle": "Failure Modes and Their Consequences",
+          "subtitle": "When AI Errors Endanger Lives",
+          "slidecontent": "• Wrong decisions, real crashes\n• Sensors misread the environment\n• Delayed responses cause collisions\n• False signals override human control\n• Small errors, catastrophic outcomes"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Sensor Failures and Misreadings",
+          "subtitle": "When Sensors Lie, AI Follows",
+          "slidecontent": "• Sensors detect speed, distance, obstacles\n• Faulty data enters AI instantly\n• AI trusts sensors, not reality\n• Bad input causes bad decisions\n• Weather and dirt cause errors"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Sensor Failures and Misreadings",
+          "subtitle": "When Sensors Lie, AI Follows",
+          "slidecontent": "• Sensors feed AI systems real-time data about speed, obstacles, and surroundings\n• Dirty, damaged, or poorly positioned sensors can send false readings\n• AI treats bad data as truth\n• A blocked lidar sensor on an autonomous vehicle may fail to detect a pedestrian crossing the road\n• Adverse weather like heavy rain or fog can degrade sensor accuracy significantly\n• No built-in scepticism means the AI acts on whatever the sensor reports, right or wrong"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Sensor Failures and Misclassification",
+          "subtitle": "When Sensors Mislead AI Systems",
+          "slidecontent": "• Sensors like cameras, radar, and lidar feed AI systems the raw data they need to make decisions\n\n• Dirt, rain, or glare can corrupt sensor readings\n\n• A misclassified object (a pedestrian read as a static obstacle, for example) can trigger the wrong response entirely\n\n• Sensor fusion, combining multiple sensor types, reduces but does not eliminate this risk\n\n• Real incidents have shown AI systems failing to detect vehicles in unusual orientations or poor lighting conditions\n\n• Even brief, partial sensor failures can cascade into serious safety events"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Lessons From Real Failures",
+          "subtitle": "What past incidents teach us today",
+          "slidecontent": "• The 2009 Air France 447 crash showed how automation confusion can overwhelm even trained crews under pressure\n• Sensor failures matter\n• Therac-25, a radiation therapy machine, killed patients when a software race condition removed its safety checks\n• Over-reliance on automated alerts caused the 2018 Boeing 737 MAX MCAS system to override pilot inputs repeatedly\n• Small software bugs in safety-critical systems can cascade into catastrophic, irreversible outcomes\n• Real incidents share a common thread, which is that human oversight was reduced just when it was needed most"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for safer AI deployment",
+          "slidecontent": "• AI errors cost lives\n• Test before you deploy\n• Humans must stay in control\n• Data quality matters always\n• Audit systems regularly\n• Learn from every failure"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. What we're going to explore together is genuinely important, and in some ways quite sobering. Artificial intelligence is no longer just a topic for tech conferences or science fiction films. It is already embedded in the systems that move us around every day, from the aircraft we fly in, to the trains we commute on, to the cars increasingly driving themselves on our roads. And here is the thing: when AI makes a mistake in those environments, the consequences are not just inconvenient. They can be fatal. At the same time, the pace at which AI is being adopted in transport is accelerating, which means the risks are growing faster than many people realise. This course is designed to help you understand what those risks actually look like, where they come from, and why they matter. You do not need a technical background to follow along. You just need to be curious and willing to engage with some genuinely critical questions."
+        },
+        {
+          "number": 2,
+          "script": "So, let us start by getting clear on what we actually mean when we talk about safety-critical AI systems. These are systems where, if something goes wrong, the consequences are not just an inconvenience or a minor setback. We are talking about real potential for serious injury, loss of life, or large-scale disaster. Think about aircraft autopilots keeping hundreds of passengers in the air, railway signalling systems coordinating trains across a busy network, or autonomous vehicles navigating public roads. In all of these environments, the reliability standards are extraordinarily high, far beyond anything we would expect from, say, a smartphone app or a recommendation algorithm. And here is the crucial point: even a very rare error, something that might only happen once in a million operations, can still be catastrophic and completely irreversible. There is simply no room for \"close enough\" or \"good enough\" in these contexts. The bar is exceptionally high, and for very good reason."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what actually goes wrong when AI makes a mistake in a safety-critical environment, because the consequences here are very different from, say, a spelling error in a word processor. When an AI system misreads sensor data, perhaps confusing a pedestrian for a shadow, or misjudging the distance to the vehicle ahead, that error can translate directly into a real-world collision. And it is not just about wrong decisions in the moment. Sometimes the problem is a delayed response, where the system takes a fraction of a second too long to react, and in transport, fractions of seconds matter enormously. There is also the issue of false signals, where the AI overrides a human operator who actually had the right instinct. What makes all of this so serious is that errors which might seem tiny at the technical level can escalate incredibly quickly into catastrophic outcomes. That is the core challenge we are exploring throughout this course."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about sensors, because they are absolutely fundamental to how AI operates in transport systems. Sensors are the AI's eyes and ears. They measure things like speed, distance, and whether there's an obstacle ahead. The problem is, the AI has no way of questioning what the sensors tell it. If a sensor sends faulty data, the AI simply acts on it, instantly and without hesitation. Think of it like giving someone wrong directions and then wondering why they ended up in the wrong place. The AI isn't being careless, it just trusts its inputs completely. And there are plenty of real-world reasons sensors can go wrong. Rain, fog, mud, even a bit of road grime can interfere with readings. A dirty camera or a blocked radar sensor can cause the AI to misread a situation entirely. So when we say bad input causes bad decisions, that's not a criticism of the AI itself. It's a reminder that the hardware feeding it information has to be reliable too."
+        },
+        {
+          "number": 5,
+          "script": "Now, AI systems in transport rely heavily on sensors to understand the world around them. Things like lidar, radar, and cameras are constantly feeding the system information about speed, nearby obstacles, and the surrounding environment. But here is the problem: if a sensor is dirty, damaged, or simply not positioned correctly, it can send back completely false information, and the AI has no way of knowing that. It just treats whatever data it receives as accurate and acts on it. Imagine a lidar sensor on an autonomous vehicle that gets partially blocked by mud or debris. It might completely fail to detect a pedestrian stepping into the road. And it is not just physical damage we need to worry about. Heavy rain, thick fog, or bright sunlight can all seriously degrade how well sensors perform. Unlike a human driver who might slow down and think \"something feels off here,\" the AI has no built-in scepticism. It simply acts on what it is told, even when what it is told is wrong."
+        },
+        {
+          "number": 6,
+          "script": "Before an AI system can make any decision, it needs to understand the world around it, and it does that through sensors: cameras, radar, lidar, and so on. But here is the problem. Sensors are not infallible. Rain, dirt, bright glare, or unusual lighting can all corrupt the data coming in, and if the data is wrong, the AI's decisions will be wrong too. Imagine a pedestrian being misread as a stationary object. The system might not brake when it absolutely should. Now, engineers do try to address this by combining multiple sensor types together, so that if one struggles, another can compensate. That approach genuinely helps, but it does not fully solve the problem. Real-world incidents have shown AI systems failing to recognise vehicles in odd orientations or difficult conditions. And what makes this especially concerning is that even a very brief, partial sensor failure can set off a chain of events with serious consequences."
+        },
+        {
+          "number": 7,
+          "script": "These examples aren't just historical footnotes, they're warnings we should take seriously. In 2009, Air France Flight 447 crashed into the Atlantic after the crew became confused by conflicting automated systems, triggered by faulty sensors. The Therac-25 radiation machine is another sobering case, where a tiny software bug removed critical safety limits and patients died as a result. More recently, the Boeing 737 MAX MCAS system repeatedly overrode pilot inputs because it was over-relying on a single sensor, contributing to two fatal crashes. What's striking when you look across all of these incidents is the common pattern running through them. In each case, human oversight was reduced or undermined at precisely the moment it was most needed. A small fault, a confused sensor, a race condition in code, these things can cascade very quickly into catastrophic outcomes that simply cannot be undone. That's why understanding where AI and automation can fail is so important."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. When AI is used in transport systems, the stakes are genuinely high. Mistakes are not just inconvenient, they can be fatal, so we have to get this right. That means thoroughly testing any system before it ever goes near real passengers or infrastructure. It also means keeping human beings firmly in the loop, because AI should support decisions, not replace human judgement entirely. The quality of the data you feed into these systems matters enormously too. Rubbish data in, dangerous decisions out. Once a system is live, you cannot simply walk away. Regular audits help you catch problems before they become disasters. And perhaps most importantly, when something does go wrong, treat it as a learning opportunity. Every failure carries a lesson that can make the next system safer. These are the principles that should guide anyone working with AI in safety-critical environments."
+        }
+      ]
+    }
+  ]
+}

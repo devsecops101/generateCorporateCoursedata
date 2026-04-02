@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI-Driven Attacks on Transport Systems",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Targeting navigation, scheduling, or control systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic understanding of how transport systems operate (such as familiarity with aviation, maritime, or road networks) and a general awareness of cybersecurity concepts will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI-driven attack vectors that target navigation, scheduling, and control systems across aviation, maritime, and automotive sectors. You will also be able to explain how these threats are carried out and apply foundational protective measures to recognise and respond to suspicious activity within transport and logistics environments.",
+  "lessons": [
+    {
+      "lesson title": "AI-Driven Attacks on Transport Systems",
+      "order": 1,
+      "Description": "This lesson introduces learners to the growing threat of AI-driven cyberattacks targeting transport systems, including road networks, railways, aviation, and maritime operations. You will explore how malicious actors can exploit artificial intelligence to disrupt navigation systems, manipulate scheduling software, and interfere with critical control infrastructure. The lesson breaks down real-world scenarios in plain language, making complex concepts accessible even if you have no prior technical background. By the end, you will have a clearer understanding of how these attacks are carried out, why transport systems are particularly vulnerable, and what measures can help protect them.",
+      "status": "draft",
+      "content": "Targeting navigation, scheduling, or control systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI Attacks on Transport Systems",
+          "subtitle": "Targeting Transport Systems With AI Threats",
+          "slidecontent": "• Transport systems increasingly rely on digital networks for navigation, scheduling, and control\n• AI gives attackers powerful new tools to probe and exploit these systems at scale\n• Attacks can target anything from traffic signals to railway management software\n• Real consequences include delays, accidents, and public safety risks\n• Understanding the threat is the first step toward defending against it"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Anatomy of an AI Attack",
+          "subtitle": "How AI attacks unfold systematically",
+          "slidecontent": "• Attacker picks a target system\n• AI scans for weaknesses\n• Exploit is launched automatically\n• System behaviour gets disrupted\n• Attack adapts if blocked"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Targeting Navigation and Control Systems",
+          "subtitle": "How AI Exploits Critical Transport Infrastructure",
+          "slidecontent": "• AI tools used to probe and map weaknesses in navigation and control systems before launching targeted attacks\n• Scheduling systems manipulated to cause delays, rerouting, or dangerous conflicts between vehicles\n• GPS signals spoofed or jammed using AI to mislead aircraft, ships, and road vehicles\n• Control systems compromised\n• Automated decision-making hijacked to override safety protocols without human operators noticing immediately\n• Real-time data feeds poisoned with false information, causing systems to respond to conditions that do not exist"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Disrupting Navigation and Scheduling",
+          "subtitle": "How AI exploits routing and timetables",
+          "slidecontent": "• AI tools can flood routing systems with false traffic data, causing vehicles to be sent down congested or dangerous paths\n• Scheduling algorithms manipulated to create cascading delays across entire networks\n• Even small timing errors compound quickly\n• Attackers inject fake passenger demand signals to overload or underutilise services at critical times\n• GPS spoofing combined with AI automation steers fleets silently off their intended routes\n• Real-time timetable feeds become unreliable when AI-generated noise corrupts the underlying data"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Disrupting Scheduling and Control Systems",
+          "subtitle": "How AI Exploits Operational Timetabling Flaws",
+          "slidecontent": "• AI spots timetable weaknesses fast\n• Delays cascade across networks\n• Fake data confuses control systems\n• Small errors cause big disruptions\n• Automated attacks scale quickly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Disrupting Scheduling and Control Systems",
+          "subtitle": "Exploiting Weaknesses in Operational Timetabling",
+          "slidecontent": "• Attackers can feed false data into scheduling systems to cause delays, cancellations, or dangerous conflicts between vehicles\n\n• Timetabling software often relies on real-time inputs like GPS and sensor feeds, all of which can be manipulated\n\n• Even small timing errors can cascade across an entire network\n\n• Rail and bus control systems may share legacy infrastructure with known, unpatched vulnerabilities\n\n• Disruption does not always require physical access, remote exploitation of poorly secured interfaces is increasingly common"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Defending Against AI Transport Threats",
+          "subtitle": "Strategies to Safeguard Critical Transport Networks",
+          "slidecontent": "• Patch systems regularly\n• Monitor network traffic closely\n• Train staff on cyber threats\n• Use multi-factor authentication\n• Isolate critical control systems\n• Share threat intelligence widely"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying vigilant today",
+          "slidecontent": "• AI targets transport systems daily\n• Navigation and schedules can be manipulated\n• Small disruptions cause big consequences\n• Stay alert to unusual system behaviour\n• Report anomalies to your security team\n• Learn, share, and stay prepared"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI-driven attacks on transport systems. Over the next few lessons, we are going to explore a threat that is growing rapidly and one that affects all of us in our daily lives. Modern transport relies heavily on digital technology. Whether it is the signals controlling your morning commute, the software managing a railway network, or the systems coordinating air traffic, almost everything is connected. And where there is connectivity, there is vulnerability. What makes this particularly concerning today is that artificial intelligence is giving attackers far more sophisticated ways to find and exploit weaknesses in these systems, and they can do it faster and at a much greater scale than ever before. The consequences are not just technical headaches. We are talking about real-world disruption, potential accidents, and genuine risks to public safety. So throughout this course, our goal is to help you understand exactly how these threats work, because that understanding is the foundation of any effective defence."
+        },
+        {
+          "number": 2,
+          "script": "So let's look at how one of these AI-driven attacks actually unfolds in practice. It starts with the attacker choosing a specific target, perhaps a rail network, a traffic management system, or a port. Once that target is selected, AI tools go to work scanning the system, probing for any vulnerabilities, misconfigurations, or weak points, and doing so far faster than any human could manage manually. When a weakness is found, the attack is launched automatically, no waiting around, no manual intervention needed. From there, the goal is disruption, causing the system to behave in unexpected or dangerous ways. And here is where AI makes things particularly tricky: if the attack gets blocked or the defences kick in, the AI adapts its approach and tries a different method. It is essentially a self-correcting attack. So what we are dealing with is not a one-shot attempt but a persistent, intelligent process that keeps evolving until it finds a way through."
+        },
+        {
+          "number": 3,
+          "script": "So, let's look at how AI is actually used to attack the systems that keep transport moving safely. Before launching any attack, AI tools are used to quietly probe infrastructure, mapping out weaknesses in navigation and control systems without triggering alarms. Once those vulnerabilities are identified, attackers can manipulate scheduling systems to cause dangerous conflicts between vehicles, or disrupt GPS signals to send aircraft, ships, and road vehicles completely off course. What makes this particularly concerning is that automated decision-making systems can be hijacked to override safety protocols, and human operators may not notice anything is wrong until it is too late. Attackers can also poison the real-time data feeds that these systems rely on, feeding them false information so they respond to conditions that simply do not exist. Essentially, AI allows attackers to be precise, patient, and very difficult to detect, which makes protecting these systems an enormous challenge."
+        },
+        {
+          "number": 4,
+          "script": "Once an attacker has access to the systems that keep transport moving, they can start pulling at some very powerful threads. Imagine AI tools quietly feeding false traffic data into routing systems, sending buses or delivery vehicles down completely the wrong roads. Or picture scheduling algorithms being nudged just slightly off course, because even a small timing error can ripple outwards and cause delays across an entire network. Attackers can also inject fake signals that make it look as though passenger demand is surging in one place, which either overloads services or leaves them running nearly empty elsewhere. Then there is GPS spoofing, where AI automation silently steers whole fleets away from their intended routes without anyone noticing straight away. And when the real-time data feeds that timetables depend on are flooded with AI-generated noise, operators simply cannot trust the information in front of them. The result is a transport network that looks like it is functioning, but is quietly falling apart."
+        },
+        {
+          "number": 5,
+          "script": "Now let's look at how AI can be used to attack the scheduling and control systems that keep transport networks running smoothly. Modern timetables are incredibly complex, and AI is very good at analysing that complexity quickly, spotting vulnerabilities that a human attacker might take weeks to find. Once a weakness is identified, even a small, targeted disruption can trigger a cascade of delays across an entire network. Think of it like knocking over the first domino. What makes this particularly concerning is that attackers can also feed false data into control systems, causing them to make poor decisions based on information that simply isn't accurate. A signal showing a platform is clear when it isn't, for example. And because these attacks are automated, they can be scaled up rapidly, hitting multiple points across a network at the same time. So what starts as a minor glitch can very quickly become a serious, widespread operational failure."
+        },
+        {
+          "number": 6,
+          "script": "Scheduling and control systems are a prime target for AI-driven attacks, and the reason is straightforward: they depend on a constant flow of real-time data. GPS signals, sensor feeds, timetabling software, all of it can be manipulated. If an attacker injects false information into these systems, you can end up with delayed services, unexpected cancellations, or even dangerous situations where vehicles are routed into conflict with one another. What makes this particularly concerning is that even a small error can ripple outwards and cause disruption across an entire network. It is a bit like knocking over the first domino. Now, many rail and bus operators are still running older infrastructure that has known security weaknesses and has not been fully patched or updated. And crucially, attackers do not need to be physically present to cause harm. Poorly secured remote interfaces mean that a great deal of this exploitation can happen from anywhere in the world."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand the threats, let's talk about what we can actually do to defend against them. The good news is that many of these measures are straightforward. First, keeping software and systems up to date is absolutely essential, because outdated systems are easy targets. You also want to be watching your network traffic constantly, so that anything unusual gets spotted quickly. Your people matter too, so make sure staff are properly trained to recognise suspicious activity and phishing attempts. Adding multi-factor authentication means that even if a password is stolen, attackers still can't easily get in. One of the most important steps is physically and digitally separating your critical control systems from general networks, so that if one part is compromised, it doesn't bring everything down. And finally, organisations should be sharing information about threats with each other and with government agencies, because collective knowledge makes everyone stronger. None of these steps are beyond reach, and together they build a genuinely robust defence."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core message is this: AI-driven attacks on transport systems are not a future concern, they are happening right now, every single day. Whether it is navigation being fed false data or schedules being quietly manipulated, these threats are very real. And here is something worth remembering: even a small disruption can ripple outwards and cause serious consequences for thousands of people. So what can you do? Start by staying alert. If something about a system looks or feels unusual, do not ignore it. Trust that instinct. Report anything suspicious to your security team straight away, because early reporting can make an enormous difference. Beyond that, keep learning about these threats, share what you know with your colleagues, and stay prepared. Awareness really is your first and most powerful line of defence. In the next lesson, we will look at how organisations are beginning to fight back against these kinds of attacks."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI and Student Data Privacy Risks",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Handling minors’ data in education platforms safely.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how schools or education platforms collect and store student information is helpful, though no technical or legal expertise is required to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key data privacy risks associated with AI tools used in educational settings and explain the legal responsibilities schools have when handling personal data belonging to minors. You will also apply practical strategies to evaluate and organise data protection measures, ensuring that AI-powered education platforms are used safely and in compliance with relevant regulations such as GDPR and COPPA.",
+  "lessons": [
+    {
+      "lesson title": "AI and Student Data Privacy Risks",
+      "order": 1,
+      "Description": "This lesson explores the unique privacy risks that arise when artificial intelligence is used in educational platforms that handle data belonging to children and young people. You will learn how AI systems collect, process, and store student information, and why this creates specific safeguarding responsibilities for educators and school staff. We will look at the key legislation and principles that govern how minors' data must be handled, including practical steps you can take to reduce risk in your setting. By the end of this lesson, you will feel more confident identifying potential data privacy concerns and knowing when to raise them with the appropriate people in your organisation.",
+      "status": "draft",
+      "content": "Handling minors’ data in education platforms safely.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and Student Data Privacy",
+          "subtitle": "Keeping student data safe online",
+          "slidecontent": "• AI tools in schools collect and process large amounts of student data every day\n• This includes names, ages, learning behaviours, and sometimes location data\n• Children's data carries extra legal protections\n• Mishandling this data can cause real harm to young people\n• Understanding the risks is the first step to keeping students safe"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of AI Data Collection",
+          "subtitle": "What AI collects about your students",
+          "slidecontent": "• Keystroke patterns, response times, and browsing habits logged automatically\n• Personal details inferred from behaviour, not just entered directly\n• Location data captured via device or network\n• Emotional states sometimes estimated from facial recognition or typing rhythm\n• Third-party vendors often receive this data without schools realising"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Data Minimisation in Practice",
+          "subtitle": "Collect only what you truly need.",
+          "slidecontent": "• Ask: is this necessary?\n• Skip optional data fields\n• Avoid storing names unnecessarily\n• Delete data when finished\n• Less data, less risk"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Minimising Data Collection Risks",
+          "subtitle": "Collect only what you truly need.",
+          "slidecontent": "• Limit data fields to only those directly required for the educational task at hand\n• Avoid collecting birthdates, locations, or contact details unless strictly necessary\n• Less data means less risk\n• Review any AI tool's default settings, as many collect more than you might expect\n• Anonymise or aggregate student responses wherever the learning outcome still holds\n• Delete data promptly once it has served its purpose"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Minimising Data Collection Risks",
+          "subtitle": "Collect only what you truly need.",
+          "slidecontent": "• Collect only essential data\n• Avoid storing sensitive details\n• Delete data when unneeded\n• Limit staff access strictly\n• Review data regularly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Minimising Risk in Practice",
+          "subtitle": "Practical steps to protect student data",
+          "slidecontent": "• Anonymise data before uploading\n• Avoid free, unvetted tools\n• Check platform privacy policies\n• Limit data to what's needed\n• Review school consent procedures"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting and Escalating Concerns",
+          "subtitle": "When and How to Raise Issues",
+          "slidecontent": "• Spot it, report it immediately\n• Tell your designated safeguarding lead\n• Never investigate alone\n• Document what you observed\n• Escalate if no action taken"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for protecting student privacy",
+          "slidecontent": "• Always treat student data as sensitive by default, even when it seems harmless\n• Consent matters, especially for minors\n• Only collect data that is strictly necessary for the educational purpose at hand\n• Review any AI tools used in your platform to confirm they meet data protection standards\n• Keep records of what data is collected, who can access it, and why\n• As a next step, audit one AI feature in your current platform and check it against your school or organisation's data privacy policy"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and student data privacy risks. As AI tools become more common in schools, they are quietly collecting and processing enormous amounts of information about students, often without teachers or parents fully realising it. We are talking about names, ages, how children learn, how they behave in digital environments, and sometimes even their location. Now, children are not just small adults when it comes to data protection. The law recognises that their information deserves extra care and stronger safeguards. When that data is mishandled, the consequences can be very real, from privacy breaches to potential harm to a young person's wellbeing or future opportunities. So throughout this course, our goal is to help you understand exactly where those risks lie and what you can do about them. Because the more clearly we see the risks, the better placed we are to protect the students in our care."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by looking at exactly what AI systems are quietly collecting about your students, because it goes much further than most people realise. It is not just the information students type in directly, like their name or their answers. AI tools are also logging things like how fast they type, how long they pause before responding, and which pages they visit. From those patterns alone, the system can start to make inferences about a student's mood, confidence, or even their home situation. Some tools go further still, using facial recognition or typing rhythm to estimate emotional states. And if a student is using a school device or the school network, location data can be captured as well. Here is the part that often surprises educators: much of this data does not stay with the AI tool you signed up for. It frequently gets passed along to third-party companies, often without schools being aware that is happening at all."
+        },
+        {
+          "number": 3,
+          "script": "Data minimisation sounds technical, but the idea is really quite simple: only collect the information you actually need. Before you ask students or staff to provide any data, pause and ask yourself whether it is genuinely necessary for the task at hand. If a field is optional, consider leaving it blank altogether. And think carefully about names in particular. Quite often, you can use anonymous identifiers or reference numbers instead, which removes a lot of risk straight away. Once you have finished with the data, delete it. Do not let it sit around in a folder or a spreadsheet just in case it might be useful one day. The less data you hold, the less there is to go wrong if something is ever breached or misused. It is a straightforward principle, but it makes a real difference in practice. When in doubt, collect less rather than more."
+        },
+        {
+          "number": 4,
+          "script": "So when it comes to protecting student data, one of the simplest and most effective things you can do is collect less of it in the first place. Ask yourself: do I actually need this information to achieve the learning goal? If the answer is no, don't collect it. Things like birthdates, home locations, or contact details should only be gathered if there is a genuine reason to do so. It is also worth checking the default settings on any AI tool you use, because many platforms are configured to collect far more data than you might realise. Where possible, anonymise or group student responses together, so that individuals cannot be identified. And once the data has done its job, delete it. There is no benefit to holding onto information you no longer need, and doing so only increases your risk. The guiding principle here is straightforward: less data, less risk."
+        },
+        {
+          "number": 5,
+          "script": "When it comes to protecting student data, one of the most effective things you can do is simply collect less of it. The less data you hold, the less there is to lose or misuse. So before you ask students or staff to input any information into an AI tool, ask yourself whether you genuinely need it. If you do collect data, avoid storing anything sensitive that isn't absolutely necessary for the task. And once the data has served its purpose, delete it. Don't let it sit around indefinitely. It's also worth thinking carefully about who can actually access that data within your organisation. The fewer people with access, the lower the risk. Finally, make a habit of reviewing what data you're holding on a regular basis. Things change, and data that was once useful can quickly become unnecessary. Keeping on top of this is a simple but powerful way to reduce your exposure to risk."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect your students. The good news is that a lot of this comes down to simple habits. Before you upload any student information into an AI tool, strip out the names and anything that could identify a specific child. You really want to get into that routine. It's also worth being cautious about free tools you find online, because if there's no clear privacy policy or institutional approval, you genuinely don't know where that data is going. Speaking of which, always take a moment to check the privacy policy of any platform you're considering using. And think about what data you actually need to share. Less is always more here. Finally, make sure you're familiar with your school's consent procedures, because they exist for a reason and they're there to protect everyone involved, including you. Small steps, but they really do make a significant difference."
+        },
+        {
+          "number": 7,
+          "script": "So, what do you actually do if something doesn't feel right? The answer is simple: act straight away. Don't sit on it, don't wait to see if it resolves itself. As soon as you spot a concern, report it. Your first point of contact should always be your designated safeguarding lead. They are trained for exactly this kind of situation, so please don't try to handle it or look into it yourself. That's really important. What you should do is write down what you observed, as accurately and factually as you can, while it's still fresh in your mind. Stick to what you saw or heard, not your interpretation of it. And if you've raised a concern and you feel like nothing is happening, don't let it drop. Escalate it. Keep going until someone takes action. Protecting students is everyone's responsibility, and speaking up is always the right thing to do."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, always treat student data as sensitive, even if it seems trivial or harmless on its own. Consent is essential, and when you're working with children, that responsibility becomes even greater. When collecting data, ask yourself whether you genuinely need it for the educational task at hand. If you don't, don't collect it. Make sure any AI tools you're using in your platform have been checked against proper data protection standards, and keep clear records of what data you hold, who has access to it, and why. These aren't just good habits, they're the foundation of responsible practice. And here's something practical to do after this lesson: pick one AI feature in your current platform and run it against your school or organisation's data privacy policy. It's a simple step, but it's a really valuable one."
+        }
+      ]
+    }
+  ]
+}

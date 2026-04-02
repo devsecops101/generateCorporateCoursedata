@@ -1,0 +1,105 @@
+{
+  "Course Title": "Last-Mile Delivery and AI Risks",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Errors in routing, timing, and customer interaction.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with delivery or logistics operations, along with a general interest in how artificial intelligence is being used in the transport sector, is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI-related risks in last-mile delivery operations, including errors in routing, timing, and customer interaction, and explain how these risks can affect overall logistics performance. You will also apply practical strategies to recognise and reduce the impact of AI-driven mistakes, helping you support safer and more reliable delivery outcomes in your day-to-day role.",
+  "lessons": [
+    {
+      "lesson title": "Last-Mile Delivery and AI Risks",
+      "order": 1,
+      "Description": "Last-mile delivery is the final stage of the supply chain, covering the journey from a local depot to the customer's door, and it is where many costly errors tend to occur. As artificial intelligence becomes more widely used to manage routing, scheduling, and customer communications, new risks are emerging that teams need to understand. This lesson explores how AI-driven decisions can go wrong in practical delivery scenarios, including incorrect route suggestions, poorly timed deliveries, and automated messages that frustrate or mislead customers. You do not need a technical background to follow along, as the focus is on real-world situations and straightforward guidance. By the end of this lesson, you will be better equipped to spot potential AI-related problems in last-mile operations and take sensible steps to address them.",
+      "status": "draft",
+      "content": "Errors in routing, timing, and customer interaction.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to Last-Mile Delivery",
+          "subtitle": "Exploring risks in the final mile",
+          "slidecontent": "• The final mile is the last step in delivering a package to a customer's door\n• Often the most expensive and error-prone part of the whole delivery process\n• Routing mistakes, missed time slots, and poor communication all cause problems\n• AI tools are now widely used to manage these challenges\n• But AI introduces its own risks"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Routing Errors and Their Impact",
+          "subtitle": "When routes go wrong, costs rise.",
+          "slidecontent": "• Wrong turns waste fuel\n• Late deliveries frustrate customers\n• Re-routing increases driver hours\n• Errors raise operational costs\n• Poor routes harm brand trust"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Routing Errors and Their Impact",
+          "subtitle": "When Routes Go Wrong, Costs Rise",
+          "slidecontent": "• Wrong turns waste fuel fast\n• Late deliveries frustrate customers\n• Re-routing increases driver hours\n• Missed stops mean failed deliveries\n• Costs spiral without correct data"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Routing Errors and Their Impact",
+          "subtitle": "When Routes Go Wrong, Costs Rise",
+          "slidecontent": "• Incorrect routes sending drivers to wrong postcodes or dead ends\n• Wasted fuel\n• Late deliveries damaging customer trust and satisfaction scores\n• Repeated failed attempts adding significant cost per parcel\n• Knock-on delays affecting every subsequent stop on the route\n• Small routing errors compounding quickly across a large delivery fleet"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Timing Errors and Missed Windows",
+          "subtitle": "When Delays Cascade Into Bigger Problems",
+          "slidecontent": "• A single late delivery can push back every subsequent stop on the route\n• Missed time windows (such as business deliveries with strict cut-off times) often mean a failed attempt and a costly reattempt\n• AI scheduling tools sometimes underestimate traffic, loading times, or access restrictions\n• Delays compound quickly\n• Customers who miss a delivery may lose trust even if the delay was minor\n• Poor timing data at the start of the day creates problems that are very difficult to recover from"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Routing Errors and AI Risks",
+          "subtitle": "When Routes Go Wrong with AI",
+          "slidecontent": "• AI routing tools can send drivers down closed roads, private land, or impractical routes\n• Real consequences for delivery time and fuel costs\n• Outdated map data is a common culprit\n• Drivers who override AI suggestions are sometimes penalised by the system, even when they are correct\n• Local knowledge still matters"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Delivery",
+          "subtitle": "Smarter Choices, Fewer Costly Mistakes",
+          "slidecontent": "• Verify routes before departing\n• Confirm delivery times early\n• Double-check customer details\n• Flag errors before they escalate\n• Review AI suggestions carefully"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for safer AI delivery",
+          "slidecontent": "• AI routing errors cause delays\n• Always verify automated decisions\n• Timing mistakes frustrate customers\n• Human checks reduce AI risk\n• Review, correct, improve constantly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thanks for joining this course on last-mile delivery and AI risks. So, what do we actually mean by the last mile? Well, it refers to that final stage of the delivery journey, the point where a parcel leaves a local depot and makes its way to a customer's front door. It sounds straightforward, but in reality it is one of the most costly and complicated parts of the entire supply chain. Things go wrong surprisingly often, whether that is a driver taking an inefficient route, a delivery arriving outside the agreed time slot, or a customer simply not being kept in the loop about where their parcel is. To tackle these challenges, many logistics companies have turned to artificial intelligence, using it to plan routes, predict demand, and improve communication. And while AI genuinely does help, it also brings a fresh set of risks that we need to understand. That is exactly what this course is going to explore together."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by looking at what happens when routing goes wrong, because the consequences are more far-reaching than you might expect. At the most basic level, a poor route means a driver is travelling further than necessary, burning extra fuel and adding time to their day. That might sound like a minor inconvenience, but multiply it across dozens of deliveries and a whole fleet of vehicles, and the costs add up very quickly. Then there is the customer side of things. When a parcel arrives late, people notice, and they remember. Trust in your brand takes a hit, and in a competitive market, that matters enormously. Drivers also end up working longer hours trying to correct or recover from bad routing decisions, which affects morale and increases labour costs. So what we are really seeing here is a chain reaction, where one routing error ripples outward and touches fuel, time, customer satisfaction, and your bottom line all at once."
+        },
+        {
+          "number": 3,
+          "script": "Let's talk about what happens when routing goes wrong, because the consequences can be surprisingly serious. Imagine a driver sets off with a full van and the navigation sends them on an inefficient route. Straight away, you're burning extra fuel on unnecessary miles. Then the delays start to stack up, and customers who were expecting a delivery within a certain window are left waiting and frustrated. The driver now has to re-route on the fly, which adds time to their shift and increases labour costs. And if the delays are bad enough, some stops get missed entirely, meaning failed deliveries that need to be rescheduled. Every one of those problems costs money, and when they happen repeatedly, those costs really do spiral. The root cause of most routing errors is poor or outdated data feeding into the system. So getting the data right is absolutely essential, and that's something we'll be exploring throughout this lesson."
+        },
+        {
+          "number": 4,
+          "script": "When an AI routing system gets it wrong, the consequences ripple out very quickly. A driver sent to the wrong postcode, or directed into a dead end, isn't just losing a few minutes. They're burning extra fuel, arriving late, and frustrating customers who may never order again. If a delivery attempt fails entirely, that parcel has to go out again another day, which adds real cost to every single failed stop. And here's the thing that catches a lot of people off guard: one bad route doesn't just affect one driver. Because each stop on a route feeds into the next, a single error early in the day can push back every delivery that follows. Now multiply that across a fleet of dozens or even hundreds of vehicles, and what started as a small algorithmic mistake becomes a very expensive operational problem. That's why routing accuracy matters so much in last-mile delivery."
+        },
+        {
+          "number": 5,
+          "script": "Timing is one of the trickiest challenges in last-mile delivery, and the problems can escalate very quickly. If one stop runs late, every stop after it gets pushed back as well. That might not sound serious at first, but when you have business customers with strict cut-off times, a late arrival often means a failed delivery and the cost and effort of going back again. Now, AI scheduling tools are genuinely useful, but they do not always account for things like heavy traffic, slow loading bays, or restricted access to certain areas. So if the timing data feeding into the system is off right at the start of the day, those small errors grow into much larger ones as the route progresses. And it is worth remembering that customers do not always distinguish between a minor delay and a major one. Even a small missed window can damage their confidence in the service. Getting the timing right from the outset really does matter."
+        },
+        {
+          "number": 6,
+          "script": "Now, AI routing tools are genuinely impressive, but they do get things wrong, and in last-mile delivery, a routing error can cause real problems. We have seen cases where drivers are directed down roads that are closed, onto private land, or along routes that are simply impractical for a delivery vehicle. That wastes time and burns fuel, which directly hits the bottom line. A big part of the problem is outdated map data. The AI is only as good as the information it has been trained on, and maps do not always reflect what is actually happening on the ground. Here is where it gets a bit tricky though. Some systems will actually penalise a driver for deviating from the suggested route, even when the driver is making the right call. That is a real tension, because local knowledge is genuinely valuable. A driver who knows the area will often spot something the algorithm simply cannot."
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about how you can actively reduce risk in your day-to-day delivery work, because a lot of costly mistakes are actually preventable with just a bit of extra care upfront. Before you even leave the depot, take a moment to check your route properly and confirm that delivery windows are realistic and agreed with the customer. It sounds simple, but getting those details right early saves a huge amount of trouble later. The same goes for customer information, so double-check addresses, contact numbers, and any special instructions before you set off rather than discovering a problem halfway through your shift. And if something looks wrong, flag it straight away rather than hoping it sorts itself out, because small errors have a habit of snowballing quickly. Finally, and this is really important throughout this course, when AI tools suggest a route or a decision, don't just accept it automatically. Review it, question it, and make sure it actually makes sense for the situation you're in."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the core lessons from everything we've covered in this lesson. When AI handles routing, mistakes can and do happen, and those errors have a real knock-on effect for delivery times. That's why it's so important that your team never simply trusts an automated decision without checking it first. We've also seen how getting the timing wrong, whether that's an estimated arrival window or a scheduling conflict, can genuinely frustrate customers and damage their trust in your service. The good news is that human oversight makes a significant difference. When people are actively reviewing what the AI is doing, you catch problems before they escalate. And finally, this isn't a one-time fix. The businesses that handle AI risks best are the ones that build a habit of reviewing their processes regularly, correcting what isn't working, and continuously improving. Keep those principles in mind, and you'll be in a much stronger position to deliver reliably and confidently."
+        }
+      ]
+    }
+  ]
+}

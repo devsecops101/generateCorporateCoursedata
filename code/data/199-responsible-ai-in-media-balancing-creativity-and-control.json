@@ -1,0 +1,105 @@
+{
+  "Course Title": "Responsible AI in Media: Balancing Creativity and Control",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Governance, ethics, and editorial responsibility.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with media or communications work (whether in publishing, advertising, film, or a related field) and a general curiosity about how artificial intelligence is beginning to shape the industry are all you need to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ethical considerations surrounding AI use in media and entertainment, and explain how governance frameworks apply to publishing, advertising, film, and communications. You will also apply responsible editorial practices to real-world scenarios, balancing creative opportunity with accountability and control.",
+  "lessons": [
+    {
+      "lesson title": "Responsible AI in Media: Balancing Creativity and Control",
+      "order": 1,
+      "Description": "This lesson introduces the core principles of responsible AI use within media and creative industries, exploring how editorial teams and content creators can harness AI tools without compromising journalistic integrity or ethical standards. You will examine the tension between creative freedom and the need for human oversight, looking at practical frameworks that help organisations make informed, accountable decisions. The lesson covers key governance considerations, including transparency, bias, and the importance of maintaining editorial control when AI is involved in content production. By the end, you will have a clearer understanding of how to approach AI adoption in a way that is both innovative and responsible, grounded in real-world examples relevant to the media sector.",
+      "status": "draft",
+      "content": "Governance, ethics, and editorial responsibility.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Responsible AI in Media",
+          "subtitle": "Governance, Ethics, and Editorial Responsibility",
+          "slidecontent": "• AI is reshaping media\n• Ethics matter now\n• Editorial control is essential\n• Governance guides responsible use\n• Creativity needs clear boundaries"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Setting the Scene: AI Today",
+          "subtitle": "Where we are right now.",
+          "slidecontent": "• AI tools are everywhere now\n• Media use is growing fast\n• Text, images, video, audio\n• Not all outputs are accurate\n• Rules are still catching up"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Editorial Responsibility and Oversight",
+          "subtitle": "Keeping humans firmly in the loop",
+          "slidecontent": "• Humans approve final content\n• AI assists, editors decide\n• Review every AI output\n• Accountability stays with you\n• Document your oversight process"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Editorial Oversight and Accountability",
+          "subtitle": "Keeping humans in the decision loop",
+          "slidecontent": "• Editorial teams must review and approve AI-generated content before it is published\n• Human judgement remains the final authority\n• Clear accountability structures help identify who is responsible when AI output causes harm\n• Audit trails and version logs make it easier to trace how a piece of content was produced\n• Oversight policies should be documented, shared, and regularly updated"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Navigating Editorial Responsibility",
+          "subtitle": "Who Decides What Gets Published?",
+          "slidecontent": "• Editorial responsibility still rests with human journalists and editors, even when AI assists in drafting content\n• AI can generate text quickly, but speed does not equal accuracy or fairness\n• Someone must own every decision\n• Publishers need clear internal policies that define who reviews and approves AI-assisted output before it goes live\n• Accountability gaps emerge when teams assume the AI \"checked\" something that was never actually verified by a person\n• Transparency with audiences about AI involvement is increasingly expected, and in some regions legally required"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Editorial Oversight and Accountability",
+          "subtitle": "Keeping humans in the decision loop",
+          "slidecontent": "• Humans approve final decisions\n• AI suggests, editors choose\n• Accountability stays with people\n• Review AI outputs regularly\n• Document every editorial choice"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Maintaining Human Editorial Oversight",
+          "subtitle": "Keeping humans firmly in the loop",
+          "slidecontent": "• A human editor must review and approve AI-generated content before it is published\n• Final decisions always rest with people, not algorithms\n• Establishing clear sign-off workflows prevents AI output from slipping through unchecked\n• Audit trails help teams track which content was AI-assisted and who approved it\n• Training staff to spot errors, bias, and tone issues in AI drafts is essential\n• Oversight is not optional"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always.",
+          "slidecontent": "• AI tools amplify your editorial voice but never replace your editorial judgement\n• Always disclose\n• Bias in, bias out: the content you feed AI shapes what it produces\n• Accountability sits with the human who publishes, not the system that generates\n• Small governance habits (logging, reviewing, flagging) build long-term trust\n• Start your next project by drafting a simple one-page AI use policy for your team"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, everyone, and thank you for joining this course on Responsible AI in Media. We are living through a genuinely exciting moment. Artificial intelligence is transforming how media is created, distributed, and consumed, and that transformation is happening incredibly fast. But with that speed comes real responsibility. As journalists, editors, content creators, and media professionals, we cannot simply adopt these tools and hope for the best. We need to think carefully about the ethical questions they raise, about who is in control of the content being produced, and about how we make sure AI is used in ways that are fair, accurate, and trustworthy. That is exactly what this course is about. We will explore how governance frameworks can guide responsible use, and why creativity, as exciting as it is, needs clear boundaries to protect both audiences and the integrity of our work. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by looking at where we actually are right now with AI. The truth is, artificial intelligence has moved from something quite niche and technical into something most of us encounter every single day, often without even realising it. And in the media world specifically, adoption is accelerating rapidly. We are talking about tools that can generate written articles, create photorealistic images, produce video content, and even clone voices, all within seconds. It is genuinely remarkable. But here is the thing: just because these tools are powerful does not mean they are always reliable. AI can and does produce content that is inaccurate, misleading, or simply wrong, and that creates real challenges for anyone working in media. On top of that, the legal and regulatory frameworks that govern how these tools should be used are still very much a work in progress. So we are all, in a sense, navigating this together. That is exactly why this course exists."
+        },
+        {
+          "number": 3,
+          "script": "So when we talk about editorial responsibility, the core idea is really quite simple: AI is your assistant, not your editor-in-chief. No matter how impressive the output looks, a human being needs to be the one who says \"yes, this is ready to publish.\" That means every piece of AI-generated content should pass through a proper review before it goes anywhere near your audience. And here is the important part: if something goes wrong, the responsibility sits with you and your organisation, not with the tool you used. That is not a reason to avoid AI, but it is a very good reason to take oversight seriously. One practical way to do that is to document your process. Keep a record of what was generated, who reviewed it, and what changes were made. This kind of paper trail protects you, builds trust with your audience, and helps your whole team stay accountable as you bring AI into your workflow."
+        },
+        {
+          "number": 4,
+          "script": "So, AI can help us produce content faster than ever before, but speed should never come at the expense of responsibility. That is why editorial oversight matters so much. Before anything AI-generated goes out to an audience, a human being needs to review it and give it the green light. We cannot simply trust the machine and move on. Alongside that, organisations need to be clear about who is accountable if something goes wrong. If an AI produces content that is inaccurate or harmful, someone has to own that. Keeping detailed audit trails and version logs makes it much easier to trace exactly how a piece of content came together, which is incredibly useful if questions arise later. And finally, none of this works unless your oversight policies are actually written down, shared with the team, and revisited regularly as the technology evolves. Human judgement stays at the centre of the whole process."
+        },
+        {
+          "number": 5,
+          "script": "So here's a question worth sitting with: when AI helps write a news story, who is actually responsible for what gets published? The answer hasn't changed, and it shouldn't. Human journalists and editors remain accountable, full stop. AI can produce text at impressive speed, but speed alone doesn't guarantee accuracy or fairness. Every piece of content still needs a real person to own that decision. That means your organisation needs clear internal policies spelling out exactly who reviews and approves AI-assisted work before it goes anywhere near your audience. One of the biggest risks we see is what you might call an accountability gap, where someone assumes the AI already checked something, when in reality nobody did. That's how errors slip through. And finally, being open with your audience about AI involvement isn't just good practice anymore. In a growing number of regions, it's becoming a legal requirement. Transparency is no longer optional."
+        },
+        {
+          "number": 6,
+          "script": "So when we bring AI into the newsroom or any media environment, one of the most important principles is making sure that humans remain firmly in charge of the final call. Think of AI as a very capable assistant that can surface ideas, flag patterns, or draft content, but it should never be the one making editorial decisions on its own. That responsibility stays with your team. And this matters enormously when things go wrong, because someone needs to be accountable, and that someone has to be a person, not an algorithm. It is also worth building in regular checks on what your AI tools are actually producing, because they can drift or develop blind spots over time. And finally, get into the habit of documenting your editorial choices. If you override an AI suggestion or decide to follow it, write down why. That paper trail protects you, your organisation, and ultimately your audience."
+        },
+        {
+          "number": 7,
+          "script": "So we have established that AI can be a powerful creative tool, but this slide gets to the heart of responsible use: humans must stay in control. No matter how good an AI draft looks, a real person needs to review and approve it before it goes anywhere near your audience. That means building proper sign-off workflows into your process, so nothing slips through unchecked. It also means keeping clear records of which content was AI-assisted and who gave it the green light. That kind of audit trail is genuinely useful when questions arise later. And of course, your team needs the skills to actually spot problems in AI output, whether that is a factual error, an unintended bias, or simply a tone that does not fit your brand. The bottom line here is straightforward: oversight is not an optional extra. It is a professional and ethical responsibility that sits at the centre of everything we are covering in this course."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important thing to hold onto is this: AI is a tool that supports your voice, it does not replace your judgement. Whatever you publish, you are responsible for it, not the algorithm. Always be transparent with your audience about when and how AI has been involved. And remember, the quality of what you put into these tools directly shapes what comes out, so be thoughtful about your inputs. Now, good practice does not have to be complicated. Simple habits like keeping a log of how you use AI, reviewing outputs carefully, and flagging anything that feels off, these small steps build real trust over time. And here is your practical challenge to finish the course: before your next project, sit down and draft a one-page AI use policy for your team. Keep it simple, keep it honest, and make it yours. That one page could make all the difference."
+        }
+      ]
+    }
+  ]
+}

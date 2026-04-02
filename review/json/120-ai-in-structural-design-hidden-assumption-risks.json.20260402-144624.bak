@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Structural Design: Hidden Assumption Risks",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "When AI-generated designs overlook critical engineering constraints.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with structural engineering principles and some exposure to AI tools used in design or construction workflows will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the hidden assumptions embedded in AI-generated structural designs and explain how these assumptions can introduce critical engineering risks in real-world construction projects. You will also apply practical evaluation techniques to assess AI design outputs, ensuring that fundamental structural constraints are recognised, questioned, and properly validated before any design progresses to implementation.",
+  "lessons": [
+    {
+      "lesson title": "AI in Structural Design: Hidden Assumption Risks",
+      "order": 1,
+      "Description": "Artificial intelligence tools are increasingly being used to assist with structural design, but they can sometimes produce outputs that appear convincing while quietly overlooking critical engineering constraints. This lesson explores how AI-generated designs may embed hidden assumptions about load paths, material behaviour, or site conditions that are not immediately obvious to the reviewer. You will learn to recognise the warning signs of these oversights and understand why human engineering judgement remains essential when working alongside AI tools. The content is designed for those who are new to using AI in a structural context, offering practical guidance on how to approach AI outputs with appropriate scepticism. By the end of this lesson, you will have a clearer understanding of where AI assistance adds genuine value and where it requires careful scrutiny.",
+      "status": "draft",
+      "content": "When AI-generated designs overlook critical engineering constraints.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Hidden Assumptions in AI Design",
+          "subtitle": "What AI doesn't know can hurt.",
+          "slidecontent": "• AI skips hidden constraints\n• Assumptions cause real failures\n• Engineers must verify outputs\n• Trust but always check",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Hidden Assumption Risks",
+          "subtitle": "What AI silently assumes about structures",
+          "slidecontent": "• AI fills gaps silently\n• Assumes standard load conditions\n• Ignores site-specific constraints\n• Treats defaults as universal\n• Missing context goes unnoticed",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Assumptions Hidden in the Code",
+          "subtitle": "What the algorithm never tells you",
+          "slidecontent": "• Training data drawn from past projects, embedding outdated load standards silently\n• No warning when regional codes differ\n• Optimised for efficiency, not safety margins\n• Material properties assumed uniform unless explicitly told otherwise\n• Boundary conditions (fixed, pinned, free) defaulted without flagging the choice to the engineer\n• Cost and weight minimisation baked in as invisible objectives",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Load Path Assumptions Gone Wrong",
+          "subtitle": "When forces find unexpected, dangerous routes",
+          "slidecontent": "• AI tools sometimes assume forces travel through the most obvious structural members, missing alternative paths entirely\n\n• Real structures redirect loads unpredictably when connections are rigid, flexible, or partially constrained\n\n• A missed load path can concentrate stress in an unintended beam or joint\n\n• Catastrophic, and often invisible until failure\n\n• AI-generated models trained on standard configurations may not flag unusual geometries where loads bypass primary members\n\n• Engineers must manually trace every credible load route, not just the one the software highlights",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Load Path Assumptions Gone Wrong",
+          "subtitle": "Where forces travel matters enormously.",
+          "slidecontent": "• AI tools sometimes assume forces travel through the most obvious path, not the actual structural path\n• A misread load path can shift stress into members never designed to carry it\n• Connections fail first\n• Seemingly minor geometry changes, like an offset beam, can reroute forces entirely\n• AI may not flag when a proposed layout contradicts the intended load distribution",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Validating AI Design Outputs",
+          "subtitle": "Checking outputs before they become problems",
+          "slidecontent": "• Check loads manually first\n• Verify material specs always\n• Cross-reference building codes\n• Question unusual geometry outputs\n• Confirm connection details independently",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Hidden Assumption Risks",
+          "subtitle": "Strategies to Reduce Unseen Design Errors",
+          "slidecontent": "• Always verify AI-generated outputs against established structural codes and standards\n• Cross-check load assumptions manually\n• Involve a qualified structural engineer at every review stage, not just at final sign-off\n• Document every assumption the AI tool makes, so nothing stays hidden\n• Run sensitivity checks on key variables like material strength and load distribution\n• Build in a dedicated review step for site-specific conditions the AI may not have accounted for",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What every structural engineer must know",
+          "slidecontent": "• AI misses hidden constraints\n• Always verify AI outputs\n• Local codes matter most\n• Human judgement stays essential\n• Check assumptions every time\n• Next step: audit one AI design",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in structural design, and specifically the hidden assumption risks that come with it. Now, AI tools are genuinely impressive. They can process enormous amounts of data and generate design outputs incredibly quickly. But here is the thing: AI does not always know what it does not know. It can quietly skip over constraints that an experienced engineer would instinctively recognise, and those gaps in understanding can lead to real, serious failures in the physical world. We have already seen cases where AI-generated outputs looked perfectly reasonable on screen but contained assumptions that simply did not hold up in practice. So throughout this course, the message is not that AI is bad or that you should avoid it. Quite the opposite. The message is that you need to stay in the loop. Use these tools, absolutely, but always verify what they produce. Your engineering judgement is not optional. It is the safety net that makes AI actually useful.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So let's start by understanding what we actually mean by hidden assumption risks. When you use an AI tool in structural design, it doesn't always tell you what it's assuming behind the scenes. If there's a gap in the information you've provided, the AI will quietly fill it in using whatever defaults it has been trained on. It might assume perfectly standard load conditions, for example, or ignore constraints that are completely specific to your site. The trouble is, those defaults were built for a general case, not your particular project. So the AI treats them as universal truths, even when they aren't. And because none of this is flagged up explicitly, the missing context simply goes unnoticed. You get an output that looks perfectly reasonable, but it's built on assumptions you never agreed to and may not even be aware of. That's the core risk we're going to be exploring throughout this lesson.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration script for Slide 3:\n\nThe real danger with AI tools in structural design is not what they get wrong openly, it is what they assume quietly. These systems are trained on historical project data, which means old load standards and outdated practices can be baked right in, with no warning label attached. If you are working to a regional code that differs from what the model was trained on, it will not flag that up. It will simply carry on. The same goes for material properties, where the algorithm will typically assume everything is perfectly uniform unless you specifically tell it otherwise. Boundary conditions, whether a joint is fixed, pinned, or free, are often defaulted without the engineer even being asked. And underneath all of this, many tools are quietly optimising for cost and weight reduction, not for the safety margins we actually care about. These are invisible decisions, and that is precisely what makes them so risky.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "Load paths are one of the most fundamental concepts in structural engineering, and they're also one of the areas where AI tools can quietly get things wrong. The software might assume that forces travel through the obvious, primary members, which is often true, but not always. In real structures, loads can find alternative routes, especially where connections are rigid or partially constrained in ways the model didn't anticipate. When that happens, stress can build up in a beam or joint that nobody was watching, and the frightening thing is that this kind of problem can be completely invisible right up until the moment something fails. AI models trained on standard building configurations may simply not recognise unusual geometries where loads are bypassing the main structure altogether. So the responsibility falls on the engineer to manually trace every credible load route through the structure, not just the one the software has highlighted. Never assume the software has found them all.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "Load path is one of those concepts that sounds straightforward but catches people out constantly, even experienced engineers. The question is simple: where do the forces actually travel through the structure? AI tools can get this wrong because they sometimes assume forces follow the most obvious or direct route, rather than the real structural path. And when that assumption is off, stress ends up in members that were never designed to handle it. Connections are usually the first things to suffer, because they sit right at the junction of those misunderstood paths. What makes this particularly tricky is that even a small geometry change, something as seemingly minor as an offset beam, can completely reroute how forces move through a structure. The concern is that an AI tool may not raise a flag when a proposed layout quietly contradicts the intended load distribution. So always verify the load path yourself, and do not rely on the tool to spot that conflict for you.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "So once you have an AI-generated design output in front of you, the real work begins. Before anything moves forward, always run your load calculations manually. Do not simply trust the numbers the tool has produced. From there, double-check that the material specifications actually match what is available and appropriate for your project. It sounds obvious, but AI tools can suggest materials that are technically valid in general but wrong for your specific context. You also want to cross-reference everything against the relevant building codes, because the AI may be drawing on guidance from a different region or an outdated standard. If the geometry looks unusual or unexpected, that is a signal to stop and question it rather than assume the tool knows best. And finally, connection details should always be verified independently. These are the points where structures can fail, so they deserve your full attention. Validation is not optional; it is simply part of the process.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "So, we know the risks are real. The question is, what do we actually do about them? The good news is there are some straightforward steps you can put in place. First, never take AI outputs at face value. Always check them against recognised structural codes and standards, and manually verify any load assumptions the tool has made. Crucially, bring a qualified structural engineer into the process at every review stage, not just at the end when it may be too late to catch something. Make sure every assumption the AI has used is written down and visible, because hidden assumptions are where things go wrong. It is also worth running sensitivity checks, testing what happens if material strength or load distribution varies slightly. And finally, build in a specific review step to consider site conditions that the AI simply may not have had access to. These steps together give you a much stronger safety net.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together from this lesson. The core message is this: AI tools are genuinely useful in structural design, but they do not automatically know about the hidden constraints that you, as the engineer on the ground, are aware of. That means every output AI produces needs your eyes on it before anything moves forward. And please do not assume that a calculation is correct simply because it looks polished or confident. Your local building codes and regulations always take priority, and no AI system will know those as well as you do. Your professional judgement is not optional here, it is absolutely essential. Every single time you use an AI tool, make a habit of questioning the assumptions baked into its results. Now, here is a practical challenge to close out this lesson: pick one AI-generated design you have worked with recently and run a proper audit on it. Check the assumptions, check the constraints, and see what you find. You might be surprised.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

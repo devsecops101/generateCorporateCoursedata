@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Financial Decisions: When Accuracy Isn’t Enough",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Why “mostly correct” can still create major financial risk.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday financial concepts such as budgeting, lending, or insurance is helpful, along with a general curiosity about how AI tools are beginning to influence financial decision-making.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key limitations of AI-generated outputs in financial contexts and explain why a high accuracy rate does not guarantee reliable decision-making. You will also apply practical frameworks to evaluate AI recommendations critically, helping you protect clients, manage risk, and uphold professional standards across banking, insurance, accounting, and related fields.",
+  "lessons": [
+    {
+      "lesson title": "AI in Financial Decisions: When Accuracy Isn’t Enough",
+      "order": 1,
+      "Description": "AI tools can analyse vast amounts of financial data quickly and often produce impressive results, but even a small percentage of errors can lead to costly mistakes when money is on the line. This lesson explores why a high accuracy rate is not the same as a reliable accuracy rate, and why the consequences of being wrong in finance are rarely equal. You will learn how to think critically about where AI gets things right, where it falls short, and what kinds of errors carry the most risk. By the end, you will have a clearer sense of how to use AI as a useful starting point rather than a final authority in financial decision-making.",
+      "status": "draft",
+      "content": "Why “mostly correct” can still create major financial risk.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Where accuracy alone can mislead you.",
+          "slidecontent": "• AI gets things wrong sometimes\n• Wrong can mean real losses\n• Accuracy hides deeper risks\n• You need more than percentages",
+          "do_not_include": true
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Limits of \"Mostly Correct\"",
+          "subtitle": "When errors carry serious consequences",
+          "slidecontent": "• AI tools in finance can be accurate 95% of the time and still cause serious harm\n• A single wrong figure in a loan assessment or tax calculation can trigger real financial loss\n• Errors compound quickly\n• High overall accuracy masks the specific cases where mistakes matter most\n• The stakes, not the statistics, determine whether a tool is fit for purpose",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Cost of Near-Correct",
+          "subtitle": "Small errors, serious financial consequences.",
+          "slidecontent": "• A misplaced decimal or wrong account number can trigger costly errors\n• AI systems can be highly accurate overall yet still wrong on critical details\n• Even a 99% accuracy rate means 1 in 100 outputs could be flawed\n• Small mistakes, big consequences\n• In finance, near-correct is not the same as correct\n• Errors in tax figures, loan calculations, or compliance reports can carry serious penalties",
+          "do_not_include": true
+        },
+        {
+          "number": 4,
+          "slidetitle": "Confidence Gaps and Hidden Costs",
+          "subtitle": "Where errors carry the heaviest price",
+          "slidecontent": "• Small errors, big losses\n• Fraud missed, money gone\n• Wrong rate, wrong decision\n• Confidence hides the gap\n• \"Close enough\" costs plenty",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Confidence Gaps and Hidden Costs",
+          "subtitle": "Where errors hide their true price",
+          "slidecontent": "• A 95% accurate AI still produces wrong outputs 1 in 20 times\n• In financial contexts, that remaining 5% can carry enormous monetary consequences\n• Errors cluster around edge cases, unusual transactions, and low-frequency data patterns\n• Costly mistakes\n• Confidence scores shown by AI tools rarely reflect the true risk of a specific error type\n• Hidden costs include compliance failures, reputational damage, and compounding downstream decisions built on flawed outputs",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Confidence Gaps and Hidden Costs",
+          "subtitle": "When gaps cost more than errors",
+          "slidecontent": "• Silence signals hidden uncertainty\n• Gaps hide inside correct answers\n• Missing context inflates real costs\n• Confidence scores often mislead\n• Unknown unknowns hurt most",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to minimise costly errors",
+          "slidecontent": "• Always validate AI-generated figures against a second source before acting on them\n• Build in a human review step for any decision above a set financial threshold\n• Keep audit trails\n• Document where AI was used in a process and what assumptions it made\n• Test your AI tools regularly with known data to catch drift or degradation in accuracy\n• Treat AI output as a starting point, not a final answer",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "The essentials worth carrying forward",
+          "slidecontent": "• AI errors carry real cost\n• Accuracy alone isn't enough\n• Context shapes every decision\n• Always verify critical outputs\n• You remain responsible",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. Over the next few lessons, we are going to explore something that catches a lot of people off guard when they start using AI in financial contexts. The issue is not simply that AI makes mistakes, though it certainly does. The real problem is what those mistakes actually cost you. In finance, a wrong prediction is not just an inconvenience, it can mean real money lost, real decisions gone badly. And here is the part that surprises most people: the standard way we measure how good an AI model is, its accuracy score, can actually hide those risks from you. An AI can look impressively accurate on paper and still be quietly failing you in the ways that matter most. So throughout this course, we are going to look beyond the percentages and ask the deeper questions that will help you use AI more wisely and more safely in financial decision making. Let us get started.",
+          "do_not_include": true
+        },
+        {
+          "number": 2,
+          "script": "So here's something that might surprise you. An AI tool can be right nineteen times out of twenty and still be genuinely dangerous in a financial context. Ninety-five percent accuracy sounds impressive, but think about what that remaining five percent actually means in practice. If a system miscalculates a loan figure, or gets a tax liability wrong, that single error can lead to real financial harm for a real person. And in finance, mistakes rarely stay isolated. One wrong number can feed into another calculation, and another, and the problem grows quickly. There's also a subtler issue here. A high overall accuracy score can hide the fact that the errors are clustering in exactly the situations where precision matters most. So the question we need to ask about any AI tool isn't simply \"how often is it right?\" It's \"what happens when it's wrong, and can we afford that?\"",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "Let's talk about what happens when AI gets it almost right. In most industries, being 99% accurate sounds impressive. But think about what that actually means in practice. If an AI system processes hundreds of outputs, that one percent of errors could mean a wrong tax figure, an incorrect loan calculation, or a compliance report that doesn't quite add up. And in finance, those small mistakes carry real consequences. A misplaced decimal point or a transposed account number isn't just a minor inconvenience. It can trigger penalties, regulatory issues, or significant financial losses. The problem is that AI systems can perform brilliantly overall and still get the critical details wrong. So when we talk about accuracy in financial contexts, we need to be clear about something important. Near-correct simply isn't good enough. The stakes are too high to accept outputs that are mostly right. In finance, correct means correct, every single time.",
+          "do_not_include": true
+        },
+        {
+          "number": 4,
+          "script": "Now, here's where things get really important. In finance, even a tiny error can have enormous consequences. A model that's ninety-nine percent accurate sounds impressive, but if that one percent miss means a fraudulent transaction slips through, real money is gone and it doesn't come back. Or imagine a system recommending an interest rate that's just slightly off. That small miscalculation could lead a business to take on a loan it can't afford, or pass up an investment it should have taken. And here's the tricky part: AI systems often present their answers with a great deal of confidence, which can actually make things worse. When a system sounds certain, people are less likely to question it. So the gap between what the model thinks it knows and what it actually knows stays hidden. \"Close enough\" might be fine when you're estimating how long dinner will take, but in financial decisions, that gap can be genuinely costly.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "So here's something worth sitting with for a moment. When we say an AI model is 95% accurate, that sounds reassuring, doesn't it? But flip it around, and that means it's getting something wrong one time in every twenty. Now in most contexts, that might be acceptable. In financial decisions, though, that five percent can be where the real damage lives. And here's the thing: errors don't spread themselves evenly. They tend to cluster around unusual transactions, edge cases, and patterns the model hasn't seen very often. Those are precisely the situations where the stakes are often highest. What makes this trickier is that the confidence scores AI tools display don't always tell you how risky a specific type of error actually is. And the costs that follow aren't just financial in the direct sense. You're also looking at potential compliance failures, reputational harm, and decisions further down the line that were built on a flawed foundation in the first place.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "Here is the narration script for Slide 6:\n\nOne of the trickiest problems with AI in financial decisions is not when it gets something wrong outright. It is when it gets something partially right, but stays quiet about the parts it is unsure of. That silence is actually a signal. It often means the model has gaps in its knowledge that it is not flagging for you. And here is the really dangerous bit: those gaps can hide inside answers that look completely correct on the surface. You might see a confident response, maybe even a confidence score of 90 percent or higher, and still be missing crucial context that changes the entire picture. That missing context has a real cost, whether that is a mispriced risk, a missed obligation, or a decision made on incomplete information. The hardest situations to manage are the ones where you do not even know what you do not know. Those hidden blind spots tend to cause the most damage in practice.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "So how do we actually reduce the risk of AI errors causing real financial harm? A few practical habits make a big difference. First, never act on a single AI-generated figure without checking it against another source. If the numbers matter, verify them. Second, for any significant financial decision, build in a human review step. Set a threshold and make sure a person signs off above it. It is also worth keeping clear records of where AI was involved in a process and what assumptions the tool was working from. That kind of documentation protects you if questions arise later. You should also test your AI tools periodically using data where you already know the correct answer, because accuracy can quietly degrade over time without any obvious warning signs. And perhaps most importantly, always treat AI output as a starting point for your thinking, not the final word. That mindset alone will save you from a lot of costly mistakes.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The core message of this lesson is that when AI gets something wrong in a financial context, there are real consequences, whether that's a poor investment decision, a compliance failure, or a missed risk. And here's the thing: an AI tool can be highly accurate in general and still give you the wrong answer for your specific situation. Context matters enormously. The same output can be perfectly reasonable in one scenario and completely misleading in another. That's why verification isn't optional, especially when the stakes are high. Before you act on any critical AI output, check it, question it, and sense-check it against what you already know. And perhaps most importantly, remember that the responsibility never transfers to the machine. You are the decision-maker. AI is there to support your thinking, not to replace your judgement. Keep those principles in mind and you'll be in a much stronger position going forward.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

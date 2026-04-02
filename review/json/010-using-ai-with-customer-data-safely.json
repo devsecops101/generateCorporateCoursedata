@@ -1,0 +1,105 @@
+{
+  "Course Title": "Using AI with Customer Data Safely",
+  "Category": "Corporate",
+  "Description": "Practical guardrails for handling client or customer information.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with their organisation's data handling processes and a general awareness of what artificial intelligence tools are, though no technical expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI tools alongside customer data and explain the compliance considerations that apply in a corporate setting. You will also apply practical guardrails to ensure customer information is handled responsibly, helping you build safer and more trustworthy AI-assisted workflows.",
+  "lessons": [
+    {
+      "lesson title": "Using AI with Customer Data Safely",
+      "order": 1,
+      "Description": "This lesson introduces practical, straightforward guidance for anyone who works with customer or client data and wants to use AI tools responsibly. You will learn how to identify what types of information require extra care, and how to apply simple guardrails before sharing anything with an AI system. The lesson covers common mistakes people make when using AI in a professional context, and how to avoid putting your customers or your organisation at risk. By the end, you will feel confident making better decisions about when and how to use AI safely as part of your everyday work.",
+      "status": "draft",
+      "content": "Practical guardrails for handling client or customer information.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Using AI with Customer Data",
+          "subtitle": "Practical guardrails for every interaction.",
+          "slidecontent": "• AI tools are everywhere in modern workplaces\n• Customer data requires careful handling at every step\n• Small mistakes can lead to serious privacy breaches\n• This course gives you practical, easy-to-follow guardrails\n• No technical background needed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Why This Matters Now",
+          "subtitle": "AI use is growing fast, act now.",
+          "slidecontent": "• AI tools are now embedded in everyday business software, from email to spreadsheets\n• Staff are using them whether policies exist or not\n• Customer data is being shared with these tools, often without realising it\n• Regulators are paying close attention\n• The risks are real and the time to act is now"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Sensitive Customer Data",
+          "subtitle": "What counts as sensitive information",
+          "slidecontent": "• Names, addresses, phone numbers\n• Payment and banking details\n• Health or medical records\n• Login credentials and passwords\n• Purchase history and preferences"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Anonymise Before You Share",
+          "subtitle": "Strip names, details, then proceed.",
+          "slidecontent": "• Remove names first\n• Delete contact details\n• Swap IDs for codes\n• Check dates and locations\n• Then share safely"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Minimising Risk in Practice",
+          "subtitle": "Practical steps to protect customer data",
+          "slidecontent": "• Remove or replace names, emails, and account numbers before pasting data into any AI tool\n• Anonymise first, always\n• Use fictional or scrambled examples when testing AI features during setup or training\n• Check your organisation's policy before sharing any customer information with a third-party AI service\n• Treat AI input fields like public spaces, not private ones\n• Keep a record of what data types you have used with AI tools, in case of a later audit"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Anonymise Before You Share",
+          "subtitle": "Remove names, details, identifiers first.",
+          "slidecontent": "• Strip names out first\n• Remove emails and phone numbers\n• Replace IDs with placeholders\n• Check dates and locations too\n• Then share with AI tools"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Red Flags to Watch For",
+          "subtitle": "Warning signs that demand your attention",
+          "slidecontent": "• AI requests full customer databases\n• Output includes real names unexpectedly\n• No opt-out option offered\n• Tool stores your inputs automatically\n• Vague privacy policy or none"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these principles close at hand.",
+          "slidecontent": "• Never paste real customer data into a public or unverified AI tool\n• Anonymise first, then prompt\n• Always check your organisation's policy before using AI with any client information\n• If in doubt, leave it out\n• Treat AI tools like any other third-party software, with the same data-handling care\n• Start small, review the results, and build confidence gradually before scaling up your use"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. AI tools have become a regular part of working life for many of us, whether we realise it or not. They help us draft emails, summarise information, respond to customers, and much more. But when those tools come into contact with customer data, we need to be thoughtful about how we use them. Customer information is sensitive, and even a small slip, like pasting the wrong details into a prompt, can lead to a serious privacy breach. The good news is that protecting customer data does not have to be complicated. This course is designed to give you straightforward, practical guardrails that you can apply in your day-to-day work, starting from today. You do not need any technical background or specialist knowledge to follow along. Everything here is built around real situations you are likely to encounter. So let us get started and look at how to use AI responsibly and confidently."
+        },
+        {
+          "number": 2,
+          "script": "So why are we talking about this now? Well, the truth is, AI tools have quietly become part of everyday working life. They're built into the software your team already uses, things like email, spreadsheets, and document editors. And here's the thing: your staff are probably already using them, whether your organisation has a policy in place or not. That's not a criticism, it's just the reality of how quickly this technology has moved. The problem is that when people use these tools, they're often sharing customer data without even realising it. A quick copy and paste into a chatbot, a prompt that includes a client's name or contact details, and suddenly that information has left your control. Regulators are watching this space very closely, and the rules around data protection haven't gone away just because the technology is new. So the risks are genuine, and getting to grips with this sooner rather than later is really important."
+        },
+        {
+          "number": 3,
+          "script": "Before we look at how to use AI tools responsibly, we need to be clear about what actually counts as sensitive customer data, because it is broader than most people initially think. The obvious stuff includes things like a customer's name, their home address, or their phone number. But it also covers financial details, so anything related to bank accounts or payment cards. Health and medical information is particularly sensitive and is treated very carefully under data protection law. Then there are login credentials, usernames and passwords, which should never be shared with or entered into an AI tool under any circumstances. And finally, do not overlook behavioural data, things like what a customer has previously bought or their stated preferences. All of these categories tell us something personal and private about an individual, and that is exactly why they need to be handled with care. Keeping this list in mind will help you make better decisions as we work through the rest of this course."
+        },
+        {
+          "number": 4,
+          "script": "Before you paste any customer data into an AI tool, you need to strip out anything that could identify a real person. Start with the obvious stuff, names and contact details like email addresses and phone numbers. Those should be the first things to go. Next, if your data includes any kind of customer ID or account reference, swap those out for neutral codes so there is no way to trace them back to an individual. Then take a moment to look at dates and locations, because sometimes those details on their own can be enough to identify someone, especially if the dataset is small. Once you have worked through all of that, you are in a much safer position to share the data with an AI tool. Think of it as a quick checklist you run through every single time. It only takes a few minutes, but it makes an enormous difference to how safely you are handling your customers' information."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about what this actually looks like day to day. The golden rule is simple: anonymise first, always. Before you paste anything into an AI tool, strip out the names, email addresses, account numbers, anything that identifies a real person. If you're just testing a feature or setting something up, use made-up examples rather than real customer data. It's also worth checking your organisation's policy before you share anything with a third-party AI service, because not all tools are approved for that kind of use. A helpful way to think about it is this: imagine the AI input field is a public noticeboard. You wouldn't pin a customer's personal details up there, so don't type them in either. And finally, keep a simple log of what types of data you've used with AI tools. If there's ever an audit or a question later on, you'll be really glad you did."
+        },
+        {
+          "number": 6,
+          "script": "Before you paste any customer data into an AI tool, take a moment to clean it up first. That means stripping out anything that could identify a real person. Start with the obvious stuff, names, email addresses, and phone numbers. Those should go before anything else. Then look at any ID numbers or reference codes, and replace those with simple placeholders like \"Customer A\" or \"ID001.\" But do not stop there, because dates and locations can also give away more than you might expect, especially if they are specific enough to point to an individual. Once you have gone through all of that, then you are in a much safer position to share the data with an AI tool. Think of it as a quick checklist you run through every single time. It only takes a minute or two, but it makes a real difference in keeping your customers protected and your business on the right side of data regulations."
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about some warning signs that should make you stop and think before you carry on using an AI tool with customer data. First, if a tool is asking for an entire customer database just to complete a simple task, that's a problem. You should only ever share the minimum data needed. Similarly, if real customer names start appearing in the output when you never expected them to, that tells you the tool may be handling data in ways you haven't fully understood. Watch out for tools that give customers no way to opt out of having their data used, because that's likely a compliance issue straight away. Be cautious too if the tool is automatically saving everything you type into it, as your inputs could be stored and used for purposes you're not aware of. And finally, if the privacy policy is vague, confusing, or simply doesn't exist, treat that as a serious red flag. These are the moments where you need to pause and ask questions before going any further."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important habit to build is this: never put real customer information into an AI tool unless you are absolutely certain it is approved and secure. Anonymise your data first, then work with it. And before you do anything, check your organisation's policy, because the rules will vary from one workplace to another. A simple phrase worth keeping in mind is \"if in doubt, leave it out.\" It really is that straightforward. Think of AI tools the same way you would think of any other third-party software you might use at work, and apply the same level of care around data handling. Finally, there is no need to rush. Start with something small, see how it goes, build your confidence, and then gradually do more. Getting this right from the beginning will save you a great deal of trouble further down the line."
+        }
+      ]
+    }
+  ]
+}

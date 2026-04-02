@@ -1,0 +1,105 @@
+{
+  "Course Title": "Who Is Responsible for AI-Driven Production Decisions?",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "Accountability across engineers, operators, and leadership.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with manufacturing operations and a general awareness of how automated or computer-based systems are used on the production floor is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key roles and responsibilities of engineers, operators, and leadership when AI systems influence production decisions across manufacturing environments. You will also be able to explain how accountability is shared and apply practical frameworks to ensure the right people are answerable for AI-driven outcomes in your organisation.",
+  "lessons": [
+    {
+      "lesson title": "Who Is Responsible for AI-Driven Production Decisions?",
+      "order": 1,
+      "Description": "As artificial intelligence becomes more embedded in manufacturing and production environments, understanding who holds responsibility for the decisions it makes is increasingly important. This lesson explores how accountability is shared across different roles, including engineers who design and maintain AI systems, operators who work alongside them on the factory floor, and the leaders who set the policies and priorities that guide their use. Through clear, practical examples, you will learn how responsibility does not sit with any single person but is distributed across teams and organisational levels. By the end of this lesson, you will have a clearer picture of your own role in ensuring that AI-driven production decisions are made safely, ethically, and with proper oversight.",
+      "status": "draft",
+      "content": "Accountability across engineers, operators, and leadership.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Owns AI Production Decisions?",
+          "subtitle": "Accountability starts before the machine runs.",
+          "slidecontent": "• AI systems in manufacturing make real-time decisions that affect quality, safety, and output\n• Someone must own those decisions\n• Responsibility does not automatically belong to the machine or its vendor\n• Engineers, operators, and leaders each play a distinct role in the decision chain\n• Understanding who is accountable prevents costly gaps when things go wrong"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the Key Stakeholders",
+          "subtitle": "Who shapes AI production outcomes?",
+          "slidecontent": "• Engineers build the systems\n• Operators run the machines\n• Managers set the goals\n• Regulators define the rules\n• Customers shape the demand"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Mapping Accountability Across Roles",
+          "subtitle": "Who owns what, and when?",
+          "slidecontent": "• Engineers design the system\n• Operators run daily tasks\n• Leaders set the boundaries\n• Everyone shares some risk"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Operators on the Front Line",
+          "subtitle": "Closest to the machine, furthest from blame",
+          "slidecontent": "• Operators interact directly with AI-driven systems on the factory floor every shift\n• They spot errors first\n• Often expected to act on AI outputs without fully understanding how those outputs were generated\n• Rarely involved in decisions about which AI tools get deployed or how they are configured\n• Responsibility without authority, a common and uncomfortable position\n• Their observations and concerns are a vital (and frequently overlooked) source of accountability data"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Operators at the Front Line",
+          "subtitle": "Monitoring, Responding, and Raising Concerns",
+          "slidecontent": "• Operators watch AI outputs live\n• Spot errors before they escalate\n• Flag unusual system behaviour\n• Escalate concerns to engineers\n• Never ignore unexpected results"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Escalation Paths and Protocols",
+          "subtitle": "When to escalate and to whom.",
+          "slidecontent": "• Spot the issue early\n• Tell your supervisor first\n• Document what you observed\n• Escalate if unresolved quickly\n• Leadership decides final action"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Escalating Issues to Leadership",
+          "subtitle": "When to escalate and to whom",
+          "slidecontent": "• Escalate when an AI decision causes unexpected downtime, safety risks, or significant quality failures\n• Any issue beyond your authority to fix\n• Operators should first alert their line manager or shift supervisor before escalating further up the chain\n• Leadership needs clear facts, not assumptions, so document what the AI did, when it happened, and what the impact was\n• Know your escalation path before a crisis occurs\n• Delayed escalation often turns a small problem into a costly one"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for shared AI accountability.",
+          "slidecontent": "• AI systems make decisions, but humans remain accountable for the outcomes they produce\n• Engineers, operators, and leaders each carry a distinct share of responsibility\n• Shared accountability only works when roles are clearly defined from the start\n• Document decisions\n• Review AI outputs regularly, especially when conditions on the production floor change\n• As a next step, map your own role against the accountability framework covered in this course"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a question that might seem obvious but is actually quite complex: when an AI system makes a decision on the factory floor, who is responsible for that decision? These systems are now making real-time calls about quality, safety, and output, often faster than any human could. But here is the thing: the machine itself cannot be held accountable, and neither can you simply point to the software vendor and walk away. Responsibility sits with the people involved, the engineers who configure the system, the operators who work alongside it, and the leaders who deploy it. Each of them plays a distinct role in what we might call the decision chain. When something goes wrong, and at some point something will, you need to know exactly where accountability lies. If that is not clearly defined in advance, the gaps can be costly. That is what this lesson is all about."
+        },
+        {
+          "number": 2,
+          "script": "Before we can answer the question of who is responsible, we first need to understand who is actually involved. When an AI system makes a production decision, it doesn't happen in isolation. There's a whole network of people who have shaped that outcome in different ways. The engineers who designed and built the system made countless choices about how it behaves. The operators on the factory floor are the ones actually running the machines day to day. Managers sit above all of that, setting the targets and priorities that the AI is ultimately trying to meet. Then you have regulators, who establish the legal and safety boundaries that everyone must work within. And perhaps less obviously, customers play a role too, because the demand they create drives the decisions being made in the first place. So as you can see, responsibility doesn't sit with just one person. It's spread across a whole ecosystem of stakeholders, and that's exactly what we'll be exploring throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So when we talk about accountability in AI-driven production, it helps to think about the different people involved and what they're each responsible for. The engineers who build and configure these systems carry a real responsibility for how those systems behave. If the logic is flawed or the model is poorly trained, that starts with design. Then you have the operators, the people working with the system day to day, running processes, monitoring outputs, and making real-time decisions. They own what happens on the ground. Above them, leaders and managers are responsible for setting the rules of the game, deciding what the AI is allowed to do, where the limits are, and what oversight looks like. But here's the important point: accountability doesn't sit neatly with just one group. Everyone in that chain carries some portion of the risk. Understanding where your role fits is the first step towards making AI work responsibly in your organisation."
+        },
+        {
+          "number": 4,
+          "script": "Now let's talk about the people who are arguably closest to all of this in their day-to-day working lives: the operators on the factory floor. These are the individuals who interact with AI-driven systems every single shift. They are usually the first to notice when something looks wrong, when an output seems off, or when a decision the system has made does not quite make sense. And yet, here is the uncomfortable reality: they are often expected to act on those AI outputs without really being told how the system arrived at them. On top of that, they rarely have any say in which AI tools get chosen or how those tools are set up. So they carry a great deal of responsibility, but very little authority. That is a difficult position to be in. And what makes this even more significant is that the observations and concerns of operators are actually an incredibly valuable source of accountability information, one that organisations far too often overlook completely."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about the people who are closest to the action: the operators. These are the individuals who are actually watching AI-driven systems in real time, keeping an eye on what the system is producing and how it is behaving. Their role is absolutely critical, because they are often the first to notice when something does not look quite right. Maybe the output seems unusual, or the system starts behaving in a way that feels off. When that happens, the operator's job is not to shrug it off and carry on. It is to flag it, to raise it with the engineers or whoever is responsible for the technical side of things. And this is a really important point: unexpected results should never be ignored, even if everything seems fine on the surface. Operators are not just passive watchers. They are an active and vital part of keeping AI systems safe and accountable on the production floor."
+        },
+        {
+          "number": 6,
+          "script": "When something feels off with an AI-driven decision, the most important thing you can do is act quickly and follow a clear path. The moment you spot a potential problem, do not wait and hope it resolves itself. Go to your supervisor first. They are your immediate point of contact and the right person to assess whether the concern needs to go further. While you are doing that, make sure you write down exactly what you observed, when it happened, and why it concerned you. That record matters enormously if the issue needs to be reviewed later. If your supervisor addresses it, brilliant. But if the problem is not resolved promptly, it needs to move up the chain without delay. Ultimately, decisions about significant AI-related issues sit with leadership. Your role is not to fix everything yourself. It is to flag it clearly, document it properly, and make sure the right people are informed in good time."
+        },
+        {
+          "number": 7,
+          "script": "When an AI system causes unexpected downtime, raises a safety concern, or leads to a significant quality failure, that is your signal to escalate. If the issue is beyond what you have the authority or ability to fix yourself, do not try to handle it alone. As an operator, your first step is to alert your line manager or shift supervisor, and they will decide whether it needs to go further up the chain. When you do escalate, come prepared with facts rather than guesses. Document what the AI did, when it happened, and what the impact has been so far. That information helps leadership make faster, better decisions. One of the most important things you can do is learn your escalation path before a crisis happens, not during one. And please do not delay. What starts as a small, manageable problem can quickly become a costly one if the right people are not informed in time."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important thing to hold onto is this: AI makes decisions, but you are still responsible for what happens as a result. That responsibility is shared across your team, whether you are an engineer, an operator, or a leader, but it only works properly when everyone knows exactly what their role is. Ambiguity is where accountability breaks down. On a practical level, make sure decisions are documented and that you are regularly reviewing what your AI systems are actually producing, particularly when something changes on the production floor. Conditions shift, and your oversight needs to shift with them. As a next step, I would encourage you to take the accountability framework we have covered in this course and map your own role against it. Ask yourself honestly: where do I sit, and what am I responsible for? That reflection is where real accountability begins."
+        }
+      ]
+    }
+  ]
+}

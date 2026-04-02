@@ -1,0 +1,121 @@
+{
+  "Course Title": "When AI Sounds Right but Isn’t",
+  "Category": "Corporate",
+  "Description": "How to detect subtle inaccuracies beyond obvious hallucinations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using at least one AI writing or chat tool (such as ChatGPT, Copilot, or a similar assistant) in a personal or professional context.",
+  "Learning objectives": "By the end of this course, you will be able to identify subtle inaccuracies in AI-generated content that go beyond obvious hallucinations, and explain the common patterns that make misleading outputs sound convincing and authoritative. You will also apply practical verification techniques to critically evaluate AI responses in everyday corporate settings, helping you make more informed and confident decisions about the information you use and share.",
+  "lessons": [
+    {
+      "lesson title": "When AI Sounds Right but Isn’t",
+      "order": 1,
+      "Description": "AI tools can produce responses that sound polished, confident, and entirely plausible, even when the information they contain is subtly wrong. Unlike obvious errors that are easy to spot, these inaccuracies often blend in with accurate content, making them far more difficult to detect. This lesson will help you recognise the patterns and warning signs that suggest an AI response may not be as reliable as it appears. You will learn practical strategies for checking AI-generated content, so you can use these tools more confidently without being misled by convincing but flawed outputs. No prior technical knowledge is required, just a willingness to look a little more critically at the information in front of you.",
+      "status": "draft",
+      "content": "How to detect subtle inaccuracies beyond obvious hallucinations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Sounds Plausible",
+          "subtitle": "Confidence can mask hidden errors",
+          "slidecontent": "• AI tools often produce responses that sound authoritative even when details are subtly wrong\n• Fluent, confident language is not the same as accurate language\n• Small errors\n• Mistakes can appear in facts, figures, dates, and named sources\n• The more polished the output, the easier it is to trust without checking",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Spotting the Subtle Warning Signs",
+          "subtitle": "Clues hiding in plain sight",
+          "slidecontent": "• Vague sources, no specifics\n• Overly confident tone\n• Suspiciously perfect answers\n• Details that almost fit\n• Plausible but unverifiable claims",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Plausible Errors Hide in Plain Sight",
+          "subtitle": "Confident tone masks hidden mistakes",
+          "slidecontent": "• AI outputs often sound authoritative even when the underlying facts are wrong\n• Fluent, well-structured sentences signal confidence, not accuracy\n• Small errors (a wrong date, a misattributed quote) blend into otherwise correct text\n• No warning signs appear\n• Plausible-sounding details are the hardest mistakes to catch because they feel familiar\n• Readers naturally trust polished prose",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting the Subtle Warning Signs",
+          "subtitle": "Clues hiding in plain sight",
+          "slidecontent": "• Confident tone with no hedging or uncertainty, even on complex topics\n• Suspiciously perfect structure\n• Specific numbers, dates, or names that feel plausible but are hard to verify\n• No acknowledgement of competing views or nuance\n• Every sentence flows smoothly, with nothing awkward or tentative\n• Sources cited that sound credible but cannot easily be found",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting the Subtle Warning Signs",
+          "subtitle": "Clues hiding in plain sight",
+          "slidecontent": "• Vague dates or statistics\n• Oddly confident tone\n• Missing source details\n• Smooth but hollow phrasing\n• Facts that almost fit",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting the Subtle Warning Signs",
+          "subtitle": "Clues hiding in plain sight",
+          "slidecontent": "• Oddly confident, vague answers\n• Statistics without clear sources\n• Names that sound almost right\n• Smooth writing, shaky logic\n• Dates that feel slightly off",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Fact-Check Before You Trust",
+          "subtitle": "Simple steps to verify AI output.",
+          "slidecontent": "• Cross-check with trusted sources\n• Search the original claim\n• Check dates and context\n• Ask who said it\n• Verify numbers independently",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Points to carry forward with confidence",
+          "slidecontent": "• AI can be confidently wrong, not just obviously wrong\n• Subtle inaccuracies often hide in plausible-sounding details like dates, names, and statistics\n• Always verify claims that matter\n• Your critical eye is the most reliable filter you have\n• Cross-checking with trusted sources takes seconds and prevents costly mistakes\n• Start small by fact-checking one AI output this week",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "One of the trickiest things about working with AI tools is that they sound incredibly confident, even when they are wrong. And I mean subtly wrong, not obviously wrong. The language is smooth, the sentences are well-formed, and the tone feels authoritative. But fluent writing is not the same as accurate writing. AI can get facts slightly off, misquote a statistic, give you the wrong date, or attribute something to a source that never actually said it. And here is the real danger: the more polished the output looks, the easier it is to just trust it and move on without checking. We naturally associate confident, well-written language with reliability, and AI exploits that instinct without meaning to. So throughout this course, we are going to look at exactly how these errors show up, why they are so easy to miss, and what you can do to catch them before they cause a problem.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So, how do you actually spot when AI has got something wrong? The tricky part is that it rarely sounds wrong. In fact, it often sounds impressively confident, which is one of your first warning signs. If the tone feels almost too assured, too polished, that is worth noticing. You might also find that sources are mentioned in a vague, hand-wavy sort of way, with no real specifics you can actually check. And watch out for answers that seem suspiciously perfect, almost too neat and tidy for a genuinely complex question. Another subtle clue is when details are nearly right but not quite, like a name that is slightly off, or a date that does not quite match. And then there are claims that sound entirely plausible but that you simply cannot verify anywhere. None of these signs on their own means the AI is wrong, but together they are telling you to slow down and dig a little deeper.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration script for Slide 3:\n\nOne of the trickiest things about AI-generated content is how convincing it sounds, even when it is wrong. The writing is often fluent, well-structured, and confident in tone, and that polish can easily fool us into assuming the facts are solid too. But here is the problem: AI does not flag its own mistakes. There are no warning signs, no hesitation, no little asterisk saying \"please double-check this.\" A wrong date or a misattributed quote just sits there, nestled inside an otherwise perfectly reasonable paragraph. And because the surrounding text feels familiar and plausible, our brains tend to accept the whole thing without question. We naturally trust writing that looks and sounds professional. That is exactly what makes these errors so dangerous. They do not stand out. They blend in. So as we move through this course, we are going to look at how to spot the mistakes that hide in plain sight.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot AI-generated content that might be misleading you? There are some tell-tale signs worth watching for. First, notice the tone. Real expertise usually comes with a degree of humility, some hedging, a sense that things are complicated. If everything sounds completely certain and polished, that is worth questioning. Similarly, if the structure feels almost too neat, too organised, that can be a clue. Watch out for specific-sounding details too, precise statistics, names, or dates that feel convincing but that you cannot easily verify. Genuine analysis tends to acknowledge that other people hold different views, so if there is no nuance at all, no \"on the other hand,\" be cautious. And finally, check any sources that are mentioned. AI can generate references that sound entirely credible but simply do not exist. None of these signs on their own proves something is wrong, but together they are worth paying close attention to.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot when AI output might be leading you astray? There are a few subtle clues worth watching for. First, pay attention to dates and statistics that feel a bit woolly, things like \"studies show\" or \"in recent years\" without anything more specific. That vagueness is a red flag. You should also notice the tone. AI can sound remarkably confident even when it is completely wrong, and that smooth, assured voice can lull you into trusting it too quickly. Related to that is what I call hollow phrasing, sentences that read beautifully but do not actually say very much when you stop and think about them. Then there is the question of sources. If there are no references, or the references look oddly generic, that is worth questioning. And finally, watch out for facts that are almost right. They sound plausible, they fit the context, but something is slightly off. That near-miss quality is often the hardest warning sign to catch.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "So we've established that AI can get things wrong, but how do you actually spot it in the moment? There are a few patterns worth watching for. First, be wary when an answer sounds very confident but stays oddly vague, as if it's filling space without really saying anything. Similarly, if you see a statistic quoted without any clear source, that's a red flag. AI will sometimes invent numbers that sound entirely plausible. Watch out for names too, whether of people, organisations, or publications, because AI occasionally produces something that's almost right but slightly off. Then there's what I'd call the smoothness trap, where the writing reads beautifully but the underlying logic doesn't quite hold together. And finally, pay attention to dates. They can drift by a year or two in ways that are easy to miss on a quick read. None of these signals on their own proves something is wrong, but together they're telling you to slow down and check.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So, AI can sound incredibly convincing, but sounding right and being right are two very different things. The good news is that fact-checking doesn't have to be complicated. Start by cross-checking anything important against a source you already trust, like a reputable news outlet, an official website, or an academic reference. Then search for the original claim yourself rather than just accepting the AI's version of it. Pay close attention to dates as well, because context matters enormously. Something that was true five years ago might not be true today. It's also worth asking where the information actually comes from. Did a real expert say it? Is there a credible source behind it? And if you're looking at statistics or figures, always try to verify those independently, because numbers are particularly easy to misquote or misrepresent. These are simple habits, but they make a real difference to how confidently and safely you can use AI-generated content.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The most important thing to hold onto is that AI doesn't always fail in obvious ways. It can sound completely authoritative while quietly getting things wrong, and those subtle errors are the ones that catch people out. A slightly wrong date, a misattributed quote, a statistic that's just a little off. These things slip through precisely because they sound so reasonable. The good news is that you already have what you need to catch them: your own judgement. And a quick check against a trusted source really does take no more than a few seconds. That small habit can save you from some genuinely embarrassing or costly mistakes. If you want to put this into practice straight away, just pick one piece of AI-generated content this week and fact-check it. That single step will start building the kind of confident, critical approach that makes AI a genuinely useful tool rather than a liability.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

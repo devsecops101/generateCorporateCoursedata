@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Drug Discovery: Data Integrity Risks",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "How flawed data can impact research outcomes.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with scientific research concepts and an interest in how data quality affects drug development outcomes are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key data integrity risks associated with AI-driven drug discovery and explain how flawed or biased data can compromise research outcomes. You will also be able to apply practical strategies to recognise and mitigate data quality issues within healthcare and life sciences research programmes.",
+  "lessons": [
+    {
+      "lesson title": "AI in Drug Discovery: Data Integrity Risks",
+      "order": 1,
+      "Description": "Artificial intelligence is transforming drug discovery, helping researchers analyse vast datasets and identify promising compounds far more quickly than traditional methods allow. However, the quality of the data fed into these AI systems has a direct impact on the reliability of the results they produce. In this lesson, we explore the key data integrity risks that arise when AI is used in drug discovery, including issues such as biased datasets, incomplete records, and poor data governance practices. You will learn how these risks can lead to flawed research outcomes, wasted resources, and potentially harmful consequences for patients. By the end of this lesson, you will have a clearer understanding of why maintaining high-quality, well-managed data is essential to responsible and effective AI-driven research.",
+      "status": "draft",
+      "content": "How flawed data can impact research outcomes.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Drug Discovery: Introduction",
+          "subtitle": "Where data quality shapes discovery outcomes.",
+          "slidecontent": "• AI accelerates drug discovery\n• Data quality matters greatly\n• Flawed data risks patient safety\n• Errors spread fast at scale\n• Integrity underpins every result"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Data Sources and Their Risks",
+          "subtitle": "Where data originates shapes its risks.",
+          "slidecontent": "• Public databases, often incomplete\n• Lab instruments can malfunction\n• Human entry causes errors\n• Legacy data, poorly formatted\n• Third-party sources, unverified"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Garbage In, Garbage Out",
+          "subtitle": "Flawed inputs corrupt AI-driven discoveries.",
+          "slidecontent": "• AI models trained on incomplete or mislabelled data produce unreliable predictions from the start\n• Errors compound at every stage\n• A single corrupted dataset can skew compound screening results across an entire drug programme\n• Poor data quality often goes undetected until late in the discovery pipeline, wasting significant time and resource\n• Real consequences for patients"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias in Training Data Sets",
+          "subtitle": "Where skewed data distorts drug research.",
+          "slidecontent": "• Skewed data skews results\n• Old data misses new populations\n• Rare diseases underrepresented often\n• Biased inputs, biased outputs\n• Small datasets amplify errors"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias in Training Data Sets",
+          "subtitle": "Where gaps skew drug discovery outcomes.",
+          "slidecontent": "• Training data drawn mainly from Western, male, or younger populations\n• Underrepresented groups left out\n• Models trained on skewed data predict drug efficacy poorly for excluded demographics\n• Historical clinical trial gaps feeding directly into AI learning sets\n• Rare diseases especially vulnerable due to small, incomplete data pools\n• Biased outputs can advance flawed candidates further into the pipeline"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Data Integrity Risks",
+          "subtitle": "Strategies to Protect Research Data Quality",
+          "slidecontent": "• Validate training data sources before feeding them into any AI pipeline\n• Audit regularly\n• Implement version control to track changes to datasets over time\n• Separate raw data from processed outputs to preserve the original record\n• Train research teams to spot common data quality issues early in the workflow\n• Document every data transformation step for full traceability"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to safeguard your data",
+          "slidecontent": "• Validate training data sources before feeding them into any AI pipeline\n• Document every data transformation step\n• Use version control for datasets, not just code\n• Regularly audit outputs for unexpected patterns or anomalies\n• Assign clear ownership of data quality checks to named team members\n• Start small, test rigorously, then scale"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for data integrity success",
+          "slidecontent": "• Garbage in, garbage out\n• Validate data before use\n• Bias corrupts AI models\n• Audit trails matter always\n• Clean data saves lives\n• Start small, check everything"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Drug Discovery and Data Integrity Risks. Over the next few lessons, we are going to explore a topic that sits right at the intersection of cutting-edge technology and patient safety. Artificial intelligence is genuinely transforming how we discover and develop new medicines. Processes that once took years can now move significantly faster, which is incredibly exciting. But here is the thing: AI is only as good as the data you feed it. If the underlying data is poor quality or contains errors, those errors do not just sit quietly in a spreadsheet. They get amplified and repeated at enormous scale, potentially influencing decisions that affect real patients. So data integrity, meaning the accuracy, consistency, and reliability of your data, is not just a technical concern. It is a fundamental safety concern. Throughout this course, we will look at where those risks come from and what you can do about them. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So before we can talk about protecting data integrity, we need to understand where the data actually comes from, because the source of your data has a huge influence on the risks it carries. In drug discovery, we're pulling information from all sorts of places. Public databases are incredibly useful, but they're often incomplete or out of date. Lab instruments, as reliable as they are, can malfunction and produce readings that look perfectly normal but are actually wrong. Then there's human error, which is unavoidable when people are manually entering data under pressure. We also frequently encounter legacy data, information that was collected years ago in formats that don't play nicely with modern systems. And finally, third-party sources, whether that's a partner organisation or a commercial data provider, come with their own uncertainties because we simply can't always verify how that data was collected or handled. Each of these sources introduces its own category of risk, and that's what we'll be unpacking throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. If you feed an AI model poor quality data, whether that's incomplete records, mislabelled compounds, or inconsistent measurements, you're going to get unreliable results. The trouble is, those errors don't just sit in one place. They compound. Each stage of the discovery process builds on the last, so a problem that starts small can quietly grow into something much more serious. Imagine a single corrupted dataset skewing the results of your entire compound screening programme. That's not a hypothetical, it genuinely happens. And what makes this particularly frustrating is that poor data quality often goes unnoticed until very late in the pipeline, by which point you've already spent enormous amounts of time and resource heading in the wrong direction. Ultimately, this isn't just about wasted budgets. At the end of the pipeline are real patients waiting for treatments that work."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most significant risks with AI in drug discovery is the quality of the data we feed into these systems. Think of it this way: if you train an AI on skewed or incomplete data, it will produce skewed and incomplete results. It really is that straightforward. A common problem is that many datasets are built from older clinical studies, which means they often reflect a narrow slice of the population and miss more recent or diverse groups entirely. Rare diseases suffer particularly badly here, because there simply is not enough patient data available to give the AI a solid foundation to learn from. And when you are working with small datasets, any errors or gaps get magnified rather than smoothed out. So the core issue is this: the AI is only ever as good as the data it learns from. Garbage in, garbage out, as they say. Getting the training data right is absolutely fundamental to trustworthy results."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the most significant risks with AI in drug discovery is the quality and fairness of the data used to train these models in the first place. Historically, clinical trials have skewed heavily towards Western populations, men, and younger adults. That means the datasets AI systems learn from carry those same gaps and blind spots. When a model is trained on skewed data, it simply cannot predict accurately how a drug will perform in women, older patients, or people from different ethnic backgrounds. Those groups are effectively invisible to the model. This problem is even more pronounced for rare diseases, where data pools are already small and often incomplete. And here is why this really matters in practice: if the AI is working from flawed data, it can push a drug candidate further along the development pipeline than it deserves, wasting enormous resources and potentially putting patients at risk. The bias starts early, and the consequences compound quickly."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is that most data integrity problems are preventable if you put the right habits in place early. Start by checking where your training data comes from and whether it is actually reliable before it goes anywhere near your AI pipeline. From there, keep a clear separation between your raw data and anything that has been processed, so the original record is always protected. Use version control to track how datasets change over time, and make sure every transformation step is properly documented so you can trace exactly what happened and when. Regular audits are also essential, because problems can creep in gradually and you want to catch them early. And perhaps most importantly, invest in training your research teams so they can recognise data quality issues themselves before those issues have a chance to cause real damage downstream."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually put all of this into practice? The good news is that reducing data integrity risk does not require a complete overhaul of how you work. It starts with some straightforward habits. Before you feed any data into an AI pipeline, check where it came from and whether you can trust it. Then, keep a clear record of every change made to that data along the way, because if something goes wrong, you need to be able to trace it back. Treat your datasets the same way developers treat code, use version control so you always know which version was used and when. Build in regular checks to spot anything unusual in your outputs, and make sure specific people are responsible for data quality rather than assuming everyone is. Finally, resist the urge to scale up too quickly. Start small, test thoroughly, and only expand once you are confident things are working as they should."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together with some core principles to carry forward. First, the quality of your AI output depends entirely on the quality of your input data. If you feed the model poor data, you will get poor results, and in drug discovery, that can have serious consequences. Always validate your data before you use it, and be mindful of bias, because biased data quietly corrupts your model in ways that are not always obvious. Audit trails are not optional extras, they are essential. You need to be able to show exactly where your data came from and how it was handled. And ultimately, the reason all of this matters is patient safety. Clean, reliable data genuinely saves lives. Finally, if you are just starting out with AI in your organisation, do not try to do everything at once. Start with something small, check your results carefully, and build your confidence from there. These principles will serve you well throughout your journey."
+        }
+      ]
+    }
+  ]
+}

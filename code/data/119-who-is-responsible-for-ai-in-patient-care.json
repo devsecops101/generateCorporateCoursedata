@@ -1,0 +1,105 @@
+{
+  "Course Title": "Who Is Responsible for AI in Patient Care?",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Accountability across clinicians, providers, and vendors.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with healthcare settings and a general awareness of how digital tools are used in clinical or administrative environments will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key roles and responsibilities of clinicians, healthcare providers, and technology vendors in the deployment of AI within patient care settings. You will also be able to explain how accountability frameworks apply across these groups and recognise the ethical and regulatory considerations that govern the safe use of AI in healthcare.",
+  "lessons": [
+    {
+      "lesson title": "Who Is Responsible for AI in Patient Care?",
+      "order": 1,
+      "Description": "As artificial intelligence becomes more widely used in healthcare settings, understanding who holds responsibility for its outcomes is increasingly important for everyone involved in patient care. This lesson explores the shared accountability that exists between clinicians, healthcare providers, and technology vendors when AI tools are used to support clinical decisions. You will learn how responsibility is distributed across these different roles, and what that means in practice when things go wrong or when AI outputs are unclear. The lesson is designed to be accessible for those who are new to the topic, using straightforward examples drawn from real-world healthcare contexts. By the end, you will have a clearer picture of your own responsibilities and how to work confidently within a system where AI plays a growing role.",
+      "status": "draft",
+      "content": "Accountability across clinicians, providers, and vendors.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Owns AI Accountability?",
+          "subtitle": "Defining roles in AI-driven care.",
+          "slidecontent": "• AI is everywhere in care\n• Someone must be accountable\n• Roles are often unclear\n• Clinicians, providers, vendors involved\n• Clarity protects patients"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the Key Stakeholders",
+          "subtitle": "Who shapes AI's role in care?",
+          "slidecontent": "• Clinicians, hospital administrators, technology vendors, and regulators all play distinct roles in AI-powered care\n• Each group holds a different level of influence over how AI tools are built, approved, and used\n• Vendors design and test the systems\n• Administrators decide which tools to procure and deploy within their organisations\n• Clinicians apply AI outputs directly in patient-facing decisions\n• Patients, though often overlooked, are directly affected by every choice made across this chain"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Clinicians at the Front Line",
+          "subtitle": "Where decisions meet direct patient care",
+          "slidecontent": "• Clinicians use AI at bedside\n• They interpret AI outputs\n• Final decisions remain theirs\n• Errors carry clinical risk\n• Training gaps create danger"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Roles and duties working together",
+          "slidecontent": "• Clinicians, developers, and healthcare organisations each hold a distinct piece of the accountability puzzle\n• No single party carries all the responsibility\n• Clinicians remain accountable for how they apply AI recommendations in direct patient care\n• Developers are responsible for ensuring their systems are safe, tested, and fit for clinical use\n• Healthcare organisations must set clear governance policies and provide adequate staff training\n• When roles overlap, written agreements help clarify who is responsible for what"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Roles and duties working together effectively",
+          "slidecontent": "• Clinicians, developers, and healthcare organisations each hold a distinct piece of the accountability puzzle\n• No single party carries full responsibility alone\n• Clinicians must understand the tool's limitations before acting on its output\n• Developers are responsible for clear documentation of what their system can and cannot do\n• Governance teams set the policies that define how AI is used safely within their organisation\n• Regular review of AI performance keeps all parties aligned and accountable over time"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Roles and responsibilities working together",
+          "slidecontent": "• Clinicians, developers, and healthcare organisations each hold a distinct piece of the accountability puzzle\n• No single party carries all the responsibility\n• Clinicians remain accountable for how they apply AI recommendations in individual patient decisions\n• Vendors are responsible for ensuring their systems are safe, validated, and fit for clinical use\n• Healthcare organisations must govern deployment, monitor outcomes, and support staff with proper training\n• Clear role boundaries prevent gaps where accountability might otherwise fall through"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Roles and responsibilities working together",
+          "slidecontent": "• Clinicians oversee patient safety\n• Vendors ensure tool reliability\n• Providers set usage policies\n• Teams share decision-making\n• No single owner acts alone"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always.",
+          "slidecontent": "• Clinicians remain ultimately accountable\n• Vendors must ensure safe design\n• Oversight cannot be delegated away\n• Document every AI-assisted decision\n• Question outputs, always"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI accountability in patient care. Artificial intelligence is now woven into so many parts of healthcare, from diagnostic tools to treatment recommendations to administrative systems. But here is the thing: when AI is involved in a care decision, and something goes wrong, who is actually responsible? That question does not always have a straightforward answer. In practice, there are multiple parties involved, including the clinicians using the technology, the healthcare organisations deploying it, and the companies that built and sold it in the first place. The trouble is, the boundaries between those responsibilities can be genuinely blurry, and that ambiguity creates real risk for patients. So throughout this course, we are going to work through those roles carefully and help you understand where accountability sits and why getting that clarity right is so important for safe, ethical care. Let us start by looking at the bigger picture."
+        },
+        {
+          "number": 2,
+          "script": "When we talk about AI in patient care, it is easy to assume that responsibility sits with just one group, perhaps the doctors using the technology, or the companies building it. But the reality is more layered than that. There are several key stakeholders involved, and each one plays a genuinely different role. Technology vendors are the ones designing and testing these systems in the first place. Hospital administrators then decide which tools their organisations actually procure and roll out. Clinicians are the people on the ground, applying AI outputs when making real decisions about real patients. And then there are regulators, who set the rules that everyone else has to work within. Now, one group that often gets left out of this conversation is patients themselves. Yet they are the ones most directly affected by every decision made across this entire chain. So as we work through this course, keep all of these stakeholders in mind."
+        },
+        {
+          "number": 3,
+          "script": "So let's think about where AI actually meets patient care in practice, and that's with the clinician at the bedside. Doctors, nurses, and other healthcare professionals are increasingly using AI tools directly in their day-to-day work, whether that's reviewing an AI-generated diagnosis suggestion, interpreting a flagged result, or acting on a risk score. And here's the critical point: the AI doesn't make the final call. The clinician does. That responsibility stays firmly with the person standing in front of the patient. Which means that if an AI output is misread, misunderstood, or simply trusted without question, the consequences are clinical ones, and they fall on real people. There's also a very real concern around training. Many clinicians are being handed these tools without adequate preparation for how to use them safely or critically. That gap between having access to AI and truly understanding it is where danger can quietly creep in."
+        },
+        {
+          "number": 4,
+          "script": "So when we talk about accountability for AI in healthcare, the key thing to understand is that it doesn't sit with just one person or one organisation. It's genuinely shared. Think of it like a puzzle where each party holds a different piece. Clinicians are responsible for how they actually use AI recommendations when treating patients, because they're the ones making the final call at the bedside. Developers, on the other hand, have a duty to make sure their systems are properly tested, safe, and genuinely fit for use in a clinical setting. And healthcare organisations need to put the right governance frameworks in place and make sure their staff are properly trained to use these tools. Now, sometimes those responsibilities do overlap, and that's where things can get complicated. The best way to handle that is through clear, written agreements that spell out exactly who is responsible for what, so nothing falls through the gaps."
+        },
+        {
+          "number": 5,
+          "script": "So when we talk about accountability for AI in patient care, the honest answer is that it doesn't sit with just one person or one team. It's genuinely shared. Think of it like a puzzle where every piece matters. Clinicians need to understand what an AI tool can and cannot do before they act on its output. That's not optional, that's a professional responsibility. Developers, on the other hand, have a duty to be completely transparent about how their system works and where its limitations lie. And then you have the governance and leadership teams within healthcare organisations, who are responsible for putting the right policies in place so that AI is used safely and consistently. What ties all of this together is regular review. When everyone keeps checking how these tools are actually performing in practice, it helps maintain that shared sense of responsibility over time. Nobody gets to step back and say it's someone else's problem."
+        },
+        {
+          "number": 6,
+          "script": "So when we talk about accountability for AI in patient care, the honest answer is that it does not sit with just one person or one organisation. It is genuinely shared. Think of it like a puzzle where each party holds a different piece. Clinicians are responsible for the decisions they make at the bedside, even when AI is informing those decisions. The companies building these tools are responsible for making sure their systems are safe, properly tested, and genuinely fit for clinical use. And healthcare organisations sit in the middle, making sure AI is deployed sensibly, that outcomes are being monitored, and that staff have the training they need to use these tools well. What really matters here is that everyone understands their own piece of that puzzle clearly. Because when roles are blurry or undefined, that is exactly when accountability slips through the cracks, and in healthcare, that is something we simply cannot afford."
+        },
+        {
+          "number": 7,
+          "script": "So when we talk about accountability in AI-powered care, the key thing to understand is that it doesn't sit with just one person or one organisation. It's genuinely shared. Clinicians are at the front line, and their primary responsibility is always patient safety. They're the ones making the final call. But the companies building these AI tools also carry responsibility, because they need to make sure those tools actually work reliably and safely. Then you have healthcare providers, the hospitals and trusts, who need to set clear policies about how and when AI should be used. And within all of that, the teams delivering care are making decisions together, not in isolation. What this really comes down to is that no single person or group can point to someone else and say \"that's their problem.\" Everyone has a role to play, and those roles need to work in harmony for AI to be used responsibly in patient care."
+        },
+        {
+          "number": 8,
+          "script": "So as we bring this lesson to a close, let me leave you with the principles that really matter here. No matter how sophisticated an AI tool becomes, the clinician at the bedside remains the person who is ultimately responsible for the care given. That responsibility cannot be handed off to an algorithm or a software vendor. Now, vendors absolutely have their part to play, and they must build these systems safely and responsibly. But from your perspective as a healthcare professional, the key habits to build are these: always document when AI has informed a clinical decision, and never simply accept what a system tells you without applying your own judgement. Question the output. Ask yourself whether it makes sense given everything else you know about the patient in front of you. These are not complicated ideas, but they are genuinely important ones. Keep them in mind every single time you work alongside an AI tool in practice."
+        }
+      ]
+    }
+  ]
+}

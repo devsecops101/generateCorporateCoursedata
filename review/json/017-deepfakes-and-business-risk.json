@@ -1,0 +1,105 @@
+{
+  "Course Title": "Deepfakes and Business Risk",
+  "Category": "Corporate",
+  "Description": "Understanding impersonation risks for executives and employees.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "No prior technical knowledge is required, though a basic familiarity with everyday business communication tools such as email and video conferencing will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key characteristics of deepfake technology and explain how it poses impersonation risks to executives and employees within a business context. You will also be able to apply practical strategies to recognise and respond to deepfake threats, helping to safeguard your organisation against reputational and financial harm.",
+  "lessons": [
+    {
+      "lesson title": "Deepfakes and Business Risk",
+      "order": 1,
+      "Description": "This lesson introduces the growing threat of deepfakes in the business world, explaining what they are and how they are being used to impersonate executives and employees. You will explore real-world examples of how deepfake audio and video have been used to deceive organisations, authorise fraudulent transactions, and damage reputations. The lesson breaks down the key risks in plain, accessible language so that no prior technical knowledge is required. By the end, you will have a clearer understanding of why deepfakes are a serious concern for businesses of all sizes, and what steps organisations can begin to take to protect themselves.",
+      "status": "draft",
+      "content": "Understanding impersonation risks for executives and employees.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfakes and Business Risk",
+          "subtitle": "Protecting Your Business From AI Deception",
+          "slidecontent": "• AI fakes real people\n• Voice, face, video\n• Targets executives and staff\n• Fraud is rising fast\n• Your business is at risk"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Deepfakes Explained",
+          "subtitle": "What they are and how they work",
+          "slidecontent": "• AI-generated videos or audio clips that replace one person's face or voice with another's\n• Created using machine learning trained on existing footage and recordings\n• Convincing enough to fool colleagues, clients, and security systems\n• Getting easier and cheaper to make\n• No specialist equipment required, just a laptop and freely available software"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting the Warning Signs",
+          "subtitle": "Clues That Reveal a Fake",
+          "slidecontent": "• Unnatural blinking or eyes\n• Blurry edges around hair\n• Voice sounds slightly robotic\n• Lip sync looks off\n• Lighting shifts oddly mid-video"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting the Warning Signs",
+          "subtitle": "What to look for in content",
+          "slidecontent": "• Unnatural blinking patterns or stiff, limited facial movement\n• Blurry or shifting edges around the hairline and face\n• Audio that feels slightly out of sync with lip movements\n• Odd lighting\n• Skin texture that looks too smooth or waxy under close inspection\n• Background details that blur, warp, or repeat unnaturally"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Protecting Your Organisation From Deepfakes",
+          "subtitle": "Practical Steps to Stay Secure",
+          "slidecontent": "• Verify unexpected requests through a second, trusted channel before acting\n• Establish a code word system for sensitive communications between executives\n• Train staff regularly\n• Limit the amount of audio and video of key personnel shared publicly online\n• Create clear escalation procedures for reporting suspected deepfake attempts\n• Review and tighten access controls for financial and data systems"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Protecting Your Organisation From Deepfakes",
+          "subtitle": "Practical steps to reduce your exposure",
+          "slidecontent": "• Verify requests via second channel\n• Use code words for transfers\n• Train staff regularly\n• Slow down urgent requests\n• Report suspicious calls promptly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Your Organisation From Deepfakes",
+          "subtitle": "Practical steps to reduce your exposure",
+          "slidecontent": "• Verify unexpected requests through a second, trusted channel before acting\n• Establish a verbal code word system for senior leaders to confirm identity in high-stakes calls\n• Train staff regularly\n• Limit publicly available audio and video of executives to reduce the material available for cloning\n• Set clear internal policies for approving financial transfers and sensitive data requests, regardless of who appears to be asking"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core points to carry forward always",
+          "slidecontent": "• Deepfakes impersonate real people\n• Anyone can be a target\n• Verify before you trust\n• Pause, check, then act\n• Report suspicious content immediately"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on deepfakes and business risk. Now, you might be wondering what exactly a deepfake is, and why it matters to your business. Put simply, deepfakes use artificial intelligence to create convincing fake versions of real people. We are talking about fabricated voices, faces, and even video footage that can look and sound remarkably genuine. And this is not just a concern for celebrities or politicians. Businesses like yours are increasingly being targeted. Fraudsters are using this technology to impersonate executives, manipulate staff, and trick organisations into handing over money or sensitive information. The scale of this fraud is growing rapidly, and many businesses are simply not prepared for it. So throughout this course, we are going to look at how these threats work, how to spot them, and most importantly, what practical steps you can take to protect your organisation. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's start with the basics. What actually is a deepfake? At its core, a deepfake is a piece of AI-generated video or audio where someone's face or voice has been swapped out and replaced with someone else's. The technology behind it uses machine learning, which means a system has been trained on large amounts of existing footage and recordings until it can convincingly mimic a real person. And when I say convincingly, I mean convincingly enough to fool colleagues, clients, and even some security systems. Now, you might be thinking this sounds like something that requires a serious technical background or expensive kit. But that is really no longer the case. The tools to create deepfakes are widely available, often free, and all you need is a standard laptop. That shift is really important, because it means the barrier to creating this kind of content has dropped dramatically, and that has significant implications for businesses of all sizes."
+        },
+        {
+          "number": 3,
+          "script": "So how do you actually spot a deepfake in the wild? There are a few telltale signs worth knowing about. First, pay close attention to the eyes. Deepfakes often struggle to replicate natural blinking, so if someone looks oddly still or their eyes seem glassy, that is a red flag. Look at the edges of the hair too, because the technology frequently leaves a slightly blurry or smudged border where the face meets the background. Then there is the voice. Even with advanced tools, synthesised audio can sound just a little too flat or mechanical. Listen carefully for that robotic quality. Watch the mouth as well, because the lip movements do not always match the words precisely, and that mismatch can be quite noticeable once you know to look for it. Finally, watch for strange shifts in lighting across the face mid-video. Real footage tends to be consistent, so sudden changes in shadow or brightness can be a strong indicator that something has been manipulated."
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot a deepfake? There are a few tell-tale signs worth knowing about. Start with the face itself. Deepfakes often struggle to replicate natural human movement, so you might notice the person barely blinks, or their facial expressions look a little stiff and limited. Look closely at the edges of the face and hairline too, as these areas can appear blurry or seem to shift slightly as the person moves. Then pay attention to the audio. If the voice feels even slightly out of step with the lip movements, that is a red flag. Lighting is another clue, particularly if it looks inconsistent or just a bit off. Skin can also appear unusually smooth or almost waxy, lacking the texture you would expect. And finally, glance at the background. Warping, blurring, or repeating patterns in the background are a strong indicator that something has been artificially generated or manipulated."
+        },
+        {
+          "number": 5,
+          "script": "So, what can you actually do to protect your organisation? The good news is there are some straightforward steps you can take right now. First, if someone contacts you with an unexpected or urgent request, always verify it through a second channel before acting, perhaps a phone call or a message to a known number. It is also worth setting up a simple code word system with your senior team, so you can quickly confirm you are speaking to the right person. Make sure your staff receive regular training, because awareness really is your first line of defence. Think carefully about how much audio and video of your key people is publicly available online, as that material can be used to create fakes. Have a clear process in place so staff know exactly who to contact if something feels suspicious. And finally, review who has access to your financial and data systems, and tighten those controls where needed."
+        },
+        {
+          "number": 6,
+          "script": "So what can you actually do to protect your organisation? The good news is that some of the most effective defences are surprisingly straightforward. If someone calls asking you to transfer money or share sensitive information, always verify that request through a completely separate channel, a different phone number, an email, anything other than the original call. Some organisations go a step further and use agreed code words for financial transactions, so staff can instantly confirm they are speaking with a legitimate colleague. Regular training is essential too, because the threat is constantly evolving and your people need to stay sharp. One of the most important habits you can build is simply slowing down when something feels urgent. Fraudsters rely on panic and pressure to bypass your better judgement. And finally, if anyone receives a suspicious call or message, encourage them to report it straight away. Speed matters when it comes to limiting the damage."
+        },
+        {
+          "number": 7,
+          "script": "So what can you actually do to protect your organisation? The good news is that some of the most effective defences are surprisingly straightforward. First, if you receive an unexpected request, whether by phone, video call, or message, always verify it through a separate, trusted channel before you act. A quick call back on a known number can stop an attack in its tracks. For senior leaders specifically, consider setting up a simple verbal code word that confirms someone's identity during high-stakes conversations. Beyond that, make sure your staff receive regular training so they know what to look out for. It is also worth being mindful about how much audio and video of your executives is publicly available online, because that material is exactly what fraudsters use to build convincing fakes. And finally, have clear, documented policies for approving financial transfers and sensitive data requests, so that no single voice or face, however convincing, can bypass your controls."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the points that really matter. At the heart of this is one simple truth: deepfakes are designed to make you believe you're seeing or hearing a real person, when you're not. And here's the thing, nobody is off limits. Whether you're a senior leader or someone just starting out, you could be a target. So what do you do about it? You build a habit of verification. Before you trust something, check it. Before you act on an instruction, pause and ask yourself whether this feels right. That moment of hesitation could save your organisation from a serious mistake. And if something does seem suspicious, don't sit on it. Report it straight away to the right people in your business. The sooner it's flagged, the sooner it can be dealt with. These aren't complicated steps, but they are powerful ones. Keep them in mind every single day."
+        }
+      ]
+    }
+  ]
+}

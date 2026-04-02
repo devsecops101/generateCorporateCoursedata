@@ -1,0 +1,121 @@
+{
+  "Course Title": "Automation Bias in Healthcare",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Why clinicians may over-trust AI outputs, and how errors happen.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with clinical workflows and a general awareness of how digital tools are used in healthcare settings is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key causes of automation bias in clinical settings and explain how over-reliance on AI-generated outputs can lead to diagnostic and treatment errors. You will also apply practical strategies to critically evaluate AI recommendations, helping you maintain safe, patient-centred care in your everyday practice.",
+  "lessons": [
+    {
+      "lesson title": "Automation Bias in Healthcare",
+      "order": 1,
+      "Description": "This lesson introduces the concept of automation bias and explains why it is particularly relevant in healthcare settings where clinicians increasingly work alongside AI-powered decision support tools. You will explore how and why healthcare professionals can place excessive trust in automated outputs, sometimes overriding their own clinical judgement even when the AI may be wrong. Through straightforward examples, the lesson highlights the types of errors that can occur when automation bias goes unchecked, and the potential impact on patient safety. By the end of this lesson, you will have a clearer understanding of the psychological factors that contribute to automation bias and why awareness of this tendency is an essential first step in using AI tools responsibly in clinical practice.",
+      "status": "draft",
+      "content": "Why clinicians may over-trust AI outputs, and how errors happen.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Automation Bias in Healthcare",
+          "subtitle": "When AI Confidence Overrides Clinical Judgement",
+          "slidecontent": "• AI tools are increasingly used to support clinical decisions in healthcare settings\n• Clinicians sometimes accept AI outputs without applying their own judgement\n• This tendency is known as automation bias\n• It can lead to missed diagnoses, delayed treatment, or patient harm\n• Understanding the risk is the first step toward safer AI-assisted practice",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Automation Bias",
+          "subtitle": "When AI judgement replaces our own",
+          "slidecontent": "• Trusting AI over your own judgement\n• Skipping checks when AI agrees\n• Common in high-pressure environments\n• Subtle, often goes unnoticed\n• Affects even experienced clinicians",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Automation Bias in Practice",
+          "subtitle": "Spotting the signs before harm occurs",
+          "slidecontent": "• Accepting an AI-generated diagnosis without checking it against your own clinical findings\n• Skipping a second look\n• Feeling reluctant to override an alert because \"the system flagged it\"\n• Failing to document your own reasoning when an AI recommendation is already on screen\n• Noticing that team discussions shorten when an AI output is visible in the room",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Bias in Practice",
+          "subtitle": "Spotting the signs before harm occurs",
+          "slidecontent": "• Skipping manual checks entirely\n• Trusting alerts without reading\n• Ignoring patient-reported symptoms\n• Accepting unusual results uncritically\n• Forgetting to apply clinical judgement",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising Bias in Your Practice",
+          "subtitle": "Spotting the signs in everyday decisions",
+          "slidecontent": "• Accepting alerts without questioning\n• Skipping your own assessment\n• Feeling reassured too quickly\n• Deferring when unsure of yourself\n• Ignoring contradicting patient signs",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognising Bias in Your Practice",
+          "subtitle": "Spotting the signs in everyday decisions",
+          "slidecontent": "• Accepting an AI-generated diagnosis without checking it against your own clinical findings\n• Skipping a second look because the system flagged \"low risk\"\n• Feeling reassured by a confident-looking output, even when something feels off\n• Reduced vigilance over time as the tool becomes familiar\n• Noticing you rarely (or never) override the system's suggestions\n• Documenting the AI's conclusion rather than your own independent assessment",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Automation Bias in Practice",
+          "subtitle": "Practical steps to stay critically engaged",
+          "slidecontent": "• Pause before accepting AI output\n• Question unexpected normal results\n• Involve colleagues in decisions\n• Trust your clinical instincts\n• Document your own reasoning",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What every clinician should bear in mind",
+          "slidecontent": "• AI tools can suggest, but clinicians must always verify\n• Automation bias grows stronger under time pressure and fatigue\n• A confident-looking output is not the same as a correct one\n• Build in deliberate pauses to question AI recommendations before acting\n• Your clinical judgement remains the final safeguard\n• Start small: identify one workflow where you can practise active oversight this week",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on automation bias in healthcare. As artificial intelligence becomes more common in clinical settings, it is being used to help with everything from reading scans to flagging deteriorating patients. And on the whole, that is a positive development. But there is a risk that comes with it, one that does not always get the attention it deserves. Sometimes, clinicians accept what an AI system tells them without stopping to apply their own professional judgement. This tendency has a name: automation bias. And when it goes unchecked, the consequences can be serious. We are talking about missed diagnoses, treatments that are delayed, and in the worst cases, real harm to patients. This course is designed to help you understand where that risk comes from and what you can do about it. Because the first step toward using AI safely in practice is simply knowing that this problem exists.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So, what exactly do we mean by automation bias? At its core, it's the tendency to trust what an AI system tells us, sometimes more than we trust our own professional judgement. And here's where it gets interesting: it doesn't just mean blindly following bad advice. It also shows up in the smaller moments, like skipping a check you'd normally do simply because the AI has already flagmed something, or more often, because it hasn't. In busy, high-pressure clinical environments, this kind of shortcut can feel completely natural. You're stretched, the system seems reliable, and so you lean on it. The tricky part is that automation bias is genuinely subtle. It doesn't feel like a mistake when it's happening. And crucially, this isn't about inexperience. Research consistently shows that even highly experienced clinicians are affected. So as we work through this course, I'd encourage you to keep an open mind about where this might show up in your own practice.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So how does automation bias actually show up in day-to-day clinical work? Often it is quite subtle. It might be that you glance at an AI-generated diagnosis and simply move on, without checking whether it matches what you are actually seeing in front of you. Or perhaps you skip a second review because the system has already given you an answer, so it feels unnecessary. Sometimes it shows up as a reluctance to override an alert, almost a feeling of \"well, the system flagged it, so who am I to argue?\" It can also appear in your documentation, where you stop recording your own clinical reasoning because the AI recommendation is already sitting there on screen. And there is a team dynamic to watch for as well. When an AI output is visible in the room, conversations tend to get shorter, and people stop questioning as much. These are the early warning signs, and learning to spot them is the first step towards safer practice.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So how do we actually spot automation bias when it's happening around us? There are a few tell-tale signs to watch out for. One of the most common is simply skipping the manual checks that should accompany any automated output, essentially assuming the system has already done the work for you. Another is glancing at an alert and accepting it without properly reading what it says. We also see clinicians dismissing what a patient is telling them because the technology seems to suggest otherwise, and that can be really dangerous. Similarly, when a result looks unusual or unexpected, there can be a tendency to accept it without questioning whether it makes clinical sense. And perhaps most importantly, clinical judgement starts to fade into the background, with the system effectively making the decision instead of the clinician. Recognising these patterns in yourself and your colleagues is the first step towards making sure technology supports good care rather than replacing the thinking behind it.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually spot automation bias happening in our own practice? It can be surprisingly subtle. One of the most common signs is when you find yourself accepting an alert or a recommendation without really questioning it, almost on autopilot. Or perhaps you notice you have skipped your own clinical assessment because the system has already flagged something. Another sign is feeling reassured very quickly, simply because the technology has not raised an alarm, even when something feels off. We also tend to defer more to automated systems when we are feeling uncertain or lacking in confidence, which is completely understandable but worth being aware of. And perhaps most importantly, watch out for moments when you dismiss or overlook what the patient in front of you is telling you, because it does not match what the system is showing. Recognising these patterns in yourself is genuinely the first step towards making safer, more balanced clinical decisions.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "So how do you know if automation bias is creeping into your own practice? There are some tell-tale signs worth watching for. Ask yourself: when the system gives you a diagnosis or a risk rating, do you actually check it against what you found clinically, or do you just accept it? Do you skip that second look because the tool said \"low risk\"? Another common sign is feeling reassured by a confident-looking output, even when your instincts are telling you something does not quite add up. Over time, as a tool becomes familiar, it is natural for your vigilance to quietly drop. You might also notice that you rarely, if ever, push back on what the system suggests. And when you are documenting, are you recording your own independent assessment, or are you essentially just copying the AI's conclusion? None of these things make you a bad clinician. They make you human. But recognising them is the first step.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually push back against automation bias in our day-to-day practice? It starts with something simple: just pause before you accept what the AI is telling you. Give yourself a moment to think rather than clicking through on autopilot. And pay particular attention when results come back looking completely normal, especially if that surprises you, because that is often where errors hide. It also helps to bring colleagues into your decision-making process. A second pair of eyes can catch what you might have missed, and it reduces the pressure to rely solely on the machine. Beyond that, do not underestimate your own clinical instincts. If something feels off, it probably warrants a closer look, regardless of what the algorithm says. And finally, get into the habit of writing down your own reasoning. Documenting your thought process keeps you actively engaged and creates a clear record that is independent of the AI output.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few key things to keep in mind as you go back into practice. AI tools are genuinely useful, but they are there to support your thinking, not replace it. Always verify what they suggest. Be especially mindful when you are tired or under pressure, because that is precisely when automation bias tends to creep in. And remember, just because an output looks polished and confident does not mean it is correct. One practical habit worth building is a deliberate pause before you act on any AI recommendation. Give yourself a moment to ask, \"Does this actually make sense to me?\" Ultimately, your clinical judgement is the final safeguard, and nothing about AI changes that. To get started, pick just one workflow this week and practise applying active oversight there. Small steps build strong habits, and that is really where lasting change begins.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

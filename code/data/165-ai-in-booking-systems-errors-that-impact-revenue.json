@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Booking Systems: Errors That Impact Revenue",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Overbooking, mispricing, and system inaccuracies.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with day-to-day booking or reservation processes in a hospitality, travel, or food and beverage setting is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI-related errors in booking systems, including overbooking, mispricing, and data inaccuracies, and explain how these issues directly affect revenue and guest satisfaction. You will also apply practical strategies to recognise warning signs within AI-driven booking tools and take corrective action to minimise financial and reputational risk for your hospitality or travel business.",
+  "lessons": [
+    {
+      "lesson title": "AI in Booking Systems: Errors That Impact Revenue",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used in modern booking systems and the types of errors that can arise when these systems do not perform as expected. You will learn about common issues such as overbooking, mispricing, and data inaccuracies, and understand how these mistakes can directly affect revenue and customer satisfaction. The lesson is designed for beginners, so no prior technical knowledge is required, just a willingness to understand how AI-driven processes work in a practical, real-world context. By the end of the lesson, you will be able to recognise the warning signs of AI errors in booking environments and appreciate why human oversight remains an essential part of managing these systems effectively.",
+      "status": "draft",
+      "content": "Overbooking, mispricing, and system inaccuracies.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI Errors and Revenue Loss",
+          "subtitle": "When Systems Fail, Revenue Follows",
+          "slidecontent": "• AI booking systems can misfire in ways that directly cost businesses money\n• Common failures include overbooking, mispricing, and inaccurate availability\n• Even small errors, repeated at scale, add up fast\n• Guests and customers bear the consequences too\n• Understanding where these errors come from is the first step to preventing them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What We Have Covered",
+          "subtitle": "Overbooking, mispricing, and system inaccuracies explored.",
+          "slidecontent": "• How AI-driven booking systems can generate costly overbooking errors\n• The ways mispricing occurs when algorithms misread demand signals\n• Real examples of system inaccuracies affecting customer experience\n• Why these errors happen\n• The revenue and reputational risks businesses face when errors go unchecked"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Overbooking: When AI Gets It Wrong",
+          "subtitle": "When algorithms misread real demand signals",
+          "slidecontent": "• AI misreads cancellation patterns\n• Sells same seat twice\n• Demand forecasts go stale\n• Algorithms ignore local events\n• Overbooking triggers compensation costs"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Avoiding Costly AI Booking Errors",
+          "subtitle": "Spot issues before they cost you.",
+          "slidecontent": "• Check prices before confirming\n• Spot duplicate bookings early\n• Verify availability in real time\n• Review system alerts promptly\n• Test regularly for errors"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Lessons Learned and Next Steps",
+          "subtitle": "Turning Mistakes Into Smarter Systems",
+          "slidecontent": "• Audit your system regularly\n• Log every pricing error\n• Train staff on AI limits\n• Test before going live\n• Review, adjust, improve always"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Preventing Revenue Loss: Next Steps",
+          "subtitle": "Practical actions to protect your income",
+          "slidecontent": "• Audit your booking system regularly for pricing and availability errors\n• Set up automated alerts for sudden inventory or rate changes\n• Train staff to spot and escalate AI-generated anomalies quickly\n• Keep a manual override process ready\n• Review overbooking incidents monthly to identify recurring patterns\n• Document every error to build a clearer picture of system weaknesses"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Avoiding Costly AI Booking Errors",
+          "subtitle": "Practical steps to protect your revenue",
+          "slidecontent": "• Set clear pricing rules and caps within your AI system to prevent mispricing errors before they reach customers\n• Audit booking data regularly\n• Configure overbooking thresholds manually rather than relying solely on AI predictions\n• Train staff to spot and escalate unusual booking patterns quickly\n• Test your system after every update or configuration change\n• Keep a human review step in place for high-value or complex reservations"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for protecting your revenue",
+          "slidecontent": "• AI errors cost real money\n• Check prices before confirming\n• Overbooking damages guest trust\n• Audit your system regularly\n• Flag anomalies immediately\n• Small fixes prevent big losses"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI in booking systems, and specifically what happens when things go wrong. Now, AI has transformed the way businesses manage reservations, pricing, and availability, and for the most part, it works brilliantly. But when it misfires, the consequences can hit your revenue hard and fast. We are talking about things like overbooking guests, displaying the wrong prices, or showing availability that simply does not exist. And here is the thing: these are not always dramatic, one-off disasters. Often, it is small errors happening quietly, over and over again, at scale, and that is when the financial damage really starts to mount up. It is also worth remembering that it is not just the business that suffers. Customers and guests end up frustrated, let down, and sometimes out of pocket. So throughout this lesson, we are going to look at where these errors actually come from, because understanding the root causes is really where prevention begins."
+        },
+        {
+          "number": 2,
+          "script": "Before we move forward, let's take a moment to recap what we've covered so far in this lesson. We started by looking at how AI-driven booking systems, despite being incredibly powerful, can actually create overbooking problems that end up costing businesses real money. From there, we explored mispricing, specifically how algorithms can misread demand signals and end up charging the wrong amount at the wrong time. We also looked at some real-world examples where system inaccuracies have directly affected the customer experience, and we dug into the reasons why these errors tend to happen in the first place. Finally, we considered the broader consequences, because when these mistakes go unchecked, businesses don't just lose revenue, they can also suffer serious damage to their reputation. So there's quite a lot of ground covered already. With all of that in mind, let's now think about what you can do with this knowledge going forward."
+        },
+        {
+          "number": 3,
+          "script": "Overbooking is one of the most costly mistakes an AI booking system can make, and it happens more often than you might think. The core problem is that the algorithm is making predictions based on historical data, but that data can quickly become outdated or simply misleading. For example, the system might look at past cancellation rates and assume a certain percentage of bookings will always drop off, so it sells more seats or rooms than actually exist. But if conditions change, perhaps a local festival is driving unusually high demand, the algorithm has no way of knowing that. It carries on with its outdated assumptions, double-sells inventory, and suddenly you have real customers with valid bookings and nowhere to go. That triggers compensation payouts, refunds, and reputational damage. The AI is not being careless on purpose, it is simply working with incomplete or stale information, and that is where the revenue damage begins."
+        },
+        {
+          "number": 4,
+          "script": "So now that we understand how these errors happen, let us talk about what you can actually do to prevent them. The good news is that most costly AI booking mistakes are avoidable if you build a few simple habits into your daily routine. Before you confirm any booking, always glance at the pricing to make sure it looks right. AI systems can occasionally pull through incorrect rates, and catching that early saves a lot of hassle. It is also worth keeping an eye out for duplicate bookings, because these can slip through surprisingly easily and cause real confusion for your guests or clients. Make sure your system is checking availability in real time rather than relying on data that might be out of date. When the system sends you an alert, do not ignore it or leave it for later. And finally, set aside time to test your booking system regularly. A quick check every now and then can catch small issues before they turn into expensive problems."
+        },
+        {
+          "number": 5,
+          "script": "So, let us bring everything together and think about what good practice actually looks like going forward. The first thing I would encourage you to do is check your system on a regular basis, because errors can creep in quietly and go unnoticed for weeks. When something does go wrong with pricing, make sure you record it. Keeping a log helps you spot patterns and fix root causes rather than just patching individual problems. It is also really important that your team understands what AI can and cannot do, because unrealistic expectations lead to mistakes being missed. Before you roll out any new feature or update, always test it thoroughly in a safe environment first. And finally, do not treat your booking system as something you set up once and forget about. The most successful businesses treat it as an ongoing process, constantly reviewing performance, making adjustments, and looking for ways to improve. Small, consistent steps really do add up over time."
+        },
+        {
+          "number": 6,
+          "script": "So, we've covered the ways AI errors can hurt your revenue, but what can you actually do about it? The good news is that a few straightforward habits can make a real difference. Start by auditing your booking system regularly, checking that prices and availability are displaying correctly. Set up automated alerts so you're notified straight away if something unusual happens with your rates or inventory. Make sure your team knows what to look out for and feels confident flagging anything that seems off. It's also worth keeping a manual override process in place, because sometimes you simply need a human to step in quickly. On a monthly basis, look back at any overbooking incidents to spot whether the same issues keep coming up. And crucially, document every error you find. Over time, that record becomes incredibly valuable for understanding where your system is letting you down and how to fix it."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand where AI booking errors come from, let's talk about what you can actually do to protect your revenue. The good news is that most of these steps are straightforward. Start by setting firm pricing rules and caps inside your system so that no wildly incorrect price ever reaches a customer. Audit your booking data on a regular basis so that problems surface early rather than quietly costing you money. When it comes to overbooking, set those thresholds yourself rather than leaving it entirely to the AI. Your staff are also a really valuable line of defence here, so make sure they know what unusual patterns look like and who to flag them to. Whenever you update or reconfigure your system, test it thoroughly before it goes live. And for high-value or complex reservations, always keep a human review step in the process. A little oversight goes a long way."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together. The most important thing to hold onto from this lesson is that AI mistakes in your booking system are not just technical glitches, they have a direct impact on your revenue and your reputation. Always take a moment to verify that prices look correct before a booking is confirmed, because catching an error early costs you nothing, but missing it can be very expensive. Overbooking is particularly damaging because it does not just affect your finances, it erodes the trust your guests have placed in you. To stay ahead of these issues, make a habit of auditing your system on a regular basis, and whenever something looks unusual, flag it straight away rather than leaving it for later. The reassuring truth is that most of these problems are entirely preventable. Small, consistent actions, like a quick check here or a routine review there, are what keep the bigger, costlier problems from ever taking hold."
+        }
+      ]
+    }
+  ]
+}

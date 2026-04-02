@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Learning Management Systems (LMS)",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Risks in data sharing, analytics, and third-party integrations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using a learning management system (such as Moodle, Canvas, or Blackboard) and a general awareness of how data is collected and stored in digital education environments.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with data sharing, analytics, and third-party integrations within AI-powered Learning Management Systems. You will also be able to explain how to apply responsible data practices to protect learners and organisations operating across education, government services, and non-profit sectors.",
+  "lessons": [
+    {
+      "lesson title": "AI in Learning Management Systems (LMS)",
+      "order": 1,
+      "Description": "This lesson introduces learners to the key risks associated with using artificial intelligence within Learning Management Systems, making it accessible and relevant for those new to the topic. You will explore how AI-driven data sharing and analytics can create vulnerabilities, particularly around learner privacy and the responsible handling of sensitive information. The lesson also examines the challenges that arise when integrating third-party AI tools into an existing LMS, including issues of data ownership, consent, and compliance with regulations such as GDPR. By the end of this lesson, you will have a clearer understanding of what to look out for when your organisation adopts or expands AI capabilities within its learning platforms. The goal is to equip you with practical awareness so you can ask the right questions and make more informed decisions about AI use in your learning environment.",
+      "status": "draft",
+      "content": "Risks in data sharing, analytics, and third-party integrations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Learning Management Systems",
+          "subtitle": "Risks, Data, and Smart Decisions",
+          "slidecontent": "• AI powers modern LMS platforms\n• Data flows constantly behind scenes\n• Risks hide in plain sight\n• Smart choices protect your learners\n• You can manage this confidently"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Data Collection and Privacy Risks",
+          "subtitle": "What data do LMS platforms collect?",
+          "slidecontent": "• Names and email addresses\n• Login times and frequency\n• Quiz scores and results\n• Course completion status\n• Device and location data"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Data Privacy and Compliance Risks",
+          "subtitle": "Protecting Learner Data Within Your LMS",
+          "slidecontent": "• AI tools in your LMS collect and store sensitive learner data, including progress, behaviour, and personal details\n\n• Data shared with third-party AI providers may leave your organisation's direct control\n\n• Many integrations lack transparency about how learner data is used or retained\n\n• GDPR compliance is non-negotiable\n\n• Without proper checks, automated analytics can inadvertently expose identifiable information\n\n• Always review the data processing agreements of any AI-powered LMS feature before enabling it"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Data Sharing Risks Explained",
+          "subtitle": "Understanding what data is at risk",
+          "slidecontent": "• Personal data like names, email addresses, and login credentials stored inside the LMS\n• Assessment scores and learning progress records\n• Sensitive details including accessibility needs or workplace role information\n• Data passed to third-party tools (such as video platforms or quiz engines) during everyday use\n• Any of this information can be exposed if integrations are poorly configured or left unsecured"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Risks of Third-Party Integrations",
+          "subtitle": "Vendor Access Can Compromise Learner Privacy",
+          "slidecontent": "• Third-party AI tools added to an LMS often require access to learner data to function\n• Vendors may store, analyse, or share that data under their own privacy policies, not yours\n• Data leaves your control\n• Weak vendor contracts can leave learner information exposed to misuse or secondary selling\n• Some integrations collect more data than the feature actually needs, a practice known as data over-collection\n• Always review a vendor's data processing agreement before enabling any AI integration"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Risks of Third-Party Integrations",
+          "subtitle": "Vendor Access Can Compromise Learner Privacy",
+          "slidecontent": "• Third-party AI tools integrated into an LMS often require access to learner data to function\n• Vendors may store, analyse, or share that data under their own privacy policies, not yours\n• Data can leave your institution's control entirely\n• Weak vendor contracts may offer little protection if a data breach occurs\n• Learners rarely know which external tools are processing their information\n• Always review a vendor's data handling practices before enabling any integration"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risks in LMS Integration",
+          "subtitle": "Practical Steps to Reduce Integration Risks",
+          "slidecontent": "• Audit third-party data access\n• Encrypt all learner data\n• Review vendor privacy policies\n• Limit unnecessary data sharing\n• Train staff on risks\n• Test integrations before launch"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always",
+          "slidecontent": "• Data sharing carries real risks\n• Always check third-party permissions\n• Analytics can expose learner data\n• Review integrations regularly\n• Prioritise consent and transparency\n• Start auditing your LMS today"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI in Learning Management Systems. If you've ever used an online learning platform, there's a good chance artificial intelligence was quietly working in the background, shaping your experience in ways you might not have noticed. These systems are constantly collecting and processing data, and while that can make learning more personalised and effective, it also introduces some real risks that are easy to overlook. The good news is that you don't need to be a technical expert to understand what's going on or to make smart, informed decisions about how these tools are used in your organisation. By the end of this lesson, you'll have a much clearer picture of where the risks actually sit, what happens with learner data, and how you can approach all of this with genuine confidence. So let's get started and take a proper look at what's really happening inside your LMS."
+        },
+        {
+          "number": 2,
+          "script": "Before we can talk about privacy risks, we need to understand exactly what information an LMS is collecting in the first place. And the answer might surprise you. These platforms gather quite a lot. Obviously, there are the basics like your name and email address, the kind of details you'd expect to hand over when signing up for anything online. But it goes much further than that. The system is also tracking when you log in, how often you come back, and how long you spend on each activity. Your quiz scores and whether you've completed a course are recorded too. And here's where it gets a bit more sensitive: many platforms also collect data about the device you're using and, in some cases, your approximate location. So when we talk about AI making personalised recommendations or flagging learners who might be struggling, it's drawing on all of this information. That's worth keeping in mind as we move forward."
+        },
+        {
+          "number": 3,
+          "script": "When you start using AI features inside your LMS, you are immediately dealing with sensitive information. We are talking about how learners progress through courses, how they behave within the platform, and their personal details. Now, a lot of AI tools share that data with third-party providers, and once it leaves your system, you may have very little control over what happens to it. Many of these integrations are not particularly transparent about how long they keep that data or what they actually do with it. And here in the UK and across Europe, GDPR compliance is not optional. It is a legal requirement. There is also a subtler risk worth mentioning: automated analytics can sometimes surface information that inadvertently identifies individual learners, even when that was never the intention. So before you switch on any AI-powered feature in your LMS, please take the time to review the data processing agreement. It is a simple step that can save you a great deal of trouble later."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what's actually at risk when we bring AI into a learning management system. Your LMS holds a surprising amount of sensitive information. We're talking about the obvious things like names, email addresses, and passwords, but also learner progress, assessment scores, and details that are more personal still, such as accessibility requirements or someone's role within the organisation. Now, here's where it gets a little more complex. Modern LMS platforms rarely work in isolation. They connect to third-party tools, things like video hosting services or quiz engines, and data flows between these systems constantly during normal, everyday use. The problem is that if those integrations aren't set up carefully, or if security settings are left at their defaults and never reviewed, all of that information can become exposed. It's not about being alarmist; it's simply about understanding that more connections mean more potential entry points, and that's worth taking seriously from the very start."
+        },
+        {
+          "number": 5,
+          "script": "When you add a third-party AI tool to your LMS, you are often handing that vendor access to your learners' data. And here is the problem: once that data leaves your system, it falls under the vendor's privacy policy, not yours. You lose control of it. If the contract you have with that vendor is poorly written or vague, there is very little stopping them from using that data in ways you never intended, including selling it on to other parties. There is also a practice worth knowing about called data over-collection, where a tool gathers far more information than it actually needs to do its job. That is a significant risk in itself. So before you switch on any AI integration in your LMS, take the time to read the vendor's data processing agreement carefully. It is not the most exciting document, but it is one of the most important steps you can take to protect your learners."
+        },
+        {
+          "number": 6,
+          "script": "When you connect a third-party AI tool to your LMS, you are often granting that vendor access to your learners' data. And here is the important part: that data may then be stored, analysed, or even shared according to the vendor's own privacy policies, not yours. Once that data leaves your systems, you may have very little control over what happens to it. If the contract you have with that vendor is poorly written, you could find yourself with almost no recourse if something goes wrong, such as a data breach. What makes this particularly concerning is that learners themselves are usually completely unaware that their information is being processed by external tools at all. So before you enable any integration, please take the time to thoroughly review how that vendor handles data. It is a straightforward step, but it is one of the most important things you can do to protect the people using your platform."
+        },
+        {
+          "number": 7,
+          "script": "So, once you've identified the risks around LMS integration, the next step is doing something about them. There are some straightforward, practical measures you can put in place. Start by checking exactly which third-party tools and AI systems have access to your learner data, and make sure that access is genuinely necessary. Any data you're storing or transmitting should be encrypted, and it's worth taking the time to properly read through your vendors' privacy policies rather than just ticking a box. Where possible, avoid sharing data that simply doesn't need to be shared. Your staff also play a really important role here, so make sure they understand the risks and know how to handle data responsibly. And finally, before you roll out any new integration to your learners, test it thoroughly in a controlled environment first. These steps won't eliminate every risk, but they will significantly reduce your exposure and help you build a much more secure learning environment."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the core principles we want you to carry forward from this lesson. Whenever your LMS shares data with an external tool or service, there is always some level of risk involved, so it is worth treating that seriously. Before you connect any third-party application, make sure you understand exactly what permissions you are granting and what data those tools can access. And remember, it is not just file uploads or profiles you need to think about. Your analytics and reporting features can quietly expose a great deal of learner information if left unchecked. This is not a one-time job either. Integrations change, platforms update their terms, so reviewing your setup regularly is genuinely important. Above all, keep consent and transparency at the heart of every decision you make. If you are not sure where to begin, the best thing you can do right now is start auditing your LMS. Even small steps in the right direction make a real difference."
+        }
+      ]
+    }
+  ]
+}

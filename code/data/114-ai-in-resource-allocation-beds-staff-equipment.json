@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Resource Allocation (Beds, Staff, Equipment)",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Ethical and operational risks of automated decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how hospitals or healthcare settings operate, along with a general interest in technology and decision-making, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways artificial intelligence is applied to resource allocation decisions in healthcare settings, including the management of beds, staff, and equipment, and explain the operational risks that arise when automated systems are used in clinical environments. You will also be able to apply a practical framework for recognising and addressing the ethical challenges associated with AI-driven decision-making, ensuring patient safety and fairness remain central to any implementation.",
+  "lessons": [
+    {
+      "lesson title": "AI in Resource Allocation (Beds, Staff, Equipment)",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used to allocate critical healthcare resources such as hospital beds, staffing rosters, and medical equipment. You will gain a clear understanding of how these automated systems work in practice, and why they are increasingly being adopted across NHS and wider healthcare settings. We will examine the operational benefits these tools can offer, including improved efficiency and faster decision-making, alongside the very real ethical risks that arise when algorithms influence patient care. The lesson will help you recognise situations where automated decisions may introduce bias, reduce transparency, or undermine clinical judgement. By the end, you will feel more confident identifying both the opportunities and the responsibilities that come with using AI in resource allocation.",
+      "status": "draft",
+      "content": "Ethical and operational risks of automated decisions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When Algorithms Allocate Resources",
+          "subtitle": "Who decides, and at what cost?",
+          "slidecontent": "• Hospitals already use algorithms to assign beds, schedule staff, and distribute equipment\n• These systems make consequential decisions, often without direct human review\n• Fast\n• Efficiency gains can come at the cost of fairness or transparency\n• Real patients and workers are affected when the logic goes wrong"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When Algorithms Allocate Resources",
+          "subtitle": "What gets decided, and by whom?",
+          "slidecontent": "• Beds assigned by algorithm\n• Staff rotas auto-generated\n• Equipment booked without humans\n• Decisions made in milliseconds\n• Errors affect real patients"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks of Automated Decisions",
+          "subtitle": "Where automation can go wrong",
+          "slidecontent": "• Algorithms trained on biased historical data can reinforce unfair patterns in bed or staff allocation\n• Errors can scale fast\n• Over-reliance on automated outputs may cause staff to override their own clinical judgement\n• Edge cases (unusual patient needs or staffing emergencies) often fall outside what the system was designed to handle\n• Lack of transparency in how decisions are made can make it difficult to challenge or correct mistakes\n• Accountability gaps arise when no single person feels responsible for an automated outcome"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias and Fairness Concerns",
+          "subtitle": "When algorithms inherit human prejudices",
+          "slidecontent": "• AI systems trained on historical data can reflect past inequalities in how resources were allocated\n• Certain patient groups, such as older adults or those from ethnic minorities, may be systematically under-prioritised\n• Biased outputs\n• Proxy variables like postcode or employment status can introduce discrimination without designers realising it\n• Fairness is not automatic, it requires deliberate testing across different demographic groups\n• Unchecked bias can widen existing health inequalities rather than reduce them"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias and Fairness Concerns",
+          "subtitle": "When data reflects existing inequalities",
+          "slidecontent": "• Biased data, biased decisions\n• Minorities may receive less\n• Past inequity shapes future allocation\n• Algorithms can entrench disadvantage\n• Fairness needs active monitoring"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Bias and Fairness Concerns",
+          "subtitle": "When algorithms inherit human prejudices",
+          "slidecontent": "• Training data reflects past inequalities\n• Minority groups often underserved\n• Algorithms amplify existing disparities\n• Fairness definitions conflict with each other\n• Auditing bias is genuinely difficult"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risk in Practice",
+          "subtitle": "Practical steps to reduce allocation errors",
+          "slidecontent": "• Audit AI decisions regularly\n• Keep humans in the loop\n• Flag low-confidence outputs\n• Train staff on overrides\n• Log every allocation change\n• Review edge cases often"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI use",
+          "slidecontent": "• AI can support resource decisions, but never replaces human judgement\n• Always question outputs that seem unusual or contradict clinical knowledge\n• Bias in training data leads to unfair allocations for some patient groups\n• Transparency matters\n• Staff must understand what the AI is optimising for and why\n• As a next step, review your organisation's current AI governance policy and identify any gaps in oversight"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with something that might surprise you. Right now, in hospitals across the country, algorithms are already making decisions about where patients sleep, who gets called in for a shift, and which ward receives a piece of equipment. These aren't futuristic possibilities, they're happening today. And one of the things that makes this genuinely important is the speed at which these systems operate. Decisions that might once have taken a coordinator several minutes can happen in seconds. That sounds like a good thing, and often it is. But speed and efficiency don't automatically mean fairness or transparency. When the logic built into these systems is flawed or biased, real people bear the consequences. A patient might wait longer than necessary for a bed. A member of staff might find their rota doesn't reflect their actual availability. So throughout this lesson, we're going to look honestly at both the benefits and the risks of letting algorithms take the wheel in resource allocation."
+        },
+        {
+          "number": 2,
+          "script": "So let's think about what's actually happening when AI gets involved in resource allocation. In many modern hospitals, it's not a ward manager sitting down with a spreadsheet deciding which patient goes to which bed. An algorithm is doing that. Staff rotas are being generated automatically, sometimes overnight, without anyone actively making those choices. Equipment like ventilators or imaging machines can be booked and assigned by a system, with no human pressing a button. And here's the thing that really puts it into perspective: all of this can happen in milliseconds. Decisions that might have taken a person hours are made almost instantly. Now, that speed and efficiency can be genuinely impressive. But it also raises a serious question. When those decisions go wrong, and sometimes they will, real patients are affected. So throughout this lesson, we're going to explore not just how these systems work, but who is actually responsible when they do, and what we need to watch out for."
+        },
+        {
+          "number": 3,
+          "script": "So, automation in resource allocation brings real benefits, but it also carries some serious risks that we need to be honest about. One of the biggest concerns is bias. If an algorithm has been trained on historical data that reflects past inequalities, it will likely reproduce those same unfair patterns. And because these systems operate at scale, a small error does not stay small for long. It can ripple out very quickly across an entire organisation. There is also the risk that staff begin to trust the system too much, gradually stepping back from their own clinical judgement, which can be genuinely dangerous. On top of that, these systems are typically designed for predictable scenarios, so unusual or complex situations can easily slip through the cracks. And when something does go wrong, it can be surprisingly difficult to understand why a decision was made, or even to identify who is responsible for fixing it. These are not reasons to avoid AI, but they are reasons to approach it carefully."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most important concerns we need to talk about is bias. When AI systems learn from historical data, they can absorb the inequalities that already existed in that data. So if certain patient groups, say older adults or people from ethnic minority backgrounds, were historically under-served, the algorithm may simply continue that pattern without anyone noticing. And it can be quite subtle. The system might use variables like postcode or employment status as a shortcut, and those proxies can introduce discrimination without the designers ever intending it. This is sometimes called biased output, where the results look neutral on the surface but are actually unfair underneath. The crucial point here is that fairness does not happen automatically. It has to be actively tested across different demographic groups, and that testing has to be ongoing. If we do not do that work, AI could actually make existing health inequalities worse rather than helping to close the gap."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the most serious concerns with AI in resource allocation is the issue of bias. Here's the problem: AI systems learn from historical data, and if that data reflects past inequalities, the AI will simply repeat and reinforce those inequalities. For example, if certain communities have historically received less care or fewer resources, the algorithm may treat that as the norm and continue allocating less to those same groups. This is particularly concerning for minority populations, who may already face disadvantages within the healthcare system. The algorithm isn't being deliberately unfair, but the outcome can still be deeply unjust. And because these decisions happen automatically and at scale, the harm can spread very quickly. This is why fairness cannot be left to chance. Organisations need to actively and regularly audit their AI systems, checking whether certain groups are being consistently underserved, and making corrections when they are."
+        },
+        {
+          "number": 6,
+          "script": "Now, one of the most serious concerns with AI in resource allocation is the question of bias and fairness. Here's the problem: AI systems learn from historical data, and that historical data reflects a healthcare system that hasn't always treated everyone equally. So if certain groups, say ethnic minorities or people from deprived areas, have historically received less care, the algorithm learns that pattern and can actually reinforce it. It doesn't just repeat the inequality, it can amplify it. And trying to fix this isn't straightforward, because there are actually several different mathematical definitions of fairness, and they can contradict one another. You genuinely cannot satisfy all of them at once. On top of that, detecting bias in a complex algorithm is technically challenging, even for specialists. So this isn't a minor footnote. It's a central ethical challenge that anyone deploying AI in clinical settings needs to take seriously from the very beginning."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually reduce the risk of things going wrong when AI is making allocation decisions? The first thing is to audit the system regularly. Don't just set it up and walk away. Check whether the decisions it's making are sensible and fair. Alongside that, always keep a human in the loop. AI should be supporting your team, not replacing their judgement. When the system isn't confident about a recommendation, make sure those low-confidence outputs are clearly flagged so staff know to take a closer look. Speaking of staff, it's really important to train your team on how and when to override the AI. They need to feel empowered to do that. Every change to an allocation should also be logged, so you have a clear record of what happened and why. And finally, revisit your edge cases frequently, because those unusual situations are often where the system is most likely to struggle."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First and most importantly, AI is a tool to support your decisions, not to make them for you. Human judgement always stays in the loop. If an output looks odd or doesn't match your clinical experience, question it. Don't simply accept it because a system produced it. We also need to be honest about bias. If the data used to train these systems doesn't reflect all patient groups fairly, the allocations it produces won't be fair either. That's something we all have a responsibility to watch for. Transparency is equally important. Staff should understand what the AI is actually trying to optimise, whether that's bed turnover, staffing efficiency, or something else entirely, because that shapes how you interpret and challenge its outputs. And as a practical next step, I'd encourage you to review your organisation's AI governance policy and look for any gaps in oversight. That's where responsible use really begins."
+        }
+      ]
+    }
+  ]
+}

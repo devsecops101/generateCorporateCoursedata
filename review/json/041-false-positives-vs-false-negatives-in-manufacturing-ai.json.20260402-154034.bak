@@ -1,0 +1,121 @@
+{
+  "Course Title": "False Positives vs False Negatives in Manufacturing AI",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "The real-world cost of rejecting good products vs accepting bad ones.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with manufacturing quality control concepts and a general curiosity about how AI is used in production environments are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the difference between false positives and false negatives in manufacturing AI systems, and explain how each type of error affects product quality, safety, and operational costs across industries such as chemicals, pharmaceuticals, and electronics. You will also apply this understanding to recognise the real-world trade-offs involved in setting detection thresholds, helping you make more informed decisions about when it is costlier to reject good products versus accept faulty ones.",
+  "lessons": [
+    {
+      "lesson title": "False Positives vs False Negatives in Manufacturing AI",
+      "order": 1,
+      "Description": "In manufacturing, artificial intelligence systems are increasingly used to inspect products and flag potential defects, but these systems are not perfect. When an AI incorrectly rejects a good product, this is known as a false positive, and when it incorrectly accepts a faulty one, this is a false negative. Both types of error carry real costs for a business, whether that means wasted materials and lost output, or defective goods reaching customers. This lesson explores the practical difference between these two error types, why getting the balance right matters so much, and how manufacturers can make informed decisions about where to set their thresholds. By the end, you will have a clear and grounded understanding of how false positives and false negatives affect quality, efficiency, and the bottom line.",
+      "status": "draft",
+      "content": "The real-world cost of rejecting good products vs accepting bad ones.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "False Positives vs False Negatives",
+          "subtitle": "The real cost of getting it wrong.",
+          "slidecontent": "• Two errors, opposite costs\n• False positive: good rejected\n• False negative: bad accepted\n• Both hurt your business\n• Getting it wrong is expensive",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Two Types of Error",
+          "subtitle": "When AI gets it wrong, two ways.",
+          "slidecontent": "• AI makes two error types\n• False positive: good flagged bad\n• False negative: bad slips through\n• Both errors cost money\n• Neither is always \"safer\"",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Cost of Getting It Wrong",
+          "subtitle": "Mistakes carry a measurable price tag.",
+          "slidecontent": "• Every misclassification in a production line has a direct financial consequence\n• False positives waste good product\n• Scrapping or reworking items that were never actually faulty adds up fast\n• False negatives let defective goods reach customers, triggering recalls, complaints, and lost trust\n• The \"safer\" error depends entirely on your industry and what failure actually costs",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "The Cost of Getting It Wrong",
+          "subtitle": "Both errors carry real consequences.",
+          "slidecontent": "• False positives waste good products\n• False negatives ship faulty parts\n• Both cost time and money\n• Customer trust suffers too",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Calculating the True Cost",
+          "subtitle": "Beyond the obvious financial impact",
+          "slidecontent": "• Every false positive wastes materials, labour, and machine time on a product that was never actually faulty\n• Reputation damage when customers lose trust in your quality process\n• False negatives carry liability risk\n• Rework and reinspection cycles compound costs quickly across high-volume production lines\n• Hidden overhead from over-inspection, including staff time spent reviewing flagged items that pass on second check",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Calculating the True Cost",
+          "subtitle": "Beyond the obvious financial impact",
+          "slidecontent": "• Every false positive wastes materials, labour, and machine time on a product that was actually fine\n• Rework and reinspection add hidden costs that rarely appear on a single defect report\n• Customer trust erodes slowly\n• False negatives carry liability risks, recall expenses, and potential regulatory penalties\n• Tracking both error types separately reveals where your AI model needs retraining or threshold adjustment",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Balancing Errors in Practice",
+          "subtitle": "Striking the right balance every time",
+          "slidecontent": "• Setting a threshold too high catches more defects but flags more good parts as faulty\n• Costs cut both ways\n• Every adjustment to sensitivity shifts the balance between missed faults and wasted product\n• Regular calibration using real production data keeps the model tuned to your actual environment\n• Cross-functional teams (quality, operations, and engineering) should review error rates together\n• Small threshold changes can have a surprisingly large impact on overall yield and customer satisfaction",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to guide your decisions",
+          "slidecontent": "• Both errors cost money\n• Context shapes the right balance\n• Neither zero is realistic\n• Know your product's risk level\n• Measure, then decide\n• Start small, adjust often",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on false positives and false negatives in manufacturing AI. Now, these two terms might sound a bit technical at first, but the concept is actually quite straightforward, and it matters enormously in a manufacturing context. Essentially, when an AI system makes a mistake, it can go wrong in one of two directions. It can flag something as a problem when it is actually perfectly fine, or it can miss a genuine problem and let it pass through unchecked. The first is a false positive, the second is a false negative, and here is the important thing: both of these errors cost your business money. They just hurt you in different ways. One wastes good product, the other lets bad product reach your customers. So as we work through this lesson, we are going to explore what each error really means in practice, and why understanding the difference is absolutely critical when you are deploying AI on the factory floor.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "When we talk about AI making mistakes in manufacturing, there are really only two ways it can get things wrong. The first is called a false positive. This is where the AI looks at something that is perfectly fine and incorrectly flags it as a problem. So a good product gets rejected when it should have passed. The second is a false negative, and this one works in the opposite direction. The AI looks at something that is genuinely faulty and misses it entirely, letting it slip through unchecked. Now, both of these errors carry a real cost to your business. False positives waste time and resources by pulling good products out of circulation. False negatives risk sending defective items to your customers. And here is something worth thinking about: neither type of error is automatically the safer option. Depending on your industry and your product, one could be far more damaging than the other, and we will explore exactly that as we go through this course.",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what getting this wrong actually costs, because it isn't just an abstract technical problem, it hits the bottom line directly. When your AI misclassifies something on a production line, there's a real financial consequence either way. If it flags too many false positives, you're throwing away perfectly good product, or spending time and money reworking items that didn't need it in the first place. That waste accumulates quickly. But if it misses actual defects, those faulty goods reach your customers, and then you're dealing with complaints, recalls, and damage to your reputation that can take years to rebuild. Neither outcome is free. And here's the important thing: there's no universal answer about which type of error is worse. It genuinely depends on your industry and what failure actually means in your context. A missed defect in food packaging carries very different consequences to one in, say, furniture manufacturing. That context is everything.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what actually happens when your AI system gets it wrong, because both types of error carry a real cost. If you have too many false positives, your system is constantly flagging perfectly good products as defective. That means you are scrapping or reworking items that never needed attention in the first place, which wastes materials, slows down your production line, and eats into your margins. On the other hand, if you have too many false negatives, faulty parts are slipping through undetected and making their way to your customers. That is a much more serious problem, because now you are dealing with returns, complaints, potential safety issues, and serious damage to your reputation. And here is the thing that people sometimes overlook: both errors cost you time and money, just in different ways. There is no version of getting this wrong that is free. So understanding the balance between these two error types is absolutely central to building a reliable AI inspection system.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "When we talk about the cost of getting these predictions wrong, most people jump straight to the obvious stuff, like scrapped parts or wasted materials. But the real picture is much broader than that. Every time your system flags a perfectly good product as faulty, you are burning through labour, machine time, and raw materials for absolutely no reason. Do that thousands of times a day and it adds up fast. Then there is the less visible side. Staff spending their shifts re-checking items that turn out to be fine, reinspection cycles eating into your throughput, and overheads quietly climbing in the background. On the other side, if your system misses a genuine defect and it reaches a customer, you are not just looking at a recall or a complaint. You are risking your reputation and potentially your legal liability as well. So the true cost here is not just financial. It touches quality, trust, and the long-term health of your operation.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what these errors actually cost you, because it goes well beyond the obvious. When your AI flags a perfectly good product as defective, you're not just losing that one item. You're spending time, materials, and machine capacity on something that didn't need fixing in the first place. And those rework and reinspection costs tend to be invisible on most reports, which means they quietly add up without anyone noticing. On the other side, letting a genuine defect slip through carries much bigger risks: potential recalls, regulatory penalties, and the kind of damage to customer trust that takes years to rebuild. Now here's the really useful part. When you track false positives and false negatives separately rather than lumping them together as general errors, you get a much clearer picture of exactly where your AI model is struggling. That tells you whether you need to retrain it, adjust its decision threshold, or both. It turns a vague problem into a specific, solvable one.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So we've established what false positives and false negatives are, but how do you actually find the right balance in a real production environment? The honest answer is that there's no single perfect setting that works for everyone. If you make your AI more sensitive, it will catch more genuine defects, but it will also start flagging perfectly good parts as faulty, and that costs you time and money. Push it the other way, and you risk letting real faults slip through to your customers. Both directions carry a price. The key is to treat this as an ongoing process rather than a one-time setup. Use your actual production data to calibrate the model regularly, because your environment changes over time. And crucially, don't leave this to one team in isolation. Bring quality, operations, and engineering together to review the numbers, because even a small tweak to the threshold can have a surprisingly big effect on your yield and customer satisfaction.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few core principles to carry forward. First, remember that both false positives and false negatives have a real cost to your business, so neither one is simply the \"safe\" option. The right balance between them depends entirely on your specific context, what you're making, who's using it, and what the consequences of a mistake actually are. And here's something important: chasing zero errors in either direction simply isn't realistic in practice. What you can do is understand the risk level of your product, because a medical component demands a very different approach to a low-stakes consumer item. From there, let the data guide you. Measure what's actually happening on your line before you start making decisions. And finally, don't try to get everything perfect from day one. Start with a small, manageable implementation, see how it performs, and adjust as you learn. That's how you build something that genuinely works.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI and Copyright Infringement Risks",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "When generated content unintentionally copies existing works.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how AI content generation tools work, along with a general understanding of copyright concepts in the media and entertainment industry, will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key copyright risks that arise when AI-generated content unintentionally reproduces existing works, and explain how these risks apply across publishing, film, advertising, and gaming. You will also be able to apply practical strategies to recognise potential infringement issues in your own projects and take informed steps to protect your organisation from legal exposure.",
+  "lessons": [
+    {
+      "lesson title": "AI and Copyright Infringement Risks",
+      "order": 1,
+      "Description": "Artificial intelligence tools can produce text, images, code, and other content that closely resembles or even reproduces existing copyrighted works, often without the user realising it. This lesson explores how and why that happens, and what it means for anyone using AI-generated content in their work. We will look at real-world examples of copyright concerns that have emerged as AI tools have become more widely used, helping you to understand the practical risks involved. By the end of this lesson, you will have a clearer sense of how to use AI tools more responsibly and how to protect yourself and your organisation from unintentional infringement.",
+      "status": "draft",
+      "content": "When generated content unintentionally copies existing works.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and Copyright: The Risks",
+          "subtitle": "What you need to know now.",
+          "slidecontent": "• AI tools can copy existing work without anyone realising it\n• Generated text, images, and code may contain protected material\n• Copyright law still applies\n• Creators and businesses face real legal risk when using AI output\n• Understanding the basics helps you stay protected"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising the Risk of Copying",
+          "subtitle": "When AI mirrors protected creative works",
+          "slidecontent": "• AI tools trained on vast libraries of text, images, and music\n• Sometimes outputs closely mirror protected works without any warning\n• No deliberate copying required for infringement to occur\n• The risk is real even when using reputable, well-known tools\n• Similarity to an original work, not intent, is what matters legally"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Unintentional Copyright Risks",
+          "subtitle": "Spotting risks before they cause harm",
+          "slidecontent": "• AI can copy without knowing\n• Familiar phrases signal risk\n• Check outputs before publishing\n• Repetition patterns raise flags\n• Unique styles attract scrutiny"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Unintentional Copyright Risks",
+          "subtitle": "When similarity crosses into infringement",
+          "slidecontent": "• AI can mimic existing styles\n• Training data shapes outputs\n• Similarity can mean infringement\n• Intent does not equal innocence\n• Small changes may not protect you"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Reducing Your Infringement Risk",
+          "subtitle": "Practical steps to protect your work",
+          "slidecontent": "• Check outputs before publishing\n• Run plagiarism checks regularly\n• Vary and edit AI content\n• Document your creative process\n• Seek legal advice when unsure"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Reducing Your Infringement Risk",
+          "subtitle": "Practical steps to protect your work",
+          "slidecontent": "• Run AI-generated content through plagiarism checkers before publishing\n• Treat all AI output as a first draft, not a finished product\n• Document your creative process and any sources you referenced\n• Avoid prompting AI with specific titles, lyrics, or branded content\n• Seek legal advice when in doubt"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Your Infringement Risk",
+          "subtitle": "Practical steps to protect your work",
+          "slidecontent": "• Check outputs before publishing\n• Run plagiarism detection tools\n• Vary and edit AI content\n• Document your creative process\n• Seek legal advice when unsure"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for responsible AI use",
+          "slidecontent": "• Always check AI-generated content for similarities to existing works before publishing or sharing\n• Copyright applies even when copying is unintentional\n• Use plagiarism and similarity checkers as a routine step in your workflow\n• Keep records of your prompts and any sources the AI references\n• When in doubt, seek original human-created alternatives or get legal advice\n• As a next step, review your organisation's AI usage policy and flag any gaps around copyright compliance"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and copyright infringement risks. Now, this might sound like a dry legal topic, but it is genuinely important for anyone using AI tools in their work, and that is most of us these days. Here is the core issue: when AI generates text, images, or code, it does not create that content from nothing. It has learned from vast amounts of existing material, and sometimes what it produces is far closer to that original material than you might expect. The problem is that copyright law has not gone away just because AI is involved. If you use AI output in your work and it turns out to contain protected material, you could be the one facing the legal consequences, not the AI company. So whether you are a freelancer, a business owner, or part of a larger organisation, understanding how this works is genuinely worth your time. Let us get into it."
+        },
+        {
+          "number": 2,
+          "script": "One of the first things to understand about AI and copyright is that the risk of infringement can arise even when you have absolutely no intention of copying anyone's work. Most AI tools have been trained on enormous amounts of existing content, including text, images, and music, much of which is protected by copyright. Because of that, the output these tools generate can sometimes end up looking or sounding remarkably similar to an original protected work. And here is the important part: legally speaking, intent does not really matter. You do not have to have deliberately copied something for infringement to occur. What the law looks at is whether the output is substantially similar to a protected work. This applies even when you are using well-known, reputable tools from major providers. So the fact that a tool is widely trusted does not automatically mean its outputs are safe to use without question. That is the core risk we need to be aware of."
+        },
+        {
+          "number": 3,
+          "script": "One of the trickiest things about AI-generated content is that copyright problems can creep in without anyone intending them to. AI tools are trained on enormous amounts of existing text, and sometimes that training shows up in the output, reproducing phrases, sentences, or even whole passages that originated somewhere else. So how do you spot the warning signs? Well, if something in the output feels oddly familiar, almost like you have read it before, that is worth paying attention to. Distinctive writing styles are another area to watch, because replicating a well-known author's voice too closely can attract scrutiny. You should also look out for repetition patterns, where the same unusual phrasing keeps appearing across different outputs, as that can suggest the AI is drawing heavily from a specific source. The practical habit to build here is simple: always review AI-generated content carefully before you publish or share it. A quick check now can save you a serious headache later."
+        },
+        {
+          "number": 4,
+          "script": "One of the trickiest aspects of using AI-generated content is that copyright infringement can happen without you ever intending it. AI tools are trained on vast amounts of existing material, and that training shapes everything they produce. So when you ask an AI to write something, generate an image, or compose a piece of music, the output may closely resemble existing copyrighted works, sometimes without it being obvious at first glance. Now, here is the important part: in copyright law, your intention generally does not matter. If the output is substantially similar to a protected work, you could still be liable, even if you had absolutely no idea. And do not assume that making a few small tweaks will keep you safe either. Minor modifications are often not enough to avoid infringement. So the key message here is that unintentional does not mean innocent, and understanding where these risks come from is the first step towards protecting yourself and your organisation."
+        },
+        {
+          "number": 5,
+          "script": "So, now that we understand the risks, let's talk about what you can actually do to protect yourself. The first thing is to get into the habit of reviewing any AI-generated content before you publish it. Don't just copy and paste straight from the tool. Run it through a plagiarism checker as well, because these tools can flag similarities you might not spot yourself. From there, make sure you're editing and adding your own voice to the content, rather than using it word for word. The more you transform it, the stronger your position. It's also really worth keeping a record of your creative process, so you can demonstrate the original contribution you've made. Think of it as building your own paper trail. And finally, if you're ever genuinely unsure whether something crosses a legal line, please do speak to a solicitor who specialises in intellectual property. A short conversation could save you a great deal of trouble later on."
+        },
+        {
+          "number": 6,
+          "script": "So, let's talk about what you can actually do to protect yourself. First, before you publish anything created with AI, run it through a plagiarism checker. It only takes a few minutes and can save you a lot of trouble later. Next, think of AI output as a starting point rather than a finished piece. Edit it, reshape it, and make it genuinely your own. It's also worth keeping a record of your creative process, noting the sources you consulted and the decisions you made along the way. That kind of documentation can be really valuable if your process is ever questioned. When you're writing prompts, try to keep them general. Feeding an AI specific song lyrics, book titles, or branded names significantly increases your risk of producing something that infringes on someone else's rights. And finally, if you're ever unsure whether something crosses a legal line, please do seek proper legal advice. It's always better to ask than to assume."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect yourself. The first thing is to get into the habit of reviewing any AI-generated content before you publish it. Do not just copy and paste straight from the tool. Run it through a plagiarism checker to spot anything that looks too close to existing work. From there, make sure you are genuinely editing and adding your own voice to the material, because the more you transform it, the stronger your position becomes. It is also really worth keeping a record of your creative process, things like notes, drafts, and prompts, so you can demonstrate your own contribution if it ever comes into question. And finally, if you are ever genuinely unsure whether something crosses a legal line, please do speak to a solicitor who specialises in intellectual property. A short conversation now could save you a very costly problem later."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some practical reminders to carry forward. Before you publish or share anything created with AI, make it a habit to check whether it closely resembles existing work. Remember, copyright infringement can happen even when there's no intention to copy, so that check really matters. Build similarity and plagiarism tools into your regular workflow, just as you would a spell check. It's also worth keeping a record of the prompts you use and any sources the AI points you towards, as this can be really helpful if questions arise later. If you're ever unsure whether something is safe to use, the safest options are to find a human-created alternative or seek proper legal advice. And finally, as a practical next step, take a look at your organisation's AI usage policy. If there are gaps around copyright compliance, now is the time to flag them and start a conversation."
+        }
+      ]
+    }
+  ]
+}

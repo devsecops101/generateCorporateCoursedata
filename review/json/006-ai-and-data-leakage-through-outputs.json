@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI and Data Leakage Through Outputs",
+  "Category": "Corporate",
+  "Description": "How sensitive data can unintentionally appear in AI responses.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using digital tools in a workplace setting and a general awareness of what artificial intelligence is, though no technical expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the ways in which sensitive data can unintentionally appear in AI-generated outputs and explain the key risks this poses to your organisation. You will also be able to apply practical strategies to recognise and prevent data leakage, helping you to use AI tools more safely and responsibly in a corporate environment.",
+  "lessons": [
+    {
+      "lesson title": "AI and Data Leakage Through Outputs",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence tools can sometimes reveal sensitive information through the responses and outputs they generate, even when no one intended for that information to be shared. You will learn how AI systems can inadvertently surface confidential data, personal details, or proprietary information when responding to everyday queries. The lesson covers practical examples of how this kind of data leakage can occur, helping you recognise the risks before they become a problem in your organisation. By the end, you will have a clearer understanding of the steps you can take to use AI tools more safely and responsibly in your day-to-day work.",
+      "status": "draft",
+      "content": "How sensitive data can unintentionally appear in AI responses.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Is AI Data Leakage?",
+          "subtitle": "When AI reveals what it should not",
+          "slidecontent": "• AI systems can accidentally reveal sensitive information in their responses\n• This happens when private data used to train or prompt the AI surfaces unexpectedly\n• A real risk\n• Examples include names, medical details, financial records, or internal business data appearing in outputs\n• Users often unaware the information was ever stored or accessible\n• Not always caused by hacking, sometimes just a poorly worded question is enough"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Data Leakage?",
+          "subtitle": "When AI reveals what it should not",
+          "slidecontent": "• AI outputs can expose secrets\n• Private data leaks unintentionally\n• Users may not notice\n• Outputs are often logged\n• Anyone can read responses"
+        },
+        {
+          "number": 3,
+          "slidetitle": "What Causes Data Leakage?",
+          "subtitle": "Training data and user inputs combined.",
+          "slidecontent": "• AI systems trained on vast datasets containing real names, emails, and private records\n• That training data can surface unexpectedly in responses\n• User inputs also contribute, feeding sensitive details directly into the system\n• Repeated or patterned inputs increase the risk of unintended exposure\n• No deliberate intent required for a leak to occur"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Training Data Risks Explained",
+          "subtitle": "What AI learns can resurface later.",
+          "slidecontent": "• AI systems trained on large datasets may absorb sensitive or private information without any deliberate intent\n• That data can later surface in responses\n• Personal details, internal documents, or confidential records used in training can reappear when users ask the right questions\n• No filter automatically scrubs sensitive content before it influences what the AI learns\n• Even anonymised data carries risk if patterns within it allow individuals or organisations to be identified"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Real Examples of Data Leakage",
+          "subtitle": "When AI Reveals What It Shouldn't",
+          "slidecontent": "• Chatbot repeats user's salary details\n• AI recalls a colleague's medical condition\n• System exposes confidential client names\n• Output includes private login credentials\n• AI surfaces restricted project data"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Real-World Leakage Examples",
+          "subtitle": "When AI Reveals What It Shouldn't",
+          "slidecontent": "• Names leaked in suggestions\n• Emails exposed via autocomplete\n• Salary data in generated reports\n• Medical details in AI summaries\n• Passwords surfaced in code examples"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing the Risk of Leakage",
+          "subtitle": "Practical steps to protect sensitive information",
+          "slidecontent": "• Avoid pasting real names\n• Use dummy data for testing\n• Review outputs before sharing\n• Limit sensitive details in prompts\n• Check for unexpected disclosures"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these principles in mind always.",
+          "slidecontent": "• Never paste sensitive data into an AI prompt without thinking first\n• Treat AI outputs like emails, shareable and potentially visible to others\n• When in doubt, leave it out\n• Check outputs before sharing, especially if the input included personal or confidential details\n• Your organisation's data policies apply to AI tools too, not just traditional systems\n• Start small, review one recent AI interaction this week to spot any risks you may have missed"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with the basics. AI data leakage is when an AI system reveals sensitive information that it really should not be sharing. Now, this does not necessarily mean someone has hacked into a system or done something malicious. It can happen in surprisingly ordinary ways. When AI tools are trained or given instructions, they sometimes absorb private information along the way, and that information can unexpectedly surface in the responses they give to users. We are talking about things like someone's name, medical details, financial records, or confidential business information appearing in an output that was never meant to contain it. What makes this particularly concerning is that most people have no idea the AI even had access to that information in the first place. And here is the part that often surprises people: you do not need to be a sophisticated attacker to trigger this. Sometimes, simply asking a question in a certain way is enough to cause the AI to reveal something it should have kept private."
+        },
+        {
+          "number": 2,
+          "script": "So, let us start with the basics. What do we actually mean by data leakage? In simple terms, it is when an AI system reveals information that it really should not. And the tricky part is that this often happens without anyone intending it to. You might be using an AI tool perfectly normally, asking it a reasonable question, and the response it gives could accidentally expose sensitive or private information. Now, most people would not even spot this happening. The output just looks like a helpful answer. But here is something worth keeping in mind: those responses are frequently logged and stored, meaning they can be read by others, whether that is system administrators, third-party providers, or even other users in some cases. So the risk is not just about what you see on your screen in that moment. It is about where that information ends up afterwards. That is the core idea we are exploring throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So, where does data leakage actually come from? There are really two main sources to think about. The first is the training data itself. AI systems are trained on enormous amounts of information, and that can include real names, email addresses, and all sorts of private records. The problem is that this information can sometimes resurface in the AI's responses in ways nobody intended or anticipated. The second source is you, the user. When people type sensitive details into an AI system, that information enters the picture directly. And if similar inputs are repeated over and over, the risk of something slipping out increases. Now, here is the really important point: none of this requires anyone to be acting maliciously. There is no villain in this story. Data leakage can happen simply as a consequence of how these systems work, which is exactly why awareness matters so much."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nSo let us think about where the risk actually begins, and that is right at the start, during training. When an AI system is built, it learns from enormous amounts of data, and sometimes that data contains sensitive or private information. Nobody necessarily planned for that to happen, but it does. And here is the concern: that information does not simply disappear once training is complete. It can resurface later, in the AI's responses, if someone asks the right kind of question. We are talking about things like personal details, internal documents, or confidential records that were part of the training data. Now, you might assume there is some kind of automatic filter that catches this before it becomes a problem, but there really is not. And even data that has been anonymised is not necessarily safe, because if the patterns within it are distinctive enough, it is still possible to identify individuals or organisations from what the AI produces."
+        },
+        {
+          "number": 5,
+          "script": "So let's look at some real-world scenarios that show just how this kind of data leakage can happen in practice. Imagine someone asks an AI chatbot a question, and in its response, the system repeats back that person's salary information, information it had simply picked up from an earlier part of the conversation. Or picture an AI assistant that recalls a colleague's medical condition, perhaps something mentioned in a previous session, and surfaces it at completely the wrong moment. These aren't far-fetched ideas. We also see cases where AI systems expose confidential client names, or where an output accidentally includes login credentials that were stored somewhere in the data the model had access to. And sometimes, details about restricted internal projects find their way into responses that were never meant to contain them. Each of these examples might sound alarming, and honestly, they should. They remind us that AI systems can reveal sensitive information without any malicious intent, simply because they don't always know what they shouldn't share."
+        },
+        {
+          "number": 6,
+          "script": "So let's look at some real examples of how this kind of leakage can actually happen in practice. Imagine an AI writing tool that's been trained on internal company data. It might casually suggest a colleague's full name or job title in a document, simply because it's seen that information before. Or think about autocomplete features in email tools, where a previous recipient's address pops up unexpectedly and gets sent to entirely the wrong person. We've also seen cases where AI-generated reports have included salary figures or budget details that were never meant to be shared. In healthcare settings, AI summarisation tools have surfaced sensitive medical information about patients. And in software development, AI coding assistants have occasionally included real passwords or API keys in their suggested code snippets, pulled from examples they were trained on. These aren't just theoretical risks. They are things that have genuinely caught organisations off guard, and they're exactly why we need to understand this topic properly."
+        },
+        {
+          "number": 7,
+          "script": "So, what can you actually do to reduce the risk of data leakage when using AI tools? A few simple habits make a big difference. First, avoid putting real names or personal details into your prompts. If you are testing something, use made-up or dummy data instead of genuine customer or colleague information. Before you share any AI-generated output with others, take a moment to read through it carefully. Sometimes the AI will include something unexpected, perhaps a detail you mentioned earlier in the conversation, so it is worth checking before you hit send or copy anything across. More broadly, try to keep your prompts as general as possible. The less sensitive information you include, the less there is to leak. And finally, stay alert to anything in the output that surprises you or seems out of place. Building these habits into your everyday use of AI tools is one of the most practical ways to keep information safe."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few key principles to carry with you. Before you paste anything into an AI tool, pause and ask yourself whether that information is sensitive. And once you have an output, treat it the way you would treat an email, because it could easily be shared or seen by others. A simple rule of thumb: if you are not sure whether something is safe to include, leave it out. Before you share any AI-generated content, give it a quick check, particularly if your original prompt contained personal or confidential details. And remember, your organisation's data policies are not just for traditional systems like email or file storage. They apply to AI tools as well. Finally, here is a small practical step for this week: look back at one recent AI interaction and ask yourself whether anything sensitive was included. It is a great way to build good habits from the start."
+        }
+      ]
+    }
+  ]
+}

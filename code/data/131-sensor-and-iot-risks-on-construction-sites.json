@@ -1,0 +1,105 @@
+{
+  "Course Title": "Sensor and IoT Risks on Construction Sites",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Faulty inputs affecting AI-driven insights.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction site operations and a general understanding of how digital devices connect to the internet will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common sensor and IoT vulnerabilities on construction sites and explain how faulty data inputs can compromise AI-driven insights and decision-making. You will also be able to apply practical strategies to recognise, report, and reduce the risks posed by unreliable connected devices within construction and infrastructure environments.",
+  "lessons": [
+    {
+      "lesson title": "Sensor and IoT Risks on Construction Sites",
+      "order": 1,
+      "Description": "Construction sites are increasingly relying on sensors and Internet of Things (IoT) devices to monitor conditions, track equipment, and support safety systems. When these devices malfunction or provide inaccurate data, the AI-driven tools that depend on them can produce misleading insights, leading to poor decisions on site. This lesson introduces the key risks associated with faulty sensor inputs, including hardware failures, connectivity issues, and data corruption. You will learn how to recognise the warning signs of unreliable sensor data and understand why maintaining the integrity of these inputs is critical to safe and efficient site operations. No prior technical knowledge is required, and all concepts are explained in straightforward, practical terms.",
+      "status": "draft",
+      "content": "Faulty inputs affecting AI-driven insights.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing IoT Construction Risks",
+          "subtitle": "Where connectivity meets construction site danger",
+          "slidecontent": "• Sensors connect construction sites digitally\n• Faulty data causes dangerous decisions\n• IoT risks are often invisible\n• Small errors, big consequences\n• Awareness is your first defence"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Identifying Common IoT Risks",
+          "subtitle": "Where vulnerabilities commonly arise on site",
+          "slidecontent": "• Unsecured wireless sensors transmitting data without encryption or authentication\n• Default passwords left unchanged on newly installed IoT devices\n• Physical tampering with sensors in unsupervised site areas\n• Poor network segmentation allowing one compromised device to affect others\n• Faulty or miscalibrated sensors feeding inaccurate data into site management systems"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Sensor Malfunctions and Data Errors",
+          "subtitle": "Faulty data distorts AI-driven decisions.",
+          "slidecontent": "• Sensors drift over time\n• Dirt blocks accurate readings\n• Faulty data misleads AI\n• Small errors compound quickly\n• Bad outputs risk worker safety"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Sensor Malfunctions and Data Errors",
+          "subtitle": "Faulty data distorts AI-driven decisions.",
+          "slidecontent": "• Sensors drift over time\n• Dust blocks readings\n• Vibration skews measurements\n• Bad data misleads AI\n• Alerts trigger incorrectly"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Corrupted Data, Flawed AI Outputs",
+          "subtitle": "Garbage In, Garbage Out Explained",
+          "slidecontent": "• Sensors feeding bad data into AI systems produce unreliable safety and operational alerts\n• Corrupted inputs can stem from physical damage, poor calibration, or network interference\n• Even small errors compound quickly\n• An AI model trained on flawed readings may flag false alarms or, worse, miss genuine hazards\n• Construction teams relying on these outputs risk making decisions based on fiction, not fact\n• Regular sensor validation is the first line of defence against garbage-in, garbage-out failures"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Corrupted Data, Flawed AI Outputs",
+          "subtitle": "Garbage In, Garbage Out Explained",
+          "slidecontent": "• Bad data, bad decisions\n• Sensors drift over time\n• Corrupted readings mislead AI\n• Small errors compound quickly\n• Alerts become unreliable fast"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating IoT Data Risks",
+          "subtitle": "Reducing Exposure Through Smart Data Practices",
+          "slidecontent": "• Encrypt data transmissions between sensors and connected systems\n• Limit access to IoT dashboards to authorised personnel only\n• Regularly audit sensor calibration to catch faulty readings early\n• Keep firmware updated\n• Separate IoT devices onto their own network segment, away from core business systems\n• Log and review unusual data patterns that could signal a compromised sensor"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer IoT practices",
+          "slidecontent": "• Always verify that sensors are calibrated and functioning before trusting any AI-generated site insights\n• Faulty sensor data leads to faulty decisions\n• Regularly inspect IoT devices for physical damage, connectivity issues, and software faults\n• Report any unusual readings to your supervisor immediately rather than assuming the system is correct\n• A single bad input can compromise the safety of an entire automated workflow\n• As a next step, review your site's IoT maintenance schedule and confirm who is responsible for flagging sensor errors"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on sensor and IoT risks on construction sites. Now, modern construction sites are becoming increasingly connected. We're talking about sensors monitoring everything from structural loads to environmental conditions, all feeding data into digital systems in real time. And that connectivity brings enormous benefits, but it also brings risks that aren't always obvious. Here's the thing about IoT risks: you often can't see them. There's no broken beam, no visible crack. Instead, a sensor sends faulty data, a system makes a flawed calculation, and someone on site makes a decision based on information that simply isn't accurate. That's where things can go seriously wrong, and sometimes the consequences are significant. A small error in a reading can trigger a chain of events that puts people in danger. So throughout this course, we're going to build your awareness of exactly how these risks arise, because understanding them is genuinely your first line of defence. Let's get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's look at where things tend to go wrong with IoT on a construction site, because the risks are more varied than you might expect. One of the most common issues is wireless sensors that transmit data with no encryption or authentication, meaning anyone nearby could potentially intercept that information. Linked to this, many devices arrive with default passwords that simply never get changed, which makes them very easy targets. Then there is the physical side of things. Sensors placed in quiet, unsupervised corners of a site can be tampered with quite easily. Beyond individual devices, poor network setup means that if one device is compromised, it can create problems across the whole system. And finally, even without any outside interference, a sensor that is faulty or miscalibrated can quietly feed incorrect data into your site management systems, leading to poor decisions. So the vulnerabilities here span technology, physical security, and basic configuration. All of them are worth taking seriously."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the most common problems we see on construction sites is sensors that simply stop working properly over time. And here's the thing, it doesn't always happen dramatically. Sensors gradually drift, meaning their readings slowly become less accurate without anyone noticing straight away. Add in the fact that construction sites are dusty, muddy environments, and you've got sensors that can become blocked or coated in grime, which throws their readings off even further. The real danger here is what happens next. When your AI systems are fed that faulty data, they make decisions based on information that doesn't reflect reality. And small errors don't just stay small. They build on each other, so by the time a problem becomes obvious, it may have already influenced several decisions down the line. Ultimately, this puts workers at risk, because the safety alerts, the monitoring, the automated responses, they're all only as reliable as the data feeding into them."
+        },
+        {
+          "number": 4,
+          "script": "Now, even the best sensor in the world is only useful if it's giving you accurate data. And on a construction site, that's actually quite a challenge to guarantee. Over time, sensors naturally drift, meaning their readings gradually become less precise without anyone necessarily noticing. Add to that the dust, mud, and debris that are constantly present on site, and you can end up with blocked or distorted readings. Vibration from heavy machinery makes things worse, physically interfering with how sensors measure their environment. So what happens when all that bad data feeds into your AI system? The AI doesn't know the data is wrong. It simply works with what it's given, and that can lead to completely misleading conclusions. You might get safety alerts firing off when there's no real danger, or worse, no alert at all when there genuinely is one. Keeping sensors clean, calibrated, and regularly maintained isn't optional. It's absolutely essential to the whole system working safely."
+        },
+        {
+          "number": 5,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. When sensors on a construction site start feeding bad data into an AI system, whether that's because of physical damage, poor calibration, or interference on the network, the AI has no way of knowing the information is wrong. It simply works with what it's given. The trouble is, even a small error can snowball quickly. The AI might start triggering false alarms that distract your team, or worse, it might completely miss a genuine hazard because the readings looked normal when they weren't. Either way, your people end up making decisions based on information that simply isn't accurate. That's a serious problem on a busy construction site. The good news is that regular sensor validation, basically checking that your sensors are working correctly and reading accurately, is your first and most important line of defence against this kind of failure."
+        },
+        {
+          "number": 6,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. When your sensors start feeding bad data into an AI system, the decisions that come out the other end are going to be just as bad. The tricky thing is that sensors don't always fail dramatically. More often, they drift gradually over time, giving readings that are slightly off, then a bit more off, until eventually they're quite far from the truth. The AI doesn't know this is happening. It just keeps processing whatever it receives and drawing conclusions from it. Those small inaccuracies start to stack up, and before long your safety alerts are either triggering when they shouldn't, or staying silent when they absolutely should be sounding. Neither of those situations is acceptable on a construction site. So the reliability of your AI is only ever as good as the quality of the data coming in from your sensors. That foundation really does matter."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's look at what we can actually do about them. The good news is that most of these measures are straightforward to put in place. Start by making sure any data travelling between your sensors and your systems is encrypted, and that only authorised people can access your IoT dashboards. It sounds basic, but access control is often overlooked on site. You should also be checking that your sensors are properly calibrated on a regular basis, because a faulty reading can be just as dangerous as a hacked one. Keep the firmware on your devices up to date, as manufacturers release updates specifically to close security gaps. It is also worth putting your IoT devices on a separate network, so that if something does go wrong, it cannot spread to your core business systems. And finally, keep an eye out for unusual data patterns, as these can be an early warning sign that something has been compromised."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. Before you trust anything an AI system tells you about your site, make sure the sensors feeding it that information are actually working properly and calibrated correctly. It really is that simple: bad data in means bad decisions out. Make a habit of physically checking your IoT devices on a regular basis, looking for damage, connection problems, or anything that seems off with the software. And if you spot a reading that doesn't look right, don't just assume the system knows best. Report it to your supervisor straight away. One faulty input can quietly cause problems across an entire automated workflow before anyone realises something has gone wrong. As a practical next step, take a look at your site's IoT maintenance schedule and find out exactly who is responsible for flagging sensor errors. Knowing that in advance could make all the difference when it matters most."
+        }
+      ]
+    }
+  ]
+}

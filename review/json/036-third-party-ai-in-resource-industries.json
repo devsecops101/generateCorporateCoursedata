@@ -1,0 +1,105 @@
+{
+  "Course Title": "Third-Party AI in Resource Industries",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Vendors, contractors, and hidden AI dependencies.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with day-to-day operations in at least one resource industry (such as farming, forestry, fishing, mining, or energy) is helpful, along with a general curiosity about how digital tools and software are used in the workplace, but no prior knowledge of artificial intelligence is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify common third-party AI tools and hidden AI dependencies used by vendors and contractors across agriculture, forestry, fishing, mining, and energy sectors. You will also be able to explain the key risks these external AI systems introduce and apply practical strategies to evaluate and manage them responsibly within your organisation.",
+  "lessons": [
+    {
+      "lesson title": "Third-Party AI in Resource Industries",
+      "order": 1,
+      "Description": "Many businesses in resource industries rely on vendors and contractors who quietly use AI tools as part of their services, often without making this explicit. This lesson explores how third-party AI can enter your operations through software platforms, consultancy reports, logistics providers, and other external partnerships. You will learn to recognise common examples of hidden AI dependencies and understand why they matter for compliance, risk management, and decision-making. By the end of this lesson, you will feel more confident asking the right questions of your suppliers and identifying where AI may be influencing outcomes in your supply chain or operations.",
+      "status": "draft",
+      "content": "Vendors, contractors, and hidden AI dependencies.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing Third-Party AI Risks",
+          "subtitle": "When vendors bring AI to you.",
+          "slidecontent": "• Vendors now embed AI tools\n• You may not notice\n• Risks arrive with contracts\n• Hidden dependencies are common\n• Your data, their algorithms"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Mapping Your AI Supply Chain",
+          "subtitle": "Where AI enters your operations",
+          "slidecontent": "• Every vendor, contractor, or software tool you rely on may quietly embed AI into their service\n• Third-party AI is often invisible by default\n• Drilling software, logistics platforms, and procurement systems are common entry points\n• Contractors may use AI-assisted reporting or safety tools without disclosing it upfront\n• A simple audit of your supplier contracts can reveal unexpected AI dependencies\n• Knowing where AI enters your operations is the first step to managing it responsibly"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Who Are the AI Vendors?",
+          "subtitle": "Mapping the AI supply chain landscape",
+          "slidecontent": "• Software vendors who embed AI features directly into off-the-shelf platforms like fleet management or scheduling tools\n• Contractors and consultants who bring their own AI tools onto your site\n• Third-party data providers feeding AI systems with geological, weather, or market information\n• Hardware suppliers bundling AI into sensors, cameras, and equipment\n• Often invisible to the end user\n• Multiple vendors frequently involved in a single workflow, creating a chain of dependencies"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Hidden AI Dependencies",
+          "subtitle": "Where AI Hides in Your Supply Chain",
+          "slidecontent": "• Vendors rarely advertise when their tools rely on AI to function\n• Predictive maintenance software, logistics platforms, and procurement systems often embed AI quietly\n• Third-party contractors may use AI-assisted reporting or analysis without disclosing it\n• Contract language seldom flags AI use explicitly\n• Audit your supplier stack for phrases like \"intelligent,\" \"automated insights,\" or \"smart recommendations\"\n• Even familiar, long-standing tools may have introduced AI features through routine updates"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Hidden AI Dependencies",
+          "subtitle": "Where AI Hides in Your Supply Chain",
+          "slidecontent": "• Vendors rarely advertise when their tools rely on AI to function\n• Predictive maintenance software, logistics platforms, and procurement systems often embed AI quietly\n• Contract language like \"intelligent automation\" or \"smart analytics\" usually signals hidden AI\n• Worth checking\n• Ask suppliers directly whether their outputs are generated or influenced by AI models\n• Third-party AI can sit several layers deep in your supply chain, far from obvious view"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Hidden AI Dependencies",
+          "subtitle": "Where AI Hides in Your Supply Chain",
+          "slidecontent": "• Embedded in vendor software\n• Hidden inside contractor tools\n• Powering automated site reports\n• Lurking in logistics platforms\n• Built into equipment diagnostics"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reviewing Your AI Contracts",
+          "subtitle": "What to look for and why.",
+          "slidecontent": "• Check data ownership clauses\n• Spot AI subcontractor mentions\n• Review liability for AI errors\n• Note opt-out provisions\n• Verify audit rights"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core points to carry forward",
+          "slidecontent": "• Vendors bring hidden AI risks\n• Ask suppliers direct questions\n• Check contracts for AI clauses\n• Dependencies can be invisible\n• Stay curious, stay protected"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. We're going to be exploring something that's becoming increasingly important across resource industries, and that's the risk that comes with third-party AI. Now, when most people think about AI, they imagine a big decision being made to adopt some new technology. But here's the thing: quite often, AI is already arriving in your organisation without anyone making that conscious choice. Your software vendors, your equipment suppliers, your service providers, they're quietly embedding AI tools into the products you already use and pay for. It might be tucked into a contract update or bundled into a routine software upgrade. You may not even notice it's there. And that's precisely where the risk begins. Because when AI comes in through a third party, so do the hidden dependencies, the data-sharing arrangements, and the algorithms you have no direct control over. Throughout this course, we'll unpack what that actually means for you and your organisation."
+        },
+        {
+          "number": 2,
+          "script": "Before you can manage AI in your operations, you need to know where it actually lives. And the answer might surprise you. It is rarely just the tools your own team has chosen. It is often buried inside the software and services you are already using every day. Your drilling platform, your logistics system, your procurement tools, these may all have AI quietly running in the background. Even contractors working on your site might be using AI-assisted reporting or safety monitoring without ever mentioning it. The tricky part is that none of this is obvious by default. But here is the good news: a straightforward review of your supplier contracts and software agreements can start to reveal where AI is actually entering your business. You do not need to be a technology expert to do this. You just need to ask the right questions. And that process of mapping your AI supply chain is really where responsible oversight begins."
+        },
+        {
+          "number": 3,
+          "script": "When we talk about third-party AI, we're really talking about a surprisingly wide range of suppliers. Some are software vendors who build AI directly into tools you might already be using, things like fleet management systems or scheduling platforms. Others are contractors or consultants who turn up on site bringing their own AI tools with them. Then you've got data providers supplying the geological, weather, or market information that feeds into those AI systems, and hardware suppliers who bundle AI into the sensors, cameras, and equipment you're already running. What makes this particularly interesting is that in any single workflow, you might have several of these vendors involved at once, each one depending on another. And here's the thing: most of the time, the people actually using these tools have no idea how many suppliers are sitting behind them. That chain of dependencies is often completely invisible. So before we can manage AI risk, we first need to understand who's actually in the picture."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nOne of the trickiest things about third-party AI is that it often does not announce itself. Vendors rarely highlight the fact that their tools are powered by AI, and that means it can quietly show up in your predictive maintenance software, your logistics platforms, your procurement systems, without you ever being told. The same goes for contractors who might be using AI-assisted analysis or reporting in the background. And if you look at your contracts, you will likely find that AI use is simply not mentioned at all. So what can you do? Start by auditing your supplier stack and looking out for certain kinds of language. Words and phrases like \"intelligent,\" \"automated insights,\" or \"smart recommendations\" are often a signal that AI is involved somewhere. And do not assume that familiar tools are safe just because you have used them for years. Many vendors quietly introduce AI features through routine updates, so something that was straightforward twelve months ago may look quite different today."
+        },
+        {
+          "number": 5,
+          "script": "One of the trickier challenges with third-party AI is that it often isn't obvious. Vendors don't tend to shout about the fact that their tools are powered by AI, so it can quietly sit inside the software you're already using, whether that's a maintenance platform, a logistics system, or a procurement tool. A good clue is the language in contracts and marketing materials. Phrases like \"intelligent automation\" or \"smart analytics\" are often a signal that AI is doing some of the work behind the scenes. So it's genuinely worth asking your suppliers directly: is AI involved in producing or shaping the outputs we receive from you? Don't assume the answer is no just because nobody has mentioned it. And here's the thing, third-party AI can sit several layers deep in your supply chain, well beyond your immediate suppliers. So the further you look, the more you're likely to find."
+        },
+        {
+          "number": 6,
+          "script": "So here's something that catches a lot of people off guard. AI isn't always something you consciously choose to adopt. Quite often, it's already there, quietly working away in the background without anyone having made a deliberate decision to use it. Think about the software your vendors provide, the tools your contractors bring on site, or the automated reports that land in your inbox every morning. AI may well be powering all of those. The same goes for the logistics platforms you rely on to move materials and equipment, and even the diagnostic systems built into your machinery. These aren't things that announce themselves as AI. They're just presented as features, updates, or standard functionality. And that's precisely what makes them easy to overlook. Before you can manage third-party AI effectively, you first need to know where it actually lives in your operation. That's what this section is all about, helping you spot it."
+        },
+        {
+          "number": 7,
+          "script": "When you sign up with an AI vendor, you are also signing a contract, and that contract deserves a careful read. Start by checking who actually owns the data you feed into the system. Is it still yours, or does the vendor claim some rights to it? Next, look out for any mention of subcontractors, because your data may be passed along to other AI providers you have never heard of. You will also want to understand who is responsible if the AI makes a costly mistake. Does the liability fall on you, or on the vendor? Have a look for opt-out provisions as well, which let you stop your data being used to train their models. And finally, check whether you have audit rights, meaning the ability to request information about how your data is being handled. These are not small details. In resource industries, getting these clauses right can protect your business significantly."
+        },
+        {
+          "number": 8,
+          "script": "So let us pull together the key points from this lesson. When you work with third-party vendors, you may be bringing AI into your organisation without even realising it, and that carries real risk. The most important habit you can build is simply asking direct questions. Ask your suppliers whether they use AI, where, and how. Do not assume the answer is no. You also want to look carefully at your contracts, because AI-related clauses are increasingly common, and what you agree to in writing matters enormously. One of the trickier challenges is that your reliance on a vendor's AI system can grow quietly over time, until one day you find it is deeply embedded in your operations. That kind of invisible dependency is worth watching for. Above all, stay curious. The technology is moving quickly, and the organisations that ask questions, read the small print, and keep learning are the ones that stay in control."
+        }
+      ]
+    }
+  ]
+}

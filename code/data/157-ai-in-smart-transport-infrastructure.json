@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Smart Transport Infrastructure",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Risks in traffic systems, ports, and airports.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how transport systems such as roads, ports, or airports operate in everyday life is all that is needed to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI applications in smart transport infrastructure, including traffic systems, ports, and airports, and explain how these risks can affect safety, efficiency, and operations. You will also apply foundational frameworks to recognise and assess AI-related vulnerabilities across aviation, maritime, and automotive environments, building the confidence to engage with real-world transport challenges.",
+  "lessons": [
+    {
+      "lesson title": "AI in Smart Transport Infrastructure",
+      "order": 1,
+      "Description": "This lesson introduces learners to the ways artificial intelligence is being used across smart transport infrastructure, including road traffic systems, seaports, and airports. You will explore how AI technologies help manage the flow of vehicles, vessels, and passengers, while also examining the risks and challenges that come with relying on automated systems in safety-critical environments. The lesson is designed for beginners, so no prior technical knowledge is required. By the end, you will have a clearer understanding of both the opportunities AI presents for modern transport networks and the practical concerns that transport operators, planners, and policymakers need to consider.",
+      "status": "draft",
+      "content": "Risks in traffic systems, ports, and airports.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Smart Transport",
+          "subtitle": "Risks, Challenges, and AI Solutions",
+          "slidecontent": "• Modern transport networks face growing pressure from congestion, safety risks, and ageing infrastructure\n• AI helps manage these challenges in real time\n• Covers roads, ports, and airports\n• Each environment carries unique operational risks that can cascade quickly if unmanaged\n• Smart systems use data from sensors, cameras, and connected devices to support faster, safer decisions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks in Traffic Systems",
+          "subtitle": "Where AI Failures Can Cause Harm",
+          "slidecontent": "• AI systems controlling traffic signals can malfunction and cause dangerous gridlock or collisions\n• Sensor failures may feed incorrect data into automated decision-making\n• Cyberattacks a growing threat\n• Poorly trained models may misread pedestrian behaviour, especially in unusual weather conditions\n• Single points of failure in connected infrastructure can cascade across entire road networks\n• Real consequences for emergency vehicle response times when routing systems go wrong"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks in Traffic Systems",
+          "subtitle": "Where AI Failures Cause Real Harm",
+          "slidecontent": "• Signals fail, cars crash\n• Wrong data, wrong routes\n• Hacked systems cause gridlock\n• Delays ripple city-wide\n• Lives depend on accuracy"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Risks in Port Operations",
+          "subtitle": "Navigating Congestion, Delays, and Cyber Threats",
+          "slidecontent": "• Ships queue, ports slow\n• Cargo delays cost millions\n• Cyber attacks target systems\n• Weather disrupts schedules fast\n• Human error causes accidents"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Cybersecurity Risks in Transport Networks",
+          "subtitle": "Protecting Networks from Evolving Cyber Threats",
+          "slidecontent": "• Hackers target connected systems\n• Traffic signals can be hijacked\n• Port data is vulnerable\n• Ransomware disrupts operations\n• Weak passwords invite attacks\n• Updates patch known flaws"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating AI Infrastructure Risks",
+          "subtitle": "Strategies to reduce and manage exposure",
+          "slidecontent": "• Redundant systems that keep traffic and port operations running if one AI component fails\n• Regular audits to catch bias or errors before they affect real decisions\n• Human oversight at critical points\n• Cybersecurity protocols designed specifically for transport control networks\n• Staff training so operators can recognise when AI output seems wrong and act quickly\n• Clear incident response plans tested in advance, not written after something goes wrong"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risks in Smart Transport",
+          "subtitle": "Strategies to Reduce System Vulnerabilities",
+          "slidecontent": "• Regular stress-testing of AI systems to identify weaknesses before real-world failures occur\n• Backup manual controls always available\n• Cybersecurity protocols updated frequently to guard against evolving threats in ports, airports, and road networks\n• Staff trained to recognise and respond when automated systems behave unexpectedly\n• Clear incident reporting procedures\n• Collaboration between transport operators, government bodies, and technology suppliers to share risk intelligence"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons from AI transport risks",
+          "slidecontent": "• AI fails without clean data\n• Cyber attacks are real threats\n• Human oversight stays essential\n• Test systems before going live\n• Plan for when AI breaks\n• Start small, then scale up"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Smart Transport Infrastructure. Transport networks today are under enormous pressure. Roads are more congested than ever, safety incidents can escalate rapidly, and much of our infrastructure is ageing and struggling to keep pace with demand. What we are going to explore throughout this course is how artificial intelligence is stepping in to help manage these challenges, not after the fact, but in real time, as situations unfold. We will be looking across three key environments: roads, ports, and airports. Each one has its own unique set of operational risks, and what makes those risks particularly serious is how quickly they can spiral if they are not caught early. The good news is that smart systems, drawing on data from sensors, cameras, and connected devices, are giving operators the tools to make faster and safer decisions. So let us get started and explore how AI is genuinely transforming the way we manage transport infrastructure."
+        },
+        {
+          "number": 2,
+          "script": "Now, as exciting as all this technology is, we do need to talk about what can go wrong. When AI is controlling something as critical as traffic signals, a malfunction is not just an inconvenience. It can cause gridlock, accidents, or worse. And the data feeding these systems matters enormously. If a sensor gives a faulty reading, the AI makes decisions based on bad information, and that can have real consequences on the road. There is also the growing threat of cyberattacks targeting connected infrastructure, which is something authorities are increasingly concerned about. Even the AI models themselves can struggle in unusual conditions, like heavy snow or fog, where pedestrian behaviour becomes harder to predict. Perhaps most worrying is the idea of a single point of failure. Because so much of this infrastructure is connected, one problem can ripple outwards very quickly. And when routing systems fail, it is not just traffic that suffers. Emergency vehicles can be delayed, and that truly costs lives."
+        },
+        {
+          "number": 3,
+          "script": "Now, before we get too excited about all the possibilities AI brings to transport, we need to have an honest conversation about what can go wrong. Because in traffic systems, the stakes are genuinely high. If an AI controlling traffic signals makes a poor decision or simply stops working, we are not just talking about minor inconvenience. We are talking about collisions, injuries, and potentially lives lost. If the data feeding into the system is inaccurate, vehicles get routed in completely the wrong direction, creating chaos rather than solving it. And then there is the very real threat of cyberattacks. A hacker gaining access to a city's traffic management system could bring entire road networks to a standstill. What makes this even more serious is that problems do not stay contained. A single failure point can ripple outwards, affecting emergency response times, public transport, and the daily lives of thousands of people. Accuracy and reliability here are not optional extras. They are absolutely essential."
+        },
+        {
+          "number": 4,
+          "script": "Now let's talk about some of the very real risks that ports face every single day. Imagine dozens of ships all arriving at once, with nowhere to go. That queuing effect creates massive congestion, and when cargo sits waiting, the financial losses can run into millions of pounds very quickly. But it's not just about physical bottlenecks. Ports are increasingly digital environments, which makes them attractive targets for cyber attacks. Criminals can disrupt booking systems, cargo tracking, and even safety controls. On top of that, the weather doesn't wait for anyone. A sudden storm can throw an entire schedule into chaos within hours. And then there's the human element. With so many moving parts, vehicles, cranes, vessels, and workers all operating together, the risk of accidents caused by human error is genuinely significant. So ports are dealing with a really complex mix of operational, digital, and environmental challenges all at the same time. That's precisely where AI can start to make a difference."
+        },
+        {
+          "number": 5,
+          "script": "As our transport networks become more connected, they also become more attractive targets for cybercriminals. Think about it: traffic signals, port management systems, and rail networks are all increasingly linked together digitally, and that connectivity creates vulnerabilities. Hackers know this, and they actively look for weak points to exploit. One of the most common and damaging threats is ransomware, where criminals lock down critical systems and demand payment to restore them. Imagine a major port grinding to a halt because its data systems have been compromised. Beyond ransomware, something as simple as a weak password can open the door to a serious attack. And when software updates are ignored, known security flaws remain exposed, giving attackers an easy route in. The good news is that many of these risks are manageable with the right practices in place. Understanding the threats is the first step towards building genuinely resilient transport infrastructure."
+        },
+        {
+          "number": 6,
+          "script": "So we know the risks are real, but the good news is that they are manageable. The key is building resilience into the system from the start. That means having backup systems ready so that if one AI component fails, traffic keeps moving and ports keep operating. It means running regular audits to catch bias or errors before they cause real problems. It also means keeping humans in the loop at the moments that matter most, because automated systems should support decisions, not replace judgement entirely. On the cybersecurity side, transport networks need protection that is specifically designed for their environment, not just generic IT solutions. Staff training is equally important, operators need to feel confident enough to question AI output when something does not look right. And finally, incident response plans should be written, practised, and tested well in advance. The time to figure out what to do in a crisis is definitely not during the crisis itself."
+        },
+        {
+          "number": 7,
+          "script": "So, we know AI brings real benefits to transport, but how do we make sure the risks don't catch us off guard? The answer is preparation. Transport operators regularly stress-test their AI systems, essentially putting them under pressure in a controlled environment to spot weaknesses before anything goes wrong in the real world. Alongside that, manual controls are always kept available, so if an automated system fails, staff can step in immediately. Cybersecurity is another big focus, with protocols updated frequently to stay ahead of emerging threats across ports, airports, and road networks. People are just as important as technology here, so staff are trained to recognise unusual system behaviour and know exactly how to respond. Clear incident reporting procedures mean that when something does go wrong, it gets logged and learned from. And crucially, transport operators, government bodies, and technology suppliers all work together, sharing intelligence so everyone benefits from a collective understanding of the risks involved."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the core lessons from everything we've covered about AI risks in transport. First, your AI is only as good as the data feeding it, so keeping that data clean and accurate is absolutely fundamental. We also can't ignore the very real threat of cyber attacks, which means security has to be built in from the start, not added as an afterthought. And no matter how clever the technology becomes, human oversight remains essential. People need to stay in the loop. Before any AI system goes live, thorough testing is a must, because discovering problems in a controlled environment is far better than discovering them on a busy road or rail network. You also need a clear plan for what happens when things go wrong, because at some point, they will. And finally, don't try to do everything at once. Start with a smaller pilot, learn from it, and then scale up with confidence. These principles will serve you well throughout your work in this field."
+        }
+      ]
+    }
+  ]
+}

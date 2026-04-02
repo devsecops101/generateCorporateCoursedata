@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI Tutors: Accuracy and Learning Quality Risks",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "When incorrect explanations shape student understanding.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using digital tools or online platforms, and a general interest in how artificial intelligence is being applied in educational settings.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key accuracy and learning quality risks associated with AI tutors, and explain how incorrect or misleading explanations can shape and distort student understanding. You will also be able to apply practical strategies to evaluate AI-generated educational content, helping to safeguard the integrity of learning experiences in schools, public services, and non-profit organisations.",
+  "lessons": [
+    {
+      "lesson title": "AI Tutors: Accuracy and Learning Quality Risks",
+      "order": 1,
+      "Description": "AI tutoring tools are becoming increasingly common in schools and learning environments, but they are not always as reliable as they might appear. These systems can produce explanations that sound confident and authoritative while containing factual errors, oversimplifications, or misleading information. When students receive incorrect explanations early in their learning, those misunderstandings can become deeply embedded and difficult to correct later on. This lesson explores the specific accuracy and learning quality risks that come with using AI tutors, helping educators and learners recognise where these tools may fall short. By understanding these risks, you will be better placed to use AI tutoring tools more critically and responsibly.",
+      "status": "draft",
+      "content": "When incorrect explanations shape student understanding.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Gets It Wrong",
+          "subtitle": "The cost of confident mistakes",
+          "slidecontent": "• AI tutors can state wrong answers with complete confidence and no hesitation\n• Students often trust that confidence\n• A single flawed explanation can quietly shape how a learner understands a topic for months\n• No warning signs when errors occur\n• Mistakes in foundational concepts are especially damaging, as later learning builds on them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When AI Gets It Wrong",
+          "subtitle": "The cost of confident mistakes",
+          "slidecontent": "• AI tutors can state wrong answers with complete confidence and no hesitation\n• No warning signs when the information is flawed\n• Students often trust the fluent, detailed response over their own instincts\n• Repeated exposure to incorrect explanations can quietly reshape how a learner understands a topic\n• The damage compounds over time"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Hallucinations and Factual Errors",
+          "subtitle": "When AI confidently states the wrong answer.",
+          "slidecontent": "• AI invents convincing false facts\n• No built-in fact-checking exists\n• Errors sound completely authoritative\n• Students rarely spot mistakes\n• Wrong answers reinforce misconceptions"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Flawed AI Explanations",
+          "subtitle": "Recognising errors before misconceptions form",
+          "slidecontent": "• AI tutors sometimes state incorrect facts with the same confident tone as correct ones\n• No warning signs in the text itself\n• Plausible-sounding explanations that contain subtle logical errors or missing steps\n• Subject areas with nuance (history, ethics, medicine) especially prone to oversimplification\n• Checking a second source quickly reveals most factual errors\n• Students who trust without verifying are most at risk of forming lasting misconceptions"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting AI Knowledge Gaps",
+          "subtitle": "Where confidence masks missing knowledge",
+          "slidecontent": "• Confident tone, wrong facts\n• No \"I don't know\" responses\n• Outdated information presented freshly\n• Gaps hidden by fluent language\n• Always verify unfamiliar claims"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting AI Knowledge Gaps",
+          "subtitle": "Where confidence masks missing knowledge",
+          "slidecontent": "• Confident tone, wrong facts\n• No \"I don't know\" responses\n• Outdated information presented freshly\n• Gaps hidden by fluent language\n• Always verify surprising claims"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to safeguard learning quality",
+          "slidecontent": "• Verify AI answers independently\n• Cross-check with trusted sources\n• Encourage student scepticism always\n• Flag errors when spotted\n• Pair AI with teacher oversight"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles to carry forward always",
+          "slidecontent": "• AI tutors can and do make factual errors, even when they sound completely confident\n• Always verify key information from a second, trusted source\n• Student understanding built on wrong foundations is hard to correct later\n• Spot-check regularly\n• Encourage learners to question AI explanations rather than accept them passively\n• As a next step, identify one subject area in your context where AI accuracy risks are highest and start there"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "One of the most unsettling things about AI tutors is that when they get something wrong, they do not look wrong. There is no hesitation, no uncertainty, no little flag that says \"double-check this.\" The answer arrives with complete confidence, and students quite naturally trust that. The trouble is, a flawed explanation does not just cause a problem in the moment. It can quietly embed itself into how a learner thinks about a subject, and that misunderstanding can sit there, unnoticed, for months. Now, this becomes especially serious when we are talking about foundational concepts, the building blocks of a subject. Because everything that comes after is built on top of those early ideas. If the foundation is cracked, the whole structure above it becomes shaky. So throughout this lesson, we are going to look honestly at where AI tutors can go wrong, why it happens, and what the real consequences are for learners."
+        },
+        {
+          "number": 2,
+          "script": "One of the most unsettling things about AI tutors is that they can get something completely wrong and still sound absolutely certain. There is no hesitation, no \"I'm not sure about this,\" no signal that anything is off. And because the response sounds so fluent and confident, students tend to trust it, even when their own instincts might be telling them something does not quite add up. That is where the real danger lies. If a learner receives an incorrect explanation once, that might not cause much harm. But if they keep encountering the same flawed idea, presented with the same confidence, it starts to feel like established fact. Over time, those small inaccuracies quietly embed themselves into how a person understands a subject. And the longer that goes uncorrected, the harder it becomes to unpick. So the problem is not just one wrong answer. It is the cumulative effect of errors that nobody ever flagged in the first place."
+        },
+        {
+          "number": 3,
+          "script": "One of the most serious problems with AI tutors is something called a hallucination. This is where the AI simply makes something up, but presents it as though it were completely true. And here is the unsettling part: it does not hesitate, it does not flag any uncertainty, it just states the wrong answer with total confidence. There is no built-in fact-checking happening behind the scenes. The AI has no way of knowing whether what it is saying is accurate or not. Now, for an experienced learner, you might occasionally spot something that seems off. But for a student who is new to a subject, that false information sounds just as credible as the correct information. And that is where the real danger lies. If a student accepts a wrong answer and builds their understanding on top of it, that misconception can become deeply embedded and much harder to correct later on."
+        },
+        {
+          "number": 4,
+          "script": "One of the trickiest things about AI tutors is that they sound equally confident whether they are right or wrong. There is no flashing warning light, no hesitation in the text, nothing to signal that something might be off. And the errors are often subtle. It is not always a completely wrong answer. Sometimes it is a plausible explanation with a missing step, or a topic like history or medical science that has been oversimplified in a way that feels convincing. The good news is that most factual mistakes are easy to catch if you simply check a second source. A quick search, a textbook, or a trusted website is usually enough. The real risk is for students who do not do that check, because if a flawed explanation goes unquestioned, it can quietly become a fixed belief. And once a misconception is formed, it is much harder to undo."
+        },
+        {
+          "number": 5,
+          "script": "One of the trickiest things about AI tutors is that they sound confident even when they're wrong. Unlike a human teacher who might say \"I'm not sure about that, let me check,\" an AI will typically give you a smooth, well-structured answer regardless of whether it actually knows the answer or not. That fluency can be quite misleading. The language sounds polished and authoritative, so it's easy to assume the content is accurate too. There's also the issue of outdated information. An AI's knowledge has a cut-off point, but it won't necessarily flag that to you. It might present old facts as though they're completely current. So what should you do? Treat unfamiliar claims with healthy scepticism. If an AI tells you something you haven't heard before, or something that seems surprising, take a moment to verify it through a reliable source. Fluent language is not the same as accurate knowledge, and it's worth keeping that distinction in mind."
+        },
+        {
+          "number": 6,
+          "script": "One of the trickiest things about AI tutors is that they always sound confident, even when they're wrong. Unlike a human teacher who might say \"I'm not sure about that, let me check,\" an AI will typically give you a smooth, well-structured answer regardless of whether it actually knows the subject. That fluent, polished language can make incorrect or outdated information feel completely trustworthy. The AI's training data has a cut-off point, so anything that's changed since then might be presented as current fact, with no indication that it could be stale. And because the sentences flow so naturally, it's easy to miss the gaps hiding underneath. So what can you do? Develop a habit of questioning anything that surprises you or seems a little off. Look it up in a reliable source, cross-reference it, and treat the AI as a helpful starting point rather than a final authority. That habit alone will serve you enormously well."
+        },
+        {
+          "number": 7,
+          "script": "So, knowing the risks is one thing, but what can we actually do about them? The good news is there are some straightforward steps you can take right now. First, never treat an AI's answer as the final word. Get into the habit of checking it against a reliable source, whether that's a textbook, an official website, or a subject expert. And crucially, encourage your students to do the same. We want them to develop a healthy scepticism, asking \"is this actually correct?\" rather than just accepting what they're told. When someone does spot an error, that's a brilliant teaching moment, so make sure it gets flagged and discussed rather than quietly ignored. And perhaps most importantly, AI should never be working in isolation. Keeping a teacher or tutor in the loop means there's always a knowledgeable human checking that the learning experience stays accurate, appropriate, and genuinely useful for the student."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The single most important thing to hold onto is this: AI tutors can get things wrong, and they will do it with complete confidence. That means you cannot simply trust the output at face value. Make it a habit to verify anything important against a reliable second source, and build that same habit in your learners too. Encourage them to question what the AI tells them, rather than just accepting it. This matters enormously, because if a student builds their understanding on incorrect information, that misunderstanding can be very difficult to unpick later. Regular spot-checks are your friend here. And as a practical next step, have a think about your own context. Which subject area carries the highest risk of AI inaccuracy? Maybe it is something technical, historical, or scientific. Start there. Identify the risk, put your verification habits in place, and then build outward from that point."
+        }
+      ]
+    }
+  ]
+}

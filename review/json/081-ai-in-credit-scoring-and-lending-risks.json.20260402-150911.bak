@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Credit Scoring and Lending Risks",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Bias, explainability, and regulatory implications.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with financial concepts such as credit scoring and lending, along with a general interest in how technology is shaping the industry, is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways artificial intelligence is applied in credit scoring and lending decisions, explain the risks of algorithmic bias, and describe the importance of model explainability for both lenders and borrowers. You will also apply your understanding of current regulatory frameworks to recognise the compliance obligations and ethical considerations that financial institutions must address when deploying AI-driven lending tools.",
+  "lessons": [
+    {
+      "lesson title": "AI in Credit Scoring and Lending Risks",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is transforming the way lenders assess creditworthiness, from traditional scoring models to more sophisticated machine learning approaches. You will examine the risks of bias in AI-driven lending decisions, including how historical data can reinforce unfair outcomes for certain groups of borrowers. The lesson also covers the importance of explainability, looking at why lenders and regulators need to understand and justify the decisions that AI systems make. We will consider the growing regulatory landscape in the United Kingdom and beyond, and what financial institutions must do to remain compliant while using these tools responsibly. By the end of this lesson, you will have a clearer understanding of both the opportunities and the responsibilities that come with applying AI in credit and lending contexts.",
+      "status": "draft",
+      "content": "Bias, explainability, and regulatory implications.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Credit Scoring",
+          "subtitle": "Transforming How Lenders Assess Risk",
+          "slidecontent": "• AI scores loan applicants automatically\n• Replaces traditional manual checks\n• Faster, data-driven decisions\n• Raises bias and fairness concerns\n• Regulators are taking notice",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI in Credit Scoring",
+          "subtitle": "From data patterns to lending decisions",
+          "slidecontent": "• AI spots patterns in data\n• Predicts borrower repayment likelihood\n• Replaces manual credit checks\n• Learns from historical lending data\n• Automates approval or rejection decisions",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "How AI Scores Borrowers",
+          "subtitle": "Beyond traditional credit scoring methods.",
+          "slidecontent": "• Analyses thousands of data points\n• Spots patterns humans miss\n• Updates scores in real time\n• Goes beyond payment history\n• Learns from new borrower data",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Explainability and the Black Box",
+          "subtitle": "Why AI decisions are hard to explain",
+          "slidecontent": "• Millions of inputs, no clear path\n• Patterns learned, not programmed\n• No simple \"because\" exists\n• Outputs lack human logic\n• Decisions feel like guesswork",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Explainability and the Black Box",
+          "subtitle": "Why AI decisions must be transparent",
+          "slidecontent": "• Many AI credit models work like a \"black box,\" producing decisions without clear reasoning\n\n• Lenders often cannot explain why an applicant was refused\n\n• Hard to audit\n\n• Regulators in the UK and EU increasingly require explainable outcomes for credit decisions\n\n• Borrowers have a legal right to understand automated decisions that affect them\n\n• Explainability tools like SHAP and LIME help surface which factors drove a particular score",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Regulatory Frameworks and Compliance",
+          "subtitle": "Navigating Compliance in AI Lending",
+          "slidecontent": "• Key regulations shaping AI lending include the EU AI Act, the Equal Credit Opportunity Act, and the UK FCA's fairness guidelines\n• Lenders must document how their AI models reach decisions to satisfy explainability requirements\n• Compliance is not optional\n• Regulators increasingly expect firms to test for bias before deploying credit scoring systems\n• Audit trails and model governance records help demonstrate accountability during regulatory reviews",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Regulatory Frameworks and Compliance",
+          "subtitle": "Navigating Compliance in AI Lending",
+          "slidecontent": "• Key regulations shaping AI lending include the EU AI Act, the Equal Credit Opportunity Act, and the UK FCA's fairness guidelines\n• Lenders must be able to explain credit decisions to regulators and applicants\n• Explainability is not optional\n• Automated systems that cannot justify their outputs risk non-compliance and significant financial penalties\n• Regular audits help identify bias and ensure models remain aligned with current legal standards\n• Documentation of model design, training data, and decision logic is essential for regulatory review",
+          "do_not_include": true
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI lending",
+          "slidecontent": "• AI credit models must be regularly audited for bias to protect applicants from unfair outcomes\n• Explainability is not optional\n• Regulators in the UK and beyond increasingly require lenders to justify automated decisions in plain language\n• Diverse, representative training data reduces the risk of discriminatory lending patterns\n• Always question what a model cannot see, not just what it can\n• As a next step, review your organisation's current lending processes to identify where AI decisions may need greater transparency or human oversight",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Credit Scoring and Lending Risks. Over the next few lessons, we are going to explore one of the most significant shifts happening in financial services right now. For decades, deciding whether to approve a loan meant a person sitting down, reviewing your application, checking your credit history, and making a judgement call. That process was slow, inconsistent, and often quite subjective. Today, artificial intelligence is changing all of that. Lenders are now using AI systems to assess applicants automatically, drawing on vast amounts of data to make faster, more consistent decisions. On the surface, that sounds like a straightforward improvement. But as we will discover, it also raises some genuinely important questions around fairness, bias, and who gets left behind. Regulators around the world, including here in the UK, are paying close attention. So let us start from the beginning and build up a clear picture of how this all works.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So, let us start by understanding what we actually mean when we talk about AI in credit scoring. At its core, AI is about finding patterns in large amounts of data, patterns that a human analyst simply could not spot quickly or consistently on their own. In the context of lending, that means an AI system can look at a borrower's financial history, behaviour, and other relevant information, and then predict how likely that person is to repay a loan. Traditionally, this kind of assessment was done manually, which was slow and often inconsistent. AI changes that by learning from thousands or even millions of past lending decisions, using that historical data to get smarter over time. The result is a system that can automatically approve or decline a loan application in a matter of seconds. It is faster, more scalable, and, as we will explore throughout this course, it comes with some important questions we need to think carefully about.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So how does AI actually score a borrower? Well, think about what a traditional credit check looks at. It is mostly your payment history, how much you owe, and how long you have had credit. Useful, yes, but quite limited. AI goes much further than that. It can analyse thousands of data points at once, things that a human analyst simply would not have the time or capacity to spot patterns in. And crucially, it is not a one-time snapshot. AI models update scores in real time as new information comes in, so the picture of a borrower stays current rather than going stale. It also looks beyond just whether someone has paid their bills on time. It considers a much broader range of signals to build a more complete financial profile. And the more borrower data it processes, the better it gets at making those assessments. It is genuinely a step change from the old way of doing things.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So here's where things get a little uncomfortable. When an AI makes a credit decision, it's processing millions of data points all at once, and there's no neat, logical trail you can follow to understand why it said yes or no. Traditional credit scoring had rules you could point to. AI doesn't work that way. It learns patterns from enormous amounts of historical data, but it can't then turn around and explain those patterns in plain English. There's no simple \"because your income was too low\" or \"because you missed three payments.\" The reasoning just doesn't exist in a form that humans can easily read. And that's the core of what we call the black box problem. The model produces an output, but the journey from input to output is essentially invisible. For lenders, regulators, and borrowers alike, that's a real challenge, because decisions that affect people's financial lives really do need to be explainable.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "One of the biggest challenges with AI in credit scoring is what we call the \"black box\" problem. Many of these models are incredibly complex, and when they produce a decision, they don't automatically explain their reasoning. So if a lender uses one of these systems to refuse someone a loan, they may genuinely struggle to tell that person why. That's a real problem, both practically and legally. In the UK and across the EU, regulators now expect lenders to be able to justify automated credit decisions, and borrowers actually have a legal right to understand how those decisions were reached. So the industry has had to respond. Thankfully, there are tools designed specifically to open up that black box. Two of the most widely used are called SHAP and LIME, and what they do is help identify which factors in the data had the most influence on a particular score or outcome. Transparency, in other words, is no longer optional.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "Now, whenever we talk about AI in lending, we cannot ignore the regulatory landscape sitting behind it all. There are several important frameworks shaping how lenders are allowed to use AI, including the EU AI Act, the Equal Credit Opportunity Act in the United States, and here in the UK, the Financial Conduct Authority's own fairness guidelines. What these regulations have in common is a clear expectation that lenders can actually explain how their AI models are making decisions. It is not enough to say \"the algorithm decided.\" Regulators want to see the reasoning. They also expect firms to actively test their systems for bias before those systems go anywhere near real customers. And crucially, compliance here is not a box-ticking exercise you can skip. Lenders need to maintain proper audit trails and model governance records, so that if a regulator comes knocking, you can demonstrate accountability clearly and confidently. Transparency and documentation are absolutely central to getting this right.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "As AI becomes more embedded in lending decisions, regulators around the world are paying close attention. In the UK, the Financial Conduct Authority has clear expectations around fairness, while the EU AI Act and legislation like the Equal Credit Opportunity Act set firm boundaries on how automated systems can be used. One of the most important requirements is explainability. If your AI model makes a credit decision, you need to be able to explain why, both to the regulator and to the applicant. A system that simply produces an output without any justification is a compliance risk, and the financial penalties for getting this wrong can be substantial. Regular audits are also essential, helping you spot bias and confirm your models are still meeting current legal standards. And throughout all of this, documentation is your best friend. Keeping thorough records of how your model was designed, what data it was trained on, and how it reaches decisions is absolutely critical.",
+          "do_not_include": true
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core message is this: AI in lending is powerful, but it carries real responsibility. These models need to be audited regularly, because bias can creep in without anyone noticing, and that has genuine consequences for real people. Explainability is absolutely essential, not a nice-to-have. Regulators here in the UK, and increasingly around the world, expect lenders to be able to explain automated decisions in plain, straightforward language. The quality of your training data matters enormously too. If it does not reflect the full diversity of your applicants, your model will reflect those gaps in ways that can be genuinely harmful. And always ask what your model is missing, not just what it captures. As a practical next step, I'd encourage you to look at your own organisation's lending processes and ask honestly where greater transparency or human oversight might be needed. That reflection is where real change begins.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

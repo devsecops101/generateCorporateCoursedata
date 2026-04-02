@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI System Availability and Outages",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Business impact when AI-dependent services fail.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how businesses use digital services day to day, along with a general awareness of what artificial intelligence tools are, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, learners will be able to identify the key causes of AI system outages and explain how service disruptions affect business operations across a range of industries. Learners will also apply practical strategies to assess risk, prioritise recovery actions, and communicate effectively with stakeholders when AI-dependent services become unavailable.",
+  "lessons": [
+    {
+      "lesson title": "AI System Availability and Outages",
+      "order": 1,
+      "Description": "This lesson explores what happens to businesses when the AI-powered services they rely on become unavailable, whether due to planned maintenance, unexpected outages, or technical failures. You will learn how to recognise the types of disruptions that can affect AI systems and understand why these interruptions can have significant consequences for day-to-day operations. We will look at real-world examples of how businesses have been impacted when critical AI tools go offline, from customer service platforms to automated workflows. By the end of this lesson, you will have a clearer picture of the risks involved in depending on AI-driven services and why it is important to plan for those risks from the outset.",
+      "status": "draft",
+      "content": "Business impact when AI-dependent services fail.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Is AI Availability?",
+          "subtitle": "Keeping AI services running reliably",
+          "slidecontent": "• The degree to which an AI-powered service is accessible and functioning when users need it\n• Measured as a percentage of uptime over a given period (for example, 99.9% availability)\n• Even small drops in availability can disrupt business operations significantly\n• Includes planned maintenance as well as unexpected failures\n• Critical for any organisation that relies on AI tools to serve customers or run internal processes"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Real-World Outage Examples",
+          "subtitle": "When AI Failures Hit Real Businesses",
+          "slidecontent": "• ChatGPT down, work stops\n• Chatbots fail, customers wait\n• AI tools crash mid-project\n• Outages cost real money\n• No backup, no business"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Real-World Outage Examples",
+          "subtitle": "When AI Failures Hit Real Businesses",
+          "slidecontent": "• ChatGPT outages in 2023 left thousands of businesses unable to process customer queries for hours\n• Salesforce Einstein AI disruptions blocked sales teams from accessing forecasts mid-quarter\n• Real money lost\n• GitHub Copilot downtime forced developers to revert to manual coding, slowing sprint delivery\n• Google Bard service interruptions affected marketing teams relying on AI-assisted content production"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Operational Risks of AI Downtime",
+          "subtitle": "When AI fails, operations suffer most.",
+          "slidecontent": "• Orders stop processing immediately\n• Staff lose key work tools\n• Customers face long delays\n• Revenue drops fast\n• Trust erodes quickly"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Calculating the Cost of Downtime",
+          "subtitle": "Beyond the obvious financial losses",
+          "slidecontent": "• Lost revenue during the outage window, calculated per hour or per transaction\n• Staff time spent on workarounds and incident response\n• Reputational damage (harder to quantify, but very real)\n• Customer churn if trust is broken\n• Regulatory or contractual penalties for missed service level agreements\n• Recovery costs including overtime, emergency support, and post-incident audits"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Minimising Disruption and Downtime",
+          "subtitle": "Strategies to keep services running smoothly",
+          "slidecontent": "• Plan for outages in advance\n• Use backup manual processes\n• Monitor systems continuously\n• Communicate quickly with users\n• Test recovery steps regularly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Preparing for AI Downtime",
+          "subtitle": "Strategies to maintain business continuity",
+          "slidecontent": "• Identify which business processes rely on AI tools and rank them by criticality\n• Build manual fallback procedures before you need them\n• Train staff on workarounds\n• Keep offline copies of key templates, scripts, and reference materials that AI normally generates\n• Set clear internal thresholds for when to escalate or switch to backup processes\n• Test your continuity plan regularly, not just when something goes wrong"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for managing AI outages",
+          "slidecontent": "• AI outages disrupt business operations\n• Always have a backup plan\n• Monitor systems continuously\n• Communicate quickly during downtime\n• Recovery time affects revenue directly\n• Prepare your team in advance"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a fundamental question: what do we actually mean by AI availability? In simple terms, it refers to how reliably an AI-powered service is up and running when people need to use it. We typically express this as a percentage of uptime, so you might hear figures like 99.9% availability, which sounds impressive until you realise that still allows for several hours of downtime each year. And even a short outage can cause real disruption, especially if your business depends on that AI tool to serve customers or keep internal processes moving. It is also worth noting that availability covers two different scenarios: planned maintenance, where the system is intentionally taken offline for updates, and unexpected failures, which nobody sees coming. So whether you are building AI systems or simply relying on them day to day, understanding availability is a genuinely important starting point for everything else we will cover in this course."
+        },
+        {
+          "number": 2,
+          "script": "Let's look at some real-world examples of what happens when AI systems go down, because this isn't just a theoretical problem. Think about a business that relies on ChatGPT to draft content, answer queries, or support their team. The moment that service goes offline, work simply stops. Or consider a company using an AI-powered chatbot to handle customer enquiries. When that chatbot fails, real customers are left waiting, and that frustration can seriously damage your reputation. We've also seen situations where AI tools crash right in the middle of an important project, causing delays and missed deadlines. And all of this has a very real financial cost, whether that's lost sales, wasted staff time, or unhappy clients walking away. The biggest lesson here is that if you have no backup plan in place, your entire operation can grind to a halt. That's why understanding availability and outages matters so much for any modern business."
+        },
+        {
+          "number": 3,
+          "script": "Let's look at some real examples of AI outages that have actually hurt businesses. In 2023, ChatGPT experienced several significant outages, and companies that relied on it to handle customer queries were simply stuck, sometimes for hours at a time. Salesforce Einstein, which many sales teams use for forecasting, also had disruptions, and when that happens mid-quarter, decisions get delayed and targets get missed. GitHub Copilot, the AI coding assistant, has gone down too, and developers who depend on it daily suddenly found themselves working much more slowly, which put real pressure on sprint deadlines. Even Google Bard had service interruptions that left marketing teams unable to produce content on schedule. And here is the important point running through all of these examples: this is not just an inconvenience. There is real money involved, real productivity lost, and real reputations at stake. These are not edge cases; they are happening to ordinary businesses right now."
+        },
+        {
+          "number": 4,
+          "script": "When an AI system goes down, the impact on day-to-day operations can be almost immediate. Think about an e-commerce business, for example. The moment that AI-powered order processing fails, transactions simply grind to a halt. Staff who rely on AI tools to do their jobs are suddenly left without the support they need, which slows everything down further. Meanwhile, customers are waiting longer than usual, and they notice. They get frustrated. And when customers are frustrated, they spend less, which means revenue starts to fall quite quickly. But perhaps the most damaging consequence is harder to measure in the short term, and that is trust. Once a customer has a poor experience because of a system failure, it can take a long time to win them back. So AI downtime is not just a technical inconvenience. It creates a chain reaction that touches your operations, your finances, and your reputation all at once."
+        },
+        {
+          "number": 5,
+          "script": "When an AI system goes down, the financial impact goes well beyond what you might first expect. Yes, there's the obvious lost revenue for every hour the system isn't working, but that's really just the starting point. You also have staff scrambling to find workarounds, which burns time and productivity. Then there's the reputational side of things, which is harder to put a number on but can be genuinely damaging, especially if customers lose confidence and decide to take their business elsewhere. On top of that, if you have service level agreements in place, missing those targets can trigger penalties or even legal consequences. And once the outage is over, the costs don't stop there either. You're looking at overtime, emergency support, and thorough post-incident reviews to understand what went wrong. So when we talk about the cost of downtime, we really need to think about the full picture, not just the headline figure."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually reduce the impact when things go wrong? The key is preparation. Rather than waiting for an outage to happen and then scrambling to respond, smart organisations think ahead. They put plans in place before anything breaks, so everyone knows exactly what to do. Part of that preparation means having manual backup processes ready, because if your AI system goes offline, work still needs to continue somehow. Continuous monitoring is also essential, as it allows your team to spot problems early, often before users even notice. When something does go wrong, communicating quickly and honestly with your users makes a huge difference to how they experience the disruption. And finally, none of this works unless you practise it regularly. Testing your recovery steps means that when a real incident occurs, your team is confident and capable rather than confused. Preparation, monitoring, communication, and practice are really the foundations of keeping services running smoothly."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand how outages happen, let's talk about what you can actually do to prepare for them. The starting point is knowing which of your business processes depend on AI tools, and being honest about which ones would cause the most disruption if that AI suddenly became unavailable. Once you know that, you can build manual workarounds in advance, and crucially, make sure your team knows how to use them before there's a crisis. It's also worth keeping offline copies of things like templates, scripts, or reference documents that you'd normally ask an AI to produce for you. Beyond that, agree internally on clear trigger points, so everyone knows at what stage to escalate or switch to a backup process. And finally, don't just write a continuity plan and file it away. Test it regularly, run through it as a team, so that when an outage does happen, nobody is scrambling to figure out what to do."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core message is simple: AI systems will go down at some point, and when they do, your business feels it almost immediately. That's why preparation is everything. You want to have a backup plan ready before anything goes wrong, not scrambling to figure one out in the middle of a crisis. Keeping a close eye on your systems around the clock means you can catch problems early, often before your users even notice. And when something does go wrong, getting clear information out to your team and your customers quickly makes a huge difference to how people respond. It's also worth remembering that every minute of downtime has a real cost attached to it, so the faster you recover, the better. Most importantly, make sure your team knows exactly what to do in advance. Practice and preparation are what turn a potential disaster into a manageable situation."
+        }
+      ]
+    }
+  ]
+}

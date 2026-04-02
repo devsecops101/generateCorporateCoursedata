@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Weather-Based Routing Decisions",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Risks when environmental predictions are wrong.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with transportation or logistics operations, along with a general curiosity about how weather conditions influence route planning, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI systems are used to support weather-based routing decisions across aviation, maritime, and road transport, and explain the potential risks that arise when environmental predictions prove inaccurate. You will also be able to apply a structured approach to evaluating AI-generated routing recommendations, recognising the limitations of predictive models and taking appropriate precautionary steps to safeguard operations.",
+  "lessons": [
+    {
+      "lesson title": "AI in Weather-Based Routing Decisions",
+      "order": 1,
+      "Description": "This lesson introduces how artificial intelligence is being used to support weather-based routing decisions in industries such as shipping, aviation, and road logistics. You will explore how AI systems process environmental data to recommend routes, and why those recommendations are not always reliable. We will look at the real-world risks that arise when weather predictions are incorrect, including delays, safety incidents, and financial losses. By the end of this lesson, you will have a clearer understanding of how to critically evaluate AI-generated routing advice and recognise when human judgement should take precedence. No prior technical knowledge is required, and all concepts are explained in plain, practical terms.",
+      "status": "draft",
+      "content": "Risks when environmental predictions are wrong.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI Weather Routing",
+          "subtitle": "Where weather meets machine intelligence",
+          "slidecontent": "• AI reads live weather data\n• Routes ships and planes safely\n• Reduces fuel and delays\n• Wrong predictions cause real risk\n• Humans still make final calls"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Weather Data and AI Systems",
+          "subtitle": "How AI interprets live weather feeds",
+          "slidecontent": "• AI systems pull in live weather feeds from satellites, radar networks, and ground sensors simultaneously\n• Data arrives continuously\n• Algorithms detect patterns in wind speed, precipitation, and visibility faster than any human analyst\n• The system assigns risk scores to different route segments based on current and forecast conditions\n• Even small gaps in sensor coverage can create blind spots in the AI's picture of the weather\n• Updated every few minutes, not hours"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Predicting the Unpredictable: Core Risks",
+          "subtitle": "When forecasts fail, consequences escalate fast.",
+          "slidecontent": "• Wrong route, real danger\n• Delays cost money fast\n• Cargo damaged by weather\n• Crew safety at risk\n• Missed ports, missed deadlines"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Consequences of Inaccurate Forecasts",
+          "subtitle": "When forecasts fail, consequences escalate quickly.",
+          "slidecontent": "• Delays cost time and money\n• Cargo arrives damaged\n• Crew safety compromised\n• Fuel waste increases\n• Reputational damage follows"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Consequences of Inaccurate Forecasts",
+          "subtitle": "When forecasts fail, consequences escalate quickly.",
+          "slidecontent": "• Vessels routed into severe weather face structural stress, cargo damage, and crew injury\n• Fuel costs spike when ships must divert at short notice\n• Delayed arrivals\n• Port scheduling disruptions ripple across entire supply chains\n• In worst cases, inaccurate forecasts contribute to groundings or capsizing\n• Reputational and legal consequences for operators can be severe and long-lasting"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating the Risks Involved",
+          "subtitle": "Strategies to reduce prediction-related exposure",
+          "slidecontent": "• Cross-check multiple forecast sources\n• Build in buffer time always\n• Train crews on forecast limits\n• Review routes if conditions change\n• Never rely on one prediction"
+        },
+        {
+          "number": 7,
+          "slidetitle": "When Predictions Fail Catastrophically",
+          "subtitle": "Lessons from High-Stakes Routing Failures",
+          "slidecontent": "• Routing systems that trusted flawed weather data have sent vessels into severe storms\n\n• Outdated wind forecasts have caused aircraft to burn through emergency fuel reserves\n\n• Small prediction errors compound quickly over long routes\n\n• A single missed pressure reading can redirect a convoy into dangerous terrain\n\n• Overconfidence in AI outputs, without human cross-checks, amplifies the consequences\n\n• Real failures have resulted in cargo loss, crew injury, and costly emergency diversions"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for safer AI routing",
+          "slidecontent": "• AI routing tools are only as reliable as the weather data feeding them\n• Always verify AI suggestions against current, real-world conditions before acting\n• Outdated or inaccurate forecasts can turn a recommended route into a dangerous one\n• Human judgement remains essential\n• Build in contingency plans for when environmental predictions change unexpectedly\n• As a next step, review your organisation's protocols for overriding AI routing decisions during severe weather events"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Today we're exploring how artificial intelligence is changing the way we navigate through challenging weather conditions, whether that's at sea or in the air. At its core, AI weather routing works by continuously reading live weather data, things like wind speed, storm patterns, and ocean currents, and using that information to help plot the safest and most efficient routes for ships and aircraft. This means fewer delays, less fuel burned, and ultimately safer journeys. But it's not a perfect system. If the AI misreads the data or a forecast turns out to be wrong, the consequences can be genuinely serious. That's why, throughout this course, we'll keep coming back to one important point: AI is a powerful tool, but human judgement remains absolutely essential. Pilots, navigators, and fleet operators still make the final decisions. Think of AI as a very capable assistant, not the one in charge."
+        },
+        {
+          "number": 2,
+          "script": "So, how does an AI system actually make sense of the weather? Well, it starts by pulling in data from multiple sources all at once: satellites overhead, radar networks, and ground-level sensors, all feeding information into the system continuously. And we're talking about updates every few minutes, not every few hours like older forecasting methods. The algorithms then work through all of that data, spotting patterns in things like wind speed, rainfall, and visibility far more quickly than any human analyst could manage. From there, the system assigns risk scores to individual route segments, so it can flag which parts of a journey look safe and which ones look problematic. Now, it's worth noting that this process isn't perfect. If there are gaps in sensor coverage, perhaps in remote areas or over open ocean, the AI can end up with an incomplete picture. So the quality of the data coming in really does matter enormously to the quality of the decisions coming out."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what's actually at stake when a weather forecast gets it wrong. In maritime and freight operations, a bad routing decision doesn't just cause a minor inconvenience. It can put a vessel on a genuinely dangerous course, exposing the crew to serious risk. And beyond safety, the financial impact kicks in almost immediately. Delays mean penalty clauses, missed windows, and unhappy clients. Cargo that wasn't properly routed around a storm can arrive damaged or not at all. And if a port is missed due to poor weather planning, that knock-on effect ripples right through the supply chain. This is why weather-based routing is so critical, and why getting it right matters so much. The traditional approach of relying on a single forecast and hoping for the best simply isn't good enough anymore. In the next few slides, we'll look at how AI is starting to change that picture significantly."
+        },
+        {
+          "number": 4,
+          "script": "So what actually happens when a weather forecast gets it wrong? The consequences can escalate very quickly, and they tend to ripple outwards across the entire operation. At the most basic level, you're looking at delays, and delays mean money. Every extra hour a vessel spends at sea or waiting in port has a cost attached to it. But it goes beyond finances. If a ship sails into conditions it wasn't prepared for, cargo can shift, get wet, or sustain serious damage, which creates its own set of problems with clients and insurers. More importantly, the crew can be put in genuine danger, and that is never acceptable. There's also the matter of fuel. Routing through bad weather burns significantly more than a well-planned voyage would. And sitting underneath all of this is reputation. Clients and partners notice when things go wrong repeatedly. So inaccurate forecasts are not just a technical inconvenience, they have very real, very serious consequences across the board."
+        },
+        {
+          "number": 5,
+          "script": "When a weather forecast gets it wrong at sea, the consequences can escalate very quickly. At the most immediate level, a vessel routed into severe conditions risks serious structural damage, harm to the crew, and cargo that arrives in a very poor state, or not at all. There are also significant financial costs, because diverting a ship at short notice burns extra fuel and throws port schedules into disarray. And that disruption does not stay isolated. It ripples outward through the entire supply chain, affecting terminals, hauliers, and customers far down the line. In the most serious cases, inaccurate forecasts have contributed to groundings and even capsizing, which is why this is not simply a commercial concern. It is a safety-critical one. And for the operators involved, the reputational and legal fallout from such incidents can last for years. This is precisely why getting the forecasting right, and using the best available tools to do so, matters so much."
+        },
+        {
+          "number": 6,
+          "script": "So, we know that AI forecasts carry risk, but the good news is there are practical steps we can take to reduce that exposure. First, never put all your trust in a single forecast. Cross-referencing two or three different sources gives you a much clearer picture of what conditions are likely to do. Alongside that, always build in some buffer time on your routes. If the forecast is slightly off, that extra margin can make a real difference. It is also worth making sure your crews understand the limitations of forecast data, because a team that knows what AI can and cannot do will make far better decisions under pressure. And if conditions start shifting during a voyage or journey, do not hesitate to review your route. Flexibility is a strength here, not a weakness. The core message is simple: use AI as a powerful tool, but always layer in human judgement and a healthy degree of caution."
+        },
+        {
+          "number": 7,
+          "script": "Now, let's talk about what happens when things go wrong, because they absolutely can. There are real-world cases where routing systems placed too much trust in weather data that turned out to be incorrect or simply out of date. Ships have sailed straight into severe storms. Aircraft have burned through their emergency fuel reserves because wind forecasts were no longer accurate. And here is the important thing to understand: small errors do not stay small. Over a long route, a tiny mistake in a pressure reading or a wind estimate can compound into something genuinely dangerous. We have seen convoys redirected into hazardous terrain, cargo lost, crew members injured, and vessels forced into costly emergency diversions. A lot of these situations were made worse because nobody stopped to question the AI output. When human oversight is removed from the process, the consequences of a bad prediction become far more serious. So the technology is powerful, but it is not infallible, and that distinction really matters."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The most important thing to understand is that AI routing tools are only as good as the weather data they're working with. If that data is outdated or inaccurate, the suggested route could actually put you in harm's way. That's why you should always cross-check what the AI is recommending against real-world conditions before you act on it. And remember, the technology is there to support your decision-making, not replace it. Your own judgement still matters enormously. It's also worth building contingency plans into your process, because weather can change quickly and unexpectedly. Finally, as a practical next step, I'd encourage you to look at your organisation's existing protocols around overriding AI routing decisions when severe weather strikes. If those protocols don't exist yet, now is a great time to start that conversation. Good preparation today can make all the difference when conditions deteriorate."
+        }
+      ]
+    }
+  ]
+}

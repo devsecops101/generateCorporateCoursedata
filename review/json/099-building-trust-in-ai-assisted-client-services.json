@@ -1,0 +1,105 @@
+{
+  "Course Title": "Building Trust in AI-Assisted Client Services",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Transparency, disclosure, and ethical considerations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with client-facing roles in finance or professional services, along with a general awareness of how digital tools are used in the workplace, is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key principles of transparency and ethical disclosure when using AI tools in professional services such as banking, insurance, and legal practice, and explain how these principles apply to real client interactions. You will also be able to apply practical frameworks for building and maintaining client trust, recognising the responsibilities that come with AI-assisted decision making in regulated financial and professional environments.",
+  "lessons": [
+    {
+      "lesson title": "Building Trust in AI-Assisted Client Services",
+      "order": 1,
+      "Description": "This lesson introduces the foundational principles of building and maintaining client trust when AI tools are used to support professional services. You will explore what transparency and disclosure mean in practice, including when and how to inform clients that AI has played a role in the work delivered to them. We will examine the ethical responsibilities that come with using AI in client-facing contexts, and how to handle these situations with honesty and professionalism. By the end of this lesson, you will have a clearer understanding of how to communicate openly with clients, set appropriate expectations, and uphold the standards your clients deserve. No prior knowledge of AI is required, and all concepts are explained in straightforward, practical terms.",
+      "status": "draft",
+      "content": "Transparency, disclosure, and ethical considerations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Building Trust With AI",
+          "subtitle": "Why Transparency and Ethics Matter",
+          "slidecontent": "• AI is already being used in client-facing services across many industries\n• Clients deserve to know when they are interacting with or being supported by AI\n• Transparency builds trust\n• Ethical use of AI protects both clients and the professionals who serve them\n• Getting this right from the start prevents costly mistakes and damaged relationships"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI in Client Services",
+          "subtitle": "What AI means for your clients",
+          "slidecontent": "• AI automates routine client tasks\n• Chatbots, tools, smart suggestions\n• Faster, consistent service delivery\n• Not human, but helpful\n• Clients may not always know"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Disclosing AI to Your Clients",
+          "subtitle": "When and how to tell clients.",
+          "slidecontent": "• Telling clients when AI is involved in their service, not after the fact\n• Early disclosure builds confidence\n• A simple, plain-language statement at the start of any AI-assisted interaction\n• Clients deserve to know what tools are shaping the advice or support they receive\n• Honesty upfront, every time\n• Specific details about what the AI does (and does not do) in your service"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Disclosing AI Use to Clients",
+          "subtitle": "When, How, and What to Share",
+          "slidecontent": "• Tell clients upfront when AI is involved in handling their data or generating responses\n• Timing matters, disclose before the interaction begins, not after\n• Keep explanations simple and jargon-free\n• Describe what the AI does (drafting, summarising, flagging) rather than how it works technically\n• Be ready to answer follow-up questions honestly if a client asks for more detail"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Handling Client Concerns Transparently",
+          "subtitle": "Addressing Worries With Honesty and Care",
+          "slidecontent": "• Acknowledge concerns promptly and honestly\n• Never hide AI involvement\n• Explain limitations clearly\n• Offer human escalation always\n• Listen first, then respond"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Handling Client Concerns Ethically",
+          "subtitle": "Responding with honesty and genuine care",
+          "slidecontent": "• Acknowledge concerns without dismissing them\n• Be honest about AI limitations\n• Never overpromise AI accuracy\n• Escalate to humans when needed\n• Prioritise client wellbeing always"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Handling AI Errors Responsibly",
+          "subtitle": "Acknowledging Mistakes With Honesty and Care",
+          "slidecontent": "• Admit errors quickly and clearly\n• Never blame the client\n• Correct mistakes without delay\n• Explain what went wrong briefly\n• Offer a human alternative"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Principles to guide your practice forward",
+          "slidecontent": "• Always disclose when AI is involved in your client interactions\n• Transparency builds trust, not suspicion\n• Clients have the right to know how their information is being used\n• Keep humans accountable for every AI-assisted decision\n• Start small, one tool, one workflow, then build from there\n• Your next step: identify one area in your practice where you can apply these principles this week"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on building trust in AI-assisted client services. Whether you work in financial advice, healthcare, legal support, or any other client-facing role, the chances are that AI is already part of your working environment in some way. And that raises a really important question: are you handling it in a way that your clients can trust? Throughout this lesson, we are going to explore why transparency and ethical practice are not just nice ideas but genuinely essential. Your clients deserve to know when AI is involved in the service they receive. When you are open about that, trust grows. When you are not, relationships can break down quickly and the consequences can be serious. Getting your approach right from the very beginning protects your clients, protects your professional reputation, and saves you from costly problems further down the line. So let us start by looking at what that actually means in practice."
+        },
+        {
+          "number": 2,
+          "script": "So before we dive into the topic of trust, let's make sure we're all on the same page about what we actually mean by AI in a client services context. At its core, AI is about automating the routine, repetitive parts of your work. Think of things like chatbots that answer common questions, smart tools that suggest the next best action, or systems that pull together client information instantly. The big benefits are speed and consistency. Clients get a response quickly, and the quality stays reliable regardless of the time of day. Now, it's worth being clear that AI is not a human being, and it doesn't replace the human judgement and empathy that great client service requires. But it can be genuinely helpful when used well. One thing to keep in mind is that your clients may not always realise they're interacting with an AI system, and that's actually where trust becomes really important, which is exactly what this course is all about."
+        },
+        {
+          "number": 3,
+          "script": "So, when it comes to disclosing AI to your clients, the golden rule is simple: tell them upfront, not after the fact. If AI is playing any part in the service or advice they receive, they deserve to know that from the very beginning of the interaction. And this does not need to be complicated. A short, plain-language statement at the start of a conversation is all it takes. Something clear and honest that explains what the AI actually does in your service, and just as importantly, what it does not do. Because clients are not just looking for good results, they are looking for reasons to trust you. When you are transparent about your tools and processes from the outset, you are showing respect for the person you are working with. That kind of honesty builds confidence over time, and it sets the right tone for the entire relationship. So make disclosure a consistent habit, every single time."
+        },
+        {
+          "number": 4,
+          "script": "When it comes to AI, honesty with your clients really does need to come first. If AI is involved in handling their data or shaping the responses they receive, tell them before the interaction begins, not halfway through or after the fact. And when you do explain it, keep things simple. You do not need to walk clients through the technical details of how the system works. What matters to them is what the AI is actually doing, whether that is drafting a response, summarising information, or flagging something for a human to review. Plain, straightforward language goes a long way here. Most clients are not looking for a technical briefing, they just want to feel informed and respected. And if someone does ask a follow-up question, answer it honestly. You do not have to have every answer ready on the spot, but being open and transparent in those moments is exactly what builds the kind of trust we are talking about throughout this course."
+        },
+        {
+          "number": 5,
+          "script": "When a client raises a concern about AI, the worst thing you can do is brush it off or, worse, try to hide the fact that AI is involved at all. Transparency really is everything here. Start by listening properly before you even think about responding, because clients need to feel heard first. Once you understand their worry, be honest about it. If the AI has limitations, say so clearly and simply. Clients actually respect that kind of straightforwardness far more than vague reassurances. And here is something really important: always make sure there is a clear route to a human being if the client wants one. Never make that feel difficult or like an inconvenience. When people know they can speak to a real person whenever they choose, it immediately reduces anxiety. Handling concerns with honesty and care is not just good practice, it is genuinely how you build lasting trust with your clients."
+        },
+        {
+          "number": 6,
+          "script": "When a client raises a concern about AI, the worst thing you can do is brush it off or get defensive. Instead, listen carefully and acknowledge what they're feeling. People need to know their worries are being taken seriously. From there, be straightforward about what AI can and cannot do. It is genuinely not perfect, and pretending otherwise will only damage trust further down the line. So avoid making grand promises about accuracy or reliability that you simply cannot guarantee. Now, there will be moments when AI just is not the right tool for the situation, and that is completely fine. Knowing when to bring a human colleague into the conversation is a real skill, and clients will respect you for it. Above all else, keep the client's wellbeing at the centre of every decision you make. That commitment to genuine care is what separates good service from truly trustworthy service."
+        },
+        {
+          "number": 7,
+          "script": "When AI gets something wrong, and it will from time to time, how you respond matters enormously. The first thing to do is acknowledge the mistake straight away, clearly and without making excuses. Never, ever suggest the client misunderstood or did something incorrectly. That instantly destroys trust. Instead, own the error, fix it as quickly as you possibly can, and give a brief, plain explanation of what happened. You do not need to go into technical detail, just enough so the client feels informed rather than confused. And here is something really important: always have a human option available. If the AI has let someone down, offering to connect them with a real person shows that you genuinely care about their experience. Handling errors well can actually strengthen trust rather than damage it, because clients remember how you treated them when things went wrong far more than they remember the mistake itself."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important habit you can build right now is simply being open with your clients when AI is part of the picture. That honesty does not create doubt, it actually strengthens the relationship. Clients deserve to know how their information is being used, and when you tell them, you are showing respect. Whatever the AI suggests or produces, a human being needs to remain responsible for that decision. That is non-negotiable. And if you are feeling a little overwhelmed by all of this, please do not try to change everything at once. Pick one tool, apply it to one part of your workflow, and get comfortable there before you expand. Small steps done well are far more effective than big leaps done poorly. So here is your challenge for this week: look at your practice and find just one area where you can put these principles into action. Start there, and build from that foundation."
+        }
+      ]
+    }
+  ]
+}

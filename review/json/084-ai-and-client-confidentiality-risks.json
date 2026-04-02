@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI and Client Confidentiality Risks",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Protecting sensitive financial, legal, and personal client data.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday digital tools such as email and cloud storage, along with a general awareness of client-facing work in finance, legal, or professional services, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key confidentiality risks that arise when using AI tools to handle sensitive client data in financial and professional services contexts, and explain the regulatory and ethical obligations that govern how such information must be protected. You will also apply practical strategies to safeguard client confidentiality, recognise when AI use may pose a compliance risk, and make informed decisions about the appropriate handling of financial, legal, and personal data in your day-to-day work.",
+  "lessons": [
+    {
+      "lesson title": "AI and Client Confidentiality Risks",
+      "order": 1,
+      "Description": "This lesson explores the confidentiality risks that arise when using AI tools in professional environments where sensitive client data is involved. You will learn how financial, legal, and personal information can be inadvertently exposed when inputting data into AI systems, and why this matters for your clients and your organisation. We will look at practical steps you can take to protect client confidentiality while still benefiting from AI in your day-to-day work. By the end of this lesson, you will have a clearer understanding of your responsibilities and the simple habits that can help you avoid costly data breaches.",
+      "status": "draft",
+      "content": "Protecting sensitive financial, legal, and personal client data.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and Client Confidentiality Risks",
+          "subtitle": "What You Need to Know First",
+          "slidecontent": "• AI tools are now widely used across financial, legal, and professional services\n• Client data entered into AI systems can be stored, processed, or exposed in unexpected ways\n• Confidentiality breaches carry serious legal and reputational consequences\n• The risks are real and growing\n• Understanding where the dangers lie is the first step to working safely with AI"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is at Stake",
+          "subtitle": "Client data breaches carry serious consequences.",
+          "slidecontent": "• Loss of client trust, often permanent and irreversible\n• Regulatory fines under GDPR and sector-specific rules\n• Real reputational damage\n• Legal liability for your firm and individual practitioners\n• Clients' financial or personal safety put at risk"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Risks in AI Tools",
+          "subtitle": "Where data leaks can begin",
+          "slidecontent": "• AI tools often process typed input on external servers outside your firm's control\n• Client names, case details, and financial figures entered into a chatbot may be stored or logged\n• Even \"free\" tools carry risk\n• Auto-complete and AI writing assistants in email clients can read message content silently in the background\n• Uploading documents to AI-powered platforms may expose entire files, not just the section you intended to use"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Risky AI Behaviours",
+          "subtitle": "Spot the warning signs early on",
+          "slidecontent": "• AI suggests sharing client details\n• Output includes real names\n• Tool stores your inputs\n• Responses feel oddly specific\n• No privacy policy visible"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising Risky AI Behaviours",
+          "subtitle": "Spotting the warning signs early on",
+          "slidecontent": "• AI suggests sharing client details\n• Tool requests login credentials\n• Output includes real names\n• Responses feel oddly specific\n• System prompts leak private data"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Minimising Risk in Practice",
+          "subtitle": "Practical steps to protect client data",
+          "slidecontent": "• Always anonymise or redact client details before entering any information into an AI tool\n• Use approved, firm-sanctioned platforms only\n• Check your organisation's AI policy before starting any client-related task\n• Treat AI tools like a public forum, never share what you would not say openly\n• Log and review any instances where client data may have been entered in error\n• Raise concerns with your compliance or data protection team promptly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting and Escalating AI Concerns",
+          "subtitle": "When and How to Raise Issues",
+          "slidecontent": "• Spot it, report it immediately\n• Tell your manager first\n• Use your firm's incident log\n• Never handle it alone\n• Document what you shared\n• Escalate if unsure"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles to keep in mind",
+          "slidecontent": "• Never share client data externally\n• Anonymise before using AI\n• Check your firm's AI policy\n• When unsure, ask compliance\n• Confidentiality protects everyone"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and client confidentiality risks. Over the next few lessons, we're going to look at something that's becoming increasingly important across financial services, legal practices, and professional services more broadly. AI tools are now part of everyday working life for many of us, and that brings real benefits. But it also brings risks that not everyone is fully aware of yet. When you enter client information into an AI system, that data doesn't simply disappear once you've finished using it. It can be stored, processed, or shared in ways you might not expect, and that creates genuine confidentiality concerns. If client data is exposed, the consequences can be serious, both legally and in terms of your professional reputation. The good news is that awareness is the starting point. Once you understand where the dangers actually lie, you're in a much stronger position to use these tools responsibly. So let's begin by building that foundation together."
+        },
+        {
+          "number": 2,
+          "script": "Before we look at how AI creates confidentiality risks, it is worth pausing to consider why this matters so much. When client data is mishandled, the consequences can be severe and long-lasting. Trust, once broken, is extraordinarily difficult to rebuild. Clients who feel their private information has been exposed will often walk away and not come back. Beyond that, there are real legal and financial consequences to consider. Under GDPR and various sector-specific regulations, firms can face significant fines for data breaches. Your firm's reputation can take a serious hit, and in some cases individual practitioners can be held personally liable, not just the organisation as a whole. And at the heart of all of this, we must not forget that we are talking about real people. A breach can put a client's financial security or even their personal safety at genuine risk. So the stakes here are very high, and that is exactly why this topic deserves your full attention."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at where the risk actually starts, because it often begins the moment you type something into an AI tool. Most of these tools don't run on your computer. They send your input to external servers, servers that your firm has no control over. So if you type a client's name, some case details, or a financial figure into a chatbot, that information may well be stored or logged somewhere outside your organisation. And this isn't just a concern with paid platforms. Free tools can be just as risky, sometimes more so. It's also worth knowing that some AI features are already built into the tools you use every day. Writing assistants and auto-complete features in email programmes can quietly read your message content in the background without you even realising. And if you upload a document to an AI-powered platform, you're potentially exposing the entire file, not just the one paragraph you wanted help with."
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot when an AI tool might be putting client confidentiality at risk? There are a few warning signs worth knowing about. First, if an AI ever prompts you to include a client's name or personal details to get a better response, that is a red flag straight away. Similarly, if the output it generates contains real names or identifiable information, stop and question where that has come from. It is also worth checking whether the tool saves or logs everything you type, because many do by default. Another thing to watch for is when a response feels surprisingly specific, almost as though the system already knows something it should not. And finally, if you cannot find a clear privacy policy for the tool you are using, that tells you something important about how seriously that provider takes data protection. These are the kinds of signals that should make you pause before sharing anything sensitive."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot when something's gone wrong, or is about to go wrong, with an AI tool? There are a few warning signs worth keeping in mind. If an AI ever suggests that you share a client's personal details to get a better result, that's a red flag straight away. Similarly, if a tool asks you for login credentials or passwords, stop and walk away. Legitimate AI tools simply don't need those. Pay attention to the outputs as well. If a response includes what looks like a real person's name or contact information, that data has come from somewhere, and you need to question where. Sometimes responses can feel strangely specific, almost as if the system already knows things it shouldn't. And occasionally, the underlying instructions built into a tool, what's called a system prompt, can accidentally surface private or sensitive information. Learning to notice these signs early puts you in a much stronger position to protect your clients."
+        },
+        {
+          "number": 6,
+          "script": "So, now we know the risks, let's talk about what you can actually do to protect your clients. The most important habit to build is anonymising any client information before it goes anywhere near an AI tool. Remove names, case numbers, anything identifying. Only ever use platforms that your firm has officially approved, and before you start any client-related work, take a moment to check your organisation's AI policy. A really useful way to think about it is this: treat AI tools like a public forum. If you would not say something out loud in a crowded room, do not type it into an AI. Mistakes do happen, so if you realise client data has been entered in error, make sure you log it and review what occurred. And crucially, do not sit on it. Report any concerns to your compliance or data protection team straight away. These steps are straightforward, but they make a real difference."
+        },
+        {
+          "number": 7,
+          "script": "If you ever suspect that confidential client information has been shared with an AI tool inappropriately, the most important thing you can do is act quickly and tell someone straight away. Do not try to deal with it on your own. Your first call should be to your manager, who can help you decide what steps to take next. Most firms will have a formal incident log, and any concern like this needs to be recorded there, no matter how minor it might seem. Before you do anything else, make a note of exactly what information was involved and how it was shared, because that detail will be crucial for whoever investigates. And if you are ever unsure whether something needs escalating further, the answer is almost always yes. It is always better to raise a concern that turns out to be nothing than to stay silent about something that genuinely puts a client at risk."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few core principles to carry with you. First and most importantly, client data should never leave your organisation through an AI tool. If you do need to use AI to help with something, make sure any identifying details have been removed beforehand, so the information is fully anonymised. It is also worth taking the time to read your firm's AI policy if you have not already, because many organisations now have specific guidance on what is and is not permitted. And if you ever find yourself in a situation where you are not quite sure whether something is appropriate, please do reach out to your compliance team. That is exactly what they are there for. Finally, remember that confidentiality is not just about protecting the client. It protects your colleagues, your firm, and your own professional reputation as well. These principles are straightforward, but keeping them front of mind makes a real difference."
+        }
+      ]
+    }
+  ]
+}
