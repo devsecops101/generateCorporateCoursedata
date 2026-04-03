@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI Risk in Financial Forecasting and Reporting",
+  "Category": "Corporate",
+  "Description": "Specific risks when AI influences financial decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic understanding of financial reporting principles and a general familiarity with how AI tools are used in business settings, though no technical or programming knowledge is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI in financial forecasting and explain how these risks can affect the accuracy and reliability of financial reporting. You will also apply practical strategies to recognise, assess, and manage AI-related risks within your organisation's financial decision-making processes.",
+  "lessons": [
+    {
+      "lesson title": "AI Risk in Financial Forecasting and Reporting",
+      "order": 1,
+      "Description": "This lesson explores the specific risks that arise when artificial intelligence is used to support financial forecasting and reporting within organisations. You will learn how AI systems can introduce errors, biases, and blind spots into financial decision-making, often in ways that are difficult to detect without the right knowledge. The lesson is designed for beginners, so no prior technical expertise is required, just a willingness to understand how these tools can go wrong and why it matters. By the end, you will be better equipped to identify warning signs, ask the right questions, and apply appropriate caution when AI-generated insights inform financial outcomes.",
+      "status": "draft",
+      "content": "Specific risks when AI influences financial decisions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to AI Risk",
+          "subtitle": "Where AI Meets Financial Risk",
+          "slidecontent": "• AI is reshaping how financial forecasts are built and reported\n• Real risks emerge when models make decisions humans don't fully understand\n• Errors can compound fast\n• From credit scoring to earnings projections, AI is already embedded in finance\n• This course covers the specific risks that matter most for financial professionals"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI in Financial Forecasting",
+          "subtitle": "What AI does in this context",
+          "slidecontent": "• Analyses large financial datasets quickly\n• Spots patterns humans might miss\n• Generates forecasts and projections\n• Automates routine reporting tasks\n• Flags anomalies in real time"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks of Biased Training Data",
+          "subtitle": "Skewed Data, Skewed Financial Outcomes",
+          "slidecontent": "• Garbage in, garbage out\n• Old data, wrong predictions\n• Biased samples skew forecasts\n• Past trends mislead AI\n• Flawed data, flawed decisions"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias in AI Financial Models",
+          "subtitle": "Where Past Data Shapes Future Errors",
+          "slidecontent": "• Old data, new mistakes\n• Biased inputs, biased outputs\n• Past trends mislead forecasts\n• Minority groups underrepresented\n• Errors compound over time"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias in AI Financial Models",
+          "subtitle": "Where Data Shapes Distorted Outcomes",
+          "slidecontent": "• Historical financial data often reflects past inequalities, skewing AI predictions from the outset\n• Biased training data leads to distorted credit scores, loan approvals, and risk assessments\n• Garbage in, garbage out\n• Models trained on boom-period data may dramatically underestimate risk during downturns\n• Certain industries, regions, or borrower profiles can be systematically disadvantaged without anyone noticing\n• Bias is rarely obvious until the financial damage is already done"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating AI Financial Risks",
+          "subtitle": "Strategies to reduce exposure and uncertainty",
+          "slidecontent": "• Regular human review of AI-generated forecasts before any financial decisions are made\n• Audit trails for every AI output\n• Testing AI models against historical data to check for accuracy and bias\n• Clear escalation procedures when AI predictions fall outside expected ranges\n• Limiting AI autonomy in high risk reporting scenarios\n• Staff training on recognising when AI outputs may be unreliable"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI Financial Risks",
+          "subtitle": "Strategies to Reduce Exposure and Error",
+          "slidecontent": "• Audit AI outputs regularly\n• Cross-check with human analysts\n• Set clear accuracy thresholds\n• Document all model assumptions\n• Rotate and retrain models often"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI use",
+          "slidecontent": "• Always verify AI-generated forecasts against reliable source data before acting on them\n• Human oversight is essential\n• Understand the limitations of any AI tool used in your financial workflows\n• Document every instance where AI has influenced a reported figure or decision\n• Bias in training data leads directly to flawed outputs\n• As a next step, review your organisation's current AI policies and identify any gaps in accountability"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI Risk in Financial Forecasting and Reporting. AI is already deeply embedded in the world of finance. It is being used to build credit scores, generate earnings projections, and produce financial reports, often at a speed and scale that humans simply cannot match. But with that power comes real risk. When an AI model makes a decision and the people using it do not fully understand how it reached that conclusion, things can go wrong, and they can go wrong quickly. A small error in one part of a model can ripple outward and compound into something much more serious before anyone notices. This course is designed specifically for financial professionals who want to understand those risks clearly and practically. We are not going to get lost in technical jargon. Instead, we will focus on what actually matters when AI is involved in financial decision-making. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So before we dive into the risks, let's make sure we're all on the same page about what AI is actually doing in financial forecasting and reporting. At its core, AI is very good at handling enormous volumes of financial data far faster than any human team could manage. And it is not just crunching numbers quickly. It is also identifying patterns and trends that might be invisible to the human eye, things buried deep in the data that could genuinely influence a forecast. From there, AI can generate projections and predictions, and it can automate a lot of the routine reporting work that would otherwise take up significant time and resource. On top of that, many AI systems are designed to flag unusual activity or anomalies as they happen, in real time, rather than waiting for a quarterly review. So it is a genuinely powerful set of capabilities, and that is precisely why understanding the risks that come with it matters so much."
+        },
+        {
+          "number": 3,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. If the data you feed into an AI model is flawed, outdated, or unrepresentative, the forecasts it produces will be just as flawed. Imagine training a model on financial data from ten years ago, before a major economic shift. That model has no idea the world has changed, so its predictions will reflect a reality that no longer exists. The same problem occurs with biased samples. If your training data only captures certain types of customers, markets, or economic conditions, the AI will develop a skewed view of the world and your forecasts will reflect that bias. Historical trends can also mislead the model, particularly during periods of rapid change. The core issue is straightforward: AI is only as reliable as the data it learns from. Poor data quality at the input stage leads directly to poor financial decisions at the output stage."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most significant risks with AI in financial forecasting is bias, and it often sneaks in through the data we feed these models. Here is the core problem: AI learns from historical data, and if that data reflects past inequalities, outdated economic conditions, or simply gaps in representation, the model will carry those flaws forward into its predictions. So you end up with biased inputs producing biased outputs, and the model has no idea it is doing anything wrong. For example, if certain demographic groups or smaller businesses are underrepresented in the training data, the model may consistently produce less accurate forecasts for them. And here is what makes this particularly dangerous in finance: errors do not just sit there. They compound. A flawed forecast influences a decision, that decision shapes the next data point, and gradually the inaccuracies build up over time. Understanding where bias enters the system is the first step towards managing it responsibly."
+        },
+        {
+          "number": 5,
+          "script": "One of the most insidious problems with AI in financial modelling is bias, and it often starts before the model has even made a single prediction. If you feed an AI system historical financial data, you are also feeding it all the inequalities and distortions baked into that history. The result is that credit scores, loan approvals, and risk assessments can become skewed in ways that disadvantage certain borrowers, regions, or industries, often without anyone realising it is happening. There is an old saying in computing: garbage in, garbage out, and it absolutely applies here. A model trained during a period of economic growth, for example, may have no real understanding of how risk behaves during a downturn, so it dramatically underestimates danger when conditions change. The really troubling part is that bias tends to stay hidden. It does not announce itself. By the time the distortion becomes visible, the financial damage has frequently already been done."
+        },
+        {
+          "number": 6,
+          "script": "So, knowing the risks exist is only half the battle. The real question is: what do we actually do about them? The good news is there are some practical steps organisations can take to protect themselves. First, always have a human review AI-generated forecasts before any decisions are made. AI should inform your thinking, not replace it. You also want to keep a clear record of every output the AI produces, so there is a proper audit trail if questions arise later. It is worth regularly testing your models against historical data to spot any accuracy issues or bias creeping in. If an AI prediction looks unusual or falls well outside expected ranges, you need a clear process for flagging that and escalating it. In high risk situations, limit how much the AI can do on its own. And importantly, make sure your staff are trained to recognise when an AI output simply should not be trusted."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what we can actually do to manage them. The good news is that there are some straightforward, practical steps you can put in place. First, make sure you're regularly reviewing and auditing what your AI models are producing. Don't just trust the output blindly. Pair that with human oversight, so your analysts are actively checking the numbers rather than simply rubber-stamping them. It's also worth setting clear benchmarks for accuracy upfront, so everyone knows what \"good enough\" actually looks like. When a model falls short of that standard, you have a clear trigger to investigate. You should also keep thorough records of the assumptions baked into each model, because those assumptions can drift over time without anyone noticing. And finally, don't let your models go stale. Retraining them regularly with fresh data helps ensure they stay relevant and reliable as conditions change."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, never act on an AI-generated forecast without checking it against your reliable source data. AI can get things wrong, and that verification step is your safety net. Alongside that, human oversight is not optional. Someone with the right knowledge and judgement needs to remain in the loop at all times. It is also worth taking the time to genuinely understand the limitations of whatever AI tools you are using in your workflows, because every tool has them. When AI influences a reported figure or a decision, make sure you document it. That audit trail matters enormously. And remember, if the data used to train an AI system contains bias, the outputs will reflect that bias. Finally, as a practical next step, take a look at your organisation's current AI policies and ask yourself honestly whether the accountability gaps have been addressed."
+        }
+      ]
+    }
+  ]
+}

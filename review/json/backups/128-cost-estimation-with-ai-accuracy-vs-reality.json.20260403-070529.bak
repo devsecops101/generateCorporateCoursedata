@@ -1,0 +1,105 @@
+{
+  "Course Title": "Cost Estimation with AI: Accuracy vs Reality",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Financial risks from incorrect projections.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering project workflows and a general understanding of budgeting principles will help you get the most from this course, though no prior experience with AI tools is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key sources of financial risk that arise from inaccurate cost projections in construction and infrastructure projects, and explain how AI-assisted estimation tools can both support and mislead decision-making when not applied carefully. You will also apply practical techniques to critically evaluate AI-generated cost estimates, recognising where human judgement and industry experience remain essential to producing reliable, realistic projections.",
+  "lessons": [
+    {
+      "lesson title": "Cost Estimation with AI: Accuracy vs Reality",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence tools can be used to support cost estimation in projects and business planning, while also examining where these tools can fall short. You will learn how AI-generated figures can sometimes appear precise and reliable, yet still carry significant inaccuracies that lead to real financial consequences. We will look at practical examples of how incorrect projections can result in budget overruns, missed targets, and poor decision-making. By the end of this lesson, you will have a clearer understanding of how to use AI estimates as a starting point rather than a final answer, and how to apply critical thinking to protect against financial risk.",
+      "status": "draft",
+      "content": "Financial risks from incorrect projections.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome: AI and Cost Estimation",
+          "subtitle": "Where AI meets financial reality",
+          "slidecontent": "• AI estimates costs quickly\n• But accuracy varies widely\n• Errors cause financial risk\n• Real data is important\n• Learn to verify outputs"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of Inaccurate Cost Projections",
+          "subtitle": "Financial missteps that derail project success",
+          "slidecontent": "• Underestimated costs that force teams to cut scope or quality mid-project\n• Budget overruns eroding stakeholder trust\n• Cascading delays when funding gaps halt critical work\n• Overestimated costs that price a bid out of contention entirely\n• Poor projections making it harder to secure future investment or approval"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Hidden Costs and Blind Spots",
+          "subtitle": "What AI consistently fails to capture",
+          "slidecontent": "• Overtime and weekend rates\n• Staff turnover costs\n• Regulatory compliance fees\n• Rework and error correction\n• Inflation and price shifts"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Hidden Costs and Blind Spots",
+          "subtitle": "What AI consistently fails to capture",
+          "slidecontent": "• Permits and licences overlooked\n• Inflation not accounted for\n• Staff training costs ignored\n• Unexpected delays add up\n• Maintenance rarely included"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Mitigating Financial Risk Effectively",
+          "subtitle": "Strategies to Protect Your Budget",
+          "slidecontent": "• Set contingency budgets of 10 to 20 percent above any AI-generated cost estimate\n• Cross-check AI figures against real supplier quotes and historical project data\n• Review assumptions regularly\n• Flag estimates built on incomplete or outdated input data before committing funds\n• Involve a finance lead early to catch gaps the AI tool may have missed"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Financial Risk Effectively",
+          "subtitle": "Protecting Your Budget From Costly Surprises",
+          "slidecontent": "• Build in contingency buffers\n• Review estimates regularly\n• Question suspiciously low figures\n• Cross-check with past projects\n• Get multiple cost opinions"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Financial Risk Effectively",
+          "subtitle": "Protecting Your Budget From Costly Surprises",
+          "slidecontent": "• Build contingency buffers into every AI-generated cost estimate from the start\n• Cross-check figures against real supplier quotes and historical project data\n• Flag assumptions early\n• Assign a human reviewer to validate any estimate above a set financial threshold\n• Track where AI projections diverge from actual costs to spot patterns over time\n• Keep stakeholders informed when estimates shift, reducing the risk of budget shock later"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What to carry forward from here",
+          "slidecontent": "• AI cost estimates are starting points, not final answers\n• Always validate AI-generated figures against real supplier quotes and historical data\n• Unchecked projections carry genuine financial risk\n• Small errors compound quickly across large budgets\n• Build a habit of sense-checking every estimate before it informs a decision\n• Start small, test AI tools on low-stakes projects before relying on them for critical budgets"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thanks for joining me today. This course is all about using AI for cost estimation, and more importantly, understanding where it gets things right and where it can go seriously wrong. Now, AI tools have become incredibly useful for generating cost figures quickly. You can get an estimate in seconds that might have taken hours to produce manually. But here is the thing: speed does not always mean accuracy. The numbers AI produces can vary quite a bit depending on the tool, the data it was trained on, and how you phrase your inputs. And when estimates are off, even by a small margin, that can translate into real financial risk for a project or a business. So throughout this course, we are going to look at how to work with AI estimates sensibly, why real-world data is still absolutely essential, and how to verify what AI tells you before you act on it. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So why does accurate cost estimation matter so much? Well, getting it wrong in either direction can cause real damage. If you underestimate costs, you often end up cutting corners mid-project, whether that means reducing scope or compromising on quality, neither of which is a good outcome. And when budgets spiral beyond what was planned, stakeholders lose confidence in your ability to deliver. That loss of trust can be very difficult to rebuild. There is also a knock-on effect to consider: when funding runs short, critical work stalls, and those delays ripple through the entire project timeline. But here is the thing, overestimating is just as problematic. If your bid comes in too high, you simply will not win the work. And regardless of which direction the error falls, a track record of poor projections makes it genuinely harder to secure investment or sign-off on future projects. Accurate estimation, then, is not just about numbers. It is about credibility."
+        },
+        {
+          "number": 3,
+          "script": "Now, even when AI tools get the headline numbers roughly right, there are whole categories of cost that they consistently miss. Think about what happens when your project runs over schedule and staff start working evenings and weekends. Those overtime rates can add up quickly, and AI rarely accounts for them. Then there is staff turnover. If someone leaves mid-project, you have got recruitment costs, training time, and a dip in productivity. AI does not factor any of that in. Regulatory compliance is another blind spot. Depending on your industry, there may be licences, inspections, or legal requirements that carry real fees. And what about rework? Mistakes happen, and fixing them costs money that never appears in an initial estimate. Finally, there is inflation. Prices shift over time, and a figure that looks accurate today might be significantly out by the time you actually spend the money. These hidden costs are exactly where AI-generated estimates tend to fall short."
+        },
+        {
+          "number": 4,
+          "script": "Now, even when AI tools get the headline numbers roughly right, there are some costs they almost always miss. Things like permits and licences, for example. Depending on your project, these can run into thousands of pounds, yet AI tools rarely factor them in. Then there is inflation. If your project runs over several months, the cost of materials and labour can creep up significantly, and most AI estimates simply do not account for that. Staff training is another one that gets overlooked. Bringing your team up to speed on new systems or processes has a real cost attached to it. Unexpected delays are also worth mentioning, because they happen on virtually every project, and those extra weeks or months add up quickly. And finally, ongoing maintenance is almost never included in an initial AI estimate, even though it can represent a substantial long-term expense. So the message here is clear: always look beyond the headline figure."
+        },
+        {
+          "number": 5,
+          "script": "So, AI can give you a cost estimate, but how do you protect yourself when that estimate turns out to be off? The answer is to build in some sensible safeguards. A good starting point is to add a contingency buffer of around ten to twenty percent on top of whatever the AI produces, because surprises in projects are almost inevitable. You should also sense-check those figures against real quotes from suppliers and data from previous similar projects. And do not treat the estimate as a one-off exercise. Revisit your assumptions regularly as the project evolves. If the AI was working with incomplete or outdated information, flag that before any money is committed, not after. One of the most valuable things you can do is bring a finance lead into the conversation early on. They will often spot gaps or risks that the tool simply cannot anticipate. These steps together give you a much more realistic and resilient budget to work with."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually protect ourselves from budget surprises when we're working with AI-generated estimates? A few practical habits make a real difference here. First, always build in a contingency buffer. No estimate is perfect, so give yourself some financial breathing room from the start. Then make a point of revisiting your estimates regularly as the project evolves, because costs can shift quite quickly. If a figure looks suspiciously low, trust that instinct and dig deeper. AI tools can occasionally underestimate costs, especially for niche or complex work. It's also worth cross-checking against similar projects you've completed in the past. Your own historical data is genuinely valuable here. And finally, don't rely on a single source. Get multiple cost opinions, whether that's from different tools, suppliers, or colleagues. Combining those perspectives gives you a much more realistic picture, and that's what helps you stay in control of your budget."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually protect our budgets when we're relying on AI for cost estimation? The first thing to do is build in a contingency buffer right from the start, because AI estimates will rarely be perfect. Always cross-check those figures against real supplier quotes and your own historical project data, and flag any assumptions the AI has made as early as possible. For larger estimates, assign a human reviewer to sense-check the numbers before anyone commits to spending. Over time, keep a record of where AI projections have drifted from actual costs, because those patterns will help you get sharper with every future project. And finally, communicate openly with your stakeholders whenever estimates change. Nobody likes a nasty financial surprise, and keeping people informed early means you can manage expectations rather than firefight later. Essentially, AI is a powerful starting point, but human oversight and good habits are what keep your budget on solid ground."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The most important thing to hold onto is this: AI gives you a starting point, not a finished answer. Those figures it produces need to be checked against real quotes from suppliers and your own historical data, because if you simply accept them without question, you are carrying genuine financial risk. And that risk grows fast. A small error might look harmless on its own, but multiply it across a large budget and it becomes a serious problem. So build the habit of sense-checking every estimate before it shapes a decision. Ask yourself whether the numbers feel right, and then verify them. If you are new to using AI for cost estimation, I would strongly encourage you to start small. Try these tools on lower-stakes projects first, where a mistake is manageable, before you bring them into anything critical. That way you build confidence and learn the limits of the technology at the same time."
+        }
+      ]
+    }
+  ]
+}

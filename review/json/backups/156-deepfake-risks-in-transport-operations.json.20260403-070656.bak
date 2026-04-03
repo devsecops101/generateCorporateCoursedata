@@ -1,0 +1,105 @@
+{
+  "Course Title": "Deepfake Risks in Transport Operations",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Fake instructions or impersonation of control authorities.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with transport or logistics operations, such as working in aviation, maritime, shipping, or road freight environments, and a general comfort with using digital communication tools in a professional setting.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key characteristics of deepfake audio and video content used to impersonate control authorities, and explain how fake instructions can pose serious safety and security risks across aviation, maritime, and logistics operations. You will also apply practical verification techniques to recognise suspicious communications and respond appropriately when the authenticity of operational instructions is in doubt.",
+  "lessons": [
+    {
+      "lesson title": "Deepfake Risks in Transport Operations",
+      "order": 1,
+      "Description": "This lesson introduces transport operations staff to the growing threat of deepfake technology, focusing on how criminals can use realistic fake audio, video, or text to impersonate control authorities and issue fraudulent instructions. You will learn to recognise the warning signs of manipulated communications and understand why verifying the source of any unusual or high risk instruction is essential. The lesson covers practical steps for confirming the identity of those giving operational directives, particularly in time-pressured situations where staff may be more vulnerable to deception. By the end of this lesson, you will have a clearer understanding of how deepfake risks apply directly to your working environment and what actions you can take to protect yourself and your organisation.",
+      "status": "draft",
+      "content": "Fake instructions or impersonation of control authorities.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfake Risks: An Introduction",
+          "subtitle": "When reality cannot be trusted",
+          "slidecontent": "• Deepfakes are realistic fake audio, video, or text created using artificial intelligence\n• Convincing enough to fool experienced professionals\n• In transport, fake instructions can redirect vehicles, close routes, or trigger emergency responses\n• Impersonating a control authority is now technically straightforward and increasingly common\n• The threat is real and growing"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising Fake Authority Instructions",
+          "subtitle": "How fake authority sounds and looks",
+          "slidecontent": "• Fake authority instructions often mimic the tone and language of real control centres\n• Urgent or unusual commands delivered without standard verification steps\n• Voice deepfakes can closely replicate a known controller's speech patterns\n• Watch for pressure to act immediately\n• Instructions arriving through unexpected or informal channels (personal mobile, messaging apps) are a red flag\n• Legitimate authorities follow established protocols, they do not bypass them"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Fake Control Instructions",
+          "subtitle": "Recognising deceptive commands before acting",
+          "slidecontent": "• Verify source before obeying\n• Cross-check via second channel\n• Unusual urgency is suspicious\n• Know your authorised contacts\n• Trust process, not voice alone"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Fake Authority Instructions",
+          "subtitle": "Recognising the warning signs in time",
+          "slidecontent": "• Unexpected urgency or pressure\n• Unusual communication channels used\n• Requests bypass normal procedures\n• Voice or video feels \"off\"\n• Verify before you comply"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Fake Authority Instructions",
+          "subtitle": "Recognising the warning signs in time",
+          "slidecontent": "• Instructions arriving through unexpected or unofficial channels\n• Urgent tone pressuring immediate action without verification\n• Requests that bypass normal sign-off procedures\n• Voice or video quality that seems slightly \"off\"\n• Authority figures asking staff to skip standard safety checks\n• No traceable record in official systems"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Verifying Instructions and Authority",
+          "subtitle": "How to confirm legitimate operational commands",
+          "slidecontent": "• Always verify caller identity first\n• Use callback procedures\n• Check official contact lists\n• Never act on voice alone\n• Escalate unusual requests immediately"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting Suspicious Instructions",
+          "subtitle": "When in Doubt, Speak Up",
+          "slidecontent": "• Any instruction that feels rushed, unusual, or unverifiable deserves a second look\n• Tell a supervisor immediately\n• Document the message, the channel it came through, and the time received\n• Never act on unverified orders just to avoid delay\n• Your organisation should have a clear reporting procedure for suspicious communications, so know where to find it\n• Raising a concern is always the right call"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Verify all instructions independently\n• Trust processes, not voices\n• Report suspicious communications always\n• Deepfakes sound convincing\n• Stay alert, stay safe"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on deepfake risks in transport operations. So, what exactly is a deepfake? In simple terms, it is artificial intelligence being used to generate fake audio, video, or written messages that look and sound completely genuine. And we are not talking about obvious fakes here. These are convincing enough to fool experienced professionals who deal with communications every single day. Now, in a transport context, that becomes a serious problem. Imagine a fake instruction being issued to redirect a vehicle, shut down a route, or trigger an emergency response. The consequences could be significant. What makes this even more concerning is that impersonating a control authority or a trusted figure is no longer technically difficult. The tools exist, they are accessible, and their use is becoming more frequent. So throughout this course, we are going to look at how this threat works, where it shows up in transport operations, and what you can do about it."
+        },
+        {
+          "number": 2,
+          "script": "So how do you actually spot a fake authority instruction in the moment? The key thing to understand is that deepfakes are designed to sound and look completely legitimate. They will often copy the exact tone, vocabulary, and even the voice of someone you recognise and trust. But here is where the warning signs come in. Fake instructions almost always create a sense of urgency, pushing you to act quickly and skip the usual verification steps. If someone is pressuring you to move fast without following standard procedures, that is a serious red flag. You should also pay close attention to how the instruction arrives. A genuine control centre will contact you through official, established channels. If a message or call comes through a personal mobile number or a messaging app, treat it with real suspicion. Remember, legitimate authorities do not bypass their own protocols. If something feels off about how an instruction is being delivered, trust that instinct and verify before you act."
+        },
+        {
+          "number": 3,
+          "script": "So, how do we actually spot a fake control instruction before it causes real harm? The first thing to remember is that you should never act on a command just because it sounds authoritative. Always confirm who is sending it. If an instruction arrives through one channel, pick up a separate line and verify it with a known, trusted contact. Deepfakes are very convincing, but they tend to rely on pressure, so if someone is pushing you to act immediately, without time to check, that urgency itself is a warning sign. Slow down. Your organisation will have a list of authorised contacts for issuing operational commands, so make sure you know who those people are before an incident happens. And perhaps most importantly, trust your procedures rather than a voice alone. A genuine instruction will always hold up to a quick verification check. If it cannot, that tells you everything you need to know."
+        },
+        {
+          "number": 4,
+          "script": "So, how do we actually spot a deepfake instruction before we act on it? There are some reliable warning signs to watch for. First, if someone is pushing you to act immediately, with no time to think or check, that pressure itself is a red flag. Genuine authority figures generally respect proper process. Second, pay attention to how the message arrives. If a senior manager is suddenly contacting you through an unusual app or personal number rather than official channels, that should raise your suspicion straight away. Third, be wary of any instruction that asks you to skip your normal authorisation steps, because that is precisely what an attacker wants you to do. And fourth, trust your instincts with voice and video calls. If something feels slightly wrong, the timing seems off, or the voice sounds a little unnatural, do not dismiss that feeling. The golden rule across all of these is simple: always verify the instruction through a separate, trusted channel before you comply."
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually spot a fake instruction before it causes harm? There are some reliable warning signs to watch out for. First, think about how the instruction arrived. Did it come through an unusual channel, like a personal message rather than an official system? That alone should raise a flag. Next, pay attention to the tone. Genuine authority figures rarely demand that you act immediately and skip the normal checks. If someone is pressuring you to bypass sign-off procedures or ignore safety protocols, that urgency is often deliberate, designed to stop you thinking clearly. It is also worth trusting your instincts about audio and video quality. Deepfakes can still produce subtle glitches, a slightly unnatural voice, odd lip movements, or a strange visual texture. And finally, if an instruction leaves no trace in your official systems, no log, no record, no paper trail, treat that as a serious red flag."
+        },
+        {
+          "number": 6,
+          "script": "So, when you receive an instruction over the phone or through a voice message, the very first thing you should do is confirm who you are actually speaking with. Do not simply assume the voice is who it claims to be. A good habit is to hang up and call back using a number from your official contact directory, not a number the caller provides to you. This is called a callback procedure, and it is one of the most reliable ways to catch a fraudulent request. Your organisation should maintain an up-to-date list of verified contacts, and that list is your reference point whenever something feels off. The key principle here is straightforward: voice alone is never enough to authorise action. If someone is pressuring you to act quickly, or the request seems unusual in any way, stop and escalate it to your supervisor immediately. Urgency is often used deliberately to bypass your better judgement, so treat it as a warning sign."
+        },
+        {
+          "number": 7,
+          "script": "So, what do you actually do if something feels off? The answer is simple: say something. If you receive an instruction that seems rushed, comes through an unusual channel, or just doesn't sit right with you, don't ignore that feeling. Stop, and speak to your supervisor straight away. While you're at it, make a note of the details, what the message said, how it arrived, and when you received it. That information could be really important later. And please, don't feel pressured to act on something unverified just because there's a deadline or someone seems impatient. A short delay is far better than a serious mistake. Most organisations have a formal procedure for reporting suspicious communications, so it's worth knowing where to find yours before you ever need it. The key point here is this: raising a concern is never the wrong move. It takes courage, but it's always the right thing to do."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the core lessons from this session. The most important habit you can build is to always verify instructions through an independent channel, never just act on a voice or message without checking it's legitimate. And that leads nicely into the second point, which is to trust your established processes rather than any individual voice, no matter how familiar or authoritative it sounds. Remember, deepfakes are genuinely convincing, and that's precisely what makes them dangerous. If something feels off, or you receive a communication that seems unusual, report it straight away. Don't second-guess yourself and don't stay quiet. Your instinct to question something could prevent a serious incident. Working in transport operations means the stakes are high, so staying alert really does matter. Keep these principles in mind every single day, and you'll be in a much stronger position to spot and respond to this kind of threat. Stay safe out there."
+        }
+      ]
+    }
+  ]
+}

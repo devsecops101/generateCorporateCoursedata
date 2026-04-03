@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Manufacturing Supply Chains",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "Risks in forecasting, procurement, and logistics automation.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with manufacturing or supply chain operations, along with comfort using everyday digital tools such as spreadsheets or inventory software, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-driven forecasting, procurement, and logistics automation across manufacturing sectors such as chemicals, food production, automotive, and pharmaceuticals. You will also be able to explain how AI technologies are applied within supply chains and apply practical strategies to manage and mitigate those risks in real-world manufacturing environments.",
+  "lessons": [
+    {
+      "lesson title": "AI in Manufacturing Supply Chains",
+      "order": 1,
+      "Description": "This lesson introduces how artificial intelligence is being applied across manufacturing supply chains, with a focus on the practical risks that come with adopting these technologies. You will explore how AI is used in demand forecasting, procurement decisions, and logistics automation, and why each of these areas carries its own set of challenges. We will look at real-world examples to help you understand where things can go wrong, from inaccurate predictions to over-reliance on automated systems. By the end of this lesson, you will have a clearer picture of how to approach AI adoption in supply chain contexts with greater awareness and confidence.",
+      "status": "draft",
+      "content": "Risks in forecasting, procurement, and logistics automation.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Manufacturing Supply Chains",
+          "subtitle": "Risks, Challenges, and What Lies Ahead",
+          "slidecontent": "• AI reshapes supply chains fast\n• Forecasting, procurement, logistics affected\n• Real risks exist today\n• Beginners welcome here"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Forecasting Risks and Challenges",
+          "subtitle": "Navigating Uncertainty in Demand Planning",
+          "slidecontent": "• Demand shifts without warning\n• Data gaps distort predictions\n• Seasonal spikes cause errors\n• Supplier delays compound risk\n• Over-reliance on single sources"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Forecasting Risks and Inaccuracies",
+          "subtitle": "Where predictions fall short in practice",
+          "slidecontent": "• AI forecasts rely on historical data, so sudden market shifts or disruptions can catch models off guard\n• Garbage in, garbage out\n• Seasonal spikes, new product launches, and geopolitical events are notoriously difficult for algorithms to predict accurately\n• Small errors in demand forecasting can ripple outward, causing overstock or critical shortages across the supply chain\n• Real-world data is often incomplete, inconsistent, or delayed, undermining forecast reliability from the start\n• Human oversight remains essential to catch and correct predictions before they drive costly decisions"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Procurement Risks and AI Bias",
+          "subtitle": "Hidden biases in automated sourcing decisions",
+          "slidecontent": "• AI sourcing tools trained on historical data can inherit past supplier preferences, even when those preferences were based on outdated or unfair criteria\n• Bias often invisible to procurement teams reviewing only the final recommendation\n• Smaller or newer suppliers may be systematically ranked lower, limiting competition and innovation\n• Geographic and cultural gaps in training data skew results toward familiar markets\n• Auditing AI decisions regularly helps surface patterns that no single purchase order would reveal"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Procurement Risks and AI Bias",
+          "subtitle": "Hidden biases in automated sourcing decisions",
+          "slidecontent": "• AI sourcing tools trained on historical data can inherit past supplier preferences, excluding newer or more diverse vendors\n• Biased outputs often go unnoticed because the system appears objective\n• Cost and speed metrics may be over-weighted, pushing out smaller, local, or sustainable suppliers\n• Lack of transparency in how decisions are ranked makes auditing difficult\n• Procurement teams need to regularly review and challenge automated recommendations"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Risks in Logistics Automation",
+          "subtitle": "Safeguarding Automated Systems Against Operational Failures",
+          "slidecontent": "• Build in manual override options\n• Monitor systems around the clock\n• Test backups regularly\n• Plan for cyber threats\n• Train staff on failures"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI Supply Chain Risks",
+          "subtitle": "Strategies to reduce and manage exposure",
+          "slidecontent": "• Start with pilot programmes in low-risk areas before scaling AI across the full supply chain\n• Maintain human oversight at critical decision points\n• Diversify suppliers to reduce dependence on AI-driven single-source procurement\n• Regularly audit AI outputs for accuracy and bias\n• Build contingency plans for system failures or unexpected forecast errors\n• Train staff to understand and challenge AI recommendations, not just accept them"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for confident AI adoption",
+          "slidecontent": "• AI forecasts can still fail\n• Check data quality first\n• Automate carefully, not blindly\n• Humans must stay in control\n• Start small, then scale\n• Review AI outputs regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI in Manufacturing Supply Chains. Over the next little while, we are going to explore something that is genuinely transforming the way manufacturers operate right across the world. Artificial intelligence is moving quickly, and supply chains are right at the heart of that change. From the way companies forecast demand, to how they manage procurement and keep goods moving through logistics networks, AI is touching virtually every part of the process. Now, this is not just a course about exciting possibilities. We are also going to be honest about the real risks and challenges that come with adopting these technologies, because those challenges exist today and they matter. The good news is that you do not need a technical background to follow along. This course is designed to be accessible and practical, so whether you are completely new to AI or just new to this particular context, you are absolutely in the right place. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "When it comes to demand planning in manufacturing, forecasting is rarely straightforward. Markets can shift unexpectedly, and if your data is incomplete or inconsistent, your predictions will be off before you even get started. Add in seasonal peaks, like a sudden surge in orders before a major holiday, and those errors can multiply quickly. Then consider what happens when a key supplier experiences delays. That single disruption can ripple through your entire supply chain, making an already uncertain situation much worse. And if your operation depends heavily on just one supplier or one data source, you are essentially putting all your eggs in one basket. These are the core challenges that make demand forecasting so difficult in the real world. The good news is that AI tools are specifically designed to help manufacturers navigate exactly these kinds of uncertainties, and that is what we will be exploring throughout this course."
+        },
+        {
+          "number": 3,
+          "script": "Even the most sophisticated AI forecasting tools have their limitations, and it is important we are honest about that from the outset. These systems learn from historical data, which means they can struggle when something unexpected happens, a sudden geopolitical crisis, a new product launch, or an unusual seasonal spike. And here is the thing: if the data you feed into the system is poor quality, incomplete, or out of date, the predictions coming out will be equally unreliable. There is an old saying in computing, garbage in, garbage out, and it absolutely applies here. What makes this particularly consequential in supply chains is that even a small forecasting error does not stay small. It can ripple outward, leading to costly overstocking in one area and critical shortages in another. This is precisely why human oversight remains so important. AI should support decision-making, not replace the judgement of experienced people who can spot when something does not look right."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the trickier risks with AI in procurement is something called bias, and it can creep in without anyone realising. When an AI sourcing tool is trained on historical purchasing data, it learns from past decisions, and if those past decisions favoured certain suppliers for the wrong reasons, the AI will simply carry that forward. The problem is that procurement teams often only see the final recommendation, not the reasoning behind it, so the bias stays hidden. This can be particularly unfair to smaller or newer suppliers, who get ranked lower not because they are less capable, but because they are less familiar to the system. Similarly, if the training data is heavily weighted toward certain regions, the AI will naturally lean toward those markets. The good news is that regular auditing of AI decisions can help you spot these patterns over time, and that is something we will come back to later in the course."
+        },
+        {
+          "number": 5,
+          "script": "One of the trickier issues with AI in procurement is that these systems can carry hidden biases, and because they look so objective, nobody questions them. When an AI sourcing tool is trained on historical purchasing data, it essentially learns to favour the same suppliers your organisation has always used. Newer vendors, smaller businesses, or more sustainable suppliers can get quietly pushed aside, not because they are worse, but because the algorithm has never really seen them before. On top of that, AI tools often prioritise cost and speed above everything else, which can work against local or ethical sourcing goals. And because the ranking logic is rarely transparent, it is genuinely difficult to audit why one supplier was chosen over another. The important thing to remember here is that automation does not mean accuracy. Procurement teams need to stay actively involved, regularly reviewing and questioning what the AI is recommending rather than simply accepting its output at face value."
+        },
+        {
+          "number": 6,
+          "script": "Now, automation brings enormous benefits, but it also introduces new risks, so we need to think carefully about how we protect these systems when things go wrong. First, always make sure your automated systems have a manual override option. If the technology fails, your team needs to be able to step in and keep operations moving. Alongside that, continuous monitoring is essential. You want eyes on these systems around the clock, not just during business hours. It is also worth testing your backup systems regularly, because a backup you have never tested is one you cannot rely on in a crisis. Cyber threats are a very real concern in logistics automation, so build a clear plan for how you would respond to an attack or a breach. And finally, invest in training your staff so they know exactly what to do when a failure occurs. Preparation is what separates a minor disruption from a major disaster."
+        },
+        {
+          "number": 7,
+          "script": "So we've talked about the risks, but how do we actually manage them? The good news is there are some straightforward steps you can take. First, don't try to roll out AI everywhere at once. Start small, test it in a low-stakes area, and build confidence before scaling up. As you do that, make sure your people stay involved. AI should support human decisions, not replace them entirely, especially at the moments that really matter. It's also worth spreading your supplier base, so you're not overly reliant on what one AI system recommends. And once your AI is running, keep checking it. Regular audits help you catch errors or bias before they cause real problems. Have a backup plan ready for when things go wrong, because at some point they will. And perhaps most importantly, train your team to question AI recommendations, not simply accept them. A healthy dose of scepticism is a genuine asset here."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and bring together the most important lessons from everything we've covered. First, remember that AI is a powerful tool, but it is not perfect. Forecasts can go wrong, especially if the data feeding into the system is poor quality, so always check your data before you trust your outputs. When you start automating processes, do it thoughtfully and gradually rather than rushing in. Your people need to remain in control at every stage, because human judgement is still absolutely essential. If you are just getting started with AI in your supply chain, begin with a small pilot project, prove the value, and then scale up from there. And once your AI systems are running, do not simply set them and forget them. Review the outputs regularly to make sure everything is still performing as expected. Keep these principles in mind and you will be in a much stronger position to adopt AI with confidence."
+        }
+      ]
+    }
+  ]
+}

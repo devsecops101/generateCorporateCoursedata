@@ -1,0 +1,105 @@
+{
+  "Course Title": "Model Theft and Extraction Risks",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "How attackers can steal or replicate proprietary AI models.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how machine learning systems work, along with a general understanding of cybersecurity concepts, will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key methods attackers use to steal or replicate proprietary machine learning models and explain the potential business and security risks these threats pose to organisations. You will also be able to apply practical strategies to recognise vulnerabilities in model deployment and describe the foundational steps needed to protect intellectual property within AI-driven systems.",
+  "lessons": [
+    {
+      "lesson title": "Model Theft and Extraction Risks",
+      "order": 1,
+      "Description": "This lesson explores how malicious actors can attempt to steal or replicate proprietary machine learning models without authorisation. You will learn about the key techniques attackers use, including model extraction attacks, where repeated queries are used to reconstruct a model's behaviour and capabilities. The lesson also covers why these risks matter for organisations that have invested significant resources in developing and training their models. By the end, you will have a clearer understanding of the potential vulnerabilities involved and the practical steps that can be taken to reduce exposure to these threats.",
+      "status": "draft",
+      "content": "How attackers can steal or replicate proprietary AI models.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Model Theft: An Introduction",
+          "subtitle": "When AI models become valuable targets",
+          "slidecontent": "• AI models cost millions to build\n• Attackers want them for free\n• Theft happens without direct access\n• Your model's behaviour reveals secrets\n• Stolen models fuel competition"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Model Extraction?",
+          "subtitle": "Copying models through repeated querying",
+          "slidecontent": "• Attacker queries a model repeatedly\n• Responses reveal model behaviour\n• Patterns expose internal logic\n• A copy gets built gradually\n• No direct access needed"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Techniques Used in Model Theft",
+          "subtitle": "Mapping the methods attackers commonly exploit",
+          "slidecontent": "• Repeated querying of a model's outputs to reverse-engineer its internal logic and decision boundaries\n• Training a smaller \"student\" model to mimic the behaviour of a target model using stolen predictions\n• Membership inference attacks, which probe whether specific data was used during training\n• Side-channel attacks exploiting timing or resource usage patterns\n• Scraping publicly exposed API endpoints at scale to harvest enough responses for reconstruction\n• Gradient leakage, where shared updates in federated learning inadvertently reveal private model parameters"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Querying Models to Extract Knowledge",
+          "subtitle": "Reverse Engineering AI Through Targeted Queries",
+          "slidecontent": "• Attackers send thousands of carefully crafted queries to map out how a model behaves\n• Patterns in the responses reveal the model's internal logic and decision boundaries\n• Cheap to do\n• Repeated probing across different input types gradually reconstructs the model's capabilities\n• Even public-facing APIs can leak enough information to build a functional replica"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Defending Against Model Theft",
+          "subtitle": "Practical steps to protect your models",
+          "slidecontent": "• Rate limiting API calls to slow down bulk query attacks\n• Watermarking model outputs for traceability\n• Monitor for unusual query patterns\n• Restricting access to only authorised users and systems\n• Adding noise to predictions to obscure internal model behaviour\n• Regular audits of who is querying your model and how often"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Defending Against Model Theft",
+          "subtitle": "Practical steps to protect your models",
+          "slidecontent": "• Rate-limit your API queries\n• Watermark model outputs\n• Monitor for unusual access\n• Restrict query volumes\n• Log and audit requests"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Defending Against Model Theft",
+          "subtitle": "Practical steps to protect your models",
+          "slidecontent": "• Rate limiting API calls to slow down systematic query attacks\n• Watermarking model outputs for traceability\n• Monitoring for unusual query patterns\n• Restricting access through authentication and role-based permissions\n• Adding output perturbation to reduce the precision of extracted information\n• Auditing logs regularly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Queries can steal models\n• Outputs reveal hidden details\n• Watermarks help detect theft\n• Limit API access carefully\n• Monitor unusual query patterns\n• Report suspicious activity immediately"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on model theft and extraction risks. To understand why this matters, think about what goes into building a modern AI model. We're talking about months of work, vast amounts of data, enormous computing power, and in many cases, millions of pounds of investment. That makes these models genuinely valuable assets, and valuable assets attract thieves. Now, here's what makes this type of theft particularly interesting: an attacker doesn't need to break into your servers or steal your code directly. Instead, they can simply interact with your model, observe how it behaves, and gradually piece together its secrets from the outside. It's a bit like figuring out a secret recipe just by tasting the dish repeatedly. And once someone has effectively stolen your model, they can use it to undercut your business, build competing products, or sell it on. So throughout this lesson, we'll explore exactly how these attacks work and what you can do to protect against them."
+        },
+        {
+          "number": 2,
+          "script": "So, what exactly is model extraction? Well, imagine someone doesn't have direct access to your AI model, but they can still interact with it through an API or a public interface. What an attacker can do is send it hundreds, sometimes thousands, of carefully chosen queries, and then study the responses they get back. Over time, those responses start to reveal how the model behaves, what patterns it follows, and how it makes decisions. By collecting enough of these responses, the attacker can gradually piece together a replica of the original model. They're essentially training their own copy using your model's outputs as the training data. And here's the really concerning part: they never need to break in, steal any files, or access your infrastructure directly. The model itself, simply by doing its job and answering questions, leaks enough information to be duplicated. That's what makes this type of attack so subtle and so difficult to detect."
+        },
+        {
+          "number": 3,
+          "script": "So how exactly do attackers go about stealing a model? There are actually several techniques they use, and they range from quite straightforward to surprisingly sophisticated. The most common approach is simply bombarding a model with queries and using the responses to piece together how it makes decisions. From there, an attacker can train their own smaller model to copy the original's behaviour. Beyond that, some attacks try to figure out whether a particular piece of data was used in training, which raises serious privacy concerns. Others exploit subtle clues like how long a model takes to respond, or how much processing power it uses. At scale, even scraping a public API can yield enough responses to reconstruct a working replica. And in federated learning environments, where models are trained collaboratively, the updates being shared can accidentally leak details about the underlying model. So as you can see, the attack surface here is genuinely broad."
+        },
+        {
+          "number": 4,
+          "script": "One of the most accessible ways attackers try to steal a model is simply by talking to it, over and over again. By sending thousands of carefully crafted queries, they can start to map out how the model behaves across a wide range of situations. And here is the concerning part: the patterns in those responses gradually reveal the model's internal logic, where it draws its boundaries, and how it makes decisions. This kind of attack is surprisingly cheap to carry out, which makes it attractive to a broad range of bad actors. Over time, by probing the model across different types of inputs, an attacker can piece together enough information to build a functional replica. And you might assume that limiting access through a public API would offer some protection, but even that can leak enough detail to make this possible. So the model does not need to be directly accessed or stolen in the traditional sense; it can be reconstructed just through observation."
+        },
+        {
+          "number": 5,
+          "script": "So now that we understand how model theft can happen, let's look at what you can actually do to defend against it. There are several practical measures worth putting in place. First, you can limit how many API calls someone is allowed to make in a given period, which makes it much harder to run those bulk query attacks we talked about. You can also watermark your model's outputs, so if your model does get copied, you have a way to trace it back. It's worth monitoring for unusual query patterns too, because suspicious behaviour often leaves a trail. Restricting access so that only authorised users and systems can interact with your model is another sensible step. You might also consider adding a small amount of noise to your predictions, which obscures the model's internal behaviour without meaningfully affecting its usefulness. And finally, regularly auditing who is querying your model, and how frequently, helps you stay on top of anything that looks out of the ordinary."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand how model theft can happen, let's look at what you can actually do to protect yourself. The good news is there are some very practical measures you can put in place. First, think about controlling how many queries any single user or application can make in a given period. If someone is hammering your API with thousands of requests, that is a red flag, and rate limiting helps you slow that down. You can also embed invisible watermarks into your model's outputs, so if a stolen version surfaces somewhere, you have a way to trace it back. Beyond that, keep a close eye on your access logs. Unusual patterns, like a sudden spike in requests or queries coming from unexpected locations, can be early warning signs. Auditing who is accessing your model and how often gives you visibility and accountability. None of these steps are complicated, but together they make extraction significantly harder for anyone attempting it."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand how model theft can happen, let's look at what you can actually do to defend against it. There are several practical measures worth putting in place. First, you can limit how many API calls a user or system can make in a given period, which makes it much harder for an attacker to systematically probe your model. You can also watermark your outputs, so if a stolen model surfaces somewhere, you have a way to trace it back. Monitoring your query logs for unusual patterns is equally important, because strange or repetitive requests are often a warning sign. Locking down access with proper authentication and role-based permissions means only the right people can interact with your model in the first place. You can also introduce small, deliberate variations in your outputs to reduce the accuracy of anything an attacker might extract. And finally, make a habit of auditing your logs regularly so nothing slips through unnoticed."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core thing to remember is that model theft is a real and practical threat, not just a theoretical one. Attackers can systematically query a model and essentially reconstruct it, and even the outputs your model produces can leak sensitive information about how it was built and trained. On the defensive side, watermarking gives you a way to detect if your model has been copied, which is genuinely useful. You also want to be thoughtful about who gets API access and under what conditions, because limiting that access reduces your exposure significantly. Keeping an eye on unusual query patterns is equally important, since strange or repetitive requests are often a warning sign that something is wrong. And finally, if you do spot something suspicious, report it straight away. The faster you act, the better your chances of containing any damage. These are the principles worth holding onto as we move forward."
+        }
+      ]
+    }
+  ]
+}

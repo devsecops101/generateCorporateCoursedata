@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Education: When Learning Becomes Dependency",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Risks of students relying on AI instead of developing core skills.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using digital tools or online platforms, and an interest in how artificial intelligence is beginning to shape teaching and learning environments.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with student dependency on AI tools and explain how over-reliance on these technologies can hinder the development of essential academic and critical thinking skills. You will also apply practical strategies to recognise early signs of AI dependency in learning environments and support students in building genuine, lasting competencies alongside responsible AI use.",
+  "lessons": [
+    {
+      "lesson title": "AI in Education: When Learning Becomes Dependency",
+      "order": 1,
+      "Description": "This lesson explores the growing concern that students are turning to AI tools to complete their work rather than developing the foundational skills they need for long-term success. We will look at how over-reliance on AI can quietly erode critical thinking, writing ability, and problem-solving confidence, often without students even realising it is happening. Through practical examples and honest discussion, you will begin to recognise the difference between using AI as a helpful support and using it as a substitute for genuine learning. By the end of this lesson, you will have a clearer understanding of the risks involved and feel better equipped to make thoughtful, informed choices about how and when to use AI in your studies.",
+      "status": "draft",
+      "content": "Risks of students relying on AI instead of developing core skills.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Does the Thinking",
+          "subtitle": "Who really learns when AI helps?",
+          "slidecontent": "• AI writes, student submits\n• Skills stay undeveloped\n• Learning needs productive struggle\n• Shortcuts cost understanding\n• Who actually did the work?",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Hidden Cost of Shortcuts",
+          "subtitle": "Convenience now, capability lost later.",
+          "slidecontent": "• Students who use AI to complete tasks miss the struggle that builds real understanding\n• No productive struggle, no lasting experience\n• Over time, gaps in foundational knowledge become harder to close\n• Convenience feels like progress but often replaces it\n• Core abilities like critical thinking, writing, and problem-solving quietly erode with each shortcut taken",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Dependency Trap Explained",
+          "subtitle": "When shortcuts replace genuine understanding",
+          "slidecontent": "• Students using AI to complete tasks without engaging in the thinking process behind them\n• Repeated shortcuts that quietly erode problem-solving and critical reasoning skills\n• The brain learns by struggling\n• Dependency forms gradually, often before students (or teachers) notice anything is wrong\n• Confidence built on AI output rather than genuine personal understanding\n• A student who always borrows answers never discovers what they actually know",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "The Dependency Trap Explained",
+          "subtitle": "When shortcuts replace genuine understanding",
+          "slidecontent": "• AI does the thinking instead\n• Skills never fully develop\n• Confidence drops over time\n• Help becomes a requirement\n• Learning stalls without AI",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "The Dependency Trap Explained",
+          "subtitle": "When shortcuts replace genuine understanding",
+          "slidecontent": "• Students using AI to generate answers without engaging with the underlying concepts\n• Repeated shortcuts weaken the mental effort needed to build lasting knowledge\n• Skills fade fast\n• Over-reliance mirrors other dependency patterns, such as always using a calculator before understanding arithmetic\n• The problem is not the tool itself, but the habit of bypassing the thinking process entirely",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "The Dependency Trap Explained",
+          "subtitle": "When shortcuts replace genuine understanding",
+          "slidecontent": "• Students using AI to complete tasks without first attempting them independently\n• Repeated reliance on AI answers gradually weakens problem-solving muscles\n• Skills fade fast\n• The brain strengthens through struggle, not through receiving ready-made solutions\n• Over time, students lose confidence in their own ability to think without assistance",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reclaiming Skills From AI",
+          "subtitle": "Rebuilding Confidence Through Independent Practice",
+          "slidecontent": "• Try tasks without AI first\n• Make mistakes on purpose\n• Check your own work\n• Build habits, not shortcuts\n• Celebrate small wins daily",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Points to carry forward with you",
+          "slidecontent": "• AI can hinder real learning\n• Struggle builds genuine skill\n• Use AI as a tool, not a crutch\n• Check your own understanding first\n• Try the task yourself first",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a question that might feel a little uncomfortable. When a student uses AI to write their essay, and then puts their name on it and submits it, who actually did the learning? The words might look polished, the argument might seem coherent, but if the student didn't wrestle with the ideas themselves, something important has been missed. Learning isn't only about producing a finished piece of work. It happens in the struggle, in the moments where you're not quite sure how to phrase something, or how to structure your argument, and you have to figure it out. That process is where expierience is built. When AI skips that process entirely, those skills simply don't develop. So this lesson is really about exploring that tension. AI can be genuinely useful in education, but there's a real risk that convenience becomes a shortcut, and that shortcut comes at the cost of actual understanding.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "There is a real cost to taking the easy route, and it is not always obvious straight away. When a student uses AI to complete a task for them, they skip the part that actually builds understanding, the bit where you struggle, make mistakes, and figure things out. That struggle feels uncomfortable, but it is where genuine learning happens. Without it, knowledge does not stick, and skills do not develop. The worrying thing is that this happens gradually. Each shortcut feels like a small convenience, but over time those gaps in foundational knowledge start to add up. Critical thinking, writing, problem-solving, these are not skills you can absorb passively. They require practice and effort. So while AI can feel like progress, if it is doing the thinking instead of supporting it, it is quietly working against the learner. Convenience in the short term can mean lost capability in the long term.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So what do we actually mean by the dependency trap? It's simpler than it sounds. When a student uses AI to complete a task without doing any of the thinking themselves, they get the answer, but they miss the learning. the brain genuinely needs to struggle a little in order to build understanding. That productive effort is where real learning happens. When AI removes that effort repeatedly, something quietly starts to erode. Problem-solving skills, critical thinking, the ability to reason through something independently. It doesn't happen overnight, and that's partly what makes it so tricky. By the time anyone notices, the habit is already well established. What's more, a student can start to feel confident based entirely on what the AI produced, rather than what they themselves actually understand. And if you've always borrowed the answer, you never really find out what you know. That's the trap.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So what do we actually mean by the dependency trap? Well, think of it this way. When a student uses AI to complete a task rather than work through it themselves, they miss the struggle, and that struggle is where the real learning happens. Over time, the skills they should be building simply never get the chance to develop properly. And here is where it gets a bit concerning. As students rely more heavily on AI, their confidence in their own abilities tends to drop. They start to doubt whether they can manage without it. What began as a helpful shortcut gradually becomes something they feel they cannot function without. So instead of AI being a tool they choose to use, it becomes a crutch they feel they need. And when AI is not available, or not appropriate, learning effectively grinds to a halt. That is the trap in a nutshell, and it is more common than many educators currently realise.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about what we mean by the dependency trap. When a student uses AI to simply generate an answer, without actually wrestling with the problem themselves, they miss the part that matters most: the thinking. And here's the thing, that thinking is not just a means to an end. It is how knowledge gets built and retained. Every time we bypass that mental effort, we weaken it, a bit like a muscle that stops being used. Skills that are never practised properly fade surprisingly quickly. Now, this is not a new problem. Think about calculators. When students reach for one before they even understand basic arithmetic, the tool becomes a crutch rather than an aid. AI can work in exactly the same way. The concern is not that these tools exist, because they can be genuinely useful. The concern is the habit of skipping the thinking process altogether. That habit is where the real damage happens.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what we're calling the dependency trap, because this is really at the heart of what we need to understand. When a student turns to AI before they've even attempted a task themselves, they're skipping the very part of learning that actually builds capability. And here's the thing: if that becomes a habit, those problem-solving skills start to weaken. It's a bit like a muscle you stop using. The brain genuinely grows through the struggle of working something out, not through receiving a ready-made answer. That productive frustration, that moment of \"I'm not sure, let me think this through,\" is where real learning happens. When AI removes that moment repeatedly, students gradually lose trust in their own thinking. They start to feel like they can't function without assistance, and that's a serious problem. Not because AI is bad, but because it's being used in a way that quietly undermines confidence and genuine understanding.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So how do we actually start reclaiming those skills? The first step is before you reach for AI, have a go yourself. Even if you struggle, that struggle is where the learning happens. And here is something that might surprise you: making mistakes on purpose is genuinely useful. When you push yourself into uncomfortable territory, you discover exactly where your gaps are. Once you have had a try, check your own work before seeking any help. Ask yourself, does this make sense? Is this right? That self-checking habit builds real confidence over time. The goal here is not to find shortcuts, it is to build consistent habits that stick. Think of it like going to the gym. One session does not transform you, but showing up regularly absolutely does. And please, celebrate the small wins along the way. Finished a task unaided? That matters. Noticed an error yourself? Brilliant. Those little moments add up to something significant.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "The core message of this lesson is that AI, as brilliant as it is, can actually get in the way of real learning if we rely on it too heavily. When things feel difficult, that struggle is not a sign that something is going wrong. It is actually where the learning happens, where genuine experiences are built. So the invitation here is to shift how you think about AI. Use it as a tool to support your thinking, not as a shortcut that replaces it. Before you turn to AI for help, ask yourself whether you actually understand what you are working on. Have a go at the task yourself first. Even if your first attempt is messy or uncertain, that effort matters enormously. AI works best when you bring something to the conversation, not when you hand the whole problem over. Keep that in mind as you move forward, and you will get so much more out of both your learning and the technology itself.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

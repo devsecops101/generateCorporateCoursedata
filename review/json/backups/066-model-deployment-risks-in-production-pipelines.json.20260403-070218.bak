@@ -1,0 +1,105 @@
+{
+  "Course Title": "Model Deployment Risks in Production Pipelines",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Issues with versioning, rollback, and environment drift.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic understanding of software development concepts, some familiarity with version control tools such as Git, and ideally a little hands-on experience deploying or maintaining applications in any environment.",
+  "Learning objectives": "By the end of this course, you will be able to identify common deployment risks in production pipelines, explain the principles of versioning and rollback strategies, and recognise the causes and consequences of environment drift. You will also apply practical techniques to manage and mitigate these risks, helping you build more stable and reliable software deployment workflows.",
+  "lessons": [
+    {
+      "lesson title": "Model Deployment Risks in Production Pipelines",
+      "order": 1,
+      "Description": "Deploying a machine learning model into a production pipeline introduces a range of risks that can quietly undermine the reliability of your system. This lesson explores the most common pitfalls, including how poor versioning practices can make it difficult to track which model is running in which environment, and why having a clear rollback strategy is essential when something goes wrong. You will also learn about environment drift, which occurs when the conditions under which a model was trained gradually diverge from the conditions it encounters in production. By the end of this lesson, you will have a practical understanding of how to identify these risks early and put sensible safeguards in place to protect your deployment process.",
+      "status": "draft",
+      "content": "Issues with versioning, rollback, and environment drift.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Model Deployment Risks Overview",
+          "subtitle": "Navigating Risk in Live ML Systems",
+          "slidecontent": "• Deploying ML models to production introduces risks that go beyond writing good code\n• Versioning, rollback, and environment drift are among the most common sources of failure\n• Small mismatches between training and production environments can silently break a model\n• Real consequences\n• Understanding these risks early helps teams avoid costly incidents in live systems"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Versioning Pitfalls and Challenges",
+          "subtitle": "When versions clash, pipelines break down",
+          "slidecontent": "• Mismatched library versions between development and production environments causing silent failures\n• Model files and their dependencies must be versioned together, not separately\n• Version conflicts often surface only under real traffic\n• Pinning exact dependency versions in requirements files reduces unexpected breakage at deployment time\n• Semantic versioning alone does not capture environment-level differences like OS patches or hardware drivers\n• Even minor version bumps in frameworks such as scikit-learn or TensorFlow can alter model outputs"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Versioning Pitfalls and Conflicts",
+          "subtitle": "When versions clash, pipelines break down.",
+          "slidecontent": "• Mismatched library versions between development and production environments cause silent failures\n• Even minor version bumps in dependencies can break model inference\n• No single source of truth for which model version is live\n• Conflicting versions across team members' local setups\n• Lack of version pinning in requirements files leads to unpredictable builds\n• Manual version tracking is error-prone and hard to audit at scale"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Versioning Conflicts and Their Risks",
+          "subtitle": "When versions clash, pipelines break down.",
+          "slidecontent": "• Different versions break compatibility\n• Libraries clash silently\n• Models behave unexpectedly\n• Pipelines fail without warning\n• Rollbacks become complicated"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Rollback Strategies and Limitations",
+          "subtitle": "When rollbacks fail to fully restore stability",
+          "slidecontent": "• Rollback restores a previous model version but not always the surrounding environment or data state\n• Dependent services may have already adapted to the newer model's outputs\n• Schema changes in databases or APIs can block a clean rollback\n• Stale feature pipelines still feeding the old model incorrect or mismatched data\n• Rollback alone rarely enough\n• Testing rollback procedures in staging before a real incident reduces recovery time significantly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Rollback Strategies and Limitations",
+          "subtitle": "When rollback fails to fix problems",
+          "slidecontent": "• Rollback restores old code, not data\n• Databases may already be migrated\n• Users hold corrupted state\n• Dependencies conflict silently\n• Rollback can break other services"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risks Going Forward",
+          "subtitle": "Practical steps to reduce deployment risk",
+          "slidecontent": "• Pin all dependency versions\n• Use environment config files\n• Automate rollback triggers\n• Test in staging first\n• Monitor drift continuously"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer model deployment",
+          "slidecontent": "• Version everything, always\n• Rollback plans save deployments\n• Environments must match exactly\n• Drift causes silent failures\n• Test before every release\n• Start small, scale carefully"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on model deployment risks in production pipelines. Now, a lot of people assume that once a model is trained and performing well, the hard work is done. But deploying that model into a live system is where things can quietly go wrong. Issues like versioning problems, difficulty rolling back to a previous model, and subtle differences between your training environment and your production environment are some of the most common causes of failure we see in real-world ML systems. And these are not just technical inconveniences. When a model breaks in production, there can be genuine business consequences, whether that is financial loss, poor user experience, or damaged trust. The good news is that understanding these risks before they happen puts you in a much stronger position to prevent them. So throughout this lesson, we are going to look at exactly what can go wrong and how to protect your systems against it."
+        },
+        {
+          "number": 2,
+          "script": "One of the trickiest problems in model deployment is versioning, and it catches a lot of teams off guard. You might have a model working perfectly on your laptop, but the moment it hits production, something quietly breaks. Often the culprit is a mismatch between the library versions you used during development and what is actually installed in the production environment. The important thing to understand is that your model file and all its dependencies need to be versioned together as a unit, not managed separately. And here is the thing: these conflicts frequently stay hidden until real user traffic starts flowing through the system. Pinning your exact dependency versions in a requirements file is a simple habit that saves a lot of headaches. But even that is not the whole story, because semantic versioning does not account for differences at the operating system or hardware level. Even a minor update to something like scikit-learn or TensorFlow can subtly change your model's outputs."
+        },
+        {
+          "number": 3,
+          "script": "Versioning might sound like a minor technical detail, but it is one of the most common sources of production failures. Imagine you train a model on your laptop using one version of a library, but the production server is running a slightly different version. The model might load without any errors, yet produce completely wrong predictions, and you would have no idea why. Even a small version bump in a dependency can silently break your inference pipeline. Now multiply that problem across a whole team, where everyone has slightly different local setups, and nobody is quite sure which version of the model is actually live in production. Without pinning your dependencies in your requirements files, every new build becomes a bit of a lottery. And if you are tracking versions manually, perhaps in a spreadsheet or just relying on memory, that process will eventually break down as the project grows. Proper version control is not optional; it is foundational."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most common headaches in production pipelines is versioning conflicts, and they can be surprisingly sneaky. Imagine you update a library or a framework, and suddenly your model starts producing strange results, or the pipeline stops working altogether, and nobody quite knows why. That is the danger here. Different versions of libraries, dependencies, or even the model itself can quietly clash with one another without throwing an obvious error message. The model might still run, but it behaves in ways you did not expect, which is arguably worse than a clean failure. And when things do go wrong, rolling back to a previous version is rarely as simple as it sounds, because other parts of the pipeline may have already moved on. So versioning is not just a housekeeping task. It is a genuine risk management concern, and getting it right from the start saves you a great deal of pain further down the line."
+        },
+        {
+          "number": 5,
+          "script": "Rollback sounds like a safety net, and in many ways it is, but it comes with some important limitations that catch teams off guard. When you roll back to a previous model version, you're only restoring the model itself. The world around it has often moved on. Other services may have already adjusted their behaviour based on the newer model's outputs. Your database schemas or APIs might have changed in ways that simply aren't compatible with the older version. And your feature pipelines could still be feeding that old model data it wasn't originally designed to handle. So the rollback goes through, but the system still behaves unexpectedly. This is why rollback alone is rarely sufficient as a recovery plan. The good news is that you can significantly reduce your recovery time by practising rollback procedures in a staging environment before you ever need them in a real incident. Preparation makes an enormous difference here."
+        },
+        {
+          "number": 6,
+          "script": "Rollback sounds like a safety net, and in many cases it is. But it is important to understand what rollback actually does, and more importantly, what it does not do. When you roll back a deployment, you are restoring the previous version of your code. That is it. You are not rewinding time. If your database has already been migrated to a new schema, that migration does not automatically reverse itself. If some of your users have already interacted with the new version and their session or account data has been written in a new format, rolling back the code does not clean that up. You can end up with old code trying to read data it no longer understands. There is also the question of dependencies. Other services in your system may have already adapted to the new version, and suddenly reverting can cause silent failures elsewhere. So rollback is a useful tool, but it is not a guaranteed fix, and it carries its own risks."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand what can go wrong, let's talk about what we can actually do about it. The first thing is to lock down your dependencies, meaning you specify the exact version of every library your model relies on, so nothing changes unexpectedly between environments. Alongside that, use configuration files to define your environment settings clearly, rather than relying on anything being set up manually. It is also worth building in automatic rollback triggers, so that if something goes wrong in production, your system can revert to the previous version without you having to intervene at two in the morning. Before anything reaches production, always test it in a staging environment that mirrors the real thing as closely as possible. And finally, once your model is live, keep a close eye on it. Data and user behaviour change over time, and monitoring for model drift means you can catch performance problems early, before they cause real damage."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. Whatever you deploy, make sure you're versioning it, your models, your configs, your pipelines, all of it. That habit alone will save you enormous headaches. And always have a rollback plan ready before you need one, because you really do not want to be figuring that out under pressure. Keep your environments as consistent as possible, because differences between staging and production are where things quietly go wrong. Speaking of quiet, watch out for data drift. It does not announce itself, it just slowly degrades your model's performance until someone notices something feels off. Always run your tests before every single release, no matter how small the change seems. And when you're scaling up, do it gradually. Start with a small slice of traffic, check that everything looks healthy, then grow from there. These principles are straightforward, but following them consistently is what separates reliable deployments from stressful ones."
+        }
+      ]
+    }
+  ]
+}

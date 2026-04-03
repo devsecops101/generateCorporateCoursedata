@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Immigration and Border Processing",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Risks in classification, profiling, and decision support systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how immigration or border control processes work, along with a general interest in how technology is used in public services, is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-driven classification, profiling, and decision support systems used in immigration and border processing contexts. You will also be able to explain how these risks affect individuals and communities, and apply basic frameworks to evaluate the fairness and accountability of AI tools in public sector environments.",
+  "lessons": [
+    {
+      "lesson title": "AI in Immigration and Border Processing",
+      "order": 1,
+      "Description": "This lesson introduces learners to the ways artificial intelligence is being used in immigration and border processing systems, including document verification, risk assessment, and applicant screening. It explores the practical risks that arise when AI is used to classify individuals or support high risk decisions, particularly around issues of bias, fairness, and accountability. Learners will examine how profiling systems can produce discriminatory outcomes, even when they appear objective or data-driven. The lesson also considers the responsibilities of organisations and governments when deploying these tools in contexts where errors can have serious consequences for people's lives. No prior technical knowledge is required, and the content is designed to be accessible to anyone working in or around immigration, policy, or public services.",
+      "status": "draft",
+      "content": "Risks in classification, profiling, and decision support systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI at the Border: Introduction",
+          "subtitle": "Where automation meets human movement.",
+          "slidecontent": "• AI screens travellers daily\n• Borders use automated decisions\n• Errors affect real people\n• Bias risks are significant\n• Human oversight still essential"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the AI Landscape",
+          "subtitle": "Tools, terms, and core concepts explained.",
+          "slidecontent": "• AI automates decisions fast\n• Algorithms learn from data\n• Models can classify people\n• Bias enters through training\n• Tools vary in transparency"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Bias in Classification Systems",
+          "subtitle": "When Data Reflects Historical Inequalities",
+          "slidecontent": "• Training data encodes past discrimination\n• Biased inputs create biased outputs\n• Minorities face higher error rates\n• Historical patterns repeat automatically\n• Audits rarely catch hidden bias"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Profiling Risks and Bias",
+          "subtitle": "When Systems Inherit Human Prejudices",
+          "slidecontent": "• AI systems trained on historical data can absorb and replicate existing biases in border decisions\n• Nationality, ethnicity, and travel patterns often become proxies for suspicion\n• Bias compounds quietly\n• Travellers from certain regions may face higher rates of secondary screening without clear justification\n• Small errors in training data can produce systematically unfair outcomes at scale"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Profiling Risks and Bias",
+          "subtitle": "When Algorithms Inherit Human Prejudice",
+          "slidecontent": "• AI systems trained on historical data can absorb and replicate existing biases in immigration decisions\n\n• Certain nationalities, ethnicities, or travel patterns may be flagged disproportionately\n\n• Bias compounds over time\n\n• Risk scoring tools can disadvantage applicants from regions with historically higher refusal rates\n\n• Automated profiling may appear objective but reflects the prejudices embedded in its training data"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Bias and Profiling Risks",
+          "subtitle": "When Data Reflects Historical Inequalities",
+          "slidecontent": "• AI systems trained on historical immigration data can inherit and reinforce past patterns of discrimination\n• Certain nationalities, ethnicities, or travel profiles may be flagged disproportionately\n• Biased outputs\n• Risk scores built on flawed assumptions can appear objective but embed unfair judgements\n• Automated profiling may disadvantage applicants from regions with limited digital footprints"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Bias in AI Systems",
+          "subtitle": "Strategies for Fairer Automated Decisions",
+          "slidecontent": "• Audit training data regularly\n• Remove protected characteristic proxies\n• Test outputs across demographic groups\n• Involve affected communities early\n• Monitor decisions after deployment"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for responsible AI use",
+          "slidecontent": "• AI systems in border processing can reflect and amplify existing biases in training data\n• Classification errors carry real consequences for real people\n• Human oversight is not optional\n• Profiling based on nationality, ethnicity, or religion raises serious legal and ethical concerns\n• Decision support tools should inform officers, not replace their judgement\n• As a next step, review your organisation's current AI policies against the fairness principles covered in this course"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in immigration and border processing. This is a topic that sits right at the intersection of technology and some of the most consequential decisions a government can make. Every single day, AI systems are quietly working in the background, screening millions of travellers, flagging documents, and feeding into decisions about who gets through and who does not. And because so many of those decisions are now automated, the stakes are incredibly high. When these systems get things wrong, it is not just an inconvenience. It can mean someone is wrongly detained, denied entry, or separated from their family. There are also serious concerns about bias built into these systems, which can disproportionately affect certain groups of people. So while AI brings real efficiency to border operations, human oversight remains absolutely critical. Throughout this course, we will explore how these systems work, where they fall short, and what responsible use actually looks like in practice."
+        },
+        {
+          "number": 2,
+          "script": "Before we dive into how AI is being used at borders and in immigration systems, it helps to get clear on what we actually mean by AI and how it works. At its core, AI is about getting computers to make decisions quickly, often far faster than any human could. It does this by learning patterns from large amounts of data. So rather than being told exactly what to do, the system figures things out from examples. One of the things these systems do particularly well is classification, which in an immigration context might mean sorting people into categories based on risk or eligibility. But here is where it gets important: if the data used to train the system contains biases, the system will learn and repeat those biases. And not all AI tools are equally open about how they reach their conclusions. Some are quite transparent, others are what we call \"black boxes.\" Keeping these ideas in mind will help everything else in this course make much more sense."
+        },
+        {
+          "number": 3,
+          "script": "One of the most serious problems with AI classification systems is that they learn from historical data, and that historical data often reflects years, sometimes decades, of discriminatory practices. So if past decisions were biased against certain groups, the AI simply learns to repeat those same patterns, automatically and at scale. The phrase you will often hear is \"garbage in, garbage out,\" but in this context it is more troubling than that, because the input is not random noise, it is structured inequality. What we see in practice is that people from minority backgrounds tend to experience significantly higher error rates when these systems are used to make decisions about them. And here is the really concerning part: standard audits frequently miss this kind of bias because it is baked into the model in subtle ways that are genuinely difficult to detect. So the system appears to be working correctly, while quietly producing unfair outcomes for the most vulnerable people going through the process."
+        },
+        {
+          "number": 4,
+          "script": "One of the most serious concerns with AI in border processing is the risk of bias. These systems learn from historical data, and if that data reflects past discrimination or unfair decisions, the AI will simply carry those patterns forward. What makes this particularly troubling is that bias can creep in quietly. The system might start using nationality, ethnicity, or travel history as indirect signals for suspicion, even when there is no legitimate reason to do so. The practical result is that travellers from certain parts of the world end up being flagged for additional screening far more often than others, and often without any clear justification. And because AI operates at scale, even a small flaw in the training data can affect thousands or millions of decisions. So the question we need to ask is not just whether the technology works, but whether it works fairly for everyone passing through."
+        },
+        {
+          "number": 5,
+          "script": "One of the most serious concerns with AI in immigration is the risk of bias. These systems learn from historical data, and that data reflects decades of human decision-making, which was not always fair or consistent. So if certain nationalities or ethnicities were refused more often in the past, the algorithm can learn to treat those groups with greater suspicion going forward. What makes this particularly tricky is that the system appears completely objective. It is just numbers and scores, right? But underneath, it is replicating the same prejudices that existed before. And the problem does not stay the same size. It actually grows over time, because each biased decision feeds back into the data, reinforcing the pattern. So applicants from regions with historically high refusal rates can find themselves at a disadvantage before a human even looks at their case. Appearing neutral and actually being neutral are two very different things, and that distinction really matters here."
+        },
+        {
+          "number": 6,
+          "script": "One of the most serious concerns with AI in immigration is the risk of bias. These systems are trained on historical data, and that data often reflects past discrimination, whether that is how certain nationalities were treated, which applications were approved, or which travellers were flagged for extra checks. The AI learns from those patterns and can repeat them at scale. What makes this particularly tricky is that a risk score generated by an algorithm can look very objective and neutral, when actually it is built on deeply flawed assumptions. Certain groups, particularly people from regions with less digital history, fewer online records, or limited travel documentation, may be consistently disadvantaged simply because the system does not have enough data about them. So rather than removing human bias, AI can actually amplify it and make it harder to challenge because it appears to come from a machine rather than a person."
+        },
+        {
+          "number": 7,
+          "script": "Bias in AI systems is one of the most serious concerns in immigration processing, so let's look at how we can actively work to reduce it. It starts with the data. If the information used to train an AI reflects historical inequalities, the system will simply repeat those patterns, so regular audits of that data are essential. We also need to watch out for what are called proxy variables, things like postcode or certain behavioural patterns that might seem neutral but can actually stand in for protected characteristics like race or religion. Once a system is built, we should test how it performs across different demographic groups to spot any unfair patterns early. Crucially, the communities most affected by these decisions should have a voice in shaping the system from the start, not just at the end. And even after deployment, ongoing monitoring is vital, because bias can emerge over time as circumstances change."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The core message of this course is that AI in border processing is genuinely powerful, but it comes with serious responsibilities. If the data used to train these systems contains bias, the system will reflect that bias, and real people will feel the consequences of those errors. That's why human oversight isn't a nice-to-have, it's essential. Officers must remain in the loop and exercise their own judgement, rather than simply deferring to what an algorithm suggests. We've also seen that profiling people based on nationality, ethnicity, or religion isn't just ethically problematic, it can breach legal protections as well. AI tools should support decision-making, not replace it. As a practical next step, I'd encourage you to look at your organisation's existing AI policies and ask honestly whether they reflect the fairness principles we've covered here. That kind of reflection is where real, meaningful change begins."
+        }
+      ]
+    }
+  ]
+}

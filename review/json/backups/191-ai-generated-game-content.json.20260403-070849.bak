@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI-Generated Game Content",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Risks in procedural generation and player experience.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with video games as a player, along with an openness to exploring how artificial intelligence is shaping the games industry, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-generated content in game development and explain how procedural generation can impact player experience. You will also apply practical strategies to evaluate and manage those risks, ensuring that AI-driven tools are used responsibly and effectively within a gaming context.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Game Content",
+      "order": 1,
+      "Description": "This lesson introduces the growing use of artificial intelligence in generating game content, from procedurally created levels and environments to AI-driven characters and narratives. You will explore how these tools can enhance player experience by offering variety and replayability, whilst also examining the risks that come with relying on automated content generation. We will look at practical examples of where AI-generated content has succeeded and where it has fallen short, helping you to develop a balanced understanding of its potential and its limitations. By the end of this lesson, you will be better equipped to think critically about how AI shapes the games players interact with, and what developers need to consider when integrating these systems responsibly.",
+      "status": "draft",
+      "content": "Risks in procedural generation and player experience.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Game Content",
+          "subtitle": "Shaping Play Through Procedural Generation",
+          "slidecontent": "• AI tools now help create vast amounts of in-game content automatically\n• Procedural generation builds levels, characters, and quests without manual design for each one\n• Faster, cheaper\n• Players encounter unique experiences shaped by algorithms rather than hand-crafted decisions\n• Understanding how this works helps you spot the risks before they affect your players"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Procedural Generation Explained",
+          "subtitle": "How algorithms build game worlds automatically",
+          "slidecontent": "• Algorithms create content automatically\n• No human designs each piece\n• Rules define possible outcomes\n• Randomness adds variety\n• Used in maps, levels, items"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Procedural Generation: Core Risks",
+          "subtitle": "Unpredictability Can Undermine Player Trust",
+          "slidecontent": "• Procedurally generated levels can produce unbeatable or unplayable sections by accident\n• Players lose trust quickly when content feels broken\n• Seed-based generation makes bugs hard to reproduce and fix\n• Difficulty spikes caused by random combinations frustrate new players most\n• No human review stage means poor content can ship unnoticed"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Balancing Creativity and Control",
+          "subtitle": "When AI Creativity Needs Human Guardrails",
+          "slidecontent": "• AI can generate thousands of assets quickly, but quantity does not guarantee quality or coherence\n• Unchecked generation risks producing offensive, repetitive, or broken content\n• Human review acts as a filter\n• Design teams set rules and boundaries that guide what the AI is allowed to create\n• Playtesting remains essential for catching problems that automated checks miss"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Balancing Creativity and Control",
+          "subtitle": "When AI Creativity Needs Human Oversight",
+          "slidecontent": "• AI can produce unexpected or off-brand content without proper guardrails in place\n• Human review catches tone, cultural sensitivity, and narrative consistency issues\n• Essential for quality control\n• Procedural generation left unchecked risks flooding players with repetitive or incoherent experiences\n• Simple approval workflows help teams stay in control without slowing down production"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Balancing Creativity and Control",
+          "subtitle": "When AI Meets Human Design Intent",
+          "slidecontent": "• AI suggests, humans decide\n• Set clear creative boundaries\n• Review all generated output\n• Override when quality drops\n• Your vision stays central"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risks in Practice",
+          "subtitle": "Practical Steps to Reduce Common Risks",
+          "slidecontent": "• Test content before release\n• Set clear generation rules\n• Review outputs regularly\n• Involve players in feedback\n• Patch problems quickly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for responsible AI generation",
+          "slidecontent": "• Test generated content thoroughly\n• Players notice broken experiences\n• Bias hides in training data\n• Human review stays essential\n• Start small, scale carefully"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI-generated game content. Over the past few years, AI tools have become genuinely powerful at creating game content automatically, and on a massive scale. We're talking about levels, characters, quests, entire worlds, all built by algorithms rather than a designer sitting down and crafting each one by hand. The big appeal here is obvious: it's faster and far cheaper to produce. But here's the thing, when players step into those worlds, their experience is being shaped by procedural systems rather than deliberate human choices. That shift has some real implications. Sometimes it works brilliantly and gives players something fresh and surprising every time they play. Other times, it can produce content that feels hollow, repetitive, or even harmful in ways nobody anticipated. So throughout this lesson, we're going to look at how these systems actually work, because once you understand the mechanics behind them, you'll be much better placed to spot the problems before they reach your players."
+        },
+        {
+          "number": 2,
+          "script": "Before we dive into AI-generated content specifically, it helps to understand the broader idea it sits within, which is procedural generation. At its core, procedural generation simply means that a computer algorithm is doing the creative heavy lifting rather than a human designer. Instead of an artist or level designer manually placing every tree, corridor, or item in a game, the algorithm follows a set of rules to build that content automatically. Those rules define the boundaries of what is possible, so the results always feel like they belong in the game world. Then, on top of those rules, you introduce an element of randomness, and that is what keeps things feeling fresh and unpredictable each time you play. You will find procedural generation used all over modern games, from generating sprawling maps and dungeon layouts to creating unique weapons and loot. It is a powerful technique, and understanding it gives us the perfect foundation for exploring how AI takes things even further."
+        },
+        {
+          "number": 3,
+          "script": "Procedural generation is a powerful tool, but it comes with some real risks that are worth understanding from the start. Because the content is created algorithmically rather than by hand, there is always a chance that the system produces something that simply does not work properly, a level that cannot be completed, or a section so difficult it feels completely unfair. Players are not forgiving when this happens. If something feels broken, trust disappears very quickly. What makes this trickier is that procedural bugs are notoriously difficult to track down, because the content is built from a seed value that may be hard to replicate exactly. New players tend to suffer the most when random combinations create sudden difficulty spikes, because they do not yet have the skills to push through. And without a human review stage in the pipeline, poor quality content can slip through and reach players without anyone catching it first."
+        },
+        {
+          "number": 4,
+          "script": "So AI can be incredibly productive, generating hundreds or even thousands of assets in the time it would take a human team to produce just a handful. But speed and volume alone do not make a game good. Left completely unchecked, AI tools can produce content that is repetitive, nonsensical, or even offensive, and none of that belongs in a finished product. This is why human oversight is so important. Designers act as gatekeepers, setting clear rules about what the AI is and is not allowed to create, essentially giving it a creative brief with firm boundaries. Automated checks can catch some obvious problems, but they are not foolproof. Real playtesting, with actual people playing through the game, is still the most reliable way to spot issues that slip through the cracks. The goal is a genuine partnership, where AI handles the heavy lifting and humans make sure the results are actually worth using."
+        },
+        {
+          "number": 5,
+          "script": "So AI can be wonderfully creative, but that creativity does need some boundaries. Left entirely to its own devices, AI can produce content that feels off-brand, culturally insensitive, or just tonally wrong for your game. That is why human oversight is so important. Having someone review AI-generated content means you can catch those issues before they ever reach your players. And this is especially true with procedural generation. If you are automatically churning out quests, dialogue, or environments at scale, without any checks in place, you risk flooding your game with content that feels repetitive or incoherent. Players notice that, and it damages the experience. The good news is that you do not need a complicated review process to stay in control. Even a simple approval workflow, where a team member signs off before content goes live, gives you that safety net without grinding your production to a halt. It is about finding the right balance between speed and quality."
+        },
+        {
+          "number": 6,
+          "script": "One of the most important things to understand when working with AI-generated content is that you are always in charge. Think of the AI as a very enthusiastic assistant who is full of ideas, but who needs guidance and direction from you. Before you even start generating content, it really helps to define your creative boundaries clearly. What style are you going for? What tone? What fits your game world and what absolutely does not? Once you have that clarity, you can use it to evaluate everything the AI produces. And you will need to review all of it, because the quality can vary quite a lot. Sometimes the output is brilliant, and sometimes it misses the mark entirely. When that happens, do not be afraid to reject it and try again, or simply do it yourself. The AI is a tool to support your vision, not replace it. Your creative intent should be the thread running through every single decision you make."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to manage them. The first thing is to test your generated content thoroughly before it ever reaches your players. You want to catch problems early, not after launch. Alongside that, it really helps to set up clear rules and boundaries for your AI system, essentially telling it what is and is not acceptable to produce. But testing once is not enough. You should be reviewing the outputs on a regular basis, because AI behaviour can shift in unexpected ways over time. Your players are also a brilliant resource here. Encourage them to report anything that feels off or inappropriate, and take that feedback seriously. And when something does go wrong, act on it quickly. A fast patch or fix shows your players that you care about their experience. These steps together give you a solid, practical foundation for keeping AI-generated content safe and enjoyable."
+        },
+        {
+          "number": 8,
+          "script": "Before we wrap up this lesson, let's bring together the most important things to keep in mind when working with AI-generated content. First, always test what the AI produces. Don't assume it works correctly just because it looks right at first glance. Players are incredibly perceptive, and a broken or jarring experience will pull them straight out of the game. It's also worth remembering that AI models learn from existing data, and that data can carry hidden biases, so keep a critical eye on what gets generated. That leads nicely into the next point, which is that human review is not optional. You are the creative and ethical gatekeeper here, not the AI. And finally, resist the temptation to go big straight away. Start with something small and manageable, see how it performs, and then scale up gradually once you're confident it's working well. These principles will help you use AI responsibly and effectively in your game projects."
+        }
+      ]
+    }
+  ]
+}

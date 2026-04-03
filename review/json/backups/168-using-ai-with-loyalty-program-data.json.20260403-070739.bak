@@ -1,0 +1,105 @@
+{
+  "Course Title": "Using AI with Loyalty Program Data",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Risks in profiling and targeted offers.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with loyalty programme concepts and everyday computer use is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI to analyse loyalty programme data, and explain how profiling and targeted offers can raise ethical and legal concerns for hospitality and travel businesses. You will also apply practical strategies to recognise and reduce those risks, ensuring that your organisation handles guest data responsibly and in line with current data protection guidelines.",
+  "lessons": [
+    {
+      "lesson title": "Using AI with Loyalty Program Data",
+      "order": 1,
+      "Description": "This lesson introduces beginners to the practical and ethical considerations of using artificial intelligence alongside loyalty programme data. You will explore how AI can analyse customer behaviour and purchasing patterns to generate personalised offers and targeted communications. However, the lesson also highlights the significant risks involved, including unintended profiling, data bias, and the potential to treat customers unfairly or unlawfully. By the end of the lesson, you will have a clearer understanding of how to use AI responsibly when working with sensitive loyalty data, and how to recognise when its outputs may cause harm. The aim is to give you a solid, grounded foundation so you can approach AI tools with both confidence and caution.",
+      "status": "draft",
+      "content": "Risks in profiling and targeted offers.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI and Loyalty Data",
+          "subtitle": "Where data meets intelligent decision-making",
+          "slidecontent": "• Loyalty programmes collect rich data\n• AI analyses patterns quickly\n• Insights drive targeted offers\n• Profiling carries real risks\n• Smart use requires careful thought"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of AI-Driven Profiling",
+          "subtitle": "When personalisation crosses privacy boundaries",
+          "slidecontent": "• AI can build detailed profiles from loyalty data that reveal sensitive personal habits and circumstances\n• These profiles may expose information members never intended to share\n• Highly targeted offers can feel intrusive or even discriminatory\n• Vulnerable customers (such as those with debt or health issues) face the greatest risk\n• Data misuse can erode trust and trigger regulatory penalties\n• Privacy boundaries are easy to cross without clear governance in place"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Profiling Risks and Concerns",
+          "subtitle": "Privacy, bias, and consent matter most.",
+          "slidecontent": "• AI can build detailed customer profiles from loyalty data without customers realising it\n• Profiling at scale raises serious privacy concerns\n• Biased training data can lead to unfair or discriminatory offers for certain customer groups\n• Many customers have not explicitly consented to having their behaviour analysed by AI\n• Regulations like GDPR place strict limits on automated profiling of individuals\n• Transparency about how data is used builds trust and reduces legal risk"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Profiling Risks and Bias",
+          "subtitle": "When Patterns Reinforce Unfair Outcomes",
+          "slidecontent": "• AI learns from past data\n• Past data contains human bias\n• Biased patterns repeat automatically\n• Some groups get worse offers\n• This can break trust fast"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Profiling Risks and Bias",
+          "subtitle": "When AI Assumptions Mislead Customers",
+          "slidecontent": "• AI learns from past behaviour\n• Past bias gets repeated\n• Wrong offers, frustrated customers\n• Gaps in data mislead AI\n• Fairness checks reduce harm"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Avoiding Discriminatory Targeting Risks",
+          "subtitle": "Protect customers through fair, ethical practices",
+          "slidecontent": "• AI can unintentionally reinforce bias when loyalty data reflects historical inequalities in customer behaviour\n• Avoid targeting offers based on protected characteristics such as age, gender, or ethnicity\n• Proxy variables (like postcode or purchase history) can act as indirect stand-ins for protected traits\n• Regularly audit your AI outputs for patterns that disadvantage particular customer groups\n• Fairness matters\n• Document your targeting criteria so decisions can be reviewed and challenged if needed"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to minimise AI risks.",
+          "slidecontent": "• Audit data before use\n• Remove unnecessary personal details\n• Test offers on small groups\n• Review results regularly\n• Log all AI decisions"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI use",
+          "slidecontent": "• Always question whether AI-generated profiles reflect real customer intent or just statistical patterns\n• Transparency matters\n• Targeted offers can unintentionally discriminate against protected groups if training data carries historical bias\n• Review AI recommendations before acting on them, not after\n• Customers have the right to know how their data shapes the offers they receive\n• As a next step, audit one existing loyalty segment using the responsible AI checklist from this course"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on using AI with loyalty programme data. If you've ever wondered how a retailer seems to know exactly what you want before you do, the answer usually lies in data and artificial intelligence working together. Loyalty programmes are brilliant at collecting detailed information about customer behaviour, things like what people buy, how often they shop, and when they tend to spend. AI can then work through all of that data at remarkable speed, spotting patterns that would take a human analyst weeks to find. Those patterns can be turned into genuinely useful insights, helping businesses offer the right promotions to the right people at the right time. But this isn't a straightforward story of technology solving everything. Profiling customers based on their data carries real ethical and practical risks that we need to take seriously. So throughout this course, we'll be thinking carefully about how to use these tools responsibly and effectively."
+        },
+        {
+          "number": 2,
+          "script": "So we have seen how powerful AI can be when it is applied to loyalty data, but that power comes with some serious risks that we need to talk about honestly. When AI analyses spending patterns over time, it can start to build up a surprisingly detailed picture of someone's life, revealing things like financial struggles, health conditions, or personal circumstances that the customer never consciously chose to disclose. And when that information is used to target people with highly specific offers, it can quickly start to feel intrusive or even unfair, particularly for people who are already in a vulnerable situation. The consequences of getting this wrong are not just reputational. Regulators are paying close attention, and mishandling personal data can lead to significant penalties. The key point here is that these boundaries are genuinely easy to cross, often without any bad intention, which is exactly why having clear governance and ethical guidelines in place is so important before you start building these kinds of systems."
+        },
+        {
+          "number": 3,
+          "script": "Now, using AI with loyalty data is genuinely powerful, but it does come with some real risks we need to talk about. When AI analyses purchasing behaviour, browsing habits, and redemption patterns, it can build surprisingly detailed profiles of individual customers, often without those customers having any idea that's happening. And that raises some serious privacy concerns. There's also the issue of bias. If the data used to train an AI system reflects historical inequalities, the system can end up offering worse deals or fewer rewards to certain groups of people, which is both unfair and potentially discriminatory. On top of that, most customers haven't explicitly agreed to have their behaviour analysed in this way, which creates a consent problem. In the UK and across Europe, GDPR places strict limits on this kind of automated profiling. The good news is that being open and transparent with customers about how their data is used goes a long way towards building trust and staying on the right side of the law."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most important things to understand about AI is that it learns from historical data, and that sounds great in theory, but here is the catch: if that historical data contains human bias, and almost all of it does to some degree, then the AI will simply learn those biased patterns and repeat them, automatically, at scale. So imagine your loyalty programme has historically offered premium rewards to certain customer segments while underserving others. The AI does not question that. It just sees it as normal behaviour and carries it forward. The result is that some groups of customers consistently receive worse offers, fewer recommendations, or less personalised experiences, not because of anything they have done, but because of patterns baked into the past. And when customers notice that, and they do notice, trust erodes very quickly. So before you let AI loose on your loyalty data, it is worth asking: what assumptions are already sitting inside it?"
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the trickier challenges with AI and loyalty data is something called profiling bias. Here is the thing: AI learns by looking at what customers have done in the past. But if that past behaviour already contains unfair patterns or gaps, the AI simply repeats those mistakes, often at scale. So you might end up sending the wrong offers to the wrong people, and that leads to frustrated customers who feel misunderstood or even ignored. It is also worth remembering that data gaps are a real problem. If certain customers are underrepresented in your data, the AI has very little to go on, and it starts making assumptions that can be quite wide of the mark. The good news is that this is manageable. Building in regular fairness checks, where you actively review who is being targeted and how, goes a long way towards reducing harm and making sure your loyalty programme works equitably for everyone."
+        },
+        {
+          "number": 6,
+          "script": "One of the most important things to understand about AI and loyalty data is that it can accidentally reinforce unfair patterns. If your historical data reflects past inequalities, your AI will simply learn from those and repeat them. You also need to be careful about what are called proxy variables. Something like a postcode or a purchase history might seem neutral, but it can actually act as a stand-in for protected characteristics like ethnicity or age, which means you could be discriminating without realising it. So what can you do? Regularly audit your AI outputs and look for patterns where certain groups of customers are consistently receiving worse offers or being excluded altogether. And importantly, document your targeting criteria clearly. If a customer or a regulator ever questions a decision, you need to be able to explain and justify it. Fairness is not just a nice idea here, it is a legal and ethical responsibility."
+        },
+        {
+          "number": 7,
+          "script": "So we've talked about the risks, but how do you actually manage them day to day? It comes down to building good habits into your process. Start by checking your data before you feed it into any AI tool. Ask yourself whether you really need all of it, and strip out any personal details that aren't necessary for the task. When you're ready to test a new AI-generated offer or recommendation, don't roll it out to your entire customer base straight away. Try it with a small group first, see how it performs, and then make adjustments. From there, make it a routine to review your results on a regular basis, because AI models can drift over time and what worked last month might not work as well today. And finally, keep a record of the decisions your AI system makes. That audit trail is invaluable if you ever need to explain or justify an outcome to a customer or a regulator."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The big thing to hold onto is this: AI is brilliant at spotting patterns, but patterns are not the same as intent. Always ask yourself whether what the AI is suggesting actually reflects what your customers want, or whether it is simply repeating what has happened before. That matters especially when it comes to fairness, because if your historical data carries any bias, your AI will carry it forward too, and that can mean certain groups of customers are unintentionally treated differently. So please do review AI recommendations before you act on them, not as an afterthought. And remember, your customers have a right to understand how their data is being used to shape the offers they receive. Transparency is not just good practice, it builds trust. As a practical next step, take one of your existing loyalty segments and run it through the responsible AI checklist we have covered in this course. That is a great place to start."
+        }
+      ]
+    }
+  ]
+}

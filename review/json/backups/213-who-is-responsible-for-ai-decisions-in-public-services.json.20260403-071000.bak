@@ -1,0 +1,105 @@
+{
+  "Course Title": "Who Is Responsible for AI Decisions in Public Services?",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Accountability across vendors, agencies, and policymakers.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how public services operate and a general awareness of artificial intelligence as a technology are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key stakeholders responsible for AI decisions in public services and explain how accountability is shared across vendors, government agencies, and policymakers. You will also apply practical frameworks to recognise where responsibility lies when AI systems affect citizens, helping you navigate real-world scenarios with greater confidence and clarity.",
+  "lessons": [
+    {
+      "lesson title": "Who Is Responsible for AI Decisions in Public Services?",
+      "order": 1,
+      "Description": "When artificial intelligence is used to make decisions in public services, such as allocating benefits, triaging healthcare, or flagging individuals for investigation, it is not always clear who should be held accountable when something goes wrong. This lesson explores the shared and sometimes competing responsibilities of the technology vendors who build AI systems, the public agencies that deploy them, and the policymakers who set the rules governing their use. We will look at real-world examples to understand how accountability can become fragmented, leaving citizens without clear routes to challenge decisions that affect their lives. By the end of this lesson, you will be able to identify the key parties involved in AI decision-making in public services and understand the basic principles that should guide accountability. No prior technical knowledge is required, and the focus throughout is on practical understanding rather than complex theory.",
+      "status": "draft",
+      "content": "Accountability across vendors, agencies, and policymakers.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Decides When AI Fails?",
+          "subtitle": "Tracing fault lines in public AI.",
+          "slidecontent": "• AI systems in public services making decisions that affect real people's lives\n• When something goes wrong, blame is rarely straightforward\n• Multiple parties involved: vendors, government agencies, and elected officials\n• Fault lines often hidden inside contracts and technical systems\n• No single rulebook yet exists\n• This lesson maps where responsibility actually sits"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Mapping the Accountability Gap",
+          "subtitle": "Where accountability ends and gaps begin",
+          "slidecontent": "• No clear owner of decisions\n• Vendors, agencies, public overlap\n• Gaps hide between organisations\n• Blame shifts when things fail\n• Accountability often arrives late"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Mapping the Accountability Chain",
+          "subtitle": "From vendors to frontline decision-makers.",
+          "slidecontent": "• Vendors build the system\n• Agencies deploy it\n• Managers oversee outputs\n• Staff act on decisions\n• Citizens bear the impact"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Who holds which part of the chain?",
+          "slidecontent": "• Vendors responsible for how their AI system is built, tested, and documented\n• Agencies accountable for how they deploy and oversee the tool in their context\n• Frontline staff often the last human in the loop before a decision affects someone\n• Policymakers set the rules\n• No single party holds the whole chain alone\n• Gaps between these roles are where accountability most often breaks down"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Who holds which part of the chain?",
+          "slidecontent": "• Vendors responsible for ensuring their system performs as documented and disclosed\n• Agencies accountable for how and when the AI is deployed\n• Frontline staff still own the final decision in most public service contexts\n• Oversight sits with leadership\n• Policymakers set the legal and ethical boundaries within which everyone else must operate\n• No single party holds the whole chain alone"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Who holds which part of the chain?",
+          "slidecontent": "• Vendors build the system\n• Agencies deploy and configure\n• Staff apply decisions daily\n• Managers oversee outcomes\n• Policymakers set the rules"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Holding AI Accountable Together",
+          "subtitle": "Shared Responsibility Across Every Stakeholder",
+          "slidecontent": "• Vendors, agencies, and policymakers each carry a distinct piece of the accountability puzzle\n• No single actor can be held solely responsible\n• Vendors must document how their systems work and flag known limitations\n• Public agencies must verify that AI tools meet legal and ethical standards before deployment\n• Policymakers set the rules that define what accountability looks like in practice\n• Clear agreements between all parties prevent gaps where responsibility falls through"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI governance",
+          "slidecontent": "• Accountability must be shared\n• Vendors, agencies, policymakers all responsible\n• Document every AI decision\n• Humans stay in control always\n• Review systems regularly\n• Start auditing your AI tools"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "When an AI system makes a decision that affects someone's benefits, housing application, or access to a public service, and that decision turns out to be wrong, who is actually responsible? That question sounds simple, but in practice it is anything but. You might have a private technology company that built the system, a government agency that deployed it, and elected officials who approved the whole thing. Each one can point to someone else. And the real fault lines, the places where accountability breaks down, are often buried deep inside contracts or wrapped up in technical processes that most people never see. There is no single, clear rulebook that tells us how to handle this yet. So what this lesson sets out to do is map the landscape honestly. We will look at where responsibility actually sits, who tends to carry the burden when things go wrong, and why that picture is so much more complicated than it should be."
+        },
+        {
+          "number": 2,
+          "script": "So let's think about what actually happens when an AI system makes a poor decision in a public service. The first question everyone asks is: who is responsible? And more often than not, the honest answer is that nobody is entirely sure. You might have a technology vendor who built the system, a government agency that commissioned it, and a frontline team that uses it every day. Each of those parties has a role, but none of them fully owns the outcome. What tends to happen is that accountability falls into the gaps between those organisations, and it just sits there, unaddressed. When something goes wrong, responsibility gets passed around. The vendor points to the agency, the agency points to the policy, and the people affected are left waiting for answers. And by the time anyone does step forward to take responsibility, the damage is already done. That pattern is what we mean by the accountability gap, and it is exactly what this course is here to explore."
+        },
+        {
+          "number": 3,
+          "script": "So when something goes wrong with an AI system in a public service, who exactly is responsible? The honest answer is that accountability doesn't sit with just one person or organisation. It's spread across a whole chain of people. It starts with the technology vendors, the companies that actually build and train the AI. Then you have the public agencies that choose to adopt and deploy it. Above the frontline, managers are expected to keep an eye on how the system is performing and what decisions it's producing. Then there are the staff members who receive those AI-generated outputs and act on them, often under significant time pressure. And right at the end of that chain are the citizens, the members of the public who experience the real-world consequences of those decisions, whether that's a benefit being approved, a referral being made, or support being denied. Understanding this chain is the first step towards working out where accountability should genuinely sit."
+        },
+        {
+          "number": 4,
+          "script": "So when we talk about accountability for AI in public services, it is rarely one person or one organisation that holds all the responsibility. Think of it as a chain. The company that builds the AI system is responsible for how it is designed, tested, and documented. The public agency that chooses to use it is accountable for how it is deployed and whether it is being properly overseen. Then there are the frontline workers, often the last human involved before a decision actually affects a real person. And sitting above all of this, policymakers are the ones setting the rules that everyone else has to follow. Now, none of these parties holds the entire chain on their own, and that is actually where things get tricky. Because when responsibility is spread across multiple parties, the gaps between them are precisely where accountability tends to break down. That is what we need to pay close attention to throughout this course."
+        },
+        {
+          "number": 5,
+          "script": "So when we talk about accountability in AI-powered public services, it is rarely one person or one organisation carrying the whole responsibility. Think of it more like a chain, where different parties own different links. The vendor who built the system is responsible for making sure it actually does what they said it would do. The agency deploying it is responsible for choosing when and how to use it appropriately. Frontline staff, the people working directly with citizens, still own the final decision in most cases. AI advises; humans decide. Leadership carries the oversight role, making sure everything is running as it should. And sitting above all of that, policymakers define the legal and ethical boundaries that everyone else must work within. The important point here is that no single party holds the entire chain on their own. Accountability is distributed, and understanding where your part of that chain sits is absolutely essential."
+        },
+        {
+          "number": 6,
+          "script": "So when we talk about accountability in AI, it is rarely one person or one organisation sitting at the top of the chain. In practice, responsibility is spread across several layers. The technology companies who build these systems make decisions about how the AI works, what data it learns from, and what its limitations are. Then the public sector agencies who purchase and deploy those systems decide how to configure them and what decisions they will support. On the ground, it is the frontline staff who apply those outputs day to day, and their managers who are watching whether the outcomes are fair and consistent. And sitting above all of that, policymakers are the ones setting the legal and ethical rules that everyone else has to work within. The challenge is that when something goes wrong, each layer can point to another. Understanding who holds which part of the chain is exactly what we need to work through together."
+        },
+        {
+          "number": 7,
+          "script": "So we've established that accountability in AI isn't something one person or one organisation can own entirely. It genuinely has to be shared. Think of it like a puzzle. Vendors bring one piece, because they need to be transparent about how their systems work and honest about their limitations. Public agencies bring another piece, because before they deploy any AI tool, they have a responsibility to check that it actually meets legal and ethical standards. And policymakers bring the third piece, because they're the ones defining what accountability even means in law and in practice. When all three groups are clear on their roles and have solid agreements in place, you avoid those dangerous gaps where something goes wrong and nobody quite knows who should have caught it. The key message here is that shared responsibility only works when every party understands exactly what they're accountable for. Without that clarity, the whole system becomes fragile."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, responsibility for AI in public services doesn't sit with just one person or one organisation. It's shared across vendors, agencies, and the policymakers who set the rules. Everyone has a role to play. Second, documentation matters enormously. Every time an AI system influences a decision, that process needs to be recorded so there's a clear trail if questions arise later. Third, and this is really important, humans must always remain in control. AI should be supporting decisions, not making them autonomously. Fourth, these systems need regular review. Technology changes, and what works today may not be appropriate tomorrow. And finally, I'd encourage you to start looking at the AI tools already in use around you. Begin asking questions, request information about how they work, and think about whether proper oversight is in place. These principles aren't complicated, but they do require commitment and consistency from everyone involved."
+        }
+      ]
+    }
+  ]
+}

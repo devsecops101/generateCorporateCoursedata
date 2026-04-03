@@ -1,0 +1,105 @@
+{
+  "Course Title": "Supply Chain Disruptions and AI Forecasting",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "When AI fails to anticipate shortages or delays.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering supply chains, along with a general interest in how technology supports project planning, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key causes of supply chain disruptions in construction and engineering, and explain how AI forecasting tools are applied to anticipate material shortages and project delays. You will also be able to recognise the limitations of AI-driven forecasting systems and apply practical strategies to manage risk when these tools fail to predict disruptions accurately.",
+  "lessons": [
+    {
+      "lesson title": "Supply Chain Disruptions and AI Forecasting",
+      "order": 1,
+      "Description": "Supply chains are complex networks that can be disrupted by events ranging from natural disasters to sudden shifts in consumer demand, and even the most sophisticated AI forecasting tools can struggle to keep pace. This lesson explores how AI systems are used to predict shortages and delays, and why they sometimes fall short when faced with unexpected or rapidly changing conditions. You will learn about the common causes of supply chain disruption, how AI models are trained and what their limitations are in real-world scenarios. By the end of this lesson, you will have a clearer understanding of how to interpret AI forecasting outputs with a critical eye, and how to support better decision-making when those forecasts miss the mark. No prior technical knowledge is required, and all concepts are explained in plain, practical terms.",
+      "status": "draft",
+      "content": "When AI fails to anticipate shortages or delays.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Misses the Signs",
+          "subtitle": "Gaps in prediction, real-world consequences.",
+          "slidecontent": "• AI predictions sometimes fail\n• Shortages catch businesses off guard\n• Delays ripple across supply chains\n• Real costs, real consequences\n• Forecasting gaps hurt everyone"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Causes of Supply Chain Disruptions",
+          "subtitle": "What triggers disruptions in supply chains",
+          "slidecontent": "• Natural disasters such as floods, earthquakes, and severe storms halting production or transport\n• Sudden spikes in consumer demand outpacing available stock\n• Geopolitical events disrupting trade routes\n• Supplier failures caused by financial collapse or factory shutdowns\n• Over-reliance on a single supplier or region with no backup plan\n• Labour shortages slowing warehousing, logistics, and manufacturing"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When Forecasts Miss the Mark",
+          "subtitle": "The cost of getting it wrong",
+          "slidecontent": "• Empty shelves, angry customers\n• Factories halt without parts\n• Costs spiral out of control\n• Trust in suppliers collapses\n• Recovery takes months, sometimes years"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising AI Forecasting Blind Spots",
+          "subtitle": "Where AI predictions miss critical signals",
+          "slidecontent": "• AI models trained on historical data often miss sudden, unprecedented disruptions like pandemics or geopolitical crises\n• Blind spots grow when training data is outdated\n• Signals from social media, news, or local supplier networks frequently fall outside what AI systems monitor\n• Rare events (called \"black swans\") are systematically underweighted in most forecasting algorithms\n• Human intuition and on-the-ground knowledge remain essential for spotting what the data cannot capture"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising AI Forecasting Blind Spots",
+          "subtitle": "Where AI predictions miss the mark",
+          "slidecontent": "• AI models trained on historical data struggle to predict genuinely novel disruptions like pandemics or geopolitical conflicts\n• Gaps in supplier data lead to blind spots\n• Sudden shifts in consumer behaviour can outpace even the most sophisticated forecasting algorithms\n• Rare, high-impact events (sometimes called \"black swans\") are chronically underrepresented in training datasets\n• AI often misses informal supply chain relationships that experienced procurement teams know instinctively\n• Overconfidence in model outputs can discourage human teams from questioning suspicious predictions"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Real-World Disruption Case Studies",
+          "subtitle": "Lessons From Recent Global Disruptions",
+          "slidecontent": "• The 2021 Suez Canal blockage halted billions in global trade within days\n• COVID-19 exposed how fragile just-in-time supply chains truly are\n• Semiconductor shortages left car manufacturers idle for months\n• Demand surges caught AI forecasting models completely off guard\n• Single-source supplier dependencies amplified every disruption\n• Even well-resourced companies struggled to adapt in real time"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Resilience After Failure",
+          "subtitle": "Strategies for stronger future supply chains",
+          "slidecontent": "• Diversify your supplier base\n• Hold safety stock reserves\n• Map every supply chain node\n• Run regular disruption drills\n• Build strong supplier relationships\n• Review and update plans often"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for smarter supply chains",
+          "slidecontent": "• AI forecasts can fail suddenly\n• Data gaps cause blind spots\n• Diversify your supplier base\n• Monitor signals, act early\n• Human judgement is important\n• Review and adapt regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with a question that might surprise you. If AI is so powerful, why do businesses still get caught off guard by supply chain problems? The truth is, even the most sophisticated forecasting tools have blind spots. There are moments when the data simply does not tell the full story, and those gaps can have very real consequences. A shortage of a critical component, a delay at a port, a sudden spike in demand, these are the kinds of disruptions that can ripple outward and affect businesses, workers, and customers all down the line. And when a forecast misses those warning signs, the costs can be significant, whether that is lost revenue, empty shelves, or broken promises to customers. So throughout this lesson, we are going to look honestly at where AI forecasting falls short, why it happens, and what it means for the people and organisations who depend on getting supply chains right."
+        },
+        {
+          "number": 2,
+          "script": "So, what actually causes a supply chain to fall apart? There are quite a few triggers, and they can come from almost anywhere. Natural disasters are an obvious one, think floods or earthquakes suddenly making it impossible to move goods or keep factories running. Then you have demand spikes, where consumers start buying something faster than suppliers can keep up. Geopolitical tensions are another big factor, because when trade routes get disrupted, products simply cannot get from A to B. Sometimes the problem is closer to home, a key supplier going out of business or shutting down a factory can leave you completely stuck. And that links to another issue, which is putting all your eggs in one basket by relying too heavily on a single supplier or region. Finally, labour shortages across warehousing, logistics, and manufacturing can slow everything down significantly. As you can see, disruptions rarely have just one cause, and that is exactly what makes them so difficult to manage."
+        },
+        {
+          "number": 3,
+          "script": "So what actually happens when a forecast goes wrong? Well, the consequences can be severe and they ripple outwards very quickly. Think about it from the customer's perspective first. They walk into a shop or place an order online, and the product simply isn't there. That damages your reputation almost immediately. But it doesn't stop there. If a manufacturer can't get the parts it needs, the entire production line can grind to a halt. And when production stops, costs start climbing fast, because you're still paying for staff, facilities, and overheads even when nothing is moving. Meanwhile, the relationships you've built with suppliers can come under enormous strain, and trust, once broken, is very difficult to rebuild. Perhaps most sobering of all is the recovery timeline. Getting a supply chain back on track after a serious disruption isn't a matter of days or weeks. It can take months, sometimes considerably longer. This is why accurate forecasting isn't just useful, it's genuinely critical."
+        },
+        {
+          "number": 4,
+          "script": "Now, AI forecasting is powerful, but it is not without its weaknesses, and this is where we need to be honest about its limitations. Most AI models learn from historical data, which means they are essentially looking in the rear-view mirror. When something truly unprecedented happens, like a global pandemic or a sudden geopolitical crisis, the model simply has no reference point for it. These are sometimes called \"black swans,\" rare events that the algorithms consistently underestimate or miss altogether. There is also the problem of what the AI is not watching. Social media chatter, local news, conversations with suppliers on the ground, these signals often sit completely outside what the system monitors. And if the training data itself is outdated, those blind spots only get wider. This is precisely why human judgement is important enormously. Experienced people can sense when something feels off, even when the data looks fine. AI and human insight work best together, not in isolation."
+        },
+        {
+          "number": 5,
+          "script": "So, AI forecasting is powerful, but it does have some real weaknesses worth understanding. The biggest one is that these models learn from historical data, which means they struggle when something genuinely new happens, like a pandemic or a sudden geopolitical crisis. They simply have no reference point. There are also gaps caused by incomplete supplier data, and when consumer behaviour shifts rapidly, even the best algorithms can be caught off guard. Then there are what some people call \"black swan\" events, those rare but catastrophic disruptions that almost never appear in training data, so the model is essentially unprepared for them. AI can also miss the informal relationships and unwritten knowledge that experienced procurement professionals carry in their heads. And perhaps most importantly, when teams trust model outputs too completely, they stop asking critical questions. That blind trust can be just as dangerous as the blind spots themselves. So human judgement remains absolutely essential alongside these tools."
+        },
+        {
+          "number": 6,
+          "script": "Let's look at some real events that brought global supply chains to their knees, because these aren't hypothetical scenarios, they actually happened. Cast your mind back to 2021, when a single container ship blocked the Suez Canal and froze billions of pounds worth of trade in just a matter of days. Then there was COVID-19, which exposed just how vulnerable just-in-time supply chains really are when the unexpected strikes. Around the same time, a shortage of semiconductors left car manufacturers unable to build vehicles for months. What's particularly interesting for our purposes is that even sophisticated AI forecasting models were caught completely off guard by the sudden surges in demand we saw during that period. Companies that relied heavily on a single supplier found that every disruption hit them twice as hard. And here's the sobering part: even large, well-resourced organisations struggled to respond quickly. These examples set the stage for understanding why better forecasting tools are so urgently needed."
+        },
+        {
+          "number": 7,
+          "script": "So, once a disruption has hit, the real work begins: making sure it is much harder for the next one to cause the same level of damage. There are several practical things you can do here. First, avoid relying on a single supplier. Spreading your sourcing across multiple suppliers means one failure does not bring everything to a halt. It is also wise to keep a buffer of critical stock, so you have breathing room when delays occur. Beyond that, you need a clear picture of your entire supply chain, every link in the chain, not just the obvious ones. Regularly practising what you would do in a crisis, almost like a fire drill, helps your team respond quickly and confidently when things go wrong. Strong relationships with your suppliers also matter enormously, because trust and communication speed up recovery. And finally, your resilience plans should never gather dust. Review them regularly and keep them current."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core lessons to carry forward. First, remember that AI forecasting tools are powerful, but they are not infallible. They can struggle when conditions shift suddenly or when the data feeding them has gaps or blind spots. That is why diversifying your supplier base matters so much. If one source fails, you have alternatives ready. Alongside that, keep a close eye on early warning signals, whether that is news from a key region, a spike in shipping costs, or a dip in supplier performance scores. The sooner you spot trouble, the sooner you can act. And please do not underestimate your own judgement. AI supports your decisions, it does not replace them. Finally, build in regular reviews of your forecasting approach. Supply chains evolve, and your processes need to evolve with them. These principles will help you build something more resilient and more responsive over time."
+        }
+      ]
+    }
+  ]
+}

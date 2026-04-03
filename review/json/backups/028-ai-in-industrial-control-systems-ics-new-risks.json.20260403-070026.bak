@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI in Industrial Control Systems (ICS): New Risks",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "How AI introduces new attack surfaces in operational technology.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with industrial or operational environments (such as manufacturing, energy, or agriculture) and a general awareness of cybersecurity concepts will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI introduces new attack surfaces within Industrial Control Systems (ICS) across sectors such as agriculture, energy, and mining. You will also be able to explain the potential risks these vulnerabilities pose to operational technology and apply foundational strategies to recognise and respond to AI-related threats in your working environment.",
+  "lessons": [
+    {
+      "lesson title": "AI in Industrial Control Systems (ICS): New Risks",
+      "order": 1,
+      "Description": "This lesson explores how the growing use of artificial intelligence within industrial control systems is creating new and often unexpected security risks for operational technology environments. As AI is increasingly embedded into critical infrastructure such as power grids, water treatment facilities, and manufacturing plants, it introduces attack surfaces that traditional cybersecurity approaches were never designed to address. We will look at the practical ways in which AI components can be targeted, manipulated, or exploited by malicious actors, and why these threats are particularly serious in environments where safety and reliability are paramount. By the end of this lesson, you will have a clearer understanding of the key vulnerabilities that AI brings to ICS environments and the steps organisations can begin to take to manage these risks responsibly.",
+      "status": "draft",
+      "content": "How AI introduces new attack surfaces in operational technology.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and ICS: An Introduction",
+          "subtitle": "Where operational technology meets artificial intelligence.",
+          "slidecontent": "• Industrial control systems (ICS) manage physical processes like power grids, water treatment, and manufacturing lines\n• AI is increasingly embedded in these environments to optimise performance and predict faults\n• New capability, new risk\n• Every AI component added to an ICS creates a potential entry point for attackers\n• Understanding these risks is the first step toward protecting critical infrastructure"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the AI Threat Landscape",
+          "subtitle": "Where old defences meet new dangers",
+          "slidecontent": "• Industrial control systems were designed decades before AI existed, leaving security gaps that modern threats now exploit\n• AI adds dynamic, self-adapting behaviour to attacks, making traditional signature-based defences less effective\n• Attackers can use AI to learn normal system patterns and disguise malicious activity as routine operations\n• The attack surface grows every time an AI component connects to operational technology\n• Legacy and new systems, running side by side, create unpredictable vulnerabilities\n• Even well-intentioned AI tools can become entry points if poorly secured"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Mapping the New Attack Surface",
+          "subtitle": "Where AI expands ICS vulnerability points",
+          "slidecontent": "• AI components such as machine learning models and data pipelines create entirely new entry points into ICS networks\n• Attackers can target the training data that AI systems rely on, corrupting decisions before an operator notices anything wrong\n• Remote connectivity required for AI updates widens the attack surface significantly\n• More connected, more exposed\n• Anomaly detection tools powered by AI can themselves be manipulated to ignore genuine threats"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Vulnerabilities in AI-Driven Systems",
+          "subtitle": "Where AI Creates Exploitable Weak Points",
+          "slidecontent": "• Biased training data, bad decisions\n• Opaque models, hidden failures\n• Remote updates, new entry points\n• AI sensors fooled easily\n• Automated responses, unpredictable outcomes"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Supply Chain AI Vulnerabilities",
+          "subtitle": "Risks hidden in third-party AI components",
+          "slidecontent": "• Pre-trained models carry hidden risks\n• Third-party code, unverified sources\n• Poisoned data enters your system\n• Updates can introduce new threats\n• Vendors may lack security audits"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Supply Chain AI Vulnerabilities",
+          "subtitle": "Risks hidden in third-party AI components",
+          "slidecontent": "• Pre-trained models carry hidden flaws\n• Third-party code, unverified risks\n• Updates can introduce new threats\n• Vendors may lack security audits\n• Compromised libraries affect whole systems"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Defending AI-Integrated ICS Networks",
+          "subtitle": "Strategies to Protect AI-Enhanced Systems",
+          "slidecontent": "• Segment AI components from core ICS networks using strict firewall rules and access controls\n• Monitor AI model inputs and outputs for unusual patterns that could signal manipulation\n• Patch regularly\n• Validate training data sources to reduce the risk of poisoned or corrupted datasets\n• Limit AI system privileges so a compromised model cannot issue critical commands directly\n• Train operations staff to recognise when AI behaviour deviates from expected norms"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying secure ahead.",
+          "slidecontent": "• AI expands ICS attack surfaces\n• Patch AI systems regularly\n• Monitor for unusual behaviour\n• Trust zero, verify everything\n• Train staff on AI risks\n• Start small, stay vigilant"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. We're going to be looking at something that's becoming increasingly important in the world of cybersecurity: the use of artificial intelligence inside industrial control systems. Now, industrial control systems, or ICS, are the technology that keeps our critical infrastructure running. Think power grids, water treatment plants, manufacturing facilities. These are systems that manage real, physical processes in the real world. And increasingly, AI is being built into these environments to help optimise performance, spot problems before they happen, and generally make operations more efficient. That all sounds very positive, and in many ways it is. But here's the thing: every time you add a new component to a system, you also add new risk. AI is no different. Each AI element introduced into an ICS creates a potential opportunity for attackers to exploit. So throughout this course, we're going to explore what those risks actually look like, and what we can do to address them. Let's get started."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start by understanding the landscape we're dealing with. Industrial control systems, the kind that run power grids, water treatment plants, and factories, were built long before anyone was thinking about artificial intelligence. That means they were never designed to defend against the kinds of threats we're seeing today. What AI does is make attacks far more sophisticated. Instead of using known, recognisable patterns that traditional security tools can spot, attackers can now use AI to study how a system normally behaves and then blend their malicious activity right into that normal traffic. It becomes very difficult to tell the difference. And the problem gets bigger every time a new AI component is added to an existing operational environment, because you're essentially creating new doorways into the system. Mix in older legacy equipment sitting alongside newer technology, and you've got a genuinely unpredictable security situation. Even AI tools brought in with the best intentions can become a risk if they're not properly secured."
+        },
+        {
+          "number": 3,
+          "script": "So, when we introduce AI into an industrial control system, we are not just adding a helpful tool. We are also adding new doors that an attacker could potentially walk through. Think about it this way: AI systems rely on data pipelines and machine learning models, and each of those is a potential entry point that simply did not exist before. One particularly sneaky attack method involves corrupting the training data itself, so the AI starts making bad decisions long before anyone realises something is wrong. On top of that, AI systems need regular updates, and delivering those updates usually requires remote connectivity, which immediately widens the attack surface. And here is the part that might surprise you: even the AI tools designed to detect threats can be manipulated. If an attacker can fool your anomaly detection system into ignoring suspicious activity, your defences are essentially blind. More connectivity and more intelligence does not automatically mean more security."
+        },
+        {
+          "number": 4,
+          "script": "So, let's talk about where AI actually creates weak points in industrial control systems. First, if the data used to train an AI model is poor or biased, the system will make bad decisions, and in an industrial setting, that can be genuinely dangerous. Then there's the problem of opacity. Many AI models are essentially black boxes, meaning even the engineers running them don't fully understand why they make certain choices, and that makes hidden failures very difficult to spot. We also need to think about updates. When AI systems receive remote updates, each one of those connections is a potential entry point for an attacker. On top of that, the sensors feeding data into these systems can be tricked, sometimes quite easily, by feeding them false information. And finally, because AI can trigger automated responses faster than any human could react, when something goes wrong, the outcomes can be unpredictable and difficult to control. These are the core vulnerabilities we need to understand."
+        },
+        {
+          "number": 5,
+          "script": "Now, one area that often catches organisations off guard is the supply chain. When you bring AI into an industrial control system, you're rarely building everything from scratch. You're pulling in pre-trained models, third-party libraries, components from external vendors. And here's the problem: you often have very little visibility into where those components came from or how they were built. A model might have been trained on corrupted or manipulated data, what we call data poisoning, and that hidden flaw comes straight into your environment. Even after deployment, software updates from your vendors can quietly introduce new vulnerabilities. And if those vendors haven't gone through proper security audits, you simply don't know what risks you're accepting. So the supply chain isn't just a logistics concern, it's a genuine security concern. Trusting a component because it works isn't the same as trusting it because it's safe. That distinction really matters in an industrial setting."
+        },
+        {
+          "number": 6,
+          "script": "Now, one area that often gets overlooked is the supply chain. When organisations bring AI into their industrial control systems, they rarely build everything from scratch. They rely on third-party components, pre-trained models, and external code libraries. And that is where hidden risks can creep in. A pre-trained model might have been trained on compromised data, or contain subtle flaws that nobody has spotted yet. Third-party code is often used without thorough security checks, so you are essentially trusting someone else's work without fully verifying it. Then there are software updates, which sounds like a good thing, but an update from a vendor can actually introduce new vulnerabilities into your system. And speaking of vendors, many simply do not have rigorous security audit processes in place. Perhaps most worrying of all, if a single shared library becomes compromised, the effects can ripple across entire systems. So the message here is clear: know what is in your AI supply chain, and treat every external component as a potential risk."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect these systems. The first thing is separation. Keep your AI components isolated from the core ICS network with proper firewalls and access controls, so a problem in one area doesn't spread everywhere. You also want to keep a close eye on what your AI models are receiving and producing, because unusual patterns in those inputs and outputs can be an early warning sign that something is wrong. Keeping software patched and up to date is still one of the simplest and most effective defences available. Make sure you trust the data your AI is learning from, because corrupted training data is a real attack vector. Restrict what your AI system is actually allowed to do, so even if it is compromised, it cannot directly trigger critical operations. And finally, make sure your operations staff know what normal AI behaviour looks like, so they can spot when something seems off."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the core lessons from this session. First, remember that AI genuinely does expand the attack surface of your ICS environment, so new technology means new responsibility. Keep your AI systems patched and up to date, just as you would any other critical software. Make sure you have monitoring in place so that anything unusual gets flagged quickly, because in industrial environments, early detection really does matter. Adopt a zero trust mindset, meaning you should never assume something is safe simply because it looks familiar or comes from inside your network. Always verify. Your people are just as important as your technology, so invest in training your staff so they understand the specific risks that AI can introduce. And finally, if you are just getting started with AI in your operations, begin with a small, manageable scope and stay vigilant as you grow. These principles will serve you well as the landscape continues to evolve."
+        }
+      ]
+    }
+  ]
+}

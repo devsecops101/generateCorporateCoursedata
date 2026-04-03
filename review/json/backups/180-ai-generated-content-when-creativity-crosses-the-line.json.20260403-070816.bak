@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI-Generated Content: When Creativity Crosses the Line",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Risks of misleading, low-quality, or inappropriate outputs.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday digital tools and a general awareness of how AI content generators such as chatbots or image creation platforms are used in media and creative industries will be sufficient to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-generated content in media and entertainment, including misleading outputs, quality concerns, and inappropriate material. You will also be able to explain how to apply responsible content practices to protect audiences, uphold creative standards, and ensure compliance within publishing, film, advertising, and related industries.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Content: When Creativity Crosses the Line",
+      "order": 1,
+      "Description": "Artificial intelligence tools can produce content that looks polished and convincing, yet contains errors, bias, or material that is entirely inappropriate for its intended audience. This lesson explores the risks that arise when AI-generated content crosses ethical and quality boundaries, from misleading information and factual inaccuracies to outputs that may cause harm or reputational damage. You will learn to recognise the warning signs of low-quality or problematic AI content and understand why human oversight remains essential at every stage of the creative process. By the end of this lesson, you will feel more confident in evaluating AI outputs critically and making informed decisions about when and how to use them responsibly.",
+      "status": "draft",
+      "content": "Risks of misleading, low-quality, or inappropriate outputs.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When AI Gets It Wrong",
+          "subtitle": "Spotting the Risks Before They Spread",
+          "slidecontent": "• AI makes mistakes\n• Errors spread fast\n• Anyone can be misled\n• Quality varies wildly\n• Risks can be high",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Risks at a Glance",
+          "subtitle": "What could possibly go wrong here?",
+          "slidecontent": "• AI tools can produce content that sounds confident but is factually wrong\n• Outputs may reflect bias baked into training data\n• Easy to mislead audiences at scale\n• Inappropriate or offensive material can slip through with little warning\n• Quality varies wildly depending on how a prompt is written\n• Real harm to real people if misinformation spreads unchecked",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "When AI Gets It Wrong",
+          "subtitle": "Spotting errors before they cause harm",
+          "slidecontent": "• Facts can be fabricated\n• Dates and names wrong\n• Confident tone, false content\n• Bias baked in silently\n• Errors spread fast online",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Low-Quality AI Output",
+          "subtitle": "Recognising the Warning Signs Early On",
+          "slidecontent": "• Repetitive phrasing or oddly circular sentences that say the same thing twice\n• Vague, confident-sounding claims with no supporting detail\n• Factual errors\n• Overly formal or unnatural tone that feels slightly \"off\"\n• Generic examples that could apply to almost any topic or context\n• Sudden shifts in style or accuracy mid-paragraph",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Low-Quality AI Output",
+          "subtitle": "Recognising the Warning Signs Early On",
+          "slidecontent": "• Vague, repetitive phrasing throughout\n• Facts that sound plausible but wrong\n• No clear source or evidence\n• Overconfident, generic statements\n• Odd sentence structure or flow",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Low-Quality AI Output",
+          "subtitle": "Recognising the Warning Signs Early",
+          "slidecontent": "• Repetitive phrasing or ideas that circle back without adding new information\n• Vague, confident-sounding claims with no supporting detail or source\n• Factual errors\n• Overly formal or unnatural sentence structures that feel slightly \"off\"\n• Generic content that could apply to almost any topic or context\n• Sudden shifts in tone, style, or reading level within the same piece",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Your Organisation's Reputation",
+          "subtitle": "Safeguarding Trust in Every AI Output",
+          "slidecontent": "• AI outputs published under your brand name carry your organisation's credibility, not the tool's\n• One misleading or offensive output can damage years of hard-won trust\n• Reputation at stake\n• Always review AI-generated content before it reaches customers, clients, or the public\n• Establish clear internal standards for what AI output is acceptable to publish\n• Treat AI content with the same scrutiny you would apply to any official communication",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these principles close at hand.",
+          "slidecontent": "• Always verify AI outputs\n• Bias hides in plain sight\n• Quality needs human checks\n• Context shapes what's appropriate\n• You set the final standard",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with something that might surprise you. AI tools can be incredibly impressive, but they are not infallible. They make mistakes, and sometimes those mistakes look completely convincing. The real problem is how quickly that content spreads. Someone shares something online, others assume it is accurate, and before long a piece of AI-generated misinformation has reached thousands of people. And it is not just a small group of tech-savvy users who are at risk here. Anyone can be misled, regardless of age, education, or experience. What makes this even trickier is that the quality of AI-generated content varies enormously. Some of it is genuinely excellent, and some of it is riddled with errors, and the two can look almost identical at first glance. So the stakes here are real. Whether we are talking about health information, financial advice, or news stories, getting it wrong can have serious consequences. That is exactly what this lesson is here to help you navigate.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So before we go any further, let's just take a moment to look at the bigger picture of what can go wrong when AI starts generating content. And honestly, the list is longer than most people expect. One of the trickiest issues is that AI can sound incredibly convincing even when it's completely wrong. It doesn't hesitate, it doesn't second-guess itself, it just confidently produces nonsense. On top of that, these tools are trained on human-generated data, which means any bias that existed in that data can quietly sneak into the output. There's also the sheer scale to consider. One person with an AI tool can flood the internet with misleading content in minutes. Offensive or inappropriate material can appear without much warning, and the quality of what you get depends heavily on how well you phrase your request. When misinformation spreads at this speed, real people can be genuinely harmed. That's what makes this worth taking seriously.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "One of the trickiest things about AI-generated content is that it can sound completely convincing, even when it is completely wrong. AI tools can fabricate facts out of thin air, getting dates, names, and figures muddled up, and yet they present all of that in a confident, authoritative tone. There is no hesitation, no \"I am not sure about this one.\" It just states things as though they are true. And here is where it gets a bit more subtle: AI can also carry hidden bias, reflecting skewed perspectives from the data it was trained on, without you even noticing. Now, combine that with how quickly content spreads online, and you can see why this matters. A single piece of inaccurate AI content can reach thousands of people before anyone spots the problem. So before you publish or share anything created with AI, it is absolutely worth taking a moment to verify the details yourself.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot AI-generated content that isn't up to scratch? There are a few telltale signs to watch out for. One of the most common is repetition, where the text seems to circle back and restate the same point in slightly different words. You might also notice confident-sounding statements that don't actually say very much, with no real evidence or detail to back them up. Factual errors are another red flag, and these can be surprisingly easy to miss if you're not checking carefully. Sometimes the tone just feels a little off, almost too formal or stiff, like nobody quite talks that way in real life. Generic examples are worth watching for too, the kind that could slot into absolutely any article on any subject. And finally, keep an eye out for sudden changes in quality or style within the same piece of writing. Once you know what to look for, these patterns become much easier to recognise.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot when AI has produced something that isn't quite up to scratch? There are a few telltale signs to watch out for. First, the writing often feels a bit hollow, using the same phrases over and over without really saying much. Then there are the facts. AI can state something with complete confidence that sounds entirely reasonable but is simply wrong, and there's rarely any source or evidence to back it up. That overconfident tone is itself a warning sign. If a piece of content makes bold, sweeping claims but offers no real depth or nuance, that's worth questioning. And finally, pay attention to how the writing actually reads. Sometimes the sentences feel slightly off, almost as if the flow doesn't quite land the way natural writing would. Once you start noticing these patterns, you'll find it much easier to catch low-quality AI output before it causes any real problems.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually spot when AI-generated content isn't up to scratch? There are a few tell-tale signs to watch out for. First, notice if the writing keeps circling back to the same ideas without really moving forward, or if it sounds confident but never backs anything up with real evidence or sources. That's a red flag. You might also spot outright factual errors, which can be easy to miss if you're not paying close attention. Then there's the tone, that slightly awkward, overly formal quality where sentences feel a bit stiff or unnatural, almost like they were written by someone trying very hard to sound professional. Another clue is content that feels so generic it could belong to absolutely any article on any topic. And finally, watch for sudden shifts in style or reading level within the same piece. Once you know what to look for, these patterns become much easier to catch.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "When your organisation publishes content created with AI, your brand is the one standing behind it. The tool that generated it won't be held accountable if something goes wrong. You will. And it only takes one poorly worded, misleading, or offensive piece of content to seriously damage the trust you've spent years building with your audience. That's why it's so important to review everything before it goes out, whether that's a social media post, a customer email, or a report. Don't assume that because AI produced it, it's ready to publish. You need to treat AI-generated content with exactly the same level of care and scrutiny you'd apply to anything else that goes out under your name. It's also worth setting clear internal standards so that everyone in your team understands what is and isn't acceptable to publish. Think of it as protecting something genuinely valuable: the reputation you've worked hard to earn.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So as we wrap up, let me leave you with a few things worth holding onto. First, never just accept what the AI gives you at face value. Always check it, question it, verify it. Second, remember that bias does not announce itself. It can slip into AI output quietly, so you need to stay alert to it. Third, quality does not look after itself. A human eye and a human judgement are still essential parts of the process. Fourth, think about context. What works in one situation may be completely inappropriate in another, and you are the one who understands the nuances of your audience and your purpose. And finally, you are the one setting the standard. The AI is a tool, and like any tool, the results depend on the person using it. You have the responsibility, and honestly, that is a good thing. Keep these principles in mind and you will be in a much stronger position to use AI content wisely.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

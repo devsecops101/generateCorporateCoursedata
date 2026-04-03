@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI-Generated Assignments: Academic Integrity Challenges",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "How AI changes plagiarism, originality, and assessment design.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with academic assessment practices and a general awareness that AI writing tools such as ChatGPT exist, but no technical expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways AI-generated content challenges traditional notions of plagiarism and academic integrity, and explain how educational institutions are responding to these emerging issues. You will also apply practical strategies to redesign assessments and evaluation methods that promote genuine learning and originality in an age where AI writing tools are widely accessible.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Assignments: Academic Integrity Challenges",
+      "order": 1,
+      "Description": "The rapid rise of AI writing tools has created new and complex challenges for educators, students, and institutions trying to uphold academic integrity. This lesson explores how AI-generated content blurs the traditional boundaries of plagiarism and originality, making it harder to assess whether a piece of work genuinely reflects a student's own understanding. You will examine the limitations of current detection methods and consider why they cannot always be relied upon as a definitive solution. The lesson also looks at practical approaches to redesigning assessments so that they better capture authentic learning and reduce the opportunity for AI misuse. By the end, you will have a clearer picture of the key issues at stake and a foundation for thinking critically about how to respond to AI in educational settings.",
+      "status": "draft",
+      "content": "How AI changes plagiarism, originality, and assessment design.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and Academic Integrity Today",
+          "subtitle": "Where learning and AI now meet",
+          "slidecontent": "• AI writing tools now widely available to students at every level\n• Assignments submitted today may be fully or partly machine-generated\n• Traditional plagiarism checks often miss AI-produced content\n• Academic integrity policies struggling to keep pace\n• A growing challenge for educators, institutions, and learners alike",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Rise of AI Writing",
+          "subtitle": "From novelty to everyday student tool",
+          "slidecontent": "• AI writing tools available to students for free, with no technical skill required\n• Capable of producing full essays in seconds\n• Adoption among students rising sharply since 2022\n• Works across subjects, from history essays to science reports\n• Many students now treat these tools as a normal part of their workflow\n• Institutions largely unprepared for how quickly this shift happened",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Defining AI-Generated Content",
+          "subtitle": "What counts as AI-generated work?",
+          "slidecontent": "• Text, images, code, or essays produced fully or partly by an AI tool such as ChatGPT or Copilot\n• Includes lightly edited AI output passed off as original student work\n• Not just copied text\n• Also covers AI-assisted paraphrasing, summarising, or restructuring of source material\n• The line between using AI as a writing aid and submitting AI-generated work is often blurry",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Rethinking What Originality Means",
+          "subtitle": "Originality now includes how you think.",
+          "slidecontent": "• Not just words, but thinking\n• Process matters now\n• Ideas must be your own\n• Effort shows originality\n• Thinking is the work",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Rethinking Assessment in Practice",
+          "subtitle": "Designing assessments that AI cannot replace",
+          "slidecontent": "• Shift focus from final products to the process of thinking and creating\n• Oral assessments, live demonstrations, and reflective journals are harder to fake\n• Personal, local, or time-bound tasks (such as analysing a recent campus event) resist generic AI responses\n• Build in checkpoints\n• Peer critique and iterative drafts reveal genuine student understanding over time\n• Authentic tasks rooted in real experience give students something worth producing",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Rethinking Assessment in Practice",
+          "subtitle": "Designing assessments that AI cannot replace",
+          "slidecontent": "• Ask for personal reflection\n• Use oral assessments\n• Require live demonstrations\n• Assess the process, not product\n• Include local, specific contexts",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rethinking Assessment for Integrity",
+          "subtitle": "Designing assessments that AI cannot replicate",
+          "slidecontent": "• Use oral exams more often\n• Require personal reflection pieces\n• Assess process, not just product\n• Set local, specific contexts\n• Value handwritten responses sometimes",
+          "do_not_include": true
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for navigating AI challenges",
+          "slidecontent": "• AI shifts assessment design\n• Originality needs redefining now\n• Detection tools are imperfect\n• Policy clarity protects everyone\n• Redesign tasks, not just rules\n• Start small, adapt often",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI-generated assignments and academic integrity. This is a topic that has moved very quickly from something theoretical to something educators are dealing with right now, every single day. Over the past several years, AI writing tools have become remarkably easy to access, and students at every level, from secondary school through to postgraduate study, are using them. That means the work being submitted today might have been written entirely by a machine, or perhaps just partly so. The tricky part is that the plagiarism detection software most institutions rely on was never designed to catch this kind of content, so a lot of it simply slips through. Meanwhile, policies and guidelines are struggling to catch up with how fast the technology is moving. So throughout this course, we are going to explore what this all means for educators, institutions, and students, and think about how we might respond in a thoughtful and practical way.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "Just a few years ago, AI writing tools were a curiosity, something tech enthusiasts experimented with. But since around 2022, that changed dramatically. These tools are now free, widely available, and require no technical knowledge whatsoever. A student can open a browser, type in a question, and have a full, structured essay in front of them within seconds. And this isn't limited to one subject area. Whether it's a history essay, a biology report, or a literature analysis, these tools can handle it all. For many students, using AI has simply become a normal part of how they study and complete their work, much like using a search engine or a spell checker. The challenge is that educational institutions were largely caught off guard by how fast this all happened. Policies, assessments, and guidance simply haven't kept pace with the speed of adoption. That's what we're here to explore.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So before we go any further, let's get clear on what we actually mean by AI-generated content, because it's broader than most people initially assume. Yes, it includes a full essay written by ChatGPT and submitted as a student's own work, but it goes well beyond that. It also covers situations where a student takes AI output and makes a few light edits before handing it in, or where they use an AI tool to paraphrase a source, restructure an argument, or summarise a piece of reading. In other words, it's not just about copying and pasting text wholesale. The tricky part is that the boundary between using AI as a helpful writing aid and actually submitting AI-generated work is genuinely blurry, and that's what makes this such a challenging area for educators and institutions. Keeping that complexity in mind will help us make sense of everything else we cover in this course.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about originality, because I think a lot of people assume it simply means not copying someone else's words. But in a world where AI can generate text in seconds, we need to think about this differently. Originality now has to include your thinking process, not just the final words on the page. What did you wrestle with? What decisions did you make? What connections did you draw from your own understanding? Those things matter enormously now. When you sit down to work through a problem, to analyse an argument, or to construct your own response to a question, that effort is actually the point. It is where your learning happens. So if an AI does that thinking for you, the originality is gone, even if the words look perfectly fine. The ideas need to come from you. The thinking is the work. That is what your tutors and institutions are really looking for.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "So if AI can produce a polished essay in seconds, what does that mean for how we design assessments? Well, it means we need to think differently. Rather than focusing purely on the finished product, we want to see how students think along the way. Things like oral presentations, live demonstrations, or reflective journals are much harder to outsource to a chatbot, because they require the student to actually show up and engage in the moment. Similarly, tasks that are tied to something specific and local, like analysing an event that happened on your campus last week, are difficult for AI to answer in any meaningful way. Building in checkpoints throughout a project, encouraging peer feedback, and asking students to submit drafts all help reveal genuine understanding over time. And when we set tasks rooted in real experience, students actually have something personal and worthwhile to produce. The goal is to design assessments where doing the work honestly is simply the easier path.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually put this into practice? The key is designing assessments that are genuinely difficult for AI to replicate. Think about asking students to reflect on their own personal experiences, because AI simply cannot speak authentically on someone's behalf. Oral assessments and live demonstrations are also incredibly powerful, since they require students to show their understanding in real time, in front of you. You might also consider shifting your focus away from the final polished product and instead looking at how a student arrived at their answer, their drafts, their notes, their decision-making along the way. And here is one that is often overlooked: build in local or highly specific contexts. If you ask a student to analyse something rooted in their own community, their own workplace, or a very particular scenario you have designed, AI-generated responses will struggle to be relevant or convincing. These approaches do not eliminate AI use entirely, but they make genuine engagement far more visible.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So if AI can complete traditional assignments, the logical response is to rethink how we assess students in the first place. One powerful approach is to bring back oral examinations, where students explain their thinking out loud, because that kind of live conversation is very difficult to fake. Similarly, asking students to write personal reflections, drawing on their own experiences and feelings, produces something genuinely unique to them. We can also shift our focus from the final piece of work to the process behind it, asking students to submit drafts, notes, or learning journals that show how their thinking developed over time. Setting tasks rooted in very specific local contexts, perhaps something happening in your own institution or community, also makes it much harder for AI to produce a relevant response. And occasionally asking for handwritten work adds another layer of authenticity. None of these ideas are revolutionary on their own, but together they help us design assessments that genuinely reflect what a student knows and can do.",
+          "do_not_include": true
+        },
+        {
+          "number": 8,
+          "script": "The arrival of AI tools means we genuinely need to rethink how we design assessments, not just patch up the old ones. Alongside that, our understanding of originality has to evolve, because it means something quite different now than it did even a few years ago. It's also worth remembering that detection tools, while useful, are not reliable enough to be the whole answer. Clear, honest policies matter enormously, because when everyone understands the boundaries, students and educators alike are better protected. Rather than simply adding more rules, the real opportunity is to redesign the tasks themselves so that AI assistance becomes less of a shortcut and more of a genuine learning tool. And finally, you don't need to overhaul everything at once. Start with small changes, see what works, and keep adapting as things develop. That's a healthy and realistic approach for any educator right now.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

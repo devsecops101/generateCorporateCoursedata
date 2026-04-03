@@ -1,0 +1,105 @@
+{
+  "Course Title": "Explainability: Can You Justify AI Decisions?",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Why “black box” AI is a compliance problem.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how AI or automated decision-making tools are used in financial or professional services is helpful, though no technical background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key reasons why \"black box\" AI poses a compliance risk in regulated industries such as banking, insurance, and legal services, and explain the core principles of AI explainability in plain, accessible terms. You will also be able to apply practical frameworks for justifying AI-driven decisions to colleagues, clients, and regulators, helping your organisation meet its transparency and accountability obligations with confidence.",
+  "lessons": [
+    {
+      "lesson title": "Explainability: Can You Justify AI Decisions?",
+      "order": 1,
+      "Description": "When an AI system makes a decision that affects someone, whether that is a loan rejection, a job application outcome, or a medical recommendation, you need to be able to explain why. This lesson introduces the concept of explainability in AI and explores why so-called \"black box\" systems, where the reasoning behind a decision is hidden or unclear, can create serious compliance and legal risks for organisations. You will learn what regulators and stakeholders expect when it comes to transparency, and why being able to justify an AI decision is no longer optional in many industries. By the end of this lesson, you will have a clearer understanding of what explainability means in practice and the steps you can take to ensure your use of AI meets the standards required of you.",
+      "status": "draft",
+      "content": "Why “black box” AI is a compliance problem.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Explainability and AI Decisions",
+          "subtitle": "Can you justify what AI decides?",
+          "slidecontent": "• AI makes high risk decisions\n• Can you explain them?\n• Regulators now demand answers\n• \"Black box\" creates real risk\n• Explainability is now essential"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Why Black Box AI Matters",
+          "subtitle": "When AI hides its reasoning, risk grows.",
+          "slidecontent": "• AI systems increasingly make decisions that affect people's jobs, loans, and healthcare\n• No explanation means no accountability\n• Regulators in the UK and EU now require organisations to justify automated decisions\n• Hidden reasoning makes it nearly impossible to spot bias or errors before harm occurs\n• Auditability is not optional"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Why Black Boxes Cause Problems",
+          "subtitle": "When AI hides its reasoning from you.",
+          "slidecontent": "• No audit trail when a decision goes wrong\n• Regulators increasingly require explainable outcomes, not just accurate ones\n• Staff cannot challenge or correct what they cannot understand\n• Hidden reasoning\n• Customers denied loans, benefits, or services with no meaningful explanation given\n• Compliance teams left unable to demonstrate accountability to oversight bodies"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Why Explainability Matters Now",
+          "subtitle": "Accountability demands are growing fast now.",
+          "slidecontent": "• Regulators are watching closely\n• Fines for opacity are rising\n• Staff need answers, not algorithms\n• Public trust is fragile now\n• Unexplained decisions harm people"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Why Explainability Matters Now",
+          "subtitle": "Regulations are tightening around AI accountability.",
+          "slidecontent": "• Laws now demand AI transparency\n• GDPR requires explainable decisions\n• Regulators are watching closely\n• Fines for non-compliance rising\n• \"Black box\" AI creates legal risk"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Documenting AI Decision Trails",
+          "subtitle": "Keeping clear records for accountability",
+          "slidecontent": "• Log every AI decision made\n• Record the data inputs used\n• Note the model version applied\n• Store audit trails securely\n• Review logs regularly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Documenting AI Decisions Effectively",
+          "subtitle": "Clear records protect your compliance position.",
+          "slidecontent": "• A decision log capturing the inputs, outputs, and rationale behind each AI action\n\n• Date and time stamps on every entry\n\n• The name or version of the AI system used, so you can trace back to a specific model configuration\n\n• Any human review steps taken before the decision was acted upon\n\n• Notes on exceptions, overrides, or unusual outputs flagged during the process\n\n• Stored securely and retrievable quickly for audits or regulatory requests"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "The essentials worth keeping in mind.",
+          "slidecontent": "• Black box AI creates real compliance and legal risk\n• Explainability means being able to show why a decision was made\n• Regulators increasingly expect documented, auditable reasoning\n• Not all AI needs full transparency, but high risk decisions always do\n• Start small by reviewing one automated decision process in your organisation\n• Accountability begins with asking the right questions"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI explainability. As artificial intelligence becomes more embedded in everyday life, it is making decisions that really matter. We are talking about things like loan approvals, medical diagnoses, hiring decisions, and even criminal sentencing. These are not trivial choices, and yet in many cases, the people affected by them have no idea how the AI reached its conclusion. That is a serious problem. Regulators across the UK and beyond are now stepping in and asking organisations to account for what their AI systems are doing. If you cannot explain a decision, you cannot defend it, and that creates real legal and ethical risk. The so-called \"black box\" nature of many AI systems, where even the developers cannot fully explain the output, is no longer acceptable in high risk environments. So throughout this lesson, we are going to explore what explainability actually means, why it matters, and how you can start to build it into your AI practices."
+        },
+        {
+          "number": 2,
+          "script": "So why does any of this matter? Well, AI systems are no longer just recommending films or filtering spam. They are making decisions that genuinely change people's lives, whether someone gets a job interview, whether a loan is approved, or what treatment a patient might receive. And when those decisions come from a system that cannot explain itself, we have a real problem. There is no way to challenge a decision you do not understand. There is no way to spot bias or catch errors before real harm is done. Regulators in the UK and the EU have recognised this, and they now require organisations to be able to justify automated decisions. This is not a nice-to-have. It is a legal and ethical obligation. Auditability has to be built in from the start, not bolted on afterwards. That is the core idea we are going to explore throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So why does it actually matter if an AI system can't explain itself? Well, think about what happens when something goes wrong. If there's no audit trail, you have no way of understanding why a particular decision was made, and that makes it very difficult to fix the problem or defend your organisation if you're challenged. Regulators across many sectors are now asking not just whether your AI is accurate, but whether you can justify its outputs. And if your staff can't understand the reasoning behind a decision, they can't question it or correct it when it's wrong. That's a real risk. On the human side, imagine being refused a loan or denied a benefit with no meaningful explanation given to you. That erodes trust and, in many cases, it's simply not acceptable under the law. Compliance teams are then left in an impossible position, unable to demonstrate accountability to the people who oversee them."
+        },
+        {
+          "number": 4,
+          "script": "So why is explainability such a pressing issue right now? Well, the short answer is that pressure is coming from every direction at once. Regulators across the UK and Europe are paying very close attention to how organisations use AI, and if you cannot explain your decisions, you are increasingly looking at serious financial penalties. But it is not just about avoiding fines. Think about your own colleagues and staff. When an AI system makes a recommendation, people need to understand the reasoning behind it. \"The algorithm said so\" simply is not good enough anymore. And beyond the workplace, public trust in AI is genuinely fragile. People are sceptical, and rightly so. When decisions about jobs, loans, healthcare, or benefits are made by automated systems without any clear explanation, real harm can follow. So explainability is not a nice extra feature to add later. It is a fundamental responsibility that organisations need to take seriously right now."
+        },
+        {
+          "number": 5,
+          "script": "So why is explainability such a hot topic right now? Well, the short answer is that regulators have caught up with the technology. Across the UK and Europe, laws are being introduced that actually require organisations to explain how their AI systems make decisions. GDPR is a good example of this. If an automated system makes a decision that affects someone, that person has the right to understand why. And regulators are not just watching from a distance anymore. They are actively scrutinising how businesses use AI, and the fines for getting it wrong are becoming quite significant. But perhaps the biggest risk is what we call \"black box\" AI, where even the people running the system cannot explain how it reached a particular outcome. That creates serious legal exposure. So explainability is no longer just a nice idea or a technical consideration. It is quickly becoming a legal and business necessity."
+        },
+        {
+          "number": 6,
+          "script": "When an AI system makes a decision, you need to be able to look back and understand exactly what happened and why. That means keeping thorough records at every stage of the process. You want to log each decision the AI makes, and alongside that, capture the data that was fed into it at the time. It is also worth noting which version of the model was running, because models get updated, and that can affect outcomes. All of this information needs to be stored securely so it cannot be tampered with or lost. Think of it as building a paper trail, except a digital one, that you can refer back to if a decision is ever questioned or challenged. And do not just file these logs away and forget about them. Reviewing them regularly helps you spot patterns, catch errors early, and demonstrate that your organisation is taking AI accountability seriously."
+        },
+        {
+          "number": 7,
+          "script": "When an AI system makes a decision that affects someone, you need to be able to show your working. That means keeping a proper record of what went in, what came out, and why the system responded the way it did. Every entry should be timestamped, and you should note exactly which version of the AI model was involved, because models get updated, and you need to be able to trace back to the specific configuration that was running at the time. If a human reviewed the decision before it was acted upon, log that too. And if anything looked unusual, an unexpected output or an override, make a note of it. None of this is just box-ticking. If a regulator or auditor comes knocking, you need to be able to retrieve these records quickly and confidently. Good documentation is what turns a defensible decision into a demonstrably defensible one, and that distinction really matters."
+        },
+        {
+          "number": 8,
+          "script": "So let's pull everything together from this lesson. The core message is this: when AI makes decisions that affect people, you need to be able to explain why. Black box systems, where nobody really knows how a conclusion was reached, create genuine legal and compliance risk. Regulators are no longer willing to accept \"the algorithm decided\" as an answer. They want documented, auditable reasoning. Now, that doesn't mean every single AI tool needs to be fully transparent, but anything touching high risk areas like finance, employment, or healthcare absolutely does. The good news is you don't have to overhaul everything at once. Pick one automated decision process in your organisation and start asking questions about it. How does it work? Who is accountable for the outcomes? Can you explain it to someone affected by it? That habit of asking the right questions is really where accountability begins, and it's well within your reach."
+        }
+      ]
+    }
+  ]
+}

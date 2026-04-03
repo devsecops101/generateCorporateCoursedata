@@ -1,0 +1,105 @@
+{
+  "Course Title": "Personalised Learning Systems: Bias in Education",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Risks of unequal learning paths based on flawed data.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how schools or educational organisations use data to support student learning is helpful, though no technical or specialist knowledge is required to participate.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key sources of bias in personalised learning systems and explain how flawed data can create unequal learning paths for students. You will also be able to apply practical strategies to recognise and challenge unfair algorithmic decisions within educational and public sector settings.",
+  "lessons": [
+    {
+      "lesson title": "Personalised Learning Systems: Bias in Education",
+      "order": 1,
+      "Description": "Personalised learning systems use data and algorithms to tailor educational experiences to individual students, but when the underlying data is flawed or incomplete, these systems can reinforce existing inequalities rather than reduce them. This lesson introduces the key risks associated with biased data in education, exploring how factors such as socioeconomic background, race, and gender can become embedded in automated decision-making. You will look at real-world examples of how unequal learning paths can emerge when systems rely on historical patterns that reflect past disadvantage rather than genuine potential. By the end of this lesson, you will have a clearer understanding of why it is important to question the data that drives personalised learning tools and how to spot the warning signs of bias in practice.",
+      "status": "draft",
+      "content": "Risks of unequal learning paths based on flawed data.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Bias in Personalised Learning",
+          "subtitle": "When data shapes unequal learning paths",
+          "slidecontent": "• Personalised learning systems use data to tailor education for each student\n• Biased data leads to biased outcomes\n• Some students are quietly steered away from opportunities before they even begin\n• These systems can reinforce existing inequalities rather than reduce them\n• Understanding the risks is the first step to addressing them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Personalised Learning?",
+          "subtitle": "Tailoring education to individual learner needs",
+          "slidecontent": "• Personalised learning adapts content, pace, and support to each individual student's needs and abilities\n\n• Driven by data collected from assessments, behaviour, and engagement patterns\n\n• Aims to close gaps\n\n• Replaces the traditional one-size-fits-all classroom model with flexible, responsive pathways\n\n• Common in digital platforms, tutoring tools, and school-based learning management systems"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Flawed Data, Unequal Paths",
+          "subtitle": "How biased data shapes learner outcomes",
+          "slidecontent": "• Garbage in, garbage out\n• Biased data skews recommendations\n• Some learners get fewer chances\n• Past patterns repeat unfairly\n• Gaps widen over time"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias Shapes Learning Outcomes",
+          "subtitle": "Unequal Paths, Unequal Opportunities",
+          "slidecontent": "• Biased data skews recommendations\n• Some students get less\n• Gaps widen over time\n• Flawed paths limit futures\n• Not all errors are visible"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias Reinforced Through Feedback Loops",
+          "subtitle": "How systems entrench existing learning disadvantages",
+          "slidecontent": "• A student flagged as \"struggling\" early on gets routed to simpler tasks, limiting their exposure to challenging material\n• The system learns from this reduced performance, reinforcing the original (and possibly incorrect) assessment\n• Gaps widen over time\n• Students from under-represented groups are disproportionately affected when training data reflects historical inequalities\n• Each cycle of biased input and biased output makes the pattern harder to detect and correct"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Bias Reinforced Through Feedback Loops",
+          "subtitle": "How systems entrench existing learning inequalities",
+          "slidecontent": "• A student placed in a lower-ability group receives simpler tasks, which limits their progress and confirms the system's initial (often flawed) assessment\n\n• Fewer challenges offered\n\n• Reduced exposure to advanced content widens the gap between learners over time\n\n• The system interprets slower progress as evidence to keep restricting content, creating a self-fulfilling cycle\n\n• Disadvantaged students, already underrepresented in high-quality training data, are disproportionately affected\n\n• Small early errors in placement compound quietly, making inequalities harder to spot and correct"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Challenging Bias in Your School",
+          "subtitle": "Practical Steps for Fairer Outcomes",
+          "slidecontent": "• Audit your data regularly\n• Question algorithm recommendations\n• Involve teachers in decisions\n• Check outcomes by pupil group\n• Report findings to staff"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to carry forward always.",
+          "slidecontent": "• Biased data harms learners\n• Question every algorithm's source\n• Representation matters always\n• Audit systems regularly\n• Advocate for fairer pathways\n• Small checks prevent big inequalities"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on bias in personalised learning systems. Now, personalised learning sounds like a brilliant idea, and in many ways it is. These systems use data about students to tailor their educational experience, offering content and pathways that feel designed just for them. But here is where things get complicated. If the data feeding these systems reflects existing inequalities, then the system itself will reproduce those inequalities. In practice, that can mean some students are quietly nudged away from certain subjects or opportunities, often without anyone realising it is happening. The system is not being deliberately unfair, but the outcome can still be deeply unjust. Rather than levelling the playing field, these tools can end up reinforcing the very gaps we are trying to close. So throughout this lesson, we are going to look honestly at those risks, because understanding the problem clearly is really where any meaningful change has to start."
+        },
+        {
+          "number": 2,
+          "script": "So, what do we actually mean by personalised learning? At its core, it's the idea that education doesn't have to look the same for every student. Instead of one teacher delivering the same lesson at the same pace to an entire class, personalised learning tries to adapt to each individual. It adjusts the content a student sees, how quickly they move through material, and the kind of support they receive, all based on data gathered from things like assessments, how they engage with tasks, and their behaviour over time. The goal is to close those gaps we so often see between students who are thriving and those who are falling behind. You'll find these approaches built into digital learning platforms, online tutoring tools, and the learning management systems used in many schools today. It's a genuinely exciting shift in how we think about teaching, but as we'll explore in this course, it also comes with some important challenges."
+        },
+        {
+          "number": 3,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. If the data we feed into a personalised learning system is biased or incomplete, the system will produce biased results. For example, if historical data shows that certain groups of students performed poorly in a subject, the system might assume those students are less capable and offer them easier or less enriching content. That means some learners are quietly steered away from opportunities before they've even had a chance to try. And here's the really troubling part: because the system keeps learning from its own recommendations, those unfair patterns get reinforced over time. The students who receive fewer challenges fall further behind, and the gap between learners widens. It's not a dramatic, obvious injustice. It happens gradually, almost invisibly, built into the everyday suggestions the system makes. That's what makes it so important to understand and address."
+        },
+        {
+          "number": 4,
+          "script": "So here's where things start to get serious. When a personalised learning system is trained on biased data, it doesn't just make the occasional mistake. It actively shapes what different students are offered. Some learners get rich, stretching content, whilst others are quietly steered towards simpler tasks, and often nobody notices it happening. And because these systems make recommendations day after day, those small differences compound. Gaps that start out small can grow significantly over time. A student who is consistently pointed towards lower-level material may never be given the chance to reach their potential, and the system won't flag that as a problem because, from its perspective, everything is working as intended. That's perhaps the most unsettling part: many of these errors are completely invisible. There's no warning sign, no alert. The bias just quietly does its work, and the consequences show up much later in that student's life."
+        },
+        {
+          "number": 5,
+          "script": "Here is something that can quietly cause real harm in these systems. Imagine a student who struggles early on. The system notices, and starts offering them easier work. That sounds helpful, but here is the problem: the student never gets the chance to tackle harder material, so their performance stays low. The system then looks at that low performance and thinks, \"yes, this student needs even simpler tasks.\" And round and round it goes. The original assessment, which may well have been wrong in the first place, just keeps getting reinforced. What makes this especially concerning is that students from under-represented groups are often hit hardest, because the training data these systems learn from can reflect historical inequalities. So the bias was baked in before the student even sat down. And the more cycles this goes through, the harder it becomes to spot that anything is wrong. The gap widens, and the system carries on, completely unaware."
+        },
+        {
+          "number": 6,
+          "script": "Here we look at something quite troubling: how these systems can actually make inequality worse over time. Imagine a student who gets placed in a lower ability group, perhaps unfairly. The system gives them simpler work, they make slower progress, and the system reads that slower progress as confirmation that simpler work is the right call. It becomes a cycle that feeds itself. Meanwhile, the gap between that student and their peers quietly widens. And the students most at risk here are often those from disadvantaged backgrounds, because they were already underrepresented in the data used to train these systems in the first place. What makes this particularly difficult is that the errors are small and gradual. There is no single dramatic moment where things go wrong. Instead, tiny misjudgements compound over time, making the problem much harder to notice and even harder to fix. It is a slow drift, but the consequences can be significant."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually start tackling bias in our own schools? The good news is there are some very practical things you can do right now. Begin by regularly reviewing the data your system is producing. Don't just let it run in the background unchecked. When the algorithm makes a recommendation, ask why. What is it basing that on? It's also really important that teachers stay involved in the decision-making process rather than simply deferring to whatever the system suggests. From there, look closely at outcomes across different pupil groups. Are certain groups consistently being directed toward lower-level content? If so, that's a signal something needs attention. Finally, make sure your findings are shared openly with staff. Bias isn't a problem one person can solve alone. It takes a whole-school conversation. These steps won't fix everything overnight, but they will help you build a much fairer learning environment for all your pupils."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with these six core principles that I really want you to carry with you beyond this lesson. First, remember that when the data going into a system is flawed, real learners get hurt. That is not abstract, it is personal. So always ask where an algorithm's data came from and who built it. Think about whose voices and experiences are actually represented in that system, because if certain groups are missing, the outcomes will reflect that gap. Make a habit of auditing the tools you use or encounter, not just once, but on a regular basis, because systems change and so do the communities they serve. And wherever you are, whether you are a teacher, a student, a parent, or a policy maker, advocate for fairer pathways for everyone. Finally, do not underestimate small actions. A simple check today can prevent a much larger inequality tomorrow. These principles are straightforward, but together they are genuinely powerful."
+        }
+      ]
+    }
+  ]
+}

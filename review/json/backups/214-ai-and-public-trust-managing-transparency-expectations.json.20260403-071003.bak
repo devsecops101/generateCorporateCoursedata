@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI and Public Trust: Managing Transparency Expectations",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "How AI errors impact confidence in institutions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how public sector organisations operate and a general awareness of AI tools in everyday life are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI errors can erode public confidence in educational institutions, government services, and non-profit organisations, and explain the relationship between algorithmic decision-making and citizen trust. You will also be able to apply practical transparency strategies to communicate AI limitations honestly and responsibly, helping to rebuild and maintain trust with the communities your organisation serves.",
+  "lessons": [
+    {
+      "lesson title": "AI and Public Trust: Managing Transparency Expectations",
+      "order": 1,
+      "Description": "This lesson explores how errors made by artificial intelligence systems can affect the public's trust in the institutions that use them. You will learn why transparency matters when AI goes wrong, and how organisations can communicate openly with the people they serve. We will look at real-world examples of how poor handling of AI mistakes has damaged confidence in public bodies, businesses, and government services. By the end of this lesson, you will have a clearer understanding of what the public expects when AI is involved in decision-making, and why managing those expectations honestly is essential. No prior technical knowledge is required, making this an accessible starting point for anyone working in or around public-facing roles.",
+      "status": "draft",
+      "content": "How AI errors impact confidence in institutions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Building Trust in AI Systems",
+          "subtitle": "Why transparency shapes public confidence",
+          "slidecontent": "• AI errors erode public trust\n• Transparency builds confidence\n• Hidden mistakes cause harm\n• Openness reduces fear\n• Trust takes time to earn"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the Trust Problem",
+          "subtitle": "When AI fails, trust erodes fast.",
+          "slidecontent": "• Public trust in institutions depends heavily on consistent, predictable behaviour\n• When AI systems make visible errors, confidence drops quickly and spreads widely\n• Trust, once lost, is slow to rebuild\n• People often cannot see how AI decisions are made, which increases suspicion\n• Lack of transparency feels like a lack of accountability to most citizens"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Errors That Erode Public Trust",
+          "subtitle": "When mistakes shake public confidence",
+          "slidecontent": "• Wrong decisions harm real people\n• Errors spread fast online\n• Trust breaks slowly, then suddenly\n• Bias damages vulnerable communities\n• Corrections often come too late"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Steps Towards Restoring Public Confidence",
+          "slidecontent": "• Acknowledging the error publicly and promptly, before speculation fills the gap\n• Clear explanation of what went wrong\n• Concrete steps already taken to fix the problem\n• Avoiding vague reassurances\n• A realistic timeline for when improvements will be visible to the public\n• Ongoing updates to show progress, not just a single statement and silence"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Steps to restore public confidence",
+          "slidecontent": "• Acknowledge the error publicly\n• Explain what went wrong\n• Show corrective action taken\n• Communicate ongoing improvements\n• Invite public feedback"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Steps to restore public confidence",
+          "slidecontent": "• Acknowledge the error publicly\n• Explain what went wrong\n• Show corrective action taken\n• Communicate ongoing improvements\n• Invite public feedback openly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Steps to restore public confidence",
+          "slidecontent": "• Acknowledge the error quickly and clearly, without jargon or deflection\n• Explain what went wrong in plain language\n• Outline the concrete steps being taken to fix the problem\n• Transparent action, not just words\n• Communicate progress updates regularly so the public can see change happening\n• Invite feedback and show it is genuinely being acted upon"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for rebuilding public trust",
+          "slidecontent": "• Acknowledge AI errors quickly and clearly, before public speculation fills the gap\n• Transparency rebuilds trust faster than silence\n• Plain language explanations matter more than technical accuracy for most audiences\n• Institutions that own their mistakes are seen as more credible, not less\n• Small, consistent actions (regular updates, open reporting) build confidence over time\n• A practical next step: review your organisation's current AI error response process and identify one gap to address this month"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and public trust. We're going to explore something that really matters right now, which is how the way we communicate about AI directly affects whether people feel confident using it or deeply suspicious of it. Here's the reality: when AI systems make mistakes and those mistakes are hidden or poorly explained, trust collapses very quickly. People start to feel uneasy, and that unease can spread. But when organisations are open about how their AI works, what it can do, and crucially what it cannot do, something interesting happens. People actually feel more comfortable, not less. Transparency doesn't frighten people away; it reassures them. That said, trust isn't something you can build overnight. It's earned gradually, through consistent honesty and clear communication over time. Throughout this course, we'll look at practical ways to manage those transparency expectations and help the public feel genuinely informed rather than kept in the dark."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by understanding why trust is such a fragile thing when it comes to AI. People trust institutions, whether that's a government department, a hospital, or a benefits agency, because those institutions behave in ways that feel consistent and predictable over time. The moment an AI system makes a visible mistake, that confidence can collapse very quickly, and word spreads fast. And here is the really difficult part: rebuilding that trust takes a long time. But there is something that makes this even harder. Most people have absolutely no idea how an AI system actually reaches a decision. They cannot see inside it, they cannot interrogate it, and that invisibility feels deeply uncomfortable. When you cannot see how a decision was made, it is very easy to assume that nobody is responsible for it at all. And that feeling, that sense of a lack of accountability, is at the heart of the trust problem we are going to be exploring throughout this course."
+        },
+        {
+          "number": 3,
+          "script": "When AI systems get things wrong, the consequences can be very real for the people affected. We're not just talking about minor inconveniences. A flawed decision could mean someone is denied a loan, misdiagnosed, or treated unfairly by an automated system. And in today's world, those stories travel fast. One viral post about an AI failure can reach millions of people within hours, amplifying the damage far beyond the original incident. What's particularly tricky is that trust tends to erode gradually, almost invisibly, and then collapse all at once. People tolerate small doubts for a while, but eventually something tips them over the edge. There's also a serious concern around bias, where AI errors disproportionately affect people who are already vulnerable or marginalised. And by the time organisations issue corrections or apologies, the damage is often already done. So understanding how errors undermine trust is absolutely essential before we can talk about how to prevent it."
+        },
+        {
+          "number": 4,
+          "script": "When an AI system fails publicly, how an organisation responds in the hours and days that follow can matter just as much as the failure itself. The worst thing you can do is stay silent, because silence invites rumour and speculation. Instead, acknowledge the problem quickly and honestly, and explain in plain language what actually went wrong. People can usually handle bad news; what they struggle to forgive is feeling misled or ignored. From there, tell people what you have already done to address the issue, not what you are vaguely planning to do at some point. Be specific, and give a realistic sense of when they can expect to see genuine improvements. And importantly, keep communicating as things develop. One statement followed by silence sends exactly the wrong message. Rebuilding trust is a process, not a single announcement, and showing consistent, honest progress is what actually brings people back on side."
+        },
+        {
+          "number": 5,
+          "script": "When an AI system makes a mistake that affects the public, how you respond matters enormously. The first thing to do is be honest about it. Don't try to minimise or hide what happened. People respect organisations that hold their hands up and say, \"We got this wrong.\" But acknowledgement alone isn't enough. You also need to explain, in plain language, what actually caused the problem. From there, show people the concrete steps you've taken to fix it, because words without action mean very little. Then keep communicating. Let people know how things are improving over time, rather than going quiet once the immediate crisis has passed. And finally, invite feedback from the public. Ask them what they need to feel reassured. Trust, once damaged, can absolutely be rebuilt, but it takes consistency, honesty, and a genuine willingness to listen. Getting this process right is what separates organisations that recover well from those that don't."
+        },
+        {
+          "number": 6,
+          "script": "When an AI system makes a mistake that affects the public, how you respond matters enormously. The worst thing any organisation can do is stay silent or become defensive. Instead, start by being honest and open about what happened. People respect transparency far more than they respect perfection. Once you have acknowledged the problem, help people understand why it occurred, in plain language, without hiding behind technical jargon. Then, and this is crucial, show people what you have actually done to fix it. Words alone will not rebuild confidence; actions will. Beyond the immediate fix, keep communicating about the longer term improvements you are putting in place, so people can see genuine progress over time. And finally, do not just talk at your audience. Invite them to share their concerns and questions. When people feel heard and involved, trust begins to return. Recovering from an AI error is absolutely possible, but it requires honesty, accountability, and consistent follow through."
+        },
+        {
+          "number": 7,
+          "script": "When something goes wrong with an AI system, how an organisation responds in those first moments can make or break public trust. The instinct is often to stay quiet, or to hide behind technical language, but that almost always makes things worse. What people need is honesty, quickly and in plain English. Tell them what happened, why it happened, and what you are doing about it. But here is the important part: do not just say the right things and then go silent. Follow through with regular updates so people can actually see progress being made. And go one step further by inviting the public to share their concerns, and then genuinely act on what they tell you. Trust is not rebuilt through a single statement. It is rebuilt through consistent, transparent behaviour over time. Show people you have listened, you have changed, and you are committed to doing better."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The core lesson here is that when AI goes wrong, speed and honesty are your greatest assets. If you don't explain what happened, the public will fill that silence with their own assumptions, and those assumptions are rarely kind. You don't need to be technically precise, you need to be clear and human. Most people aren't looking for a detailed technical post-mortem, they just want to know that someone is in charge and being straight with them. And here's something that surprises a lot of people: admitting a mistake actually makes your organisation look more credible, not less. Trust is also built through small, steady actions over time, things like regular updates and open reporting. So before we move on, I'd encourage you to do one practical thing this month. Look at how your organisation currently responds to AI errors, find one gap in that process, and start there. Small steps, done consistently, make a real difference."
+        }
+      ]
+    }
+  ]
+}

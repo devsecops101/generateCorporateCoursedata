@@ -1,0 +1,105 @@
+{
+  "Course Title": "Smart Factories and AI Attack Surfaces",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "How increased connectivity expands risk.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with manufacturing environments and a general understanding of what the internet is, though no technical or cybersecurity background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which increased connectivity in smart factories expands the attack surface for cyber threats, and explain how AI-driven systems introduce new vulnerabilities across manufacturing sectors such as chemicals, pharmaceuticals, and automotive production. You will also be able to apply foundational risk awareness principles to recognise potential weak points in connected industrial environments, helping you take a more informed and proactive approach to cybersecurity in your workplace.",
+  "lessons": [
+    {
+      "lesson title": "Smart Factories and AI Attack Surfaces",
+      "order": 1,
+      "Description": "Smart factories rely on interconnected machines, sensors, and software systems that communicate constantly, and this connectivity, whilst powerful, creates new opportunities for attackers to exploit. This lesson introduces the concept of attack surfaces and explains how adding more connected devices and AI-driven systems to a factory environment can expand the number of potential entry points for cyber threats. You will explore how traditional industrial equipment, once isolated from external networks, now faces risks that were previously associated only with office IT systems. By the end of this lesson, you will have a clearer understanding of why securing a smart factory requires thinking beyond conventional cybersecurity approaches and considering the unique vulnerabilities that AI and automation introduce.",
+      "status": "draft",
+      "content": "How increased connectivity expands risk.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Smart Factories: An Introduction",
+          "subtitle": "Where connectivity meets manufacturing today.",
+          "slidecontent": "• Factories now run on networks\n• Machines talk to each other\n• Data flows constantly\n• More connections, more risk\n• This affects every manufacturer"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Connected Systems, Expanded Risk",
+          "subtitle": "More connections mean more attack paths.",
+          "slidecontent": "• Every new sensor, machine, or device added to a factory floor creates a potential entry point for attackers\n• Legacy industrial equipment was never designed with network security in mind\n• More connections mean more risk\n• A single compromised component can provide access to the wider production network\n• Remote monitoring and cloud integration, while useful, introduce additional vulnerabilities"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Connected Devices, Expanded Attack Surfaces",
+          "subtitle": "More devices mean more entry points.",
+          "slidecontent": "• Every device is an entry point\n• More connections, more risk\n• Sensors, cameras, controllers targeted\n• Old equipment rarely gets patched\n• Hackers exploit weak default settings"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Connected Devices, Expanded Attack Surfaces",
+          "subtitle": "More devices mean more entry points.",
+          "slidecontent": "• Every device is an entry point\n• More connections, more risk\n• Sensors collect sensitive data\n• Patches are often delayed\n• Old equipment lacks security"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Legacy Systems as Entry Points",
+          "subtitle": "Outdated Systems, Modern Vulnerabilities",
+          "slidecontent": "• Many smart factories still run equipment from the 1980s and 1990s, never designed with network security in mind\n• These older machines often lack encryption or authentication\n• When connected to modern systems, legacy devices create gaps that attackers can exploit\n• Patching is rarely straightforward, as updates can disrupt critical production processes\n• Unpatched vulnerabilities in one old component can serve as a doorway into the entire factory network\n• A single outdated PLC or sensor can undermine an otherwise well-protected system"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Legacy Systems as Entry Points",
+          "subtitle": "Outdated Technology Opens Dangerous Security Gaps",
+          "slidecontent": "• Old machines lack security patches\n• Unencrypted data travels freely\n• Vendors no longer provide support\n• Attackers exploit known weaknesses\n• Legacy protocols ignore authentication"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Your AI Attack Surface",
+          "subtitle": "Practical Steps to Minimise Exposure",
+          "slidecontent": "• Limit which machines and systems can talk to each other across your network\n• Segment your OT and IT environments\n• Apply strict access controls to any AI tools handling production data\n• Regularly audit what data your AI systems collect, store, and share\n• Keep AI software and connected devices patched and up to date\n• Train staff to spot unusual system behaviour early"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying secure ahead.",
+          "slidecontent": "• Every new connected device is a potential entry point for attackers\n• AI systems can be manipulated, not just the networks they run on\n• Connectivity and risk grow together\n• Segmenting networks limits how far an attacker can move if they get in\n• Regular patching and access controls remain your first line of defence\n• Start small, audit one system this week and note what connects to what"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Let's start by setting the scene. If you walked into a modern factory today, you might be surprised by what you saw. It would not just be machines and workers. It would be a living, breathing network. Machines on the factory floor are constantly communicating with each other, sharing data, adjusting processes, and reporting back to central systems, often in real time. That constant flow of information is what makes modern manufacturing so efficient and responsive. But here is the thing: every connection in that network is also a potential doorway. The more devices and systems you link together, the more opportunities there are for something to go wrong, whether through a technical fault or, increasingly, a deliberate attack. And this is not just a concern for large corporations. Manufacturers of every size are affected. So throughout this course, we are going to explore exactly what those risks look like and what you can do about them."
+        },
+        {
+          "number": 2,
+          "script": "As factories become smarter and more connected, the attack surface grows with them. Every sensor, every machine, every new device you add to the network is essentially another door that an attacker could potentially walk through. And here is the challenge: a lot of the industrial equipment already running on factory floors was built decades ago, long before anyone imagined it would ever be connected to the internet. It simply was not designed with security in mind. So when you link that legacy equipment into a modern network, you introduce real risk. What makes this particularly serious is that it only takes one weak point. If an attacker compromises a single component, they can potentially move through the entire production network from there. Even the features we rely on for efficiency, things like remote monitoring and cloud integration, bring their own vulnerabilities. More connections genuinely do mean more risk, and that is what we need to understand before we go any further."
+        },
+        {
+          "number": 3,
+          "script": "So here's something worth getting your head around early on. In a smart factory, you might have hundreds or even thousands of connected devices all talking to each other. Sensors monitoring temperature, cameras watching the production line, controllers managing machinery. And every single one of those devices is essentially a door into your network. The more doors you have, the more chances someone has to find one that's been left unlocked. Now, a lot of this equipment has been around for years, and manufacturers simply don't release regular security updates for older kit. That means vulnerabilities just sit there, unaddressed. On top of that, many devices ship with default usernames and passwords that nobody ever bothers to change. Attackers know this, and they actively look for it. So what we're really talking about here is how the very thing that makes a smart factory powerful, all that connectivity, is also what makes it a much bigger target."
+        },
+        {
+          "number": 4,
+          "script": "So let's think about what happens when you connect hundreds, or even thousands, of devices together on a factory floor. Every single one of those devices, whether it's a temperature sensor, a robotic arm, or a quality control camera, represents a potential entry point for an attacker. And the more connections you add, the more opportunities you're creating for something to go wrong. Now, those sensors aren't just monitoring machines, they're often collecting quite sensitive operational data, which makes them an attractive target. Here's where it gets particularly tricky in industrial environments: many of these devices run for years, sometimes decades, and manufacturers are slow to release security patches, or the factory simply can't afford the downtime to apply them. And a lot of older equipment was never designed with cybersecurity in mind at all. It was built to do a job, not to defend itself. So as these environments become smarter and more connected, the attack surface grows significantly."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the most surprising things people discover about smart factories is that beneath all the cutting-edge technology, there is often some very old equipment quietly humming away. We are talking about machines from the 1980s and 1990s, built long before anyone imagined they would ever be connected to a network. These legacy systems were never designed with security in mind, so they have no encryption, no authentication, nothing to verify who is communicating with them. The problem is that when you connect old equipment to modern systems, you create gaps that attackers can slip through. And fixing it is not as simple as just running an update, because patching these machines can interrupt production, which factories simply cannot afford. So the vulnerabilities get left in place. What makes this particularly serious is that just one unpatched component, a single old sensor or programmable controller, can give an attacker a way into the entire network, regardless of how well everything else is protected."
+        },
+        {
+          "number": 6,
+          "script": "Now, one of the biggest vulnerabilities in any smart factory isn't some sophisticated new threat. It's actually the old equipment that's been sitting on the factory floor for years. Many of these legacy machines were never designed with cybersecurity in mind, so they don't receive security patches, and the vendors who originally built them may no longer offer any support at all. That means if a weakness is discovered, nobody is coming to fix it. On top of that, data moving between these older systems is often completely unencrypted, so anyone who gains access to the network can read it quite freely. And here's the really concerning part: attackers already know about these weaknesses. There are publicly documented vulnerabilities for many legacy protocols, and those protocols frequently have no authentication built in whatsoever, meaning a device will simply trust whatever instruction it receives. So older technology isn't just inefficient. In a connected factory environment, it can be a wide open door for attackers."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand where the risks come from, let's talk about what you can actually do to reduce them. The good news is that a lot of this comes down to sensible housekeeping. Start by thinking about how your systems communicate with each other, and make sure machines that don't need to talk to each other simply can't. Keep your operational technology, your factory floor systems, separated from your standard IT network wherever possible. When it comes to AI tools that are handling production data, make sure only the right people have access, and review that regularly. It's also worth auditing what data your AI systems are actually collecting and sharing, because quite often it's more than you'd expect. Keep everything patched and updated, including connected devices that can easily be forgotten. And finally, invest in your people. Staff who know what normal looks like are often the first to spot when something isn't quite right."
+        },
+        {
+          "number": 8,
+          "script": "So let us pull everything together from this lesson. Every time you add a connected device to your factory floor, you are opening a potential door for an attacker, and that includes the AI systems themselves, not just the networks they sit on. The more connected your operation becomes, the larger your risk surface grows, so those two things always move together. The good news is that sensible precautions go a long way. Segmenting your networks means that if someone does get in, they cannot simply roam everywhere. Keeping your systems patched and controlling who has access to what are still your most reliable first lines of defence. And here is something practical you can do right now: pick one system this week, just one, and map out everything it connects to. That simple audit will tell you more about your real exposure than any report. Small steps like that are how good security habits actually get built."
+        }
+      ]
+    }
+  ]
+}

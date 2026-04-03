@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI-Generated Menus and Recommendations",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Risks related to dietary restrictions and allergens.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with food service or hospitality operations, along with a general awareness of common dietary requirements such as allergies and intolerances, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-generated menus and food recommendations, particularly in relation to dietary restrictions and allergens. You will also be able to apply practical strategies to verify and communicate allergen information accurately, ensuring the safety and wellbeing of guests across hospitality and food service settings.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Menus and Recommendations",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is increasingly being used to generate menus and food recommendations in hospitality and catering settings. While AI tools can offer exciting possibilities for personalisation and efficiency, they also introduce significant risks when it comes to dietary restrictions and allergens. You will learn how AI-generated content can sometimes produce inaccurate or incomplete information about ingredients, which could put customers with allergies or specific dietary needs in danger. The lesson will help you identify common pitfalls, understand your responsibilities as a food service professional, and develop practical strategies for verifying AI-generated recommendations before they reach your customers. By the end, you will feel more confident in using AI tools safely and responsibly within your workplace.",
+      "status": "draft",
+      "content": "Risks related to dietary restrictions and allergens.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introduction: AI Menus Explained",
+          "subtitle": "What AI menus are and do",
+          "slidecontent": "• AI-generated menus use algorithms to suggest dishes, ingredients, or full meal plans automatically\n• Common in apps, kiosks, and online ordering platforms\n• These systems learn from data like popular choices, seasonal availability, and customer preferences\n• No human chef reviewing every suggestion\n• Recommendations can change rapidly based on inputs\n• Crucially, AI does not always account for individual dietary needs or allergen risks"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Dietary Restrictions and Allergen Risks",
+          "subtitle": "Understanding the risks for your guests",
+          "slidecontent": "• Allergens can cause severe reactions\n• Some guests have life-threatening conditions\n• Menus must reflect accurate ingredients\n• Errors risk guest safety seriously\n• Always verify AI-generated suggestions"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Allergen Risks in AI Menus",
+          "subtitle": "When AI misses critical dietary details",
+          "slidecontent": "• AI tools can overlook hidden allergens in complex or unfamiliar dishes\n• No built-in awareness of cross-contamination risks\n• Ingredient substitutions suggested by AI may introduce new allergens without warning\n• Descriptions can sound accurate but still miss critical details\n• Guests with severe allergies rely on precision that AI alone cannot guarantee"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Allergen Risks and Dietary Needs",
+          "subtitle": "When AI Misses Critical Food Information",
+          "slidecontent": "• AI systems can misread or omit allergen information from menus, putting customers at serious risk\n• No built-in awareness of cross-contamination\n• A guest with a severe nut allergy may receive a recommendation that contains hidden nut-based ingredients\n• Dietary labels like \"vegan\" or \"gluten-free\" are not always verified by the AI before being suggested\n• Staff must never rely solely on AI output when a customer declares a food allergy or intolerance"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Verifying Allergen Data Accuracy",
+          "subtitle": "Cross-checking AI output against verified sources",
+          "slidecontent": "• Always check official allergen databases\n• Compare AI output with supplier specs\n• Consult your chef or kitchen team\n• Update menus when ingredients change\n• Never rely on AI alone"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Allergen and Dietary Risks",
+          "subtitle": "Safeguarding Guests Through Careful Verification",
+          "slidecontent": "• Always verify AI suggestions manually\n• Cross-check allergen databases regularly\n• Train staff on menu changes\n• Never skip ingredient confirmation\n• Flag high-risk dishes clearly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk Through Verification",
+          "subtitle": "Confirm Details Before Every Guest Interaction",
+          "slidecontent": "• Always verify AI suggestions\n• Check allergen details twice\n• Confirm with kitchen staff\n• Never assume, always ask\n• Update menus when needed"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for safe AI menus",
+          "slidecontent": "• Always verify AI-generated menus against confirmed ingredient lists before serving guests\n• Allergen errors can be life-threatening\n• Never rely solely on AI output when a guest declares a serious food allergy or intolerance\n• Cross-check AI recommendations with your kitchen team and current supplier information\n• Keep human oversight at every stage of the menu planning process\n• As a next step, review your current allergen protocols and identify where AI tools fit safely within them"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start by getting clear on what we actually mean by AI-generated menus. Essentially, these are systems that use algorithms to automatically suggest dishes, ingredients, or even full meal plans, without a human chef sitting behind the scenes reviewing every single recommendation. You'll find them in all sorts of places, from food ordering apps and self-service kiosks to online delivery platforms. What makes them tick is data. They're constantly learning from things like popular choices, seasonal ingredient availability, and customer preferences, which means their suggestions can shift quite quickly depending on what information they're receiving. Now, that all sounds rather clever, and in many ways it is. But here's the really important point for anyone working in food service or hospitality: these systems don't always account for individual dietary needs or allergen risks. That gap between what an algorithm recommends and what's actually safe for a specific customer is exactly what we'll be exploring throughout this lesson."
+        },
+        {
+          "number": 2,
+          "script": "When it comes to AI-generated menus, one of the most serious areas we need to talk about is dietary restrictions and allergens. This isn't just about preferences or keeping guests happy, it's genuinely a matter of safety. Some of your guests may have severe allergies or medical conditions where a single incorrect ingredient could trigger a life-threatening reaction. So when AI suggests a dish or generates a menu description, we cannot simply accept that information at face value. The AI might get things wrong, it might miss a hidden ingredient, or it might not fully understand the complexity of a particular allergen. That's why every suggestion produced by an AI tool must be carefully checked and verified by a real person before it reaches your guests. Think of AI as a helpful starting point, not the final word. Accuracy on your menu isn't just good practice, it's your responsibility to the people you're serving."
+        },
+        {
+          "number": 3,
+          "script": "Now, this is where things get really important, so I want you to pay close attention here. AI tools are genuinely impressive, but when it comes to allergens, they can fall short in some serious ways. They might not recognise hidden ingredients in complex dishes, and they have no real understanding of cross-contamination risks in a kitchen environment. There is also a subtler problem: when AI suggests a substitution for an ingredient, it may not flag that the replacement contains a common allergen. And here is the tricky part. The descriptions AI produces can sound completely convincing and professional, yet still be missing crucial details. For most guests, that is an inconvenience. But for someone with a severe allergy, it could be genuinely dangerous. AI simply cannot guarantee the level of precision that those guests depend on. So as we move through this lesson, keep that responsibility in mind."
+        },
+        {
+          "number": 4,
+          "script": "Now, this is where things get really serious. When AI generates menu recommendations, it doesn't truly understand food in the way a trained chef or a knowledgeable front-of-house team member does. It can miss allergen information entirely, or suggest a dish without any awareness of how it was prepared or what it came into contact with during cooking. Cross-contamination simply isn't something these systems are built to consider. So imagine a guest with a severe nut allergy receiving a recommendation that contains hidden nut-based ingredients because the AI didn't flag it. That's a genuinely dangerous situation. The same applies to labels like \"vegan\" or \"gluten-free\" as the AI may repeat those terms without ever verifying whether they're accurate. The golden rule here is straightforward: if a customer declares a food allergy or intolerance, your team must speak directly with that guest and consult the proper allergen records. AI output is never a safe substitute in those moments."
+        },
+        {
+          "number": 5,
+          "script": "So, AI can be a brilliant starting point for building menus, but when it comes to allergen information, you absolutely cannot take it at face value. Always cross-reference what the AI gives you against official allergen databases and your suppliers' own product specifications, because ingredients and recipes change more often than you might expect. It is also worth having a conversation with your chef or kitchen team, as they will often spot something that gets missed in a digital process. And whenever you update a dish or swap out an ingredient, make sure your menu reflects that straight away. The key message here is simple: AI is a useful tool, but it is not infallible, and with allergens, the stakes are genuinely high. People's health and safety depend on the accuracy of this information, so treat AI output as a first draft that always needs a human check before it goes anywhere near a customer."
+        },
+        {
+          "number": 6,
+          "script": "Now, this is a really important slide, so I want you to pay close attention here. AI can be brilliant at generating menu ideas, but when it comes to allergens and dietary requirements, you absolutely cannot rely on it blindly. Always treat AI suggestions as a starting point, not a final answer. That means manually checking every ingredient, cross-referencing trusted allergen databases on a regular basis, and making sure your team is properly briefed whenever the menu changes. Staff training here is not optional; it is essential. Nobody on the floor should be guessing what is in a dish. Before anything goes on the menu, confirm every single ingredient, no shortcuts. And for dishes that carry a higher risk, perhaps those containing nuts, gluten, or dairy, make sure they are clearly flagged so both staff and guests can identify them instantly. Getting this right protects your guests, protects your business, and builds the kind of trust that keeps people coming back."
+        },
+        {
+          "number": 7,
+          "script": "Now, one of the most important habits you can build when working with AI-generated menus is a simple one: always verify what the AI tells you before it reaches a guest. AI tools are genuinely helpful, but they can make mistakes, and in a hospitality setting, those mistakes can have serious consequences, particularly around allergens. So before you present any dish or recommendation to a guest, check the allergen information twice, and then confirm it directly with your kitchen team. Do not rely solely on what the AI has produced. The kitchen staff will always have the most accurate, up-to-date knowledge of what goes into each dish. And if you are ever unsure about something, just ask. It is far better to take an extra moment to confirm than to assume you have the right information. Finally, remember that menus change, so make sure any updates in the kitchen are reflected in what the AI is working from as well."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and pull together the most important things to keep in mind from this lesson. AI can be a genuinely useful tool for menu planning, but it must never replace human judgement, especially when it comes to allergens. A mistake in that area is not just an inconvenience, it can be life-threatening. So always check any AI-generated menu against your actual ingredient lists, and make sure your kitchen team and your current supplier information are part of that process. If a guest tells you they have a serious allergy or intolerance, do not rely on what the AI has produced. A human being needs to verify that information directly. The golden rule here is to keep people in the loop at every stage. As your next step, I'd encourage you to look at your existing allergen protocols and think carefully about where AI tools can fit within them safely and responsibly."
+        }
+      ]
+    }
+  ]
+}

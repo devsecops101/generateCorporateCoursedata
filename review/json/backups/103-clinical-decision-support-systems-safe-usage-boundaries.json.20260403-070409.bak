@@ -1,0 +1,105 @@
+{
+  "Course Title": "Clinical Decision Support Systems: Safe Usage Boundaries",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Where AI support should stop and human judgment must take over.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with clinical workflows and a general interest in how technology supports healthcare decision-making are all that is needed to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the safe usage boundaries of clinical decision support systems and explain the key scenarios where human clinical judgement must take precedence over automated recommendations. You will also be able to apply practical frameworks for evaluating AI-generated clinical suggestions, recognising when to escalate decisions to qualified healthcare professionals in order to protect patient safety.",
+  "lessons": [
+    {
+      "lesson title": "Clinical Decision Support Systems: Safe Usage Boundaries",
+      "order": 1,
+      "Description": "Clinical decision support systems (CDSS) can be powerful tools for helping healthcare professionals gather information, identify patterns, and flag potential risks. However, understanding where these systems are most useful, and where their limitations begin, is essential for safe clinical practice. This lesson introduces the concept of safe usage boundaries, exploring the types of decisions that benefit from AI support and those that require human clinical judgement above all else. You will learn to recognise situations where over-reliance on automated recommendations could pose a risk to patient safety, and how to maintain your professional accountability throughout. By the end of this lesson, you will feel more confident in using clinical decision support tools appropriately, as a helpful aid rather than a replacement for your own expertise.",
+      "status": "draft",
+      "content": "Where AI support should stop and human judgment must take over.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome and Course Overview",
+          "subtitle": "Defining where AI support must end",
+          "slidecontent": "• Clinical decision support systems (CDSS) are becoming standard tools across NHS and private healthcare settings\n• This course focuses on one critical question: where should AI assistance stop\n• Designed for clinicians, nurses, and allied health professionals new to working alongside these systems\n• No prior technical knowledge required\n• You will leave with clear, practical boundaries you can apply in your daily practice\n• Real-world scenarios throughout to ground every concept in clinical reality"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "What AI cannot safely decide alone.",
+          "slidecontent": "• AI tools trained on population data, not your individual patient's full context\n• Unable to account for a patient's values, fears, or personal circumstances\n• No legal or professional accountability\n• Cannot interpret ambiguous symptoms the way a clinician with physical presence can\n• Blind spots in training data mean rare or atypical presentations are often missed"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "Where data ends, judgement begins.",
+          "slidecontent": "• AI systems trained on historical data, meaning gaps and biases can go undetected\n• No awareness of the patient in front of you\n• Unable to account for sudden clinical deterioration or real-time context\n• Recommendations reflect population-level patterns, not individual circumstances\n• Local protocols, patient values, and clinical intuition remain outside AI's reach"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "Where data ends, wisdom begins.",
+          "slidecontent": "• AI misses patient context\n• Data gaps cause errors\n• Algorithms don't feel nuance\n• Rare cases confuse systems\n• Human judgement fills gaps"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "When data ends, judgement begins.",
+          "slidecontent": "• AI misses local context\n• Old data, new problems\n• Rare cases confuse algorithms\n• Numbers lack patient history\n• Clinician instinct is important"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "Where data ends, clinicians begin.",
+          "slidecontent": "• AI misses patient context\n• Data gaps cause errors\n• Rare cases confuse algorithms\n• Bias hides in training data\n• Clinicians catch what AI cannot"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Knowing When to Step In",
+          "subtitle": "Recognising the limits of AI guidance",
+          "slidecontent": "• AI misses patient context\n• Gut feeling matters\n• Escalate when uncertain\n• Trust your training first\n• Patients override algorithms"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safe AI use",
+          "slidecontent": "• AI tools support decisions, they never replace clinical judgement\n• Always verify AI-generated suggestions against your own assessment and the patient in front of you\n• high risk situations (emergencies, rare conditions, vulnerable patients) require full human oversight\n• Document your reasoning, not just the AI output\n• Know your system's limits\n• As a next step, review your organisation's policy on approved clinical decision support tools and how to report concerns"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on clinical decision support systems and their safe usage boundaries. Whether you work in an NHS setting or private practice, you have probably already encountered these AI-powered tools, or you soon will. They are becoming a standard part of clinical life, and that is largely a positive development. But with any new tool comes a critical question, and that question is the entire focus of what we are going to cover together: where should AI assistance stop, and where must human clinical judgement take over? This course is designed specifically for clinicians, nurses, and allied health professionals who are new to working alongside these systems. You do not need any technical background whatsoever. What you will gain is a set of clear, practical boundaries that you can apply straight away in your day-to-day practice. Throughout the course, we will use real-world clinical scenarios to make every concept as grounded and relevant as possible. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So let's think carefully about what AI genuinely cannot do, because this is where safe practice really begins. These tools are built on population-level data, which means they reflect patterns across thousands of patients, but they know nothing specific about the person sitting in front of you right now. They cannot factor in someone's personal values, their anxieties, or the social circumstances shaping their health. And importantly, if something goes wrong, the AI carries no professional or legal responsibility. You do. There is also something irreplaceable about physical presence. A clinician in the room picks up on things no algorithm can, subtle cues, tone, the way someone holds themselves. And finally, training data has gaps. Rare conditions, atypical presentations, underrepresented populations, these are exactly the situations where AI is most likely to let you down. Recognising these limits is not about distrusting the technology. It is about using it wisely."
+        },
+        {
+          "number": 3,
+          "script": "So, AI decision support tools can be incredibly useful, but it's really important that we understand what they cannot do. These systems learn from historical data, which means any gaps or biases in that data get baked in without anyone necessarily noticing. More importantly, the AI has no idea who is actually sitting in front of you. It cannot see that your patient is visibly distressed, that their condition has changed in the last hour, or that they have expressed very specific values about their care. The recommendations it generates are based on patterns drawn from large populations, so they may not reflect what is right for this particular person, in this particular moment. And things like your local protocols, your clinical intuition, and the nuances of a real conversation with a patient? Those remain firmly outside what AI can access. Recognising these limits is not a criticism of the technology. It is simply good clinical practice."
+        },
+        {
+          "number": 4,
+          "script": "So, let us talk about something really important: what AI simply cannot do. These systems are trained on data, and data alone. They have no idea that your patient has been under enormous stress lately, or that they have a complicated family situation affecting their health. If there are gaps in the records, perhaps a missing test result or an undocumented allergy, the algorithm will work with what it has, and that can lead to errors. And here is the thing about nuance: AI does not feel it. It cannot pick up on the subtle hesitation in a patient's voice, or the clinical instinct that tells you something is not quite right. When a patient presents with a rare or unusual condition, these systems can genuinely struggle, because they simply have not seen enough examples to reason well. That is precisely where you come in. Your clinical judgement, your experience, your humanity, that is what bridges the gap between data and genuinely safe, personalised care."
+        },
+        {
+          "number": 5,
+          "script": "So we've seen what AI can do, but now let's be honest about where it falls short. Even the most sophisticated clinical decision support system has real limitations. For a start, it doesn't know your hospital, your local population, or the particular pressures your team is facing today. It's also working from historical data, which means it can struggle when new conditions or unusual presentations come along that simply weren't in the training set. Rare cases are especially tricky, because algorithms are built on patterns, and if a pattern barely exists in the data, the system has very little to go on. And here's something worth remembering: a set of numbers on a screen tells you nothing about who that patient actually is, their history, their values, their circumstances. That's where you come in. Clinical judgement, experience, and instinct remain absolutely essential. AI is a tool to support your thinking, not to replace it."
+        },
+        {
+          "number": 6,
+          "script": "So we've seen what AI can do, but now let's be honest about what it cannot do. AI systems are only as good as the data they've been trained on, and that data will always have gaps. A patient might have a rare condition the algorithm has simply never encountered before, or there might be missing test results that lead the system down the wrong path entirely. There's also the issue of bias. If the training data over-represents certain groups of patients, the AI may perform poorly for others, and that's a genuine patient safety concern. But perhaps the biggest limitation is context. AI doesn't know that your patient is a carer for three children, or that they've just lost their job, or that they've mentioned something quietly in the corridor that never made it into the notes. That human understanding is yours, not the machine's. The subtitle of this slide says it well: where data ends, clinicians begin."
+        },
+        {
+          "number": 7,
+          "script": "So, we've talked about what AI can do, but now let's focus on something just as important: knowing when to step back from what it's telling you. AI systems are powerful, but they don't know your patient the way you do. They haven't sat with them, heard the worry in their voice, or noticed that something just seems off today. That clinical instinct you've built through your training? It genuinely matters. If something doesn't feel right, don't dismiss that feeling simply because an algorithm is pointing in a different direction. And if you're ever uncertain, the right move is always to escalate, whether that's checking with a senior colleague or pausing before acting. Think of AI guidance as a useful prompt, not the final word. Your patient, their individual circumstances, their values, their presentation in front of you right now, all of that takes priority over any automated recommendation. You are still the clinician. Own that responsibility."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important thing to hold onto is this: AI is here to support you, not to make decisions for you. Your clinical judgement always takes priority. Whatever a system suggests, check it against your own assessment and, crucially, the actual patient in front of you. In high-pressure situations, such as emergencies or when you're working with vulnerable patients, human oversight becomes even more essential. Don't step back and let the technology lead. When you're documenting, make sure you're recording your own reasoning and thought process, not simply copying out what the AI produced. And take time to understand the limitations of the tools you're using. Finally, a practical next step: look up your organisation's policy on approved clinical decision support tools, and make sure you know how to raise concerns if something doesn't seem right. These principles will help you use AI safely and confidently in your practice."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Clinical Decisions: When “Helpful” Becomes Harmful",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Risks of relying on AI for diagnosis or treatment recommendations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday healthcare settings and a general curiosity about how digital tools are being used in clinical practice are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI tools for clinical diagnosis and treatment recommendations, and explain how these risks can affect patient safety in real-world healthcare settings. You will also be able to apply practical strategies to critically evaluate AI-generated clinical suggestions, ensuring that human judgement and professional accountability remain central to every patient care decision.",
+  "lessons": [
+    {
+      "lesson title": "AI in Clinical Decisions: When “Helpful” Becomes Harmful",
+      "order": 1,
+      "Description": "Artificial intelligence tools are increasingly being used to support clinical decision-making, but understanding their limitations is just as important as recognising their potential. This lesson explores the real risks that arise when healthcare professionals place too much trust in AI-generated diagnoses or treatment recommendations. We will examine how AI systems can produce plausible-sounding but incorrect outputs, and why factors such as biased training data, lack of clinical context, and overconfidence in results can lead to patient harm. By the end of this lesson, you will have a clearer understanding of how to use AI tools responsibly as one part of a broader clinical process, rather than as a replacement for professional judgement.",
+      "status": "draft",
+      "content": "Risks of relying on AI for diagnosis or treatment recommendations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When Helpful Becomes Harmful",
+          "subtitle": "The fine line AI must not cross",
+          "slidecontent": "• AI tools in healthcare are becoming faster, cheaper, and more widely used\n• Clinicians increasingly rely on AI suggestions for diagnosis and treatment\n• But helpful-looking outputs can carry serious hidden risks\n• Errors may be subtle, confident-sounding, and easy to miss\n• Understanding where AI falls short is now a core clinical skill",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Pattern Recognition Without Understanding",
+          "subtitle": "Seeing patterns, missing clinical context",
+          "slidecontent": "• Spots patterns, not causes\n• Misses rare or complex cases\n• No grasp of patient history\n• Ignores clinical nuance\n• Correlation confused with diagnosis",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Confidence Without Comprehension",
+          "subtitle": "How AI misleads with false certainty",
+          "slidecontent": "• AI systems often state incorrect information in the same confident tone as correct information\n• No internal alarm when the system is wrong\n• A plausible-sounding answer is not the same as an accurate one\n• Trained on patterns in data, not on genuine understanding of disease or patient context\n• Clinicians may lower their guard simply because the output reads as authoritative\n• Certainty in the wording does not reflect certainty in the evidence",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias Baked Into the Data",
+          "subtitle": "When training data skews the outcome",
+          "slidecontent": "• Garbage in, garbage out\n• Biased data, biased results\n• Minorities often underrepresented\n• Historical inequities get amplified\n• Skewed outputs harm patients",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Blind Spots in AI Reasoning",
+          "subtitle": "Where AI reasoning silently goes wrong",
+          "slidecontent": "• Trained on historical data, so past biases get quietly baked into outputs\n• Confidently wrong\n• No ability to sense what is missing from an incomplete patient history\n• Rare conditions often underrepresented in training data, making them easy for AI to overlook\n• Pattern-matching across populations, not reasoning about the individual in front of you\n• No awareness of context, urgency, or the clinician's gut instinct",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Gaps in AI Clinical Reasoning",
+          "subtitle": "Where AI reasoning falls short clinically",
+          "slidecontent": "• Unable to weigh up the full clinical picture the way an experienced clinician can\n• Misses subtle cues\n• No access to a patient's tone, body language, or lived history\n• Struggles with rare or atypical presentations that fall outside its training data\n• Cannot account for local protocols, resource availability, or patient values\n• Pattern-matching is not the same as clinical judgement",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Red Flags to Watch For",
+          "subtitle": "Warning signs clinicians must recognise now",
+          "slidecontent": "• AI sounds overly confident\n• No source cited\n• Rare conditions missed\n• Contradicts your training\n• Output never questioned",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles for safer AI use",
+          "slidecontent": "• AI assists, never decides\n• Always verify AI output\n• Patient safety comes first\n• Escalate when uncertain\n• You hold clinical responsibility\n• Speak up, stay vigilant",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Over the past few years, AI tools have moved quickly into healthcare settings. They are faster, cheaper, and more accessible than ever before, and many clinicians are now routinely using them to help with diagnosis and treatment decisions. On the surface, that sounds like progress, and in many ways it is. But there is a problem worth taking seriously. AI can produce outputs that look confident and convincing, yet contain errors that are genuinely difficult to spot. The system does not hesitate, it does not flag uncertainty the way a cautious colleague might, and that can make it easy to trust something you probably should not. So this course is about developing a critical eye. Understanding where AI tends to go wrong, and why, is no longer just useful background knowledge for clinicians. It is becoming an essential part of safe practice. Let us start by looking at exactly where that fine line sits.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "Let's start by thinking about how AI actually processes medical information, because this is where things get interesting. AI systems are extraordinarily good at spotting patterns across huge datasets. They can look at thousands of scans or test results and identify recurring features that might signal a particular condition. But here's the important thing to understand: spotting a pattern is not the same as understanding what's causing it. AI has no real grasp of a patient's full history, their lifestyle, their previous illnesses, or the subtle clinical details that an experienced clinician picks up during a consultation. It can struggle significantly with rare conditions or complex cases that simply don't fit the patterns it was trained on. And perhaps most critically, it can confuse correlation with an actual diagnosis. Just because two things appear together in data doesn't mean one is causing the other. That distinction matters enormously in clinical practice, and AI doesn't always make it reliably.",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "One of the most dangerous things about AI in clinical settings is how convincing it sounds, even when it is completely wrong. These systems don't have an internal warning light that flickers when they're uncertain. They produce text based on patterns in data, not because they genuinely understand a patient's condition or the nuances of disease. So a confident, well-structured response and a completely fabricated one can look identical on screen. As clinicians, we're trained to trust authoritative sources, and that instinct can work against us here. When something reads like a textbook, we naturally lower our guard. But the fluency of the language tells you nothing about the accuracy of the content. Just because an AI states something with apparent certainty doesn't mean the underlying evidence supports it. Recognising this gap between how confident the output sounds and how reliable it actually is, is absolutely fundamental to using these tools safely.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. AI systems learn from historical data, and if that data is flawed or unrepresentative, the model will simply learn and repeat those flaws. The problem is that many medical datasets have been built over decades during which certain groups, particularly ethnic minorities, women, and older patients, were consistently underrepresented in research and clinical trials. So when an AI is trained on that data, it doesn't just inherit those gaps, it amplifies them. A diagnostic tool trained mostly on data from one demographic may perform brilliantly for that group and quite poorly for everyone else. And here's the really concerning part: the system doesn't know it's doing this. It just produces an output that looks confident and authoritative. That's why understanding where the training data comes from, and who it represents, is absolutely fundamental before trusting any AI tool with clinical decisions.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "Most clinical AI tools are trained on historical data, and that means any biases buried in that data get carried forward into the outputs, often without anyone noticing. What makes this particularly dangerous is that AI doesn't hesitate. It can be completely wrong and still sound utterly confident. It also has no way of knowing what's missing. If a patient history is incomplete, the AI won't flag that gap, it will just work with what it's been given. Rare conditions are another blind spot, because they're underrepresented in training data, so the AI is far less likely to surface them as possibilities. And perhaps most importantly, AI is doing pattern-matching across large populations. It isn't reasoning about the specific person sitting in front of you. It has no sense of urgency, no awareness of context, and absolutely no equivalent of a clinician's gut instinct. These aren't minor limitations. They matter enormously in practice.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "We've seen what AI can do, but let's be honest about where it falls short. Even the most sophisticated AI system cannot do what an experienced clinician does naturally, which is hold the full picture of a patient in mind. It doesn't pick up on the subtle things, the slight hesitation in someone's voice, the way they carry themselves, or the years of lived experience they bring into the consultation room. It also struggles when a patient presents in an unusual or atypical way, because if that pattern wasn't well represented in the training data, the AI simply won't handle it well. And it has no awareness of your local protocols, what resources are actually available, or what matters most to that individual patient. This is the really important point: AI is doing pattern-matching. It's finding similarities in data. That is genuinely useful, but it is not the same thing as clinical judgement, and we should never confuse the two.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "Let's talk about some warning signs you really need to keep in mind when you're using AI tools in clinical settings. First, be cautious if the AI sounds extremely confident, because that certainty isn't always earned. If there's no source cited for the information it's giving you, that's a problem straight away. You have no way of knowing where that output has come from. AI systems can also struggle with rare or unusual conditions, so if something doesn't quite fit the picture, don't assume the AI has considered every possibility. And importantly, if the output contradicts what you know from your training and clinical experience, please don't just accept it. Your expertise matters enormously here. Perhaps the biggest red flag of all is when AI output simply isn't questioned at all, either by you or your colleagues. These tools should always be scrutinised, not followed blindly. Recognising these warning signs is genuinely the first step towards using AI safely and responsibly.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "Bringing everything together with a few core principles to carry forward. Think of AI as a tool that supports your thinking, not something that makes decisions for you. Whatever it suggests, you verify it. You check it against your clinical knowledge, your patient in front of you, and your professional judgement. Patient safety is always the priority, full stop. If something feels off, or you are unsure about an AI output, escalate. Talk to a colleague, a senior, whoever is appropriate. Do not let uncertainty sit in silence. And this is perhaps the most important point of all: the clinical responsibility remains with you. Not the algorithm, not the software, not the organisation that deployed it. You. That means staying alert, asking questions, and speaking up if you have concerns about how AI is being used in your workplace. These principles are straightforward, but keeping them front of mind will genuinely help you use AI more safely and more confidently.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

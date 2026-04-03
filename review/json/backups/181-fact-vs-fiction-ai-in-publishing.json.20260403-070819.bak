@@ -1,0 +1,121 @@
+{
+  "Course Title": "Fact vs Fiction: AI in Publishing",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Misinformation risks in articles, scripts, and editorial content.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday digital tools and a general interest in how published content is created are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common sources of AI-generated misinformation in publishing contexts such as articles, scripts, and editorial content, and explain how these inaccuracies can spread across media channels. You will also apply practical fact-checking strategies to recognise and reduce misinformation risks when working with AI tools in your creative and editorial workflows.",
+  "lessons": [
+    {
+      "lesson title": "Fact vs Fiction: AI in Publishing",
+      "order": 1,
+      "Description": "In this lesson, you will explore how artificial intelligence tools are increasingly being used in publishing workflows, from drafting articles to generating scripts and editorial content. While these tools can save time and boost productivity, they also introduce real risks around misinformation, factual inaccuracies, and fabricated sources. You will learn how to spot common AI-related errors in published content and understand why human oversight remains essential at every stage of the editorial process. By the end of this lesson, you will have practical strategies to help you verify AI-generated content and maintain accuracy and credibility in your work.",
+      "status": "draft",
+      "content": "Misinformation risks in articles, scripts, and editorial content.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI in Publishing",
+          "subtitle": "Where AI meets the printed word",
+          "slidecontent": "• AI writes articles now\n• Errors can spread fast\n• Editors must stay alert\n• Facts need human checks",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the Core Problem",
+          "subtitle": "When AI facts go unchecked",
+          "slidecontent": "• AI tools can generate confident, plausible-sounding facts that are simply wrong\n• No built-in fact-checking\n• Publishers who rely on unverified AI output risk spreading misinformation to large audiences\n• Errors appear polished and credible, making them harder to spot\n• The problem grows when content moves quickly through editorial pipelines without review",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting AI-Generated Misinformation",
+          "subtitle": "Recognising the signs before publishing",
+          "slidecontent": "• Vague, unverifiable statistics cited\n• Confident tone, thin evidence\n• No named sources given\n• Dates and facts conflict\n• Generic quotes, no attribution",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting AI-Generated Misinformation",
+          "subtitle": "Recognising the warning signs in content",
+          "slidecontent": "• Confident, fluent writing that contains subtle factual errors or invented sources\n• Vague attribution, such as \"studies show\" with no named reference\n• Dates and statistics that sound plausible but cannot be verified\n• No clear author or editorial byline\n• Quotes from real people that are slightly off or entirely fabricated\n• Consistent tone throughout, even when mixing accurate and false information",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting AI-Generated Misinformation",
+          "subtitle": "Recognising the warning signs in content",
+          "slidecontent": "• Vague, unverifiable source citations\n• Overly confident, sweeping claims\n• No named author or byline\n• Repetitive or hollow phrasing\n• Dates and facts feel \"off\"",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting AI-Generated Misinformation",
+          "subtitle": "Recognising the warning signs in content",
+          "slidecontent": "• Confident, fluent writing that contains subtle factual errors or invented sources\n• No hedging or uncertainty, even on complex topics\n• Quotes that sound plausible but cannot be verified\n• Dates, statistics, and names that are slightly off\n• A polished tone that masks hollow or circular reasoning",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Spotting AI Errors in Practice",
+          "subtitle": "Recognising mistakes before they go live",
+          "slidecontent": "• AI-generated text often includes plausible-sounding statistics with no verifiable source\n• Dates and names are common failure points\n• Watch for quotes attributed to real people that sound slightly off or uncharacteristically vague\n• Cross-referencing a single claim against two or three reliable sources catches most errors quickly\n• Confident tone is not proof of accuracy",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward always",
+          "slidecontent": "• Always verify AI outputs\n• Facts need human checking\n• Sources matter enormously\n• Errors spread fast online\n• You are the final filter",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, everyone, and thanks for joining this course on AI in publishing. This is a topic that's moving incredibly fast, and it's one that affects anyone who works with the written word, whether you're an editor, a journalist, a content writer, or simply someone who reads the news. So, what's actually happening out there? Well, artificial intelligence is now being used to write articles, generate reports, and produce content at a scale that simply wasn't possible before. That sounds impressive, and in many ways it is, but it also brings some real challenges. When AI gets something wrong, and it does get things wrong, those errors can travel quickly, spreading across websites and publications before anyone has had a chance to check them. That's why human oversight matters more than ever. Editors and writers need to stay sharp, ask questions, and make sure that facts are properly verified before anything reaches the reader. That's exactly what we'll be exploring throughout this course.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So let's get to the heart of what this course is really about. The core problem with using AI in publishing is this: AI tools can produce content that sounds completely authoritative and well-researched, but is factually wrong. And here's what makes that particularly tricky. The AI itself has no way of checking whether what it's written is accurate. It simply generates text that sounds plausible. For publishers, that creates a real risk. If that unverified content goes out to your audience, you're potentially spreading misinformation at scale. And because AI-generated errors tend to look polished and professional, they don't have the obvious hallmarks of a mistake. They can slip right past a busy editor. That risk multiplies when content is moving quickly through your pipeline, with little time built in for proper review. So the question we're exploring throughout this course is: how do you work with AI responsibly, and catch those errors before they reach your readers?",
+          "do_not_include": false
+        },
+        {
+          "number": 3,
+          "script": "So how do you actually spot AI-generated misinformation before it makes its way into something you publish? There are a few telltale signs worth keeping in mind. One of the most common is the use of statistics that sound very precise and authoritative, but when you try to track them down, they simply don't exist. Alongside that, you'll often notice the writing has a very confident, assured tone, yet when you look closely, there's very little solid evidence backing up the claims. You might also find there are no named sources at all, just vague references to \"studies\" or \"experts\" without any specifics. Another red flag is when dates or facts within the same piece start to contradict each other. And finally, watch out for quotes that feel oddly generic, with no clear attribution to a real person. These patterns won't always appear together, but spotting even one or two of them should prompt you to investigate further before publishing.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "One of the trickiest things about AI-generated misinformation is how convincing it looks on the surface. The writing is often smooth and confident, which makes it easy to trust. But look a little closer and you might spot some tell-tale signs. Vague phrases like \"studies show\" or \"research suggests\" with no actual source named are a real red flag. Dates and statistics might sound perfectly reasonable, but when you try to verify them, they simply do not exist. If there is no named author or editorial credit anywhere on the piece, that is worth questioning too. AI can also generate quotes that are attributed to real people but are either slightly wrong or completely made up. And here is something quite subtle: the tone tends to stay consistent throughout, even when the content shifts between accurate facts and outright fiction. That evenness can actually make false information harder to spot, so it pays to stay alert.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually spot AI-generated misinformation in the wild? There are a few warning signs worth keeping an eye out for. First, check the sources. If an article references studies or statistics but gives you nothing specific to look up, that is a red flag. AI tools often fabricate citations that sound plausible but simply do not exist. You should also be wary of content that makes very bold, sweeping statements without any nuance or qualification. Alongside that, ask yourself: who wrote this? If there is no named author or byline anywhere, that is worth questioning. Pay attention to the writing style too. If sentences feel repetitive, a bit hollow, or oddly generic, that can be a sign the content was machine-generated without much human editing. And finally, trust your instincts when dates or facts feel slightly off. A quick search can often confirm whether something does not quite add up.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually spot AI-generated misinformation in the wild? One of the trickiest things is that it often reads beautifully. The writing is smooth, confident, and professional-sounding, which makes it easy to trust. But that polished surface can hide some real problems underneath. You might notice that the content never expresses any doubt, even on genuinely complicated topics where uncertainty would be completely reasonable. Quotes and statistics might look convincing at first glance, but when you try to track them down, they simply do not exist. Names might be slightly wrong, dates a little off, figures that seem plausible but do not quite check out. And if you read closely, you may find the argument is actually going in circles, sounding authoritative without really saying anything of substance. The key thing to remember is that confident writing is not the same as accurate writing, and that distinction matters enormously in publishing.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about what AI errors actually look like in the real world, because they can be surprisingly easy to miss. One of the most common issues is statistics. AI will confidently produce a figure that sounds completely reasonable, but when you go looking for the original source, it simply does not exist. Names and dates are another weak spot, often slightly wrong in ways that are easy to overlook if you are moving quickly. You should also be cautious with quotes. If a quote attributed to a well-known person feels a little vague or just slightly out of character, that is worth investigating. The good news is that catching these errors does not have to be complicated. Simply checking one claim against two or three reliable sources will flag most problems fairly quickly. And perhaps the most important thing to remember is this: just because AI writes something in a confident, authoritative tone does not mean it is accurate.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together with the things I really want you to hold onto as you move forward. AI tools can be genuinely useful in publishing, but they are not infallible, and they are certainly not a replacement for human judgement. Every single thing an AI produces needs to be checked by a real person, and that person is you. Facts, figures, names, dates, sources, all of it needs to be verified before it goes anywhere near a reader. And please do take sources seriously, because if an AI cites something, you need to confirm that source actually exists and says what the AI claims it says. This matters because mistakes travel incredibly quickly online, and once something inaccurate is published, it can be very difficult to undo the damage. So think of yourself as the final filter in this process. The technology can assist, but the responsibility always sits with you.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI Chatbots in Hospitality: Accuracy vs Experience",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Risks of incorrect bookings, advice, or responses.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with day-to-day hospitality operations (such as taking reservations, handling guest enquiries, or managing bookings) is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI chatbot errors in hospitality settings, including incorrect bookings, misleading travel advice, and inaccurate guest responses. You will also be able to apply practical strategies to balance the efficiency of AI-driven communication with the accuracy and quality of experience that guests expect.",
+  "lessons": [
+    {
+      "lesson title": "AI Chatbots in Hospitality: Accuracy vs Experience",
+      "order": 1,
+      "Description": "AI chatbots are becoming increasingly common in the hospitality industry, helping hotels, restaurants, and travel services handle customer enquiries around the clock. However, when a chatbot provides incorrect information about bookings, availability, pricing, or local recommendations, the consequences can range from minor inconveniences to serious complaints and lost revenue. This lesson explores the tension between delivering a smooth, engaging customer experience and ensuring the accuracy of the information chatbots provide. You will look at real-world examples of where things can go wrong, and consider practical steps that hospitality businesses can take to reduce the risks of errors. By the end of this lesson, you will have a clearer understanding of how to balance efficiency with reliability when using AI chatbots in a hospitality setting.",
+      "status": "draft",
+      "content": "Risks of incorrect bookings, advice, or responses.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When Chatbots Get It Wrong",
+          "subtitle": "Navigating accuracy, experience, and real risks",
+          "slidecontent": "• AI chatbots are becoming common tools in hotels, restaurants, and travel services\n• They handle bookings, answer questions, and guide guests\n• But errors can cause real problems\n• Incorrect information leads to missed reservations, wrong advice, and frustrated customers\n• This course explores where things go wrong and how to reduce the risks",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "When Chatbots Get It Wrong",
+          "subtitle": "The cost of chatbot errors explained.",
+          "slidecontent": "• Wrong dates booked instantly\n• Guests receive bad advice\n• Complaints escalate quickly\n• Trust disappears fast\n• Costs money to fix",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "slidetitle": "Booking Errors and Their Costs",
+          "subtitle": "When mistakes cost time and money",
+          "slidecontent": "• Wrong room types or dates confirmed to guests, triggering costly rebooking and compensation\n• Refund disputes and staff time wasted\n• Guests arriving to find no availability due to a chatbot error\n• Reputational damage from negative reviews citing booking failures\n• Revenue lost when incorrect pricing is quoted and honoured",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "Booking Errors and Their Costs",
+          "subtitle": "When mistakes carry a heavy price",
+          "slidecontent": "• Wrong dates, lost revenue\n• Guests stranded on arrival\n• Refunds damage profit margins\n• Trust broken, reviews suffer\n• Staff time wasted fixing errors",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "slidetitle": "Consequences of Getting It Wrong",
+          "subtitle": "When errors cost trust and revenue.",
+          "slidecontent": "• A wrong booking date or room type can trigger immediate cancellation and lost revenue\n• Guests who receive bad advice rarely complain quietly\n• Reputational damage spreads fast via review platforms like TripAdvisor and Google\n• Repeat bookings lost\n• Staff time spent fixing AI errors adds hidden operational costs\n• A single viral complaint can undo months of positive guest experience work",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "Misinformation and Its Consequences",
+          "subtitle": "When errors damage trust and revenue.",
+          "slidecontent": "• Wrong dates lose bookings\n• Guests lose trust fast\n• Bad advice risks safety\n• Errors spread via reviews\n• Revenue drops quickly",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "slidetitle": "Minimising Risk Through Verification",
+          "subtitle": "Checks That Protect Guests and Businesses",
+          "slidecontent": "• Always confirm critical booking details (dates, room type, guest count) through a secondary system before finalising\n• Cross-reference chatbot responses against live availability data in real time\n• Flag ambiguous requests for human review\n• Train staff to spot common chatbot error patterns, such as misread dates or duplicate entries\n• Keep a clear audit trail of chatbot interactions so errors can be traced and corrected quickly\n• Never rely solely on chatbot output for high-value or complex reservations",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What to carry forward from here",
+          "slidecontent": "• Chatbots make mistakes sometimes\n• Always verify critical booking details\n• Guest trust is easily lost\n• Staff oversight reduces errors\n• Double-check before confirming reservations",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. Over the next few lessons, we're going to be looking at something that's becoming increasingly common across the hospitality industry: AI chatbots. You'll find them in hotels, restaurants, and travel services, helping guests make bookings, answering questions, and generally acting as a first point of contact. And on the surface, that sounds brilliant. But here's the thing: when these tools get things wrong, the consequences aren't just a minor inconvenience. We're talking about missed reservations, guests receiving incorrect advice, and real frustration that can damage your reputation. So this course is really about understanding where those problems come from, why they happen, and what you can do to reduce the risks. Whether you're working directly with these tools or making decisions about how they're used in your organisation, this course will give you a much clearer picture of what to watch out for. Let's get started.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "So let's start by looking at what actually happens when a chatbot gets things wrong, because the consequences can be surprisingly serious. Imagine a guest asks a chatbot to check availability and book a room, but the system misreads the dates and confirms the wrong ones instantly. That guest arrives expecting a room that isn't ready, or worse, isn't available at all. Or perhaps the chatbot gives incorrect advice about facilities, pricing, or policies, and the guest makes decisions based on that wrong information. What happens next? They complain, and those complaints can escalate very quickly, especially when guests feel misled. Once that trust is gone, it is genuinely difficult to win back, and that matters enormously in hospitality where reputation is everything. And of course, sorting out these mistakes costs the business real money, whether that's staff time, refunds, or compensation. So getting chatbot accuracy right isn't just a technical concern, it has a direct impact on your guests and your bottom line.",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what actually goes wrong when a chatbot makes a booking error, because the consequences can be surprisingly serious. Imagine a guest who's been confirmed the wrong room type, or the wrong dates entirely. Now your team has to scramble to fix it, potentially offering compensation or upgrades just to keep that guest happy. That costs money. Then there are refund disputes, which eat up staff time that could be spent on far more valuable tasks. And in the worst cases, guests arrive at the property only to find there's no room available for them at all. That's an incredibly damaging experience. On top of that, unhappy guests leave reviews, and those reviews stick around online for a very long time. And if a chatbot quotes the wrong price and your business feels obliged to honour it, you're looking at a direct hit to your revenue. These aren't minor inconveniences; they're real, measurable business problems.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what actually goes wrong when a chatbot makes a booking error, because the consequences are far more serious than you might expect. Imagine a guest arrives at your hotel, suitcase in hand, only to find their room isn't available because the dates were entered incorrectly. That's not just an awkward moment, it's a genuine crisis. You're now looking at refunds, last-minute rebooking costs, and a very unhappy guest who is almost certainly going to leave a damaging review online. And those reviews matter enormously in hospitality. Meanwhile, your front desk staff are spending valuable time sorting out the mess rather than focusing on delivering a great experience for everyone else. The financial hit from refunds and compensation can quietly erode your profit margins over time. So while a chatbot might seem like a convenient shortcut, if it isn't accurate, the cost to your revenue, your reputation, and your team can be surprisingly significant.",
+          "do_not_include": true
+        },
+        {
+          "number": 5,
+          "script": "So what actually happens when an AI chatbot gets it wrong? Well, the consequences can be surprisingly serious. Something as simple as confirming the wrong room type or an incorrect check-in date can lead to an immediate cancellation, and that is revenue gone. But it does not stop there. Unhappy guests rarely keep their frustration to themselves. They head straight to TripAdvisor, Google, or social media, and negative reviews spread quickly. You could lose not just that one booking, but the repeat visits that would have followed. On top of that, your staff end up spending valuable time correcting mistakes the chatbot made, which adds hidden costs to your operation. And here is the really sobering part: a single complaint that goes viral can undo months of hard work building a positive reputation. So accuracy in these systems is not just a nice-to-have. It genuinely protects your business.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what actually goes wrong when an AI chatbot gets things wrong in a hospitality setting, because the consequences can be surprisingly serious. Imagine a guest asks your chatbot about availability and it gives them the wrong dates or incorrect pricing. That booking is almost certainly lost. But it goes further than that. Guests who receive bad information lose confidence in your property very quickly, and that trust is incredibly difficult to rebuild. In some cases, poor advice around things like allergens or local safety can even put people at risk, which is a much bigger concern altogether. And here is the part that many operators overlook: unhappy guests talk. They leave reviews, they post on social media, and those errors become very public, very fast. All of this feeds directly into your bottom line. Lost bookings, damaged reputation, and declining revenue can follow from what might seem like a small mistake. Accuracy really does matter.",
+          "do_not_include": true
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually reduce the risk of chatbot errors causing real problems for guests or the business? The key is building in verification at every critical step. Before any booking is confirmed, always double-check the important details, things like dates, room type, and guest numbers, against your live reservation system rather than trusting the chatbot alone. If a guest's request is unclear or unusual, route it to a human member of staff straight away. It is also worth training your team to recognise the kinds of mistakes chatbots commonly make, such as misreading dates or creating duplicate bookings. Keeping a clear record of chatbot conversations means that if something does go wrong, you can trace it quickly and put it right. And for high-value or complicated reservations, always have a person involved in the final decision. Think of verification not as extra work, but as your safety net.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and pull together the most important things from this lesson. First, it's worth accepting that AI chatbots are not perfect. They will occasionally get things wrong, and that's simply the reality of the technology at this stage. Because of that, anything critical, especially booking details like dates, room types, or pricing, should always be verified by a human before it's confirmed to the guest. And here's why that matters so much: trust. Once a guest has a bad experience because of incorrect information, it's very difficult to win that confidence back. The good news is that having your staff involved in the process makes a real difference. Human oversight catches errors before they reach the guest. So the practical habit to build is this: always double-check before a reservation is confirmed. It's a simple step, but it protects both your guests and your reputation.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

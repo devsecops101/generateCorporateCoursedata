@@ -1,0 +1,105 @@
+{
+  "Course Title": "Autonomous Equipment on Construction Sites",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Risks with AI-assisted machinery and human interaction.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction site operations and general health and safety principles is helpful, though no prior experience with autonomous machinery or advanced technology is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with autonomous and AI-assisted machinery operating on construction sites, and explain how these risks can affect the safety of workers and site personnel. You will also be able to apply practical guidelines to manage human interaction with autonomous equipment, helping you to prioritise safety and reduce the likelihood of accidents in your working environment.",
+  "lessons": [
+    {
+      "lesson title": "Autonomous Equipment on Construction Sites",
+      "order": 1,
+      "Description": "This lesson introduces the key risks associated with autonomous and AI-assisted machinery operating on construction sites. You will explore how these machines function alongside human workers, and why understanding their behaviour is essential for maintaining a safe working environment. We will look at common hazards that arise when people and autonomous equipment share the same space, including issues with visibility, communication, and unpredictable machine movements. The lesson is designed for anyone working on or around construction sites, regardless of prior technical knowledge, and uses practical examples to make the content easy to follow. By the end, you will have a clearer understanding of how to work more safely in environments where autonomous equipment is present.",
+      "status": "draft",
+      "content": "Risks with AI-assisted machinery and human interaction.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing Autonomous Construction Equipment",
+          "subtitle": "The future of construction is here.",
+          "slidecontent": "• Machines now work without operators\n• Sites are changing fast\n• New risks need new awareness\n• Safety rules must keep pace"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Autonomous Construction Equipment",
+          "subtitle": "What it is and how it works",
+          "slidecontent": "• Machines that work without human control\n• Uses sensors, cameras, and software\n• Follows pre-programmed instructions\n• Operates on-site independently\n• Examples: diggers, drones, rollers"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Hazards Around Autonomous Equipment",
+          "subtitle": "Spot dangers before they escalate fast.",
+          "slidecontent": "• Blind spots hide nearby workers\n• Sensors can fail unexpectedly\n• Noise masks machine movement\n• Crush zones shift constantly\n• Warning lights get overlooked easily"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Hazardous Human-Machine Interactions",
+          "subtitle": "Where Humans and Machines Collide",
+          "slidecontent": "• Autonomous machines often cannot detect workers in blind spots or low-visibility conditions\n• Sudden stops and unexpected direction changes catch workers off guard\n• Proximity too close\n• Workers on foot near reversing or rotating equipment face the highest collision risk\n• Mixed zones where people and machines share the same path without clear separation\n• Noise and vibration from nearby plant can mask warning signals from autonomous systems"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising Human and Machine Zones",
+          "subtitle": "Separating Safe Areas for Each",
+          "slidecontent": "• Designated machine zones are areas reserved exclusively for autonomous equipment to operate without human interference\n• Human zones kept strictly separate\n• Clear physical barriers such as fencing, cones, or painted markings help define each zone on site\n• Signage alerts workers before they approach a boundary\n• Overlapping zones create collision risk, even when machines are moving slowly or appear stationary\n• Always confirm which zone you are entering before stepping onto any part of the site"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Reducing Risk on Site",
+          "subtitle": "Safer Practices for People and Machines",
+          "slidecontent": "• Clear exclusion zones around active autonomous machines\n• Never assume a machine has detected you\n• High-visibility clothing and site check-ins as standard practice\n• Designated safe walkways kept separate from machine operating areas\n• Regular briefings to keep all workers updated on where autonomous equipment is running\n• Simple hand signals and stop procedures understood by everyone on site"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Staying Safe Around Autonomous Equipment",
+          "subtitle": "Practical steps to protect yourself daily",
+          "slidecontent": "• Stay visible to machines always\n• Never assume equipment has stopped\n• Wear high-visibility gear daily\n• Follow designated pedestrian routes\n• Check blind spots before moving\n• Report faults immediately"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for staying safe onsite",
+          "slidecontent": "• Always assume autonomous machines may move without warning\n• Stay visible, wear high-visibility clothing at all times onsite\n• Never stand in a machine's operating zone, even briefly\n• Report any unexpected equipment behaviour to your supervisor immediately\n• Know the emergency stop locations before work begins\n• Review your site's autonomous equipment procedures regularly to stay current"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on autonomous equipment on construction sites. If you've visited a construction site recently, you may have noticed things look a little different. Machines are starting to operate on their own, without a person sitting in the cab controlling them. That's not science fiction anymore, it's happening right now on sites across the country and around the world. And as this technology moves forward, the construction industry is changing at a remarkable pace. But with that change comes responsibility. When you introduce powerful, self-operating machinery into a busy working environment, new risks appear, risks that many workers and supervisors simply haven't encountered before. That means we all need to build our awareness and understanding. It also means that the safety rules and procedures we've relied on for years need to be reviewed and updated to reflect this new reality. Throughout this course, we'll explore exactly what that means for you and your site."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start by getting clear on what we actually mean when we talk about autonomous construction equipment. In simple terms, these are machines that can carry out tasks on a building site without someone physically operating them. Instead of a person sitting in the cab or holding a controller, the machine relies on a combination of sensors, cameras, and clever software to understand its surroundings and make decisions. It follows a set of pre-programmed instructions, so it knows what it needs to do and where it needs to go. And importantly, it can do all of this independently, working away on site without constant human input. Now, this might sound quite futuristic, but the technology is already being used in some very familiar types of equipment. We're talking about things like excavating diggers, surveying drones flying overhead, and even large rollers used for compacting ground. These are real machines, doing real work, right now on construction sites around the world."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about the hazards you actually need to watch out for when you're working alongside autonomous equipment. These machines are impressive, but they come with some very real dangers. First, they have blind spots, just like any large vehicle, and a nearby worker can disappear from the machine's detection range without any warning. And speaking of detection, the sensors these machines rely on can and do fail, sometimes without any obvious sign that something has gone wrong. On a busy construction site, noise is everywhere, and that can easily mask the sound of a machine moving towards you. The crush zones around autonomous equipment are not fixed either, they shift depending on what the machine is doing at any given moment. And those warning lights and signals? People stop noticing them after a while, which is a serious problem. Recognising these hazards is the first step to staying safe around this kind of equipment."
+        },
+        {
+          "number": 4,
+          "script": "So let's look at where things can go wrong when people and machines are working in the same space. Even the most advanced autonomous equipment has limitations. It may not detect a worker standing in a blind spot, or struggle to sense someone in poor visibility conditions. And because these machines can stop suddenly or change direction without warning, workers nearby can easily be caught off guard. One of the biggest risks is simply being too close, particularly around equipment that's reversing or rotating, where the chances of a collision are at their highest. Things get even more dangerous in what we call mixed zones, where people and machines are sharing the same routes without any clear separation between them. And here's something that's easy to overlook: the noise and vibration from nearby plant machinery can actually drown out the warning signals that autonomous systems rely on to alert workers. So awareness of these interactions is absolutely essential on any modern construction site."
+        },
+        {
+          "number": 5,
+          "script": "When we talk about keeping people safe around autonomous equipment, one of the most important ideas is zone separation. Essentially, the site is divided into two distinct areas: zones where machines operate, and zones where people work. These need to be kept strictly apart. On a physical level, you will typically see fencing, cones, or painted markings on the ground that make those boundaries obvious. Signage is also placed at the edges so workers get a clear warning before they get anywhere near a machine zone. Now, a common misconception is that a slow-moving or stationary machine is not a hazard. It absolutely can be, especially if a zone boundary is crossed unexpectedly. The machine may start moving again, or it may be operating in ways that are not immediately visible. So the golden rule here is simple: before you step onto any part of the site, always confirm which zone you are entering. That one habit could genuinely save your life."
+        },
+        {
+          "number": 6,
+          "script": "When autonomous machines are operating on site, keeping people safe comes down to a few straightforward habits. First, always respect exclusion zones around active equipment. These machines are impressive, but never assume one has spotted you. The sensors are good, but they are not perfect, so treat every machine as though it might not know you are there. High-visibility clothing and signing in properly when you arrive on site are non-negotiable basics. Beyond that, make sure pedestrian walkways are clearly separated from the areas where machines are working, so there is no confusion about where people should and should not be. Regular briefings are really important too, because the situation on site can change quickly, and everyone needs to know where autonomous equipment is running at any given time. Finally, make sure the whole team understands the stop procedures and any hand signals being used. Simple, shared knowledge like that can genuinely save lives."
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about what you can actually do, day to day, to keep yourself safe around autonomous equipment. The most important thing to understand is that these machines do not think the way a human operator does. They rely on sensors and cameras, so you need to make yourself visible at all times, and that means wearing your high-visibility gear every single day, no exceptions. Always stick to the designated pedestrian routes on site, because those paths are specifically planned to keep you away from areas where machines are operating. Now, here is something people often get wrong: never assume a machine has stopped just because it looks stationary. It could be pausing before its next movement. Before you walk anywhere near equipment, check those blind spots carefully. And finally, if you spot anything unusual, a fault, an unexpected movement, anything that does not seem right, report it straight away. Do not wait. Your awareness and your actions genuinely make a difference to everyone on site."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some essential reminders to carry with you every single day onsite. First and foremost, never assume an autonomous machine is stationary or safe to approach. These machines can move without any warning, so always treat them as active. Make sure you are visible at all times by wearing your high-visibility clothing, and absolutely never step into a machine's operating zone, even if you only intend to be there for a moment. If you notice any behaviour from the equipment that seems unusual or unexpected, report it to your supervisor straight away. Do not wait and do not ignore it. Before your shift begins, make sure you know exactly where the emergency stop points are located on your site. And finally, keep yourself up to date by reviewing your site's specific procedures for autonomous equipment on a regular basis, because guidance and technology can change. These habits are simple, but they could genuinely save your life."
+        }
+      ]
+    }
+  ]
+}

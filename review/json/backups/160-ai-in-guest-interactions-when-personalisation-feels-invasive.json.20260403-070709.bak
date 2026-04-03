@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Guest Interactions: When Personalisation Feels Invasive",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Balancing tailored experiences with privacy expectations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with day-to-day guest service practices in a hospitality or tourism setting is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways AI is used to personalise guest interactions across hotels, travel agencies, and food and beverage settings, and explain where the boundary between helpful personalisation and invasive data use lies. You will also apply practical guidelines to evaluate and adjust AI-driven guest communication strategies, ensuring they respect privacy expectations while still delivering a tailored and memorable experience.",
+  "lessons": [
+    {
+      "lesson title": "AI in Guest Interactions: When Personalisation Feels Invasive",
+      "order": 1,
+      "Description": "Personalisation has become a powerful tool in hospitality, allowing businesses to anticipate guest needs and create memorable experiences. However, there is a fine line between a thoughtful, tailored service and one that leaves guests feeling watched or uncomfortable. This lesson explores how AI-driven personalisation works in guest interactions, and why some approaches can unintentionally feel intrusive rather than helpful. You will learn to recognise the signals that indicate when personalisation has gone too far, and discover practical ways to strike the right balance between attentiveness and respect for privacy. By the end of this lesson, you will have a clearer understanding of how to use guest data responsibly while maintaining trust and confidence in your service.",
+      "status": "draft",
+      "content": "Balancing tailored experiences with privacy expectations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome: Personalisation vs Privacy",
+          "subtitle": "Where does helpful end and intrusive begin?",
+          "slidecontent": "• AI can remember guest preferences, past stays, and personal details to shape every interaction\n• This creates powerful, tailored experiences\n• But guests don't always know what data is being used or how\n• Personalisation can quickly shift from feeling helpful to feeling watched\n• This lesson explores where that line sits and how to stay on the right side of it",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Reading the Room: Guest Signals",
+          "subtitle": "Spotting comfort and discomfort in guests",
+          "slidecontent": "• Open body language invites engagement\n• Crossed arms signal discomfort\n• Eye contact shows receptiveness\n• Short replies mean back off\n• Smiles confirm guest comfort",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Personalisation Paradox Explained",
+          "subtitle": "When comfort meets concern for guests.",
+          "slidecontent": "• Guests want personalised service but often feel uneasy when hotels know too much\n• The line between helpful and intrusive is surprisingly thin\n• A warm welcome using a guest's name feels different from referencing their dietary history unprompted\n• Data collection powers personalisation\n• What delights one guest can unsettle another, depending on their expectations and past experiences\n• Comfort and concern can exist at the same time",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "slidetitle": "The Consent and Transparency Line",
+          "subtitle": "Where openness builds or breaks trust",
+          "slidecontent": "• Ask before you collect\n• Be clear, not clever\n• Silence isn't consent\n• Explain what data does\n• Opt-out must be easy",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Reading the Room: Guest Signals",
+          "subtitle": "Spotting comfort and discomfort in guests",
+          "slidecontent": "• Guests who freely share preferences are signalling openness to personalisation\n• Hesitation, short answers, or topic changes often indicate discomfort\n• Watch body language too\n• Repeat visits with consistent behaviour suggest a guest is comfortable with how their information is used\n• A guest who seems surprised by what you know may not have expected that level of detail",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "slidetitle": "The Opt-In Advantage",
+          "subtitle": "Consent builds trust and loyalty naturally",
+          "slidecontent": "• Guests choose what to share\n• Consent reduces privacy complaints\n• Opt-in data is more accurate\n• Trust grows from transparency\n• Loyalty follows genuine choice",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "The Line Worth Not Crossing",
+          "subtitle": "Where trust ends and discomfort begins.",
+          "slidecontent": "• Guests notice when AI knows things they never shared directly\n• Inferring preferences from behaviour feels clever until it feels creepy\n• The tipping point: when personalisation signals surveillance rather than care\n• Relevance matters\n• Timing, tone, and context all shape whether a suggestion feels helpful or intrusive\n• A single misjudged interaction can erode trust built over many visits",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "The essentials worth carrying forward always.",
+          "slidecontent": "• Personalisation needs clear boundaries\n• Consent builds lasting guest trust\n• Less data, more dignity\n• Transparency reduces guest discomfort\n• Review your AI settings regularly",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Thanks for joining this lesson. We're going to be exploring one of the more nuanced sides of AI in hospitality, and that's the tension between personalisation and privacy. Now, AI gives us some genuinely impressive tools. It can remember a guest's room preferences, their dietary requirements, even the little details from a previous stay, and use all of that to create an experience that feels thoughtful and tailored. And that's brilliant, when it works well. But here's the thing: guests aren't always aware of what information is being collected, or how it's being used behind the scenes. And that gap in understanding can cause real discomfort. What feels like attentive service to one person can feel unsettling or even intrusive to another. So throughout this lesson, we're going to look at where that line sits, why it matters, and how you can make sure your use of AI keeps guests feeling valued rather than watched. Let's get into it.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "Before we dive into the technology itself, let's talk about something fundamental: reading your guests. Whether you're using AI tools or simply having a face-to-face conversation, the ability to spot how a guest is feeling is absolutely essential. When someone is relaxed, open, and making eye contact with you, that's a green light. They're comfortable, they're receptive, and they're happy to engage. But when you notice crossed arms, a closed-off posture, or someone giving you very short, clipped answers, that's your signal to ease back. Don't push further. Give them space. And smiles, of course, are one of the clearest signs that a guest feels at ease with the interaction. Now, you might be wondering why we're covering body language in a course about AI. The reason is simple: AI can gather data and make suggestions, but it's still you, the human, who needs to judge whether a guest actually wants that personalised experience or not.",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "script": "Here's something interesting about personalisation in hospitality. Guests genuinely want to feel recognised and looked after, but there's a point where that same attentiveness starts to feel a little uncomfortable. And that line is much thinner than most people expect. Think about it this way: a receptionist greeting you by name feels warm and welcoming. But if a staff member mentions, unprompted, that they've noted your dietary preferences from three visits ago, that can feel quite different. Suddenly you're wondering, what else do they know? Now, all of this personalisation is powered by data that hotels collect over time, and that data can be genuinely useful. The tricky part is that every guest is different. What one person finds delightful, another finds unsettling, depending on their background and expectations. So comfort and concern aren't opposites here. They can actually exist side by side in the very same interaction. That's the paradox we're going to be exploring throughout this lesson.",
+          "do_not_include": false
+        },
+        {
+          "number": 4,
+          "script": "Let's talk about where the line actually sits between personalisation that feels helpful and personalisation that feels intrusive. It really comes down to consent and transparency. Before you collect any guest data, ask for permission. Don't assume that because someone booked a room, they've agreed to everything. And when you explain what you're doing with their information, be straightforward about it. Plain language, not clever marketing speak. It's also worth remembering that silence is not agreement. If a guest hasn't actively opted in, you can't treat that as a green light. Be clear about what their data is actually used for, whether that's remembering their pillow preference or tailoring future offers. And importantly, if they want out, make that easy. A buried unsubscribe link or a confusing settings page sends entirely the wrong message. When guests feel informed and in control, trust grows. When they feel tricked or trapped, it disappears very quickly.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "How do we actually know whether a guest is comfortable with personalisation or not? Well, guests give us signals all the time, we just need to pay attention. When someone freely volunteers information, telling you their preferences, their dietary needs, their favourite table, that is a green light. They are inviting you to use that knowledge. But if a guest gives short answers, changes the subject, or seems a little guarded, that is worth noticing. Body language matters too. Crossed arms, avoiding eye contact, a slightly awkward pause can all tell you something words do not. On the other hand, a guest who keeps coming back and behaves consistently is usually telling you they are happy with how you are handling their information. And if someone looks genuinely surprised when you reference something personal about them, that is a sign they did not expect you to know that. In those moments, it is better to dial back rather than push forward.",
+          "do_not_include": false
+        },
+        {
+          "number": 6,
+          "script": "Now, here is something that might seem counterintuitive at first. Giving guests control over their own data actually works in your favour. When you ask people to opt in, rather than quietly collecting everything by default, something really positive happens. Guests feel respected, and that feeling matters enormously in hospitality. They are more likely to share accurate information when they choose to do so willingly, because they understand why you are asking and what benefit they will receive in return. You also end up with far fewer complaints about privacy, because there is no sense of being watched or caught off guard. And here is the really important part: when guests trust you with their preferences, that trust tends to grow over time. It becomes the foundation of genuine loyalty, not just repeat bookings driven by habit or price. Transparency is not a barrier to personalisation. It is actually what makes personalisation feel welcome rather than intrusive.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "We've talked about what personalisation can do well, but now let's look at where it starts to go wrong. Guests are perceptive. When a system seems to know something they never actually told anyone, it can feel unsettling rather than impressive. And that's the tipping point we need to understand. Inferring preferences from behaviour, things like browsing habits or past choices, can seem clever in the background, but the moment a guest becomes aware of it, it can shift from feeling like attentive service to feeling like surveillance. It's not just about what you know, it's about how and when you use it. The same suggestion can feel genuinely helpful or deeply intrusive depending on the timing, the tone, and the context in which it's delivered. And here's the part that is really important: trust is slow to build and quick to lose. One misjudged interaction can undo the goodwill of many previous visits.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "So as we wrap up, let me leave you with the things that really matter here. Personalisation is powerful, but it only works well when you set clear limits around what you collect and how you use it. Guests are far more likely to trust you when they feel they have a genuine choice, so always make consent part of the process. And remember, you do not need mountains of data to create a great experience. Often, less is more, and that approach actually shows more respect for your guests. Being open and honest about how your AI tools work will also go a long way towards making people feel comfortable rather than watched. Finally, this is not something you set up once and forget about. Your AI settings and policies need regular reviews to make sure they still reflect what your guests actually expect. Keep these principles close, and you will be in a much stronger position moving forward.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

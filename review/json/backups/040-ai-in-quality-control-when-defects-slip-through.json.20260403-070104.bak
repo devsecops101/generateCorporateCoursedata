@@ -1,0 +1,121 @@
+{
+  "Course Title": "AI in Quality Control: When Defects Slip Through",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "How vision AI and inspection models can miss critical flaws.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with quality control processes in a manufacturing environment, along with a general curiosity about how artificial intelligence is used in industrial inspection, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the common ways vision AI and automated inspection systems can miss critical defects across manufacturing sectors such as chemicals, food production, pharmaceuticals, and electronics. You will also be able to explain the key factors that contribute to AI inspection failures and apply practical strategies to strengthen quality control processes and reduce the risk of flawed products reaching the market.",
+  "lessons": [
+    {
+      "lesson title": "AI in Quality Control: When Defects Slip Through",
+      "order": 1,
+      "Description": "AI-powered vision systems are increasingly used in manufacturing and production environments to inspect products and flag potential defects, but they are far from perfect. This lesson explores how these systems can fail, including the types of flaws they commonly miss and the conditions that make errors more likely. You will learn about the real-world limitations of inspection models, such as poor performance under unusual lighting, unfamiliar defect patterns, or low-quality training data. By understanding where and why AI quality control tools fall short, you will be better placed to use them responsibly alongside human oversight. No prior technical knowledge is required, and the lesson focuses on practical awareness rather than complex theory.",
+      "status": "draft",
+      "content": "How vision AI and inspection models can miss critical flaws.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Quality Control",
+          "subtitle": "When Defects Slip Through Undetected",
+          "slidecontent": "• AI misses real defects\n• Flaws hide in plain sight\n• Vision models aren't perfect\n• Errors cost time and money\n• Understanding gaps matters",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "slidetitle": "Why AI Misses Some Defects",
+          "subtitle": "Gaps in training data explain much.",
+          "slidecontent": "• AI systems learn only from the examples they are shown during training\n• Rare defect types, often the most dangerous ones, may appear too infrequently in training data to be learned reliably\n• Poor lighting or unusual angles in real factories can confuse a model trained on controlled images\n• Data gaps matter enormously\n• If a defect never appeared in training, the AI has no reference point to flag it\n• Imbalanced datasets (far more \"good\" samples than \"defective\" ones) can bias the model toward missing flaws",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "slidetitle": "Blind Spots in AI Vision",
+          "subtitle": "Where training gaps obscure real flaws",
+          "slidecontent": "• Rare defects often go unseen\n• Lighting changes fool cameras\n• Unusual angles cause misreads\n• New materials confuse models\n• Small flaws blend into backgrounds",
+          "do_not_include": true
+        },
+        {
+          "number": 4,
+          "slidetitle": "Blind Spots in AI Vision",
+          "subtitle": "Where training data creates hidden gaps",
+          "slidecontent": "• Rare defects often go unseen\n• Unusual angles confuse models\n• Poor lighting fools the system\n• New materials cause blind spots\n• Edge cases break confidence scores",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "slidetitle": "Blind Spots in AI Vision",
+          "subtitle": "Where training data creates hidden gaps",
+          "slidecontent": "• AI vision systems only recognise defects they have seen before in training data\n• Rare faults get missed\n• A model trained mostly on surface scratches may overlook internal cracks or colour inconsistencies entirely\n• Lighting changes, unusual angles, or new product variants can all confuse a well-trained model\n• Gaps in training data become gaps in detection",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "slidetitle": "Blind Spots in AI Vision",
+          "subtitle": "Where training gaps distort AI sight",
+          "slidecontent": "• Training data that lacks rare defect types leaves AI unable to recognise faults it has never seen before\n• Lighting changes alone can fool a model\n• Surface textures that look similar to defects cause frequent false negatives in visual inspection systems\n• Angles and orientations not represented in training images create consistent blind spots\n• Small scratches or micro-cracks often fall below the resolution threshold the model was trained on\n• Edge cases accumulate silently, meaning defects slip through without any alert or flag",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk Going Forward",
+          "subtitle": "Smarter safeguards for reliable AI inspection",
+          "slidecontent": "• Add human spot-checks regularly\n• Test with rare defect samples\n• Retrain models often\n• Log every missed fault\n• Review lighting and angles",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for smarter AI oversight",
+          "slidecontent": "• Vision AI misses defects when lighting, angles, or training data don't match real conditions\n• Always pair AI inspection with human checks on high-risk items\n• Confidence scores can be misleading\n• Edge cases and rare defect types are where AI systems fail most often\n• Build a feedback loop so flagged misses improve the model over time\n• Start your next review by auditing one AI inspection process for blind spots",
+          "do_not_include": false
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Quality Control. Now, AI-powered inspection systems have become incredibly popular in manufacturing and production environments, and for good reason. They can process images faster than any human, they don't get tired, and they're consistent. But here's the thing: they're not perfect. Even the most sophisticated vision models can miss real defects, sometimes ones that are sitting right there in plain sight. And when that happens, the consequences aren't just a minor inconvenience. Missed flaws can lead to product recalls, unhappy customers, wasted materials, and significant costs to the business. So throughout this course, we're going to explore why these gaps exist, how AI systems can fail in quality control settings, and what you can do to understand and work around those limitations. Because knowing where the technology falls short is just as important as knowing what it can do well. Let's get started.",
+          "do_not_include": false
+        },
+        {
+          "number": 2,
+          "script": "Why does AI sometimes miss defects that a human inspector might catch? The honest answer comes down to training data. An AI system only knows what it has been shown. If a particular type of defect was rare, or simply never included in the training examples, the model has no way of recognising it when it appears on the production line. There is also the issue of imbalance. Most training datasets contain far more images of good, acceptable products than defective ones, and that skews the model toward assuming everything is fine. On top of that, real factory conditions are messy. Lighting shifts, camera angles change, and if the model was trained on clean, controlled images, those real-world variations can genuinely throw it off. The core point here is straightforward: the quality of what comes out of an AI system is only ever as good as the quality of the data that went into it.",
+          "do_not_include": true
+        },
+        {
+          "number": 3,
+          "script": "So even though AI vision systems can be remarkably powerful, they do have some genuine blind spots, and it is worth understanding where those gaps tend to appear. The most common issue is that these models are only as good as the data they were trained on. If a particular type of defect rarely showed up during training, the system simply will not recognise it when it appears on the line. Beyond that, something as straightforward as a change in lighting can completely throw off a camera, causing it to miss flaws it would normally catch. The angle of a product matters too. If an item is positioned slightly differently than expected, the model can misread it entirely. Introduce a new material or a slightly different surface texture, and the system may struggle to adapt. And some defects are just visually subtle, blending into the background in a way that even a well-trained model can overlook. These are real, practical limitations that every quality team needs to be aware of.",
+          "do_not_include": true
+        },
+        {
+          "number": 4,
+          "script": "Even the most sophisticated AI vision systems have their weak spots, and most of those weaknesses trace back to the training data. If a particular type of defect is genuinely rare, the model may simply never have seen enough examples to recognise it reliably. Similarly, if a product arrives at an unusual angle or under different lighting conditions to what the system was trained on, it can easily be fooled. The AI is essentially pattern-matching against what it already knows, so anything outside that experience creates a blind spot. This becomes especially problematic when manufacturers introduce new materials or surface finishes, because the model has no reference point for them. And when the system encounters these unfamiliar situations, you often see the confidence scores become unreliable, meaning the AI either misses the defect entirely or flags things that are perfectly fine. Understanding these limitations is the first step towards building more robust quality control processes.",
+          "do_not_include": false
+        },
+        {
+          "number": 5,
+          "script": "Here is something that catches a lot of people off guard when they first start working with AI vision systems. These models can only recognise what they have already seen. If a particular type of defect was rare or simply absent from the training data, the model has no frame of reference for it, so it passes straight through undetected. Imagine a system trained almost entirely on surface scratches. It becomes very good at spotting those, but show it an internal crack or an unusual colour variation and it may not flag anything at all. And it is not just about defect types. Change the lighting conditions, introduce a slightly different product variant, or capture an image from an unfamiliar angle, and even a well-trained model can start to struggle. The core issue is straightforward: whatever is missing from your training data becomes a blind spot in your detection. The model does not know what it does not know, and neither will you, unless you go looking.",
+          "do_not_include": true
+        },
+        {
+          "number": 6,
+          "script": "Here's something that surprises a lot of people. AI vision systems can be genuinely impressive, and yet they have some very predictable blind spots. The biggest one is training data. If the AI has never seen a particular type of defect during training, it simply won't recognise it on the production line. But it goes further than that. Something as straightforward as a change in lighting can throw the model off completely. Textures that look similar to defects can confuse it, causing real faults to be missed. If a component is presented at an angle the model wasn't trained on, it may not flag anything at all. And very fine details, like tiny scratches or micro-cracks, can fall below the resolution the model was built to detect. The tricky part is that none of this announces itself. These failures accumulate quietly, and defects slip through without a single alert being raised. That's what makes these blind spots so important to understand.",
+          "do_not_include": false
+        },
+        {
+          "number": 7,
+          "script": "Now that we understand how defects can slip through, let's talk about what we can actually do to reduce that risk going forward. The good news is there are some straightforward steps that make a real difference. First, don't rely on AI alone. Keep humans in the loop by running regular spot-checks, because a fresh pair of eyes will often catch what the system misses. You also want to actively test your model against rare or unusual defects, not just the common ones it sees every day. And speaking of which, make sure you're retraining your model regularly as products and conditions change over time. When a fault does get missed, log it. Every single one. That data is genuinely valuable for improving the system. Finally, take a look at the physical setup itself. Lighting conditions and camera angles have a bigger impact on accuracy than most people realise, and small adjustments there can make a significant improvement.",
+          "do_not_include": false
+        },
+        {
+          "number": 8,
+          "script": "Vision AI can and does miss defects, especially when real-world conditions like lighting or camera angles don't match what the system was trained on. That's why human oversight is important, particularly for anything high-risk. One thing to watch out for is confidence scores. A high score doesn't always mean a correct result, so don't let those numbers give you a false sense of security. The trickiest situations tend to involve rare or unusual defect types, the ones the model hasn't seen enough of to handle reliably. The good news is that every miss is an opportunity. If you build a proper feedback loop, those failures actually help the model improve over time. So here's what I'd encourage you to do next: pick one AI inspection process in your organisation and audit it specifically for blind spots. That single action could make a real difference.",
+          "do_not_include": false
+        }
+      ]
+    }
+  ]
+}

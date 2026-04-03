@@ -1,0 +1,105 @@
+{
+  "Course Title": "AI Transcription Tools in Healthcare Settings",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Privacy and accuracy risks in consultations and notes.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with healthcare documentation practices and a general awareness of patient confidentiality obligations, but no prior experience with AI or transcription technology is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key privacy risks associated with using AI transcription tools during patient consultations and explain how inaccuracies in automated notes can affect clinical outcomes. You will also be able to apply practical strategies to safeguard patient data and evaluate the suitability of AI transcription tools within your healthcare setting.",
+  "lessons": [
+    {
+      "lesson title": "AI Transcription Tools in Healthcare Settings",
+      "order": 1,
+      "Description": "This lesson introduces healthcare professionals to the growing use of AI transcription tools in clinical environments, exploring how these technologies can support documentation and reduce administrative burden. You will examine the key privacy risks that arise when sensitive patient information is processed by automated systems, including concerns around data storage, consent, and third-party access. The lesson also covers accuracy limitations that can occur with AI transcription, such as mishearing medical terminology or misattributing speech, and why these errors can have serious consequences in a healthcare context. By the end of the lesson, you will have a clearer understanding of how to evaluate these tools critically and apply practical safeguards when using them in consultations and clinical note-taking. No prior technical knowledge is required, making this lesson suitable for anyone working in or alongside healthcare settings who wants to use AI transcription tools responsibly.",
+      "status": "draft",
+      "content": "Privacy and accuracy risks in consultations and notes.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Using AI in Healthcare",
+          "subtitle": "Balancing Innovation With Patient Safety",
+          "slidecontent": "• AI transcription tools now widely used in GP surgeries, hospitals, and clinics across the UK\n• Saves clinicians time on documentation\n• But these tools carry real risks around patient privacy and accuracy\n• Understanding those risks is essential before adopting any tool\n• This course gives practical, beginner-friendly guidance for safe use"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of AI Transcription",
+          "subtitle": "What can go wrong, and why.",
+          "slidecontent": "• Misheard words leading to incorrect medication names or dosages in patient notes\n• Patient data sent to external servers without clear consent\n• Accidental recording of sensitive disclosures\n• Transcripts stored insecurely or shared beyond intended recipients\n• Dialect and accent variation reducing accuracy for some patients\n• No automatic flag when the tool is uncertain or has made an error"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Accuracy Risks in Clinical Notes",
+          "subtitle": "Where errors can harm patient care",
+          "slidecontent": "• Misheard drug names or dosages recorded incorrectly in patient notes\n• Accents, background noise, and medical jargon all reduce transcription accuracy\n• Errors can persist unnoticed if clinicians skip manual review\n• Wrong information in a record\n• Automated punctuation mistakes can change the meaning of a clinical observation\n• No AI transcription tool is 100% reliable in a live consultation environment"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Accuracy Risks in Clinical Notes",
+          "subtitle": "Where errors can harm patient care",
+          "slidecontent": "• Misheard drug names or dosages recorded incorrectly in patient notes\n• Homophones a common culprit (e.g., \"hyper\" vs \"hypo\")\n• Clinical jargon and accents can reduce transcription accuracy significantly\n• Errors may go unnoticed if notes are not reviewed before saving\n• Downstream clinicians relying on inaccurate notes without realising the source"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Accuracy Risks in Clinical Notes",
+          "subtitle": "Where errors can harm patient care",
+          "slidecontent": "• Wrong drug names transcribed\n• Missed allergies or dosages\n• Misheard clinical terminology\n• Incorrect patient details recorded\n• Errors copied into permanent records"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Minimising Risk in Practice",
+          "subtitle": "Practical steps to reduce everyday risks",
+          "slidecontent": "• Always verify transcribed notes\n• Anonymise data promptly\n• Use approved tools only\n• Log errors when spotted\n• Seek consent before recording"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Patients and Data",
+          "subtitle": "Safeguarding Privacy in Clinical Practice",
+          "slidecontent": "• Consent before recording patients\n• Anonymise all transcribed notes\n• Avoid cloud tools without contracts\n• Store data on approved systems\n• Delete recordings after use"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safe, responsible use",
+          "slidecontent": "• Always verify AI transcriptions\n• Protect patient data always\n• Accuracy checks are essential\n• Never skip consent steps\n• Report errors immediately\n• Review before sharing notes"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on using AI transcription tools in healthcare settings. Over the past few years, these tools have become increasingly common across GP surgeries, hospitals, and clinics throughout the UK, and it is easy to see why. They can save clinicians a significant amount of time on documentation, freeing up more energy for patient care. But as with any new technology in a clinical environment, there are real risks to be aware of, particularly around patient privacy and the accuracy of what gets recorded. Getting that balance right between embracing innovation and keeping patients safe is absolutely central to everything we cover here. This course is designed to be practical and beginner friendly, so whether you are completely new to AI tools or just looking to use them more confidently and responsibly, you are in the right place. Let us start by building a solid understanding of what these tools are and how they work."
+        },
+        {
+          "number": 2,
+          "script": "So before we get too enthusiastic about what these tools can do, we need to be honest about where things can go wrong. The most serious risk is probably accuracy. If a tool mishears a word, you could end up with the wrong medication name or the wrong dosage sitting in a patient's notes, and that has real consequences. There are also significant privacy concerns. Many of these tools send audio or text to external servers, and patients may not have given clear consent for that. Sensitive disclosures made during a consultation could be recorded without anyone realising. And even when a transcript is produced correctly, it might be stored insecurely or seen by people who should never have had access to it. On top of that, accents and dialects can reduce how accurately the tool performs, meaning some patients are less well served than others. And importantly, most tools will not alert you when they are unsure. They just produce an output and leave you to spot any mistakes."
+        },
+        {
+          "number": 3,
+          "script": "So let us talk about where things can actually go wrong, because this is really important. AI transcription tools are impressive, but they are not perfect, and in a clinical setting, even a small error can have serious consequences. Think about drug names, for example. Many medications sound very similar, and if the tool mishears a name or gets a dosage wrong, that incorrect information could end up sitting in a patient's notes. Accents, background noise, and specialist medical terminology all make it harder for the tool to transcribe accurately. And here is the part that concerns many clinicians: if nobody checks the output carefully, those errors can go unnoticed for quite some time. Even something as seemingly minor as a misplaced comma or a missing word can completely change the meaning of a clinical observation. The bottom line is that no AI tool is fully reliable in a real, live consultation, and that is why human oversight remains absolutely essential."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most important things to understand about AI transcription in clinical settings is that errors are not just inconvenient, they can be genuinely dangerous. Think about what happens if a drug name gets misheard, or a dosage is recorded incorrectly in a patient's notes. That kind of mistake can have serious consequences. A really common cause of these errors is homophones, words that sound alike but mean very different things. \"Hyper\" and \"hypo\" are a perfect example, and in a clinical context, confusing the two could not be more significant. Add to that the challenge of strong accents or highly specialised medical terminology, and the accuracy of the transcription can drop quite considerably. The other concern is that if clinicians do not review their notes before saving them, those errors slip straight through. And then another clinician down the line reads those notes and acts on them, completely unaware that the original transcription was wrong."
+        },
+        {
+          "number": 5,
+          "script": "Now, this is where things get really serious. When AI transcription makes a mistake in a clinical setting, the consequences can go far beyond a simple typo. Imagine a tool mishearing a drug name and transcribing something entirely different, or missing a critical allergy that a patient mentioned during their consultation. These aren't just administrative errors, they can directly affect the care someone receives. Clinical terminology is also particularly tricky for AI systems, because medical language is highly specialised and often sounds similar to everyday words. And if a patient's details are recorded incorrectly, you could end up with the wrong information attached to the wrong person altogether. What makes all of this even more concerning is that errors in clinical notes often get carried forward into permanent records, meaning a single mistake can follow a patient through their entire care journey. So accuracy isn't just a nice to have here, it is absolutely essential."
+        },
+        {
+          "number": 6,
+          "script": "So, now that we understand where the risks lie, let's talk about what you can actually do to reduce them in your day-to-day work. First, never treat a transcription as finished just because the AI produced it. Always read it through and check it against what was actually said. Next, if a transcript contains any patient details, remove or anonymise that information as quickly as possible. Don't let it sit around longer than necessary. It's also really important that you only use tools that have been approved by your organisation. Free or consumer-grade apps might seem convenient, but they often aren't suitable for clinical use. If you do spot an error in a transcription, log it. Your organisation needs that information to improve processes over time. And finally, before you even press record, make sure the patient has given their consent. That one step alone can prevent a great deal of difficulty further down the line."
+        },
+        {
+          "number": 7,
+          "script": "Now, this is probably the most important slide in the entire course, so I want you to pay close attention here. When you are using AI transcription tools with real patients, protecting their privacy is absolutely non-negotiable. Before you even press record, you must have the patient's consent. They need to know what you are doing and why. Once you have a transcription, make sure any identifying details are removed so the notes cannot be traced back to an individual. Be very cautious about free or consumer-grade cloud tools as well. If there is no data processing contract in place, you simply should not be using them in a clinical setting. Any data you do capture needs to live on systems that your organisation has approved for storing sensitive information. And finally, once a recording has served its purpose, delete it. Do not let recordings sit around unnecessarily. These steps are not just good practice, they are your professional and legal responsibility."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and bring together the core principles we've covered in this lesson. Think of these as your everyday checklist when using AI transcription tools in a clinical setting. First and foremost, never treat an AI-generated transcript as automatically correct. Always read it through and verify what's been captured. Alongside that, protecting patient data isn't optional. It needs to be at the front of your mind every single time. Consent is equally non-negotiable, so please don't skip those steps, even when you're busy or under pressure. If you do spot an error in a transcript, report it straight away rather than quietly correcting it yourself, because that information helps improve systems and keeps patients safe. And finally, before you share any clinical notes with colleagues or add them to records, take a moment to review them properly. These principles aren't complicated, but following them consistently is what makes the difference between responsible use and risky use."
+        }
+      ]
+    }
+  ]
+}

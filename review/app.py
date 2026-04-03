@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 from dataclasses import dataclass
@@ -10,6 +11,11 @@ from typing import Any
 
 import streamlit as st
 
+try:
+    import anthropic
+except ImportError:
+    anthropic = None  # type: ignore[assignment, misc]
+
 
 APP_DIR = Path(__file__).resolve().parent
 DEFAULT_JSON_DIR = APP_DIR / "json"
@@ -17,6 +23,11 @@ SUPPORTING_DIR = APP_DIR / "supporting_files"
 HELP_TXT = SUPPORTING_DIR / "Help.txt"
 SLIDES_TEMPLATE_PPTX = SUPPORTING_DIR / "AISEC.Course.Slides Template v0.5.pptx"
 CAMTASIA_TEMPLATE_CMPROJ = SUPPORTING_DIR / "Untitled.cmproj"
+
+DEFAULT_CLAUDE_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
+_CLAUDE_AUDIENCE_JSON_HINT = re.compile(
+    r"```(?:json)?\s*([\s\S]*?)\s*```", re.IGNORECASE
+)
 
 
 @dataclass
@@ -264,6 +275,89 @@ def _sorted_json_files(json_dir: Path) -> list[Path]:
     return sorted([p for p in json_dir.iterdir() if p.is_file() and p.suffix.lower() == ".json"])
 
 
+def _lesson0_description(data: dict[str, Any]) -> str:
+    lessons = data.get("lessons")
+    if not isinstance(lessons, list) or not lessons:
+        return ""
+    l0 = lessons[0]
+    if not isinstance(l0, dict):
+        return ""
+    return _as_str(l0.get("Description", ""))
+
+
+def _build_audience_source_text(data: dict[str, Any]) -> str:
+    """Plain-text bundle for Claude from course + first-lesson description."""
+    chunks = [
+        f"Course Title:\n{_as_str(data.get('Course Title'))}",
+        f"Category:\n{_as_str(data.get('Category'))}",
+        f"Description:\n{_as_str(data.get('Description'))}",
+        f"Prerequisites:\n{_as_str(data.get('Prerequisites'))}",
+        f"Learning objectives:\n{_as_str(data.get('Learning objectives'))}",
+        f"Lesson description (first lesson):\n{_lesson0_description(data)}",
+    ]
+    return "\n\n".join(chunks)
+
+
+def _parse_claude_audience_json(raw: str) -> tuple[str, str]:
+    """Extract who-is-this-for and team/dept strings from model output."""
+    text = raw.strip()
+    m = _CLAUDE_AUDIENCE_JSON_HINT.search(text)
+    if m:
+        text = m.group(1).strip()
+    start = text.find("{")
+    end = text.rfind("}")
+    if start < 0 or end <= start:
+        raise ValueError("Model response did not contain a JSON object")
+    obj = json.loads(text[start : end + 1])
+    if not isinstance(obj, dict):
+        raise ValueError("JSON root must be an object")
+    who = obj.get("who_is_this_for")
+    teams = obj.get("team_or_dept")
+    if who is None:
+        who = obj.get("Who is this for") or obj.get("whoIsThisFor")
+    if teams is None:
+        teams = obj.get("Team or Dept this is for") or obj.get("teamOrDept")
+    if who is None or teams is None:
+        raise ValueError('Expected keys "who_is_this_for" and "team_or_dept" in JSON')
+    return _as_str(who).strip(), _as_str(teams).strip()
+
+
+def _call_claude_for_audience(*, api_key: str, source_text: str, model: str) -> tuple[str, str]:
+    if not anthropic:
+        raise RuntimeError('Install the anthropic package: pip install anthropic (see review/requirements.txt)')
+    system = (
+        "You label corporate training courses for a general workforce (non-specialists). "
+        "Courses are short awareness-style modules, not aimed at dedicated security engineers—"
+        "but you should still name concrete job roles and departments because copy is used for SEO and discovery. "
+        "Stay faithful to the supplied content; do not invent unrelated personas or org units."
+    )
+    user = (
+        "From the course metadata below, write two catalog fields.\n\n"
+        "1) who_is_this_for: Job roles and personas that benefit (concrete titles people search for). "
+        "Comma-separated phrases or short prose is fine.\n"
+        "2) team_or_dept: Teams or departments that typically assign or care about this topic; "
+        "include recognizable names (e.g. Operations, HR, IT, Legal) when they fit the content.\n\n"
+        'Respond with ONLY a JSON object, no markdown fences, using exactly these keys: '
+        '"who_is_this_for" and "team_or_dept". Both values must be strings.\n\n'
+        "---\n"
+        f"{source_text}\n"
+        "---"
+    )
+    client = anthropic.Anthropic(api_key=api_key)
+    message = client.messages.create(
+        model=model,
+        max_tokens=2048,
+        messages=[{"role": "user", "content": user}],
+        system=system,
+    )
+    parts: list[str] = []
+    for block in message.content:
+        if block.type == "text":
+            parts.append(block.text)
+    combined = "".join(parts)
+    return _parse_claude_audience_json(combined)
+
+
 def _get_by_number(items: list[dict[str, Any]], number: int) -> dict[str, Any] | None:
     for it in items:
         if isinstance(it, dict) and it.get("number") == number:
@@ -354,6 +448,90 @@ with st.sidebar:
     selected_path = next(p for p in files if p.name == selected_label)
 
     reload_clicked = st.button("Reload from disk")
+
+    st.subheader("AI audience & teams (Claude)")
+    st.caption(
+        "Fills “Who is this for” and “Team or Dept this is for” from title, category, description, "
+        "prereqs, learning objectives, and the first lesson description. Audience is general workforce "
+        "(not security specialists), with concrete roles and departments for SEO."
+    )
+    ai_env_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
+    ai_key_input = st.text_input(
+        "API key (optional if ANTHROPIC_API_KEY is set)",
+        type="password",
+        key="claude_api_key_sidebar",
+    )
+    ai_key = ai_env_key or ai_key_input.strip()
+    ai_model = st.text_input("Claude model id", value=DEFAULT_CLAUDE_MODEL, key="claude_model_sidebar")
+    ai_backup = st.checkbox("Backup each file (.bak) before write", value=True, key="claude_backup_sidebar")
+    r1, r2, r3 = st.columns([1, 1, 2])
+    with r1:
+        ai_from = st.number_input(
+            "From file #",
+            min_value=1,
+            max_value=len(files),
+            value=1,
+            help="Start of range in the sorted JSON list (1-based).",
+            key="ai_range_from",
+        )
+    with r2:
+        ai_to = st.number_input(
+            "To file #",
+            min_value=1,
+            max_value=len(files),
+            value=min(5, len(files)),
+            help="End of range (inclusive).",
+            key="ai_range_to",
+        )
+    with r3:
+        st.write("")
+        deps_ok = anthropic is not None
+        if not deps_ok:
+            st.caption('Install: pip install "anthropic>=0.25"')
+        ai_run = st.button(
+            "Fill audience fields (Claude)",
+            use_container_width=True,
+            disabled=not ai_key or not deps_ok,
+            key="ai_batch_run",
+        )
+
+    if ai_run and ai_key and deps_ok:
+        a, b = int(ai_from), int(ai_to)
+        if a > b:
+            a, b = b, a
+        slice_paths = files[a - 1 : b]
+        prog = st.progress(0)
+        status = st.empty()
+        ok_names: list[str] = []
+        fail_msgs: list[str] = []
+        model_id = (ai_model or "").strip() or DEFAULT_CLAUDE_MODEL
+        total = len(slice_paths)
+        for idx, fp in enumerate(slice_paths):
+            status.caption(f"Calling Claude for ({idx + 1}/{total}) {fp.name}…")
+            prog.progress((idx + 1) / max(total, 1))
+            try:
+                disk_data = _load_json(fp)
+                bundle = _build_audience_source_text(disk_data)
+                who, teams = _call_claude_for_audience(
+                    api_key=ai_key, source_text=bundle, model=model_id
+                )
+                disk_data["Who is this for"] = who
+                disk_data["Team or Dept this is for"] = teams
+                if ai_backup and fp.exists():
+                    _backup_file(fp)
+                _atomic_write_json(fp, disk_data)
+                ok_names.append(fp.name)
+            except Exception as e:
+                fail_msgs.append(f"{fp.name}: {e!s}")
+        status.caption("")
+        if ok_names:
+            st.success(f"Updated {len(ok_names)} file(s).")
+        if fail_msgs:
+            st.error("Some files failed:\n\n" + "\n\n".join(fail_msgs))
+        if ok_names:
+            st.info(
+                "If an updated file is open in the editor, click **Reload from disk** to refresh fields."
+            )
 
 
 def _load_into_state(path: Path) -> None:

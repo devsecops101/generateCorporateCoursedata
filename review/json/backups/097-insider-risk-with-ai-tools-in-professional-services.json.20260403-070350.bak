@@ -1,0 +1,105 @@
+{
+  "Course Title": "Insider Risk with AI Tools in Professional Services",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Employees exposing or misusing sensitive data.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with everyday workplace tools and a general awareness of how client or financial data is handled within their organisation, but no prior knowledge of AI or cybersecurity is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways employees in professional services can expose or misuse sensitive data through AI tools, and explain the insider risk behaviours that organisations should recognise and address. You will also be able to apply practical strategies to reduce the likelihood of accidental or deliberate data misuse, helping you protect your clients, colleagues, and firm from the growing risks associated with AI in the workplace.",
+  "lessons": [
+    {
+      "lesson title": "Insider Risk with AI Tools in Professional Services",
+      "order": 1,
+      "Description": "This lesson explores the growing risk of employees inadvertently exposing or misusing sensitive data when using AI tools in professional services environments. As AI-powered applications become increasingly common in the workplace, it is essential to understand how well-intentioned actions can still lead to serious data breaches or compliance failures. We will look at practical, real-world scenarios where insider risk arises, including situations where staff share confidential client information with external AI platforms without realising the potential consequences. By the end of this lesson, you will have a clearer understanding of the behaviours and habits that create risk, and the straightforward steps you can take to protect your organisation and its clients.",
+      "status": "draft",
+      "content": "Employees exposing or misusing sensitive data.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Insider Risk and AI Tools",
+          "subtitle": "Understanding the risks employees introduce today",
+          "slidecontent": "• AI tools are everywhere now\n• Employees share sensitive data\n• Risks often happen accidentally\n• Organisations face real consequences\n• This course explains what to watch for"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Insider Risk?",
+          "subtitle": "Risks that come from within organisations",
+          "slidecontent": "• Threats from inside your organisation\n• Current or former employees\n• Accidental or deliberate actions\n• Misuse of trusted access\n• Sensitive data at risk"
+        },
+        {
+          "number": 3,
+          "slidetitle": "What Counts as Insider Risk",
+          "subtitle": "Recognising the behaviours that create exposure",
+          "slidecontent": "• Sharing client data with an AI tool without checking whether it stores or trains on that input\n• Uploading confidential documents to get a summary or draft\n• Accidental exposure, not just deliberate misuse\n• Using a personal AI account instead of an approved workplace tool\n• Copying sensitive information into a prompt without considering who else might access it"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Risky AI Behaviours",
+          "subtitle": "What to spot and avoid",
+          "slidecontent": "• Pasting client contracts or financial data into public AI chat tools\n• Sharing colleague or customer details to \"help the AI understand context\"\n• No guardrails, no safety net\n• Using personal AI accounts at work to bypass company-approved systems\n• Saving AI-generated outputs containing sensitive data to unsecured personal drives"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Risky AI Behaviours",
+          "subtitle": "Warning signs to watch for now",
+          "slidecontent": "• Pasting client data into chatbots\n• Sharing passwords with AI tools\n• Uploading confidential files externally\n• Using unapproved AI applications\n• Ignoring AI output warnings"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognising Risky AI Behaviours",
+          "subtitle": "Spotting the warning signs in practice",
+          "slidecontent": "• Copying client data into a free AI chatbot to speed up a report\n• Sharing confidential financials \"just to get a summary\"\n• No malicious intent, but the damage is the same\n• Using personal AI accounts instead of approved firm tools\n• Uploading documents containing names, case numbers, or deal terms without checking sensitivity first\n• Assuming a tool is safe because it looks professional or familiar"
+        },
+        {
+          "number": 7,
+          "slidetitle": "What You Can Do Now",
+          "subtitle": "Practical steps to protect sensitive data",
+          "slidecontent": "• Check before you paste anything\n• Anonymise sensitive client details\n• Use approved tools only\n• Report concerns to your manager\n• Review your firm's AI policy"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these principles close at hand.",
+          "slidecontent": "• Never paste client or colleague data into a public AI tool\n• Treat AI outputs as drafts, not final answers\n• Check before you share\n• Report any accidental data exposure to your IT or compliance team straight away\n• Your organisation's AI policy exists to protect you as much as the business\n• When in doubt, ask your manager before using an AI tool for sensitive work"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on insider risk and AI tools in professional services. Over the past couple of years, AI tools have become a normal part of working life. People are using them to draft emails, summarise documents, analyse data, and all sorts of other everyday tasks. But here is the thing: when employees use these tools, they often share sensitive or confidential information without really thinking about it. And in most cases, it is not deliberate. People are simply trying to get their work done more efficiently. The problem is that these well-intentioned actions can create very real risks for organisations, including data breaches, regulatory penalties, and serious damage to client trust. So throughout this course, we are going to look at exactly how these risks arise, what they look like in practice, and what you and your organisation can do to stay protected. Let us start by making sure we understand the landscape we are working in."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start with the basics. What do we actually mean by insider risk? Well, unlike a cyberattack that comes from an unknown hacker somewhere out there on the internet, insider risk refers to threats that originate from within your own organisation. We're talking about people who already have legitimate access to your systems, your data, and your processes. That includes current employees, but also former staff who may still have active credentials or retained knowledge of how your systems work. Now, it's really important to understand that insider risk isn't always malicious. Sometimes it's simply a well-meaning employee who makes a mistake, perhaps sharing a file with the wrong person or using an unapproved tool without realising the consequences. Other times, yes, it can be deliberate. But in both cases, the outcome can be the same: sensitive client data, financial information, or confidential business details ending up somewhere they absolutely shouldn't be. That's what we're here to explore."
+        },
+        {
+          "number": 3,
+          "script": "So what actually counts as insider risk when we're talking about AI tools? It's broader than most people expect. The obvious concern is someone deliberately leaking information, but in practice, most incidents happen by accident. Think about someone uploading a confidential client document to get a quick summary, or pasting sensitive data into a prompt without stopping to consider where that information might end up. Using a personal AI account rather than an approved workplace tool is another common one, and it's often done with completely good intentions. The problem is that many AI tools store your inputs or use them to improve their models, so the data doesn't just disappear after you've finished. Insider risk, in this context, is really about any behaviour that exposes sensitive information to systems or people that shouldn't have access to it, whether that's intentional or not. And that distinction matters, because most of us are far more likely to make an honest mistake than to act maliciously."
+        },
+        {
+          "number": 4,
+          "script": "So let's look at some of the specific behaviours that put your organisation at risk. One of the most common mistakes is copying and pasting sensitive material, things like client contracts or financial records, directly into a public AI chat tool. People often do this with good intentions, perhaps to get a quick summary or a draft response, but the moment that data leaves your system, you've lost control of it. Another issue is sharing personal details about colleagues or customers to give the AI more context. Again, it feels helpful, but it's a serious data exposure risk. We also see people using their own personal AI accounts at work, often to get around the tools their company has approved. And then saving AI outputs that contain sensitive information onto personal or unsecured drives. None of these have any guardrails in place, so there's no safety net if something goes wrong. These are the behaviours we need to recognise and stop."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about what risky AI behaviour actually looks like in practice, because these things are happening right now in professional services firms. One of the most common issues is people copying and pasting client information directly into public chatbots, not realising that data could be stored or used to train the AI. Similarly, some staff share login credentials with AI tools, which creates serious security vulnerabilities. Uploading confidential documents to external AI platforms is another red flag, and it happens more often than you might expect. Then there are the shadow IT situations, where people use AI applications that haven't been approved or vetted by their organisation. And finally, when an AI tool itself flags a warning or a limitation, some users simply dismiss it and carry on regardless. None of these behaviours are necessarily malicious, but they all carry real risk. Recognising them is the first step towards addressing them."
+        },
+        {
+          "number": 6,
+          "script": "So what does risky AI behaviour actually look like in practice? Often, it is not someone acting with bad intentions. It is someone trying to get their work done faster. Think about a fee earner who pastes client data into a free chatbot to help draft a report, or someone who uploads a confidential financial document just to get a quick summary. The intent is innocent, but the risk is very real. We also see people using their personal AI accounts rather than any tool the firm has approved, which means there is no oversight and no data protection in place. Another common issue is uploading documents without stopping to check what is actually in them, things like client names, case numbers, or sensitive deal terms. And perhaps the trickiest one of all is assuming a tool is safe simply because it looks polished and professional. Looking legitimate is not the same as being secure."
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about what you can actually do, starting today. Before you paste anything into an AI tool, pause for a moment and ask yourself whether that information is sensitive. If it is, anonymise it first by removing names, client references, or anything that could identify a person or organisation. And only use tools that your firm has officially approved. If you are not sure which ones are on the approved list, ask. If you ever see a colleague sharing something that does not look right, or if you are unsure about something yourself, raise it with your manager. It is always better to ask than to assume. Finally, take some time to read your firm's AI policy if you have not already. It will tell you exactly what is and is not permitted in your specific workplace. These are small, practical habits, but they make a real difference when it comes to protecting your clients and your firm."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important habit to build is this: never put client or colleague information into a public AI tool. Full stop. Beyond that, always treat whatever an AI produces as a starting point, not a finished product. Before you share anything with a colleague or a client, pause and ask yourself whether it is accurate and appropriate. If something does go wrong and data is accidentally shared somewhere it should not be, tell your IT or compliance team straight away. The sooner they know, the sooner they can help. It is also worth remembering that your organisation's AI policy is not there to make your life difficult. It is genuinely there to protect you as well as the business. And finally, if you are ever unsure whether it is appropriate to use an AI tool for a particular piece of work, just ask your manager first. A quick question now can save a much bigger problem later."
+        }
+      ]
+    }
+  ]
+}
