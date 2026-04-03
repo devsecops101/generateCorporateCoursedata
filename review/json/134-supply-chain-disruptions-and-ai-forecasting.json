@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core lessons for smarter supply chains",
-          "slidecontent": "• AI forecasts can fail suddenly\n• Data gaps cause blind spots\n• Diversify your supplier base\n• Monitor signals, act early\n• Human judgement still matters\n• Review and adapt regularly"
+          "slidecontent": "• AI forecasts can fail suddenly\n• Data gaps cause blind spots\n• Diversify your supplier base\n• Monitor signals, act early\n• Human judgement is important\n• Review and adapt regularly"
         }
       ],
       "scripts": [
@@ -81,7 +81,7 @@
         },
         {
           "number": 4,
-          "script": "Now, AI forecasting is powerful, but it is not without its weaknesses, and this is where we need to be honest about its limitations. Most AI models learn from historical data, which means they are essentially looking in the rear-view mirror. When something truly unprecedented happens, like a global pandemic or a sudden geopolitical crisis, the model simply has no reference point for it. These are sometimes called \"black swans,\" rare events that the algorithms consistently underestimate or miss altogether. There is also the problem of what the AI is not watching. Social media chatter, local news, conversations with suppliers on the ground, these signals often sit completely outside what the system monitors. And if the training data itself is outdated, those blind spots only get wider. This is precisely why human judgement still matters enormously. Experienced people can sense when something feels off, even when the data looks fine. AI and human insight work best together, not in isolation."
+          "script": "Now, AI forecasting is powerful, but it is not without its weaknesses, and this is where we need to be honest about its limitations. Most AI models learn from historical data, which means they are essentially looking in the rear-view mirror. When something truly unprecedented happens, like a global pandemic or a sudden geopolitical crisis, the model simply has no reference point for it. These are sometimes called \"black swans,\" rare events that the algorithms consistently underestimate or miss altogether. There is also the problem of what the AI is not watching. Social media chatter, local news, conversations with suppliers on the ground, these signals often sit completely outside what the system monitors. And if the training data itself is outdated, those blind spots only get wider. This is precisely why human judgement is important enormously. Experienced people can sense when something feels off, even when the data looks fine. AI and human insight work best together, not in isolation."
         },
         {
           "number": 5,

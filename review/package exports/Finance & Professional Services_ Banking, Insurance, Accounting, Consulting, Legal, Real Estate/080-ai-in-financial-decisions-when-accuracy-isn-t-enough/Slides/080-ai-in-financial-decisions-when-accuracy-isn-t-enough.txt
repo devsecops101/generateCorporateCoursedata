@@ -1,0 +1,65 @@
+Slide 2 (Slide 1)
+------------------------------------------------------------------------
+Title: The Limits of "Mostly Correct"
+
+Subtitle: When errors carry serious consequences
+
+Content:
+• AI tools in finance can be accurate 95% of the time and still cause serious harm
+• A single wrong figure in a loan assessment or tax calculation can trigger real financial loss
+• Errors compound quickly
+• High overall accuracy masks the specific cases where mistakes matter most
+• The stakes, not the statistics, determine whether a tool is fit for purpose
+
+Slide 4 (Slide 2)
+------------------------------------------------------------------------
+Title: Confidence Gaps and Hidden Costs
+
+Subtitle: Where errors carry the heaviest price
+
+Content:
+• Small errors, big losses
+• Fraud missed, money gone
+• Wrong rate, wrong decision
+• Confidence hides the gap
+• "Close enough" costs plenty
+
+Slide 6 (Slide 3)
+------------------------------------------------------------------------
+Title: Confidence Gaps and Hidden Costs
+
+Subtitle: When gaps cost more than errors
+
+Content:
+• Silence signals hidden uncertainty
+• Gaps hide inside correct answers
+• Missing context inflates real costs
+• Confidence scores often mislead
+• Unknown unknowns hurt most
+
+Slide 7 (Slide 4)
+------------------------------------------------------------------------
+Title: Reducing Risk in Practice
+
+Subtitle: Practical steps to minimise costly errors
+
+Content:
+• Always validate AI-generated figures against a second source before acting on them
+• Build in a human review step for any decision above a set financial threshold
+• Keep audit trails
+• Document where AI was used in a process and what assumptions it made
+• Test your AI tools regularly with known data to catch drift or degradation in accuracy
+• Treat AI output as a starting point, not a final answer
+
+Slide 8 (Slide 5)
+------------------------------------------------------------------------
+Title: What to Remember
+
+Subtitle: The essentials worth carrying forward
+
+Content:
+• AI errors carry real cost
+• Accuracy alone isn't enough
+• Context shapes every decision
+• Always verify critical outputs
+• You remain responsible

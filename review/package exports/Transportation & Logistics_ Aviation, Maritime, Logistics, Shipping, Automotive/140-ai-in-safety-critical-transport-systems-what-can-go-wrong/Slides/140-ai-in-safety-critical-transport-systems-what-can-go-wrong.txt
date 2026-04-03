@@ -1,0 +1,80 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI and Transport Safety
+
+Subtitle: Where AI meets life-or-death decisions
+
+Content:
+• AI powers real transport systems
+• Errors can cost lives
+• Planes, trains, cars affected
+• Risks are growing fast
+• You need to know this
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Defining Safety-Critical AI Systems
+
+Subtitle: Where lives depend on system reliability.
+
+Content:
+• AI systems where a failure can directly cause injury, death, or large-scale disaster
+• Found in aircraft autopilots, railway signalling, and autonomous vehicles
+• Lives on the line
+• Reliability standards far stricter than in everyday consumer software
+• Even rare errors can have catastrophic, irreversible consequences
+• No margin for "good enough"
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Failure Modes and Their Consequences
+
+Subtitle: When AI Errors Endanger Lives
+
+Content:
+• Wrong decisions, real crashes
+• Sensors misread the environment
+• Delayed responses cause collisions
+• False signals override human control
+• Small errors, catastrophic outcomes
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Sensor Failures and Misreadings
+
+Subtitle: When Sensors Lie, AI Follows
+
+Content:
+• Sensors detect speed, distance, obstacles
+• Faulty data enters AI instantly
+• AI trusts sensors, not reality
+• Bad input causes bad decisions
+• Weather and dirt cause errors
+
+Slide 7 (Slide 5)
+------------------------------------------------------------------------
+Title: Lessons From Real Failures
+
+Subtitle: What past incidents teach us today
+
+Content:
+• The 2009 Air France 447 crash showed how automation confusion can overwhelm even trained crews under pressure
+• Sensor failures matter
+• Therac-25, a radiation therapy machine, killed patients when a software race condition removed its safety checks
+• Over-reliance on automated alerts caused the 2018 Boeing 737 MAX MCAS system to override pilot inputs repeatedly
+• Small software bugs in safety-critical systems can cascade into catastrophic, irreversible outcomes
+• Real incidents share a common thread, which is that human oversight was reduced just when it was needed most
+
+Slide 8 (Slide 6)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core lessons for safer AI deployment
+
+Content:
+• AI errors cost lives
+• Test before you deploy
+• Humans must stay in control
+• Data quality matters always
+• Audit systems regularly
+• Learn from every failure

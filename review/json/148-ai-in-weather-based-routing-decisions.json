@@ -56,7 +56,7 @@
         {
           "number": 7,
           "slidetitle": "When Predictions Fail Catastrophically",
-          "subtitle": "Lessons from High-Stakes Routing Failures",
+          "subtitle": "Lessons from high risk Routing Failures",
           "slidecontent": "• Routing systems that trusted flawed weather data have sent vessels into severe storms\n\n• Outdated wind forecasts have caused aircraft to burn through emergency fuel reserves\n\n• Small prediction errors compound quickly over long routes\n\n• A single missed pressure reading can redirect a convoy into dangerous terrain\n\n• Overconfidence in AI outputs, without human cross-checks, amplifies the consequences\n\n• Real failures have resulted in cargo loss, crew injury, and costly emergency diversions"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
           "number": 8,
-          "script": "So let's bring everything together from this lesson. The most important thing to understand is that AI routing tools are only as good as the weather data they're working with. If that data is outdated or inaccurate, the suggested route could actually put you in harm's way. That's why you should always cross-check what the AI is recommending against real-world conditions before you act on it. And remember, the technology is there to support your decision-making, not replace it. Your own judgement still matters enormously. It's also worth building contingency plans into your process, because weather can change quickly and unexpectedly. Finally, as a practical next step, I'd encourage you to look at your organisation's existing protocols around overriding AI routing decisions when severe weather strikes. If those protocols don't exist yet, now is a great time to start that conversation. Good preparation today can make all the difference when conditions deteriorate."
+          "script": "So let's bring everything together from this lesson. The most important thing to understand is that AI routing tools are only as good as the weather data they're working with. If that data is outdated or inaccurate, the suggested route could actually put you in harm's way. That's why you should always cross-check what the AI is recommending against real-world conditions before you act on it. And remember, the technology is there to support your decision-making, not replace it. Your own judgement is important enormously. It's also worth building contingency plans into your process, because weather can change quickly and unexpectedly. Finally, as a practical next step, I'd encourage you to look at your organisation's existing protocols around overriding AI routing decisions when severe weather strikes. If those protocols don't exist yet, now is a great time to start that conversation. Good preparation today can make all the difference when conditions deteriorate."
         }
       ]
     }

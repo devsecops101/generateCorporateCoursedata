@@ -1,0 +1,80 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Insecure AI API Integrations
+
+Subtitle: Risks of connecting apps to AI
+
+Content:
+• Apps increasingly rely on external AI services to add smart features
+• These connections introduce new security risks many developers overlook
+• Sensitive data can leak through poorly configured API calls
+• Attackers can manipulate inputs to hijack AI behaviour
+• Real consequences include data breaches, compliance failures, and reputational damage
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Risks of AI API Connections
+
+Subtitle: What can go wrong and why
+
+Content:
+• Exposed API keys granting unauthorised access to your AI service account
+• Data leakage when sensitive user inputs are sent to third-party servers
+• Prompt injection attacks manipulating AI responses
+• Overly broad permissions allowing attackers to abuse connected systems
+• No visibility into how external providers store or process your data
+• Unexpected costs from unthrottled or hijacked API usage
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Risks of Insecure AI APIs
+
+Subtitle: What can go wrong, and why.
+
+Content:
+• Exposed API keys granting attackers full access to your AI service account
+• Data leakage through poorly secured request and response payloads
+• Excessive costs from unauthorised or runaway API usage
+• Prompt injection attacks manipulating AI behaviour in unexpected ways
+• No audit trail when logging and monitoring are overlooked
+• Compliance violations if sensitive user data crosses unsecured API boundaries
+
+Slide 5 (Slide 4)
+------------------------------------------------------------------------
+Title: Hardcoding Secrets in Requests
+
+Subtitle: Secrets exposed in plain sight
+
+Content:
+• API keys visible in code
+• Anyone can read your repo
+• Keys get stolen quickly
+• Rotate secrets immediately
+• Use environment variables instead
+
+Slide 6 (Slide 5)
+------------------------------------------------------------------------
+Title: Securing Your API Connections
+
+Subtitle: Best practices for safe integration
+
+Content:
+• Always use HTTPS
+• Rotate API keys regularly
+• Restrict key permissions tightly
+• Validate all API responses
+• Log and monitor API calls
+
+Slide 8 (Slide 6)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles for secure AI integration
+
+Content:
+• Always validate and sanitise data flowing between your application and any external AI service
+• Never expose raw API keys in client-side code or public repositories
+• Treat AI outputs as untrusted input
+• Apply the principle of least privilege when configuring API access and permissions
+• Log and monitor API calls to detect unusual patterns or unexpected behaviour early
+• Start small, review your integration against an established security checklist before moving to production

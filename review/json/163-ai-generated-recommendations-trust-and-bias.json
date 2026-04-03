@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Core lessons to carry forward",
-          "slidecontent": "• AI recommendations carry hidden bias\n• Bias shapes guest perception\n• Question every AI suggestion\n• Diverse data improves fairness\n• Your judgement still matters"
+          "slidecontent": "• AI recommendations carry hidden bias\n• Bias shapes guest perception\n• Question every AI suggestion\n• Diverse data improves fairness\n• Your judgement is important"
         }
       ],
       "scripts": [
@@ -93,7 +93,7 @@
         },
         {
           "number": 7,
-          "script": "So, what can actually be done to make AI recommendations fairer? There are a few practical steps worth knowing about. First, the data used to train these systems needs to reflect a wide range of people and places, not just the most common or well-represented groups. Alongside that, organisations should regularly check their AI outputs to spot any patterns that seem skewed or unfair. It is also important to keep humans involved at key moments, rather than leaving everything to the algorithm. Being transparent with users matters too, so people know when a suggestion has come from an automated system rather than a person. And crucially, listening to user feedback helps flag recommendations that feel off or irrelevant. None of this requires a dramatic overhaul. It is really about building small, consistent habits and checks over time. Done well, these steps can meaningfully improve the fairness and reliability of what AI systems suggest to people."
+          "script": "So, what can actually be done to make AI recommendations fairer? There are a few practical steps worth knowing about. First, the data used to train these systems needs to reflect a wide range of people and places, not just the most common or well-represented groups. Alongside that, organisations should regularly check their AI outputs to spot any patterns that seem skewed or unfair. It is also important to keep humans involved at key moments, rather than leaving everything to the algorithm. Being transparent with users matters too, so people know when a suggestion has come from an automated system rather than a person. And importantly, listening to user feedback helps flag recommendations that feel off or irrelevant. None of this requires a dramatic overhaul. It is really about building small, consistent habits and checks over time. Done well, these steps can meaningfully improve the fairness and reliability of what AI systems suggest to people."
         },
         {
           "number": 8,

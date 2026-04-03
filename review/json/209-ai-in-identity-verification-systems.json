@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core lessons for responsible AI use",
-          "slidecontent": "• AI identity systems can and do make mistakes, especially with underrepresented groups\n• False matches and false rejections both carry real consequences for real people\n• Bias in training data leads to unequal outcomes\n• Always question results that seem automatic or certain\n• Human oversight remains essential, particularly in high-stakes decisions\n• Start by reviewing your organisation's current AI verification processes and asking who might be excluded"
+          "slidecontent": "• AI identity systems can and do make mistakes, especially with underrepresented groups\n• False matches and false rejections both carry real consequences for real people\n• Bias in training data leads to unequal outcomes\n• Always question results that seem automatic or certain\n• Human oversight remains essential, particularly in high risk decisions\n• Start by reviewing your organisation's current AI verification processes and asking who might be excluded"
         }
       ],
       "scripts": [
@@ -77,7 +77,7 @@
         },
         {
           "number": 3,
-          "script": "Now, one of the most serious problems in identity verification is what we call a false match. This is where the system gets confused and links your identity to someone else's records entirely. And as you can imagine, that can cause real problems. Someone might be wrongly denied access to their bank account, flagged for fraud they didn't commit, or in extreme cases, face legal trouble for something they had nothing to do with. What makes this even more concerning is that certain groups of people are more likely to experience these errors, particularly those who share similar facial features or common names. And here is the really troubling part: these mistakes often go undetected for quite some time, meaning the damage can pile up before anyone realises something has gone wrong. In high-stakes environments like banking, border control, and healthcare, the consequences of getting this wrong are not just inconvenient, they can be genuinely life-changing."
+          "script": "Now, one of the most serious problems in identity verification is what we call a false match. This is where the system gets confused and links your identity to someone else's records entirely. And as you can imagine, that can cause real problems. Someone might be wrongly denied access to their bank account, flagged for fraud they didn't commit, or in extreme cases, face legal trouble for something they had nothing to do with. What makes this even more concerning is that certain groups of people are more likely to experience these errors, particularly those who share similar facial features or common names. And here is the really troubling part: these mistakes often go undetected for quite some time, meaning the damage can pile up before anyone realises something has gone wrong. In high risk environments like banking, border control, and healthcare, the consequences of getting this wrong are not just inconvenient, they can be genuinely life-changing."
         },
         {
           "number": 4,
@@ -93,7 +93,7 @@
         },
         {
           "number": 7,
-          "script": "Now, one of the most important responsibilities when deploying AI in identity verification is making sure the system is fair and reliable for everyone. AI models can develop biases, particularly around age, ethnicity, or gender, so you need to test regularly across different demographic groups to catch those problems early. And here is something people often overlook: it is not enough to check the data going in. You also need to audit what the system is actually producing. Are certain groups being rejected more often? That is a red flag. Building in human review at key decision points adds another layer of protection, especially in high-stakes situations. The quality of your training data matters enormously too. Diverse, representative datasets genuinely reduce the chance of errors. Finally, whenever the system is uncertain about a match, do not let it guess quietly. Flag it. Make it visible. That transparency is what keeps the whole process trustworthy and accountable."
+          "script": "Now, one of the most important responsibilities when deploying AI in identity verification is making sure the system is fair and reliable for everyone. AI models can develop biases, particularly around age, ethnicity, or gender, so you need to test regularly across different demographic groups to catch those problems early. And here is something people often overlook: it is not enough to check the data going in. You also need to audit what the system is actually producing. Are certain groups being rejected more often? That is a red flag. Building in human review at key decision points adds another layer of protection, especially in high risk situations. The quality of your training data matters enormously too. Diverse, representative datasets genuinely reduce the chance of errors. Finally, whenever the system is uncertain about a match, do not let it guess quietly. Flag it. Make it visible. That transparency is what keeps the whole process trustworthy and accountable."
         },
         {
           "number": 8,

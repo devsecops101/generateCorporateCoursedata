@@ -1,0 +1,66 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI in Quality Control
+
+Subtitle: When Defects Slip Through Undetected
+
+Content:
+• AI misses real defects
+• Flaws hide in plain sight
+• Vision models aren't perfect
+• Errors cost time and money
+• Understanding gaps matters
+
+Slide 4 (Slide 2)
+------------------------------------------------------------------------
+Title: Blind Spots in AI Vision
+
+Subtitle: Where training data creates hidden gaps
+
+Content:
+• Rare defects often go unseen
+• Unusual angles confuse models
+• Poor lighting fools the system
+• New materials cause blind spots
+• Edge cases break confidence scores
+
+Slide 6 (Slide 3)
+------------------------------------------------------------------------
+Title: Blind Spots in AI Vision
+
+Subtitle: Where training gaps distort AI sight
+
+Content:
+• Training data that lacks rare defect types leaves AI unable to recognise faults it has never seen before
+• Lighting changes alone can fool a model
+• Surface textures that look similar to defects cause frequent false negatives in visual inspection systems
+• Angles and orientations not represented in training images create consistent blind spots
+• Small scratches or micro-cracks often fall below the resolution threshold the model was trained on
+• Edge cases accumulate silently, meaning defects slip through without any alert or flag
+
+Slide 7 (Slide 4)
+------------------------------------------------------------------------
+Title: Reducing Risk Going Forward
+
+Subtitle: Smarter safeguards for reliable AI inspection
+
+Content:
+• Add human spot-checks regularly
+• Test with rare defect samples
+• Retrain models often
+• Log every missed fault
+• Review lighting and angles
+
+Slide 8 (Slide 5)
+------------------------------------------------------------------------
+Title: What to Remember
+
+Subtitle: Core lessons for smarter AI oversight
+
+Content:
+• Vision AI misses defects when lighting, angles, or training data don't match real conditions
+• Always pair AI inspection with human checks on high-risk items
+• Confidence scores can be misleading
+• Edge cases and rare defect types are where AI systems fail most often
+• Build a feedback loop so flagged misses improve the model over time
+• Start your next review by auditing one AI inspection process for blind spots

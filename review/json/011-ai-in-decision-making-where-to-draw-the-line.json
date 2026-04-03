@@ -27,13 +27,13 @@
           "number": 2,
           "slidetitle": "Human Judgement Still Matters",
           "subtitle": "Where context and empathy count most",
-          "slidecontent": "• Decisions involving grief, loss, or personal crisis need a human presence\n• Context matters\n• AI cannot read the room the way a person can\n• High-stakes conversations (redundancies, medical news, family disputes) rely on tone and trust\n• Empathy is not a feature that can be switched on"
+          "slidecontent": "• Decisions involving grief, loss, or personal crisis need a human presence\n• Context matters\n• AI cannot read the room the way a person can\n• high risk conversations (redundancies, medical news, family disputes) rely on tone and trust\n• Empathy is not a feature that can be switched on"
         },
         {
           "number": 3,
           "slidetitle": "The Human Cost of Errors",
           "subtitle": "When mistakes affect real people's lives",
-          "slidecontent": "• A wrongly denied loan or benefit can push someone into financial crisis\n• Misdiagnosed by an algorithm, a patient may receive the wrong treatment\n• Real harm\n• Automated hiring tools have already screened out qualified candidates unfairly\n• Errors in high-stakes decisions are rarely just data problems, they are life-changing events for the people involved"
+          "slidecontent": "• A wrongly denied loan or benefit can push someone into financial crisis\n• Misdiagnosed by an algorithm, a patient may receive the wrong treatment\n• Real harm\n• Automated hiring tools have already screened out qualified candidates unfairly\n• Errors in high risk decisions are rarely just data problems, they are life-changing events for the people involved"
         },
         {
           "number": 4,
@@ -51,7 +51,7 @@
           "number": 6,
           "slidetitle": "Where Humans Must Stay Involved",
           "subtitle": "Judgement that machines cannot replace",
-          "slidecontent": "• Decisions that affect someone's livelihood, freedom, or wellbeing\n• Situations where context, emotion, or lived experience matters\n• Anything requiring moral or ethical judgement\n• Cases where accountability must rest with a named person\n• High-stakes moments with no clear right answer"
+          "slidecontent": "• Decisions that affect someone's livelihood, freedom, or wellbeing\n• Situations where context, emotion, or lived experience matters\n• Anything requiring moral or ethical judgement\n• Cases where accountability must rest with a named person\n• high risk moments with no clear right answer"
         },
         {
           "number": 7,
@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "The principles that should guide you",
-          "slidecontent": "• AI works best as a thinking partner, not a final decision-maker\n• Always keep a human accountable for outcomes that affect people's lives\n• High-stakes decisions (those involving fairness, safety, or rights) need human judgement\n• Check AI outputs, never just accept them\n• The more irreversible a decision, the more human oversight it requires\n• Start small: identify one decision in your work where you can apply these principles this week"
+          "slidecontent": "• AI works best as a thinking partner, not a final decision-maker\n• Always keep a human accountable for outcomes that affect people's lives\n• high risk decisions (those involving fairness, safety, or rights) need human judgement\n• Check AI outputs, never just accept them\n• The more irreversible a decision, the more human oversight it requires\n• Start small: identify one decision in your work where you can apply these principles this week"
         }
       ],
       "scripts": [

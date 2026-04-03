@@ -33,7 +33,7 @@
           "number": 3,
           "slidetitle": "Bridging the Simulation Gap",
           "subtitle": "Where simulation meets operational reality.",
-          "slidecontent": "• The gap between a digital twin's predictions and real-world outcomes is called the simulation gap\n• Caused by incomplete data, outdated models, or unexpected real-world variables\n• Small gaps matter\n• Even minor mismatches can trigger costly decisions in high-stakes environments like manufacturing or healthcare\n• Identifying where the model diverges from reality is the first step toward closing that gap"
+          "slidecontent": "• The gap between a digital twin's predictions and real-world outcomes is called the simulation gap\n• Caused by incomplete data, outdated models, or unexpected real-world variables\n• Small gaps matter\n• Even minor mismatches can trigger costly decisions in high risk environments like manufacturing or healthcare\n• Identifying where the model diverges from reality is the first step toward closing that gap"
         },
         {
           "number": 4,
@@ -77,7 +77,7 @@
         },
         {
           "number": 3,
-          "script": "Now, no digital twin is perfect. There will always be some difference between what the model predicts and what actually happens in the real world, and we call that difference the simulation gap. It can creep in for all sorts of reasons: maybe the data feeding the model is incomplete, maybe the model itself hasn't been updated recently, or perhaps something unexpected happens in the real environment that the twin simply wasn't built to anticipate. And here's the important thing: even a small gap can cause real problems. In high-stakes settings like manufacturing or healthcare, a minor mismatch between prediction and reality can lead to costly or even dangerous decisions. So the first step towards closing that gap isn't to rebuild everything from scratch. It's simply to identify where the model starts to diverge from reality. Once you know where the cracks are, you can begin to address them. That's what this lesson is really about."
+          "script": "Now, no digital twin is perfect. There will always be some difference between what the model predicts and what actually happens in the real world, and we call that difference the simulation gap. It can creep in for all sorts of reasons: maybe the data feeding the model is incomplete, maybe the model itself hasn't been updated recently, or perhaps something unexpected happens in the real environment that the twin simply wasn't built to anticipate. And here's the important thing: even a small gap can cause real problems. In high risk settings like manufacturing or healthcare, a minor mismatch between prediction and reality can lead to costly or even dangerous decisions. So the first step towards closing that gap isn't to rebuild everything from scratch. It's simply to identify where the model starts to diverge from reality. Once you know where the cracks are, you can begin to address them. That's what this lesson is really about."
         },
         {
           "number": 4,
@@ -89,7 +89,7 @@
         },
         {
           "number": 6,
-          "script": "So we know the gap exists between our digital twin and reality. The question is, what do we actually do about it? The first thing to understand is that small errors, left unchecked, tend to grow over time. A tiny inaccuracy today can become a significant problem weeks down the line. That is why regular calibration matters so much. By feeding real-world sensor data back into the model, we can catch and correct that drift before it causes trouble. But calibration alone is not enough. We also need to be honest about what our models cannot do, and where their limits lie. One practical approach is to blend simulation outputs with live data readings, rather than relying on either one alone. And crucially, validation should not be something you do once at the start and then forget about. It needs to be built into your ongoing workflow as a regular, structured activity. That is how you keep your digital twin genuinely useful."
+          "script": "So we know the gap exists between our digital twin and reality. The question is, what do we actually do about it? The first thing to understand is that small errors, left unchecked, tend to grow over time. A tiny inaccuracy today can become a significant problem weeks down the line. That is why regular calibration matters so much. By feeding real-world sensor data back into the model, we can catch and correct that drift before it causes trouble. But calibration alone is not enough. We also need to be honest about what our models cannot do, and where their limits lie. One practical approach is to blend simulation outputs with live data readings, rather than relying on either one alone. And importantly, validation should not be something you do once at the start and then forget about. It needs to be built into your ongoing workflow as a regular, structured activity. That is how you keep your digital twin genuinely useful."
         },
         {
           "number": 7,

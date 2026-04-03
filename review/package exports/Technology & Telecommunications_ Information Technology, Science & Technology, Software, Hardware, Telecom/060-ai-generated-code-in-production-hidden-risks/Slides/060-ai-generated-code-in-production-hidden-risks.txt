@@ -1,0 +1,79 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Hidden Risks: An Introduction
+
+Subtitle: When AI code hides subtle dangers
+
+Content:
+• AI-generated code can look clean and correct but still contain subtle, hidden flaws
+• These flaws often pass basic testing
+• Logic errors, security gaps, and faulty assumptions are common culprits
+• The risks are not always obvious to developers who trust the output too quickly
+• Understanding these dangers is the first step to using AI coding tools safely
+
+Slide 3 (Slide 2)
+------------------------------------------------------------------------
+Title: Spotting Logic Flaws Early
+
+Subtitle: Before flaws reach your codebase
+
+Content:
+• AI-generated code can pass syntax checks while hiding flawed assumptions in the logic itself
+• Review outputs, not just errors
+• Off-by-one errors and incorrect boundary conditions are among the most common subtle flaws
+• Testing edge cases manually helps catch what automated tools miss
+• Reading code aloud or explaining it line by line often reveals gaps in reasoning
+• A quick peer review adds a valuable second perspective before anything is committed
+
+Slide 4 (Slide 3)
+------------------------------------------------------------------------
+Title: Subtle Logic Flaws Explained
+
+Subtitle: When logic looks right but isn't
+
+Content:
+• AI-generated code often passes basic tests yet contains flawed assumptions about edge cases
+• Off-by-one errors in loops or index calculations
+• Conditions checked in the wrong order, silently producing incorrect results
+• Logic that works for typical inputs but breaks under unexpected or boundary values
+• Missing negation in a single boolean check can invert an entire feature's behaviour
+• Subtle flaws rarely trigger errors, making them far harder to spot than outright crashes
+
+Slide 6 (Slide 4)
+------------------------------------------------------------------------
+Title: Spotting Flaws Before Deployment
+
+Subtitle: Catching Issues Before They Reach Users
+
+Content:
+• Review logic, not just syntax
+• Test edge cases manually
+• Check for hardcoded secrets
+• Validate all user inputs
+• Use a linter every time
+
+Slide 7 (Slide 5)
+------------------------------------------------------------------------
+Title: Mitigating AI Code Risks
+
+Subtitle: Strategies to Reduce Exposure and Risk
+
+Content:
+• Review all AI-generated code
+• Test edge cases thoroughly
+• Never skip security checks
+• Validate logic, not just syntax
+• Use linters and static analysis
+
+Slide 8 (Slide 6)
+------------------------------------------------------------------------
+Title: What to Remember
+
+Subtitle: Points to carry forward with confidence
+
+Content:
+• AI code needs human review
+• Verify logic, not just syntax
+• Test edge cases always
+• Trust your instincts
+• Stay curious, stay cautious

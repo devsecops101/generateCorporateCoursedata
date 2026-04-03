@@ -1,0 +1,92 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Hidden Assumptions in AI Design
+
+Subtitle: What AI doesn't know can hurt.
+
+Content:
+• AI skips hidden constraints
+• Assumptions cause real failures
+• Engineers must verify outputs
+• Trust but always check
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Defining Hidden Assumption Risks
+
+Subtitle: What AI silently assumes about structures
+
+Content:
+• AI fills gaps silently
+• Assumes standard load conditions
+• Ignores site-specific constraints
+• Treats defaults as universal
+• Missing context goes unnoticed
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Assumptions Hidden in the Code
+
+Subtitle: What the algorithm never tells you
+
+Content:
+• Training data drawn from past projects, embedding outdated load standards silently
+• No warning when regional codes differ
+• Optimised for efficiency, not safety margins
+• Material properties assumed uniform unless explicitly told otherwise
+• Boundary conditions (fixed, pinned, free) defaulted without flagging the choice to the engineer
+• Cost and weight minimisation baked in as invisible objectives
+
+Slide 5 (Slide 4)
+------------------------------------------------------------------------
+Title: Load Path Assumptions Gone Wrong
+
+Subtitle: Where forces travel matters enormously.
+
+Content:
+• AI tools sometimes assume forces travel through the most obvious path, not the actual structural path
+• A misread load path can shift stress into members never designed to carry it
+• Connections fail first
+• Seemingly minor geometry changes, like an offset beam, can reroute forces entirely
+• AI may not flag when a proposed layout contradicts the intended load distribution
+
+Slide 6 (Slide 5)
+------------------------------------------------------------------------
+Title: Validating AI Design Outputs
+
+Subtitle: Checking outputs before they become problems
+
+Content:
+• Check loads manually first
+• Verify material specs always
+• Cross-reference building codes
+• Question unusual geometry outputs
+• Confirm connection details independently
+
+Slide 7 (Slide 6)
+------------------------------------------------------------------------
+Title: Mitigating Hidden Assumption Risks
+
+Subtitle: Strategies to Reduce Unseen Design Errors
+
+Content:
+• Always verify AI-generated outputs against established structural codes and standards
+• Cross-check load assumptions manually
+• Involve a qualified structural engineer at every review stage, not just at final sign-off
+• Document every assumption the AI tool makes, so nothing stays hidden
+• Run sensitivity checks on key variables like material strength and load distribution
+• Build in a dedicated review step for site-specific conditions the AI may not have accounted for
+
+Slide 8 (Slide 7)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: What every structural engineer must know
+
+Content:
+• AI misses hidden constraints
+• Always verify AI outputs
+• Local codes matter most
+• Human judgement stays essential
+• Check assumptions every time
+• Next step: audit one AI design

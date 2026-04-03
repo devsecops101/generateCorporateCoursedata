@@ -51,7 +51,7 @@
           "number": 6,
           "slidetitle": "Lessons From Real Failures",
           "subtitle": "What history teaches us about risk",
-          "slidecontent": "• Early automation failures in mining (like sensor misreads triggering false \"all clear\" signals) led to updated safety protocols still used today\n• Aviation's near-misses shaped how we now think about human oversight of automated systems\n• Lessons rarely come cheap\n• The Deepwater Horizon disaster highlighted how automated warnings can be dismissed or overridden under pressure\n• Repeated failures across industries show that complexity and speed are the two biggest enemies of safe AI deployment\n• Small errors in high-stakes environments rarely stay small"
+          "slidecontent": "• Early automation failures in mining (like sensor misreads triggering false \"all clear\" signals) led to updated safety protocols still used today\n• Aviation's near-misses shaped how we now think about human oversight of automated systems\n• Lessons rarely come cheap\n• The Deepwater Horizon disaster highlighted how automated warnings can be dismissed or overridden under pressure\n• Repeated failures across industries show that complexity and speed are the two biggest enemies of safe AI deployment\n• Small errors in high risk environments rarely stay small"
         },
         {
           "number": 7,
@@ -89,7 +89,7 @@
         },
         {
           "number": 6,
-          "script": "History has a habit of teaching us the same lessons over and over, often at great cost. In mining, early automated systems sometimes sent false \"all clear\" signals, and those mistakes directly shaped the safety protocols we still rely on today. Aviation has done something similar, using near-misses to rethink how much we trust automated systems without keeping a human firmly in the loop. And then there is Deepwater Horizon, where automated warnings were dismissed under pressure, with catastrophic results. What these incidents share is a common thread: complexity and speed make it genuinely difficult to catch problems before they escalate. A small error in a normal environment might be an inconvenience. In a safety-critical environment, that same small error can spiral very quickly. So as we look at AI in these high-stakes settings, we are not starting from scratch. We have history to learn from. The question is whether we are actually listening to it."
+          "script": "History has a habit of teaching us the same lessons over and over, often at great cost. In mining, early automated systems sometimes sent false \"all clear\" signals, and those mistakes directly shaped the safety protocols we still rely on today. Aviation has done something similar, using near-misses to rethink how much we trust automated systems without keeping a human firmly in the loop. And then there is Deepwater Horizon, where automated warnings were dismissed under pressure, with catastrophic results. What these incidents share is a common thread: complexity and speed make it genuinely difficult to catch problems before they escalate. A small error in a normal environment might be an inconvenience. In a safety-critical environment, that same small error can spiral very quickly. So as we look at AI in these high risk settings, we are not starting from scratch. We have history to learn from. The question is whether we are actually listening to it."
         },
         {
           "number": 7,

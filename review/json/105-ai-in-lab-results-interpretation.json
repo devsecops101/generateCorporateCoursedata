@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Essential reminders for safe AI use",
-          "slidecontent": "• AI assists, never decides\n• Always verify with clinicians\n• Context changes every result\n• Errors carry real risks\n• Your judgement still matters\n• Seek training before using"
+          "slidecontent": "• AI assists, never decides\n• Always verify with clinicians\n• Context changes every result\n• Errors carry real risks\n• Your judgement is important\n• Seek training before using"
         }
       ],
       "scripts": [
@@ -81,7 +81,7 @@
         },
         {
           "number": 4,
-          "script": "So let's talk about where things can actually go wrong in practice, because this is really important. AI systems are trained on large datasets, but they can struggle with rare or unusual conditions that simply don't appear very often in that training data. On top of that, what counts as a \"normal\" result genuinely varies from patient to patient, depending on age, sex, pregnancy status, and other factors. If the AI isn't accounting for that context, it can flag something as abnormal when it isn't, or miss something that actually is. There's also a human behaviour element here. Clinicians can become so used to automated alerts that they either start ignoring them, or they trust them a little too much without applying their own judgement. And crucially, a lab result on its own doesn't tell the whole story. Without the broader clinical picture, errors can quietly work their way into real decisions about patient care. That's what we need to be mindful of."
+          "script": "So let's talk about where things can actually go wrong in practice, because this is really important. AI systems are trained on large datasets, but they can struggle with rare or unusual conditions that simply don't appear very often in that training data. On top of that, what counts as a \"normal\" result genuinely varies from patient to patient, depending on age, sex, pregnancy status, and other factors. If the AI isn't accounting for that context, it can flag something as abnormal when it isn't, or miss something that actually is. There's also a human behaviour element here. Clinicians can become so used to automated alerts that they either start ignoring them, or they trust them a little too much without applying their own judgement. And importantly, a lab result on its own doesn't tell the whole story. Without the broader clinical picture, errors can quietly work their way into real decisions about patient care. That's what we need to be mindful of."
         },
         {
           "number": 5,

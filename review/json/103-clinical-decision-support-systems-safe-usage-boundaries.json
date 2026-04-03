@@ -45,7 +45,7 @@
           "number": 5,
           "slidetitle": "Recognising the Limits of AI",
           "subtitle": "When data ends, judgement begins.",
-          "slidecontent": "• AI misses local context\n• Old data, new problems\n• Rare cases confuse algorithms\n• Numbers lack patient history\n• Clinician instinct still matters"
+          "slidecontent": "• AI misses local context\n• Old data, new problems\n• Rare cases confuse algorithms\n• Numbers lack patient history\n• Clinician instinct is important"
         },
         {
           "number": 6,
@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core principles for safe AI use",
-          "slidecontent": "• AI tools support decisions, they never replace clinical judgement\n• Always verify AI-generated suggestions against your own assessment and the patient in front of you\n• High-stakes situations (emergencies, rare conditions, vulnerable patients) require full human oversight\n• Document your reasoning, not just the AI output\n• Know your system's limits\n• As a next step, review your organisation's policy on approved clinical decision support tools and how to report concerns"
+          "slidecontent": "• AI tools support decisions, they never replace clinical judgement\n• Always verify AI-generated suggestions against your own assessment and the patient in front of you\n• high risk situations (emergencies, rare conditions, vulnerable patients) require full human oversight\n• Document your reasoning, not just the AI output\n• Know your system's limits\n• As a next step, review your organisation's policy on approved clinical decision support tools and how to report concerns"
         }
       ],
       "scripts": [
@@ -73,7 +73,7 @@
         },
         {
           "number": 2,
-          "script": "So let's think carefully about what AI genuinely cannot do, because this is where safe practice really begins. These tools are built on population-level data, which means they reflect patterns across thousands of patients, but they know nothing specific about the person sitting in front of you right now. They cannot factor in someone's personal values, their anxieties, or the social circumstances shaping their health. And crucially, if something goes wrong, the AI carries no professional or legal responsibility. You do. There is also something irreplaceable about physical presence. A clinician in the room picks up on things no algorithm can, subtle cues, tone, the way someone holds themselves. And finally, training data has gaps. Rare conditions, atypical presentations, underrepresented populations, these are exactly the situations where AI is most likely to let you down. Recognising these limits is not about distrusting the technology. It is about using it wisely."
+          "script": "So let's think carefully about what AI genuinely cannot do, because this is where safe practice really begins. These tools are built on population-level data, which means they reflect patterns across thousands of patients, but they know nothing specific about the person sitting in front of you right now. They cannot factor in someone's personal values, their anxieties, or the social circumstances shaping their health. And importantly, if something goes wrong, the AI carries no professional or legal responsibility. You do. There is also something irreplaceable about physical presence. A clinician in the room picks up on things no algorithm can, subtle cues, tone, the way someone holds themselves. And finally, training data has gaps. Rare conditions, atypical presentations, underrepresented populations, these are exactly the situations where AI is most likely to let you down. Recognising these limits is not about distrusting the technology. It is about using it wisely."
         },
         {
           "number": 3,

@@ -57,7 +57,7 @@
           "number": 7,
           "slidetitle": "Reducing Risk in Practice",
           "subtitle": "Practical steps to manage AI failures",
-          "slidecontent": "• Always keep a human in the loop for high-stakes decisions affecting citizens\n• Test AI systems regularly against real-world edge cases, not just ideal conditions\n• Document failures\n• Establish clear escalation paths so staff know exactly what to do when something goes wrong\n• Communicate openly with affected citizens when an automated decision is under review\n• Start small, pilot carefully, then scale"
+          "slidecontent": "• Always keep a human in the loop for high risk decisions affecting citizens\n• Test AI systems regularly against real-world edge cases, not just ideal conditions\n• Document failures\n• Establish clear escalation paths so staff know exactly what to do when something goes wrong\n• Communicate openly with affected citizens when an automated decision is under review\n• Start small, pilot carefully, then scale"
         },
         {
           "number": 8,

@@ -27,7 +27,7 @@
           "number": 2,
           "slidetitle": "What Is Automation Bias?",
           "subtitle": "Trusting machines more than we should",
-          "slidecontent": "• The tendency to over-trust automated systems and accept their outputs without question\n• A well-documented cognitive bias\n• Occurs when people reduce their own critical thinking because a machine has already \"decided\"\n• Common in high-stakes fields like medicine, aviation, and finance\n• Not a new problem, but growing fast as AI becomes part of everyday work\n• The machine feels reliable, so we stop double-checking"
+          "slidecontent": "• The tendency to over-trust automated systems and accept their outputs without question\n• A well-documented cognitive bias\n• Occurs when people reduce their own critical thinking because a machine has already \"decided\"\n• Common in high risk fields like medicine, aviation, and finance\n• Not a new problem, but growing fast as AI becomes part of everyday work\n• The machine feels reliable, so we stop double-checking"
         },
         {
           "number": 3,
@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Keep these points close to hand.",
-          "slidecontent": "• AI can be wrong\n• Always verify AI outputs\n• Stay alert, stay critical\n• Your judgement still matters\n• Question surprising AI results\n• Review before you act"
+          "slidecontent": "• AI can be wrong\n• Always verify AI outputs\n• Stay alert, stay critical\n• Your judgement is important\n• Question surprising AI results\n• Review before you act"
         }
       ],
       "scripts": [

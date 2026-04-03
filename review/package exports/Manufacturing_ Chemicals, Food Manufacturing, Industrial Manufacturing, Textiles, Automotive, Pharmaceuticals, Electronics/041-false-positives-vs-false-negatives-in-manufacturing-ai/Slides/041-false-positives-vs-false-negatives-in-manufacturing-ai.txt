@@ -1,0 +1,66 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: False Positives vs False Negatives
+
+Subtitle: The real cost of getting it wrong.
+
+Content:
+• Two errors, opposite costs
+• False positive: good rejected
+• False negative: bad accepted
+• Both hurt your business
+• Getting it wrong is expensive
+
+Slide 3 (Slide 2)
+------------------------------------------------------------------------
+Title: The Cost of Getting It Wrong
+
+Subtitle: Mistakes carry a measurable price tag.
+
+Content:
+• Every misclassification in a production line has a direct financial consequence
+• False positives waste good product
+• Scrapping or reworking items that were never actually faulty adds up fast
+• False negatives let defective goods reach customers, triggering recalls, complaints, and lost trust
+• The "safer" error depends entirely on your industry and what failure actually costs
+
+Slide 5 (Slide 3)
+------------------------------------------------------------------------
+Title: Calculating the True Cost
+
+Subtitle: Beyond the obvious financial impact
+
+Content:
+• Every false positive wastes materials, labour, and machine time on a product that was never actually faulty
+• Reputation damage when customers lose trust in your quality process
+• False negatives carry liability risk
+• Rework and reinspection cycles compound costs quickly across high-volume production lines
+• Hidden overhead from over-inspection, including staff time spent reviewing flagged items that pass on second check
+
+Slide 7 (Slide 4)
+------------------------------------------------------------------------
+Title: Balancing Errors in Practice
+
+Subtitle: Striking the right balance every time
+
+Content:
+• Setting a threshold too high catches more defects but flags more good parts as faulty
+• Costs cut both ways
+• Every adjustment to sensitivity shifts the balance between missed faults and wasted product
+• Regular calibration using real production data keeps the model tuned to your actual environment
+• Cross-functional teams (quality, operations, and engineering) should review error rates together
+• Small threshold changes can have a surprisingly large impact on overall yield and customer satisfaction
+
+Slide 8 (Slide 5)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles to guide your decisions
+
+Content:
+• Both errors cost money
+• Context shapes the right balance
+• Neither zero is realistic
+• Know your product's risk level
+• Measure, then decide
+• Start small, adjust often

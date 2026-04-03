@@ -51,7 +51,7 @@
           "number": 6,
           "slidetitle": "Mitigating AI Financial Risks",
           "subtitle": "Strategies to reduce exposure and uncertainty",
-          "slidecontent": "• Regular human review of AI-generated forecasts before any financial decisions are made\n• Audit trails for every AI output\n• Testing AI models against historical data to check for accuracy and bias\n• Clear escalation procedures when AI predictions fall outside expected ranges\n• Limiting AI autonomy in high-stakes reporting scenarios\n• Staff training on recognising when AI outputs may be unreliable"
+          "slidecontent": "• Regular human review of AI-generated forecasts before any financial decisions are made\n• Audit trails for every AI output\n• Testing AI models against historical data to check for accuracy and bias\n• Clear escalation procedures when AI predictions fall outside expected ranges\n• Limiting AI autonomy in high risk reporting scenarios\n• Staff training on recognising when AI outputs may be unreliable"
         },
         {
           "number": 7,
@@ -89,7 +89,7 @@
         },
         {
           "number": 6,
-          "script": "So, knowing the risks exist is only half the battle. The real question is: what do we actually do about them? The good news is there are some practical steps organisations can take to protect themselves. First, always have a human review AI-generated forecasts before any decisions are made. AI should inform your thinking, not replace it. You also want to keep a clear record of every output the AI produces, so there is a proper audit trail if questions arise later. It is worth regularly testing your models against historical data to spot any accuracy issues or bias creeping in. If an AI prediction looks unusual or falls well outside expected ranges, you need a clear process for flagging that and escalating it. In high-stakes situations, limit how much the AI can do on its own. And crucially, make sure your staff are trained to recognise when an AI output simply should not be trusted."
+          "script": "So, knowing the risks exist is only half the battle. The real question is: what do we actually do about them? The good news is there are some practical steps organisations can take to protect themselves. First, always have a human review AI-generated forecasts before any decisions are made. AI should inform your thinking, not replace it. You also want to keep a clear record of every output the AI produces, so there is a proper audit trail if questions arise later. It is worth regularly testing your models against historical data to spot any accuracy issues or bias creeping in. If an AI prediction looks unusual or falls well outside expected ranges, you need a clear process for flagging that and escalating it. In high risk situations, limit how much the AI can do on its own. And importantly, make sure your staff are trained to recognise when an AI output simply should not be trusted."
         },
         {
           "number": 7,

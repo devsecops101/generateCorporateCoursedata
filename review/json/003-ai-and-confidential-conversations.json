@@ -22,7 +22,7 @@
           "slidetitle": "What Could Go Wrong?",
           "subtitle": "Real risks, real consequences for organisations.",
           "slidecontent": "• Data leaks instantly\n• Clients lose trust\n• Regulations get broken\n• Jobs put at risk\n• Reputations damaged permanently",
-          "do_not_include": false
+          "do_not_include": true
         },
         {
           "number": 2,
@@ -78,7 +78,7 @@
         {
           "number": 1,
           "script": "So let's start by asking a really important question: what could actually go wrong when AI tools are used carelessly with confidential information? And the honest answer is, quite a lot. The moment sensitive data is typed into the wrong AI tool, it can be exposed instantly, with no way to pull it back. When clients find out their private information has been mishandled, trust disappears, and that relationship can be very difficult to rebuild. On top of that, many organisations operate under strict data protection regulations, and a single misstep can mean serious legal consequences. For individuals, there is also a very real risk to their careers if they are seen to have handled confidential information irresponsibly. And for the organisation as a whole, the reputational damage can last for years. These are not unlikely, worst-case scenarios. They are things that are already happening. So throughout this course, we are going to look at how to use AI tools responsibly and keep confidential information safe.",
-          "do_not_include": false
+          "do_not_include": true
         },
         {
           "number": 2,

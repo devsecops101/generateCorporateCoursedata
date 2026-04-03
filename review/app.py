@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from dataclasses import dataclass
 from datetime import datetime
@@ -12,6 +13,10 @@ import streamlit as st
 
 APP_DIR = Path(__file__).resolve().parent
 DEFAULT_JSON_DIR = APP_DIR / "json"
+SUPPORTING_DIR = APP_DIR / "supporting_files"
+HELP_TXT = SUPPORTING_DIR / "Help.txt"
+SLIDES_TEMPLATE_PPTX = SUPPORTING_DIR / "AISEC.Course.Slides Template v0.5.pptx"
+CAMTASIA_TEMPLATE_CMPROJ = SUPPORTING_DIR / "Untitled.cmproj"
 
 
 @dataclass
@@ -60,6 +65,95 @@ def _build_script_export_text(data: dict[str, Any]) -> str:
         body = _as_str(sc.get("script")).rstrip()
         blocks.append(f"Script {n} (Slide {slide_export_n})\n{sep}\n{body}")
     return "\n\n".join(blocks) + ("\n" if blocks else "")
+
+
+def _build_slides_export_text(data: dict[str, Any]) -> str:
+    """Plain text of included slides only (do_not_include is false)."""
+    lessons = data.get("lessons")
+    if not isinstance(lessons, list) or not lessons:
+        return ""
+    lesson0 = lessons[0]
+    if not isinstance(lesson0, dict):
+        return ""
+    slides = lesson0.get("slides")
+    if not isinstance(slides, list):
+        return ""
+    blocks: list[str] = []
+    ordered = sorted(slides, key=lambda d: _coerce_int(d.get("number"), default=0))
+    sep = "-" * 72
+    slide_export_n = 0
+    for sl in ordered:
+        if not isinstance(sl, dict):
+            continue
+        if sl.get("do_not_include"):
+            continue
+        slide_export_n += 1
+        n = _coerce_int(sl.get("number"), default=0)
+        title = _as_str(sl.get("slidetitle")).rstrip()
+        subtitle = _as_str(sl.get("subtitle")).rstrip()
+        content = _as_str(sl.get("slidecontent")).rstrip()
+        body_parts = [f"Title: {title}", f"Subtitle: {subtitle}", f"Content:\n{content}"]
+        body = "\n\n".join(body_parts)
+        blocks.append(f"Slide {n} (Slide {slide_export_n})\n{sep}\n{body}")
+    return "\n\n".join(blocks) + ("\n" if blocks else "")
+
+
+_PATH_SEGMENT_INVALID = re.compile(r'[/\\:*?"<>|\x00-\x1f]')
+_WIN_RESERVED_NAMES = frozenset(
+    {"con", "prn", "aux", "nul"}
+    | {f"com{i}" for i in range(1, 10)}
+    | {f"lpt{i}" for i in range(1, 10)}
+)
+
+
+def _sanitize_category_folder_name(category: Any) -> str:
+    """Turn course Category into a single filesystem-safe directory name."""
+    raw = _as_str(category).strip()
+    if not raw:
+        return "Uncategorized"
+    name = _PATH_SEGMENT_INVALID.sub("_", raw)
+    name = re.sub(r"\s+", " ", name).strip()
+    name = name.rstrip(". ")
+    if not name or name in (".", ".."):
+        return "Uncategorized"
+    if name.casefold() in _WIN_RESERVED_NAMES:
+        name = f"_{name}_"
+    return name
+
+
+def _export_course_package(json_path: Path, data: dict[str, Any]) -> Path:
+    """Create a folder under (parent of json folder)/package exports/<Category>/<stem>/ with templates, script, and slides text."""
+    stem = json_path.stem
+    category_dir = _sanitize_category_folder_name(data.get("Category"))
+    package_parent = json_path.parent.parent / "package exports"
+    project_dir = package_parent / category_dir / stem
+    if project_dir.exists():
+        shutil.rmtree(project_dir)
+    project_dir.mkdir(parents=True)
+    for name in ("Archives", "Camtasia_Files", "Export", "Script", "Slides"):
+        (project_dir / name).mkdir()
+
+    if not HELP_TXT.is_file():
+        raise FileNotFoundError(f"Missing supporting file: {HELP_TXT}")
+    if not SLIDES_TEMPLATE_PPTX.is_file():
+        raise FileNotFoundError(f"Missing supporting file: {SLIDES_TEMPLATE_PPTX}")
+    if not CAMTASIA_TEMPLATE_CMPROJ.exists():
+        raise FileNotFoundError(f"Missing supporting Camtasia project: {CAMTASIA_TEMPLATE_CMPROJ}")
+
+    shutil.copy2(HELP_TXT, project_dir / "Help.txt")
+    slides_dir = project_dir / "Slides"
+    shutil.copy2(SLIDES_TEMPLATE_PPTX, slides_dir / f"{stem}.pptx")
+    slides_text = _build_slides_export_text(data)
+    (slides_dir / f"{stem}.txt").write_text(slides_text, encoding="utf-8")
+    dest_cmproj = project_dir / "Camtasia_Files" / f"{stem}.cmproj"
+    if CAMTASIA_TEMPLATE_CMPROJ.is_dir():
+        shutil.copytree(CAMTASIA_TEMPLATE_CMPROJ, dest_cmproj)
+    else:
+        shutil.copy2(CAMTASIA_TEMPLATE_CMPROJ, dest_cmproj)
+
+    script_text = _build_script_export_text(data)
+    (project_dir / "Script" / f"{stem}.txt").write_text(script_text, encoding="utf-8")
+    return project_dir
 
 
 def _backup_file(path: Path) -> Path:
@@ -284,6 +378,7 @@ data: dict[str, Any] = st.session_state["working_data"]
 top_left, top_right = st.columns([2, 1], gap="large")
 
 export_clicked = False
+package_export_clicked = False
 with top_right:
     st.subheader("Validation")
     issues = _validate_course(data)
@@ -318,6 +413,7 @@ with top_right:
             st.error(f"Save failed: {e!s}")
 
     export_clicked = st.button("Export Script")
+    package_export_clicked = st.button("Export as Package")
 
     st.subheader("Raw JSON")
     st.download_button(
@@ -338,6 +434,16 @@ with top_left:
         with c1:
             data["Course Title"] = st.text_input("Course Title", value=_as_str(data.get("Course Title", "")))
             data["Category"] = st.text_input("Category", value=_as_str(data.get("Category", "")))
+            data["Who is this for"] = st.text_area(
+                "Who is this for",
+                value=_as_str(data.get("Who is this for", "")),
+                height=100,
+            )
+            data["Team or Dept this is for"] = st.text_area(
+                "Team or Dept this is for",
+                value=_as_str(data.get("Team or Dept this is for", "")),
+                height=100,
+            )
             data["Description"] = st.text_area("Description", value=_as_str(data.get("Description", "")), height=120)
             data["Prerequisites"] = st.text_area(
                 "Prerequisites", value=_as_str(data.get("Prerequisites", "")), height=220
@@ -467,4 +573,11 @@ if export_clicked:
         st.success(f"Script export saved: {out_path}")
     except Exception as e:
         st.error(f"Export failed: {e!s}")
+
+if package_export_clicked:
+    try:
+        out_project = _export_course_package(path, data)
+        st.success(f"Package export saved: {out_project}")
+    except Exception as e:
+        st.error(f"Package export failed: {e!s}")
 

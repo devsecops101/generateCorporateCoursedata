@@ -1,0 +1,80 @@
+Slide 2 (Slide 1)
+------------------------------------------------------------------------
+Title: What Makes AI Safety-Critical?
+
+Subtitle: When errors cost more than money
+
+Content:
+• Lives depend on accuracy
+• Errors cause injury or death
+• No easy "undo" button
+• Machines, people, environments at risk
+• Failures happen fast
+
+Slide 3 (Slide 2)
+------------------------------------------------------------------------
+Title: Signals That Warn Us Early
+
+Subtitle: Before harm becomes an incident
+
+Content:
+• Unexpected sensor silence
+• Repeated small alerts ignored
+• Outputs that "almost" match
+• Staff overriding warnings often
+• Logs showing frequent corrections
+
+Slide 4 (Slide 3)
+------------------------------------------------------------------------
+Title: Sensor Failures and False Readings
+
+Subtitle: When sensors mislead, AI follows suit.
+
+Content:
+• Sensors measure temperature, pressure, gas levels, and movement in hazardous environments
+• A faulty sensor sends bad data
+• AI systems trained to trust sensor input will act on that bad data without question
+• In a mine or on an oil rig, a false "all clear" reading can delay a critical safety response
+• Sensor degradation from dust, heat, or moisture is common in these settings
+• No built-in scepticism means AI cannot tell the difference between a real reading and a corrupted one
+
+Slide 6 (Slide 4)
+------------------------------------------------------------------------
+Title: Lessons From Real Failures
+
+Subtitle: What history teaches us about risk
+
+Content:
+• Early automation failures in mining (like sensor misreads triggering false "all clear" signals) led to updated safety protocols still used today
+• Aviation's near-misses shaped how we now think about human oversight of automated systems
+• Lessons rarely come cheap
+• The Deepwater Horizon disaster highlighted how automated warnings can be dismissed or overridden under pressure
+• Repeated failures across industries show that complexity and speed are the two biggest enemies of safe AI deployment
+• Small errors in high risk environments rarely stay small
+
+Slide 7 (Slide 5)
+------------------------------------------------------------------------
+Title: Lessons Learned, Moving Forward
+
+Subtitle: Applying insights to prevent future failures
+
+Content:
+• Test AI before deployment
+• Train staff regularly
+• Review failures honestly
+• Update systems often
+• Share lessons across teams
+
+Slide 8 (Slide 6)
+------------------------------------------------------------------------
+Title: What to Remember
+
+Subtitle: Core lessons to carry forward always.
+
+Content:
+• AI errors in farms, rigs, and mines can cause real physical harm, not just data problems
+• Always verify AI outputs with human judgement before acting
+• Context matters
+• Faulty sensor data fed into AI systems can silently trigger dangerous decisions
+• Report unexpected AI behaviour immediately, even if nothing goes wrong
+• Start by identifying one AI-assisted process in your workplace and asking who checks its outputs
