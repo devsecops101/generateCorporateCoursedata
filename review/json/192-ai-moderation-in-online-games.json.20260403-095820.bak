@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Moderation in Online Games",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "False positives, missed abuse, and community trust.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with online gaming platforms and a general awareness of how online communities function is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the most common causes of false positives and missed abuse in AI moderation systems, and explain how these errors affect player experience and community trust. You will also apply practical strategies to evaluate and improve AI moderation tools, helping you build safer and more welcoming online gaming environments.",
+  "lessons": [
+    {
+      "lesson title": "AI Moderation in Online Games",
+      "order": 1,
+      "Description": "Online games rely on AI moderation systems to keep communities safe, but these systems are far from perfect. In this lesson, you will explore how AI tools are used to detect and respond to harmful behaviour in gaming environments, and why they sometimes get things wrong. We will look at the problem of false positives (where innocent players are incorrectly flagged or banned) as well as missed abuse, where genuinely harmful content slips through undetected. You will also consider how these failures affect player trust and what game developers can do to strike a better balance. By the end of this lesson, you will have a clearer understanding of the real-world challenges involved in moderating online spaces using AI.",
+      "status": "draft",
+      "content": "False positives, missed abuse, and community trust.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "False Positives and Community Trust",
+          "subtitle": "When AI Gets It Wrong",
+          "slidecontent": "• AI moderation systems sometimes flag innocent players by mistake\n• These errors are called false positives\n• A wrongly banned account can damage a player's trust in the game\n• Repeated mistakes push communities to lose confidence in automated systems\n• Even one high-profile error can spark widespread backlash\n• Getting the balance right matters as much as catching genuine abuse"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Why AI Moderation Falls Short",
+          "subtitle": "The gaps that damage player trust.",
+          "slidecontent": "• Flags innocent players unfairly\n• Misses subtle toxic behaviour\n• Context often misunderstood\n• Appeals slow and frustrating\n• Trust erodes quickly"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting False Positives",
+          "subtitle": "When fair play gets flagged unfairly",
+          "slidecontent": "• AI systems sometimes flag innocent behaviour as a violation\n• A player celebrating a win or using unusual tactics can trigger automated warnings\n• Legitimate actions misread as suspicious\n• Patterns like fast movement or high scores may resemble cheating to an algorithm\n• Context matters, but AI often lacks the nuance to interpret it correctly\n• Players penalised unfairly risk losing trust in the moderation system entirely"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Balancing Accuracy and Fairness",
+          "subtitle": "The cost of getting it wrong",
+          "slidecontent": "• False positives ban innocent players, eroding trust in the system\n• Missed abuse lets toxic behaviour spread unchecked\n• Both errors carry real costs\n• Wrongful bans drive away loyal community members and damage reputation\n• Under-moderation signals to bad actors that the rules are not enforced\n• Getting the balance right requires constant tuning, not a one-time setup"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Balancing Accuracy and Trust",
+          "subtitle": "When accuracy shapes player confidence",
+          "slidecontent": "• False flags frustrate innocent players\n• Missed abuse erodes community trust\n• Both errors carry real costs\n• Accuracy builds player confidence\n• Balance matters more than perfection"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Restoring confidence through transparency and action",
+          "slidecontent": "• Acknowledge mistakes openly\n• Explain what went wrong\n• Fix errors quickly\n• Update affected players\n• Show system improvements made"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust After Failures",
+          "subtitle": "Steps to restore player confidence",
+          "slidecontent": "• Acknowledge the failure publicly and promptly, without making excuses\n• Explain what went wrong in plain language players can understand\n• Transparent\n• Outline the specific steps being taken to fix the problem\n• Offer a clear appeals process so affected players feel heard\n• Follow up with the community once changes are in place"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What to carry forward from here.",
+          "slidecontent": "• AI moderation makes mistakes\n• False positives harm real players\n• Context matters every time\n• Human review still essential\n• Trust takes time to build\n• Report issues, help improve systems"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "So, AI moderation is genuinely powerful, but it is not perfect, and one of the biggest challenges it faces is something called a false positive. That is simply when the system flags or punishes a player who has actually done nothing wrong. Now, you might think one mistake here or there is not a big deal, but consider what that feels like from the player's perspective. You have done nothing wrong, and suddenly your account is suspended or banned. That experience can seriously damage your trust in the game, and if it keeps happening to people across the community, that trust starts to erode on a much larger scale. In fact, even a single high-profile case of a wrongful ban can spread quickly online and cause a real backlash. So the goal for developers is not just to catch genuine bad behaviour, it is equally important to make sure innocent players are protected in the process."
+        },
+        {
+          "number": 2,
+          "script": "So, AI moderation sounds like a brilliant solution on paper, but in practice it has some real weaknesses that we need to talk about. The first problem is that these systems often get it wrong, flagging perfectly innocent players for things that are completely harmless. At the same time, genuinely toxic behaviour can slip straight through, especially when it is subtle or uses coded language the system has not been trained to recognise. Context is a huge issue here too. AI struggles to understand the difference between friends joking around and someone being genuinely abusive. And when players do get wrongly penalised, the appeals process tends to be slow and unclear, which makes the whole experience even more frustrating. Put all of that together and you can see why player trust starts to break down quite quickly. People lose confidence in the system, and that has a real impact on the overall health of the gaming community."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the trickier problems with AI moderation is what we call false positives. That's when the system flags a player for doing something wrong, even though they haven't actually broken any rules. Imagine you've just pulled off an incredible comeback, you're moving fast, scoring highly, playing in a way the algorithm isn't used to seeing. To a human, that looks like skill. To the AI, it can look suspicious. The system doesn't always have the context to tell the difference between a brilliant player and a cheating one. And that's a real problem, because if players start getting warnings or bans for things they genuinely didn't do, they lose faith in the whole moderation process. Trust is incredibly hard to rebuild once it's gone. So while AI can be a powerful tool for keeping games fair, we need to be aware that without proper nuance, it can end up penalising the very players it's supposed to protect."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what happens when AI moderation gets it wrong, because the costs run in both directions. If the system is too aggressive, it starts banning players who haven't actually done anything wrong. That erodes trust very quickly. People feel unfairly treated, and some of them simply leave and don't come back. On the other hand, if the system is too lenient and misses genuine abuse, toxic behaviour spreads, and it sends a clear signal to bad actors that the rules are essentially optional. Neither of those outcomes is acceptable. What makes this genuinely tricky is that finding the right balance isn't something you do once and then forget about. Player behaviour evolves, new slang emerges, and communities change over time. That means AI moderation systems need continuous monitoring and adjustment to stay effective and fair. It really is an ongoing process rather than a problem you can simply solve and move on from."
+        },
+        {
+          "number": 5,
+          "script": "So here's something really important to understand about AI moderation: getting it wrong in either direction causes problems. If the system flags innocent players unfairly, those players feel frustrated and lose faith in the game. But if it misses genuine abuse and lets it slide, the wider community starts to feel unsafe and unprotected. Both of those outcomes carry a real cost, not just for the players involved, but for the health of the game as a whole. Now, the goal isn't to build a perfect system, because honestly, no system is ever going to be perfect. What we're actually aiming for is a sensible balance, one where the AI is accurate enough that players trust it to make fair decisions. When players believe the moderation is working fairly, they feel more confident engaging with the community. That confidence is genuinely valuable, and it's what good AI moderation is ultimately trying to protect."
+        },
+        {
+          "number": 6,
+          "script": "When an AI moderation system makes a mistake, and they do happen, the worst thing a developer can do is stay silent. Players notice when something feels unfair, and if there's no explanation, trust breaks down very quickly. The first step is simply being honest. Acknowledge that an error occurred, and then actually explain what caused it, whether that was a flaw in the AI's training data, a misread context, or something else entirely. From there, it's about acting quickly to correct the problem rather than letting it drag on. Importantly, the players who were directly affected need to hear from you. A personal update or notification goes a long way. And finally, show people that you've learned from it. Demonstrating that the system has been improved as a result of the error is what genuinely rebuilds confidence. Transparency and action together are what turn a damaging moment into an opportunity to strengthen your relationship with the community."
+        },
+        {
+          "number": 7,
+          "script": "When AI moderation gets it wrong, and it will at some point, how you respond matters enormously. The first thing to do is acknowledge the problem quickly and openly. Players can tell when a company is being evasive, so be honest and avoid making excuses. Then explain what actually happened in straightforward language, not technical jargon. Transparency here is really important because it shows players you respect them enough to be straight with them. From there, tell your community exactly what steps you are taking to fix things, not vague promises, but concrete actions. You should also give affected players a clear way to appeal decisions they feel were unfair, so they know their voice counts. And finally, once those changes are in place, go back to your community and let them know. Rebuilding trust is not a one-off announcement, it is an ongoing conversation, and the studios that handle this well tend to come out stronger for it."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just take a moment to pull together the most important things from this lesson. AI moderation is a powerful tool, but it is not perfect. It will sometimes get things wrong, and when it does, real players can be unfairly affected. That is why context is so important. A single message rarely tells the whole story, and good moderation systems need to understand that. Human reviewers still play a vital role in catching those mistakes and making better decisions. Building trust in these systems takes time, and that trust has to be earned through consistent, fair outcomes. Finally, if you ever feel a moderation decision was wrong, report it. Your feedback genuinely helps developers improve how these systems work. The more people engage with that process, the better the experience becomes for everyone. Keep these points in mind as we continue through the rest of the course."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Community managers, game developers, content moderators, customer support representatives, product managers, trust and safety specialists, digital marketing managers",
+  "Team or Dept this is for": "Product Development, Customer Support, Trust and Safety, Community Management, Legal, Marketing"
+}

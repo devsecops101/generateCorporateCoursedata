@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "AI Risks in Food Manufacturing",
-          "subtitle": "What could go wrong, and why?",
-          "slidecontent": "• AI is being adopted rapidly across food manufacturing, from production lines to quality checks\n• But faster automation brings new risks\n• Errors made by AI systems can affect product safety, labelling accuracy, and legal compliance\n• Unlike human mistakes, AI errors can scale across thousands of units before anyone notices\n• Understanding these risks is the first step to managing them safely"
+          "slidetitle": "AI Adoption in Food Manufacturing",
+          "subtitle": "The promise and the peril",
+          "slidecontent": "• AI is transforming food manufacturing from production lines to quality control\n• Systems operate at unprecedented scale and speed\n• Benefits include improved efficiency and consistency\n• But errors can affect thousands of products before detection\n• Understanding risks is essential before implementation"
         },
         {
           "number": 2,
-          "slidetitle": "Contamination Risks and AI Errors",
-          "subtitle": "When AI Misjudges Food Safety Data",
-          "slidecontent": "• AI misreads sensor data\n• Contamination goes undetected\n• Unsafe batches pass inspection\n• Alerts trigger too late\n• Human oversight gets bypassed"
+          "slidetitle": "AI-Driven Contamination Hazards",
+          "subtitle": "When systems become sources of risk",
+          "slidecontent": "• Malfunctioning sensors can cause AI-controlled equipment to introduce physical contaminants\n• Cross-contamination occurs when automated systems misread allergen separation protocols\n• Predictive maintenance algorithms miss contamination patterns outside their training data\n• AI-optimized cleaning cycles may prioritize speed over safety standards\n• Software errors create contamination risks beyond mechanical failures"
         },
         {
           "number": 3,
-          "slidetitle": "Contamination Risks From AI Systems",
-          "subtitle": "When automation introduces unseen hazards",
-          "slidecontent": "• AI-controlled equipment can introduce physical contaminants if sensors malfunction or are poorly calibrated\n\n• Cross-contamination risks increase when automated systems misread allergen separation protocols\n\n• Software errors, not just mechanical faults\n\n• Predictive maintenance algorithms may miss irregular contamination patterns outside their training data\n\n• Cleaning cycles managed by AI can be cut short if the system optimises for speed over food safety standards"
+          "slidetitle": "Detection Failures in AI Systems",
+          "subtitle": "When safety signals go unnoticed",
+          "slidecontent": "• AI misinterprets sensor data from temperature, humidity, and contamination monitors\n• Unsafe batches pass through inspection when warning signs aren't recognized\n• Sensor malfunctions occur without immediate system alerts\n• Pathogens and foreign objects slip past automated detection\n• Reduced human oversight increases risk of undetected failures"
         },
         {
           "number": 4,
-          "slidetitle": "Contamination Risks and AI Failures",
-          "subtitle": "When AI Misses Critical Safety Signals",
-          "slidecontent": "• AI misses subtle contamination signs\n• Sensors malfunction without warning\n• Pathogens pass undetected\n• Mislabelled allergens reach consumers\n• Recalls follow AI errors"
+          "slidetitle": "Critical Mislabelling Incidents",
+          "subtitle": "When incorrect labels become deadly",
+          "slidecontent": "• AI misclassifies ingredient data leading to false allergen declarations\n• \"Contains no nuts\" labels on nut-containing products can trigger fatal reactions\n• Single mislabelled batches can cause immediate harm to vulnerable consumers\n• Emergency recalls follow when labelling errors reach the market\n• Lives are at stake when AI gets ingredient classification wrong"
         },
         {
           "number": 5,
-          "slidetitle": "Mislabelling Risks and Consequences",
-          "subtitle": "When Labels Mislead, Lives Are at Risk",
-          "slidecontent": "• AI systems misreading or misclassifying ingredient data, leading to incorrect allergen declarations on packaging\n• A label showing \"contains no nuts\" when the product does can trigger a fatal allergic reaction\n• Recalls triggered by mislabelling cost manufacturers millions and damage brand trust overnight\n• Regulatory bodies such as the FSA can issue mandatory withdrawals and pursue legal action\n• Vulnerable consumers, including those with allergies or dietary restrictions, bear the greatest risk\n• Even a single mislabelled batch can result in prosecution, fines, and lasting reputational harm"
+          "slidetitle": "Business Impact of AI Errors",
+          "subtitle": "Financial and reputational consequences",
+          "slidecontent": "• Product recalls triggered by AI errors cost manufacturers millions\n• Brand trust can be destroyed overnight by safety incidents\n• FSA can issue mandatory withdrawals and pursue legal action\n• Prosecutions, fines, and lasting reputational damage follow serious breaches\n• Consumer confidence takes years to rebuild after major incidents"
         },
         {
           "number": 6,
-          "slidetitle": "Regulatory Compliance and AI Risks",
-          "subtitle": "Navigating Compliance in an AI-Driven Industry",
-          "slidecontent": "• AI can misread food labels\n• Errors risk legal penalties\n• Regulators demand audit trails\n• Traceability records must be accurate\n• Human checks remain essential"
+          "slidetitle": "Regulatory Compliance Challenges",
+          "subtitle": "Meeting legal requirements with AI systems",
+          "slidecontent": "• Regulators demand complete audit trails for AI-driven decisions\n• Traceability records must accurately document all system actions\n• AI explanations may not meet regulatory scrutiny standards\n• Compliance responsibility remains with manufacturers, not AI vendors\n• Documentation gaps expose companies to regulatory penalties"
         },
         {
           "number": 7,
-          "slidetitle": "Regulatory Compliance and AI Risks",
-          "subtitle": "Navigating Compliance Gaps in AI Systems",
-          "slidecontent": "• AI can miss label errors\n• Gaps in traceability records\n• Audits may flag AI decisions\n• Regulations change, AI lags\n• Human oversight remains essential"
+          "slidetitle": "Evolving Regulatory Landscape",
+          "subtitle": "When rules change faster than systems adapt",
+          "slidecontent": "• AI models lag behind changing food safety regulations\n• New legislation may not align with existing system training\n• Auditors increasingly scrutinize AI decision-making processes\n• Legal frameworks for AI in food manufacturing continue developing\n• Regular system updates needed to maintain compliance"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for safer AI adoption",
-          "slidecontent": "• AI can introduce contamination and mislabelling risks if not properly validated before deployment\n• Always keep a human in the loop for critical safety decisions\n• Regulatory compliance is your responsibility, not the AI system's\n• Document everything\n• Training data quality directly affects how reliable AI outputs will be\n• Start small, test thoroughly, and scale only once safety is confirmed"
+          "slidetitle": "Safe AI Implementation Strategy",
+          "subtitle": "Practical steps for responsible adoption",
+          "slidecontent": "• Validate AI systems thoroughly before deployment in safety-critical applications\n• Maintain human oversight for all critical safety decisions\n• Ensure high-quality training data to improve system reliability\n• Start with small-scale pilots and expand only after safety confirmation\n• Document all AI processes comprehensively for regulatory compliance\n• Remember: you own the compliance obligation, not the AI system"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in food manufacturing, and specifically the safety and compliance risks that come with it. Artificial intelligence is moving into food production at a remarkable pace. We are seeing it used on production lines, in quality control, in labelling systems, and beyond. And while that brings real benefits in terms of speed and efficiency, it also introduces some serious risks that we cannot afford to ignore. When an AI system makes a mistake, it does not just affect one product or one batch. Because these systems operate at scale, a single error can ripple across thousands of units before anyone even realises something has gone wrong. That is very different from a human error, which tends to be caught more quickly and contained more easily. So throughout this course, we are going to look honestly at what can go wrong, why it happens, and what you can do to manage those risks responsibly. Let us start by building that foundation."
+          "script": "Welcome to this course on AI in food manufacturing safety and compliance risks. Artificial intelligence is revolutionizing food production, appearing everywhere from production lines to quality control systems. The technology offers remarkable benefits in efficiency and consistency, processing vast amounts of data at speeds humans simply cannot match. However, this same scale and speed creates a unique challenge: when AI systems make mistakes, those errors can affect thousands of products before anyone realizes something has gone wrong. This is fundamentally different from human errors, which tend to be caught more quickly and affect smaller batches. Understanding these risks upfront is essential for any organization considering AI adoption in food manufacturing."
         },
         {
           "number": 2,
-          "script": "Let's look at one of the most serious risks when AI is used in food manufacturing: what happens when the AI simply gets it wrong. Modern food facilities rely on sensors to monitor things like temperature, humidity, and contamination levels. When AI misreads that data, even by a small margin, the consequences can be significant. A batch of food that should have been flagged as unsafe might sail straight through the inspection process, because the AI didn't recognise the warning signs. And by the time an alert does trigger, it may already be too late to prevent that product from moving further down the supply chain. What makes this particularly concerning is that many facilities are reducing the level of human involvement, trusting the AI to handle these checks automatically. So if the AI makes an error and no one is watching closely, there's very little to catch that mistake before it becomes a real problem."
+          "script": "One of the most concerning risks is when AI systems themselves become sources of contamination. This can happen in several ways. If sensors malfunction or are poorly calibrated, the AI-controlled equipment they guide may introduce physical contaminants into products. Cross-contamination becomes a serious risk when automated systems misread allergen separation protocols, potentially mixing incompatible ingredients. Predictive maintenance algorithms, despite their sophistication, can miss unusual contamination patterns that weren't present in their training data. Additionally, when AI manages cleaning cycles, it might optimize for speed and efficiency at the expense of food safety standards, cutting cleaning times below what's actually required. These aren't just mechanical failures - software errors can be equally dangerous in creating contamination pathways."
         },
         {
           "number": 3,
-          "script": "So, let's talk about something that might surprise people who are new to this topic: AI systems themselves can actually introduce contamination risks into your production environment. If a sensor is poorly calibrated or malfunctions, the equipment it controls might not behave as expected, and that can lead to physical contaminants ending up in your product. There's also the issue of allergen separation. Automated systems can misread protocols, and when that happens, cross-contamination becomes a very real concern. And it's worth remembering that these risks aren't always mechanical. Software errors can be just as dangerous. Another area to watch is predictive maintenance. These algorithms are only as good as the data they were trained on, so unusual contamination patterns can slip through undetected. Finally, AI-managed cleaning cycles can be a hidden problem. If the system is optimising for efficiency and speed, it might cut a cleaning cycle short, which could fall well below the standards required for food safety."
+          "script": "Beyond creating contamination risks, AI systems can fail to detect existing safety hazards. These systems rely heavily on sensors monitoring temperature, humidity, and contamination levels, but when AI misinterprets this data, unsafe batches can pass through inspection completely undetected. The problem is compounded because sensor malfunctions often occur without triggering immediate alerts, meaning harmful pathogens or foreign objects can slip through the production line unnoticed. Many facilities have reduced human oversight, trusting AI to handle these critical safety checks automatically. When detection fails and no human is monitoring closely enough to catch the error, contaminated products can move far down the supply chain before the problem is discovered."
         },
         {
           "number": 4,
-          "script": "Now, one of the most serious concerns we need to talk about is what happens when AI systems fail to spot contamination in food production. AI relies heavily on sensors and data to detect problems, but sensors can malfunction, and when they do, there is often no immediate warning that anything has gone wrong. That means harmful pathogens could pass right through the production line without being flagged. And it is not just about bacteria or foreign objects. If an AI system misreads or misclassifies product data, allergens can end up mislabelled on packaging, which is an incredibly dangerous outcome for consumers with serious food allergies. When these failures occur, the consequences tend to be significant, often resulting in large-scale product recalls, reputational damage, and in the worst cases, real harm to people. So the key point here is that AI is a powerful tool, but it is not infallible, and understanding where it can go wrong is absolutely essential."
+          "script": "Mislabelling represents one of the most immediately dangerous risks in AI-driven food manufacturing. When AI systems misclassify ingredient data, the consequences can be fatal. Consider a scenario where a product containing nuts receives a label stating \"contains no nuts\" - for someone with a severe nut allergy, consuming that product could kill them. These aren't theoretical risks; they're real dangers that vulnerable consumers face every time they trust a product label. The speed at which AI operates means these errors can affect entire production runs before anyone notices. When mislabelled products reach consumers, the results can be immediate and devastating, particularly for those with severe allergies or dietary restrictions who depend completely on accurate labelling for their safety."
         },
         {
           "number": 5,
-          "script": "Mislabelling might sound like a minor administrative error, but in food manufacturing, it can be genuinely life-threatening. If an AI system misreads or misclassifies ingredient data, the wrong information ends up on the packaging. Imagine a product that contains nuts, but the label says otherwise. For someone with a severe nut allergy, that mistake could be fatal. And beyond the human cost, the business consequences are severe too. A single mislabelled batch can trigger a product recall, which costs manufacturers millions and can destroy years of brand trust almost overnight. Regulatory bodies like the Food Standards Agency have the power to issue mandatory withdrawals and pursue legal action against those responsible. We are talking about potential prosecutions, significant fines, and lasting reputational damage. The people most at risk are always the most vulnerable, those with allergies, intolerances, or specific dietary needs who rely entirely on accurate labelling to keep themselves safe. This is why getting it right matters so much."
+          "script": "The business consequences of AI-driven safety failures extend far beyond the immediate incident. Product recalls triggered by mislabelling or contamination errors typically cost manufacturers millions of pounds and can destroy decades of carefully built brand trust virtually overnight. Regulatory bodies like the Food Standards Agency have extensive powers to issue mandatory product withdrawals and pursue legal action against responsible parties. We're talking about potential prosecutions, substantial fines, and reputational damage that can take years to overcome. Consumer confidence, once lost due to a serious safety incident, is incredibly difficult to rebuild. The financial impact includes not just the immediate costs of recalls and legal proceedings, but also long-term revenue losses as customers switch to competitors they perceive as safer."
         },
         {
           "number": 6,
-          "script": "Now, one of the biggest concerns when using AI in food manufacturing is staying on the right side of the law. AI systems can sometimes misread or misinterpret food labels, and that might not sound like a big deal, but if a label contains incorrect allergen information or a wrong ingredient declaration, you could be looking at serious legal consequences. Regulators are not just interested in the end product either. They want to see a clear audit trail, meaning they expect you to be able to show exactly how decisions were made and by whom, or in this case, by what system. Your traceability records need to be accurate and complete, because if something goes wrong, those records are what protect you. And this is precisely why human oversight is so important. AI can support your compliance processes, but it should never replace the human checks that keep everything accountable and above board."
+          "script": "Regulatory compliance becomes significantly more complex when AI systems are involved in food production decisions. Regulators require complete audit trails showing exactly how safety-critical decisions were made, but many AI systems operate as \"black boxes\" that can't easily explain their reasoning. Your traceability records must accurately document every action the system takes, because these records are your primary defense if something goes wrong. The challenge is that AI explanations may not meet the scrutiny standards that regulatory audits require. It's crucial to understand that compliance responsibility remains entirely with your organization - you cannot transfer this obligation to your AI vendor or blame the system for regulatory failures."
         },
         {
           "number": 7,
-          "script": "Now, let's talk about one of the most pressing concerns when using AI in food manufacturing, and that's regulatory compliance. AI systems can be incredibly powerful, but they do have some real blind spots. For example, they can miss errors on product labels, which in a regulated industry like food production can lead to serious legal and safety issues. There can also be gaps in traceability records, meaning if something goes wrong, you may struggle to prove exactly what happened and when. Regulators and auditors are increasingly scrutinising AI-driven decisions, and if your system can't explain its reasoning clearly, that's a problem. There's also the issue of regulations themselves changing over time. AI models are trained on existing rules, so they can lag behind when new legislation comes into force. This is precisely why human oversight remains absolutely essential. AI should support your compliance processes, not replace the people responsible for them."
+          "script": "The regulatory landscape for AI in food manufacturing continues evolving rapidly, creating ongoing compliance challenges. AI models are trained on existing regulations and historical data, which means they naturally lag behind when new food safety legislation comes into effect. This creates periods where your AI system may be operating according to outdated rules without you realizing it. Auditors are also becoming increasingly sophisticated in their scrutiny of AI decision-making processes, asking detailed questions about how systems reach their conclusions. The legal frameworks governing AI use in food manufacturing are still developing, meaning what's acceptable today may not be tomorrow. This dynamic environment requires constant vigilance and regular system updates to maintain compliance."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. If there's one thing to hold onto from this lesson, it's that AI is a powerful tool, but it comes with real responsibilities. If you deploy it without proper validation, you risk contamination issues and mislabelling errors that could harm people. And no matter how sophisticated the system is, a human being must always be involved in critical safety decisions. The AI does not carry your compliance obligations, you do, and that means keeping thorough records of everything you do with it. It's also worth remembering that the quality of your training data shapes the quality of your results, so rubbish in genuinely does mean rubbish out. And finally, please don't try to roll AI out across your entire operation all at once. Start small, test it carefully, and only expand once you're confident it's safe to do so. These principles will serve you well as you move forward."
+          "script": "Implementing AI safely in food manufacturing requires a structured, cautious approach. Always validate systems thoroughly before deploying them in safety-critical applications - rushing to production without proper testing is a recipe for disaster. Maintain human oversight for all critical safety decisions; AI should support human judgment, not replace it entirely. The quality of your training data directly impacts system reliability, so invest in high-quality, comprehensive datasets. Start with small-scale pilot programs and only expand after you've confirmed the system operates safely at smaller scales. Document everything comprehensively to meet regulatory requirements and protect your organization. Most importantly, remember that you own the compliance obligation - the AI system is a tool you're responsible for using safely and legally."
         }
       ]
     }

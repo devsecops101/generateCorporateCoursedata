@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Triage Systems: Risk of Misclassification",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "When urgent cases are deprioritised or missed entirely.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with clinical workflows or healthcare settings, along with a general curiosity about how artificial intelligence is being used in patient care, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI triage systems can misclassify urgent cases and explain the potential consequences for patient safety in healthcare settings. You will also be able to apply practical strategies to recognise warning signs of deprioritisation errors and support safer, more reliable triage processes within your organisation.",
+  "lessons": [
+    {
+      "lesson title": "AI Triage Systems: Risk of Misclassification",
+      "order": 1,
+      "Description": "AI triage systems are increasingly being used in healthcare and emergency settings to help prioritise patients based on the urgency of their condition. However, these systems are not infallible, and there is a real risk that they may misclassify patients, causing urgent cases to be deprioritised or missed altogether. This lesson explores how and why misclassification can occur, including the role of biased training data, incomplete patient information, and the limitations of automated decision-making. You will learn to recognise the warning signs of a flawed triage output and understand the importance of human oversight in catching errors before they cause harm. By the end of this lesson, you will have a clearer understanding of the risks involved and practical steps you can take to support safer, more reliable triage processes.",
+      "status": "draft",
+      "content": "When urgent cases are deprioritised or missed entirely.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI Triage Risks",
+          "subtitle": "When AI gets triage dangerously wrong",
+          "slidecontent": "• AI triage systems sort patients by urgency, deciding who gets care first\n• Sometimes the algorithm gets it wrong\n• Urgent cases can be deprioritised, delayed, or missed entirely\n• Real patients face real harm when this happens\n• Understanding these risks is the first step to preventing them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI Triage Misclassification",
+          "subtitle": "When AI gets the priority wrong",
+          "slidecontent": "• AI ranks urgency incorrectly\n• Serious cases get missed\n• Low-risk cases jump queue\n• Delays cause patient harm\n• Errors aren't always obvious"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Factors That Cause Misclassification",
+          "subtitle": "What leads AI systems astray",
+          "slidecontent": "• Training data that underrepresents certain patient groups, such as older adults or non-native speakers\n• Symptoms described in unusual or informal language the system wasn't trained to recognise\n• Bias baked in from historical data\n• Poor audio or text input quality causing the system to misread critical details\n• Rare but serious conditions that appear infrequently in training sets and get overlooked\n• Overconfidence in a single data point, like heart rate, while ignoring the broader clinical picture"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Patterns That Cause Misclassification",
+          "subtitle": "Where AI systems learn the wrong lessons",
+          "slidecontent": "• Skewed training data\n• Rare symptoms get ignored\n• Bias from past decisions\n• Missing context fools AI\n• Atypical presentations misread"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Consequences of Missed Urgent Cases",
+          "subtitle": "When delays cost lives and outcomes.",
+          "slidecontent": "• Delayed treatment for conditions like sepsis or stroke can cause permanent harm within minutes\n• Missed urgency means the wrong queue\n• Patients triaged as low-priority may wait hours while their condition deteriorates rapidly\n• Outcomes worsen fast\n• Families and clinicians left without accurate information cannot make timely, informed decisions about care\n• Every misclassification carries a real human cost"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Consequences of Missed Urgency",
+          "subtitle": "When delays cost lives and outcomes.",
+          "slidecontent": "• Delayed treatment worsens outcomes\n• Strokes need care immediately\n• Hours matter in sepsis\n• Missed urgency can kill\n• Families lose trust fast"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Misclassification in Practice",
+          "subtitle": "Practical steps to improve AI accuracy",
+          "slidecontent": "• Regular audits of AI triage outputs against actual patient outcomes\n• Clinician override always available\n• Training data reviewed frequently to reflect current patient demographics and conditions\n• Clear escalation pathways when AI confidence scores fall below a set threshold\n• Staff trained to question, not just accept, AI recommendations\n• Feedback loops built in so errors inform future system improvements"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for safer AI triage",
+          "slidecontent": "• AI can miss urgent cases\n• Bias skews triage results\n• Always verify AI outputs\n• Human oversight is essential\n• Report errors promptly\n• Training data matters greatly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI triage systems and the very real risks that come with getting them wrong. Now, triage is fundamentally about sorting patients by urgency, making sure the people who need care most urgently are seen first. AI systems are increasingly being used to help make those decisions, and in many ways they can be genuinely useful. But here is the problem: sometimes the algorithm gets it wrong. And when it does, the consequences are not just a minor inconvenience or a bit of extra paperwork. We are talking about real patients whose conditions are serious being pushed down the queue, delayed, or in some cases missed altogether. That can mean real harm, and in the worst situations, it can be life-threatening. So throughout this lesson, we are going to look closely at how and why these errors happen, because understanding where the risks lie is absolutely essential if we want to prevent them from causing harm in the first place."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by getting clear on what we actually mean by AI triage misclassification. In simple terms, it's when an AI system gets the priority order wrong. It might assess a patient as low urgency when they're actually in a serious condition, or it might flag someone as high priority when they could safely wait. Both of those scenarios cause real problems. When a genuinely critical case gets overlooked, treatment is delayed, and that delay can directly harm the patient. But the issue that makes this particularly tricky is that these errors aren't always easy to spot. Unlike a system that crashes or throws up an obvious error message, a misclassification can look perfectly reasonable on the surface. The AI has made a decision, it appears confident, and staff may not immediately question it. That's what makes understanding this risk so important, and it's exactly what we'll be exploring throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So what actually causes an AI triage system to get it wrong? There are several factors worth understanding. First, if the training data doesn't reflect the full range of patients, the system will struggle. Older adults, non-native speakers, or anyone who describes their symptoms in informal or unusual language may simply not be well represented. Then there's historical bias, where the data the system learned from already contained human errors or inequalities, and those get baked right in. Poor quality inputs are another issue, whether that's a muffled phone call or unclear written text, the system can misread something critical. Rare but serious conditions are particularly risky because they appear so infrequently in training data that the system may not recognise them when they do show up. And finally, some systems place too much weight on a single measurement, like heart rate, rather than looking at the whole clinical picture. Each of these factors can push the system towards the wrong decision."
+        },
+        {
+          "number": 4,
+          "script": "So why does misclassification happen in the first place? It usually comes down to a few recurring patterns. The most common is skewed training data, meaning the AI has learned mostly from certain types of patients, so it struggles when it encounters someone who doesn't fit that familiar profile. Linked to this is the problem of rare symptoms, which simply don't appear often enough in training data for the system to recognise them reliably. There's also the issue of historical bias, where the AI picks up on past clinical decisions that may themselves have been flawed or inconsistent. Then there's missing context, things like a patient's living situation or recent travel history, that a human clinician might factor in but an AI system never sees. And finally, atypical presentations, where a serious condition shows up in an unusual way, can completely fool the system. Understanding these patterns is the first step towards using AI triage tools more safely and critically."
+        },
+        {
+          "number": 5,
+          "script": "When an AI triage system gets it wrong, the consequences can be devastating, and they can unfold very quickly. Conditions like sepsis and stroke are time-critical. We are talking about minutes, not hours, before permanent damage can occur. If a patient is misclassified as low priority, they join the wrong queue. They sit and wait while their condition is quietly getting worse. And because the system has flagged them as non-urgent, nobody is looking closely enough. That delay in treatment can change everything, from whether someone recovers fully, to whether they survive at all. It is not just the patient who is affected either. Families trying to make decisions, and clinicians trying to provide care, are all working from inaccurate information. They cannot act appropriately if the picture they have been given is wrong. Behind every misclassification is a real person, and a real cost. That is what makes getting this right so important."
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what actually happens when an AI triage system gets it wrong and underestimates how urgent someone's condition is. The consequences can be devastating. Take a stroke, for example. Every minute without treatment, brain cells are dying. There is a well-known phrase in medicine: \"time is brain.\" The same is true for sepsis, a life-threatening infection that can spiral out of control within hours. If a patient is triaged as low priority when they are actually critically ill, that delay in care can directly worsen their outcome, and in the worst cases, it can cost them their life. And beyond the clinical impact, there is a human one. When families watch a loved one deteriorate because something was missed, trust in that healthcare system can collapse very quickly. So the stakes here are not abstract. They are real, they are serious, and they are exactly why understanding the risks of AI misclassification matters so much."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually reduce the risk of misclassification in practice? The good news is there are some very concrete steps organisations can take. First, AI outputs should be regularly audited against real patient outcomes, so you can spot patterns where the system is getting things wrong. Clinicians must always have the ability to override the AI, and that should never feel like a last resort. The training data powering these systems needs to be reviewed frequently, because patient populations and conditions change over time. When the AI itself signals low confidence, there should be a clear pathway to escalate that case to a human. Crucially, staff need to be trained to think critically about AI recommendations rather than simply accepting them at face value. And finally, when errors do occur, they should feed back into the system to help improve it going forward. Prevention and continuous improvement really do go hand in hand here."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core lessons to carry forward. First, remember that AI triage systems are not infallible. They can and do miss urgent cases, so never assume the system has caught everything. Linked to that, bias in training data can quietly skew results, meaning certain patients may be consistently under or over-prioritised without anyone realising. That is precisely why verifying AI outputs is so important. Always apply your own clinical judgement rather than simply accepting what the system tells you. Human oversight is not optional here, it is absolutely essential to safe practice. When something does go wrong, or even when you suspect it might have, report it promptly. Those reports help organisations identify patterns and improve the systems over time. And finally, the quality of training data shapes everything the AI does. Poor data leads to poor decisions. Keep these points in mind and you will be far better placed to use AI triage tools safely and responsibly."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Healthcare administrators, clinical managers, nurses, medical assistants, quality assurance staff, patient safety coordinators, healthcare IT staff, emergency department personnel",
+  "Team or Dept this is for": "Clinical Operations, Patient Safety, Quality Assurance, Emergency Services, Healthcare IT, Risk Management, Medical Affairs"
+}

@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Film Production Workflows",
-          "subtitle": "Risks, Tools, and What Lies Ahead",
-          "slidecontent": "• AI is reshaping film production\n• Editing, VFX, and automation\n• Real risks exist today\n• Tools are evolving fast\n• Beginners welcome here"
+          "subtitle": "Understanding Tools, Risks, and Responsible Integration",
+          "slidecontent": "• AI is transforming editing, VFX, and production automation\n• Real efficiency gains alongside genuine risks\n• Creative control vs. technical convenience\n• Legal and workflow considerations\n• Practical strategies for safe implementation"
         },
         {
           "number": 2,
-          "slidetitle": "Risks in Editing Workflows",
-          "subtitle": "Where automation meets creative decision-making",
-          "slidecontent": "• Automated editing tools can cut footage quickly but often miss the emotional intent behind a scene\n• Pacing decisions left to algorithms\n• AI may prioritise technical consistency over storytelling rhythm, flattening a director's creative voice\n• Colour grading automation can introduce subtle errors that are difficult to spot until final review\n• Metadata mismatches between AI-sorted clips and original rushes can cause version control problems\n• Human oversight remains essential at every stage"
+          "slidetitle": "Creative Risks in AI-Assisted Editing",
+          "subtitle": "When algorithms make storytelling decisions",
+          "slidecontent": "• AI cuts footage quickly but misses emotional intent\n• Algorithmic pacing flattens directorial voice\n• Generic patterns replace personal storytelling style\n• Subtle narrative moments get overlooked\n• Human creative judgment remains irreplaceable"
         },
         {
           "number": 3,
-          "slidetitle": "Risks in Automated Editing Tools",
-          "subtitle": "Where automation can compromise creative control",
-          "slidecontent": "• Cuts feel generic, not personal\n• Pacing loses emotional rhythm\n• Style choices become homogenised\n• Editor loses hands-on skill\n• Subtle nuance gets overlooked"
+          "slidetitle": "Technical Pitfalls in Automated Post-Production",
+          "subtitle": "Hidden errors that compound over time",
+          "slidecontent": "• Colour grading struggles with unconventional cinematography\n• Audio sync drift introduces costly downstream fixes\n• Continuity errors slip through long timeline reviews\n• Metadata loss during AI processing causes file management issues\n• Small errors early multiply into major problems later"
         },
         {
           "number": 4,
-          "slidetitle": "Automation Risks in Post-Production",
-          "subtitle": "Over-reliance on automated editing tools",
-          "slidecontent": "• Automated editing tools can misread pacing, cutting scenes too quickly or too slowly for the intended emotional tone\n• Colour grading algorithms often struggle with unusual lighting conditions or stylised cinematography\n• Over-reliance on AI assembly cuts reduces the editor's creative input early in the process\n• Errors compound fast\n• Automated audio syncing can introduce subtle timing drift that becomes costly to fix in later stages\n• Teams that skip manual review checkpoints risk delivering a cut that feels technically correct but emotionally flat"
+          "slidetitle": "Over-Reliance Dependencies",
+          "subtitle": "Skills erosion and quality concerns",
+          "slidecontent": "• Editors lose hands-on craftsmanship over time\n• Teams skip essential manual review checkpoints\n• Final cuts feel technically correct but emotionally flat\n• Decision-making shifts from humans to algorithms\n• Professional instincts atrophy without practice"
         },
         {
           "number": 5,
-          "slidetitle": "Automated Tools and Hidden Risks",
-          "subtitle": "Efficiency Gains Can Mask Serious Pitfalls",
-          "slidecontent": "• Automated editing tools can silently introduce continuity errors that are difficult to spot in long timelines\n• AI colour grading may flatten intentional stylistic choices made by the director of photography\n• Metadata stripped during AI processing\n• Relying on automated VFX clean-up without manual review risks missed artefacts reaching the final cut\n• Licensing for AI-generated assets is often unclear, creating legal exposure for productions\n• Speed is tempting, but unchecked automation shifts costly mistakes to post-production"
+          "slidetitle": "Legal and Licensing Vulnerabilities",
+          "subtitle": "Copyright and asset ownership complications",
+          "slidecontent": "• AI-generated assets have unclear licensing status\n• Copyright boundaries blur in automated workflows\n• Legal exposure increases for productions\n• Asset documentation becomes critical\n• Intellectual property rights need clear protocols"
         },
         {
           "number": 6,
-          "slidetitle": "Mitigating AI Production Risks",
-          "subtitle": "Strategies to Safeguard Your Production Pipeline",
-          "slidecontent": "• Always back up original footage\n• Review every AI edit manually\n• Set clear human approval stages\n• Test tools on small projects first\n• Keep licensed assets properly documented"
+          "slidetitle": "Workflow Protection Strategies",
+          "subtitle": "Building safety nets into AI integration",
+          "slidecontent": "• Backup original footage before AI processing\n• Establish mandatory human review checkpoints\n• Test new tools on low-stakes projects first\n• Set clear approval stages throughout pipeline\n• Maintain access to unprocessed source material"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating AI Production Risks",
-          "subtitle": "Strategies to Safeguard Your Production Process",
-          "slidecontent": "• Always back up footage\n• Check AI outputs manually\n• Keep original files safe\n• Test tools before deadlines\n• Train your team first"
+          "slidetitle": "Team Training and Documentation",
+          "subtitle": "Organizational safeguards for AI adoption",
+          "slidecontent": "• Train teams before deadline pressure\n• Document AI usage across production pipeline\n• Create transparent decision-making records\n• Build understanding of tool limitations\n• Establish clear escalation protocols"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for responsible AI use",
-          "slidecontent": "• Always verify AI-generated edits, VFX outputs, and automated decisions before they reach the final cut\n• Bias and errors can enter workflows silently\n• Keep a human editor in the loop at every critical stage of post-production\n• Understand the tools you rely on, even at a basic level, so you can spot when something has gone wrong\n• Document where and how AI is used across your production pipeline\n• As a next step, audit one current workflow and identify where AI decisions could benefit from closer human review"
+          "slidetitle": "Implementation Roadmap",
+          "subtitle": "Your next steps for responsible AI adoption",
+          "slidecontent": "• Audit one current workflow for AI oversight gaps\n• Verify all AI outputs before final cut inclusion\n• Keep humans in the loop at critical decision points\n• Understand your tools well enough to spot problems\n• Balance efficiency gains with quality control"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome, and thank you for joining this course on AI in Film Production Workflows. Whether you are completely new to artificial intelligence or you have been experimenting with it already, this course is designed to meet you where you are. Over the coming lessons, we are going to explore how AI is genuinely changing the way films are made, from editing and visual effects through to automating some of the more repetitive tasks that eat up a production team's time. But we are not here to paint an unrealistically rosy picture. There are real risks involved, and we will talk about those honestly, including concerns around jobs, copyright, and creative ownership. The tools in this space are also moving incredibly quickly, so we will focus on what is relevant and useful right now, while keeping an eye on where things are heading. So, let us get started and take a proper look at what AI means for the world of film production."
+          "script": "Welcome to AI in Film Production Workflows. This course explores how artificial intelligence is reshaping editing, visual effects, and production automation across the film industry. We'll examine both the genuine efficiency gains these tools offer and the real risks they introduce. Whether you're new to AI or already experimenting with it, we'll cover the practical considerations every production team needs to understand: how to maintain creative control while leveraging technical convenience, navigate legal and workflow complications, and implement AI tools responsibly. By the end of this course, you'll have concrete strategies to evaluate and manage AI integration in ways that support rather than disrupt your production goals."
         },
         {
           "number": 2,
-          "script": "So let's talk about where things can go wrong when AI gets involved in the editing process. Automated tools are genuinely impressive at cutting through large amounts of footage quickly, but speed isn't everything. Editing is a creative act, and algorithms don't always understand the emotional weight of a particular moment, or why a scene needs to breathe a little longer. Pacing, rhythm, the subtle choices that give a film its voice, these are things AI can easily flatten if left unchecked. There are also more practical concerns. Colour grading automation can introduce errors that are tricky to spot until you're deep into post-production, and if AI sorts your rushes incorrectly, you can end up with version control headaches that are genuinely painful to untangle. The common thread running through all of this is that human oversight isn't optional. It needs to be built into every stage of the workflow, not just bolted on at the end."
+          "script": "Let's start with the creative risks in AI-assisted editing. While automated tools can cut through footage remarkably quickly, speed isn't everything in storytelling. Algorithms often miss the emotional weight behind scenes, making pacing decisions that flatten a director's creative voice. AI tends to follow patterns learned from thousands of other films, which can make your work feel generic rather than personal. Those subtle narrative moments—a meaningful pause, an important glance, the rhythm that makes a scene breathe—these are precisely what human editors excel at recognizing and AI frequently overlooks. Understanding these limitations is crucial because editing is fundamentally a creative act, not just a technical process."
         },
         {
           "number": 3,
-          "script": "So let's talk about where automated editing tools can actually work against you. The big concern is that when an algorithm is making your cuts, the result can feel a bit... flat. It doesn't know your story the way you do, so the pacing might miss those quiet emotional beats that make a scene land properly. And because these tools are trained on patterns from thousands of other films, there's a real risk that everything starts to look and feel the same. Your film loses its personality. There's also something worth considering for editors themselves: if you're relying on automation too heavily, you gradually lose the hands-on instincts that come from actually crafting an edit yourself. Those skills take years to build, and they're easy to let slip. Perhaps most importantly, AI simply isn't great at picking up on subtlety. A glance, a pause, a tiny moment that changes everything. Those are the things a human editor notices, and a machine very often doesn't."
+          "script": "Beyond creative concerns, there are serious technical pitfalls in automated post-production. Colour grading algorithms often struggle when cinematographers make unconventional lighting choices, producing results that look off or flat. Audio sync issues can introduce subtle timing drift that becomes exponentially more expensive to fix later in the pipeline. AI processing can also strip important metadata from files, creating genuine file management headaches down the line. These technical problems compound over time—small errors early in the workflow multiply into major issues that can derail entire production schedules and budgets."
         },
         {
           "number": 4,
-          "script": "So let's talk about what can go wrong when we lean too heavily on automated tools in post-production. These tools are genuinely impressive, but they do have blind spots. An AI might assemble a rough cut that looks perfectly competent on paper, yet completely misses the emotional rhythm a scene needs. Colour grading algorithms can also struggle when your cinematographer has done something unconventional with the lighting, and the result can look quite off. There is also a compounding problem here, meaning small errors early on, like a subtle drift in audio sync, can snowball into something much more expensive and time-consuming to fix later in the pipeline. Perhaps most importantly, when teams skip manual review checkpoints and trust the automation too completely, they often end up with a cut that feels technically clean but emotionally hollow. The audience might not be able to explain why something feels wrong, but they will absolutely feel it."
+          "script": "There's also a deeper concern about over-reliance on automation. When editors depend too heavily on AI tools, they gradually lose the hands-on craftsmanship that takes years to develop. Teams begin skipping essential manual review checkpoints, trusting algorithms to make decisions that require human judgment. The result is often a final cut that feels technically competent but emotionally hollow—something audiences will sense even if they can't articulate why. This shift from human to algorithmic decision-making doesn't just affect individual projects; it erodes the professional instincts that make great editors invaluable."
         },
         {
           "number": 5,
-          "script": "So we've seen how AI can speed things up, but let's talk about what can go wrong when we lean on these tools without proper oversight. Automated editing software, for example, can quietly introduce continuity errors that are genuinely hard to catch across a long timeline. AI colour grading tools are impressive, but they can smooth over deliberate creative decisions your director of photography spent hours crafting. There's also a technical concern that often gets overlooked: AI processing can strip out important metadata from your files, which causes real headaches down the line. And if you're using AI to clean up visual effects shots, skipping a manual review means artefacts can slip through to the final cut. Perhaps most seriously, the legal status of AI-generated assets is still murky, and that creates genuine licensing risk for productions. Speed is attractive, but unchecked automation tends to push expensive problems further down the pipeline, right when you can least afford them."
+          "script": "Legal and licensing issues present another significant vulnerability. The copyright status of AI-generated assets remains murky, creating genuine legal exposure for productions that rely on them. When AI tools blur the boundaries around intellectual property rights, productions can face unexpected complications in distribution and licensing. This is particularly problematic because these legal questions often surface long after the production phase, when they're most costly and disruptive to address. Clear protocols for asset documentation and intellectual property management become essential safeguards in AI-assisted workflows."
         },
         {
           "number": 6,
-          "script": "Now, working with AI tools in your production pipeline is genuinely exciting, but it does come with risks, and being prepared makes all the difference. First and foremost, always keep your original footage safe and backed up, because AI processes can sometimes produce unexpected results and you want to be able to return to your source material. From there, make sure a real human being is reviewing every AI-generated edit before it goes anywhere near a final cut. AI is a tool, not a decision-maker. It also helps to build clear approval checkpoints into your workflow so nothing slips through without proper sign-off. If you are new to a particular AI tool, try it out on a smaller, lower-stakes project before trusting it with something critical. And finally, keep thorough records of all your licensed assets. AI tools can sometimes blur the lines around copyright, so solid documentation protects you legally. These habits will keep your pipeline running smoothly and securely."
+          "script": "Protecting your workflow requires building deliberate safety nets into AI integration. Always backup original footage before any AI processing—these tools can occasionally produce unexpected results or corrupt files. Establish mandatory human review checkpoints throughout your pipeline so nothing reaches the final cut without proper oversight. Test new AI tools on smaller, lower-stakes projects first, giving yourself time to understand their quirks before deadline pressure hits. Set clear approval stages and maintain access to unprocessed source material so you can always return to your original assets if needed."
         },
         {
           "number": 7,
-          "script": "Now, working with AI tools in production is genuinely exciting, but it does come with risks, so let's talk about how to protect yourself. First and foremost, always back up your footage. AI processes can occasionally corrupt or overwrite files, so having a secure copy is absolutely essential. Along the same lines, never assume an AI output is perfect. Always review what the tool has produced before it goes anywhere near your final edit. Keep your original, unprocessed files stored separately, so if something goes wrong, you can start again without losing everything. It's also really worth testing any new AI tool well before a deadline. Give yourself time to understand its quirks in a low-pressure environment rather than discovering problems when you're up against the clock. And finally, make sure your whole team understands how the tools work before they start using them. A little training upfront can save a lot of headaches further down the line."
+          "script": "Organizational safeguards are equally important. Train your teams on AI tools before they're under deadline pressure—a little upfront investment in education prevents major headaches later. Document where and how AI is being used across your production pipeline, creating transparent records of decision-making processes. Build understanding of tool limitations so team members can recognize when something looks or feels wrong. Establish clear escalation protocols so problems get addressed quickly rather than compounding through the workflow."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The single most important habit you can build is verification. Before anything AI has touched makes it into your final cut, a human being needs to check it. Bias and errors don't always announce themselves, they can slip through quietly, which is exactly why you want someone in the loop at every critical stage of post-production. It also really helps to have a basic understanding of the tools you're using, not a deep technical knowledge, just enough to recognise when something looks or feels off. Alongside that, get into the habit of documenting where AI is being used across your pipeline, because transparency protects you and your team. And as a practical next step, pick one workflow you're currently using and ask yourself honestly: where are AI decisions being made without enough human oversight? That one audit could make a real difference to the quality and integrity of your work."
+          "script": "Let's wrap up with a practical roadmap for implementation. Start by auditing one current workflow to identify where AI decisions could benefit from closer human oversight—this single exercise often reveals surprising gaps. Always verify AI outputs before they reach your final cut, because bias and errors don't announce themselves. Keep humans in the decision-making loop at critical stages, understanding that AI is a powerful tool but not a replacement for professional judgment. Learn your tools well enough to spot problems, and always balance efficiency gains with quality control. These practices will help you harness AI's benefits while protecting the integrity of your creative work."
         }
       ]
     }

@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Legal Drafting: Confidentiality and Accuracy",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Risks when generating contracts, advice, or legal documents.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday legal documents (such as contracts or client correspondence) and a general curiosity about how AI tools are being used in professional settings is all you need to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key confidentiality risks that arise when using AI tools to draft contracts, legal advice, and other sensitive documents, and explain how to apply best practices that protect client data and comply with professional obligations. You will also be able to recognise common accuracy pitfalls in AI-generated legal content and apply practical review techniques to ensure the documents you produce are reliable, precise, and fit for purpose.",
+  "lessons": [
+    {
+      "lesson title": "AI in Legal Drafting: Confidentiality and Accuracy",
+      "order": 1,
+      "Description": "This lesson explores the key risks that arise when using artificial intelligence tools to draft contracts, legal advice, and other formal documents. You will learn how sensitive client information can be exposed when inputted into AI platforms, and why this matters for professional confidentiality obligations. The lesson also examines the problem of AI-generated inaccuracies, including fabricated case references and incorrect legal interpretations, which can have serious consequences if left unchecked. By the end of this lesson, you will have a clearer understanding of how to use AI tools responsibly within a legal context, applying practical safeguards to protect both your clients and your professional reputation.",
+      "status": "draft",
+      "content": "Risks when generating contracts, advice, or legal documents.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to AI Legal Drafting",
+          "subtitle": "Exploring risks in AI-assisted drafting",
+          "slidecontent": "• AI drafts legal documents\n• Errors can cause harm\n• Confidentiality risks exist\n• Accuracy is never guaranteed\n• You remain responsible"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Identifying the Core Risks",
+          "subtitle": "What can go wrong, and why.",
+          "slidecontent": "• AI invents false legal details\n• Confidential data may leak\n• Outdated law, wrong jurisdiction\n• Errors look convincing\n• No built-in legal accountability"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Confidentiality Risks in AI Drafting",
+          "subtitle": "Where client data may be exposed.",
+          "slidecontent": "• Data sent to external servers\n• Prompts may be stored\n• Third parties can access inputs\n• No guaranteed confidentiality\n• Client names exposed accidentally"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Accuracy Risks in AI Drafting",
+          "subtitle": "Where AI errors can mislead lawyers.",
+          "slidecontent": "• AI tools can fabricate case citations that appear real but do not exist\n• Subtle errors in dates, party names, or defined terms\n• Confident, fluent output that masks underlying inaccuracies\n• Legal standards vary by jurisdiction, and AI may apply the wrong one\n• No built-in awareness of recent legislative changes or updates"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Accuracy Risks in AI Drafting",
+          "subtitle": "Where AI Errors Can Mislead Drafts",
+          "slidecontent": "• AI tools frequently invent case citations, statute numbers, or legal precedents that do not exist\n• Known as \"hallucination,\" this risk is especially dangerous in legal drafts\n• Outdated training data means AI may reference superseded legislation\n• Jurisdiction errors common, such as applying English law clauses to Scottish or international contracts\n• Small factual mistakes in defined terms or dates can invalidate entire agreements"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Protecting Client Data in Practice",
+          "subtitle": "Safeguarding sensitive information at every step",
+          "slidecontent": "• Anonymise or redact client names, case numbers, and identifying details before entering any information into an AI tool\n• Never paste full contracts or sensitive correspondence directly into a public-facing AI interface\n• Use firm-approved, privacy-compliant platforms only\n• Check your firm's data handling policy before starting\n• Treat AI input fields like an open window, anything typed there may be stored, logged, or reviewed\n• Establish a consistent internal checklist so every team member follows the same data protection steps"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to minimise legal exposure",
+          "slidecontent": "• Always review AI output\n• Never share client data\n• Check every clause carefully\n• Use approved tools only\n• Verify sources independently"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI use",
+          "slidecontent": "• Always verify AI-generated legal text against authoritative sources before use\n• Never input real client names, case details, or sensitive data into public AI tools\n• AI can draft, but a qualified solicitor must review\n• Treat every AI output as a first draft, not a finished document\n• Confidentiality obligations apply regardless of the tool you are using\n• As a next step, review your firm's data handling policy before using AI in any client matter"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI in legal drafting. Over the next few lessons, we are going to explore something that is becoming increasingly common in legal practice: using artificial intelligence to help draft legal documents. Now, AI can be genuinely useful for this kind of work, but it also brings some very real risks that every legal professional needs to understand. We are talking about things like factual errors creeping into documents, sensitive client information being exposed, and the very real possibility that what the AI produces simply is not accurate enough to rely on. And here is the critical point that runs through everything we will cover: regardless of how the document was produced, you as the legal professional remain fully responsible for its contents. The AI does not carry professional liability. You do. So let us dig into what those risks look like in practice, and how you can work with AI tools more safely and confidently."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by looking at what can actually go wrong when you use AI for legal drafting, because the risks are real and worth understanding clearly. First, AI tools can simply make things up. They might generate case references, statutes, or legal principles that sound entirely plausible but do not actually exist. Alongside that, if you paste confidential client information into a public AI tool, that data could be exposed in ways you have not anticipated or consented to. There is also the issue of currency and jurisdiction. AI may draw on outdated law, or law from a completely different legal system, without flagging that to you. And here is what makes all of this particularly tricky: the output usually looks polished and authoritative, so errors are easy to miss. Finally, if something goes wrong, the AI bears no professional responsibility whatsoever. That responsibility sits entirely with you. So these are not minor technical quirks; they are genuine professional risks that we need to take seriously."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about where things can actually go wrong when you use AI tools for legal drafting, because this is where many lawyers get caught out. When you type a prompt into an AI tool, that text is often sent to an external server, which means it leaves your machine entirely. And here is the important part: many of these platforms store your prompts, sometimes to improve their models, sometimes for other purposes. That means a third party, whether that is the AI provider or someone else, could potentially have access to what you typed. There is no guarantee of confidentiality in the way you would expect with your own secure systems. And it is surprisingly easy to accidentally include sensitive details, a client name, a case reference, specific financial figures, without even realising you have done it. So before you use any AI tool for client work, you really need to understand what happens to that data once you press send."
+        },
+        {
+          "number": 4,
+          "script": "Now, let us talk about where AI can actually get things wrong in legal drafting, because this is genuinely important to understand. One of the most serious issues is what is sometimes called hallucination, where an AI tool confidently produces a case citation that simply does not exist. It looks real, it reads well, but if you rely on it, you could find yourself in serious difficulty. Beyond that, there are subtler errors too, things like a wrong date, a misspelled party name, or an inconsistency in a defined term. These are easy to miss precisely because the writing sounds so polished and authoritative. There is also the question of jurisdiction. AI tools do not always know which legal standards apply in your specific context, and they have no reliable awareness of recent changes to legislation. So the core message here is straightforward: AI output always needs careful human review. Fluent writing is not the same as accurate writing."
+        },
+        {
+          "number": 5,
+          "script": "Now, let us talk about accuracy, because this is where things can go seriously wrong. One of the most well-documented problems with AI tools is something called hallucination, where the system simply invents information. In a legal context, that might mean a case citation that does not exist, a statute number that is completely fabricated, or a legal precedent that was never actually decided. And because the output looks so polished and confident, it is very easy to miss. On top of that, AI models are trained on data up to a certain point in time, so they may reference legislation that has since been amended or repealed. There are also jurisdiction issues to watch for, for example, an AI might apply principles from English law to a contract that should follow Scottish or international rules. And finally, even a small error in a defined term or a key date can be enough to undermine an entire agreement. So accuracy checks are absolutely essential."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually protect client data when we're using AI tools day to day? The starting point is simple: before you type anything into an AI tool, strip out anything that could identify a client. That means names, case numbers, any personal details. Think of it like this: treat the AI input field as if it were a public noticeboard. Anything you type there could potentially be stored or reviewed, so only ever use platforms that your firm has approved and verified as privacy-compliant. And please, do check your firm's data handling policy before you begin, not after. Avoid pasting full contracts or sensitive correspondence directly into any public-facing AI interface. Now, because different people on your team may approach this differently, it really helps to have a shared internal checklist, a consistent set of steps that everyone follows, so data protection becomes a habit rather than an afterthought."
+        },
+        {
+          "number": 7,
+          "script": "So let's talk about what this actually looks like in your day-to-day work. The first thing to remember is that AI output is never a finished product. You must read through everything it produces before it goes anywhere near a client or a document. Alongside that, please be very careful about what information you put into these tools in the first place. Client data should never be entered into an AI system unless it has been explicitly approved for that purpose by your firm. When you are reviewing the drafted content, go through each clause individually rather than skimming the whole thing. It is also worth verifying any legal references or cited sources independently, because AI can and does get these wrong. And finally, only use tools that your organisation has sanctioned. Using an unapproved application, even with good intentions, can create serious compliance and confidentiality problems. These steps are straightforward, but following them consistently is what genuinely reduces your risk."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to keep in mind as you start using AI in your legal work. First and most importantly, never put real client information into a public AI tool. That means no names, no case details, nothing sensitive. Your confidentiality obligations do not disappear just because you are using new technology. When AI does produce a draft for you, treat it as exactly that, a starting point. It always needs to be checked against authoritative sources and reviewed by a qualified solicitor before it goes anywhere near a client. Think of AI as a very capable first-draft assistant, not a finished product. And before you use any AI tool on a client matter, take a moment to review your firm's data handling policy. It may already set out what is and is not permitted. Getting into good habits now will help you use these tools confidently and responsibly going forward."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Legal counsel, contract managers, paralegal staff, attorneys, legal assistants, compliance officers, in-house legal teams",
+  "Team or Dept this is for": "Legal, Compliance, Risk Management"
+}

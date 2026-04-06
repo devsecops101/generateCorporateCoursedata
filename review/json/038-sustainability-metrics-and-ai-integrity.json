@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining ESG Reporting Risks",
-          "subtitle": "Where AI Reporting Can Go Wrong",
-          "slidecontent": "• AI tools can generate ESG figures that sound credible but lack verified data sources\n• Outdated training data leading to inaccurate emissions benchmarks\n• Greenwashing risks when unreviewed AI outputs are published directly\n• No audit trail\n• Inconsistent terminology across AI-generated reports causing compliance gaps"
+          "slidetitle": "Common AI Reporting Failures",
+          "subtitle": "Specific ways AI outputs mislead",
+          "slidecontent": "• AI generates credible-sounding figures without verified sources\n• Outdated training data produces wrong emissions benchmarks\n• Missing audit trails prevent verification\n• Inconsistent terminology creates compliance gaps\n• Unreviewed outputs enable greenwashing"
         },
         {
           "number": 3,
-          "slidetitle": "Garbage In, Garbage Out",
-          "subtitle": "Flawed data corrupts AI-generated reports.",
-          "slidecontent": "• AI outputs are only as reliable as the data fed into them\n• Incomplete emissions records skew carbon footprint calculations\n• Outdated supplier data leads to inaccurate scope 3 reporting\n• Errors compound\n• Mislabelled datasets can cause AI to misclassify environmental risks entirely\n• Small input mistakes produce large, misleading ESG conclusions"
+          "slidetitle": "The Data Quality Problem",
+          "subtitle": "Poor inputs corrupt AI outputs",
+          "slidecontent": "• AI amplifies whatever data you feed it\n• Incomplete emissions records skew carbon calculations\n• Outdated supplier data corrupts scope 3 reporting\n• Errors compound throughout the system\n• Biased datasets produce systematically flawed results"
         },
         {
           "number": 4,
-          "slidetitle": "Garbage In, Garbage Out",
-          "subtitle": "Poor inputs corrupt ESG reporting outputs.",
-          "slidecontent": "• Wrong data, wrong results\n• Errors compound quickly\n• Garbage in, garbage out\n• Biased inputs skew scores\n• AI cannot fix bad data"
+          "slidetitle": "AI Knowledge Limitations",
+          "subtitle": "What AI systems don't know",
+          "slidecontent": "• Training data cuts off months before your reporting date\n• No live updates on regulations or emissions factors\n• New standards like TCFD or CSRD may be missing\n• Regional and sector-specific data underrepresented\n• AI won't tell you when information is outdated"
         },
         {
           "number": 5,
           "slidetitle": "Spotting AI Data Gaps",
           "subtitle": "Where AI knowledge falls short",
-          "slidecontent": "• AI training data often cuts off months or years before your reporting date\n• No live feed of regulatory updates, new emissions factors, or revised GHG protocols\n• Rapidly evolving standards (like TCFD or CSRD) may be partially or wholly absent\n• Gaps you cannot see\n• Regional and sector-specific data frequently underrepresented, skewing outputs\n• Always verify AI-generated figures against current, authoritative sources before submission"
+          "slidecontent": "• Check if regulatory updates are reflected\n• Verify emissions factors against current sources\n• Test sector-specific calculations for accuracy\n• Look for placeholder data in complex scenarios\n• Cross-reference against authoritative databases"
         },
         {
           "number": 6,
           "slidetitle": "Auditing AI-Generated ESG Data",
-          "subtitle": "Verifying What the Algorithms Produce",
-          "slidecontent": "• Check sources behind figures\n• Spot missing or vague data\n• Compare outputs to originals\n• Test for repeated errors\n• Involve human reviewers always"
+          "subtitle": "Verifying what the algorithms produce",
+          "slidecontent": "• Trace figures back to original sources\n• Compare AI outputs to raw source material\n• Watch for patterns of repeated errors\n• Flag vague or missing data points\n• Require human review at every stage"
         },
         {
           "number": 7,
-          "slidetitle": "Strengthening AI Reporting Integrity",
-          "subtitle": "Verification steps for trustworthy AI outputs",
-          "slidecontent": "• Cross-check figures manually\n• Use verified data sources\n• Question unexpected results\n• Document every AI output\n• Review before publishing"
+          "slidetitle": "Verification Best Practices",
+          "subtitle": "Steps to ensure AI output integrity",
+          "slidecontent": "• Cross-check key figures manually\n• Question unexpected or outlier results\n• Document all AI processes and outputs\n• Maintain clear audit trails\n• Review thoroughly before publication"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for responsible AI reporting",
-          "slidecontent": "• Always verify AI-generated ESG figures against primary data sources before reporting\n• Hallucinated metrics can appear credible\n• Understand the limitations of any AI tool used in your sustainability workflow\n• Human oversight is non-negotiable when data informs regulatory or investor disclosures\n• Document every step of your reporting process, including where AI was involved\n• Start small by piloting AI tools on low-risk internal reports before using them in official submissions"
+          "slidetitle": "Implementation Strategy",
+          "subtitle": "How to use AI responsibly in ESG reporting",
+          "slidecontent": "• Start with low-risk internal reports\n• Build verification processes before high-stakes use\n• Train teams on AI limitations and risks\n• Establish clear documentation standards\n• Never skip human oversight for regulatory submissions"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's talk about where things can actually go wrong when AI gets involved in ESG reporting. One of the biggest issues is that AI tools can produce figures that sound completely plausible, but when you dig into them, there's no verified source behind the numbers. On top of that, many AI systems are trained on data that simply isn't current, which means the emissions benchmarks they reference could already be out of date. There's also a real greenwashing risk if organisations publish AI-generated content without reviewing it first. And here's something that often gets overlooked: there's frequently no audit trail, so if someone asks how a particular figure was calculated, you may have no way to answer that. Finally, AI tools don't always use consistent terminology, and in a compliance context, that inconsistency can create genuine gaps in your reporting. These are the risks we need to understand before we go any further in this course."
+          "script": "Let's examine the specific ways AI can fail in ESG reporting. One of the biggest issues is that AI tools can produce figures that sound completely plausible, but when you dig into them, there's no verified source behind the numbers. Many AI systems are trained on data that isn't current, which means the emissions benchmarks they reference could already be out of date. There's also a real greenwashing risk if organisations publish AI-generated content without reviewing it first. Often there's no audit trail, so if someone asks how a particular figure was calculated, you may have no way to answer. Finally, AI tools don't always use consistent terminology, and in a compliance context, that inconsistency can create genuine gaps in your reporting. These specific failure modes are what we need to watch for."
         },
         {
           "number": 3,
-          "script": "There's an old saying in computing: garbage in, garbage out. And it applies perfectly here. When we feed AI systems poor quality data, we shouldn't be surprised when the outputs are unreliable. Think about it this way. If your emissions records have gaps, your AI-generated carbon footprint report will be wrong from the start. If the information about your suppliers is out of date, your scope 3 reporting will be inaccurate. And here's the thing that catches a lot of people off guard: errors don't just sit there quietly. They compound. One small mistake early in the process can snowball into something much larger. If a dataset has been mislabelled, the AI might completely misclassify an environmental risk. A tiny input error can produce an ESG conclusion that is wildly misleading. So before we even think about what AI can do for sustainability reporting, we need to be honest about the quality of the data we're putting in."
+          "script": "There's an old saying in computing: garbage in, garbage out. When we feed AI systems poor quality data, we shouldn't be surprised when the outputs are unreliable. If your emissions records have gaps, your AI-generated carbon footprint report will be wrong from the start. If the information about your suppliers is out of date, your scope 3 reporting will be inaccurate. Here's what catches people off guard: errors don't just sit there quietly, they compound. One small mistake early in the process can snowball into something much larger. If a dataset has been mislabelled, the AI might completely misclassify an environmental risk. A tiny input error can produce an ESG conclusion that is wildly misleading. So before we think about what AI can do for sustainability reporting, we need to be honest about the quality of the data we're putting in."
         },
         {
           "number": 4,
-          "script": "There is an old saying in computing that has never lost its relevance: garbage in, garbage out. And when it comes to ESG reporting powered by AI, this principle matters enormously. If the data you feed into your systems is inaccurate, incomplete, or biased, the results you get back will be just as flawed, and sometimes worse. Here is the thing about errors in data: they do not stay small. They compound. One wrong figure in your supply chain emissions data can ripple through your entire sustainability score, distorting the picture in ways that are genuinely difficult to trace. And if your inputs carry bias, perhaps certain suppliers are consistently under-reported, then your AI model will simply bake that bias into every output it produces. The important point to understand here is that AI is not a correction tool. It cannot magically fix poor quality data. It amplifies whatever you give it. So the quality of your inputs is absolutely everything."
+          "script": "One of the most important things to understand about AI tools is their knowledge limitations. These systems are trained on data collected at some point in the past, which could be many months or even years before you're using the tool. That means any regulatory updates, revised emissions factors, or new reporting frameworks like TCFD or CSRD may simply not be included, or only partially covered. Here's the tricky part: the AI won't always tell you when it doesn't know something. It will often produce a confident-looking answer even when its information is out of date. Additionally, data covering specific regions or industry sectors tends to be underrepresented, which can quietly skew your results. Understanding these knowledge gaps is crucial before you rely on AI for sustainability reporting."
         },
         {
           "number": 5,
-          "script": "One of the most important things to understand about AI tools is that they are not connected to the internet in real time. Their knowledge comes from training data that was collected at some point in the past, which could be many months or even a couple of years before you are actually using the tool. That means any regulatory updates, revised emissions factors, or new reporting frameworks like TCFD or CSRD may simply not be in there at all, or only partially. And here is the tricky part: the AI will not always tell you when it does not know something. It will often produce a confident-looking answer even when its information is out of date. On top of that, data covering specific regions or industry sectors tends to be underrepresented, which can quietly skew your results. So the golden rule is this: always cross-check any figures or guidance the AI gives you against current, authoritative sources before you submit anything."
+          "script": "So how do you identify when AI knowledge falls short? Start by checking whether recent regulatory changes are reflected in the AI's responses. Verify that emissions factors match the latest standards from recognised bodies. Test any sector-specific calculations against authoritative sources, because niche industries often have poor representation in AI training data. Look out for placeholder data or generic responses when you need precise calculations for complex scenarios. The golden rule is this: always cross-check any figures or guidance the AI gives you against current, authoritative sources before you submit anything. The AI's confidence doesn't guarantee accuracy."
         },
         {
           "number": 6,
-          "script": "So, we've established that AI can generate ESG data quickly, but speed means nothing if the data isn't trustworthy. That's where auditing comes in. When you receive AI-generated figures, always trace them back to their original sources. Ask yourself: where did this number actually come from? You also want to watch out for gaps or vague language, because AI systems sometimes fill in missing information with plausible-sounding but inaccurate content. A really useful habit is to place the AI output side by side with the raw source material and compare them directly. You should also look for patterns of repeated errors, because AI tools can make the same mistake consistently, which makes it easy to miss if you're not paying attention. And perhaps most importantly, never rely on the algorithm alone. Human reviewers need to be part of this process at every stage. AI is a tool, not a replacement for professional judgement."
+          "script": "Now let's talk about auditing AI-generated ESG data properly. When you receive AI-generated figures, always trace them back to their original sources. Ask yourself: where did this number actually come from? A really useful habit is to place the AI output side by side with the raw source material and compare them directly. You should also look for patterns of repeated errors, because AI tools can make the same mistake consistently, which makes it easy to miss if you're not paying attention. Watch out for gaps or vague language, because AI systems sometimes fill in missing information with plausible-sounding but inaccurate content. And perhaps most importantly, never rely on the algorithm alone. Human reviewers need to be part of this process at every stage."
         },
         {
           "number": 7,
-          "script": "So, once you've got your AI-generated sustainability data, the real work begins: making sure you can actually trust it before it goes anywhere near a report or a presentation. The first thing to do is manually check your key figures. Don't just accept a number because the AI produced it. Cross-reference it against verified, reputable data sources to confirm it holds up. If something looks surprising or doesn't quite fit the pattern you'd expect, treat that as a signal to investigate rather than ignore it. Unexpected results aren't always wrong, but they always deserve a closer look. It's also really important to keep a clear record of every output the AI generates, including the prompts you used and when you ran them. That audit trail becomes invaluable if anyone questions your figures later. And finally, always build in a proper review stage before anything gets published. A fresh pair of eyes can catch what you might have missed."
+          "script": "Once you have AI-generated sustainability data, the real work begins: making sure you can trust it before it goes anywhere near a report. The first step is manually checking your key figures. Don't just accept a number because the AI produced it. Cross-reference it against verified, reputable data sources to confirm it holds up. If something looks surprising or doesn't fit the pattern you'd expect, treat that as a signal to investigate rather than ignore it. Unexpected results aren't always wrong, but they always deserve a closer look. It's also important to keep a clear record of every output the AI generates, including the prompts you used and when you ran them. That audit trail becomes invaluable if anyone questions your figures later."
         },
         {
           "number": 8,
-          "script": "So let's bring together the core principles we've covered in this lesson. The most important habit you can build is always checking AI-generated figures against your original data sources, because AI can produce numbers that look completely convincing but are simply wrong. That's not a flaw you can spot just by reading the output carefully, which is exactly why human oversight is essential, especially when your data is going into regulatory filings or investor reports. You also need to understand the specific limitations of whatever AI tool you're using in your workflow, and document every step of your process, including where and how AI was involved. And if you're just getting started, please don't pilot a new AI tool on a high risk official submission. Begin with something low-risk, like an internal report, so you can build confidence before the stakes are higher. These principles aren't complicated, but they do require consistency and discipline every single time."
+          "script": "Let's wrap up with a practical approach to implementing AI responsibly in ESG reporting. If you're just getting started, don't pilot a new AI tool on high-risk official submissions. Begin with something low-risk, like an internal report, so you can build confidence and understand the tool's specific quirks before the stakes are higher. Use this pilot phase to develop robust verification processes that you'll need later. Train your team on both the capabilities and limitations of whatever AI tools you're using. Establish clear documentation standards so everyone knows how to maintain audit trails. And remember: human oversight is non-negotiable when data informs regulatory or investor disclosures. These principles aren't complicated, but they do require consistency and discipline every single time you use AI in your sustainability workflow."
         }
       ]
     }

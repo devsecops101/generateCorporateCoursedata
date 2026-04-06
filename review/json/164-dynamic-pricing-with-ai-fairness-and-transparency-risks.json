@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "How Dynamic Pricing Works",
-          "subtitle": "Algorithms, data, and real-time decisions",
-          "slidecontent": "• Algorithms analyse vast amounts of data (purchase history, location, device type) to set prices in real time\n• Prices can change within seconds\n• Demand signals like time of day, local events, and competitor activity all feed into the model\n• No human reviews each individual pricing decision\n• The system optimises for revenue, not fairness"
+          "slidetitle": "The AI Pricing Engine",
+          "subtitle": "What data drives price decisions",
+          "slidecontent": "• Purchase history and browsing patterns\n• Location and device type\n• Time of day and seasonal trends\n• Local events and competitor activity\n• Revenue optimization, not fairness"
         },
         {
           "number": 3,
-          "slidetitle": "How Algorithms Set Prices",
-          "subtitle": "Signals, data, and real-time decisions",
-          "slidecontent": "• Tracks your clicks and location\n• Monitors demand in real time\n• Compares competitor prices instantly\n• Uses your past purchases\n• Adjusts prices within seconds"
+          "slidetitle": "Speed and Scale of Pricing",
+          "subtitle": "Decisions made in milliseconds",
+          "slidecontent": "• Prices adjust within seconds\n• Thousands of decisions per minute\n• No human oversight per transaction\n• Same product, different prices\n• Continuous market monitoring"
         },
         {
           "number": 4,
-          "slidetitle": "Real-World Backlash Examples",
-          "subtitle": "When customers pushed back hard",
-          "slidecontent": "• Uber's surge pricing during a 2014 Sydney hostage crisis sparked global outrage and calls for boycotts\n• Amazon caught adjusting prices based on whether customers used a Mac or PC\n• Ticketmaster's dynamic fees left fans paying double the advertised ticket price\n• Backlash went viral\n• Wendy's faced a social media storm after announcing plans for digital menu boards with time-based pricing\n• These incidents damaged brand trust far beyond the original pricing decision"
+          "slidetitle": "When Pricing Goes Public",
+          "subtitle": "High-profile backlash cases",
+          "slidecontent": "• Uber surge during Sydney hostage crisis\n• Amazon's Mac vs PC price differences\n• Ticketmaster's hidden dynamic fees\n• Wendy's time-based menu pricing announcement\n• Social media amplified the outrage"
         },
         {
           "number": 5,
-          "slidetitle": "Balancing Profit With Customer Trust",
-          "subtitle": "The fine line businesses must walk.",
-          "slidecontent": "• Dynamic pricing can boost revenue but risks alienating loyal customers overnight\n• Trust, once lost, is hard to rebuild\n• Customers who feel exploited often share their experiences publicly on social media\n• Transparent pricing policies reduce the likelihood of backlash\n• Short-term profit gains rarely outweigh long-term reputational damage"
+          "slidetitle": "The Trust vs Revenue Dilemma",
+          "subtitle": "Short-term gains, long-term costs",
+          "slidecontent": "• Revenue boost vs customer loyalty\n• Trust is harder to rebuild than prices are to change\n• Social media magnifies pricing complaints\n• Reputational damage outlasts profit gains\n• Transparency reduces backlash risk"
         },
         {
           "number": 6,
-          "slidetitle": "When Customers Push Back",
-          "subtitle": "Real examples of pricing gone wrong",
-          "slidecontent": "• Uber surge pricing, New Year's Eve\n• Amazon repriced during Hurricane Sandy\n• Ticketmaster hidden fees exposed\n• Airlines charged more for window seats\n• Hotels doubled rates mid-booking"
+          "slidetitle": "Customer Pain Points",
+          "subtitle": "Why dynamic pricing feels unfair",
+          "slidecontent": "• Mid-booking price increases\n• Surge pricing during crises\n• Hidden fees revealed at checkout\n• Essential goods price spikes\n• No explanation for price differences"
         },
         {
           "number": 7,
-          "slidetitle": "Rebuilding Trust After Backlash",
-          "subtitle": "Steps to restore customer confidence",
-          "slidecontent": "• Apologise quickly and publicly\n• Explain the pricing logic clearly\n• Offer affected customers refunds\n• Simplify your pricing structure\n• Communicate changes proactively"
+          "slidetitle": "Recovery Strategies",
+          "subtitle": "Rebuilding damaged trust",
+          "slidecontent": "• Public acknowledgment without excuses\n• Clear explanation of pricing logic\n• Refunds for affected customers\n• Simplified pricing structures\n• Proactive communication about changes"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for fair AI pricing",
-          "slidecontent": "• Transparent pricing builds trust and reduces the risk of customer backlash\n• Always test AI pricing models for unintended bias across different customer groups\n• Fairness matters\n• Communicate clearly when prices change and explain the factors involved\n• Regularly audit your pricing algorithm, not just at launch but on an ongoing basis\n• As a next step, review one current pricing rule in your business and ask whether a customer could reasonably call it unfair"
+          "slidetitle": "Building Ethical AI Pricing",
+          "subtitle": "Practical steps forward",
+          "slidecontent": "• Regular bias testing across customer groups\n• Clear communication when prices change\n• Ongoing algorithm audits\n• Fairness as a business priority\n• Review one current pricing rule for potential unfairness"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's start by understanding what dynamic pricing actually is and how it works in practice. At its core, it's a system where algorithms are constantly analysing enormous amounts of data about you and your behaviour. Things like where you are, what device you're using, what you've bought before, even what time of day it is or whether there's a big event happening nearby. All of that feeds into a model that sets a price, often within seconds. And here's the important part: no human is sitting there reviewing each decision. The system is making thousands of pricing calls automatically, every minute of every day. It's also worth noting what the system is actually optimising for, and that's revenue. Not fairness, not consistency, just maximising income. So two people searching for the same flight or hotel room at the same moment could see completely different prices, and neither of them would necessarily know why."
+          "script": "Let's dive into what actually feeds these AI pricing systems. The algorithms are constantly gathering information about you specifically - your purchase history, what you have been browsing, where you are located, and what device you are using. But they are also pulling in broader market signals like the time of day, seasonal patterns, local events happening in your area, and what competitors are charging at that exact moment. All of this data gets processed to create a price that is tailored to your specific situation. And here is the key point: the system is optimizing for revenue, not fairness. It is not asking whether the price feels reasonable to you; it is asking what price will generate the most income from you specifically."
         },
         {
           "number": 3,
-          "script": "So how does an AI pricing algorithm actually work in practice? Well, think of it as a system that is constantly gathering signals about you and the world around you. It knows where you are, what you have been clicking on, and what you have bought before. At the same time, it is watching the broader market, tracking how many people are searching for a product right now, and checking what competitors are charging at this very moment. All of that information gets fed into the algorithm, and within just a few seconds, it produces a price. Not a fixed price that everyone sees, but a price that has been shaped by your specific behaviour and circumstances. So two people searching for the same flight or hotel room at the same time could see completely different prices. That is the core mechanic we are exploring in this lesson, and it raises some really important questions about fairness and transparency."
+          "script": "The sheer speed and scale of modern pricing systems is worth understanding. These algorithms are making thousands of pricing decisions every single minute, adjusting prices within seconds of receiving new data. No human could possibly review each individual decision - the system is completely automated. This means that two people searching for the exact same hotel room at the same moment could see completely different prices, and neither would know why. The algorithm is constantly monitoring market conditions and updating prices faster than any human could track. This speed is powerful for businesses, but it also means pricing mistakes can happen at massive scale before anyone notices."
         },
         {
           "number": 4,
-          "script": "Let's look at some real examples where dynamic pricing went badly wrong and customers made their feelings very clear. During a hostage crisis in Sydney in 2014, Uber's prices surged automatically, and people were furious. The backlash was global and immediate. Amazon was caught changing prices depending on whether you were browsing on a Mac or a PC, which felt deeply unfair to many shoppers. Ticketmaster left concert fans paying roughly double what they expected, and the anger spread quickly across social media. More recently, Wendy's announced plans to introduce digital menu boards that could change prices throughout the day, and the reaction online was swift and overwhelmingly negative. What's really important to notice here is that in every single case, the damage to the brand lasted far longer than the pricing decision itself. These companies didn't just lose a few customers in the moment; they lost trust, and that is much harder to rebuild."
+          "script": "Now let's look at some moments where dynamic pricing created genuine public relations disasters. During the 2014 Sydney hostage crisis, Uber's prices surged automatically while people were trying to escape danger, sparking global outrage. Amazon was caught showing different prices to Mac and PC users, which felt manipulative to customers. Ticketmaster faced fierce criticism when hidden dynamic fees left concert fans paying double what they expected. More recently, Wendy's announcement about time-based menu pricing triggered immediate social media backlash before they even implemented it. In each case, the story spread far beyond the original customers - social media turned individual complaints into viral movements that damaged these brands for months."
         },
         {
           "number": 5,
-          "script": "So here's the real tension at the heart of dynamic pricing: yes, it can increase revenue, but if customers feel like they're being taken advantage of, you can lose their loyalty very quickly. And rebuilding that trust is genuinely difficult once it's gone. We live in an age where a frustrated customer can share their experience with thousands of people in minutes, so a pricing decision that feels unfair can spiral into a very public problem. The good news is that transparency helps enormously. When businesses are open about how and why their prices change, customers are far more likely to accept it. The danger zone is when people feel they've been treated differently without any explanation. And this is the critical point: chasing a short-term profit boost through aggressive pricing can end up costing far more in reputational damage down the line. The numbers might look good today, but the long-term consequences can be severe."
+          "script": "This brings us to the central tension businesses face with dynamic pricing. Yes, it can significantly boost revenue in the short term. But if customers feel exploited, you can lose their loyalty overnight. And rebuilding trust is genuinely difficult once it is gone. We live in an age where a frustrated customer can share their experience with thousands of people within minutes, turning a single pricing decision into a public relations crisis. The companies that succeed with dynamic pricing are those that prioritize transparency. When customers understand how and why prices change, they are much more likely to accept those changes. The danger zone is when people feel they have been treated differently without any explanation or justification."
         },
         {
           "number": 6,
-          "script": "Let's look at some real-world moments where dynamic pricing genuinely upset people. On New Year's Eve, Uber's surge pricing sent fares through the roof, and customers were furious when they saw the bill. Amazon faced serious criticism for raising prices on essential goods during Hurricane Sandy, when people were desperate and had very few alternatives. Ticketmaster became a headline story when hidden fees were exposed, leaving concert-goers feeling deceived after thinking they'd secured a reasonable ticket price. Airlines have also drawn complaints for quietly charging extra for window seats, which many passengers only discover at the checkout stage. And some hotel guests have experienced rates doubling partway through the booking process, which feels deeply unfair. What these examples share is a common thread: customers felt surprised, misled, or exploited. And once that trust is broken, it is very difficult to rebuild. These are the moments that remind us why fairness and transparency in pricing genuinely matter."
+          "script": "Let's examine the specific moments that trigger customer anger. One of the most frustrating experiences is when prices jump mid-booking - you start the process at one price and by checkout it has increased. Surge pricing during emergencies or crises feels especially exploitative because customers have few alternatives. Hidden fees that only appear at the final step make people feel deceived. Price spikes on essential goods during natural disasters or emergencies cross a clear ethical line for most consumers. And perhaps most importantly, when customers can't get any explanation for why they are being charged more than others, that uncertainty breeds suspicion and resentment. These are the patterns that consistently lead to backlash."
         },
         {
           "number": 7,
-          "script": "So what do you actually do when things go wrong and customers turn against your pricing? The good news is that trust can be rebuilt, but you have to move quickly and be genuine about it. Start by acknowledging the problem publicly and without making excuses. People respond well to honesty. Then take the time to explain why your prices work the way they do, because confusion is often what fuels the anger in the first place. If customers genuinely paid more than they should have, offer refunds. That gesture goes a long way. Beyond the immediate response, think about whether your pricing structure itself is too complicated, because simpler models are easier for customers to trust. And going forward, do not wait for people to notice changes. Tell them in advance. Proactive communication signals respect, and that is really what this is all about. Customers are far more forgiving when they feel informed and valued rather than caught off guard."
+          "script": "So what do you do when dynamic pricing has damaged customer trust? The first step is acknowledging the problem publicly and quickly, without making excuses or deflecting blame. Customers respond well to honesty. Then explain your pricing logic clearly - often the anger comes from confusion rather than the prices themselves. If customers genuinely paid more than they should have, offer refunds. That gesture demonstrates good faith. Beyond immediate damage control, consider whether your pricing structure is too complex. Simpler models are easier for customers to understand and trust. Most importantly, communicate changes proactively going forward. Tell customers about pricing changes before they discover them, not after. This shows respect and helps prevent future incidents."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The big theme running through all of this is trust. When customers understand how your prices work, they are far more likely to accept them, even when those prices change. That means being open about what drives your pricing, and it means testing your AI models regularly to make sure they are not quietly treating some groups of customers less fairly than others. Fairness is not just a nice idea, it is genuinely good for business. And this is not a one-off job. Auditing your algorithm needs to become a routine habit, not something you do once at launch and then forget about. Now, here is something practical to take away with you today. Pick one pricing rule in your business, just one, and ask yourself honestly whether a customer could look at it and think it was unfair. That single question is a really useful place to start."
+          "script": "Let me leave you with practical steps for building ethical AI pricing systems. First, regularly test your algorithms for bias - make sure they are not inadvertently disadvantaging certain customer groups. Second, be proactive about explaining when and why prices change, rather than letting customers figure it out themselves. Third, audit your pricing systems on an ongoing basis, not just at launch. Algorithms can develop unexpected behaviors over time. Fourth, make fairness a genuine business priority, not just a compliance checkbox. And here is something concrete you can do today: pick one pricing rule in your current business and ask yourself honestly whether a customer could reasonably call it unfair. That single question is a powerful starting point for building more trustworthy pricing practices."
         }
       ]
     }

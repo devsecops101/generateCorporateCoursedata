@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI on Edge Devices: Security Trade-Offs",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Running models on devices vs centralised systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how computers and networks function, along with a general interest in artificial intelligence concepts, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key differences between running AI on edge devices and centralised systems, and explain the core security trade-offs involved in each approach. You will also apply practical frameworks to evaluate when edge deployment is appropriate, and recognise the privacy, latency, and resource considerations that influence real-world design decisions.",
+  "lessons": [
+    {
+      "lesson title": "AI on Edge Devices: Security Trade-Offs",
+      "order": 1,
+      "Description": "Running artificial intelligence directly on edge devices, such as smartphones, smart speakers, and IoT sensors, offers real advantages in speed and privacy, but it also introduces a distinct set of security challenges that are worth understanding. Unlike centralised systems where data is processed on a remote server, edge devices handle sensitive information locally, which means the device itself becomes a potential target for attack. In this lesson, we will explore the key trade-offs between running models on-device versus relying on cloud-based infrastructure, looking at factors such as data exposure, physical security risks, and the limitations of keeping software up to date. By the end, you will have a clearer picture of when edge deployment makes sense and what precautions are worth putting in place. No prior security expertise is needed, just a curiosity about how AI systems work in the real world.",
+      "status": "draft",
+      "content": "Running models on devices vs centralised systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Running AI at the Edge",
+          "subtitle": "Where intelligence meets the network edge",
+          "slidecontent": "• AI runs on local devices\n• No cloud connection needed\n• Faster, private, offline capable\n• Smartphones, cameras, sensors\n• Trade-offs exist always"
+        },
+        {
+          "number": 2,
+          "slidetitle": "On-Device vs Cloud Processing",
+          "subtitle": "Where your data lives matters most",
+          "slidecontent": "• Data stays on your device\n• No internet needed\n• Cloud sends data elsewhere\n• Local means more privacy\n• Speed varies by hardware"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Privacy Gains and Losses",
+          "subtitle": "Where data stays and where it leaks",
+          "slidecontent": "• Local processing keeps raw data on the device, never sent to a server\n• No cloud upload means less exposure to third-party breaches\n• Huge privacy win for sensitive inputs like voice or health data\n• But compromised hardware exposes everything stored locally\n• Shared or stolen devices can leak personal model outputs\n• On-device logs and caches often overlooked as privacy risks"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Privacy Gains and Losses",
+          "subtitle": "Where data stays and where it leaks",
+          "slidecontent": "• Data stays on device\n• No cloud uploads needed\n• Stolen devices expose data\n• Local logs can leak\n• Encryption reduces risk"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Local vs Cloud Trade-Offs",
+          "subtitle": "Privacy gains versus performance costs",
+          "slidecontent": "• Data stays on the device, never transmitted to external servers\n• Stronger privacy\n• No internet connection required for inference, reducing exposure to network-based attacks\n• Processing power on edge devices is limited, often slowing model performance\n• Cloud systems offer faster, more capable hardware but require sending sensitive data offsite\n• Choosing local processing means accepting some performance constraints in exchange for greater control"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Privacy Risks at the Edge",
+          "subtitle": "Where local data can still leak",
+          "slidecontent": "• Sensors capture sensitive local data\n• Stolen devices expose stored models\n• Side-channel attacks leak computations\n• Firmware flaws invite tampering\n• Offline logs still need protection"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Edge Security Risks",
+          "subtitle": "Practical steps to reduce vulnerabilities",
+          "slidecontent": "• Encrypt data stored on the device and any data sent over the network\n• Keep firmware and model files updated regularly\n• Physical security matters too\n• Restrict which apps or processes can access the AI model on the device\n• Use secure boot to verify the device starts with trusted, unmodified software\n• Monitor device behaviour for unusual activity that could signal a compromise"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for informed decision-making",
+          "slidecontent": "• Edge devices keep data local, reducing exposure to network-level attacks\n• But limited hardware means weaker encryption and fewer security updates\n• Every deployment involves a trade-off between performance, privacy, and protection\n• Threat model first, then choose your architecture\n• Centralised systems offer easier patching; edge systems offer greater data sovereignty\n• As a next step, audit one existing device in your environment and map its security gaps"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and edge devices, and specifically the security trade-offs that come with running intelligence at the network edge. So what do we actually mean by \"the edge\"? Simply put, it refers to AI that runs directly on a local device, rather than sending data off to a remote server or cloud platform. Think about your smartphone recognising your face to unlock it, or a security camera detecting movement in real time. None of that needs an internet connection, because the processing happens right there on the device itself. That gives us some really useful benefits: things happen faster, your data stays private, and the system keeps working even when you are offline. We are talking about all sorts of hardware here, from smartphones and smart cameras through to tiny sensors embedded in everyday objects. But here is the important thing to keep in mind throughout this course: every design choice involves a trade-off, and security is very much part of that conversation."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by thinking about where your data actually goes when an AI system processes it. With on-device processing, everything stays right there on your phone, your tablet, or whatever edge device you're using. Nothing leaves it, which means you don't even need an internet connection for it to work. That's quite powerful when you think about it. Cloud processing is different. Your data gets sent off to a remote server somewhere, processed there, and the result comes back to you. That introduces a whole extra journey your information has to take. From a privacy standpoint, keeping things local is generally the safer option, because there are simply fewer opportunities for something to go wrong along the way. The one thing worth bearing in mind is that on-device AI is only as fast as the hardware it's running on, so performance can vary quite a bit depending on the device. We'll explore all of this in more detail as we go through the lesson."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about privacy, because this is where edge AI gets really interesting. When your device processes data locally, that raw data never leaves your hands. There's no upload to a cloud server, which means there's far less chance of it being caught up in a third-party data breach. For sensitive things like your voice or health information, that's a genuinely significant benefit. However, and this is important, local storage isn't automatically safe. If someone physically gets hold of your device, or if the hardware itself is compromised, everything stored on it is suddenly at risk. Shared devices are another concern, because personal outputs from an AI model can linger and be seen by the next person who picks it up. And here's something people often overlook: on-device logs and caches quietly accumulate data in the background, and they're frequently forgotten about entirely. So local processing reduces some risks, but it introduces others that are just as serious."
+        },
+        {
+          "number": 4,
+          "script": "One of the biggest selling points of edge AI is privacy, and it is easy to see why. When your model runs directly on the device, your data never has to leave it. There are no uploads to a remote server, no third-party cloud processing, and no data travelling across a network where it could be intercepted. That sounds ideal, and in many ways it is. But we need to be honest about the risks that remain. If someone physically steals the device, everything stored on it becomes potentially accessible. And even without theft, local log files generated during normal operation can quietly accumulate sensitive information that leaks over time. So edge AI does not automatically mean your data is safe, it just changes where the risks sit. The good news is that strong encryption goes a long way towards addressing these concerns. Protecting data at rest on the device is an essential step, not an optional extra."
+        },
+        {
+          "number": 5,
+          "script": "So when we run AI locally on an edge device, one of the biggest advantages is that your data never leaves the device at all. It is processed right there, which means you are not sending anything sensitive over the internet, and that removes a whole category of network-based risks. From a privacy standpoint, that is a genuinely strong position to be in. However, there is a real trade-off to consider. Edge devices simply do not have the same processing power as cloud infrastructure, so your model may run more slowly or handle less complex tasks. Cloud systems can offer much greater performance, but the cost of that is sending your data offsite, which introduces privacy concerns. So the honest truth is that choosing local processing means accepting some limitations in speed and capability, in exchange for much greater control over your data. Neither option is perfect, and understanding that balance is exactly what this lesson is about."
+        },
+        {
+          "number": 6,
+          "script": "So even though edge devices process data locally, that doesn't mean privacy is automatically guaranteed. There are actually several ways things can go wrong. First, the sensors themselves, whether that's a camera, a microphone, or a health monitor, are constantly capturing personal information, and that data needs careful handling. If a device is physically stolen, an attacker could extract the AI model stored on it and potentially reverse-engineer sensitive details from it. There's also a more subtle threat called side-channel attacks, where someone monitors things like power consumption or heat output to infer what the device is computing, without ever accessing the software directly. Then there are firmware vulnerabilities, which are essentially flaws in the device's core software that could allow tampering. And finally, even when a device is offline, it's often keeping local logs, and those logs can contain sensitive information that still needs to be properly secured. So local processing reduces some risks, but it certainly doesn't eliminate them."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is there are some straightforward steps that make a real difference. Start with encryption, both for data sitting on the device and anything travelling across a network. Make sure your firmware and AI model files are kept up to date, because patches often fix known security gaps. Don't overlook the physical side of things either. If someone can get their hands on the device, that's a problem in itself. You'll also want to lock down which applications or processes are even allowed to interact with your AI model. Secure boot is another useful tool. It checks that the device hasn't been tampered with before it starts up. And finally, keep an eye on how your devices are behaving. Unusual patterns can be an early warning sign that something has gone wrong. Small steps, but together they add up to a much stronger security posture."
+        },
+        {
+          "number": 8,
+          "script": "So let us pull everything together from this lesson. The big idea is that edge devices are genuinely useful for keeping your data local and away from network-level threats, but that benefit comes with a cost. Constrained hardware often means weaker encryption, slower updates, and a smaller security team maintaining the firmware. There is no perfect solution here, just trade-offs. You are always balancing performance, privacy, and protection against one another. The most important habit you can build is to define your threat model before you choose your architecture. Ask yourself what you are actually defending against, and then decide whether edge or centralised processing serves you better. Centralised systems are generally easier to patch and manage, while edge systems give you greater control over where your data lives. As a practical next step, pick one device in your environment right now and honestly map out where its security gaps are. That single exercise will teach you more than any slide can."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Product managers, software developers, IT managers, technology analysts, IoT engineers, mobile app developers, system architects",
+  "Team or Dept this is for": "IT, Product Development, Engineering, Operations, Technology Strategy"
+}

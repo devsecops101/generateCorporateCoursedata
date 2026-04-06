@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Regulators Are Watching AI Closely",
-          "subtitle": "Here is the subtitle for Slide 2:\n\nScrutiny is increasing across all AI applications.",
-          "slidecontent": "• Regulators monitor AI activity closely\n• Rules are tightening fast\n• All sectors face scrutiny\n• Non-compliance carries serious risk\n• Action is expected now"
+          "slidetitle": "The Regulatory Environment Today",
+          "subtitle": "Current state of AI oversight",
+          "slidecontent": "• Regulators actively monitor AI deployments across all financial sectors\n• Enforcement actions and penalties are increasing\n• Expectations are evolving rapidly, not waiting for future legislation\n• Banking, insurance, and investment firms all face heightened scrutiny\n• Proactive compliance is essential to avoid serious consequences"
         },
         {
           "number": 3,
-          "slidetitle": "Regulators Are Watching More Closely",
-          "subtitle": "Expect greater oversight and accountability now.",
-          "slidecontent": "• Regulators now audit AI decisions\n• Fines for non-compliance rising\n• Explainability is now required\n• Human oversight is mandatory\n• Documentation must be thorough"
+          "slidetitle": "Compliance Requirements in Practice",
+          "subtitle": "What regulators demand from firms",
+          "slidecontent": "• Explainability of AI decisions is mandatory, not optional\n• Human oversight must be demonstrable and documented\n• Audit trails must capture all AI decision-making processes\n• Financial penalties for non-compliance are substantial and rising\n• Documentation standards have become more rigorous"
         },
         {
           "number": 4,
-          "slidetitle": "Regulatory Scrutiny of AI Systems",
-          "subtitle": "Why regulators are watching AI closely",
-          "slidecontent": "• AI makes decisions at speed and scale that humans cannot easily monitor or reverse\n• Regulators worry about bias, opacity, and accountability gaps\n• Hard to audit\n• Financial services already face strict oversight, and AI raises the stakes further\n• Errors can affect thousands of customers before anyone notices\n• No clear owner means no clear responsibility when things go wrong"
+          "slidetitle": "Why AI Attracts Regulatory Attention",
+          "subtitle": "The fundamental challenges AI creates",
+          "slidecontent": "• AI operates at speed and scale beyond human monitoring capability\n• Decisions can impact thousands of customers before errors are detected\n• Opacity in AI models creates accountability gaps\n• Bias can systematically disadvantage customer groups\n• Financial services' existing regulatory burden amplifies AI risks"
         },
         {
           "number": 5,
-          "slidetitle": "Regulatory Scrutiny in Practice",
-          "subtitle": "How regulators examine AI in action",
-          "slidecontent": "• Regulators audit AI decisions\n• Explainability is required\n• Black boxes raise red flags\n• Logs and trails matter\n• Bias checks are expected"
+          "slidetitle": "How Regulators Examine AI Systems",
+          "subtitle": "The audit process in action",
+          "slidecontent": "• Active examination of decision-making algorithms and outputs\n• Black box models raise immediate red flags during reviews\n• Detailed audit logs are scrutinized for completeness and accuracy\n• Bias testing results are evaluated for fairness across customer groups\n• Model governance processes are assessed for robustness"
         },
         {
           "number": 6,
-          "slidetitle": "Navigating Regulatory Expectations Effectively",
-          "subtitle": "Staying Ahead of Regulatory Demands",
-          "slidecontent": "• Regulators expect firms to document how AI systems make decisions and flag risks\n• Explainability is non-negotiable\n• Regular model validation helps demonstrate ongoing compliance to supervisory bodies\n• Keeping audit trails of AI outputs protects firms during regulatory reviews\n• Governance frameworks must assign clear human accountability for AI-driven decisions"
+          "slidetitle": "Meeting Regulatory Expectations",
+          "subtitle": "Core obligations for compliant AI use",
+          "slidecontent": "• Document decision-making processes with clear explanations\n• Conduct ongoing model validation beyond initial deployment\n• Assign specific human accountability for all AI-driven outcomes\n• Maintain comprehensive governance frameworks\n• Demonstrate continuous risk monitoring and management"
         },
         {
           "number": 7,
-          "slidetitle": "Preparing for Regulatory Scrutiny",
-          "subtitle": "Steps to stay audit-ready",
-          "slidecontent": "• Maintain clear documentation of how each AI system makes decisions\n• Log all model updates, retraining events, and changes to input data\n• Assign named individuals as accountable owners for each AI tool in use\n• Regular internal audits before regulators come knocking\n• Map every AI application to the specific regulatory rule it touches\n• Keep records accessible, organised, and ready to present at short notice"
+          "slidetitle": "Building Audit Readiness",
+          "subtitle": "Practical steps for regulatory preparation",
+          "slidecontent": "• Create accessible documentation for all AI systems and updates\n• Log model changes, retraining events, and data modifications\n• Map each AI application to relevant regulatory requirements\n• Conduct regular internal audits before external reviews\n• Organize records for immediate retrieval and presentation"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core principles to carry forward",
-          "slidecontent": "• AI raises regulatory scrutiny\n• Explainability is essential\n• Bias must be monitored\n• Document every AI decision\n• Regulators expect human oversight\n• Review your AI policies now"
+          "slidecontent": "• AI deployment triggers increased regulatory scrutiny automatically\n• Explainability and human oversight are non-negotiable requirements\n• Active bias monitoring protects customers and firm reputation\n• Comprehensive documentation creates essential audit trails\n• Proactive policy reviews prevent compliance gaps"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let us be very clear about where we are right now. Regulators around the world are paying extremely close attention to how organisations are using artificial intelligence. This is not something that is coming in the future. It is happening today. The rules and expectations around AI are evolving quickly, and they are becoming more demanding, not less. And it is important to understand that no sector is exempt from this. Whether you are in banking, insurance, investment management, or any other part of financial services, scrutiny is coming your way. The consequences of getting this wrong are serious. We are talking about financial penalties, reputational damage, and in some cases, restrictions on how you can operate. Regulators are not simply observing and waiting. They expect firms to be taking action now, building the right frameworks, asking the right questions, and demonstrating that AI is being used responsibly. That is the environment we are all operating in."
+          "script": "Let's be clear about where we stand today. Regulators worldwide are actively monitoring AI implementation across financial services, and this isn't something coming in the future—it's happening now. The regulatory framework around AI is evolving rapidly, with expectations becoming more demanding rather than less. No financial sector is exempt from this scrutiny, whether you're in banking, insurance, investment management, or professional services. We're seeing more enforcement actions, higher penalties, and stricter requirements emerging regularly. Regulators expect firms to take action immediately, not wait for perfect clarity on future rules. This means building robust frameworks, asking tough questions about your AI systems, and demonstrating responsible deployment today."
         },
         {
           "number": 3,
-          "script": "So here is something that has really shifted in recent years. Regulators are no longer just setting rules and hoping firms follow them. They are actively looking under the bonnet at how AI systems are making decisions, and if they find something they do not like, the financial penalties can be significant and are only going up. One of the biggest changes is around explainability. You cannot simply say \"the algorithm decided it.\" You need to be able to explain why a decision was made, in plain terms. Alongside that, having a human in the loop is no longer optional. There must be genuine human oversight of AI-driven processes. And all of this needs to be documented properly. Regulators want a clear paper trail showing what your AI is doing, how it is being monitored, and who is responsible. So if your organisation is using AI in any part of its compliance or decision-making processes, now is absolutely the time to get your house in order."
+          "script": "The regulatory landscape has fundamentally shifted from rule-setting to active enforcement. Regulators now conduct detailed audits of AI decision-making processes, and the financial penalties for non-compliance are substantial and increasing. Explainability has moved from best practice to mandatory requirement—you cannot simply say the algorithm decided without providing clear reasoning. Human oversight is no longer optional; there must be genuine, documented human involvement in AI-driven processes. All of this requires thorough documentation that regulators will scrutinize during reviews. The days of deploying AI systems without comprehensive compliance frameworks are over. Organizations using AI in any compliance or decision-making capacity must ensure their governance meets these elevated standards immediately."
         },
         {
           "number": 4,
-          "script": "So why are regulators paying such close attention to AI right now? Well, the core issue is that AI systems can make thousands of decisions in the time it takes a human to review just one. That speed and scale makes oversight genuinely difficult. Regulators are particularly concerned about three things: bias creeping into decisions, a lack of transparency about how those decisions are being made, and uncertainty about who is actually responsible when something goes wrong. Financial services is already one of the most heavily regulated sectors out there, and AI raises the stakes considerably. If a flawed model is making lending or fraud decisions, it could affect huge numbers of customers before anyone even spots the problem. And when things do go wrong, if there is no clear owner of that AI system, accountability becomes very murky very quickly. That combination of speed, opacity, and unclear responsibility is exactly what keeps regulators up at night."
+          "script": "Understanding why regulators focus so intensely on AI helps explain the compliance requirements firms face. The core issue is AI's ability to process thousands of decisions while humans can review only one, making meaningful oversight genuinely challenging. Regulators worry specifically about three critical areas: algorithmic bias that could systematically disadvantage certain customer groups, the opacity of AI decision-making processes, and unclear accountability when systems fail. Financial services already operates under strict regulation, and AI amplifies existing risks significantly. A flawed model making lending or fraud decisions could harm vast numbers of customers before anyone detects the problem. When failures occur without clear ownership of AI systems, accountability becomes impossible to establish—exactly the scenario that most concerns regulatory bodies."
         },
         {
           "number": 5,
-          "script": "So what does regulatory scrutiny actually look like when it comes to AI? Well, regulators do not simply trust that your AI system is working correctly. They will actively examine it. They want to understand how decisions are being made, and crucially, they expect you to be able to explain those decisions in plain terms. If your model is a so-called black box, where even you cannot explain why it reached a particular outcome, that is going to raise serious concerns. Regulators see that as a risk, and rightly so. They will also want to see proper audit trails, meaning detailed logs that show what the system did, when it did it, and why. And bias is a major focus too. You will be expected to demonstrate that your AI is not systematically disadvantaging any particular group of customers. In short, regulators want transparency, accountability, and evidence. Not just good intentions."
+          "script": "When regulators examine AI systems, they conduct thorough, hands-on audits rather than relying on firm assurances. They expect detailed explanations of how algorithms reach specific decisions, and black box models that even firms cannot explain immediately raise serious red flags. Regulators scrutinize audit logs for completeness, looking for gaps or inconsistencies in decision trails. Bias testing receives particular attention—firms must demonstrate that AI systems don't systematically disadvantage any customer groups through statistical evidence, not just policy statements. Model governance processes are evaluated for robustness, including how firms monitor performance, detect drift, and manage updates. This level of examination requires firms to maintain transparency and control throughout the AI lifecycle."
         },
         {
           "number": 6,
-          "script": "So, how do regulators actually expect firms to behave when they're using AI? Well, the short answer is: with transparency and clear accountability. Supervisory bodies want to see that you can explain how your AI systems reach their conclusions. If you can't explain a decision, that's a serious problem. You also need to be regularly testing and validating your models, not just when you first deploy them, but on an ongoing basis, to show that they're still performing as expected. Keeping detailed audit trails of what your AI has produced is equally important, because if a regulator comes knocking, you'll want that evidence ready. And perhaps most critically, someone in your organisation needs to be clearly responsible for the decisions that AI is driving. Regulators are not comfortable with the idea that \"the algorithm decided.\" There must always be a human being who owns that outcome and can be held to account."
+          "script": "Meeting regulatory expectations requires firms to establish clear, demonstrable processes around AI governance. Documentation must explain decision-making processes in plain language that regulators and customers can understand. Model validation cannot be a one-time deployment activity—ongoing testing demonstrates that systems continue performing as expected over time. Human accountability is crucial: someone specific must be responsible for AI-driven decisions and able to justify outcomes to regulators. Comprehensive governance frameworks must address everything from initial development through deployment, monitoring, and eventual retirement. Risk monitoring must be continuous, with clear escalation procedures when issues arise. These aren't suggestions—they're fundamental requirements for operating AI in regulated environments."
         },
         {
           "number": 7,
-          "script": "So, how do you actually prepare for the moment a regulator comes asking questions? The honest answer is that you cannot leave it until that moment arrives. You need to be ready well in advance. That means documenting how your AI systems reach their decisions, keeping a clear log of any updates or changes to your models, and making sure someone specific is named as responsible for each tool you are using. It also means running your own internal audits regularly, so you are not caught off guard. Crucially, you should be able to point to each AI application and say exactly which regulatory rule it relates to. And all of that documentation needs to be well organised and easy to retrieve at short notice, not buried in a shared drive somewhere. Regulators want to see that you are in control of your AI, and good record keeping is how you demonstrate that."
+          "script": "Building audit readiness requires systematic preparation well before regulators arrive. Documentation must be comprehensive yet accessible, covering how each AI system operates, what decisions it makes, and who oversees its performance. Every model change, retraining event, and data modification should be logged with clear rationale and approval records. Firms should map each AI application to specific regulatory requirements it might trigger, ensuring compliance teams understand the full scope of obligations. Regular internal audits help identify gaps before external reviews expose them. Most importantly, all records must be organized for immediate retrieval—regulators won't wait while firms search through disorganized systems. Preparation demonstrates control and professionalism that regulators expect from sophisticated financial institutions."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together from this lesson. The core message is this: AI is under the microscope from regulators, and that scrutiny is only going to increase. When you deploy AI in a financial services context, you need to be able to explain how it reaches its conclusions, because \"the algorithm decided\" simply is not good enough. You also need to be actively watching for bias in your models, because unfair outcomes can cause real harm to customers and serious reputational damage to your firm. Every decision your AI makes should be documented, so that you have a clear audit trail if questions are ever raised. Regulators are also very clear that a human being must remain in the loop, responsible and accountable. And finally, do not wait for a regulatory review to prompt you into action. Take a look at your AI policies right now, and make sure they are fit for purpose."
+          "script": "Let's consolidate the key principles from this lesson. AI deployment in financial services automatically triggers heightened regulatory scrutiny—there's no avoiding this reality. Explainability and human oversight have become non-negotiable compliance requirements, not optional enhancements. Firms must actively monitor for bias because unfair outcomes harm both customers and institutional reputation. Comprehensive documentation creates the audit trails that protect organizations during regulatory reviews. Most importantly, don't wait for regulatory pressure to drive action. Review your AI policies and procedures now, ensuring they meet current standards rather than playing catch-up later. Proactive compliance not only manages regulatory risk but enables confident, responsible AI deployment that benefits both firms and their customers."
         }
       ]
     }

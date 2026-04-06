@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks of AI Reliance",
-          "subtitle": "When Automation Obscures Critical Judgement",
-          "slidecontent": "• AI can misread market signals\n• Errors spread fast, unnoticed\n• Blind trust skips due diligence\n• Bias hides inside the model\n• Outputs lack human context"
+          "slidetitle": "The Hidden Dangers of AI Dependency",
+          "subtitle": "How automation can undermine critical thinking",
+          "slidecontent": "• AI misreads complex market signals\n• Errors cascade undetected at scale\n• Passive acceptance replaces due diligence\n• Historical biases persist in outputs\n• No human intuition or contextual awareness"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting AI's Blind Spots",
-          "subtitle": "Where AI analysis falls short",
-          "slidecontent": "• Trained on historical data, so blind to genuinely novel market conditions\n• Cannot read human sentiment, political mood, or breaking news in real time\n• Overconfident outputs with no uncertainty flagging\n• Struggles with illiquid or thinly traded assets where data is sparse\n• Pattern-matching logic that mistakes correlation for meaningful signal"
+          "slidetitle": "AI's Data Limitations",
+          "subtitle": "When historical training meets dynamic markets",
+          "slidecontent": "• Historical data cannot predict unprecedented events\n• Training cutoff dates create information gaps\n• Sparse data in illiquid markets\n• Pattern matching mistakes correlation for causation\n• Limited coverage of emerging sectors and markets"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting AI Blind Spots",
-          "subtitle": "Where AI Analysis Falls Short",
-          "slidecontent": "• AI tools trained on historical data often miss sudden market shifts or black swan events\n• No sense of context\n• Unable to interpret geopolitical nuance, regulatory changes, or executive body language\n• Prone to confidently presenting outdated information as current fact\n• Pattern recognition without genuine understanding of cause and effect\n• Gaps in coverage of smaller markets, niche sectors, and non-English language sources"
+          "slidetitle": "AI's Context Blindness",
+          "subtitle": "Missing the human elements that drive markets",
+          "slidecontent": "• Cannot interpret geopolitical developments\n• Misses regulatory changes and policy shifts\n• No awareness of executive communications\n• Lacks real-time sentiment analysis\n• Overconfident presentation masks uncertainty"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting AI Blind Spots",
-          "subtitle": "Where AI Analysis Falls Short",
-          "slidecontent": "• Misses recent market events\n• Struggles with human sentiment\n• Ignores geopolitical nuance\n• Outdated training data\n• Overconfident in predictions"
+          "slidetitle": "Timing and Sentiment Gaps",
+          "subtitle": "Where current events meet outdated models",
+          "slidecontent": "• Misses breaking news and market events\n• Cannot gauge investor fear or euphoria\n• Ignores political instability effects\n• Outdated training creates stale analysis\n• False confidence in uncertain predictions"
         },
         {
           "number": 6,
-          "slidetitle": "Verifying AI-Generated Insights",
-          "subtitle": "Steps to validate AI outputs",
-          "slidecontent": "• Cross-check primary sources always\n• Question unexpected results immediately\n• Test with known data first\n• Seek a second opinion\n• Document every verification step"
+          "slidetitle": "Essential Verification Methods",
+          "subtitle": "Building your validation toolkit",
+          "slidecontent": "• Cross-check against primary data sources\n• Challenge unexpected or extreme results\n• Test AI performance with known datasets\n• Seek independent second opinions\n• Maintain detailed verification records"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating AI Investment Risks",
-          "subtitle": "Strategies to Reduce Exposure and Risk",
-          "slidecontent": "• Always verify AI-generated insights against independent, human-curated sources before acting\n• Cross-check recommendations\n• Treat AI outputs as a starting point, not a final decision\n• Establish clear internal policies on how and when AI tools may be used in your investment process\n• Regularly audit AI tools for accuracy, bias, and consistency over time\n• Document every AI-assisted decision to maintain accountability and support future review"
+          "slidetitle": "Organizational Risk Management",
+          "subtitle": "Creating systematic safeguards",
+          "slidecontent": "• Establish clear AI usage policies\n• Regular audits for accuracy and bias\n• Use AI as starting point, never final answer\n• Document all AI-assisted decisions\n• Maintain human oversight at every stage"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What every analyst must bear in mind",
-          "slidecontent": "• AI tools can generate confident-sounding analysis even when the underlying data is outdated or simply wrong\n• Always verify AI outputs against primary sources\n• Hallucinated figures and fabricated citations are a real risk, not a theoretical one\n• Regulatory accountability still rests with you, not the tool\n• Treat AI as a first draft, not a final answer\n• As a next step, build a simple checklist for reviewing any AI-generated insight before it reaches a client or decision-maker"
+          "slidetitle": "Your Action Plan",
+          "subtitle": "Practical steps for safer AI integration",
+          "slidecontent": "• Remember: regulatory responsibility remains yours\n• Treat AI as intelligent first draft only\n• Build verification checklists for routine use\n• Question confident-sounding but unverified claims\n• Never let AI outputs reach clients unchecked"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to the course. We're going to be exploring one of the most important questions facing anyone who uses AI tools in investment analysis today: should you trust what the AI tells you, or should you verify it first? Now, on the surface, AI feels incredibly capable. It processes information quickly, it sounds confident, and it can produce analysis that looks polished and professional. But here's the problem. When AI gets something wrong, those errors don't always announce themselves. They can sit quietly inside a beautifully formatted report, and if you're not looking carefully, you'll miss them entirely. And in financial markets, that kind of blind trust can be genuinely costly. A wrong assumption, a misread figure, a hallucinated data point, any of these can lead to poor decisions that hurt real portfolios. The good news is that verification, knowing what to check and how to check it, is a skill you can absolutely learn. And that's exactly what this course is here to help you do."
+          "script": "Welcome to the course. We're exploring one of the most important questions facing anyone who uses AI tools in investment analysis today: should you trust what the AI tells you, or should you verify it first? On the surface, AI feels incredibly capable. It processes information quickly, sounds confident, and produces polished analysis. But here's the problem: when AI gets something wrong, those errors don't announce themselves. They sit quietly inside beautifully formatted reports, and if you're not looking carefully, you'll miss them entirely. In financial markets, that kind of blind trust can be genuinely costly. A wrong assumption, a misread figure, or a hallucinated data point can lead to poor decisions that hurt real portfolios. The good news is that verification—knowing what to check and how to check it—is a skill you can learn."
         },
         {
           "number": 2,
-          "script": "So let's talk about what can go wrong when we lean too heavily on AI in investment analysis. The first thing to understand is that AI systems are not infallible. They can misread market signals, especially in unusual or rapidly changing conditions they have not encountered before. And because these tools often work at speed and scale, a small error can ripple through an entire analysis before anyone notices it. There is also a real danger of what I would call passive trust, where analysts simply accept the output without asking whether it actually makes sense. On top of that, AI models are trained on historical data, which means any biases baked into that data get quietly carried forward into the results. And finally, AI has no lived experience, no instinct, no awareness of the broader human or geopolitical context that a seasoned analyst would naturally bring to the table. These are not reasons to avoid AI, but they are very good reasons to stay alert when using it."
+          "script": "Let's examine what can go wrong when we lean too heavily on AI in investment analysis. AI systems are not infallible—they can misread market signals, especially in unusual or rapidly changing conditions they haven't encountered before. Because these tools work at speed and scale, a small error can ripple through an entire analysis before anyone notices. There's also a real danger of passive trust, where analysts simply accept outputs without questioning whether they make sense. AI models carry forward any biases from their historical training data. And crucially, AI has no lived experience, no instinct, and no awareness of broader human or geopolitical context that seasoned analysts naturally bring to their work."
         },
         {
           "number": 3,
-          "script": "So let's talk about where AI actually struggles, because understanding its weaknesses is just as important as appreciating its strengths. The first thing to recognise is that AI learns from historical data, which means it has no real framework for dealing with genuinely unprecedented events. It also cannot pick up on human sentiment, political shifts, or breaking news the way an experienced analyst can. One of the trickier issues is that AI tends to present its outputs with a lot of confidence, even when the underlying analysis is shaky, and it rarely flags its own uncertainty. If you are looking at illiquid or thinly traded assets, the data is often too sparse for AI to work with reliably. And perhaps most importantly, AI is fundamentally a pattern-matching tool, which means it can easily confuse correlation with something genuinely meaningful. Knowing these limitations helps you use AI more intelligently, rather than simply trusting whatever it produces."
+          "script": "Understanding where AI struggles with data is crucial for intelligent usage. Most AI tools learn from historical data, which means they have no framework for dealing with genuinely unprecedented events. The training data often has cutoff dates, creating blind spots about recent developments. When you're analyzing illiquid or thinly traded assets, the available data is often too sparse for reliable AI analysis. Perhaps most importantly, AI is fundamentally a pattern-matching tool, which means it can easily confuse correlation with meaningful causation. These data limitations don't make AI useless, but they do require us to understand exactly what we're working with."
         },
         {
           "number": 4,
-          "script": "So let's talk about where AI actually struggles, because this is really important. Most AI tools are trained on historical data, which means they can be caught completely off guard by sudden market shifts or those rare but devastating black swan events. And here's something people often overlook: AI has no real sense of context. It cannot read between the lines of a geopolitical crisis, pick up on a regulatory shift that's just been announced, or notice that a CEO seemed evasive in a press conference. It also has a tendency to present outdated information with complete confidence, as though it were current fact, which can be genuinely dangerous in fast-moving markets. And while AI is brilliant at spotting patterns, it doesn't truly understand why things happen, just that they have happened before. Finally, if you're looking at smaller markets, niche sectors, or sources in languages other than English, the coverage can be surprisingly thin. So AI is powerful, but it has real blind spots we need to be aware of."
+          "script": "AI's inability to read context represents one of its most significant limitations in investment analysis. It cannot interpret the nuance of geopolitical crises, pick up on regulatory shifts that have just been announced, or notice when a CEO seems evasive during a press conference. This context blindness means AI misses the human elements that often drive market movements—the fear, uncertainty, and strategic positioning that experienced analysts instinctively factor into their assessments. Additionally, AI presents its outputs with consistent confidence levels, even when the underlying analysis is highly uncertain, which can mislead analysts into false security."
         },
         {
           "number": 5,
-          "script": "Now, even though AI can be incredibly powerful, it does have some real blind spots that we need to be aware of. One of the biggest issues is that AI models are trained on historical data, which means they can easily miss recent market events or breaking news that could significantly affect an investment. They also struggle to read human emotion and sentiment, the kind of fear or excitement that can drive markets in ways that pure numbers simply cannot capture. Then there is geopolitical nuance, things like shifting trade relationships or political instability, which require a level of contextual understanding that AI genuinely finds difficult. And because the underlying training data can be months or even years out of date, the analysis may be working from an outdated picture of the world. Perhaps most importantly, AI can sound very confident even when it is wrong, and that overconfidence can be misleading if you are not paying close attention. So always verify before you act."
+          "script": "Even the most sophisticated AI models struggle with timing and sentiment—two critical factors in investment analysis. Because they're trained on historical data, they easily miss recent market events or breaking news that could significantly affect investments. They cannot read human emotion and sentiment—the fear or excitement that drives markets in ways pure numbers cannot capture. Political instability, shifting trade relationships, and other geopolitical developments require contextual understanding that AI finds difficult. When the underlying training data is months or years out of date, the analysis may be working from an outdated picture of the world, yet present conclusions with inappropriate confidence."
         },
         {
           "number": 6,
-          "script": "So, we've established that AI can be a powerful tool, but how do we actually verify what it tells us? Let's walk through some practical steps. First, always go back to the original source data. If an AI flags an interesting trend, confirm it yourself using primary financial data. Next, if something looks surprising or too good to be true, stop and question it straight away rather than accepting it at face value. Before you rely on any AI model for real analysis, test it using data where you already know the answer. That way, you can see whether it performs reliably. It's also worth getting a second opinion, whether that's from a colleague, another tool, or your own manual calculation. And finally, write everything down. Document each verification step you take. This might feel time-consuming at first, but it builds a clear audit trail and helps you spot patterns in where AI tends to go wrong."
+          "script": "Now let's focus on practical verification methods. First, always go back to original source data. If AI flags an interesting trend, confirm it yourself using primary financial data. If something looks surprising or too good to be true, stop and question it immediately rather than accepting it at face value. Before relying on any AI model for real analysis, test it using data where you already know the answer—this shows you whether it performs reliably. Get second opinions, whether from colleagues, other tools, or manual calculations. Finally, document every verification step. This creates a clear audit trail and helps you spot patterns in where AI tends to fail."
         },
         {
           "number": 7,
-          "script": "So, we know AI carries risks in investment analysis, but the good news is there are practical steps you can take to protect yourself. The most important habit is to never act on AI output alone. Always cross-check what the AI tells you against trusted, human-reviewed sources, and treat those outputs as a starting point for your thinking, not the final word. Beyond that, it is worth putting some structure in place within your organisation. That means having clear policies about when and how AI tools are used, so everyone is working to the same standard. You should also be auditing your AI tools regularly, checking whether they are still performing accurately and consistently, and watching out for any signs of bias creeping in. And finally, keep records. Documenting every AI-assisted decision gives you accountability and a paper trail you can refer back to if questions arise later."
+          "script": "Protecting your organization requires systematic approaches beyond individual verification. Establish clear internal policies about when and how AI tools may be used in your investment process, ensuring everyone works to the same standard. Regularly audit your AI tools for accuracy, bias, and consistency over time—their performance can drift or degrade. Always treat AI outputs as starting points for analysis, never final decisions. Document every AI-assisted decision to maintain accountability and support future review. Most importantly, maintain human oversight at every stage of the process, ensuring that experienced judgment is applied before any AI-generated insight reaches clients or decision-makers."
         },
         {
           "number": 8,
-          "script": "So let's bring this all together. The core message here is simple: AI can sound incredibly convincing, even when it's wrong. Outdated data, invented figures, fabricated citations, these aren't edge cases, they happen in practice. So your job as an analyst is to always check AI outputs against reliable primary sources before you act on them. And here's something that often surprises people: the regulatory responsibility sits with you, not the software. If something goes wrong, you cannot point to the tool. Think of AI as a useful first draft, a starting point that still needs your professional judgement applied to it. The practical step I'd encourage you to take right now is to build yourself a simple checklist, something you run through every time an AI-generated insight is heading towards a client or a decision-maker. It doesn't need to be complicated. It just needs to exist. That habit alone will protect you enormously."
+          "script": "Here's your practical action plan for safer AI integration. Remember that regulatory responsibility rests with you, not the tool—if something goes wrong, you cannot simply point to the software. Always treat AI as an intelligent first draft that still requires your professional judgment. Build simple verification checklists that you run through every time AI-generated insights head toward clients or decision-makers. Question any confident-sounding claims that haven't been independently verified. Most importantly, never let AI outputs reach clients or inform major decisions without proper human review. These habits will protect you enormously while still allowing you to benefit from AI's analytical power."
         }
       ]
     }

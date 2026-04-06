@@ -132,12 +132,78 @@ def _sanitize_category_folder_name(category: Any) -> str:
     return name
 
 
-def _export_course_package(json_path: Path, data: dict[str, Any]) -> Path:
-    """Create a folder under (parent of json folder)/package exports/<Category>/<stem>/ with templates, script, and slides text."""
+def _package_course_project_dir(json_path: Path, data: dict[str, Any]) -> Path:
+    """Directory for a course under (parent of json folder)/package exports/<Category>/<stem>/."""
     stem = json_path.stem
     category_dir = _sanitize_category_folder_name(data.get("Category"))
     package_parent = json_path.parent.parent / "package exports"
-    project_dir = package_parent / category_dir / stem
+    return package_parent / category_dir / stem
+
+
+# Top-level keys edited on the Course tab (order matches UI).
+_COURSE_TAB_FIELD_KEYS: tuple[str, ...] = (
+    "Course Title",
+    "Category",
+    "Who is this for",
+    "Team or Dept this is for",
+    "Description",
+    "Prerequisites",
+    "Learning objectives",
+    "Duration",
+    "Difficulty",
+    "Price",
+    "Instructor",
+    "Published Status",
+)
+
+
+def _course_tab_fields_dict(data: dict[str, Any]) -> dict[str, Any]:
+    return {k: data.get(k) for k in _COURSE_TAB_FIELD_KEYS}
+
+
+def _build_course_title_description_text(data: dict[str, Any]) -> str:
+    title = _as_str(data.get("Course Title", "")).rstrip()
+    desc = _as_str(data.get("Description", "")).rstrip()
+    return f"Course Title:\n{title}\n\nDescription:\n{desc}\n"
+
+
+def _export_course_info(json_path: Path, data: dict[str, Any]) -> tuple[Path, list[str], list[str]]:
+    """Write CourseInfo under the package-exports course folder without overwriting existing files.
+
+    Returns (course_info_dir, written_filenames, skipped_filenames).
+    """
+    project_dir = _package_course_project_dir(json_path, data)
+    info_dir = project_dir / "CourseInfo"
+    info_dir.mkdir(parents=True, exist_ok=True)
+
+    written: list[str] = []
+    skipped: list[str] = []
+
+    json_path_out = info_dir / "course_info.json"
+    if json_path_out.exists():
+        skipped.append(json_path_out.name)
+    else:
+        payload = _course_tab_fields_dict(data)
+        json_path_out.write_text(
+            json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        written.append(json_path_out.name)
+
+    txt_path_out = info_dir / "course_title_description.txt"
+    if txt_path_out.exists():
+        skipped.append(txt_path_out.name)
+    else:
+        txt_path_out.write_text(_build_course_title_description_text(data), encoding="utf-8")
+        written.append(txt_path_out.name)
+
+    return info_dir, written, skipped
+
+
+def _export_course_package(json_path: Path, data: dict[str, Any]) -> Path:
+    """Create a folder under (parent of json folder)/package exports/<Category>/<stem>/ with templates, script, and slides text."""
+    stem = json_path.stem
+    project_dir = _package_course_project_dir(json_path, data)
     if project_dir.exists():
         shutil.rmtree(project_dir)
     project_dir.mkdir(parents=True)
@@ -358,6 +424,219 @@ def _call_claude_for_audience(*, api_key: str, source_text: str, model: str) -> 
     return _parse_claude_audience_json(combined)
 
 
+def _lesson0_slide_script_numbers(lesson0: dict[str, Any]) -> list[int]:
+    """Sorted unique slide/script numbers present on the first lesson (union of both lists)."""
+    nums: set[int] = set()
+    slides = lesson0.get("slides")
+    if isinstance(slides, list):
+        for sl in slides:
+            if isinstance(sl, dict):
+                n = _coerce_int(sl.get("number"), default=0)
+                if n > 0:
+                    nums.add(n)
+    scripts = lesson0.get("scripts")
+    if isinstance(scripts, list):
+        for sc in scripts:
+            if isinstance(sc, dict):
+                n = _coerce_int(sc.get("number"), default=0)
+                if n > 0:
+                    nums.add(n)
+    return sorted(nums)
+
+
+def _build_dedup_source_text(data: dict[str, Any]) -> str:
+    """Course context plus paired slide fields and scripts for deduplication."""
+    lessons = data.get("lessons")
+    if not isinstance(lessons, list) or not lessons:
+        return ""
+    lesson0 = lessons[0]
+    if not isinstance(lesson0, dict):
+        return ""
+
+    chunks = [
+        f"Course Title:\n{_as_str(data.get('Course Title'))}",
+        f"Category:\n{_as_str(data.get('Category'))}",
+        f"Description:\n{_as_str(data.get('Description'))}",
+        f"Prerequisites:\n{_as_str(data.get('Prerequisites'))}",
+        f"Learning objectives:\n{_as_str(data.get('Learning objectives'))}",
+        f"Lesson title:\n{_as_str(lesson0.get('lesson title'))}",
+        f"Lesson description:\n{_as_str(lesson0.get('Description'))}",
+        f"Lesson content:\n{_as_str(lesson0.get('content'))}",
+    ]
+
+    slides = lesson0.get("slides")
+    scripts = lesson0.get("scripts")
+    if not isinstance(slides, list):
+        slides = []
+    if not isinstance(scripts, list):
+        scripts = []
+    slide_by_n: dict[int, dict[str, Any]] = {}
+    for sl in slides:
+        if isinstance(sl, dict):
+            n = _coerce_int(sl.get("number"), default=0)
+            if n:
+                slide_by_n[n] = sl
+    script_by_n: dict[int, dict[str, Any]] = {}
+    for sc in scripts:
+        if isinstance(sc, dict):
+            n = _coerce_int(sc.get("number"), default=0)
+            if n:
+                script_by_n[n] = sc
+
+    blocks: list[str] = []
+    for n in sorted(set(slide_by_n) | set(script_by_n)):
+        sl = slide_by_n.get(n)
+        sc = script_by_n.get(n)
+        script_body = _as_str(sc.get("script")) if sc else ""
+        if sl:
+            dni = bool(sl.get("do_not_include"))
+            blocks.append(
+                f"--- Slide {n} (do_not_include={dni}) ---\n"
+                f"slidetitle:\n{_as_str(sl.get('slidetitle'))}\n\n"
+                f"subtitle:\n{_as_str(sl.get('subtitle'))}\n\n"
+                f"slidecontent:\n{_as_str(sl.get('slidecontent'))}\n\n"
+                f"script:\n{script_body}"
+            )
+        else:
+            blocks.append(
+                f"--- Slide {n} (slide fields missing in JSON; script only) ---\n"
+                f"slidetitle:\n\nsubtitle:\n\nslidecontent:\n\n"
+                f"script:\n{script_body}"
+            )
+
+    if not blocks:
+        return "\n\n".join(chunks)
+
+    return "\n\n".join(chunks) + "\n\n## Slides and scripts (paired by number)\n\n" + "\n\n".join(blocks)
+
+
+def _parse_claude_dedup_json(raw: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    text = raw.strip()
+    m = _CLAUDE_AUDIENCE_JSON_HINT.search(text)
+    if m:
+        text = m.group(1).strip()
+    start = text.find("{")
+    end = text.rfind("}")
+    if start < 0 or end <= start:
+        raise ValueError("Model response did not contain a JSON object")
+    obj = json.loads(text[start : end + 1])
+    if not isinstance(obj, dict):
+        raise ValueError("JSON root must be an object")
+    slides = obj.get("slides")
+    scripts = obj.get("scripts")
+    if not isinstance(slides, list) or not isinstance(scripts, list):
+        raise ValueError('Expected "slides" and "scripts" arrays in JSON')
+    slide_nums: set[int] = set()
+    for s in slides:
+        if not isinstance(s, dict):
+            raise ValueError("Each slide must be an object")
+        n = _coerce_int(s.get("number"), default=0)
+        if not n:
+            raise ValueError("Each slide needs a positive integer number")
+        slide_nums.add(n)
+    script_nums: set[int] = set()
+    for s in scripts:
+        if not isinstance(s, dict):
+            raise ValueError("Each script must be an object")
+        n = _coerce_int(s.get("number"), default=0)
+        if not n:
+            raise ValueError("Each script needs a positive integer number")
+        script_nums.add(n)
+    if slide_nums != script_nums:
+        raise ValueError("slides and scripts must use the same set of slide numbers")
+    return slides, scripts
+
+
+def _apply_dedup_to_lesson0(
+    lesson0: dict[str, Any],
+    slides_out: list[dict[str, Any]],
+    scripts_out: list[dict[str, Any]],
+    *,
+    expected_numbers: list[int],
+) -> None:
+    exp_set = set(expected_numbers)
+    slide_nums = {_coerce_int(s.get("number"), default=0) for s in slides_out}
+    if slide_nums != exp_set:
+        raise ValueError(
+            f"Model returned numbers {sorted(slide_nums)}, expected {expected_numbers}"
+        )
+
+    slides = lesson0.get("slides")
+    if not isinstance(slides, list):
+        slides = []
+        lesson0["slides"] = slides
+    scripts = lesson0.get("scripts")
+    if not isinstance(scripts, list):
+        scripts = []
+        lesson0["scripts"] = scripts
+
+    for s in slides_out:
+        if not isinstance(s, dict):
+            continue
+        n = _coerce_int(s.get("number"), default=0)
+        row = _get_by_number(slides, n)
+        if row is None:
+            raise ValueError(f"No slide with number {n} in course file")
+        row["slidetitle"] = _as_str(s.get("slidetitle"))
+        row["subtitle"] = _as_str(s.get("subtitle"))
+        row["slidecontent"] = _as_str(s.get("slidecontent"))
+
+    for s in scripts_out:
+        if not isinstance(s, dict):
+            continue
+        n = _coerce_int(s.get("number"), default=0)
+        row = _get_by_number(scripts, n)
+        if row is None:
+            raise ValueError(f"No script with number {n} in course file")
+        row["script"] = _as_str(s.get("script"))
+
+
+def _call_claude_for_dedup(
+    *, api_key: str, source_text: str, model: str
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    if not anthropic:
+        raise RuntimeError('Install the anthropic package: pip install anthropic (see review/requirements.txt)')
+    system = (
+        "You edit short corporate e-learning courses. Each course has a small fixed set of slide pairs "
+        "(on-screen bullets and narration). Your job is to rewrite them so the sequence still teaches the "
+        "topic accurately and matches the course metadata, but each slide covers a clearly distinct point: "
+        "no duplicated titles, no near-duplicate bullet lists, and no scripts that re-tell the same story "
+        "as another slide in paraphrased form. Preserve tone (professional, plain language). "
+        "Keep similar length unless tightening removes redundancy. Do not invent unrelated topics. "
+        "Do not change which slide numbers exist; return exactly one slide object and one script object per "
+        "number you were given. Do not include do_not_include in your JSON (the app keeps existing flags)."
+    )
+    user = (
+        "Analyse the course below. Rewrite slidetitle, subtitle, slidecontent, and script for each slide "
+        "number so that together they are faithful to the course but mutually distinct with no obvious overlap.\n\n"
+        "Rules:\n"
+        "- Each slide should advance the narrative: new angle, example, or takeaway—not a restatement.\n"
+        "- Scripts should align with their slide bullets but not repeat other slides' narration.\n"
+        "- If two slides currently say the same thing with different words, merge the ideas into one clear "
+        "slide and use the other slide numbers for different subtopics implied by the learning objectives.\n"
+        '- Respond with ONLY a JSON object (no markdown fences) with keys "slides" and "scripts".\n'
+        '- Each is an array of objects with integer "number" matching the input.\n'
+        '- Slide objects: number, slidetitle, subtitle, slidecontent (strings).\n'
+        '- Script objects: number, script (string).\n\n'
+        "---\n"
+        f"{source_text}\n"
+        "---"
+    )
+    client = anthropic.Anthropic(api_key=api_key)
+    message = client.messages.create(
+        model=model,
+        max_tokens=16384,
+        messages=[{"role": "user", "content": user}],
+        system=system,
+    )
+    parts: list[str] = []
+    for block in message.content:
+        if block.type == "text":
+            parts.append(block.text)
+    combined = "".join(parts)
+    return _parse_claude_dedup_json(combined)
+
+
 def _get_by_number(items: list[dict[str, Any]], number: int) -> dict[str, Any] | None:
     for it in items:
         if isinstance(it, dict) and it.get("number") == number:
@@ -533,6 +812,98 @@ with st.sidebar:
                 "If an updated file is open in the editor, click **Reload from disk** to refresh fields."
             )
 
+    st.subheader("Deduplicate slides & scripts (Claude)")
+    st.caption(
+        "Rewrites slide bullets and narration so each slide advances a distinct idea within the course, "
+        "while staying faithful to the topic. Overlap across the ~8 slides is reduced (duplicate or "
+        "paraphrased content). Uses the same API key and model as above."
+    )
+    dedup_backup = st.checkbox(
+        "Backup each file (.bak) before write",
+        value=True,
+        key="dedup_backup_sidebar",
+    )
+    d1, d2, d3 = st.columns([1, 1, 2])
+    with d1:
+        dedup_from = st.number_input(
+            "From file #",
+            min_value=1,
+            max_value=len(files),
+            value=1,
+            help="Start of range in the sorted JSON list (1-based).",
+            key="dedup_range_from",
+        )
+    with d2:
+        dedup_to = st.number_input(
+            "To file #",
+            min_value=1,
+            max_value=len(files),
+            value=min(5, len(files)),
+            help="End of range (inclusive).",
+            key="dedup_range_to",
+        )
+    with d3:
+        st.write("")
+        dedup_run = st.button(
+            "Deduplicate slides/scripts (Claude)",
+            use_container_width=True,
+            disabled=not ai_key or not deps_ok,
+            key="dedup_batch_run",
+        )
+
+    if dedup_run and ai_key and deps_ok:
+        da, db = int(dedup_from), int(dedup_to)
+        if da > db:
+            da, db = db, da
+        dedup_slice = files[da - 1 : db]
+        d_prog = st.progress(0)
+        d_status = st.empty()
+        d_ok: list[str] = []
+        d_fail: list[str] = []
+        d_model = (ai_model or "").strip() or DEFAULT_CLAUDE_MODEL
+        d_total = len(dedup_slice)
+        for d_idx, d_path in enumerate(dedup_slice):
+            d_status.caption(f"Deduplicating ({d_idx + 1}/{d_total}) {d_path.name}…")
+            d_prog.progress((d_idx + 1) / max(d_total, 1))
+            try:
+                d_disk = _load_json(d_path)
+                lessons_d = d_disk.get("lessons")
+                if not isinstance(lessons_d, list) or not lessons_d:
+                    raise ValueError("Course has no lessons")
+                lesson0_d = lessons_d[0]
+                if not isinstance(lesson0_d, dict):
+                    raise ValueError("First lesson is invalid")
+                expected_d = _lesson0_slide_script_numbers(lesson0_d)
+                if not expected_d:
+                    raise ValueError("First lesson has no numbered slides")
+                bundle_d = _build_dedup_source_text(d_disk)
+                if not bundle_d.strip():
+                    raise ValueError("Could not build deduplication source text")
+                slides_d, scripts_d = _call_claude_for_dedup(
+                    api_key=ai_key, source_text=bundle_d, model=d_model
+                )
+                _apply_dedup_to_lesson0(
+                    lesson0_d,
+                    slides_d,
+                    scripts_d,
+                    expected_numbers=expected_d,
+                )
+                if dedup_backup and d_path.exists():
+                    _backup_file(d_path)
+                _atomic_write_json(d_path, d_disk)
+                d_ok.append(d_path.name)
+            except Exception as e:
+                d_fail.append(f"{d_path.name}: {e!s}")
+        d_status.caption("")
+        if d_ok:
+            st.success(f"Deduplicated {len(d_ok)} file(s).")
+        if d_fail:
+            st.error("Some files failed:\n\n" + "\n\n".join(d_fail))
+        if d_ok:
+            st.info(
+                "If an updated file is open in the editor, click **Reload from disk** to refresh fields."
+            )
+
 
 def _load_into_state(path: Path) -> None:
     data = _load_json(path)
@@ -557,6 +928,8 @@ top_left, top_right = st.columns([2, 1], gap="large")
 
 export_clicked = False
 package_export_clicked = False
+course_info_export_clicked = False
+course_info_batch_clicked = False
 with top_right:
     st.subheader("Validation")
     issues = _validate_course(data)
@@ -592,6 +965,19 @@ with top_right:
 
     export_clicked = st.button("Export Script")
     package_export_clicked = st.button("Export as Package")
+    course_info_export_clicked = st.button("Export course info (current file)")
+    course_info_batch_clicked = st.button(
+        "Export course info (all files in folder)",
+        help=(
+            "Reads every JSON in the sidebar folder from disk and adds CourseInfo under each "
+            "course’s package export path. Skips output files that already exist."
+        ),
+    )
+    st.caption(
+        "Course info writes `CourseInfo/course_info.json` and "
+        "`CourseInfo/course_title_description.txt` under the package export folder "
+        "(existing files are not overwritten)."
+    )
 
     st.subheader("Raw JSON")
     st.download_button(
@@ -758,4 +1144,53 @@ if package_export_clicked:
         st.success(f"Package export saved: {out_project}")
     except Exception as e:
         st.error(f"Package export failed: {e!s}")
+
+if course_info_export_clicked:
+    try:
+        info_dir, written, skipped = _export_course_info(path, data)
+        lines = [f"Folder: `{info_dir}`"]
+        if written:
+            lines.append("Wrote: " + ", ".join(written))
+        if skipped:
+            lines.append("Skipped (already exists): " + ", ".join(skipped))
+        msg = "\n\n".join(lines)
+        if written:
+            st.success(msg)
+        else:
+            st.info(msg)
+    except Exception as e:
+        st.error(f"Course info export failed: {e!s}")
+
+if course_info_batch_clicked:
+    batch_total = len(files)
+    prog = st.progress(0)
+    status = st.empty()
+    failures: list[str] = []
+    courses_ok = 0
+    tw = 0
+    ts = 0
+    for bi, fp in enumerate(files):
+        status.caption(f"Course info export ({bi + 1}/{batch_total}): {fp.name}…")
+        prog.progress((bi + 1) / max(batch_total, 1))
+        try:
+            disk = _load_json(fp)
+            _info_dir, written, skipped = _export_course_info(fp, disk)
+            courses_ok += 1
+            tw += len(written)
+            ts += len(skipped)
+        except Exception as e:
+            failures.append(f"{fp.name}: {e!s}")
+    status.caption("")
+    prog.progress(1.0)
+    summary = (
+        f"Finished **{batch_total}** JSON file(s): **{courses_ok}** succeeded, "
+        f"**{len(failures)}** failed. New files written: **{tw}**; "
+        f"skipped (already existed): **{ts}**."
+    )
+    if failures:
+        st.warning(summary)
+        with st.expander("Failures", expanded=len(failures) <= 10):
+            st.text("\n".join(failures))
+    else:
+        st.success(summary)
 

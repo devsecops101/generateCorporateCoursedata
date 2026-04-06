@@ -31,39 +31,39 @@
         },
         {
           "number": 3,
-          "slidetitle": "Balancing Speed With Accuracy",
-          "subtitle": "The cost of getting it wrong",
-          "slidecontent": "• Speed can sacrifice accuracy\n• Wrong answers damage trust\n• Customers notice errors fast\n• Mistakes cost time and money\n• Accuracy builds loyalty"
+          "slidetitle": "The Cost of Getting It Wrong",
+          "subtitle": "Why accuracy cannot be sacrificed for speed",
+          "slidecontent": "• Wrong answers create bigger problems\n• Customers notice errors quickly\n• Mistakes cost time and money\n• Trust damage is hard to repair\n• Accuracy builds customer loyalty"
         },
         {
           "number": 4,
-          "slidetitle": "Balancing Risk and Efficiency",
-          "subtitle": "The fine line between speed and safety",
-          "slidecontent": "• AI can resolve routine queries in seconds, but speed without oversight risks sending wrong or harmful information\n• Errors at scale, one bad automated response sent to thousands of customers\n• Trust, once lost, is difficult to rebuild\n• Efficiency gains mean little if customers feel unheard or misinformed\n• Every deployment decision involves a trade-off between response time and accuracy"
+          "slidetitle": "Scale Amplifies Every Error",
+          "subtitle": "When AI mistakes reach thousands of customers",
+          "slidecontent": "• One bad response affects thousands\n• Errors spread before detection\n• Trust erosion happens quickly\n• No efficiency saving justifies customer loss\n• Every deployment involves trade-offs"
         },
         {
           "number": 5,
-          "slidetitle": "Balancing Risk and Efficiency",
-          "subtitle": "Where efficiency meets acceptable risk.",
-          "slidecontent": "• Every efficiency gain in AI support carries a corresponding risk that must be weighed deliberately\n• Speed matters, but not at the cost of accuracy\n• Low-stakes queries (order status, FAQs) suit automation well, while sensitive complaints need human oversight\n• Tone mismatches can erode customer trust faster than slow response times ever would\n• Small, consistent errors compound into reputational damage over time\n• The goal is finding the threshold where AI handles volume and humans handle judgement"
+          "slidetitle": "Finding the Right Balance",
+          "subtitle": "Where efficiency meets acceptable risk",
+          "slidecontent": "• Low-stakes queries suit automation\n• Sensitive complaints need human oversight\n• Tone mismatches erode trust faster than slow responses\n• Small errors compound over time\n• AI handles volume, humans handle judgement"
         },
         {
           "number": 6,
-          "slidetitle": "Balancing Risk and Efficiency",
-          "subtitle": "Where efficiency meets acceptable risk",
+          "slidetitle": "Practical Risk Management",
+          "subtitle": "Safeguards that preserve efficiency",
           "slidecontent": "• Speed up routine queries\n• Flag complex issues early\n• Keep humans in the loop\n• Monitor tone consistently\n• Review errors regularly"
         },
         {
           "number": 7,
           "slidetitle": "Monitoring and Improving AI Performance",
           "subtitle": "Keeping AI accurate, fair, and effective",
-          "slidecontent": "• Regularly reviewing AI responses to catch errors, bias, or outdated information\n• Track customer satisfaction scores alongside AI interaction data\n• Short feedback loops matter\n• Flagging low-confidence responses for human review before they reach customers\n• Updating the AI's knowledge base whenever products, policies, or procedures change\n• Testing for fairness across different customer groups to avoid unintended discrimination"
+          "slidecontent": "• Review responses for errors and bias\n• Track satisfaction alongside AI data\n• Flag low-confidence responses\n• Update knowledge base regularly\n• Test for fairness across customer groups"
         },
         {
           "number": 8,
           "slidetitle": "What to Remember",
-          "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• AI can boost efficiency but never eliminates the need for human judgement\n• Always verify AI outputs before they reach customers\n• Tone matters as much as accuracy\n• Trust is fragile, and one poor interaction can undo weeks of goodwill\n• Keep a clear escalation path so customers can always reach a real person\n• Start small, review often, and adjust as you learn what works for your team"
+          "subtitle": "Core principles to carry forward always",
+          "slidecontent": "• Human judgement remains essential\n• Always verify AI outputs\n• Tone matters as much as accuracy\n• Keep clear escalation paths\n• Start small, review often, adjust as needed"
         }
       ],
       "scripts": [
@@ -77,15 +77,15 @@
         },
         {
           "number": 3,
-          "script": "So here is something worth thinking about carefully. AI can respond to customers in seconds, which sounds brilliant, but speed alone is not enough. If the answer is wrong, you have not saved time at all. You have actually created a bigger problem. Customers are quick to notice when something does not add up, and when they do, trust takes a hit. And once trust is damaged, it is genuinely difficult to rebuild. There is also a very real financial cost to consider. Incorrect information can lead to refunds, complaints, escalations, and extra work for your human support team to sort out the mess. So the goal is not just to be fast, it is to be fast and accurate. When AI gets it right consistently, something really positive happens. Customers start to feel confident in your service, and that confidence turns into loyalty. Speed matters, but accuracy is what keeps people coming back."
+          "script": "Here's something worth thinking about carefully. AI can respond to customers in seconds, which sounds brilliant, but speed alone is not enough. If the answer is wrong, you have not saved time at all. You have actually created a bigger problem. Customers are quick to notice when something does not add up, and when they do, trust takes a hit. And once trust is damaged, it is genuinely difficult to rebuild. There is also a very real financial cost to consider. Incorrect information can lead to refunds, complaints, escalations, and extra work for your human support team to sort out the mess. So the goal is not just to be fast, it is to be fast and accurate. When AI gets it right consistently, something really positive happens. Customers start to feel confident in your service, and that confidence turns into loyalty."
         },
         {
           "number": 4,
-          "script": "So here's where things get really interesting, and honestly, a little uncomfortable. Yes, AI can handle routine customer queries almost instantly, and that speed is genuinely impressive. But speed on its own isn't enough. If an automated system sends out incorrect or misleading information, it doesn't just affect one customer. It can go out to thousands of people before anyone even notices something has gone wrong. And when that happens, trust takes a serious hit. The thing about trust is that it takes a long time to build and very little time to lose. Customers who feel ignored or misinformed won't stick around, and no efficiency saving is worth that cost. So every time a business decides how to deploy AI in their support operation, they're making a trade-off. How fast do we want to be, and how much are we willing to risk to get there? That balance is what this course is really about."
+          "script": "Here's where things get really uncomfortable. Yes, AI can handle routine customer queries almost instantly, but when an automated system sends out incorrect or misleading information, it doesn't just affect one customer. It can go out to thousands of people before anyone even notices something has gone wrong. And when that happens, trust takes a serious hit across your entire customer base. The thing about trust is that it takes a long time to build and very little time to lose. Customers who feel ignored or misinformed won't stick around, and no efficiency saving is worth that cost. So every time a business decides how to deploy AI in their support operation, they're making a critical trade-off between speed and safety."
         },
         {
           "number": 5,
-          "script": "So here's the core tension we're navigating throughout this entire course. Every time AI makes your support operation faster or more scalable, there's a corresponding risk sitting on the other side of that equation. And the job isn't to eliminate risk entirely, because that's not realistic. The job is to make deliberate choices about where you're comfortable with that trade-off. Simple, low-stakes queries like order tracking or frequently asked questions are genuinely well-suited to automation. But the moment a customer is frustrated, upset, or dealing with something sensitive, that's where human judgement becomes essential. And it's worth noting that a clumsy or tone-deaf automated response can actually damage trust far more quickly than a slightly slower reply ever would. Small errors that go unaddressed also have a habit of compounding over time into something much more serious. So the sweet spot we're aiming for is this: AI handles the volume, and people handle the judgement."
+          "script": "So here's the core tension we're navigating throughout this entire course. Every time AI makes your support operation faster or more scalable, there's a corresponding risk sitting on the other side of that equation. The job isn't to eliminate risk entirely, because that's not realistic. The job is to make deliberate choices about where you're comfortable with that trade-off. Simple, low-stakes queries like order tracking or frequently asked questions are genuinely well-suited to automation. But the moment a customer is frustrated, upset, or dealing with something sensitive, that's where human judgement becomes essential. And it's worth noting that a clumsy or tone-deaf automated response can actually damage trust far more quickly than a slightly slower reply ever would. Small errors that go unaddressed also have a habit of compounding over time into something much more serious. So the sweet spot we're aiming for is this: AI handles the volume, and people handle the judgement."
         },
         {
           "number": 6,

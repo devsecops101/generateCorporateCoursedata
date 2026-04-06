@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising Deepfake Audio and Video",
-          "subtitle": "Spotting the Signs Before You Act",
-          "slidecontent": "• Lip sync looks slightly off\n• Voice sounds flat or robotic\n• Background details blur or glitch\n• Facial edges flicker unnaturally\n• Lighting shifts without reason"
+          "slidetitle": "Visual Deepfake Detection",
+          "subtitle": "What to Watch For in Video Instructions",
+          "slidecontent": "• Lip sync looks slightly off or delayed\n• Facial edges flicker or appear blurry\n• Unnatural blinking patterns (too frequent, rare, or oddly timed)\n• Lighting shifts inconsistently mid-sentence\n• Background details blur or glitch unexpectedly"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising Suspicious Audio and Video",
-          "subtitle": "Spotting the Warning Signs Early",
-          "slidecontent": "• Blurry or frozen faces\n• Unnatural blinking patterns\n• Voice sounds robotic or flat\n• Background noise cuts abruptly\n• Lip movements don't match words\n• Lighting shifts mid-sentence"
+          "slidetitle": "Audio Deepfake Detection",
+          "subtitle": "What to Listen For in Voice Instructions",
+          "slidecontent": "• Voice sounds flat, robotic, or unnaturally smooth\n• Background noise cuts abruptly or sounds too clean\n• Voice pitch feels \"off\" or inconsistent\n• Words seem clipped or artificially stitched together\n• Caller rushes you or creates unusual pressure"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Suspicious Audio Instructions",
-          "subtitle": "Listen for these warning signs",
-          "slidecontent": "• Robotic or flat tone\n• Unusual background silence\n• Voice pitch sounds \"off\"\n• Clipped or missing words\n• Caller rushes you oddly\n• Request feels out of character"
+          "slidetitle": "Behavioral Red Flags",
+          "subtitle": "When Instructions Don't Feel Right",
+          "slidecontent": "• Request feels out of character for that person\n• Unusual urgency without clear justification\n• Bypassing normal approval processes\n• Instructions contradict established safety protocols\n• Caller avoids answering direct questions about details"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting Suspicious Audio and Video",
-          "subtitle": "Recognising the Warning Signs in Practice",
-          "slidecontent": "• Lip sync looks slightly off\n• Voice sounds flat or robotic\n• Background noise cuts abruptly\n• Lighting shifts mid-sentence\n• Face edges appear blurry"
+          "slidetitle": "Real-World Scenarios",
+          "subtitle": "How Deepfakes Target Field Operations",
+          "slidecontent": "• Fake supervisor voice messages about equipment changes\n• Video calls impersonating managers during shift changes\n• False emergency instructions from supposed safety officers\n• Fraudulent client requests for operational modifications\n• Counterfeit training videos with dangerous procedures"
         },
         {
           "number": 6,
-          "slidetitle": "Spotting Suspicious Audio and Video",
-          "subtitle": "Look for these telltale warning signs.",
-          "slidecontent": "• Lips and jaw movements that don't quite match the spoken words\n• Unnatural blinking (too frequent, too rare, or oddly timed)\n• Lighting or shadows that shift inconsistently across the face\n• Blurred or warped edges around the hairline, ears, or collar\n• Audio that sounds slightly robotic or has sudden changes in background noise\n• A sense that something feels \"off,\" even if you can't immediately identify why"
+          "slidetitle": "Verification Strategies",
+          "subtitle": "Double-Check Before You Act",
+          "slidecontent": "• Call the person back using a known, trusted number\n• Verify through official company communication channels\n• Check with a second supervisor or colleague\n• Ask specific questions only the real person would know\n• Follow standard authorization procedures regardless of urgency"
         },
         {
           "number": 7,
-          "slidetitle": "Reporting Suspicious Instructions Safely",
+          "slidetitle": "Reporting Suspicious Instructions",
           "subtitle": "Speak Up, Stay Safe, Act Fast",
-          "slidecontent": "• Report to your line manager or designated security contact immediately, not just to a colleague\n• Use your organisation's official incident reporting channel\n• Never delete or dismiss the suspicious message before logging it\n• Screenshot or record the source details if safe to do so\n• Trust your instincts, if something feels wrong, escalate it\n• Speed matters, early reports help protect the whole team"
+          "slidecontent": "• Report to your line manager or designated security contact immediately\n• Use your organisation's official incident reporting channel\n• Never delete the suspicious message before logging it\n• Screenshot or record source details if safe to do so\n• Speed matters - early reports help protect the whole team"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
-          "subtitle": "Essential reminders for staying vigilant always",
-          "slidecontent": "• Always verify instructions through a second, trusted channel before acting\n• Pause if something feels off\n• Unusual urgency or pressure is a common tactic used to bypass your judgement\n• Check the source, not just the message\n• Report any suspected deepfake attempt to your supervisor immediately, even if you are unsure\n• Staying alert protects you and your whole team"
+          "subtitle": "Essential Habits for Staying Protected",
+          "slidecontent": "• Always verify instructions through a second, trusted channel before acting\n• Pause if something feels off - trust your instincts\n• Unusual urgency is a common tactic to bypass judgment\n• Check the source, not just the message content\n• Report suspected deepfakes immediately, even if unsure\n• Staying alert protects you and your whole team"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on deepfakes in operational contexts. Now, you might be wondering what deepfakes have to do with your day-to-day work, so let me explain. Technology has advanced to the point where realistic fake videos and audio recordings can be created quickly, cheaply, and convincingly. For people working in the field or in operational roles, that matters enormously, because more and more of us receive instructions through digital channels, whether that is a voice message, a video call, or a short clip sent to a device. If someone can fake a manager's voice or a supervisor's face well enough to fool you, they could potentially trigger a real and dangerous response on the ground. This is not a distant or theoretical problem; it is happening now. Throughout this course, we will look at what deepfakes actually are, how they show up in workplace settings, and most importantly, what you can do to protect yourself and your colleagues."
+          "script": "Welcome to this course on deepfakes in operational contexts. Technology has advanced to the point where realistic fake videos and audio recordings can be created quickly, cheaply, and convincingly. For people working in the field or in operational roles, this matters enormously, because more and more of us receive instructions through digital channels, whether that is a voice message, a video call, or a short clip sent to a device. If someone can fake a manager's voice or a supervisor's face well enough to fool you, they could potentially trigger a real and dangerous response on the ground. This is not a distant or theoretical problem; it is happening now. Throughout this course, we will look at what deepfakes actually are, how they show up in workplace settings, and most importantly, what you can do to protect yourself and your colleagues."
         },
         {
           "number": 2,
-          "script": "So, how do you actually spot a deepfake in the moment? There are a few tell-tale signs worth knowing. First, watch the mouth carefully. If the lip movements look slightly out of step with the words being spoken, that is a strong warning signal. Next, listen to the voice. Deepfake audio often sounds a little too smooth, almost flat, lacking the natural rhythm and warmth of a real person speaking. Then look at the background and the edges of the face. Deepfakes frequently struggle with fine detail, so you might notice the background blurring or glitching in odd ways, or the outline of someone's face flickering as they move. Finally, pay attention to the lighting. In a genuine recording, light behaves consistently, but in a deepfake you may see it shift or change in ways that simply do not make sense. None of these signs on their own is definitive, but if you spot several together, treat it as a red flag."
+          "script": "Let's start with video deepfakes and what to watch for. One of the most reliable indicators is the mouth - if the lip movements look slightly out of step with the words being spoken, that's a strong warning signal. Pay attention to the edges of the person's face as well. Deepfakes frequently struggle with fine detail, so you might notice the outline of someone's face flickering as they move or appearing blurry around the hairline or jawline. Watch the eyes too, because unnatural blinking patterns are something deepfake technology still struggles to get right. Finally, observe the lighting. In a genuine recording, light behaves consistently, but in a deepfake you may see it shift or change in ways that simply don't make sense."
         },
         {
           "number": 3,
-          "script": "So, how do we actually spot a deepfake in the moment? There are some really practical things to look out for. Start with the face itself. If it looks blurry around the edges, or seems to freeze briefly, that is a strong warning sign. Watch the eyes too, because unnatural or absent blinking is something deepfake technology still struggles to get right. Then listen carefully to the voice. If it sounds flat, robotic, or oddly uniform in tone, that should raise your suspicion. Pay attention to the background as well. Real environments have consistent ambient sound, so if the background noise suddenly cuts out or jumps, something is likely off. Look at the mouth and listen at the same time. If the lip movements do not quite match the words being spoken, that is a classic tell. And finally, watch for lighting that shifts unexpectedly mid-sentence, because that kind of inconsistency is very difficult to fake convincingly."
+          "script": "Now let's focus on audio deepfakes and what to listen for. Deepfake audio often sounds slightly robotic or unnaturally flat, lacking the natural rhythm and warmth of a real person speaking. You might also notice the background is strangely silent or too clean, because synthetic audio often strips out ambient noise that would normally be there. Pay attention to how words flow together - you might catch words that seem clipped or cut off abruptly, which can happen when audio segments are artificially stitched together. And if the voice pitch feels slightly wrong about how the voice sounds, trust that instinct. These audio clues can be just as telling as visual ones."
         },
         {
           "number": 4,
-          "script": "So, let's talk about what to actually listen for when you receive an audio instruction that might not be genuine. Deepfake audio has improved enormously, but it still leaves clues. The voice might sound slightly robotic, or unusually flat, lacking the natural rise and fall you'd expect from a real person. You might also notice the background is strangely silent, almost too clean, because synthetic audio often strips out ambient noise. Pay attention to the pitch as well. If something feels slightly wrong about how the voice sounds, trust that instinct. You might also catch words that seem clipped or cut off abruptly, which can happen when audio is stitched together artificially. Beyond the voice itself, think about the behaviour of the caller. Are they rushing you, pushing you to act quickly without giving you time to think? And importantly, does the request actually sound like something that person would normally ask? If it feels out of character, that is a serious warning sign worth acting on."
+          "script": "Beyond technical indicators, pay attention to behavioral red flags that suggest something isn't right. Does the request actually sound like something that person would normally ask? If it feels out of character, that's a serious warning sign. Are they rushing you, pushing you to act quickly without giving you time to think, or trying to bypass normal procedures? Genuine supervisors and managers typically follow established protocols, especially for safety-critical instructions. If someone is avoiding your direct questions about details or creating unusual pressure to act immediately, these are behavioral patterns worth noting and acting on."
         },
         {
           "number": 5,
-          "script": "So let's talk about what to actually look and listen for when you're trying to spot a deepfake in the real world. One of the most common giveaways is the mouth. If the lip movements don't quite match the words being spoken, that's a red flag. You might also notice the voice sounds a little unnatural, almost too smooth or slightly robotic, lacking the normal rhythm of human speech. Pay attention to the audio as well. If background noise suddenly drops or cuts out mid-conversation, that can suggest the audio has been stitched together artificially. On the visual side, watch for strange changes in lighting that happen within a single sentence, as though two different recordings have been blended together. And finally, look at the edges of the person's face. Blurring or a kind of soft halo effect around the hairline or jawline is a classic sign that a face has been digitally placed onto another body. These are practical things you can check for right now."
+          "script": "Let me give you some real-world examples of how deepfakes are being used to target field operations. Attackers might create fake voice messages that appear to come from your supervisor, giving new instructions about equipment usage or safety procedures. You might receive video calls from someone who looks like your manager during shift changes, asking you to modify operations in ways that seem urgent. There have been cases of fake emergency instructions supposedly from safety officers, and fraudulent client requests that ask workers to change established procedures. Even training materials aren't immune - counterfeit training videos with dangerous procedures have been used to mislead workers."
         },
         {
           "number": 6,
-          "script": "So, how do you actually spot a deepfake in the moment? There are a few things worth training your eye and ear to notice. Start with the face itself. Watch the lips and jaw carefully. If the mouth movements don't quite line up with what you're hearing, that's a red flag. Blinking is another giveaway. Real people blink in a fairly natural rhythm, so if someone is blinking too much, too little, or at strange moments, pay attention. Look also at the edges of the face, around the hairline, ears, and collar, where you might notice blurring or a kind of warping effect. Lighting and shadows can also behave oddly, shifting in ways that don't make physical sense. On the audio side, listen for a slightly robotic quality or abrupt changes in background noise. And finally, trust your instincts. If something feels off, even if you can't put your finger on why, that feeling is worth taking seriously."
+          "script": "So how do you verify if an instruction is genuine? The gold standard is to call the person back using a number you know and trust, not the one they called from. You can also verify through your organization's official communication channels - check the company directory or internal messaging system. When in doubt, ask a second supervisor or colleague to confirm the instruction. Don't be afraid to ask specific questions that only the real person would know the answer to. And regardless of how urgent something seems, follow your standard authorization procedures. Legitimate emergencies will still allow time for proper verification."
         },
         {
           "number": 7,
-          "script": "So, you've spotted something suspicious. What do you do next? First, go straight to your line manager or your organisation's designated security contact. Don't just mention it to a colleague in passing, that's not enough. Use the official incident reporting channel your organisation has in place, because that creates a proper record. And here's something really important: do not delete or dismiss that suspicious message. Leave it exactly as it is. If you can safely take a screenshot or note down the source details, do that too, it all helps the investigation. Now, I want you to trust your instincts here. If something feels off, if an instruction seems unusual or out of character, escalate it. You don't need to be certain before you speak up. And please act quickly. The sooner a suspicious instruction is reported, the sooner your security team can step in and protect everyone around you. Speed genuinely matters in these situations."
+          "script": "If you suspect you've received a deepfake instruction, act quickly but systematically. Go straight to your line manager or your organization's designated security contact - don't just mention it to a colleague in passing. Use the official incident reporting channel your organization has in place, because that creates a proper record. Here's something crucial: do not delete or dismiss that suspicious message. Leave it exactly as it is for investigation. If you can safely take a screenshot or note down the source details, do that too. Speed genuinely matters because the sooner a suspicious instruction is reported, the sooner your security team can step in and protect everyone."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with a few essential reminders. The most important habit you can build is to always verify instructions through a second, trusted channel before you act on them. If something feels off, even slightly, pause. Trust that instinct. Attackers often use urgency and pressure to rush you into making a decision before you have time to think clearly, so if someone is pushing you to act fast, that itself is a warning sign. And remember, it is not enough to just look at the message. You need to check the source as well. Now, if you ever suspect that something might be a deepfake attempt, report it to your supervisor straight away. You do not need to be certain. Even a suspicion is worth raising. Nobody will think less of you for being cautious. Staying alert is not just about protecting yourself. It protects everyone around you too."
+          "script": "Let's wrap up with the essential habits that will keep you protected. The most important practice is to always verify instructions through a second, trusted channel before acting on them. If something feels off, even slightly, pause and trust that instinct. Remember that attackers often use urgency and pressure to rush you into making decisions before you have time to think clearly. Don't just examine the message content - always check the source as well. If you ever suspect something might be a deepfake attempt, report it immediately. You don't need to be certain - even a suspicion is worth raising. Staying alert protects not just yourself, but everyone around you too."
         }
       ]
     }

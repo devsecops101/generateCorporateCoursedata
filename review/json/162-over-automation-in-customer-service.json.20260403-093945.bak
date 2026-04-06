@@ -1,0 +1,107 @@
+{
+  "Course Title": "Over-Automation in Customer Service",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "When removing human interaction damages guest satisfaction.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with customer service principles and some experience working in or interacting with a hospitality or tourism environment (such as a hotel, restaurant, or travel agency) is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key signs of over-automation in hospitality and tourism settings and explain how excessive reliance on technology can damage guest satisfaction and loyalty. You will also apply practical strategies to strike the right balance between digital efficiency and meaningful human interaction across hotels, travel agencies, and food and beverage operations.",
+  "lessons": [
+    {
+      "lesson title": "Over-Automation in Customer Service",
+      "order": 1,
+      "Description": "This lesson explores the growing trend of automation in customer service and examines the point at which it begins to harm rather than help the guest experience. You will learn to recognise the warning signs of over-automation, including frustrated customers, unresolved complaints, and declining satisfaction scores. We will look at real-world examples where businesses have replaced too much human interaction with chatbots, automated responses, and self-service systems, and consider what went wrong. By the end of this lesson, you will have a clearer understanding of how to strike the right balance between efficient automation and the genuine human connection that guests often need. This is a practical, beginner-friendly introduction designed to help you make smarter decisions about where automation supports your team and where it gets in the way.",
+      "status": "draft",
+      "content": "When removing human interaction damages guest satisfaction.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When Automation Goes Too Far",
+          "subtitle": "The hidden cost of too much automation",
+          "slidecontent": "• Automation in customer service is growing fast, especially in hospitality and retail\n• Not all automation improves the experience\n• Some guests feel frustrated, ignored, or undervalued when human contact disappears\n• The hidden costs, lost loyalty, negative reviews, and reduced spend, often outweigh the savings\n• Finding the right balance is the real challenge"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When Automation Goes Too Far",
+          "subtitle": "The cost of removing human touch.",
+          "slidecontent": "• Bots replacing human warmth\n• Guests feel ignored, frustrated\n• Loyalty drops quickly\n• Complaints increase noticeably\n• Trust is easily lost"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When Efficiency Replaces Empathy",
+          "subtitle": "The cost of cold efficiency.",
+          "slidecontent": "• Automated systems built for speed often strip out the warmth guests expect\n• No acknowledgement of frustration\n• A chatbot that resolves a query quickly but coldly can still leave a guest feeling dismissed\n• Efficiency metrics rarely capture how a customer felt during the interaction\n• Lost trust is hard to recover"
+        },
+        {
+          "number": 4,
+          "slidetitle": "When Guests Feel Like Numbers",
+          "subtitle": "Automation that forgets the human touch",
+          "slidecontent": "• No name, just a number\n• Chatbots ignore real distress\n• Complaints loop endlessly\n• Staff nowhere to be found\n• Guests feel truly invisible"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Finding the Right Balance",
+          "subtitle": "Automation and humanity working in harmony",
+          "slidecontent": "• Automate tasks, not relationships\n• Keep humans for complaints\n• Let guests choose their channel\n• Review automation regularly\n• Simple beats clever, always"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Finding the Right Balance",
+          "subtitle": "Blending Technology With a Human Touch",
+          "slidecontent": "• Automating routine tasks (like booking confirmations) while keeping humans available for complaints and complex queries\n• A simple \"speak to a person\" option goes a long way\n• Mapping the customer journey to identify which touchpoints genuinely benefit from automation and which require empathy\n• Monitoring satisfaction scores after any new automation is introduced\n• Training staff to step in smoothly when technology falls short\n• Treating automation as a support tool, not a replacement for genuine service"
+        },
+        {
+          "number": 7,
+          "slidetitle": "When Humans Must Step In",
+          "subtitle": "Recognising the moments that matter most",
+          "slidecontent": "• Complaints escalating beyond scripts\n• Guests showing clear distress\n• Complex, multi-part requests\n• Sensitive personal circumstances\n• Repeated failed bot interactions"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Points to carry forward with you",
+          "slidecontent": "• Automation works best as a support tool, not a replacement for human connection\n• Guests notice when empathy is missing\n• High-emotion situations (complaints, distress, confusion) almost always need a real person\n• Balance is the goal, not full automation\n• Review your customer journey regularly to spot where human touchpoints have been quietly removed\n• Start small, pick one automated interaction to reassess this week"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on over-automation in customer service. Now, there is no question that automation is growing rapidly, particularly in hospitality and retail, and in many ways that is a good thing. But here is the issue: more automation does not automatically mean a better experience for your customers. When businesses remove too much human contact from their service, guests and shoppers can start to feel frustrated, ignored, even a little invisible. And that has real consequences. We are talking about lost loyalty, negative reviews, and customers who simply choose to spend their money elsewhere. Those hidden costs can very quickly outweigh whatever savings the technology was supposed to deliver. So the question is not really whether to automate, it is about finding the right balance between efficiency and genuine human connection. Throughout this lesson, we are going to explore where that balance sits and how to make smarter decisions about where automation helps and where it actually gets in the way."
+        },
+        {
+          "number": 2,
+          "script": "So let's think about what actually happens when automation goes too far. When you replace human interaction with bots and automated responses, you strip away the warmth that customers genuinely value. People can tell when they're not speaking to a real person, and that feeling of being brushed off or ignored is incredibly frustrating. And here's the thing, frustrated customers don't tend to stick around. Loyalty, which can take months or even years to build, can disappear surprisingly quickly when someone feels like they're just a ticket number rather than a valued guest. What follows is a rise in complaints, because people who feel unheard will make themselves heard one way or another. And perhaps most damaging of all, trust starts to erode. Once a customer loses confidence in your brand, winning them back is a real uphill struggle. So automation clearly has its place, but removing the human touch entirely comes with a very real cost."
+        },
+        {
+          "number": 3,
+          "script": "So here's something worth sitting with for a moment. When we design automated systems purely around speed and efficiency, we often accidentally remove something really important: the human warmth that customers actually need, especially when something has gone wrong. Think about it this way. A chatbot might solve someone's problem in thirty seconds flat, but if it does so in a cold, transactional way with no acknowledgement that the person is frustrated or upset, that customer can still walk away feeling completely dismissed. And here's the tricky part: our efficiency reports won't show that. The metrics will say the query was resolved quickly, so everything looks fine on paper. But the customer's trust has taken a hit, and trust, once lost, is genuinely difficult to rebuild. So the question we need to start asking isn't just \"did we resolve it?\" but \"how did the customer feel when we did?\" That distinction matters enormously."
+        },
+        {
+          "number": 4,
+          "script": "So let's think about what it actually feels like to be on the receiving end of over-automation. Imagine you've had a problem with your hotel booking. You reach out for help, and straight away you're assigned a reference number. No one uses your name, no one acknowledges your frustration, you're just a ticket in a system. You try the chatbot, but it keeps giving you scripted responses that completely miss the point of what you're saying. So you try to escalate, and suddenly you're stuck in a loop, being passed from one automated response to the next, with no resolution in sight. You look for a real person to speak to, and there simply isn't one available. That feeling of being ignored, of shouting into a void, is exactly what too much automation can create. Guests don't just feel frustrated in these moments. They feel genuinely invisible, and that is a serious problem for any hospitality business."
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually get this right? The key is to let automation handle the repetitive, transactional stuff, things like booking confirmations or FAQ responses, whilst keeping real people available for anything emotional or complex. If a guest has a complaint, they need a human, full stop. It is also worth remembering that not everyone wants to use a chatbot or an app, so give people options and let them choose how they want to communicate. And once you have set your automation up, do not just leave it running and forget about it. Check it regularly, because customer expectations change and what worked six months ago might be frustrating people today. Finally, resist the temptation to build something overly sophisticated just because you can. Simple, reliable automation that does exactly what it promises will always outperform a flashy system that confuses people. Automation and humanity are not opposites, they work best when they support each other."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually get the balance right? The key is being deliberate about where automation genuinely helps and where it does not. Routine tasks like booking confirmations or order updates are perfect candidates for automation. But complaints, sensitive issues, and anything emotionally charged? Those need a real person. And please, always make it easy for customers to reach one. A simple \"speak to a person\" option can make an enormous difference to how people feel about your brand. Before rolling out any new automation, map your customer journey and ask honestly whether each touchpoint benefits from it. Once it is live, keep a close eye on your satisfaction scores because the data will tell you quickly if something is not working. Make sure your staff are trained and ready to step in when technology falls short. The bottom line is this: automation should support your team, not replace the genuine human service that keeps customers coming back."
+        },
+        {
+          "number": 7,
+          "script": "So, we've talked about what can go wrong with automation, but let's get practical. How do you actually know when it's time for a human to take over? There are some clear signals to watch for. If a complaint is getting heated and the automated responses just aren't cutting it, that's your cue. If someone seems genuinely upset or distressed, a bot simply cannot provide the empathy that moment needs. Equally, if a customer has a complicated request with several moving parts, trying to handle that through a script is likely to make things worse. Then there are sensitive situations, perhaps involving health, bereavement, or financial hardship, where a human touch is absolutely essential. And finally, if someone has already tried the automated system more than once and it hasn't helped them, keeping them stuck in that loop is deeply frustrating. Recognising these moments and acting on them quickly is what separates good customer service from poor customer service."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The big idea here is that automation is a brilliant tool, but it works best when it's supporting your team, not replacing the human moments that matter. Your guests and customers genuinely notice when empathy is absent, especially in those high-emotion situations like complaints, distress, or confusion. Those moments almost always need a real person involved. The goal we're aiming for isn't full automation, it's the right balance. And to find that balance, you need to regularly walk through your own customer journey and look honestly at where the human touchpoints have quietly disappeared over time. Now, rather than feeling overwhelmed by all of this, I'd encourage you to start small. This week, pick just one automated interaction in your business and ask yourself whether it's actually serving your customers well. That one small review could make a real difference to how your customers feel about you."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Customer service representatives, front desk staff, hotel managers, restaurant managers, travel agents, guest relations coordinators, hospitality supervisors, tourism professionals, food and beverage managers",
+  "Team or Dept this is for": "Customer Service, Operations, Guest Relations, Front Office, Food & Beverage, Sales, Management"
+}

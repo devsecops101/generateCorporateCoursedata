@@ -1,0 +1,107 @@
+{
+  "Course Title": "Connected Vehicles and Expanding Attack Surfaces",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "IoT and AI increasing exposure in transport ecosystems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with networking concepts and a general interest in how modern vehicles and transport systems connect to digital infrastructure are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key vulnerabilities introduced by IoT and AI technologies across connected vehicle ecosystems and explain how expanding attack surfaces affect security in automotive, aviation, and maritime transport. You will also apply foundational cybersecurity principles to recognise potential threats within transport and logistics networks, helping you to better understand how organisations can begin to protect their connected infrastructure.",
+  "lessons": [
+    {
+      "lesson title": "Connected Vehicles and Expanding Attack Surfaces",
+      "order": 1,
+      "Description": "Modern vehicles are no longer simply mechanical machines. They are increasingly connected devices that communicate with other vehicles, infrastructure, and cloud-based services, creating a vast and complex digital ecosystem. This lesson introduces the concept of attack surfaces and explores how the integration of IoT technologies and AI-driven systems into transport networks has significantly expanded the opportunities for cyber threats. You will learn how everyday features such as GPS navigation, remote diagnostics, and over-the-air software updates can introduce vulnerabilities if not properly secured. By the end of this lesson, you will have a clearer understanding of why cybersecurity is now a critical consideration for anyone working with or around connected transport systems.",
+      "status": "draft",
+      "content": "IoT and AI increasing exposure in transport ecosystems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Connected Vehicles: An Introduction",
+          "subtitle": "Exploring today's hyper-connected transport landscape",
+          "slidecontent": "• Cars now constantly connected\n• IoT links vehicles together\n• Attack surfaces rapidly expanding\n• AI adds new vulnerabilities\n• Transport ecosystems under threat"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Mapping the Connected Vehicle Landscape",
+          "subtitle": "From connectivity to cyber risk overview",
+          "slidecontent": "• Cars now constantly online\n• Many entry points exist\n• IoT expands attack surfaces\n• AI adds new vulnerabilities\n• Risks affect safety directly"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Mapping the Connected Vehicle Ecosystem",
+          "subtitle": "From sensors to cloud connections",
+          "slidecontent": "• Dozens of sensors, cameras, and radars constantly collecting data inside and around the vehicle\n• Wireless interfaces (Bluetooth, Wi-Fi, cellular, DSRC) linking the car to the outside world\n• Multiple entry points\n• Onboard systems like the ECU and infotainment unit processing and sharing data internally\n• Telematics units pushing vehicle data to manufacturer cloud platforms in real time\n• Each connection added for convenience also introduces a potential vulnerability"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Remote Access and Control Risks",
+          "subtitle": "Vulnerabilities in wireless vehicle connectivity explored.",
+          "slidecontent": "• Remote keyless entry systems vulnerable to relay attacks that trick vehicles into unlocking\n• Over-the-air software updates can be intercepted if encryption is weak or absent\n• Bluetooth and Wi-Fi hotspot features expand the wireless attack surface significantly\n• Stolen credentials\n• Mobile apps linked to vehicles often store authentication tokens insecurely on the device\n• Attackers with wireless access can potentially influence steering, braking, or acceleration systems"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Wireless Entry Points and Risks",
+          "subtitle": "Signals, Gaps, and Hidden Vulnerabilities",
+          "slidecontent": "• Bluetooth, Wi-Fi, and cellular connections each create a potential entry point for attackers\n• Keyless entry systems vulnerable to relay attacks that amplify the key fob signal\n• Over-the-air update channels, if poorly secured, can deliver malicious code\n• Short-range signals are not automatically safe\n• Infotainment systems often share network access with safety-critical vehicle components\n• Weak encryption on any one channel can expose the entire connected ecosystem"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Supply Chain and Third-Party Risks",
+          "subtitle": "Vulnerabilities Hidden Within the Supply Chain",
+          "slidecontent": "• Modern vehicles rely on dozens of third-party software and hardware components, each a potential weak point\n• A single vulnerable supplier can compromise every vehicle built using their parts\n• Suppliers often lack rigorous cybersecurity standards\n• Over-the-air update mechanisms, if poorly secured, can be exploited through the supply chain to push malicious code\n• Limited visibility into what software versions suppliers are running makes auditing extremely difficult"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Supply Chain Vulnerabilities and Risks",
+          "subtitle": "Weak Links Across the Supplier Network",
+          "slidecontent": "• Third-party code, hidden risks\n• Suppliers rarely meet security standards\n• One weak link compromises all\n• Updates introduce new vulnerabilities\n• No visibility across supplier chain"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying secure ahead.",
+          "slidecontent": "• More connections mean more risk\n• Patch systems regularly\n• Assume every device is a target\n• Strong passwords protect access\n• Monitor networks for unusual activity\n• Stay curious, stay updated"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on connected vehicles and expanding attack surfaces. If you've driven a modern car recently, you may have noticed just how much technology is packed into it. Today's vehicles aren't simply machines that get you from A to B. They're constantly online, exchanging data with other cars, with road infrastructure, and with the wider internet. That connectivity is driven largely by the Internet of Things, which essentially links physical devices together through shared networks. And as vehicles become more connected, the number of potential entry points for attackers grows significantly. We're also seeing artificial intelligence woven into these systems, which brings enormous benefits but also introduces new risks that we're only beginning to understand. The result is that our entire transport ecosystem, from individual cars to city-wide traffic networks, is increasingly exposed to cyber threats. Throughout this course, we'll explore what those threats look like and why they matter so much right now."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by getting a clear picture of where we are today with connected vehicles. Modern cars are no longer just mechanical machines. They are essentially computers on wheels, constantly connected to the internet, to other vehicles, and to the infrastructure around them. And with that connectivity comes a whole range of entry points that attackers could potentially exploit. We are not just talking about one or two weak spots. We are talking about dozens of potential access points across a single vehicle. When you layer in Internet of Things devices, things like smart sensors and telematics systems, the attack surface grows even further. Add artificial intelligence into the mix, which is increasingly being used for everything from driver assistance to predictive maintenance, and you introduce a fresh set of vulnerabilities that the industry is still learning to manage. What makes all of this especially important is that these are not just data security concerns. In a vehicle, a successful cyberattack can directly affect the safety of the driver, passengers, and everyone else on the road."
+        },
+        {
+          "number": 3,
+          "script": "So let's take a step back and look at the bigger picture of what a connected vehicle actually involves. Modern cars are packed with dozens of sensors, cameras, and radar systems, all constantly gathering information about the vehicle and its surroundings. On top of that, you've got wireless interfaces like Bluetooth, Wi-Fi, cellular networks, and dedicated short-range communications linking the car to the world outside. Internally, systems like the engine control unit and the infotainment screen are processing and sharing data between themselves. And then there's the telematics unit, quietly sending vehicle data up to the manufacturer's cloud platform in real time. When you map all of this out, what you're really looking at is a web of interconnected components, each one representing a potential entry point for an attacker. The key thing to understand here is that every connection added for convenience also adds a layer of risk, and that's exactly what we're going to be exploring throughout this course."
+        },
+        {
+          "number": 4,
+          "script": "Now let's look at the risks that come with remote access and wireless connectivity. One of the most common issues is with keyless entry systems. Attackers can use what's called a relay attack, essentially tricking your car into thinking the key fob is nearby when it isn't, and the vehicle simply unlocks. Then there are over-the-air software updates, which are incredibly convenient, but if the encryption isn't up to scratch, those updates can be intercepted and tampered with. Bluetooth and Wi-Fi hotspot features add even more wireless entry points for attackers to exploit. Mobile apps are another concern, as they often store login tokens insecurely on the device, meaning stolen credentials can give an attacker full remote access. And here's the really alarming part: once someone has wireless access to a vehicle, they may be able to interfere with core driving functions like steering, braking, or acceleration. So the stakes here are genuinely very high."
+        },
+        {
+          "number": 5,
+          "script": "Now let's look at the wireless connections that modern vehicles rely on, and why each one represents a potential way in for an attacker. Bluetooth, Wi-Fi, and cellular all sound familiar and convenient, but every one of those signals is a door that someone could try to open. Take keyless entry as a good example. Criminals can use relatively cheap equipment to amplify the signal from your key fob sitting inside your home, tricking the car into thinking the key is right next to it. And it is not just short-range signals you need to worry about. Over-the-air software updates are incredibly useful, but if that channel is not properly secured, it becomes a route for delivering malicious code directly into the vehicle. What makes this particularly concerning is that your infotainment screen and your braking system can share the same network inside the car. So if one wireless channel has weak encryption, the knock-on risk can spread across the whole vehicle."
+        },
+        {
+          "number": 6,
+          "script": "Now, one of the most overlooked risks in connected vehicle security is actually the supply chain itself. A modern vehicle isn't built by one company in isolation. It pulls together software and hardware from dozens of different suppliers, and each of those suppliers represents a potential weak point. The problem is that not all of them take cybersecurity as seriously as they should. So if just one supplier has a vulnerability in their component, that weakness can end up in every single vehicle that uses their parts. That's a significant scale of risk. It gets even more concerning when you think about over-the-air updates. If those update mechanisms aren't properly secured, an attacker could potentially exploit the supply chain to push malicious code directly into vehicles. And to make matters worse, manufacturers often have very limited visibility into exactly what software versions their suppliers are running, which makes auditing and verifying security standards incredibly difficult. The attack surface doesn't stop at the vehicle itself."
+        },
+        {
+          "number": 7,
+          "script": "Now, modern vehicles don't just rely on software built by the manufacturer. They pull in code and components from dozens, sometimes hundreds, of third-party suppliers. And that's where things get complicated. Each of those suppliers brings their own software, their own processes, and unfortunately, their own security gaps. The problem is that manufacturers often have very little visibility into what their suppliers are actually doing from a security standpoint. Many suppliers simply don't meet the standards required to keep that code safe. And here's the critical part: it only takes one weak link in that chain to create a vulnerability that affects the entire vehicle. It gets worse when you factor in software updates. Every time a patch or update is pushed out, there's a risk that new vulnerabilities are introduced alongside the fixes. So the supply chain isn't just a logistical concern. It's one of the most significant security challenges facing the connected vehicle industry today."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core lessons to carry forward. The more your vehicle or device connects to other systems, the more opportunities there are for something to go wrong, so always be mindful of what you are connecting to. Keep your software and firmware updated regularly, because patches exist for a reason and ignoring them leaves doors open. Treat every single device as a potential target, not just the obvious ones. Strong, unique passwords are one of the simplest and most effective ways to protect your systems, so do not overlook them. Get into the habit of monitoring your network for anything unusual, because catching something early can make a huge difference. And finally, this field moves quickly, so stay curious and keep learning. You do not need to be an expert overnight, but staying informed puts you in a much stronger position. These are the habits that will genuinely help you stay secure."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Fleet managers, logistics coordinators, transport operations staff, automotive technicians, aviation maintenance personnel, maritime operations officers, supply chain managers, vehicle procurement specialists",
+  "Team or Dept this is for": "Transportation, Logistics, Operations, Fleet Management, Supply Chain, Maintenance, Procurement"
+}

@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "Maritime AI Navigation Risks",
-          "subtitle": "Navigating the Unique Risks of AI at Sea",
-          "slidecontent": "• AI guides ships automatically\n• Open water poses unique risks\n• Errors can be catastrophic\n• Seafarers must stay alert\n• This course builds awareness"
+          "subtitle": "Introduction to AI Navigation Challenges at Sea",
+          "slidecontent": "• AI assists maritime navigation decisions\n• Open water creates unique operational challenges\n• Navigation errors at sea have severe consequences\n• Human oversight remains critical\n• Understanding risks enables safer operations"
         },
         {
           "number": 2,
-          "slidetitle": "Unique Challenges of Open Water",
-          "subtitle": "Navigating vast, unpredictable maritime environments safely.",
-          "slidecontent": "• Vast ocean expanses with no fixed landmarks to guide positioning\n• Weather shifts rapidly\n• Shipping lanes cross unpredictably busy international waters\n• Limited infrastructure for real-time communication in remote zones\n• Vessel traffic ranges from small fishing boats to enormous cargo ships, all sharing the same routes"
+          "slidetitle": "The Maritime Environment's Unique Demands",
+          "subtitle": "Why Open Water Navigation Differs from Land-Based Transport",
+          "slidecontent": "• No fixed landmarks or reference points\n• Vast distances between ports and support\n• Limited real-time communication infrastructure\n• Mixed vessel traffic from small boats to cargo ships\n• International waters with complex regulations"
         },
         {
           "number": 3,
-          "slidetitle": "Unpredictable Open Water Conditions",
-          "subtitle": "Navigating the Unpredictable Seas Safely",
-          "slidecontent": "• Waves shift without warning\n• Fog hides hazards fast\n• Currents change course suddenly\n• Weather forecasts often wrong\n• Rogue waves strike unexpectedly\n• Ice appears without notice"
+          "slidetitle": "Weather and Sea State Variability",
+          "subtitle": "Rapidly Changing Conditions Challenge AI Systems",
+          "slidecontent": "• Wave conditions shift without warning\n• Fog reduces visibility in minutes\n• Weather forecasts have margin of error\n• Rogue waves appear unexpectedly\n• Ice forms in shipping lanes"
         },
         {
           "number": 4,
-          "slidetitle": "Navigating Dynamic Ocean Conditions",
-          "subtitle": "Adapting to Unpredictable Seas and Weather",
-          "slidecontent": "• Seas change without warning\n• Storms disrupt AI sensors\n• Currents shift vessel paths\n• Fog limits radar accuracy\n• AI struggles with surprises"
+          "slidetitle": "AI Limitations in Dynamic Conditions",
+          "subtitle": "How Unpredictable Seas Affect Automated Systems",
+          "slidecontent": "• AI relies on patterns and historical data\n• Storm interference disrupts sensor accuracy\n• Ocean currents cause undetected course drift\n• Systems struggle with unprecedented situations\n• Fog degrades radar effectiveness"
         },
         {
           "number": 5,
-          "slidetitle": "Sensor Failures in Open Water",
-          "subtitle": "When Sensors Fail Far From Shore",
-          "slidecontent": "• GPS signals weakened or lost in remote ocean corridors far from land-based correction stations\n• Radar interference caused by heavy weather, sea clutter, and wave height\n• No nearby port infrastructure to support quick sensor recalibration or repair\n• Redundant systems sometimes share the same failure point\n• Delayed fault detection when crew workload is high during rough passages\n• AI navigation tools may continue operating on degraded sensor data without flagging the drop in reliability"
+          "slidetitle": "Remote Sensor Reliability Issues",
+          "subtitle": "Equipment Failures Far from Support Infrastructure",
+          "slidecontent": "• GPS accuracy degrades without land-based stations\n• No immediate repair or recalibration available\n• Backup systems may share failure points\n• Heavy crew workload delays fault detection\n• AI may operate on unreliable data without warnings"
         },
         {
           "number": 6,
-          "slidetitle": "Sensor Failures in Open Water",
-          "subtitle": "When GPS and Sensors Go Dark",
-          "slidecontent": "• GPS signals can drop out entirely in remote ocean corridors far from land-based correction stations\n• Radar and lidar sensors struggle in heavy fog, rain, or sea spray\n• No backup signal\n• AI navigation systems may freeze, misroute, or lose situational awareness when sensor feeds go dark\n• Redundant sensor arrays and manual override protocols are the first line of defence onboard\n• Even brief outages can cause dangerous positional drift in strong currents"
+          "slidetitle": "Complete Sensor Loss Scenarios",
+          "subtitle": "When Navigation Systems Go Dark",
+          "slidecontent": "• GPS signals drop out in remote areas\n• Weather blocks radar and lidar sensors\n• AI freezes or misroutes without sensor input\n• Strong currents cause rapid positional drift\n• Manual override capabilities become essential"
         },
         {
           "number": 7,
-          "slidetitle": "Preparing for AI Navigation Risks",
-          "subtitle": "Strategies to Mitigate Emerging AI Threats",
-          "slidecontent": "• Train crew on AI limits\n• Test systems before voyages\n• Keep manual skills sharp\n• Monitor AI alerts closely\n• Report errors immediately"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Preparing Crews for AI Navigation Challenges",
+          "slidecontent": "• Train crew on AI system limitations\n• Test navigation systems pre-voyage\n• Maintain traditional navigation skills\n• Monitor AI alerts and decisions actively\n• Report system errors immediately"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for safer AI navigation",
-          "slidecontent": "• AI navigation tools can misread open water conditions, especially in poor visibility or heavy weather\n• Always verify AI route suggestions against live chart data and your own seamanship judgement\n• Human oversight remains essential\n• Shipping lanes, ice zones, and shallow coastal waters each carry risks that AI systems may underestimate\n• Report any unexpected AI behaviour to your vessel's safety officer promptly\n• As a next step, review your ship's AI navigation policy and confirm you know how to override automated decisions"
+          "slidetitle": "Action Steps for Maritime Professionals",
+          "subtitle": "Implementing Safe AI Navigation Practices",
+          "slidecontent": "• Verify AI suggestions against chart data\n• Apply seamanship judgment to automated decisions\n• Report unusual system behavior promptly\n• Review vessel AI navigation policies\n• Know manual override procedures\n• Maintain situational awareness at all times"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on Maritime AI Navigation Risks. Over the next few lessons, we're going to explore something that is becoming increasingly important across the shipping industry: the use of artificial intelligence to help guide and control vessels at sea. Now, AI can do remarkable things, and in many ways it is transforming how ships are operated. But the open ocean is an unforgiving environment, and when something goes wrong out there, the consequences can be severe. Unlike a car on a road or a drone in a field, a large vessel at sea faces a very particular set of challenges, and AI systems are not immune to errors. That is why seafarers need to remain vigilant and engaged, even when automated systems are doing much of the work. This course is designed to build your awareness of those risks in a straightforward, practical way, so that by the end you feel confident in understanding where the dangers lie and how to respond to them."
+          "script": "Welcome to this course on Maritime AI Navigation Risks. As artificial intelligence becomes more common in ship navigation, it's important to understand the unique challenges this technology faces at sea. Unlike land-based transportation, maritime environments are unforgiving. When navigation errors occur hundreds of miles from shore, the consequences can be severe. AI systems offer valuable assistance, but they're not infallible. This course will help you recognize where the dangers lie and how to respond appropriately. By the end, you'll understand why human oversight remains essential, even with advanced automated systems guiding your vessel."
         },
         {
           "number": 2,
-          "script": "So before we dive into how AI fits into all of this, it helps to appreciate just how demanding the maritime environment actually is. Unlike roads or railways, the open ocean gives you very little to work with in terms of fixed reference points. There are no traffic lights, no lane markings, and conditions can change dramatically within a matter of hours. A calm sea can turn rough with very little warning, and that makes reliable decision-making genuinely difficult. Add to that the sheer variety of vessels out there, from small fishing boats to enormous container ships, all sharing the same stretches of water, and you start to see the complexity involved. In remote areas, you may also have very limited access to real-time communication or support infrastructure, which means any system operating out there needs to be robust and dependable on its own. These are the kinds of challenges that make maritime navigation uniquely demanding, and they set the stage for everything we will be exploring in this course."
+          "script": "The maritime environment presents challenges unlike any other transportation mode. Unlike roads with clear markings or airways with defined corridors, the open ocean offers no fixed reference points for navigation. Ships operate across vast distances between ports, often in areas with limited communication infrastructure. The waters are shared by everything from small fishing vessels to massive container ships, all operating under complex international regulations. These fundamental differences from land-based transport create a unique operating environment that any navigation system must account for."
         },
         {
           "number": 3,
-          "script": "Now, one of the biggest challenges facing any navigation system, whether human or AI, is just how unpredictable the open sea can be. The ocean doesn't follow a script. Waves can build and shift in moments, fog can roll in and completely obscure hazards before there's any time to react, and underwater currents can push a vessel well off its intended course without much warning at all. We also need to be honest about weather forecasting. Even with modern technology, forecasts can get it wrong, and at sea, that margin for error can be genuinely dangerous. Then there are rogue waves, which are enormous walls of water that can appear seemingly out of nowhere, and in colder regions, ice can emerge in shipping lanes with very little advance notice. The point here is that the sea is a constantly changing environment, and any AI navigation system has to be designed with that unpredictability firmly in mind."
+          "script": "One of the most challenging aspects of maritime navigation is the ocean's inherent unpredictability. Sea conditions can deteriorate rapidly, with waves building and fog rolling in within minutes. Even modern weather forecasting has limitations, and at sea, forecast errors can have serious consequences. Vessels must also contend with rogue waves that appear without warning and ice conditions that can develop in shipping lanes. These rapid environmental changes create situations that are difficult for any navigation system to anticipate."
         },
         {
           "number": 4,
-          "script": "The ocean is one of the most unpredictable environments on the planet, and that creates real challenges for AI navigation systems. Unlike a road or a railway, the sea is constantly changing. A calm stretch of water can turn rough within minutes, and when a storm rolls in, it can interfere with the sensors that AI relies on to make decisions. Ocean currents are another factor, because they can quietly push a vessel off its intended course without any obvious warning. Then there is fog, which reduces the effectiveness of radar and makes it much harder for the system to build an accurate picture of what is around the vessel. The core issue here is that AI systems are trained on patterns and data, but the sea does not always follow patterns. When something unexpected happens, these systems can struggle to respond appropriately. That is why understanding these limitations is so important for anyone working in or around maritime operations."
+          "script": "AI navigation systems excel at processing patterns and historical data, but the ocean doesn't always follow predictable patterns. When storms interfere with sensors or fog reduces radar effectiveness, these systems can struggle to maintain accurate situational awareness. Ocean currents can silently push vessels off course, and AI may not detect this drift quickly enough. The core challenge is that artificial intelligence systems are trained on known scenarios, but the sea regularly presents unprecedented conditions that fall outside their training parameters."
         },
         {
           "number": 5,
-          "script": "Now, open water presents a very different challenge to coastal or port environments. When a vessel is hundreds of miles from shore, GPS accuracy can degrade significantly because there are no nearby correction stations to sharpen the signal. Add heavy weather into the mix, and radar becomes unreliable too, with waves and sea clutter creating interference that muddies the picture. And here is where things get particularly concerning: if something goes wrong with a sensor out there, there is no quick fix available. No port, no technician, no easy recalibration. What makes this worse is that backup systems are sometimes designed in a way that means they share the same vulnerability, so one fault can knock out multiple layers of protection at once. When the crew is already stretched during a rough passage, spotting a sensor fault early becomes much harder. And critically, the AI navigation system may simply carry on using that degraded data, without ever alerting anyone that its information can no longer be trusted."
+          "script": "In remote ocean areas, sensor reliability becomes a critical concern. GPS accuracy depends on land-based correction stations, so signals degrade significantly when vessels are far from shore. When sensors fail in the middle of the ocean, there's no port nearby for quick repairs or recalibration. This situation is made worse when backup systems share the same vulnerabilities as primary sensors. During challenging passages when crews are already stretched thin, detecting sensor faults early becomes more difficult, and AI systems may continue operating on degraded data without alerting anyone to the reliability issues."
         },
         {
           "number": 6,
-          "script": "Now let's talk about what happens when the sensors that an AI navigation system depends on simply stop working. Out in open ocean, far from land, GPS signals can become unreliable or drop out altogether. There are no nearby correction stations to help, so the system loses its positional fix. On top of that, radar and lidar sensors, which help the vessel detect its surroundings, can struggle badly in heavy fog, driving rain, or sea spray. When those feeds go dark, the AI can freeze up, plot the wrong course, or lose its sense of where the vessel actually is. And here is the really concerning part: even a short outage of just a few minutes can cause significant positional drift if the vessel is caught in a strong current. This is precisely why redundant sensor arrays and manual override capabilities are so important onboard. Human crew members need to be ready to step in and take control when the technology fails."
+          "script": "The most serious scenarios occur when navigation sensors fail completely. In remote areas, GPS signals can disappear entirely, leaving the AI system without positional reference. Heavy weather, fog, and sea spray can block radar and lidar sensors, essentially blinding the automated system. When these sensor feeds go dark, AI navigation can freeze, plot incorrect courses, or lose all situational awareness. Even brief outages of a few minutes can allow strong currents to push the vessel dangerously off course. This is why redundant systems and manual override capabilities are absolutely essential aboard any vessel using AI navigation."
         },
         {
           "number": 7,
-          "script": "So, now that we understand the risks, let's talk about what we can actually do to prepare. The good news is that there are some very practical steps any maritime team can take. First, make sure your crew genuinely understands what AI can and cannot do. It is not infallible, and everyone on board should know that. Before any voyage, take the time to properly test your navigation systems so you are not discovering problems when you are already at sea. Alongside that, it is absolutely vital that seafarers keep their traditional, manual navigation skills in good shape. If the AI fails, you need to be ready to take over confidently. During a voyage, stay engaged with the alerts the system produces rather than simply trusting them without question. And finally, if something does go wrong or the system behaves unexpectedly, report it straight away. Sharing those errors helps the whole industry learn and improve. Small, consistent habits like these can make a very significant difference."
+          "script": "Preparing for AI navigation risks requires a multi-layered approach. Crew training should emphasize understanding AI limitations rather than blind trust in automation. Pre-voyage system testing can identify problems before departing port. It's crucial that seafarers maintain their traditional navigation skills as a backup to automated systems. During voyages, crews must actively monitor AI decisions and alerts rather than passively accepting them. When systems behave unexpectedly, immediate reporting helps the entire industry learn from these experiences and improve safety protocols."
         },
         {
           "number": 8,
-          "script": "So let's bring together the most important lessons from this session. AI navigation tools are genuinely useful, but they can struggle in challenging conditions like poor visibility or heavy weather, and they may underestimate the specific risks in shipping lanes, ice zones, or shallow coastal waters. That means you should always cross-check any AI route suggestion against your live chart data and apply your own seamanship judgement. Technology supports you, but it does not replace you. Human oversight is absolutely essential at every stage. If you ever notice the system behaving in an unexpected or unusual way, report it to your safety officer straight away. Don't wait and hope it corrects itself. And finally, as a practical next step, take some time to review your ship's AI navigation policy. Make sure you know exactly how to override automated decisions if you need to. Being prepared before a situation arises is what good seamanship is all about."
+          "script": "As we conclude this course, remember these key action steps for safe AI navigation. Always cross-check AI route suggestions against your chart data and apply your seamanship judgment. Technology should support your decision-making, not replace it. If you notice unusual system behavior, report it to your safety officer immediately. Take time to review your vessel's AI navigation policies and ensure you're familiar with manual override procedures. Most importantly, maintain constant situational awareness. AI is a powerful tool, but the responsibility for safe navigation ultimately rests with you and your crew."
         }
       ]
     }

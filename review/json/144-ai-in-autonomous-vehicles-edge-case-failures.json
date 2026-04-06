@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Introducing AI Edge Case Failures",
-          "subtitle": "When AI Meets Its Limits",
-          "slidecontent": "• AI sometimes fails unexpectedly\n• Rare scenarios cause real problems\n• Edge cases test AI limits\n• Humans must understand risks"
+          "slidetitle": "AI Edge Cases in Autonomous Vehicles",
+          "subtitle": "When Advanced Systems Meet Their Limits",
+          "slidecontent": "['• Edge cases are rare, unexpected driving scenarios', '• AI struggles when situations fall outside training data', '• Small probability events can have serious consequences', '• Understanding failures is critical for safe deployment']"
         },
         {
           "number": 2,
-          "slidetitle": "Defining Edge Case Failures",
-          "subtitle": "When AI meets the unexpected",
-          "slidecontent": "• Rare, unexpected driving situations\n• AI struggles to respond correctly\n• Outside normal training data\n• Small chance, big consequences\n• Real-world surprises confuse systems"
+          "slidetitle": "What Defines an Edge Case Failure",
+          "subtitle": "The boundaries of AI capability",
+          "slidecontent": "['• Situations the AI has never encountered before', '• Real-world complexity exceeds training scenarios', '• System confidence remains high despite incorrect decisions', '• Unpredictable human behavior creates novel challenges']"
         },
         {
           "number": 3,
-          "slidetitle": "Sensor Confusion in Poor Weather",
-          "subtitle": "When Rain and Fog Blind Sensors",
-          "slidecontent": "• Heavy rain distorts lidar and radar signals, causing the AI to misread distances or miss obstacles entirely\n• Fog scatters light pulses, making cameras and sensors effectively blind beyond a few metres\n• Sensors struggle most when multiple poor conditions combine, such as rain at night on an unlit road\n• No redundancy built in\n• Even brief sensor confusion at motorway speeds can trigger dangerous, unpredictable vehicle behaviour"
+          "slidetitle": "Weather-Related Sensor Failures",
+          "subtitle": "Environmental conditions that blind AI systems",
+          "slidecontent": "['• Heavy rain distorts lidar signals and creates false obstacles', '• Fog reduces camera range to just a few meters', '• Snow physically coats sensors causing complete blindness', '• Multiple weather conditions compound the problem']"
         },
         {
           "number": 4,
-          "slidetitle": "Sensor Confusion in Poor Weather",
-          "subtitle": "When rain and fog mislead sensors",
-          "slidecontent": "• Heavy rain scatters lidar beams, creating ghost obstacles that confuse the vehicle's path planning\n• Fog reduces camera range dramatically\n• Sensors trained mostly on clear-weather data struggle to interpret blurred or distorted inputs\n• Snow can coat sensors entirely, causing sudden and complete loss of environmental awareness\n• Wet road reflections mimic the appearance of solid objects or open lanes"
+          "slidetitle": "Road Surface Challenges",
+          "subtitle": "When the ground itself misleads sensors",
+          "slidecontent": "['• Wet pavement reflects light creating phantom objects', '• Unusual road markings confuse lane detection', '• Construction zones lack standardized signage patterns', '• Worn or missing lane markers leave AI without guidance']"
         },
         {
           "number": 5,
-          "slidetitle": "Sensor Fusion Failures Explained",
-          "subtitle": "When sensors misread and systems fail",
-          "slidecontent": "• Sensors misread the environment\n• Data conflicts confuse the system\n• Fog blinds radar and cameras\n• Merged inputs create false readings\n• One bad sensor corrupts all"
+          "slidetitle": "Sensor Fusion Breakdown",
+          "subtitle": "When multiple data sources conflict",
+          "slidecontent": "['• Cameras, radar, and lidar provide contradictory information', '• System attempts to merge incompatible data sets', '• One corrupted sensor can poison entire perception pipeline', '• Backup systems may not activate when needed']"
         },
         {
           "number": 6,
-          "slidetitle": "Sensor Fusion Failures Explained",
-          "subtitle": "When sensors misread the world around them",
-          "slidecontent": "• Multiple sensors combining data to build one picture of the environment\n• Conflicting inputs from cameras, radar, and lidar confusing the AI's decision-making\n• A wet road surface scattering lidar beams, causing objects to appear where none exist\n• Sensor disagreement\n• Bright sunlight or heavy rain degrading camera feeds at the worst possible moment\n• Small errors in each sensor compounding into one dangerously wrong conclusion"
+          "slidetitle": "Human Behavior Anomalies",
+          "subtitle": "Unpredictable actions that confuse AI decision-making",
+          "slidecontent": "['• Pedestrians crossing at unexpected locations', '• Cyclists making sudden directional changes', '• Emergency vehicles using non-standard approach patterns', '• Regional driving customs not represented in training data']"
         },
         {
           "number": 7,
-          "slidetitle": "Lessons Learned From Failures",
-          "subtitle": "Turning Failures Into Safer Systems",
-          "slidecontent": "• Real failures have driven the most significant safety improvements in autonomous vehicle design\n• Engineers analyse crash data to identify which edge cases the AI failed to anticipate\n• Small sensor blind spots can cascade into serious decision errors\n• Regulatory bodies now require manufacturers to log and report near-miss incidents\n• Iterative testing, informed by past failures, helps close gaps before vehicles reach public roads\n• Failure is data"
+          "slidetitle": "Learning From Real-World Failures",
+          "subtitle": "How incidents drive safety improvements",
+          "slidecontent": "['• Crash analysis reveals specific AI decision points', '• Regulatory requirements for incident logging and reporting', '• Failure patterns identify systematic training gaps', '• Iterative testing informed by actual edge case data']"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons from edge case failures",
-          "slidecontent": "• Edge cases catch AI off guard\n• Real data beats lab testing\n• Humans must stay alert\n• Failures reveal hidden gaps\n• Test early, test often\n• Review incidents, improve systems"
+          "slidetitle": "Moving Forward Safely",
+          "subtitle": "Balancing innovation with caution",
+          "slidecontent": "['• Continuous testing in diverse real-world conditions', '• Human oversight remains essential during deployment', '• Transparent reporting of limitations to users', '• Industry-wide collaboration on safety standards']"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on AI edge case failures in autonomous vehicles. Now, AI systems are incredibly impressive, but they are not perfect. Every so often, these systems encounter situations they simply were not designed to handle, and that is where things can go wrong in ways that genuinely surprise us. We call these moments \"edge cases\", and they are essentially the rare, unusual scenarios that sit right at the boundaries of what an AI can cope with. Think of them as the awkward corners of the real world that a system has never quite seen before. The trouble is, even though these situations are uncommon, when they do occur, the consequences can be very serious indeed. So throughout this lesson, we are going to explore why these failures happen, what they look like in practice, and crucially, why it is so important for all of us, not just engineers, to understand the risks involved. Let us get started."
+          "script": "Welcome to this lesson on AI edge case failures in autonomous vehicles. While AI systems are incredibly sophisticated, they have clear boundaries to their capabilities. Edge cases are those rare, unexpected driving scenarios that fall outside what the system was trained to handle. Even though these situations don't happen often, when they do occur, the consequences can be serious. Understanding where and why these failures happen is essential for anyone interested in autonomous vehicle technology, whether you're an engineer, policymaker, or simply someone who will one day rely on these systems. Let's explore the critical challenges that remain in making self-driving cars truly safe."
         },
         {
           "number": 2,
-          "script": "So, let's start by getting clear on what we actually mean by an edge case failure. Imagine you're teaching someone to drive. You show them thousands of hours of normal roads, normal traffic, normal weather. They get really good at handling everyday situations. But then one day, something truly unusual happens, something they've never seen before, and suddenly they don't know how to respond. That's essentially what happens with AI in autonomous vehicles. These systems are trained on enormous amounts of data, but the real world has a habit of throwing up surprises that simply weren't included in that training. And here's the critical part: these situations might be quite rare, but when the AI gets it wrong, the consequences can be serious. We're talking about potential accidents, injuries, or worse. So even though edge cases don't happen often, understanding why they catch AI systems off guard is absolutely essential. That's what this lesson is all about."
+          "script": "To understand edge case failures, imagine teaching someone to drive using only examples from perfect conditions on well-maintained roads. They'd become excellent at handling normal situations, but completely unprepared for anything unusual. AI systems face the same challenge - they're trained on vast amounts of data, but the real world constantly presents scenarios that weren't included in that training. The particularly tricky aspect is that the AI often remains confident in its decisions even when they're wrong, because it has no way to recognize that it's encountering something truly novel. This is why edge cases are so dangerous - the system fails without knowing it's failing."
         },
         {
           "number": 3,
-          "script": "Now, one of the most significant real-world challenges for autonomous vehicles is something we all experience regularly: bad weather. When heavy rain hits, it actually distorts the signals that lidar and radar rely on, so the AI can genuinely misread how far away something is, or miss an obstacle altogether. Fog is equally problematic, because it scatters the light pulses that cameras and sensors use, leaving the system effectively blind beyond just a few metres. And here is where it gets particularly concerning: when you combine several poor conditions at once, say rain, darkness, and an unlit road, the sensors really struggle. If there is no backup system to compensate when the primary sensors fail, the vehicle has nothing to fall back on. And at motorway speeds, even a very brief moment of confusion can cause the vehicle to behave in ways that are unpredictable and potentially very dangerous. Weather, quite simply, remains a serious unsolved challenge for this technology."
+          "script": "Weather conditions represent some of the most challenging edge cases for autonomous vehicles. Heavy rain doesn't just reduce visibility - it actually distorts the laser beams that lidar sensors rely on, causing the system to detect obstacles that don't exist or miss real ones entirely. Fog shrinks camera range dramatically, sometimes to just a few meters ahead. Snow creates perhaps the worst scenario by physically coating sensors, causing complete environmental blindness. When multiple weather conditions combine - rain, fog, and darkness together - even the most advanced systems struggle to maintain accurate perception of their surroundings."
         },
         {
           "number": 4,
-          "script": "Now, one of the most common real-world challenges for autonomous vehicles is something we all deal with every day: bad weather. When heavy rain hits, it actually scatters the beams from lidar sensors, and the vehicle starts seeing obstacles that simply are not there. Fog is equally problematic, shrinking the effective range of cameras quite dramatically. The deeper issue is that many of these systems were trained predominantly on clear, dry conditions, so when inputs become blurry or distorted, the AI genuinely struggles to make sense of what it is seeing. Snow presents perhaps the most severe scenario, because it can physically coat the sensors themselves, causing a sudden and complete blackout of environmental awareness. And here is something that surprises a lot of people: wet road surfaces can reflect light in ways that trick the system into thinking there is either a solid object ahead or a clear lane where there is not one. Weather, in short, exposes just how fragile these systems can be."
+          "script": "Road surfaces themselves can become sources of edge case failures. Wet pavement creates reflections that confuse AI systems, making them see solid objects where there are only light reflections, or clear lanes where obstacles actually exist. Unusual road markings, construction zones, and worn lane markers all present scenarios that may not have been adequately represented in training data. The challenge is that these aren't dramatic failures - they're subtle misreadings that can lead to dangerous decisions. A system might confidently steer into what it believes is an open lane, when in reality it's interpreting a reflection or faded marking incorrectly."
         },
         {
           "number": 5,
-          "script": "So let's talk about what happens when the sensors in an autonomous vehicle start getting things wrong. These vehicles rely on a combination of cameras, radar, and lidar working together, a process called sensor fusion. The idea is that combining multiple data sources gives you a more accurate picture of the world. But here's the problem: when those sensors disagree with each other, the system can become genuinely confused. Imagine driving through thick fog. Cameras struggle to see clearly, and even radar can be affected. Now the system is receiving conflicting information, and when it tries to merge all of that data together, it can actually produce readings that are worse than if it had just used one sensor on its own. And perhaps most worryingly, if just one sensor is feeding in bad data, it can corrupt the entire combined output. So rather than the system being stronger for having multiple sensors, a single faulty input can bring the whole thing down."
+          "script": "Autonomous vehicles use multiple sensors working together in a process called sensor fusion - combining data from cameras, radar, and lidar to build a comprehensive view of the environment. This approach usually makes the system more robust, but it can also create new failure modes. When sensors provide conflicting information, the fusion process can produce results that are worse than any individual sensor would provide alone. More critically, if one sensor feeds corrupted data into the system, it can poison the entire perception pipeline, leading to decisions based on fundamentally flawed environmental understanding."
         },
         {
           "number": 6,
-          "script": "Autonomous vehicles don't rely on just one sensor. They use cameras, radar, and lidar together, constantly combining all of that data to build a single, coherent picture of the world around them. Now, most of the time that works brilliantly. But when those sensors start disagreeing with each other, things can go wrong very quickly. Imagine a wet road scattering lidar beams so badly that the system thinks there's an obstacle sitting right in the middle of the lane, when actually there's nothing there at all. Or picture bright sunlight or heavy rain degrading the camera feed at exactly the wrong moment. The real danger here is that no single sensor needs to fail completely. Each one might only be slightly off, but when you combine those small errors together, the AI can reach a conclusion that is dangerously incorrect. That compounding effect is what makes sensor fusion failures so tricky to anticipate and so important to understand."
+          "script": "Human behavior represents perhaps the most unpredictable source of edge cases. People don't always follow traffic rules or behave in ways that AI systems expect. A pedestrian might suddenly dart across a busy street, a cyclist might make an unexpected turn without signaling, or an emergency vehicle might approach from an unusual angle. These actions fall outside the patterns that AI systems learn from training data. Regional driving customs add another layer of complexity - aggressive merging in one city, overly cautious behavior in another. Each represents a potential edge case where AI decision-making can break down."
         },
         {
           "number": 7,
-          "script": "Every major safety improvement we've seen in autonomous vehicles has come, in large part, from studying what went wrong. When a vehicle is involved in a collision or a near miss, engineers dig into the data to understand exactly where the AI's decision-making broke down. Sometimes it's something that sounds almost trivial, like a small blind spot in a sensor's field of view, but that tiny gap can trigger a chain of poor decisions with serious consequences. Regulators have recognised this, which is why manufacturers are now required to log and report these incidents rather than quietly move on. That information feeds back into the development cycle, so the next round of testing is smarter and more targeted than the last. The underlying principle here is a simple but powerful one: failure is data. Every mistake the system makes is an opportunity to make it safer, and that mindset is genuinely at the heart of how this technology improves."
+          "script": "Every significant safety improvement in autonomous vehicles has come from carefully analyzing real-world failures. When incidents occur, engineers examine the data to understand exactly where the AI's decision-making process broke down. This has led to regulatory requirements for logging and reporting near-miss events, not just actual crashes. The data reveals patterns - maybe certain sensor configurations are vulnerable to specific weather conditions, or particular road geometries consistently confuse the path-planning algorithms. This failure analysis feeds directly back into development, making each iteration of the technology more robust than the last."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together from this lesson. The big lesson here is that AI systems in autonomous vehicles can be caught completely off guard by unusual or unexpected situations, the kind that simply do not show up enough in controlled testing environments. Real world driving throws up surprises that no laboratory can fully replicate, which is why gathering genuine road data is so important. And even with the most advanced AI, human oversight remains absolutely essential. We cannot afford to switch off and assume the system has everything covered. When failures do happen, and they will happen, they are actually incredibly valuable. They shine a light on gaps that were previously hidden. The practical response to all of this is straightforward: test your systems early, test them regularly, and when incidents occur, review them thoroughly and use what you learn to make improvements. That cycle of testing, learning, and refining is what drives progress in this field."
+          "script": "Moving forward with autonomous vehicle technology requires balancing innovation with safety. Continuous testing in diverse real-world conditions is essential, but so is maintaining human oversight during deployment phases. The industry is learning to be transparent about system limitations rather than overselling capabilities. Collaboration across manufacturers, researchers, and regulators is helping establish safety standards that address known edge cases while preparing for unknown ones. The goal isn't to eliminate all possible failures - that's impossible. Instead, it's to understand the boundaries of what these systems can handle safely, and to build appropriate safeguards for when they encounter situations beyond those boundaries."
         }
       ]
     }

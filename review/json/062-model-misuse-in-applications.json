@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining Model Misuse",
-          "subtitle": "What counts as model misuse?",
-          "slidecontent": "• When an application allows a model to behave in ways the developer never intended or anticipated\n\n• Gaps between what a developer builds and what users actually do with it\n\n• Not always deliberate\n\n• Includes cases where safety boundaries are bypassed through clever prompting or poor input handling\n\n• Missing guardrails, vague instructions, or overly permissive configurations that open the door to harm\n\n• A spectrum from minor unintended outputs to serious real-world consequences"
+          "slidetitle": "Understanding the Scope of Model Misuse",
+          "subtitle": "The gap between developer intent and real-world usage",
+          "slidecontent": "• Gaps between what a developer builds and what users actually do with it\n• Missing guardrails, vague instructions, or overly permissive configurations\n• Includes cases where safety boundaries are bypassed through clever prompting\n• Poor input handling that leaves applications vulnerable\n• A spectrum from minor unintended outputs to serious real-world consequences"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising Unsafe Model Behaviours",
-          "subtitle": "Signs that something has gone wrong",
-          "slidecontent": "• Outputs that contradict the application's stated purpose or audience\n• Unexpectedly detailed instructions for harmful activities\n• Sudden shifts in tone, persona, or apparent intent\n• Responses that ignore or override the system prompt's restrictions\n• Confidential prompt content leaked into user-facing replies"
+          "slidetitle": "System-Level Warning Signs",
+          "subtitle": "Detecting fundamental application failures",
+          "slidecontent": "• Outputs that contradict the application's stated purpose or audience\n• Model revealing confidential prompt contents when prompted\n• Responses that ignore or override the system prompt's restrictions\n• Consistent patterns of off-topic or nonsensical replies\n• Model agreeing to tasks it was explicitly told to refuse"
         },
         {
           "number": 4,
-          "slidetitle": "Recognising Unsafe Model Behaviours",
-          "subtitle": "Signs that something has gone wrong",
-          "slidecontent": "• Model outputs that ignore or contradict the instructions given in the system prompt\n• Responses that reveal confidential prompt contents when users ask the right questions\n• Sudden shifts in tone or persona mid-conversation\n• The model agreeing to tasks it was explicitly told to refuse\n• Outputs that escalate in harmful detail the more a user pushes back\n• Consistent patterns of off-topic or nonsensical replies suggesting broken context handling"
+          "slidetitle": "Behavioral Warning Signs",
+          "subtitle": "Spotting dangerous changes during conversations",
+          "slidecontent": "• Sudden shifts in tone, persona, or apparent intent mid-conversation\n• Unexpectedly detailed instructions for harmful activities\n• Outputs that escalate in harmful detail when users push back\n• Model adopting unauthorized roles or identities\n• Progressive degradation of safety compliance over time"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising Unsafe Model Behaviours",
-          "subtitle": "Warning signs to watch for now",
-          "slidecontent": "• Outputs that ignore safety rules\n• Unexpected role changes mid-session\n• Refusals suddenly disappearing\n• Sensitive data appearing unprompted\n• Responses escalating in harm"
+          "slidetitle": "Critical Red Flags",
+          "subtitle": "Immediate indicators requiring urgent attention",
+          "slidecontent": "• Complete disappearance of safety refusals\n• Sensitive data appearing unprompted in responses\n• Model confidently providing incorrect information\n• Responses that bypass all established boundaries\n• Evidence of successful prompt injection attacks"
         },
         {
           "number": 6,
-          "slidetitle": "Recognising Unsafe Model Behaviour",
-          "subtitle": "Warning signs and red flags explained",
-          "slidecontent": "• Outputs that ignore safety rules\n• Unexpected role-playing responses\n• Leaking private system instructions\n• Refusing nothing, ever\n• Confidently wrong answers"
+          "slidetitle": "Common Misuse Patterns",
+          "subtitle": "Recognizing typical failure modes",
+          "slidecontent": "• Never refusing any request regardless of content\n• Role-playing as unauthorized characters or personas\n• Leaking internal system instructions to users\n• Providing confidently wrong answers without qualification\n• Ignoring context or conversation history entirely"
         },
         {
           "number": 7,
-          "slidetitle": "Preventing Misuse: Best Practices",
-          "subtitle": "Safeguarding Your Application From the Start",
-          "slidecontent": "• Validate all user inputs first\n• Set strict output boundaries\n• Log unusual model behaviour\n• Test edge cases regularly\n• Limit model permissions always"
+          "slidetitle": "Prevention Through Technical Controls",
+          "subtitle": "Building robust safeguards into your application",
+          "slidecontent": "• Validate all user inputs before processing\n• Set strict output boundaries and content filters\n• Log unusual model behavior for review\n• Test edge cases and adversarial scenarios regularly\n• Limit model permissions to minimum necessary access"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for responsible AI development",
-          "slidecontent": "• Validate all user inputs first\n• Test for unintended behaviours early\n• Limit model permissions by default\n• Review outputs before deployment\n• Revisit safeguards regularly"
+          "slidetitle": "Ongoing Responsibility Framework",
+          "subtitle": "Maintaining safe AI applications over time",
+          "slidecontent": "• Review outputs systematically before deployment\n• Monitor for emerging misuse patterns continuously\n• Update safeguards as models and threats evolve\n• Document and share lessons learned from incidents\n• Build security reviews into your development lifecycle"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on model misuse in applications. Now, when we talk about misuse here, we are not necessarily talking about someone with bad intentions deliberately trying to cause harm. More often than not, the problem comes from developers who are simply building products and making configuration choices that, perhaps without realising it, end up removing important safety guardrails from the AI systems they are working with. Those guardrails exist for good reason, and when they are stripped away, even accidentally, real users interacting with those applications can be exposed to genuinely harmful outputs. And this is not a niche or theoretical concern. As AI tools become woven into everyday products and services, from customer support chatbots to educational platforms, the potential impact of these poor setup choices grows significantly. So throughout this lesson, we are going to look at how this kind of misuse happens, why it matters, and what responsible development should look like instead."
+          "script": "Welcome to this lesson on model misuse in applications. When we talk about misuse here, we're not necessarily talking about someone with bad intentions deliberately trying to cause harm. More often than not, the problem comes from developers who are simply building products and making configuration choices that, perhaps without realizing it, end up removing important safety guardrails from the AI systems they're working with. Those guardrails exist for good reason, and when they're stripped away, even accidentally, real users interacting with those applications can be exposed to genuinely harmful outputs. This isn't a niche or theoretical concern. As AI tools become woven into everyday products and services, from customer support chatbots to educational platforms, the potential impact of these poor setup choices grows significantly."
         },
         {
           "number": 2,
-          "script": "So what do we actually mean by model misuse? At its core, it's about the gap between what a developer intends their application to do and what it ends up doing in the real world. And here's the thing, it isn't always someone deliberately trying to cause harm. Sometimes it happens simply because the application wasn't built with enough care around how users might interact with it. That could mean missing guardrails, instructions that are too vague, or configurations that are far too permissive. It can also include situations where someone uses clever prompting to push the model past its safety boundaries, or where poor input handling leaves the door wide open to problems. And the consequences sit on a spectrum. At one end you might get slightly odd or unexpected outputs. At the other end, you're looking at genuinely serious real-world harm. So misuse isn't one single thing. It's a whole range of ways an application can go wrong."
+          "script": "At its core, model misuse is about the gap between what a developer intends their application to do and what it ends up doing in the real world. It isn't always someone deliberately trying to cause harm. Sometimes it happens simply because the application wasn't built with enough care around how users might interact with it. That could mean missing guardrails, instructions that are too vague, or configurations that are far too permissive. It can also include situations where someone uses clever prompting to push the model past its safety boundaries, or where poor input handling leaves the door wide open to problems. The consequences sit on a spectrum from slightly odd outputs to genuinely serious real-world harm."
         },
         {
           "number": 3,
-          "script": "So how do you actually spot when a model is behaving in a way it shouldn't? There are a few warning signs worth knowing. First, if the model's output seems completely at odds with what the application is supposed to do, that's a red flag. A children's educational tool producing adult content, for example, is an obvious mismatch. Similarly, if a model starts giving unusually detailed guidance on something dangerous or harmful, that's a serious concern. You might also notice a sudden change in how the model sounds, as though it has adopted a different personality or shifted its apparent purpose mid-conversation. Another sign is when the model seems to be ignoring the rules it was given in the system prompt, essentially overriding its own instructions. And finally, if the model starts revealing text that was clearly meant to be hidden from users, such as internal instructions, that suggests something has gone wrong at a fairly fundamental level."
+          "script": "How do you spot when a model's fundamental design is failing? Start by checking if the model's output seems completely at odds with what the application is supposed to do. A children's educational tool producing adult content is an obvious mismatch. If a user can simply ask the model to repeat its instructions and it obliges, your confidential prompt is no longer confidential. Watch for responses that completely ignore the rules set up in your system prompt, or consistent patterns of nonsensical replies that suggest something's broken with context handling. These system-level failures indicate fundamental problems with how the application was configured."
         },
         {
           "number": 4,
-          "script": "So how do you actually spot when a model is behaving unsafely in a live application? There are a few warning signs worth knowing. First, if the model starts ignoring or contradicting the instructions you set up in the system prompt, that is a red flag. Similarly, if a user can simply ask the model to repeat its instructions and it obliges, your confidential prompt is no longer confidential. Watch out too for the model suddenly changing its tone or personality mid-conversation, or agreeing to do things it was specifically told to refuse. Another concerning pattern is when a user pushes back repeatedly and the model's responses actually become more harmful rather than holding firm. And finally, if you are seeing consistent nonsensical or completely off-topic replies, that often points to something going wrong with how the model is handling context. Recognising these signs early gives you a much better chance of catching problems before they affect real users."
+          "script": "Beyond system failures, you need to watch for concerning changes in how the model behaves during conversations. Pay attention to sudden changes in how the model sounds, as though it has adopted a different personality or shifted its apparent purpose mid-conversation. If a model starts giving unusually detailed guidance on something dangerous or harmful, that's a serious concern. Another troubling pattern is when a user pushes back repeatedly and the model's responses actually become more harmful rather than holding firm. These behavioral shifts often indicate that safety measures are being eroded through the conversation itself."
         },
         {
           "number": 5,
-          "script": "So how do you actually spot a model that's starting to behave unsafely? There are a few warning signs worth keeping in your mind. First, if the model begins ignoring the safety guidelines it was clearly following before, that's a red flag. Similarly, watch out for the model suddenly acting as though it has a different identity or purpose than the one it started with. Another sign is when a model that was previously declining certain requests stops doing so without any obvious reason. You should also be alert if sensitive or private information starts appearing in responses when nobody asked for it. And finally, pay attention to whether the outputs are gradually becoming more harmful over the course of a conversation, even in small steps. None of these things on their own are definitive proof of misuse, but together they paint a picture that something has gone wrong and deserves a closer look."
+          "script": "Some warning signs demand immediate attention because they indicate critical security failures. If your model stops refusing harmful requests entirely, something has gone fundamentally wrong with its safety systems. When sensitive or private information starts appearing in responses without being requested, you're looking at a serious data leak. Models that provide completely incorrect information with absolute confidence can mislead users in dangerous ways. Evidence that users have successfully bypassed all your established boundaries means your entire security model may be compromised and needs immediate review."
         },
         {
           "number": 6,
-          "script": "So how do you actually spot a model that's behaving unsafely? There are a few warning signs worth knowing. First, if a model starts ignoring its own safety guidelines and producing harmful or restricted content, that's a serious red flag. Similarly, if it suddenly starts acting like a character or persona it shouldn't be playing, something has likely gone wrong. Another concern is when a model leaks its internal system instructions, the private setup instructions it's supposed to keep confidential. Then there's what some people call \"never refusing\" behaviour, where the model agrees to absolutely everything without any pushback, which suggests its guardrails have been removed or bypassed. And finally, watch out for confident but completely wrong answers, sometimes called hallucinations. The model sounds certain, but the information is simply incorrect. Recognising these patterns early is really important, because each one can indicate that the model is being misused or has been compromised in some way."
+          "script": "Certain patterns of misuse appear repeatedly across different applications, and recognizing them helps you spot problems early. The 'never refusing' behavior, where a model agrees to absolutely everything without any pushback, suggests its guardrails have been removed or bypassed. Watch for unauthorized role-playing where the model acts as characters it shouldn't be portraying. When models leak their internal system instructions - the private setup they're supposed to keep confidential - that's a clear sign of compromise. Models that ignore conversation history entirely may have broken context handling that makes them unpredictable and potentially dangerous."
         },
         {
           "number": 7,
-          "script": "So, now we get to the practical side of things: what can you actually do to protect your application from misuse? The first habit to build is checking whatever a user sends before it ever reaches the model. Don't assume the input is safe or sensible. From there, you want to be clear about what the model is allowed to output, setting firm boundaries so it doesn't wander into territory it shouldn't. It's also really worth keeping an eye on how the model behaves over time, because unusual patterns in its responses can be an early warning sign that something isn't right. On top of that, make sure you're regularly testing the awkward, unexpected scenarios, the edge cases that real users will inevitably stumble into. And finally, keep the model's permissions as limited as possible. Only give it access to what it genuinely needs. These five practices together form a solid foundation for building responsibly from the very start."
+          "script": "Building secure AI applications starts with robust technical controls. Always validate user inputs before they reach your model - don't assume anything is safe or sensible. Set clear boundaries on what your model can output and implement content filtering to catch problematic responses. Log unusual behavior patterns because they can be early warning signs of emerging problems. Regular testing of edge cases and adversarial scenarios helps you discover vulnerabilities before malicious users do. Keep your model's permissions as limited as possible, giving it access only to what it genuinely needs to function."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with a few core principles to keep in mind as you build with AI models. First, always check what users are actually sending to your model before it gets processed. Don't assume the input is safe or sensible. Second, test your application early and often, specifically looking for ways the model might behave in ways you didn't intend. Third, be cautious about what your model is allowed to do by default. Start with the minimum permissions necessary and expand from there only when needed. Fourth, don't just trust that the model's output is fine because it looks reasonable. Review it before it goes anywhere near real users. And finally, this isn't a one-time job. The landscape changes, models get updated, and new risks emerge, so revisit your safeguards on a regular basis. Keep these principles close and you'll be in a much stronger position to develop AI applications responsibly."
+          "script": "Responsible AI development doesn't end at deployment - it requires ongoing vigilance and adaptation. Don't just trust that model outputs are appropriate because they look reasonable; implement systematic review processes before content reaches users. The threat landscape evolves constantly, with new attack methods and model behaviors emerging regularly, so your safeguards must evolve too. Document incidents and lessons learned to build institutional knowledge. Most importantly, integrate security reviews into every stage of your development lifecycle, making safety a core consideration rather than an afterthought. This continuous responsibility framework helps ensure your applications remain safe as they scale."
         }
       ]
     }

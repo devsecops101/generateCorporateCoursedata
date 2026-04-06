@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Public Service Delivery: Reliability Risks",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "When automated decisions impact citizens directly.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how public services operate, along with a general curiosity about technology and its role in government or community organisations, is all you need to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key reliability risks that arise when AI systems are used to make or support decisions in public services, and explain how these risks can directly affect citizens who depend on government and non-profit organisations. You will also be able to apply practical frameworks to recognise when automated decision-making may produce unfair, inaccurate, or harmful outcomes, helping you to advocate for more responsible and transparent use of AI in your organisation.",
+  "lessons": [
+    {
+      "lesson title": "AI in Public Service Delivery: Reliability Risks",
+      "order": 1,
+      "Description": "When public services rely on AI systems to make or support decisions, the consequences of those systems failing can be significant for the people who depend on them. This lesson introduces the key reliability risks that arise when AI is used in public sector contexts, from benefit assessments to healthcare triage and beyond. You will explore what can go wrong when automated systems produce errors, behave inconsistently, or are applied in situations they were not designed to handle. The lesson is aimed at those with little or no prior technical knowledge, and focuses on practical understanding rather than complex theory. By the end, you will have a clearer picture of why reliability matters so much when AI decisions directly affect citizens' lives and access to services.",
+      "status": "draft",
+      "content": "When automated decisions impact citizens directly.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Public Services Today",
+          "subtitle": "From automation to accountability in government.",
+          "slidecontent": "• AI handles real government tasks\n• Benefits, welfare, licensing, permits\n• Decisions affect real people\n• Errors carry serious consequences\n• Accountability gaps are growing"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When Automation Affects Real People",
+          "subtitle": "Stakes are high for every citizen.",
+          "slidecontent": "• Automated systems now make or influence decisions about benefits, housing, and healthcare\n• Real citizens face real consequences\n• A miscalculation in a welfare algorithm can leave a family without income for weeks\n• Errors are not abstract, they affect vulnerable people most\n• Public trust depends on these systems working correctly every time"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When Systems Fail Citizens",
+          "subtitle": "The human cost of system errors.",
+          "slidecontent": "• Benefits wrongly denied due to a misread data field\n• Vulnerable people left without support while appeals take weeks\n• Real harm\n• Errors compounded when no human review is built into the process\n• Trust in public services damaged, sometimes permanently"
+        },
+        {
+          "number": 4,
+          "slidetitle": "When Systems Fail Citizens",
+          "subtitle": "The human cost of system errors.",
+          "slidecontent": "• Benefits wrongly denied due to a miscalculated eligibility score\n• Vulnerable people left without support\n• Errors in automated systems can take weeks or months to correct through official channels\n• Appeals processes often assume human decision-making, leaving citizens confused about who to challenge\n• Real harm, not just inconvenience"
+        },
+        {
+          "number": 5,
+          "slidetitle": "When Errors Affect Real People",
+          "subtitle": "The human cost of system failures.",
+          "slidecontent": "• Benefits delayed or denied\n• Wrong people flagged\n• Appeals ignored or lost\n• Real harm, real people\n• Trust in services broken"
+        },
+        {
+          "number": 6,
+          "slidetitle": "When Systems Fail Citizens",
+          "subtitle": "Real failures, real human consequences.",
+          "slidecontent": "• Benefits wrongly denied\n• Families left without support\n• Errors hard to challenge\n• Bias baked into decisions\n• Real people, real harm"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to manage AI failures",
+          "slidecontent": "• Always keep a human in the loop for high risk decisions affecting citizens\n• Test AI systems regularly against real-world edge cases, not just ideal conditions\n• Document failures\n• Establish clear escalation paths so staff know exactly what to do when something goes wrong\n• Communicate openly with affected citizens when an automated decision is under review\n• Start small, pilot carefully, then scale"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for responsible AI use",
+          "slidecontent": "• AI fails, plan ahead\n• Check outputs regularly\n• Citizens deserve reliable services\n• Errors cause real harm\n• Always keep humans involved\n• Review, improve, repeat"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in public service delivery, and specifically the reliability risks that come with it. Artificial intelligence is no longer just a concept for the future. It is already being used right now by governments and public bodies to handle real, consequential tasks. We are talking about things like processing benefit claims, assessing welfare eligibility, issuing licences, and managing permits. These are not abstract functions. They directly affect people's lives, their income, their housing, their ability to work. So when something goes wrong, the consequences can be serious. A wrong decision is not just an inconvenience. It can mean someone loses financial support they desperately need. And here is where things get complicated. As AI takes on more of these decisions, it is becoming increasingly unclear who is actually responsible when errors occur. That accountability gap is growing, and it is something we really need to understand. So let us dig into exactly what that means throughout this course."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by thinking about what's actually at stake here. Automated systems are no longer just tools that help with admin tasks behind the scenes. They are now making, or at least heavily influencing, decisions that directly affect people's lives. We're talking about whether someone receives their benefits, whether a family gets access to housing support, or whether a patient is flagged for urgent healthcare. These are not small things. If an algorithm gets something wrong, a real person could go without income for weeks, or miss out on support they genuinely need. And it's worth noting that the people most likely to be harmed by these errors are often the most vulnerable in our society, those who can least afford to wait for a correction. So when we talk about reliability risks in AI, we're not talking about abstract technical problems. We're talking about public trust, and whether citizens can rely on the services that are meant to support them."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what actually happens when these systems get it wrong, because the consequences aren't abstract. Imagine someone's benefits are stopped because an automated system misread a single data field. That person now has no income. They submit an appeal, but it takes weeks to process, and in the meantime they're struggling to pay rent or put food on the table. That's real harm to a real person. And here's what makes it worse: if there's no human review built into the process, errors don't just sit there quietly. They get compounded. One wrong decision can trigger another, and another. Beyond the individual impact, there's something broader at stake too. When people experience this kind of failure from a public service, trust is damaged, and that trust is very hard to rebuild. So reliability in AI isn't just a technical concern. It's a matter of fairness and dignity for the people these services are meant to support."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what actually happens when these systems get it wrong, because the consequences are very real for the people involved. Imagine someone who genuinely qualifies for financial support, but an automated system has miscalculated their eligibility score and their claim is denied. They may be a vulnerable person who truly depends on that help. And here is where it gets particularly difficult: fixing the mistake is rarely quick. Corrections can take weeks, sometimes months, to work through official channels. On top of that, most appeals processes were designed with human decision-makers in mind, so when a citizen tries to challenge an automated decision, they often have no idea who or what they are actually challenging. The whole experience becomes deeply confusing and distressing. This is not just a minor inconvenience or a technical glitch. For some people, it means going without food, heating, or essential care. The harm is genuine, and that is why reliability in these systems matters so much."
+        },
+        {
+          "number": 5,
+          "script": "So let's think about what actually happens when these systems get things wrong, because it is not abstract. Real people are on the receiving end. Someone might be waiting on a benefit payment that gets delayed or denied because an algorithm flagged their case incorrectly. A person who has done nothing wrong could find themselves marked as suspicious or non-compliant by a system that simply made a mistake. And when they try to challenge that decision, their appeal might get lost in a process that was never properly designed to handle errors in the first place. These are not edge cases. They represent genuine harm to people who are often already in vulnerable situations. And beyond the individual impact, there is a broader consequence: when people experience this, they lose trust in public services altogether. That erosion of trust is incredibly difficult to rebuild, and it is one of the most serious risks we need to take seriously when deploying AI in this space."
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what happens when these systems go wrong in practice, because this isn't abstract. When an AI system makes a mistake in a public service context, real people suffer the consequences. Someone might be wrongly told they don't qualify for a benefit they genuinely need, or a family in crisis gets no support because an algorithm flagged them incorrectly. And here's what makes it worse: these errors are often incredibly difficult to challenge. People may not even know a machine made the decision, let alone how to appeal it. We also know that some AI systems can reflect and even amplify existing biases, meaning certain groups are more likely to be treated unfairly. These aren't edge cases or theoretical risks. They are things that have already happened, in this country and around the world. So as we go through this course, I want us to keep that human reality front and centre."
+        },
+        {
+          "number": 7,
+          "script": "So, knowing the risks is one thing, but what do we actually do about them? A few practical principles can make a real difference. First, for any decision that significantly affects someone's life, keep a human involved. Don't let the system have the final word on its own. Second, test your AI regularly, and not just in comfortable, ideal conditions. Throw real-world messy scenarios at it and see how it copes. When things do go wrong, and they will, write it down. Documenting failures helps you spot patterns and improve over time. Make sure your staff know exactly who to call and what to do when something breaks down. And if a citizen's case is being reviewed or queried, tell them. Transparency builds trust. Finally, resist the urge to roll everything out at once. Start with a small pilot, learn from it, and then scale up gradually. Small steps, done carefully, go a long way."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The most important thing to hold onto from this lesson is that AI is not infallible. It will make mistakes, so you need to have a plan in place before that happens, not after. That means checking what the system produces on a regular basis, because errors can creep in quietly over time. And remember who is on the receiving end of these services. These are real people relying on public services to work properly, and when things go wrong, the consequences are not just technical, they are human. That is why keeping people involved in the process is so essential. Humans need to remain in the loop, making judgements, catching problems, and taking responsibility. Finally, this is not a one-off exercise. Reviewing how your AI tools are performing and making improvements as you go is simply part of the job now. Build that habit, and you will be in a much stronger position."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Government employees, public service managers, civil servants, policy officers, non-profit staff, community organization workers, public administration professionals, local government officials, social workers, case managers",
+  "Team or Dept this is for": "Government Affairs, Public Administration, Policy Development, Social Services, Human Services, Operations, Risk Management, Compliance, Non-Profit Management"
+}

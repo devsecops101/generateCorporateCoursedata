@@ -1,0 +1,107 @@
+{
+  "Course Title": "Training Data Risks in Manufacturing AI",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "Poor datasets leading to faulty models and unsafe outcomes.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with manufacturing processes in any sector (such as chemicals, food production, or automotive) and a general awareness of what artificial intelligence or machine learning tools are, though no technical expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify common training data risks in manufacturing AI systems and explain how poor datasets can lead to faulty models and unsafe outcomes across sectors such as chemicals, pharmaceuticals, and automotive production. You will also be able to apply basic strategies to recognise and reduce data quality issues, helping to support safer and more reliable AI use within your manufacturing environment.",
+  "lessons": [
+    {
+      "lesson title": "Training Data Risks in Manufacturing AI",
+      "order": 1,
+      "Description": "This lesson introduces the key risks that arise when artificial intelligence systems in manufacturing are trained on poor or unreliable data. You will explore how flawed datasets can lead to inaccurate predictions, faulty quality control, and potentially unsafe outcomes on the factory floor. We will look at real-world examples of how data problems (such as missing values, biased samples, or outdated records) can undermine the performance of AI-powered systems. By the end of this lesson, you will be able to identify common warning signs of poor training data and understand why getting the data right is a critical first step in any manufacturing AI programme.",
+      "status": "draft",
+      "content": "Poor datasets leading to faulty models and unsafe outcomes.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Training Data Risks: An Introduction",
+          "subtitle": "Why data quality shapes AI safety",
+          "slidecontent": "• Bad data, unsafe AI\n• Garbage in, garbage out\n• Errors spread through production\n• Real factories, real consequences\n• Data quality is safety"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Training Data Risks",
+          "subtitle": "What shapes AI behaviour in manufacturing",
+          "slidecontent": "• Garbage in, garbage out\n• Biased data skews predictions\n• Missing data creates blind spots\n• Old data misses new patterns\n• Errors compound over time"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Garbage In, Garbage Out",
+          "subtitle": "Flawed data produces unreliable AI outputs.",
+          "slidecontent": "• Bad data, bad results\n• Errors multiply quickly\n• Models learn your mistakes\n• Rubbish in, rubbish out\n• Quality matters from the start"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Biased Data, Biased Outcomes",
+          "subtitle": "Skewed inputs skew every model output.",
+          "slidecontent": "• Training data collected mostly from one shift, machine type, or product line skews the model's understanding of normal\n• Gaps in representation mean entire failure modes go unlearned\n• Biased outputs\n• A model trained on clean-running equipment will underestimate fault frequency in older or poorly maintained machinery\n• Even small, consistent gaps in the source data compound into large prediction errors over time"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias in Manufacturing Datasets",
+          "subtitle": "Where skewed data skews decisions too.",
+          "slidecontent": "• Old data, outdated patterns\n• One factory, skewed results\n• Missing shifts or demographics\n• Faults go undetected longer\n• Biased input, biased output"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Training Data Risks",
+          "subtitle": "Strategies to safeguard your AI models",
+          "slidecontent": "• Audit your training datasets regularly for gaps, duplicates, and labelling errors\n• Diverse data\n• Include edge cases and rare fault conditions to avoid blind spots in your models\n• Establish clear data governance policies so teams know who owns and validates each dataset\n• Test models against real production data before full deployment\n• Document every data source, version, and change for full traceability"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Training Data Risks",
+          "subtitle": "Practical Steps to Protect Your Models",
+          "slidecontent": "• Audit your training datasets regularly for gaps, duplicates, and labelling errors\n\n• Diverse data sources\n\n• Involve frontline operators in validating whether data reflects real production conditions\n\n• Version control for every dataset, so you can trace problems back to their source\n\n• Small, clean datasets often outperform large, messy ones\n\n• Establish a clear review process before any new data is added to a model's training pipeline"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for safer AI systems",
+          "slidecontent": "• Garbage in, garbage out: poor training data produces unreliable AI systems\n• Label your data carefully\n• Real-world manufacturing conditions must be reflected in your datasets, not just ideal scenarios\n• Bias in training data leads to biased, potentially unsafe decisions on the factory floor\n• Start small, audit often\n• Review and refresh your training data regularly as processes and equipment change"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on training data risks in manufacturing AI. Now, you might have heard the phrase \"garbage in, garbage out,\" and in the world of AI, that really does sum things up rather well. The data you use to train an AI system shapes everything it learns, every decision it makes, and every action it takes on the factory floor. If that data is flawed, incomplete, or misleading, the AI will not magically fix those problems on its own. It will learn from them, repeat them, and potentially spread those errors right across your production process. And in a manufacturing environment, that is not just an efficiency problem. It can become a genuine safety issue, affecting equipment, products, and people. So throughout this lesson, we are going to explore why data quality is not simply a technical concern for your IT team. It is a core part of keeping your operations safe and reliable."
+        },
+        {
+          "number": 2,
+          "script": "So before we go any further, let's get clear on what we actually mean by training data risks. At its heart, the idea is simple: the data you feed into an AI system shapes everything it learns and every decision it makes. If that data is poor quality, the AI's outputs will be poor quality too. But it goes beyond just obvious errors. If your historical data reflects old working patterns or skewed conditions, the AI will learn those biases and carry them forward into its predictions. If certain scenarios are simply missing from your dataset, the AI has no way of knowing those situations even exist, which creates dangerous blind spots. And if you're relying on data that's years out of date, the AI won't recognise newer equipment behaviours or updated processes. Perhaps most importantly, small problems in training data don't stay small. They tend to multiply as the AI applies flawed logic again and again over time. So getting the data right from the start really does matter."
+        },
+        {
+          "number": 3,
+          "script": "There's an old saying in computing that's just as relevant today as it ever was: garbage in, garbage out. And when it comes to AI in manufacturing, this principle is absolutely critical. If you feed your AI model poor quality data, full of errors, inconsistencies, or gaps, then the outputs it produces will be just as unreliable. The tricky part is that mistakes don't just sit there quietly. They get amplified. The model learns from whatever you give it, so if your training data contains bad patterns or inaccurate records, the AI will actually learn to replicate those problems at scale. Think of it like teaching a new apprentice using a faulty manual. They'll follow the instructions faithfully, but the results will be wrong every single time. This is why data quality isn't something you can fix later down the line. It has to be a priority right from the very beginning of any AI project."
+        },
+        {
+          "number": 4,
+          "script": "Here's something that catches a lot of teams off guard. The model is only ever as good as the data you feed it. If your training data comes mostly from one shift, one machine type, or one product line, the model builds its entire understanding of \"normal\" around that narrow slice of reality. Anything outside that slice becomes invisible to it. So whole categories of faults simply go unlearned. A practical example: if you train a model on your newest, best-maintained equipment, it will genuinely struggle to spot problems on older or rougher-running machinery, because it has never seen what that looks like. And here is the part that makes this particularly tricky. The gaps do not have to be dramatic to cause serious problems. Small, consistent blind spots in your source data quietly compound over time, and what starts as a minor skew in the inputs eventually produces large, costly errors in the outputs."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the most common problems we see with manufacturing AI is bias in the training data, and it can creep in from several directions. Imagine you train a model using data that's five or ten years old. The machinery has changed, the processes have changed, but the model is still working from outdated patterns. Or perhaps all your training data comes from a single factory. That model might perform brilliantly there, but struggle everywhere else because it's never seen how other sites operate. There's also the issue of gaps in the data, missing night shifts, missing certain operators, missing particular conditions. When the model hasn't learned from those situations, it simply won't recognise faults that occur within them, and that means problems go undetected for longer than they should. The core principle here is straightforward: if the data going in is skewed, the decisions coming out will be skewed too. Bias in, bias out."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what you can actually do about them. The good news is that most training data problems are preventable with a bit of discipline. Start by regularly auditing your datasets, checking for gaps, duplicates, and mislabelled examples, because errors that creep in early will cause headaches later. Make sure your data is diverse and that it includes rare or unusual fault conditions, not just the everyday scenarios, so your model is prepared for the unexpected. It is also worth putting clear governance policies in place, so everyone on your team knows who is responsible for managing and validating each dataset. Before you roll anything out fully, always test your model against real production data rather than relying solely on your training set. And finally, keep thorough records of every data source, every version, and every change you make. That traceability will save you an enormous amount of time if something goes wrong down the line."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do about them. The good news is that most of these problems are preventable with some straightforward habits. Start by auditing your datasets regularly, looking for gaps, duplicates, and mislabelled entries, because errors have a way of creeping in over time. Make sure you're pulling data from a variety of sources rather than relying on just one, and crucially, involve your frontline operators in the process. They're the ones who know whether the data actually reflects what happens on the shop floor. It's also worth keeping version control on every dataset, so if something goes wrong, you can trace it back to the source. And here's something that surprises a lot of people: a smaller, well-curated dataset will often outperform a much larger, messier one. Finally, put a clear review process in place before any new data enters your training pipeline. Prevention really is better than cure here."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important idea from this lesson is that the quality of your AI system depends entirely on the quality of the data you train it on. If that data is messy, mislabelled, or only reflects perfect operating conditions, your AI will struggle the moment things get a little unpredictable on the factory floor. And if your data contains hidden biases, those biases will show up in the decisions your system makes, which in a manufacturing environment can create real safety risks. The good news is that you do not need to get everything right immediately. Start with a smaller, well-curated dataset, check it regularly, and build from there. Also remember that your factory is not static. Machines age, processes change, and your training data needs to keep pace with that. Keep reviewing and refreshing it over time, and you will be in a much stronger position to build AI systems you can actually trust."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Production managers, quality control supervisors, plant managers, manufacturing engineers, operations managers, process engineers, factory supervisors, production planners",
+  "Team or Dept this is for": "Manufacturing, Operations, Quality Assurance, Production, Plant Operations, Process Engineering"
+}

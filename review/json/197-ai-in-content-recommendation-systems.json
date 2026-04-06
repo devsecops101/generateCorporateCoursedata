@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "How Recommendation Algorithms Work",
-          "subtitle": "Matching Content to User Behaviour Patterns",
-          "slidecontent": "• Recommendation algorithms analyse your past behaviour (clicks, watch time, likes) to predict what you will engage with next\n• They group users into clusters based on shared interests and habits\n• Content is ranked by predicted engagement, not quality or accuracy\n• Popularity matters too\n• The more you interact, the more the system narrows its view of who you are"
+          "slidetitle": "The Data Behind Recommendations",
+          "subtitle": "What information systems use to predict your preferences",
+          "slidecontent": "• Platforms track clicks, watch time, scroll speed, likes, shares, and skips\n• Purchase history, search terms, and time of day usage patterns\n• Device type, location data, and demographic information\n• Social connections and what your network engages with\n• External data from browsing history and third-party sources\n• All this data creates detailed user profiles for targeting"
         },
         {
           "number": 3,
-          "slidetitle": "Filter Bubbles and Echo Chambers",
-          "subtitle": "When algorithms narrow what we see",
-          "slidecontent": "• Algorithms favour familiar content\n• New ideas get filtered out\n• Your feed becomes an echo\n• Diversity shrinks over time\n• Bias quietly goes unchallenged"
+          "slidetitle": "Algorithmic Bias in Action",
+          "subtitle": "How AI systems inherit and amplify human prejudices",
+          "slidecontent": "• AI learns from historical data that reflects past discrimination\n• Biased training data leads to biased recommendations\n• Certain groups may be systematically under-represented or misrepresented\n• Popular content gets amplified regardless of accuracy or quality\n• Feedback loops strengthen existing biases over time\n• Users rarely see content that challenges algorithmic assumptions about them"
         },
         {
           "number": 4,
-          "slidetitle": "Filter Bubbles and Echo Chambers",
-          "subtitle": "When Algorithms Narrow Our World View",
-          "slidecontent": "• Algorithms show you similar content\n• You see less opposing views\n• Beliefs get quietly reinforced\n• Diversity of ideas shrinks\n• Your world view narrows gradually"
+          "slidetitle": "The Echo Chamber Effect",
+          "subtitle": "When personalisation becomes isolation",
+          "slidecontent": "• Algorithms favour familiar content that matches past behaviour\n• New ideas and opposing viewpoints gradually disappear from feeds\n• Users encounter fewer diverse perspectives over time\n• Beliefs get reinforced without challenge or debate\n• The curated feed feels normal but represents a narrow slice of reality"
         },
         {
           "number": 5,
-          "slidetitle": "Filter Bubbles and Echo Chambers",
-          "subtitle": "When Algorithms Narrow Our World View",
-          "slidecontent": "• Recommendation algorithms learn from your past behaviour and keep serving similar content\n• Over time, this creates a \"filter bubble\" where you rarely encounter opposing views\n• Echo chambers form\n• Users may mistake their curated feed for a complete picture of reality\n• Personalisation that feels helpful can quietly limit exposure to diverse perspectives"
+          "slidetitle": "Engagement-Driven Manipulation",
+          "subtitle": "How platforms use psychology to maximise user time",
+          "slidecontent": "• Systems optimise for clicks, not truth or user wellbeing\n• Emotional content (anger, fear, outrage) drives higher engagement\n• Variable reward schedules create addictive browsing patterns\n• Infinite scroll and autoplay features reduce conscious choice\n• Notification timing designed to interrupt and re-engage users\n• Commercial incentives often conflict with user interests"
         },
         {
           "number": 6,
-          "slidetitle": "Filter Bubbles and Echo Chambers",
-          "subtitle": "When Algorithms Narrow Our World View",
-          "slidecontent": "• Algorithms show you similar content\n• New ideas get filtered out\n• Your feed becomes an echo chamber\n• Opinions feel more extreme over time\n• Diversity of thought shrinks"
+          "slidetitle": "Real-World Impact Across Industries",
+          "subtitle": "How recommendation bias affects different media sectors",
+          "slidecontent": "• News platforms may promote sensational stories over balanced reporting\n• Gaming platforms can exploit addiction-prone players\n• Advertising systems may discriminate in job or housing ads\n• Streaming services shape cultural trends through algorithm choices\n• Publishing platforms affect which voices get heard\n• Social media recommendations influence political opinions and social movements"
         },
         {
           "number": 7,
-          "slidetitle": "Addressing Bias and Manipulation",
-          "subtitle": "Reducing Unfair Influence in AI Systems",
-          "slidecontent": "• AI learns from biased data\n• Bias shapes what users see\n• Echo chambers form quickly\n• Diverse content reduces bias\n• Audit systems regularly"
+          "slidetitle": "Strategies for Fairer Systems",
+          "subtitle": "Reducing bias and manipulation in AI recommendations",
+          "slidecontent": "• Regular algorithmic audits to identify and correct bias patterns\n• Diverse training data and inclusive development teams\n• Transparency features that explain why content was recommended\n• User controls for adjusting recommendation preferences\n• Deliberate injection of diverse perspectives to break filter bubbles\n• Ethical guidelines that balance engagement with user wellbeing"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core lessons to carry forward",
-          "slidecontent": "• Recommendation systems learn from your behaviour, which means they can quietly narrow what you see over time\n• Bias in, bias out\n• Echo chambers form gradually, often without users realising anything has changed\n• Platforms have commercial incentives that do not always align with showing you a balanced or accurate picture\n• Small, deliberate choices (seeking out opposing views, clearing watch history) can disrupt the cycle\n• As a next step, audit one platform you use regularly and notice what it never shows you"
+          "slidetitle": "Your Next Steps",
+          "subtitle": "Practical ways to recognise and respond to algorithmic influence",
+          "slidecontent": "• Notice what types of content never appear in your feeds\n• Actively seek out opposing viewpoints and diverse sources\n• Use private browsing or clear your watch history periodically\n• Question why certain content was recommended to you\n• Be aware of emotional manipulation tactics in your feeds\n• Remember that your personalised experience is not the complete picture of reality"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So how do these recommendation systems actually work? At their core, they are constantly watching what you do. Every click, every video you finish, every post you like or scroll past, all of that behaviour is being recorded and analysed. The system then looks for patterns, grouping you together with other users who behave in similar ways. Based on that, it predicts what you are likely to engage with next and ranks content accordingly. And here is something really important to understand: the system is not asking whether content is accurate or high quality. It is asking whether you will click on it. Popular content also gets a boost, simply because lots of other people engaged with it. Now, the more you interact, the more the system builds a very specific picture of who it thinks you are. Over time, that picture can become quite narrow. That idea is something we will keep coming back to throughout this course."
+          "script": "So what exactly are these systems watching? It's much more than you might think. Beyond the obvious clicks and likes, platforms track how fast you scroll, when you pause videos, what you search for, and even what time of day you're most active. They know what device you're using, where you are, and often details about your age and interests. Many platforms also look at your social connections and what your network engages with, assuming you might like similar content. Some even pull in data from your browsing history on other sites. All of this information gets combined to create incredibly detailed profiles that predict not just what you might like, but when you're most likely to engage with it. The depth of this data collection is what makes modern recommendation systems so powerful, and so potentially problematic."
         },
         {
           "number": 3,
-          "script": "Now, one of the most important things to understand about recommendation algorithms is what happens over time. These systems are designed to show you content you already enjoy, which sounds helpful, right? But here is the problem. The more you engage with certain ideas or viewpoints, the more the algorithm learns to serve you similar content. Gradually, anything outside that comfort zone gets pushed further and further away. Your feed starts to feel like a room where everyone agrees with you, and that is what we call a filter bubble or an echo chamber. New perspectives rarely get a look in, and because everything you see tends to confirm what you already believe, any biases you hold simply go unchallenged. You are not necessarily aware this is happening, which is what makes it so significant. As we explore recommendation systems throughout this course, keeping this effect in mind will help you think more critically about the content these tools surface."
+          "script": "Now let's talk about one of the biggest problems with AI recommendation systems: they inherit and amplify human bias. When these systems learn from historical data, they pick up all the prejudices and unfair patterns that were already there. So if certain groups were historically underrepresented in media, the AI will continue that trend. If biased content was popular in the past, the algorithm will keep promoting similar material. And here's where it gets really concerning: these systems create feedback loops. When biased recommendations get clicks, the system sees that as success and doubles down, making the bias even stronger over time. Users end up seeing a version of the world that confirms the algorithm's assumptions about them, whether those assumptions are fair or accurate or not."
         },
         {
           "number": 4,
-          "script": "Now, here's where things get a little uncomfortable. When recommendation algorithms keep showing you content that's similar to what you've already engaged with, something subtle starts to happen. You naturally see less and less of the views and opinions that challenge your own. And because the algorithm is quietly reinforcing what you already believe, it can feel like everyone around you thinks the same way. But that's not reality, that's the filter bubble at work. Over time, the range of ideas and perspectives you're exposed to genuinely shrinks, and your understanding of the world starts to narrow without you even noticing it. It's a bit like only ever reading one newspaper for years and assuming it represents the full picture. The algorithm isn't doing this to be malicious, it's simply doing what it was designed to do, keep you engaged. But it's worth being aware of the effect that has on how we see the world."
+          "script": "Here's where things get genuinely concerning. When recommendation algorithms keep showing you content that matches your past behaviour, they gradually start filtering out anything that challenges your existing views. Over time, your feed becomes what researchers call an echo chamber, a space where the same ideas bounce around and get reinforced again and again. You rarely encounter opposing viewpoints or perspectives that might broaden your understanding. The tricky part is that this happens so gradually, most people never notice it's occurring. Your personalised feed feels perfectly normal, maybe even well-informed, but it's actually a very narrow slice of reality. This isn't necessarily intentional manipulation, but it's a serious side effect of personalisation that can genuinely limit how we understand the world around us."
         },
         {
           "number": 5,
-          "script": "So here's where things get a little uncomfortable. Recommendation algorithms are designed to learn what you like and keep giving you more of it. That sounds great on the surface, but over time it creates what researchers call a \"filter bubble.\" Essentially, the algorithm quietly starts hiding content that doesn't match your existing preferences or beliefs. And when lots of people with similar views are all being fed the same kind of content, you get an echo chamber, where those views just keep bouncing back and forth, getting reinforced without any real challenge. The tricky part is that most users don't even notice this is happening. Your feed feels perfectly normal, maybe even well-informed, but it's actually a very curated slice of reality. So personalisation, which is meant to be helpful, can end up quietly narrowing your world view without you ever realising it. That's a genuinely important thing to be aware of."
+          "script": "Now we need to address something uncomfortable: these platforms have become quite sophisticated at manipulating human psychology to keep you engaged. The algorithms have learned that emotional content, especially things that make you angry or outraged, generates much more engagement than balanced, thoughtful pieces. They use variable reward schedules, like a slot machine, where you never know if the next swipe will show you something interesting. Features like infinite scroll and autoplay remove natural stopping points, making it harder to consciously decide when to quit. Even the timing of notifications is carefully designed to interrupt you at moments when you're likely to return to the app. None of this is necessarily malicious, but it's important to understand that keeping you engaged, not serving your best interests, is the primary goal driving these design choices."
         },
         {
           "number": 6,
-          "script": "Now, here's where things get a little uncomfortable. When recommendation algorithms keep showing you content similar to what you've already engaged with, they gradually start filtering out anything that challenges your existing views. It's a bit like only ever reading one newspaper for the rest of your life. Over time, your feed becomes what's often called an echo chamber, a space where the same ideas bounce around and get reinforced, again and again. And because you're rarely exposed to different perspectives, your own opinions can start to feel more certain, more absolute, even more extreme, simply because nothing is pushing back against them. This is what researchers refer to as a filter bubble, and it's one of the most significant criticisms of AI-driven recommendation systems. The algorithm isn't trying to manipulate you, it's just doing its job, but the side effect is a gradual narrowing of the world you see online."
+          "script": "These issues play out differently across various media industries, and the impacts can be quite serious. News platforms, for example, have found that sensational or polarising stories generate much more engagement than balanced reporting, which can skew what people see about current events. Gaming platforms use recommendation systems to identify and target players who might be prone to addictive spending patterns. In advertising, AI systems have been caught discriminating against certain groups when showing job listings or housing ads. Streaming services shape cultural trends by deciding which content gets promoted, while publishing platforms determine which voices get heard in online discussions. And of course, social media recommendations can significantly influence political opinions and even affect the outcome of elections. Understanding these industry-specific impacts helps us see why the ethical implications of recommendation systems extend far beyond just entertainment."
         },
         {
           "number": 7,
-          "script": "Now, one of the most important challenges we need to talk about is bias. When an AI system learns from historical data, it picks up the patterns and prejudices already baked into that data. So if certain types of content were historically favoured, the AI will keep pushing more of the same. Over time, this shapes what users actually see, often without them realising it. And here is where it gets a bit concerning: echo chambers can form surprisingly quickly. Users end up in a bubble, only ever seeing content that reinforces what they already believe or enjoy. So what can we do about it? Well, two things really help. First, deliberately introducing more diverse content into the recommendations breaks that cycle and gives users a broader experience. Second, and this is crucial, organisations need to audit their systems on a regular basis. That means actively checking for bias and correcting it before it causes real harm."
+          "script": "So what can be done to make these systems fairer? There are several promising approaches, though implementing them requires genuine commitment from platform companies. First, regular algorithmic audits can help identify bias patterns before they cause serious harm. Having diverse teams build these systems and using more representative training data helps reduce built-in prejudices. Some platforms are starting to offer transparency features that explain why certain content was recommended, giving users more insight into how the system works. User controls that let people adjust their recommendation preferences can help break algorithmic assumptions. Deliberately injecting diverse perspectives into recommendations, even when they might get less engagement, can help combat filter bubbles. But perhaps most importantly, platforms need ethical guidelines that balance engagement with user wellbeing, even when that means sacrificing some profits."
         },
         {
           "number": 8,
-          "script": "So let's pull together the key ideas from this lesson. Recommendation systems are constantly learning from what you click, watch, and ignore, and over time that can quietly shrink the range of content you actually see. Remember the principle: bias in, bias out. If the data feeding these systems reflects skewed patterns, the recommendations will too. Echo chambers tend to creep up on people gradually, so most users never notice it happening. It's also worth keeping in mind that platforms are businesses, and their goals do not always line up with giving you a well-rounded or accurate view of the world. The good news is that small, conscious actions, like actively seeking out different perspectives or resetting your watch history, can genuinely disrupt those patterns. So here is something practical to try: pick one platform you use regularly and ask yourself what it never seems to show you. That question alone can be quite revealing."
+          "script": "So what can you do with this knowledge? Start by paying attention to what never appears in your feeds. If you only ever see political content from one perspective, or if certain types of voices seem to be missing, that's your filter bubble at work. Make a conscious effort to seek out different viewpoints and diverse sources, even when they're not recommended to you. Occasionally clear your watch history or use private browsing to see what the platform shows you without all that personalisation data. When something appears in your feed, ask yourself why the algorithm might have chosen it for you. Be especially wary of content that seems designed to make you angry or outraged, as that's often a sign of engagement manipulation. Most importantly, remember that your personalised experience is not the complete picture of reality. The more conscious you become of how these systems work, the better equipped you'll be to use them as tools rather than letting them unconsciously shape your worldview."
         }
       ]
     }

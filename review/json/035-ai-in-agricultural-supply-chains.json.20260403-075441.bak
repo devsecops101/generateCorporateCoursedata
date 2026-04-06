@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Agricultural Supply Chains",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Risks across logistics, storage, and distribution systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with agricultural supply chain operations, such as logistics, storage, or distribution, along with a general curiosity about how technology is reshaping the sector, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks present across agricultural logistics, storage, and distribution systems, and explain how AI technologies are being applied to address these challenges. You will also apply foundational AI concepts to real-world agricultural supply chain scenarios, helping you to recognise opportunities for greater efficiency and resilience in your own professional context.",
+  "lessons": [
+    {
+      "lesson title": "AI in Agricultural Supply Chains",
+      "order": 1,
+      "Description": "This lesson introduces learners to the ways artificial intelligence is being applied across agricultural supply chains, with a focus on the risks that can arise in logistics, storage, and distribution systems. You will explore how AI tools are used to monitor and manage the movement of agricultural goods, from farm to end consumer, and where things can go wrong when these systems fail or are misused. The lesson is designed for those who are new to the topic, so no prior technical knowledge is required. By the end, you will have a clearer understanding of the practical challenges and considerations that come with adopting AI in this sector.",
+      "status": "draft",
+      "content": "Risks across logistics, storage, and distribution systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introduction to AI in Agriculture",
+          "subtitle": "Transforming farms through intelligent technology",
+          "slidecontent": "• AI is reshaping how farms grow, harvest, and distribute food at scale\n• Sensors, algorithms, and data work together to support smarter decisions\n• Reduces waste\n• Covers the full journey from field to supermarket shelf\n• Helps farmers respond faster to weather, pests, and market changes"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Supply Chain Risks Explained",
+          "subtitle": "Identifying vulnerabilities across the supply chain",
+          "slidecontent": "• Spoilage, delays, and demand shifts can disrupt food reaching consumers\n• Poor storage conditions a leading cause of crop losses\n• Logistics breakdowns affect freshness and delivery timelines\n• Distribution networks span many regions, creating multiple failure points\n• Weather, pests, and supplier issues add further pressure\n• Small disruptions can cascade quickly across the entire chain"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Identifying Risks in the Chain",
+          "subtitle": "Where supply chain vulnerabilities emerge first",
+          "slidecontent": "• Delays at transport hubs\n• Poor cold storage conditions\n• Inaccurate demand forecasting\n• Supplier communication breakdowns\n• Seasonal harvest unpredictability"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Disruptions in Storage and Distribution",
+          "subtitle": "Protecting Perishables From Costly Delays",
+          "slidecontent": "• Delays in refrigerated transport causing rapid spoilage of fruit, vegetables, and dairy products\n• Power outages in cold storage facilities leading to significant financial losses\n• Poor route planning creating bottlenecks at distribution centres\n• Seasonal demand spikes overwhelming existing warehouse capacity\n• Last-mile delivery failures leaving perishables stranded in unsuitable conditions\n• Even short delays costly"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Disruptions in Distribution Networks",
+          "subtitle": "When Networks Fail, Crops Are Lost",
+          "slidecontent": "• Roads flood, deliveries stop\n• Cold chains break, food spoils\n• Fuel shortages delay trucks\n• Port backlogs strand shipments\n• Crops rot awaiting collection"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Risks With AI Solutions",
+          "subtitle": "Reducing Disruption Through Smarter AI Tools",
+          "slidecontent": "• AI spots delays early\n• Reduces spoilage in storage\n• Flags supplier reliability issues\n• Optimises delivery route planning\n• Predicts demand more accurately"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risks With AI Solutions",
+          "subtitle": "Reducing Disruption Through Smarter Technology",
+          "slidecontent": "• AI tools that flag supply chain disruptions before they cause delays\n• Smarter routing to avoid spoilage during transport\n• Real-time alerts when storage conditions fall outside safe ranges\n• Demand forecasting that reduces overstock and waste\n• Faster, more reliable decisions under pressure"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core insights to carry forward",
+          "slidecontent": "• AI spots supply chain risks early\n• Storage losses can be prevented\n• Data drives smarter decisions\n• Small farms benefit too\n• Start with one process first"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Agricultural Supply Chains. Over the coming lessons, we are going to explore how artificial intelligence is genuinely changing the way food is grown, managed, and delivered. And I mean the full journey, from the moment a seed goes into the ground right through to the moment a product lands on a supermarket shelf. What makes AI so powerful in this context is the way it brings together sensors, data, and smart algorithms to help farmers and businesses make much better decisions, much more quickly. So if a pest outbreak is spreading, or the weather is about to turn, or market demand suddenly shifts, AI can flag that early and help people respond before things go wrong. It also plays a big role in cutting down waste, which is a huge challenge across the food industry. So whether you are completely new to AI or just new to this particular application, this course will give you a solid grounding in how it all fits together."
+        },
+        {
+          "number": 2,
+          "script": "Before we explore how AI can help, it's worth understanding exactly what we're up against. Agricultural supply chains are remarkably complex, and there are vulnerabilities at almost every stage. Think about what happens between a crop being harvested and that food actually reaching someone's plate. You've got storage conditions that need to be just right, otherwise produce spoils before it even leaves the farm. You've got logistics networks stretching across multiple regions, where a single breakdown can delay deliveries and affect freshness. Then layer on top of that the unpredictability of weather, pest outbreaks, and supplier problems, and you start to see how fragile the system can be. What makes this particularly challenging is that these issues rarely stay isolated. A small problem in one part of the chain can ripple outwards very quickly, causing disruption far beyond the original source. So the risks are real, they're varied, and they can escalate fast. That's the landscape we're working within."
+        },
+        {
+          "number": 3,
+          "script": "So before we can explore how AI helps, we need to understand where things tend to go wrong in an agricultural supply chain. And the honest answer is, quite a lot of places. Think about what happens when a lorry is held up at a busy distribution hub, or when refrigerated storage fails to maintain the right temperature for fresh produce. Those kinds of delays and failures can spoil entire shipments. Then there is the challenge of forecasting demand accurately. If a retailer orders too much or too little, the whole chain feels the strain. Add to that the difficulty of keeping communication flowing smoothly between farmers, processors, and distributors, and you can see how quickly things unravel. And of course, farming is at the mercy of the seasons, so unpredictable harvests create enormous pressure on everyone downstream. These vulnerabilities are not rare edge cases; they are everyday realities for people working in food supply. Recognising them is the first step towards understanding how AI can genuinely help."
+        },
+        {
+          "number": 4,
+          "script": "Now, before we look at how AI can help, it's worth understanding the scale of the problem we're dealing with. Agricultural supply chains are incredibly vulnerable to disruption, and the consequences can be severe. Think about refrigerated lorries stuck in traffic or delayed at ports. Every extra hour in transit puts fresh produce, dairy, and other perishables at serious risk. And it's not just transport. Cold storage facilities can suffer power outages, and even a few hours without proper refrigeration can wipe out an entire stock of goods. Then there's the challenge of poor route planning, which causes bottlenecks at distribution centres, and during busy seasonal periods, warehouses simply can't cope with the sudden surge in demand. Finally, that last stretch of the journey, getting products to their final destination, is where things can go wrong at the very last moment. The key point here is that even relatively short delays can translate into significant financial losses."
+        },
+        {
+          "number": 5,
+          "script": "Now, even when a harvest goes brilliantly, there's still a whole journey that food has to make before it reaches anyone's plate, and that journey is full of potential pitfalls. Distribution networks are remarkably fragile. A single flood can wash out a road and bring deliveries to a complete standstill. If refrigerated transport breaks down, perishable goods can spoil within hours. Fuel shortages mean trucks simply cannot move, and when ports become congested, shipments can be stranded for days or even weeks. And here's the really heartbreaking part: crops can actually rot in the field or at a collection point simply because no one could get to them in time. These aren't rare, dramatic scenarios either. They happen regularly across agricultural supply chains all over the world. So the question we need to ask is, how do we get ahead of these disruptions before they cause that kind of loss? That's exactly where artificial intelligence starts to become genuinely valuable."
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about how AI actually helps reduce the risks that come with agricultural supply chains, because there are quite a few. One of the most valuable things AI can do is spot potential delays before they happen, giving teams time to react rather than scramble. It also helps in storage, by monitoring conditions and flagging anything that could lead to spoilage, which saves both produce and money. When it comes to suppliers, AI can analyse patterns and highlight reliability concerns early on, so you're not caught off guard. Route planning is another area where AI really shines, finding smarter, more efficient delivery paths that save time and fuel. And perhaps most importantly, AI can look at historical data and market signals to predict demand far more accurately than traditional methods. Taken together, these capabilities mean businesses can operate with much greater confidence, even when conditions are unpredictable."
+        },
+        {
+          "number": 7,
+          "script": "So, one of the most valuable things AI can do in agricultural supply chains is help us get ahead of problems before they spiral out of control. Rather than reacting when something goes wrong, AI systems can spot warning signs early, whether that's a disruption further up the chain or a transport route that risks spoiling perishable goods. If storage temperatures drift outside safe limits, the system sends an alert straight away, so nothing is left to chance. AI also helps businesses forecast demand more accurately, which means you are not sitting on mountains of unsold stock or scrambling to meet unexpected orders. And when things do get complicated, AI supports faster, more confident decision making, even under real pressure. Essentially, it acts like a very well-informed assistant that never sleeps, constantly monitoring conditions and flagging issues so your team can focus on taking action rather than chasing information."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the core ideas from this lesson. First, AI gives us the ability to spot problems in the supply chain before they become serious, whether that's a delivery delay or a quality issue. Linked to that, we've seen how smarter monitoring can dramatically reduce the amount of produce lost during storage, which is a huge win for profitability and sustainability. Underpinning all of this is data. The more information you feed into these systems, the better and more confident your decisions become. Now, I know some of you might be thinking this all sounds very large-scale, but smaller farms absolutely can benefit from these tools too. Many solutions are designed with accessibility in mind. And finally, if you're feeling a little overwhelmed about where to begin, the advice is simple: pick one process, just one, and start there. You don't need to transform everything overnight. Small steps lead to significant change."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Supply chain managers, logistics coordinators, warehouse managers, agricultural operations managers, distribution managers, procurement specialists, operations analysts, farm managers, food safety managers",
+  "Team or Dept this is for": "Operations, Supply Chain, Logistics, Procurement, Agricultural Operations, Food Safety, Risk Management"
+}

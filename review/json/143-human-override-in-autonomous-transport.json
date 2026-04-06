@@ -21,83 +21,83 @@
           "number": 1,
           "slidetitle": "When Must Operators Intervene?",
           "subtitle": "Recognising the Critical Moments for Action",
-          "slidecontent": "• System alerts or warnings\n• Unexpected obstacles ahead\n• Passenger safety at risk\n• Technology fails or freezes\n• Poor weather conditions"
+          "slidecontent": "• System alerts or warnings appear\n• Unexpected obstacles ahead\n• Passenger safety at risk\n• Technology fails or freezes\n• Poor weather conditions"
         },
         {
           "number": 2,
-          "slidetitle": "Recognising When to Intervene",
-          "subtitle": "Spotting the Signs Before It's Late",
+          "slidetitle": "System Warning Indicators",
+          "subtitle": "Understanding What Your Autonomous System Is Telling You",
           "slidecontent": "• Unusual sensor alerts appear\n• Vehicle slows unexpectedly\n• Route deviates without reason\n• System requests operator input\n• Warning lights activate suddenly"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising When to Intervene",
-          "subtitle": "Spotting the Signs Before It's Late",
-          "slidecontent": "• Unusual sensor alerts or repeated system warnings that the vehicle cannot resolve on its own\n• Sudden environmental changes like heavy fog, flooding, or debris on the road\n• System hesitation\n• Conflicting instructions between the vehicle's guidance system and real-world conditions\n• Passenger distress or an emergency requiring immediate human judgement"
+          "slidetitle": "Environmental Trigger Conditions",
+          "subtitle": "External Factors That Require Human Judgment",
+          "slidecontent": "• Sudden environmental changes like heavy fog or flooding\n• Debris on the road or unmarked diversions\n• Conflicting instructions from traffic signals\n• Loss of GPS or connectivity in critical areas\n• Construction zones not in system database"
         },
         {
           "number": 4,
-          "slidetitle": "Recognising When to Intervene",
-          "subtitle": "Spotting the Signs Before It's Late",
-          "slidecontent": "• Unusual sensor alerts or repeated system warnings that the vehicle cannot resolve on its own\n• Sudden changes in road conditions, such as flooding, debris, or unmarked diversions\n• Erratic speed or steering behaviour with no clear cause\n• Conflicting instructions from traffic signals and the vehicle's planned route\n• Loss of GPS or connectivity in a critical area\n• A gut feeling something is wrong (always worth acting on)"
+          "slidetitle": "Behavioural Anomalies",
+          "subtitle": "Recognising When Vehicle Performance Indicates Problems",
+          "slidecontent": "• Erratic speed or steering behaviour\n• System hesitation with no clear cause\n• Sensors reporting conflicting data\n• Vehicle drifting off planned route\n• Repeated failed attempts at routine manoeuvres"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising When to Intervene",
-          "subtitle": "Spotting the Signs Before It's Late",
-          "slidecontent": "• Unusual speed changes detected\n• System alerts flashing repeatedly\n• Vehicle drifting off route\n• Sensors reporting conflicting data\n• Operator instinct feels wrong"
+          "slidetitle": "Trusting Operator Instinct",
+          "subtitle": "When Experience and Intuition Signal the Need to Act",
+          "slidecontent": "• Gut feeling something is wrong\n• Mismatch between system display and visual reality\n• Passenger distress or emergency situations\n• Unusual patterns in system behaviour\n• Operational experience suggests caution"
         },
         {
           "number": 6,
-          "slidetitle": "Recognising When to Intervene",
-          "subtitle": "Spotting the Signs Before It's Late",
-          "slidecontent": "• Unusual sensor alerts or repeated system warnings that the vehicle cannot resolve on its own\n• Sudden changes in road conditions, such as flooding, debris, or unmarked diversions\n• Passenger distress\n• Any mismatch between what the system displays and what you can clearly see ahead\n• Hesitation or erratic speed changes with no obvious cause"
+          "slidetitle": "Priority Assessment Framework",
+          "subtitle": "Evaluating Multiple Warning Signs Simultaneously",
+          "slidecontent": "• Safety risks always take precedence\n• Multiple minor alerts may indicate major issue\n• Time-sensitive situations require immediate action\n• Weather and traffic compound system limitations\n• Passenger welfare influences intervention timing"
         },
         {
           "number": 7,
           "slidetitle": "Returning Control Safely",
-          "subtitle": "Smooth transitions back to human control",
-          "slidecontent": "• Alert before transferring control\n• Give the driver time\n• Confirm driver is ready\n• Then disengage automation\n• Monitor the handover closely"
+          "subtitle": "Smooth Transitions Back to Human Control",
+          "slidecontent": "• Alert before transferring control\n• Give the driver time to re-engage\n• Confirm driver readiness\n• Disengage automation gradually\n• Monitor the handover closely"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safe intervention",
-          "slidecontent": "• Always prioritise passenger safety over system efficiency when deciding to intervene\n• Know your override controls before you need them\n• Intervene early, not when a situation has already escalated beyond control\n• Document every manual override, no matter how minor it seems\n• Stay alert even when the system appears to be performing well\n• As a next step, practise your override procedures regularly in a controlled training environment"
+          "subtitle": "Core Principles for Safe Intervention",
+          "slidecontent": "• Always prioritise passenger safety over system efficiency\n• Know your override controls before you need them\n• Intervene early, not after escalation\n• Document every manual override\n• Stay alert even when system performs well\n• Practice override procedures regularly in training"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "So, let's start by thinking about a really important question: when exactly should a human operator step in and take control of an autonomous vehicle? Because even the most advanced systems have their limits, and knowing when to act can make all the difference. There are several situations where intervention becomes absolutely necessary. If the system throws up an alert or warning, that's your signal to pay attention immediately. If there's something unexpected in the road ahead, something the vehicle hasn't responded to correctly, you need to be ready to act. Passenger safety is always the priority, so if anyone on board is at risk, you don't wait. And of course, if the technology itself stops working properly or freezes up, human control becomes essential. Finally, severe weather can push a system beyond what it was designed to handle. Throughout this lesson, we'll explore each of these scenarios in more detail so you feel confident recognising them in practice."
+          "script": "Let's start by thinking about a really important question: when exactly should a human operator step in and take control of an autonomous vehicle? Even the most advanced systems have their limits, and knowing when to act can make all the difference. There are several situations where intervention becomes absolutely necessary. If the system throws up an alert or warning, that's your signal to pay attention immediately. If there's something unexpected in the road ahead that the vehicle hasn't responded to correctly, you need to be ready to act. Passenger safety is always the priority, so if anyone on board is at risk, you don't wait. And of course, if the technology itself stops working properly or freezes up, human control becomes essential. Finally, severe weather can push a system beyond what it was designed to handle."
         },
         {
           "number": 2,
-          "script": "So, one of the most critical skills you'll develop in this course is knowing when something isn't quite right with an autonomous system, and acting on that instinct before a situation escalates. There are some fairly clear signals to watch out for. If the vehicle's sensors start throwing up unusual alerts, that's your first indication that the system may be struggling to interpret its environment correctly. Similarly, if the vehicle slows down for no apparent reason, or suddenly takes a different route without any explanation, those are red flags worth taking seriously. Sometimes the system itself will actually ask for your input, which is a direct prompt to step in. And of course, if warning lights activate out of nowhere, don't ignore them. The key point here is that these signs rarely appear all at once. Often it's just one small thing that doesn't feel right, and that's precisely when your attention matters most."
+          "script": "One of the most critical skills you'll develop is recognising when your autonomous system is telling you something through its behaviour and alerts. There are some fairly clear signals to watch out for. If the vehicle's sensors start throwing up unusual alerts, that's your first indication that the system may be struggling to interpret its environment correctly. Similarly, if the vehicle slows down for no apparent reason, or suddenly takes a different route without any explanation, those are red flags worth taking seriously. Sometimes the system itself will directly request your input, which is a clear prompt to step in. And when warning lights activate out of nowhere, don't ignore them. The key point is that these signs rarely appear all at once - often it's just one small thing that doesn't feel right."
         },
         {
           "number": 3,
-          "script": "So, knowing when to step in is one of the most important skills you can develop as someone working alongside autonomous systems. There are a few key signals to watch for. If the vehicle is throwing up repeated warnings it simply cannot sort out by itself, that is your cue to pay attention. The same goes for sudden changes in the environment, things like heavy fog rolling in, a flooded road, or debris that appears out of nowhere. Sometimes the system will just hesitate, almost like it is unsure what to do next, and that pause alone should put you on alert. You might also notice a conflict between what the guidance system is telling the vehicle and what is actually happening on the road in front of you. And of course, if a passenger is in distress or an emergency unfolds, human judgement needs to take over immediately. These are the moments where you matter most."
+          "script": "External environmental factors often push autonomous systems beyond their design limits, requiring human intervention. Sudden changes in conditions like heavy fog rolling in, flooding across the road, or debris that appears out of nowhere can confuse even sophisticated sensors. The system may also struggle with unmarked diversions or construction zones that haven't been updated in its database. GPS dead zones or connectivity losses in critical navigation areas can leave the vehicle essentially blind. These environmental challenges often happen quickly, and the autonomous system simply doesn't have the contextual understanding that human experience provides. Your role is to recognise when the environment has changed in ways that require human judgment to navigate safely."
         },
         {
           "number": 4,
-          "script": "So how do you actually know when it's time to step in? There are a few clear signals to watch for. If the system keeps throwing up warnings it can't sort out itself, that's a sign something needs your attention. The same goes for sudden changes on the road, things like flooding, debris, or a diversion that wasn't on the map. If the vehicle starts behaving oddly, maybe the speed feels wrong or the steering seems to be fighting itself, don't ignore it. Conflicting signals are another one, where the vehicle's route and the actual traffic signals aren't agreeing with each other. And if you lose GPS or connectivity in an area where that really matters, be ready to act. Finally, and this one's important, trust your instincts. If something just feels off, even if you can't immediately explain why, that gut feeling is absolutely worth acting on. Don't talk yourself out of it."
+          "script": "Sometimes the clearest indication that intervention is needed comes from how the vehicle itself is behaving. If you notice erratic speed changes - speeding up or slowing down without clear reason - that suggests the system is struggling to process information correctly. Steering that seems to fight itself or unusual hesitation at routine decision points are also warning signs. When sensors start reporting conflicting data to the system, this can cause unpredictable behaviour as the vehicle tries to reconcile contradictory information. If the vehicle begins drifting away from its planned route or repeatedly fails at manoeuvres it should handle easily, these behavioural anomalies indicate the system needs human support."
         },
         {
           "number": 5,
-          "script": "So, let's talk about something really practical: how do you actually know when it's time to step in? The autonomous system won't always announce a problem clearly, so you need to be watching for the early warning signs. If the vehicle starts speeding up or slowing down in a way that doesn't make sense for the conditions, that's worth paying attention to. The same goes for alerts that keep flashing repeatedly rather than clearing themselves. If the vehicle begins drifting away from its planned route without any obvious reason, that's another red flag. Sometimes the sensors themselves start sending conflicting information to the system, which can cause unpredictable behaviour. And here's one that people sometimes overlook: your own instinct. If something just feels off to you as the operator, don't dismiss that feeling. Your experience and judgement are genuinely valuable, and recognising these signs early gives you the best chance to intervene safely and confidently."
+          "script": "Here's something that people sometimes overlook: your own instinct and operational experience are genuinely valuable. If something just feels off to you as the operator, don't dismiss that feeling. Your experience provides context that autonomous systems can't match. Sometimes there's a mismatch between what the system displays and what you can clearly see with your own eyes - always trust your visual reality over the screen. Emergency situations requiring immediate human judgment, like passenger medical issues or security concerns, obviously need human intervention. Your intuition often picks up on patterns or unusual behaviours before they become obvious system failures. Recognising and trusting these instincts gives you the best chance to intervene safely and confidently."
         },
         {
           "number": 6,
-          "script": "So, knowing when to step in is one of the most important skills you can develop as a human overseer. There are a few key signals to watch for. If the system keeps throwing up warnings it cannot sort out by itself, that is your cue to pay closer attention. Equally, if conditions on the road change suddenly, say there is flooding ahead, debris scattered across the lane, or a diversion that is not on any map, the vehicle may simply not know how to respond. You also want to stay alert to how your passengers are feeling. If someone is visibly distressed, that matters. Another big one is a mismatch between what the screen is telling you and what your own eyes can see. Trust what is in front of you. And finally, if the vehicle starts hesitating or changing speed in a way that feels wrong and there is no clear reason for it, do not ignore that instinct. These are your warning signs."
+          "script": "In real-world operations, you'll often face multiple warning signs simultaneously, and you need a framework for prioritising your response. Safety risks always take precedence over operational efficiency or schedule concerns. Sometimes multiple minor alerts appearing together actually indicate a major underlying issue that requires immediate attention. Time-sensitive situations - like approaching intersections or merging traffic - compress your decision-making window and may require faster intervention. Remember that weather conditions and heavy traffic compound the limitations of autonomous systems, making human oversight even more critical. Throughout all of this, passenger welfare should influence your intervention timing - their safety and comfort are part of your operational responsibility."
         },
         {
           "number": 7,
-          "script": "So we've talked about when to override, but what about handing control back to the driver? This is actually one of the trickiest moments in autonomous transport, and it needs to be handled really carefully. You can't just suddenly dump control back onto a human who's been sitting passively for the last twenty minutes. The system needs to warn the driver first, giving them a clear alert that a handover is coming. Then it waits, giving the driver a reasonable amount of time to mentally re-engage with the road. Once the driver signals they're ready, whether that's gripping the wheel or pressing a button, only then does the automation begin to step back. And importantly, the system doesn't just walk away at that point. It continues to monitor the situation closely during those first few seconds, ready to step back in if something doesn't look right. It's a gradual, supported transition, not a sudden switch."
+          "script": "We've talked about when to override, but what about handing control back to the driver? This is actually one of the trickiest moments in autonomous transport, and it needs to be handled really carefully. You can't just suddenly dump control back onto a human who's been sitting passively. The system needs to warn the driver first, giving them a clear alert that a handover is coming. Then it waits, giving the driver reasonable time to mentally re-engage with the road. Once the driver signals they're ready, whether that's gripping the wheel or pressing a button, only then does the automation begin to step back. Importantly, the system doesn't just walk away at that point - it continues to monitor the situation closely during those first few seconds, ready to step back in if something doesn't look right. It's a gradual, supported transition, not a sudden switch."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with the core principles you'll want to carry forward from this lesson. First and foremost, passenger safety always comes before system efficiency. If something feels wrong, you act. Related to that, you need to know your override controls before a situation arises, not during one. Familiarity under pressure is only possible if you've built it in advance. And when you do decide to intervene, do it early. Waiting until a situation has fully escalated makes everything harder to manage. Now, whenever you perform a manual override, log it, even if it seems trivial at the time. That documentation builds a valuable picture over time. Equally important is staying alert even when the system appears to be running smoothly, because complacency is where mistakes begin. And finally, the best thing you can do right now is practise your override procedures regularly in a safe, controlled training environment. Repetition builds the confidence you'll need when it truly matters."
+          "script": "Let's bring everything together with the core principles you'll want to carry forward from this lesson. First and foremost, passenger safety always comes before system efficiency. If something feels wrong, you act. You need to know your override controls before a situation arises, not during one. Familiarity under pressure is only possible if you've built it in advance. When you do decide to intervene, do it early - waiting until a situation has fully escalated makes everything harder to manage. Whenever you perform a manual override, log it, even if it seems trivial at the time. That documentation builds a valuable picture over time. Stay alert even when the system appears to be running smoothly, because complacency is where mistakes begin. Finally, the best thing you can do is practice your override procedures regularly in a safe, controlled training environment. Repetition builds the confidence you'll need when it truly matters."
         }
       ]
     }

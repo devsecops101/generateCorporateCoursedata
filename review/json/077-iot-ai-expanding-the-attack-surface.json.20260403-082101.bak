@@ -1,0 +1,107 @@
+{
+  "Course Title": "IoT + AI: Expanding the Attack Surface",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Connected devices using AI in uncontrolled environments.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how the internet works and a general curiosity about connected devices and security concepts is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security vulnerabilities introduced by AI-enabled IoT devices and explain how connected technologies expand the attack surface in real-world environments. You will also apply foundational risk assessment techniques to recognise and prioritise threats posed by AI-driven devices operating in uncontrolled or public-facing settings.",
+  "lessons": [
+    {
+      "lesson title": "IoT + AI: Expanding the Attack Surface",
+      "order": 1,
+      "Description": "The rapid growth of Internet of Things (IoT) devices, combined with the increasing use of artificial intelligence, has created a significantly larger and more complex attack surface for organisations to manage. Connected devices such as smart sensors, cameras, and industrial controllers are often deployed in uncontrolled or remote environments, making them difficult to monitor and secure effectively. When AI is layered on top of these devices, new vulnerabilities can emerge that traditional security approaches are not always equipped to handle. This lesson introduces the key risks associated with IoT and AI working together, using clear and practical examples to help beginners understand where threats can arise. By the end of this lesson, you will have a foundational understanding of why securing connected, AI-enabled devices requires a fresh and considered approach to cybersecurity.",
+      "status": "draft",
+      "content": "Connected devices using AI in uncontrolled environments.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "IoT and AI: The Threat",
+          "subtitle": "Where connectivity meets vulnerability.",
+          "slidecontent": "• Billions of devices now connected\n• AI makes devices \"smart\"\n• More features, more risk\n• Attacks target everyday objects\n• Security often ignored at design"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Physical Devices, Digital Vulnerabilities",
+          "subtitle": "Where connectivity meets real-world risk",
+          "slidecontent": "• Devices connect to real networks\n• Each connection is a risk\n• AI adds hidden complexity\n• Bugs cause physical harm\n• Unpatched devices stay vulnerable"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Physical Security Often Overlooked",
+          "subtitle": "Devices Left Exposed in Plain Sight",
+          "slidecontent": "• IoT devices often mounted in publicly accessible locations like corridors, car parks, and reception areas\n• No locked cabinet, no protection\n• Anyone nearby can tamper with, reboot, or physically remove a device\n• AI-enabled cameras and sensors frequently installed without considering who else has hands-on access\n• Default USB ports and reset buttons left exposed, inviting interference"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Physical Security Often Overlooked",
+          "subtitle": "Devices Left Unguarded in the Field",
+          "slidecontent": "• IoT devices often installed in remote or public locations with no physical protection\n• Easy to tamper with\n• An attacker with physical access can extract stored data, firmware, or credentials directly from the hardware\n• No locks, no cameras, no guards watching most field-deployed sensors\n• Physical access often bypasses every software security control in place\n• Small form factor makes devices easy to pocket or swap out unnoticed"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Physical Security Gaps in IoT",
+          "subtitle": "Where physical access enables digital compromise",
+          "slidecontent": "• Many IoT devices are installed in publicly accessible locations like corridors, car parks, and utility rooms\n• No physical casing or tamper protection\n• An attacker with brief physical access can extract firmware, clone credentials, or insert malicious hardware\n• USB ports and debug interfaces left exposed on deployed devices\n• Physical theft of a device hands over all stored data and local AI model weights to the attacker\n• Locks, enclosures, and tamper-evident seals are often skipped to cut costs"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Physical Security Often Overlooked",
+          "subtitle": "Devices left exposed in plain sight",
+          "slidecontent": "• Devices mounted in public spaces\n• No locks or tamper protection\n• Anyone can unplug or reset\n• Labels reveal model and firmware\n• Physical access bypasses software security"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risk in IoT Systems",
+          "subtitle": "Practical Steps to Reduce Exposure",
+          "slidecontent": "• Segment IoT devices onto isolated network zones, away from critical systems\n• Apply firmware updates regularly\n• Disable unused ports, protocols, and default credentials before deployment\n• Monitor device behaviour continuously for anomalies that may signal compromise\n• Use strong authentication\n• Treat every connected device as a potential entry point, not a trusted endpoint"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying secure online",
+          "slidecontent": "• Update devices regularly\n• Use strong, unique passwords\n• Disable unused device features\n• Check app permissions carefully\n• Secure your home network\n• Stay curious, stay cautious"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Let's start by looking at the big picture, because before we dive into the technical details, it's worth understanding why any of this matters. We are living in a world where billions of everyday objects are now connected to the internet. Your thermostat, your doorbell, your fridge, even your car. And increasingly, these devices are being made \"smart\" through artificial intelligence, which means they can learn, adapt, and make decisions on their own. That sounds impressive, and it is, but here's the problem. Every new feature, every new connection, is also a new opportunity for attackers to get in. Cybercriminals are no longer just targeting laptops and servers. They are going after the devices sitting in your home and your workplace. And the uncomfortable truth is that security is often an afterthought when these products are designed. That is exactly what this course is here to address."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by grounding ourselves in why IoT security actually matters. When we talk about IoT devices, we're not talking about abstract software sitting on a server somewhere. We're talking about physical things, thermostats, cameras, medical monitors, industrial sensors, all of them connected to real networks, and every single one of those connections is a potential way in for an attacker. Now, when you layer AI on top of that, things get more complicated, because AI can introduce behaviours that even the developers didn't fully anticipate. And here's where it gets serious. These aren't just digital problems. A vulnerability in the wrong device can cause real, physical harm, whether that's a medical device behaving unexpectedly or a safety system being switched off remotely. What makes this worse is that many IoT devices simply never get updated. They sit on networks for years, unpatched and exposed. That's the landscape we're working in, and it's exactly why this topic deserves your full attention."
+        },
+        {
+          "number": 3,
+          "script": "Here's something that often surprises people when they first think about IoT security: a lot of the risk isn't digital at all. It's physical. Think about where these devices actually end up. Smart cameras in car parks, sensors mounted in corridors, AI-enabled devices sitting in reception areas, completely out in the open. And in many cases, there's no locked cabinet, no protective housing, nothing stopping someone from walking up and interfering with them. That's a real problem. If someone can physically reach a device, they can reboot it, tamper with it, or simply pull it off the wall and walk away with it. And it gets worse, because a lot of these devices still have USB ports and reset buttons fully exposed. That's essentially an open invitation. So when we talk about securing IoT and AI systems, we need to think beyond firewalls and software patches. Physical access is just as important, and it's far too often ignored."
+        },
+        {
+          "number": 4,
+          "script": "Here's something that often surprises people when they first start thinking about IoT security: a lot of these devices are just sitting out in the open. Think about a temperature sensor bolted to the side of a building, or a smart meter tucked away in a car park. There's no security guard, no camera pointed at it, often no lock of any kind. And that's a real problem, because if an attacker can physically get their hands on a device, they can potentially pull out stored credentials, extract the firmware, or just swap the whole thing out for a compromised version. Here's the critical point: physical access can completely bypass every software security control you've put in place. It doesn't matter how strong your encryption is if someone can just walk off with the hardware. And because these devices are so small and compact, nobody nearby would even notice. Physical security isn't glamorous, but it absolutely has to be part of the conversation."
+        },
+        {
+          "number": 5,
+          "script": "Now, one thing that often surprises people when they first start thinking about IoT security is just how much damage an attacker can do simply by walking up to a device. Many IoT devices are installed in places anyone can reach, corridors, car parks, server cupboards, and they frequently have no physical protection whatsoever. No locked casing, no tamper-evident seals, sometimes even exposed USB ports and debug interfaces just sitting there openly. If someone can get their hands on a device for even a few minutes, they can extract the firmware, copy stored credentials, or plug in malicious hardware. And if they walk off with the device entirely, they have everything on it, including any local AI model data that might be stored inside. The frustrating part is that proper physical safeguards do exist, enclosures, tamper detection, secure mounting, but they are routinely skipped during deployment simply to save money. That cost-cutting decision can have very serious consequences."
+        },
+        {
+          "number": 6,
+          "script": "Now, one thing that often gets overlooked when people think about IoT security is the physical side of things. We spend a lot of time worrying about firewalls and encryption, but what about the actual device sitting on the wall in a corridor or mounted outside a building? Many IoT devices are installed in completely public spaces with no physical protection whatsoever. No lock, no tamper-proof casing, nothing. That means anyone walking past could simply unplug it, press the reset button, or walk off with it entirely. And here is something that surprises a lot of people: those little labels on the device, the ones showing the model number and firmware version, are essentially handing an attacker a roadmap. They can look up known vulnerabilities before they have even touched a keyboard. The important point here is that once someone has physical access to a device, most of your software security measures become largely irrelevant. Physical security really does have to be part of the conversation from the very beginning."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do about them. The good news is that a lot of this comes down to solid fundamentals. Start by keeping your IoT devices on their own separate network, well away from your critical systems. Make sure firmware is kept up to date, and before you even plug a device in, disable anything you don't need, unused ports, unnecessary protocols, and especially those default usernames and passwords that come straight out of the box. Once devices are running, keep a close eye on their behaviour, because unusual activity is often the first sign that something has gone wrong. Strong authentication matters too, so don't cut corners there. And perhaps most importantly, shift your mindset. Every connected device, no matter how small or seemingly insignificant, is a potential way into your network. Treat them accordingly, and you'll be in a much stronger position from the start."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some practical steps you can start using straight away. First, keep your devices updated. Those patches and updates exist for a reason, so don't ignore them. Next, make sure every device and account has its own strong, unique password. Reusing the same one across everything is a real risk. It's also worth going into your device settings and turning off any features you simply don't use. Bluetooth, location services, remote access, if you don't need it, switch it off. When you install apps, take a moment to check what permissions they're asking for, because quite often they're requesting access to far more than they actually need. And do take some time to secure your home network with a strong password and proper encryption. Finally, and perhaps most importantly, stay curious. The more you understand about how these technologies work, the better placed you are to protect yourself. Small habits really do make a big difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "IT managers, network administrators, system administrators, operations managers, facility managers, security coordinators, technology managers, IoT device managers",
+  "Team or Dept this is for": "IT, Operations, Facilities Management, Security, Technology"
+}

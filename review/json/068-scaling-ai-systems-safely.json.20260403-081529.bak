@@ -1,0 +1,107 @@
+{
+  "Course Title": "Scaling AI Systems Safely",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Risks introduced when models are scaled across users and regions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic understanding of software development concepts and some familiarity with how AI or machine learning systems are built and deployed, though no advanced expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks that emerge when AI systems are scaled across large user bases and multiple regions, and explain how factors such as data privacy, regulatory compliance, and infrastructure demands can affect system safety. You will also apply practical strategies to recognise and mitigate common scaling pitfalls, helping you to design and evaluate more robust, responsible deployments in real-world technology environments.",
+  "lessons": [
+    {
+      "lesson title": "Scaling AI Systems Safely",
+      "order": 1,
+      "Description": "As organisations begin to deploy AI systems beyond small pilots, the risks they face grow significantly in both scale and complexity. This lesson explores the key challenges that emerge when AI systems are rolled out across large numbers of users, diverse teams, and multiple geographic regions. You will learn how scaling introduces new concerns around fairness, reliability, data privacy, and regulatory compliance, and why these issues can be difficult to anticipate in advance. Through practical examples, the lesson helps you build a clearer picture of what can go wrong at scale and what steps responsible teams take to manage those risks. By the end, you will have a solid foundation for thinking critically about how AI systems should be grown and governed safely.",
+      "status": "draft",
+      "content": "Risks introduced when models are scaled across users and regions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Scaling AI Systems Safely",
+          "subtitle": "Managing risks as AI grows",
+          "slidecontent": "• AI grows, risks grow\n• Scale means more users, regions\n• Small flaws become big problems\n• Safety must scale too"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks of Scaling AI Models",
+          "subtitle": "What grows with scale, so does risk.",
+          "slidecontent": "• More users, more failure points\n• Bias spreads at scale\n• Costs grow unexpectedly fast\n• Regional laws vary widely\n• Small errors become large harms"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks of Rapid Model Scaling",
+          "subtitle": "What grows fast can fail fast.",
+          "slidecontent": "• Scaling a model quickly across millions of users amplifies any existing flaws in its behaviour\n• Small biases become big problems\n• Regions with different languages, laws, and norms expose gaps that small-scale testing never revealed\n• Infrastructure under sudden load can produce unpredictable outputs or fail silently\n• Rushed scaling often skips the safety evaluations that catch the most serious risks"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Monitoring Models Across Regions",
+          "subtitle": "Detecting Drift Before It Causes Harm",
+          "slidecontent": "• Performance that works well in one region can quietly degrade in another due to language, culture, or data differences\n• Drift happens gradually\n• Regular monitoring across each deployment region catches problems before users are affected\n• Setting up automated alerts for sudden drops in accuracy or confidence scores\n• Local feedback loops, such as user reports and correction rates, act as early warning signals\n• Consistent logging standards across all regions make it far easier to compare and investigate issues"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Monitoring Models Across Regions",
+          "subtitle": "Tracking performance where deployment varies most",
+          "slidecontent": "• Track latency by region\n• Flag accuracy drops early\n• Compare regional data regularly\n• Alert on sudden shifts\n• Log all model versions"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Monitoring Models Across Regions",
+          "subtitle": "Spotting Drift Before It Spreads",
+          "slidecontent": "• Performance metrics that look healthy globally can hide serious degradation in specific regions\n• Regional drift, where a model's accuracy quietly worsens for local users over time\n• Separate monitoring dashboards for each deployment region, not just one aggregate view\n• Sudden shifts in user behaviour or language patterns often signal drift early\n• Alerts tied to region-level thresholds, not just overall averages\n• Catching drift locally stops a small problem from scaling into a widespread failure"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Monitoring and Incident Response",
+          "subtitle": "Detecting and Resolving Issues at Scale",
+          "slidecontent": "• Automated alerts that flag unusual spikes in error rates, latency, or unexpected outputs across regions\n• Centralised dashboards for real-time visibility\n• Clear escalation paths so the right people are notified quickly when something goes wrong\n• Runbooks (pre-written response guides) that reduce guesswork during high-pressure incidents\n• Post-incident reviews to identify root causes and prevent the same failure from recurring\n• Monitoring scales with your system, so build it in early rather than retrofitting it later"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles for safe AI scaling",
+          "slidecontent": "• Scale adds new risks\n• Test before you expand\n• Monitor systems continuously\n• Involve diverse regional input\n• Small failures grow fast\n• Start slow, then scale"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to Scaling AI Systems Safely. In this course, we are going to explore one of the most important challenges facing anyone who builds or manages AI today. When an AI system is small, perhaps serving a handful of users in a single location, any problems it has tend to stay small as well. But the moment you start to grow that system, adding more users, expanding into new regions, handling more data, everything changes. A tiny flaw in your logic or your data handling that seemed harmless at a small scale can suddenly become a serious issue when millions of people are relying on that system every day. So the core idea we will keep coming back to throughout this course is straightforward: safety cannot be an afterthought that you bolt on later. It has to grow alongside the system itself. Let us start by understanding exactly what we mean by scale, and why it demands a different way of thinking about risk."
+        },
+        {
+          "number": 2,
+          "script": "When you scale an AI system, you are not just making it bigger, you are also amplifying everything that can go wrong. Think about it this way: if one user encounters a bug, that is manageable. But if a million users hit that same bug, you have a serious problem on your hands. The same is true for bias. A small bias baked into your model can quietly spread and affect enormous numbers of people before anyone notices. And then there are the costs, which have a habit of growing far faster than most teams expect. On top of that, if you are operating across different countries, you will quickly discover that the legal landscape varies enormously from one region to the next. Perhaps most importantly, a tiny error that seems harmless in a small system can cause real harm at scale. So as we go through this lesson, keep in mind that scaling responsibly means understanding these risks before they catch you off guard."
+        },
+        {
+          "number": 3,
+          "script": "When you scale an AI model quickly, you are not just reaching more people, you are also multiplying every flaw the model already has. A small bias that seemed manageable in testing can cause real harm when it is affecting millions of users every day. And it gets more complicated when you expand into new regions, because different languages, legal systems, and cultural norms reveal gaps that your original testing simply never uncovered. There is also a technical side to this. When infrastructure is suddenly hit with enormous demand, the system can behave in unexpected ways, or fail so quietly that nobody notices until the damage is done. Perhaps most worrying of all, rushed scaling often means that critical safety evaluations get skipped or cut short, and those are precisely the checks that catch the most serious problems. So the core message here is straightforward: speed without caution is genuinely dangerous when it comes to deploying AI at scale."
+        },
+        {
+          "number": 4,
+          "script": "Once your model is running across multiple regions, you can't just assume it's performing the same everywhere. Language, cultural context, and local data patterns all vary, and that means a model that works brilliantly in one country can quietly start struggling in another. The tricky part is that this degradation, often called drift, tends to happen gradually, so it's easy to miss until real users are already affected. That's why consistent monitoring across every region is so important. You want automated alerts in place so that if accuracy or confidence scores suddenly dip, you're notified straight away rather than finding out from complaints. Local feedback signals are also incredibly valuable here. Things like user correction rates or support reports can act as early warning signs that something's going wrong. And if you're logging data consistently across all your regions using the same standards, comparing and investigating those issues becomes much more straightforward."
+        },
+        {
+          "number": 5,
+          "script": "When you're running AI models across multiple regions, things can behave quite differently depending on where your users are. So monitoring becomes really important here. Start by keeping an eye on latency, because a model that responds quickly in London might be noticeably slower in Singapore, and that matters for user experience. Beyond speed, you also want to watch for accuracy dropping in specific regions, perhaps because the local data looks different to what the model was trained on. Comparing performance across regions on a regular basis helps you spot those gaps before they become serious problems. And if something shifts suddenly, you want an alert firing straight away rather than finding out days later. Finally, make sure you're logging every version of your model that's deployed. When something goes wrong, and at scale it will, knowing exactly which version is running where makes troubleshooting so much faster. Good monitoring is really your early warning system."
+        },
+        {
+          "number": 6,
+          "script": "Here's something that catches a lot of teams off guard. Your global performance metrics can look perfectly healthy, while underneath, a specific region is quietly experiencing serious degradation. This is called regional drift, and it happens when a model's accuracy slowly worsens for local users, perhaps because language patterns have shifted or user behaviour has changed in that area. The fix is to monitor each deployment region separately, with its own dashboard and its own alert thresholds, rather than relying solely on an aggregate view that smooths everything out. Those sudden changes in how local users are interacting with your system are often the earliest warning signs, so you want to catch them before they escalate. By setting region-level alerts, you give yourself the chance to address a small, contained problem before it spreads across your entire deployment. Think of it as catching a leak in one room before it floods the whole building."
+        },
+        {
+          "number": 7,
+          "script": "When your AI system is running at scale, things will go wrong at some point, so the question is how quickly can you detect and respond. Good monitoring means you have automated alerts watching for anything unusual, whether that's a spike in errors, slow response times, or outputs that look off, and you have a central dashboard giving your team a clear picture in real time. But detection is only half of it. You also need a plan for what happens next. That means knowing who gets notified and when, and having runbooks ready, which are essentially pre-written guides that walk your team through common incidents step by step, so no one is improvising under pressure. After each incident, a review helps you understand what went wrong and stop it happening again. The key point here is that monitoring needs to grow alongside your system, so build it in from the start rather than trying to bolt it on later."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this lesson together with a few core ideas worth holding onto. As you scale an AI system, new risks appear that simply weren't there at smaller sizes, so never assume that what worked before will automatically work at a larger scale. Always test thoroughly before you expand, because catching problems early is far easier than fixing them once they've spread. Keep a close eye on your systems continuously, not just at launch, because issues can develop quietly over time. And make sure you're drawing on diverse regional perspectives, because what seems fine in one context may cause real harm in another. One of the most important things to understand is that small failures do not stay small. They tend to grow quickly, so the sooner you catch them, the better. The overall approach here is simple: start cautiously, learn as you go, and only scale when you're confident things are working safely. That mindset will serve you well throughout this course."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Software developers, product managers, AI engineers, system architects, technical project managers, DevOps engineers, data scientists",
+  "Team or Dept this is for": "Engineering, Product Development, IT Operations, Data Science, Compliance, Legal"
+}

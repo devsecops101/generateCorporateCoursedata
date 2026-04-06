@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks of AI Data Collection",
-          "subtitle": "What AI collects about your students",
+          "slidetitle": "What AI Systems Actually Collect",
+          "subtitle": "Beyond what students type in",
           "slidecontent": "• Keystroke patterns, response times, and browsing habits logged automatically\n• Personal details inferred from behaviour, not just entered directly\n• Location data captured via device or network\n• Emotional states sometimes estimated from facial recognition or typing rhythm\n• Third-party vendors often receive this data without schools realising"
         },
         {
           "number": 3,
-          "slidetitle": "Data Minimisation in Practice",
-          "subtitle": "Collect only what you truly need.",
-          "slidecontent": "• Ask: is this necessary?\n• Skip optional data fields\n• Avoid storing names unnecessarily\n• Delete data when finished\n• Less data, less risk"
+          "slidetitle": "Data Minimisation Principles",
+          "subtitle": "Collect only what you truly need",
+          "slidecontent": "• Ask: is this data necessary for the educational task?\n• Skip optional data fields whenever possible\n• Use anonymous identifiers instead of names where feasible\n• Delete data promptly when finished with it\n• Less data held means less risk exposure"
         },
         {
           "number": 4,
-          "slidetitle": "Minimising Data Collection Risks",
-          "subtitle": "Collect only what you truly need.",
-          "slidecontent": "• Limit data fields to only those directly required for the educational task at hand\n• Avoid collecting birthdates, locations, or contact details unless strictly necessary\n• Less data means less risk\n• Review any AI tool's default settings, as many collect more than you might expect\n• Anonymise or aggregate student responses wherever the learning outcome still holds\n• Delete data promptly once it has served its purpose"
+          "slidetitle": "Reviewing AI Tool Settings",
+          "subtitle": "Default configurations often collect excess data",
+          "slidecontent": "• Check default settings on any AI platform before use\n• Many tools collect birthdates, locations, and contact details unnecessarily\n• Disable features that gather data beyond your learning objectives\n• Anonymise or aggregate student responses where possible\n• Verify what data gets shared with third parties"
         },
         {
           "number": 5,
-          "slidetitle": "Minimising Data Collection Risks",
-          "subtitle": "Collect only what you truly need.",
-          "slidecontent": "• Collect only essential data\n• Avoid storing sensitive details\n• Delete data when unneeded\n• Limit staff access strictly\n• Review data regularly"
+          "slidetitle": "Access Control and Data Governance",
+          "subtitle": "Who can see what, and why",
+          "slidecontent": "• Limit staff access to student data on a need-to-know basis\n• Review data holdings regularly to identify outdated information\n• Establish clear procedures for data retention and deletion\n• Document who has access to which systems and data types\n• Regular audits help maintain good data hygiene"
         },
         {
           "number": 6,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect student data",
-          "slidecontent": "• Anonymise data before uploading\n• Avoid free, unvetted tools\n• Check platform privacy policies\n• Limit data to what's needed\n• Review school consent procedures"
+          "slidetitle": "Practical Protection Strategies",
+          "subtitle": "Daily habits that reduce risk",
+          "slidecontent": "• Anonymise data before uploading to any AI platform\n• Avoid free, unvetted tools without clear privacy policies\n• Check platform privacy policies before adoption\n• Verify your school's consent procedures are being followed\n• Choose institutional-approved tools over ad-hoc solutions"
         },
         {
           "number": 7,
-          "slidetitle": "Reporting and Escalating Concerns",
-          "subtitle": "When and How to Raise Issues",
-          "slidecontent": "• Spot it, report it immediately\n• Tell your designated safeguarding lead\n• Never investigate alone\n• Document what you observed\n• Escalate if no action taken"
+          "slidetitle": "Reporting Privacy Concerns",
+          "subtitle": "When and how to escalate issues",
+          "slidecontent": "• Report concerns immediately to your designated safeguarding lead\n• Document what you observed factually, without interpretation\n• Never attempt to investigate data breaches alone\n• Escalate if initial reports receive no response\n• Speaking up protects both students and the institution"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for protecting student privacy",
-          "slidecontent": "• Always treat student data as sensitive by default, even when it seems harmless\n• Consent matters, especially for minors\n• Only collect data that is strictly necessary for the educational purpose at hand\n• Review any AI tools used in your platform to confirm they meet data protection standards\n• Keep records of what data is collected, who can access it, and why\n• As a next step, audit one AI feature in your current platform and check it against your school or organisation's data privacy policy"
+          "slidetitle": "Moving Forward with Confidence",
+          "subtitle": "Your next steps in data protection",
+          "slidecontent": "• Treat all student data as sensitive by default\n• Maintain clear records of data collection purposes and access rights\n• Audit one AI feature against your organisation's privacy policy\n• Implement regular reviews of data holdings and tool compliance\n• Build these practices into routine educational technology use"
         }
       ],
       "scripts": [
@@ -77,19 +77,19 @@
         },
         {
           "number": 3,
-          "script": "Data minimisation sounds technical, but the idea is really quite simple: only collect the information you actually need. Before you ask students or staff to provide any data, pause and ask yourself whether it is genuinely necessary for the task at hand. If a field is optional, consider leaving it blank altogether. And think carefully about names in particular. Quite often, you can use anonymous identifiers or reference numbers instead, which removes a lot of risk straight away. Once you have finished with the data, delete it. Do not let it sit around in a folder or a spreadsheet just in case it might be useful one day. The less data you hold, the less there is to go wrong if something is ever breached or misused. It is a straightforward principle, but it makes a real difference in practice. When in doubt, collect less rather than more."
+          "script": "Data minimisation sounds technical, but the idea is really quite simple: only collect the information you actually need. Before you ask students or staff to provide any data, pause and ask yourself whether it is genuinely necessary for the task at hand. If a field is optional, consider leaving it blank altogether. And think carefully about names in particular. Quite often, you can use anonymous identifiers or reference numbers instead, which removes a lot of risk straight away. Once you have finished with the data, delete it. Do not let it sit around in a folder or a spreadsheet just in case it might be useful one day. The less data you hold, the less there is to go wrong if something is ever breached or misused. It is a straightforward principle, but it makes a real difference in practice."
         },
         {
           "number": 4,
-          "script": "So when it comes to protecting student data, one of the simplest and most effective things you can do is collect less of it in the first place. Ask yourself: do I actually need this information to achieve the learning goal? If the answer is no, don't collect it. Things like birthdates, home locations, or contact details should only be gathered if there is a genuine reason to do so. It is also worth checking the default settings on any AI tool you use, because many platforms are configured to collect far more data than you might realise. Where possible, anonymise or group student responses together, so that individuals cannot be identified. And once the data has done its job, delete it. There is no benefit to holding onto information you no longer need, and doing so only increases your risk. The guiding principle here is straightforward: less data, less risk."
+          "script": "Most AI platforms come with default settings that collect far more student information than you might expect or need. Before implementing any new tool, take the time to review those settings carefully. Look for options to disable features that gather personal details like birthdates, home addresses, or family contact information unless these are genuinely required for your educational objectives. Many platforms also offer ways to anonymise responses or group them together so individual students cannot be identified. Pay particular attention to what gets shared with external companies. Some platforms automatically send data to analytics firms or advertising networks, and you want to know about that upfront. A few minutes spent reviewing these configurations can save significant privacy headaches later on."
         },
         {
           "number": 5,
-          "script": "When it comes to protecting student data, one of the most effective things you can do is simply collect less of it. The less data you hold, the less there is to lose or misuse. So before you ask students or staff to input any information into an AI tool, ask yourself whether you genuinely need it. If you do collect data, avoid storing anything sensitive that isn't absolutely necessary for the task. And once the data has served its purpose, delete it. Don't let it sit around indefinitely. It's also worth thinking carefully about who can actually access that data within your organisation. The fewer people with access, the lower the risk. Finally, make a habit of reviewing what data you're holding on a regular basis. Things change, and data that was once useful can quickly become unnecessary. Keeping on top of this is a simple but powerful way to reduce your exposure to risk."
+          "script": "Good data governance means being intentional about who can access student information and why. Not every staff member needs to see all student data, so implement access controls that match people's actual responsibilities. It is also crucial to review what data you are holding on a regular basis. Information that was useful six months ago might no longer be needed, and holding onto it unnecessarily just increases your risk exposure. Establish clear procedures for when data should be deleted and stick to them. Keep documentation about who has access to which systems and what types of student information they can see. This is not just about compliance, it is about creating a culture where student privacy is actively protected rather than just assumed to be safe."
         },
         {
           "number": 6,
-          "script": "So now that we understand the risks, let's talk about what you can actually do to protect your students. The good news is that a lot of this comes down to simple habits. Before you upload any student information into an AI tool, strip out the names and anything that could identify a specific child. You really want to get into that routine. It's also worth being cautious about free tools you find online, because if there's no clear privacy policy or institutional approval, you genuinely don't know where that data is going. Speaking of which, always take a moment to check the privacy policy of any platform you're considering using. And think about what data you actually need to share. Less is always more here. Finally, make sure you're familiar with your school's consent procedures, because they exist for a reason and they're there to protect everyone involved, including you. Small steps, but they really do make a significant difference."
+          "script": "So now that we understand the risks, let's talk about what you can actually do to protect your students. The good news is that a lot of this comes down to simple habits. Before you upload any student information into an AI tool, strip out the names and anything that could identify a specific child. You really want to get into that routine. It's also worth being cautious about free tools you find online, because if there's no clear privacy policy or institutional approval, you genuinely don't know where that data is going. Speaking of which, always take a moment to check the privacy policy of any platform you're considering using. And make sure you're familiar with your school's consent procedures, because they exist for a reason and they're there to protect everyone involved, including you. Small steps, but they really do make a significant difference."
         },
         {
           "number": 7,
@@ -97,7 +97,7 @@
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with some core principles to carry forward. First, always treat student data as sensitive, even if it seems trivial or harmless on its own. Consent is essential, and when you're working with children, that responsibility becomes even greater. When collecting data, ask yourself whether you genuinely need it for the educational task at hand. If you don't, don't collect it. Make sure any AI tools you're using in your platform have been checked against proper data protection standards, and keep clear records of what data you hold, who has access to it, and why. These aren't just good habits, they're the foundation of responsible practice. And here's something practical to do after this lesson: pick one AI feature in your current platform and run it against your school or organisation's data privacy policy. It's a simple step, but it's a really valuable one."
+          "script": "So let's bring everything together with some core principles to carry forward. First, always treat student data as sensitive, even if it seems trivial or harmless on its own. When working with children, that responsibility becomes even greater. Keep clear records of what data you hold, who has access to it, and why. These aren't just good habits, they're the foundation of responsible practice. And here's something practical to do after this lesson: pick one AI feature in your current platform and run it against your school or organisation's data privacy policy. It's a simple step, but it's a really valuable one. Build regular reviews into your routine, because technology changes quickly and what was compliant yesterday might not be tomorrow. The goal is not perfection, but consistent, thoughtful practice that puts student welfare first."
         }
       ]
     }

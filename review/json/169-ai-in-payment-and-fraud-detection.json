@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Balancing Fraud and Friction",
-          "subtitle": "The fine line every business walks.",
-          "slidecontent": "• Too strict blocks real customers\n• Too loose lets fraud through\n• Balance protects revenue\n• Friction costs sales\n• Every business faces this"
+          "slidetitle": "The Fraud-Friction Dilemma",
+          "subtitle": "Why payment security requires careful balance",
+          "slidecontent": "• Too strict blocks real customers\n• Too loose lets fraud through\n• Balance protects revenue and relationships\n• Every payment-taking business faces this challenge\n• No perfect setting works for everyone"
         },
         {
           "number": 2,
-          "slidetitle": "Spotting Fraud With AI",
-          "subtitle": "How AI flags suspicious activity instantly",
-          "slidecontent": "• Flags unusual spending patterns\n• Spots location mismatches instantly\n• Learns your normal behaviour\n• Blocks suspicious transactions fast"
+          "slidetitle": "How AI Recognises Suspicious Activity",
+          "subtitle": "The patterns that trigger fraud alerts",
+          "slidecontent": "• Flags unusual spending patterns instantly\n• Detects impossible location changes\n• Learns individual customer behaviour\n• Compares each transaction to personal norms\n• Acts within milliseconds of detection"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting Fraud in Real Time",
-          "subtitle": "How AI flags suspicious activity instantly",
-          "slidecontent": "• AI analyses thousands of transactions per second, flagging anomalies the moment they occur\n• Unusual patterns (like a purchase in two countries within minutes) trigger instant alerts\n• Speed is critical\n• Machine learning models compare each transaction against a customer's normal behaviour\n• Even small deviations, such as an unfamiliar device or odd purchase time, can raise a risk score\n• No human team could review this volume manually in real time"
+          "slidetitle": "Real-Time Processing at Scale",
+          "subtitle": "The technology behind instant fraud detection",
+          "slidecontent": "• Analyses thousands of transactions per second\n• No human team could match this volume\n• Even subtle anomalies raise risk scores\n• Speed is critical to prevent losses\n• Global transaction monitoring never sleeps"
         },
         {
           "number": 4,
-          "slidetitle": "Balancing Security With Customer Experience",
-          "subtitle": "The friction versus protection trade-off",
-          "slidecontent": "• Every extra security check adds friction that can frustrate customers and increase drop-off rates\n• Friction is not always bad\n• Low-risk transactions benefit from invisible, seamless authentication that requires no customer effort\n• High-risk or unusual transactions warrant stronger checks, even if they slow the process slightly\n• Adaptive systems adjust the level of scrutiny based on real-time signals like location, device, and spending behaviour\n• The goal is stopping fraud without making legitimate customers feel like suspects"
+          "slidetitle": "Adaptive Security Levels",
+          "subtitle": "Matching protection to actual risk",
+          "slidecontent": "• Low-risk transactions get invisible checks\n• High-risk activity triggers stronger verification\n• Systems adjust based on real-time signals\n• Customer frustration balanced against security\n• Goal: protect without creating suspicion"
         },
         {
           "number": 5,
-          "slidetitle": "Reducing Friction Without Compromising Security",
-          "subtitle": "Smarter checks, smoother customer journeys.",
-          "slidecontent": "• AI analyses hundreds of data signals in milliseconds to assess whether a transaction looks genuine\n• Low-risk purchases sail through with no extra steps\n• Friction applied only when something looks suspicious\n• Customers with consistent behaviour patterns face fewer interruptions over time\n• Step-up authentication (like a one-time passcode) triggered only when the risk score warrants it\n• The result: fewer abandoned baskets and fewer successful fraud attempts"
+          "slidetitle": "Smart Friction Application",
+          "subtitle": "When and how to add verification steps",
+          "slidecontent": "• Hundreds of signals analysed per transaction\n• Trusted customers face fewer interruptions\n• Step-up authentication only when warranted\n• Consistent behaviour builds smoother experience\n• Reduces both fraud and cart abandonment"
         },
         {
           "number": 6,
-          "slidetitle": "Reducing Friction Without Compromising Security",
-          "subtitle": "Seamless security for every transaction",
-          "slidecontent": "• AI analyses hundreds of data signals in milliseconds to approve legitimate transactions without extra steps\n• Fewer unnecessary prompts for trusted customers\n• Adaptive systems learn individual spending habits, so unusual activity triggers checks only when genuinely needed\n• Low-risk purchases sail through automatically\n• Step-up authentication (such as a one-time passcode) is reserved for transactions that actually look suspicious\n• The result is a smoother experience for honest customers and a harder path for fraudsters"
+          "slidetitle": "Customer Journey Optimisation",
+          "subtitle": "Making security feel effortless",
+          "slidecontent": "• Legitimate transactions approved seamlessly\n• Background analysis happens invisibly\n• Individual habits shape security response\n• Extra verification reserved for genuine risks\n• Better experience strengthens customer loyalty"
         },
         {
           "number": 7,
-          "slidetitle": "Balancing Security and Experience",
-          "subtitle": "Finding the right balance for customers.",
-          "slidecontent": "• Too much friction loses customers\n• Too little fraud checks risks losses\n• Speed matters to shoppers\n• False declines frustrate genuine buyers\n• Balance builds trust"
+          "slidetitle": "The Cost of Getting It Wrong",
+          "subtitle": "Why false positives matter as much as fraud",
+          "slidecontent": "• False declines embarrass legitimate customers\n• Speed expectations drive purchase decisions\n• Trust damaged by excessive security checks\n• Lost sales from abandoned transactions\n• Balance builds long-term customer relationships"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles to carry forward always",
-          "slidecontent": "• AI spots fraud in real time\n• False positives frustrate customers\n• Balance security with convenience\n• More data improves accuracy\n• Review and update models regularly\n• Start small, then scale up"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Building effective AI fraud prevention",
+          "slidecontent": "• Start small and scale gradually\n• Quality data improves model accuracy\n• Regular model updates combat evolving fraud\n• Monitor false positive rates closely\n• Balance security goals with customer satisfaction"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start with something every business that takes payments has to wrestle with, and that's finding the right balance between stopping fraud and keeping genuine customers happy. Think of it like a dial. If you turn it too far in one direction and make your security too tight, you start blocking real people from completing their purchases, and that costs you sales. Turn it the other way and make things too relaxed, and fraudsters can slip through, which costs you money in a very different way. The friction I'm talking about is anything that slows a customer down or causes them to abandon a transaction, things like extra verification steps or declined cards. Every business that processes payments faces this challenge, whether they're a small online shop or a global retailer. There's no perfect setting that works for everyone, but understanding the trade-offs is the first step to making smarter decisions. That's what this course is all about."
+          "script": "Every business that accepts payments faces the same fundamental challenge: how do you stop fraudsters without blocking genuine customers? Think of it as a dial you're constantly adjusting. Turn security too high, and legitimate transactions get declined, costing you sales and frustrating customers. Set it too low, and fraud slips through, directly impacting your bottom line. This balance affects every type of business, from small online stores to major hospitality chains. There's no universal setting that works perfectly for everyone, because customer behaviour, fraud patterns, and business models all vary. Understanding this trade-off is the foundation of effective fraud prevention."
         },
         {
           "number": 2,
-          "script": "So, let's think about what actually happens when fraud occurs. In most cases, something just looks wrong. Maybe you suddenly spend five times your usual amount, or your card is used in Tokyo when you were in London an hour ago. AI systems are brilliant at spotting exactly these kinds of red flags, and they do it in milliseconds. Over time, the system builds up a picture of your normal behaviour, so it knows what your typical spending looks like, where you usually shop, and how much you tend to spend. The moment something falls outside that pattern, an alert is triggered or the transaction is blocked before it even goes through. It is not waiting for a human to review a report the next morning. It is acting instantly, in real time. That speed and accuracy is what makes AI such a powerful tool in the fight against payment fraud."
+          "script": "AI excels at spotting the telltale signs of fraudulent activity by recognising patterns that human analysts might miss. When your credit card is suddenly used for a large purchase that's completely out of character, or when transactions appear in multiple countries within an impossible timeframe, AI flags these anomalies instantly. The system continuously learns what normal looks like for each customer, building a profile of typical spending amounts, preferred merchants, and usual locations. The moment a transaction falls outside these established patterns, the AI raises an alert. This isn't guesswork, it's pattern recognition working at machine speed."
         },
         {
           "number": 3,
-          "script": "So, how does AI actually catch fraud as it's happening? Well, think about the sheer volume of transactions taking place every single second across the globe. No human team could possibly review all of that in real time, but AI can. It analyses thousands of transactions per second, and it's constantly comparing each one against what's normal for that particular customer. So if your card is used in London, and then again in Singapore just minutes later, that immediately raises a red flag. But it's not just the big, obvious things. Even something subtle, like a purchase made at an unusual time of night, or a transaction coming from a device you've never used before, can nudge the risk score upward. And when that score crosses a certain threshold, an alert is triggered instantly. The speed here is absolutely critical, because the faster fraud is spotted, the faster it can be stopped before any real damage is done."
+          "script": "The sheer scale of modern payment processing makes human oversight impossible. Every second, thousands of transactions flow through payment networks globally, and AI systems analyse each one in real time. No human team could review this volume manually while maintaining the split-second response times that fraud prevention requires. AI doesn't just catch the obvious cases either. Subtle indicators like unusual purchase timing, unfamiliar device signatures, or slightly abnormal spending amounts all contribute to risk scoring. This comprehensive analysis happens in milliseconds, allowing the system to act before fraudulent transactions complete."
         },
         {
           "number": 4,
-          "script": "One of the biggest challenges in fraud prevention is finding the right balance between keeping customers safe and keeping them happy. Every time you add a security check, you add friction, and friction can cause customers to abandon a transaction altogether. But here is the thing: friction is not always a problem. For low-risk, everyday transactions, the best experience is one where security happens invisibly in the background, and the customer does not even notice it. For higher-risk or unusual activity, a bit of extra scrutiny is absolutely justified, even if it slows things down slightly. Modern AI-powered systems handle this by adapting in real time, looking at signals like your location, the device you are using, and your typical spending patterns to decide how much checking is actually needed. The goal is simple: stop fraudsters without making genuine customers feel like they are under suspicion every time they buy something."
+          "script": "Modern fraud prevention isn't about applying the same level of scrutiny to every transaction. Instead, AI systems dynamically adjust security measures based on real-time risk assessment. Routine purchases by established customers with consistent behaviour patterns flow through with minimal interference, while unusual activity triggers more rigorous checks. The system considers factors like your location, device, purchase history, and timing to determine the appropriate level of verification. This adaptive approach means security feels invisible when you're behaving normally, but steps up precisely when something looks suspicious."
         },
         {
           "number": 5,
-          "script": "One of the biggest challenges in payments is getting the balance right between keeping customers safe and making the experience feel effortless. This is where AI really earns its place. Every time a transaction comes through, AI is quietly analysing hundreds of signals in the background, things like location, device, spending habits, and time of day, all within milliseconds. If everything looks normal, the customer glides straight through with no interruption at all. But if something seems off, that is when the system steps in, perhaps asking for a one-time passcode or a quick verification. And here is the clever part: the more consistently a customer behaves, the smoother their experience becomes over time, because the system learns to recognise them. So rather than treating every single transaction with the same level of suspicion, friction is applied only where it is genuinely needed. The result is fewer customers abandoning their baskets out of frustration, and fewer fraudsters getting through undetected."
+          "script": "The key to effective fraud prevention lies in applying friction strategically, only when it's genuinely needed. AI analyses hundreds of data points for each transaction, from device fingerprints to spending velocity, assessing risk in real time. Customers with established, consistent behaviour patterns experience fewer interruptions over time as the system learns to trust them. When additional verification is required, such as a one-time passcode, it's deployed only for transactions that genuinely warrant extra scrutiny. This targeted approach reduces both successful fraud attempts and the cart abandonment that comes from excessive security checks."
         },
         {
           "number": 6,
-          "script": "One of the biggest frustrations in online payments is being asked to jump through hoops when you're simply buying something routine. AI helps solve that. By analysing hundreds of signals in the background, in just milliseconds, the system can quietly approve low-risk transactions without interrupting you at all. Over time, it learns your habits, so it knows what normal looks like for you specifically. If everything checks out, your purchase goes through smoothly. But if something genuinely looks off, that's when the system steps in and asks for extra verification, like a one-time passcode sent to your phone. This approach is called step-up authentication, and the key word is \"step-up\" because it only activates when it's actually needed. The end result is a much better experience for legitimate customers, and at the same time, a significantly tougher environment for anyone attempting fraud. Security and convenience, working together rather than against each other."
+          "script": "The best fraud prevention feels invisible to legitimate customers. While AI constantly analyses transaction data in the background, checking hundreds of signals against learned behaviour patterns, customers experience seamless, uninterrupted purchases when everything appears normal. The system builds confidence in regular customers over time, recognising their established patterns and reducing the need for additional verification. However, when something genuinely appears suspicious, the AI smoothly escalates to appropriate security measures. This creates an environment where honest customers enjoy frictionless transactions while fraudsters face increasingly sophisticated barriers."
         },
         {
           "number": 7,
-          "script": "Now, one of the biggest challenges in payment fraud detection is getting the balance right. If you make your security checks too strict, too many hoops for customers to jump through, people will simply abandon their purchase and go elsewhere. But if you make things too relaxed, you open the door to fraud and financial losses. There is also the question of speed. Shoppers today expect payments to be approved almost instantly, so any system that introduces noticeable delays will frustrate people. And here is something that does not get talked about enough: false declines. That is when a genuine, legitimate customer gets their payment blocked by mistake. It happens more often than you might think, and it leaves people feeling embarrassed and annoyed. So the goal of any good fraud detection system is to find that sweet spot, catching the bad actors while keeping the experience smooth and trustworthy for everyone else."
+          "script": "False declines, where legitimate customers have their payments incorrectly rejected, can be just as damaging as successful fraud. These incidents create immediate customer frustration and embarrassment, potentially driving people to competitors. In today's fast-paced commerce environment, customers expect instant payment approval, and any system that introduces noticeable delays risks losing sales. The challenge intensifies when considering that false positives often affect your best customers disproportionately, as they may trigger alerts simply by making larger than usual purchases. Getting the balance wrong doesn't just cost individual transactions, it can damage long-term customer relationships."
         },
         {
           "number": 8,
-          "script": "Before we wrap up this lesson, let's pull together the most important ideas to keep in mind as you move forward. First, AI is genuinely powerful when it comes to catching fraud as it happens, in real time, which is a huge advantage over older methods. But remember, if your system flags too many legitimate transactions as suspicious, you will frustrate your customers and damage trust. So always aim to strike a sensible balance between keeping things secure and keeping things convenient. The more quality data you feed your models, the better they will perform over time, so treat your data well. And do not fall into the trap of setting up a model and forgetting about it. Fraud patterns change constantly, so regular reviews and updates are essential. Finally, if you are just getting started, there is no need to do everything at once. Start small, prove it works, and then build from there."
+          "script": "Successfully implementing AI fraud prevention requires a thoughtful, iterative approach. Start with a focused scope rather than trying to solve everything immediately, allowing you to prove effectiveness before scaling. Data quality is crucial, as more comprehensive, accurate data directly improves model performance and reduces false positives. Remember that fraud patterns constantly evolve, so your models need regular updates and monitoring to stay effective. Pay close attention to false positive rates, not just fraud detection success. Finally, always measure success by both security outcomes and customer experience metrics, ensuring your solution protects revenue while preserving customer satisfaction."
         }
       ]
     }

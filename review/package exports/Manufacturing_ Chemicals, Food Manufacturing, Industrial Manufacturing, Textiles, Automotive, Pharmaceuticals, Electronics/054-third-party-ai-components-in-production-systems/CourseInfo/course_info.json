@@ -1,0 +1,14 @@
+{
+  "Course Title": "Third-Party AI Components in Production Systems",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Who is this for": "Production managers, manufacturing engineers, operations supervisors, plant managers, quality assurance managers, procurement specialists, IT managers, systems integrators",
+  "Team or Dept this is for": "Operations, Manufacturing, IT, Procurement, Quality Assurance, Engineering",
+  "Description": "Embedded risks from vendors and external models.",
+  "Prerequisites": "Learners should have a basic familiarity with manufacturing or industrial operations and a general awareness of how software or automated systems are used in production environments, though no prior knowledge of artificial intelligence or data science is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with integrating third-party AI components into manufacturing production systems, and explain how vendor dependencies and external models can introduce vulnerabilities across sectors such as chemicals, pharmaceuticals, and automotive. You will also be able to apply practical strategies to assess, monitor, and manage embedded risks from external AI suppliers, helping you to make more informed decisions when deploying AI-driven solutions in your organisation.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

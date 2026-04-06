@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "What AI Scheduling Does",
+          "slidetitle": "How AI Scheduling Works",
           "subtitle": "Automating rotas with data-driven precision",
-          "slidecontent": "• Builds rotas automatically\n• Uses live workforce data\n• Reduces manual scheduling errors\n• Matches shifts to demand\n• Flags gaps before they occur"
+          "slidecontent": "• Builds rotas automatically from live data\n• Uses workforce availability and skills\n• Reduces manual scheduling errors\n• Matches staffing to predicted demand\n• Flags coverage gaps before they occur"
         },
         {
           "number": 3,
-          "slidetitle": "Balancing Fairness and Efficiency",
-          "subtitle": "The dual goals of modern scheduling.",
-          "slidecontent": "• Scheduling must serve both the business and the people within it\n• Efficiency means covering shifts at the right cost\n• Fairness ensures staff are treated consistently and without bias\n• These two goals often pull in opposite directions\n• AI helps find the balance by processing far more variables than a human scheduler can manage manually\n• Getting this balance right affects retention, morale, and legal compliance"
+          "slidetitle": "The Fairness Challenge",
+          "subtitle": "When efficiency and equity pull apart",
+          "slidecontent": "• Business needs: right people, right place, right time\n• Employee needs: fair hours and rest periods\n• These goals often conflict in practice\n• Manual scheduling struggles with complex variables\n• AI processes thousands of constraints simultaneously\n• Poor balance leads to burnout and legal risk"
         },
         {
           "number": 4,
-          "slidetitle": "Balancing Fairness and Efficiency",
-          "subtitle": "The dual goals of modern scheduling.",
-          "slidecontent": "• Scheduling must serve two masters: operational efficiency and employee fairness\n• Efficiency means the right people, in the right place, at the right time\n• Fairness ensures shifts, rest periods, and opportunities are distributed equitably\n• Both goals can conflict\n• AI helps managers find the balance by processing thousands of variables at once\n• Ignoring either goal leads to burnout, legal risk, or poor service delivery"
+          "slidetitle": "Building Bias-Free Systems",
+          "subtitle": "Designing fairness into AI from the start",
+          "slidecontent": "• Individual constraints built into algorithms\n• Caring responsibilities and health needs flagged\n• Religious observances automatically respected\n• Transparent rules show scheduling logic\n• Removes unconscious bias from shift allocation\n• Staff can understand why schedules look as they do"
         },
         {
           "number": 5,
-          "slidetitle": "Balancing Fairness and Efficiency",
-          "subtitle": "Serving people and productivity equally",
-          "slidecontent": "• Fairness and speed can coexist\n• AI spots scheduling bias quickly\n• Employees get consistent treatment\n• Productivity improves with fair rotas\n• Everyone benefits, staff and managers"
+          "slidetitle": "The Fairness-Productivity Link",
+          "subtitle": "How fair scheduling improves business outcomes",
+          "slidecontent": "• Fair treatment builds team trust and morale\n• Consistent rules eliminate preferential treatment\n• Higher morale directly improves productivity\n• Reduces turnover and recruitment costs\n• Better customer service from engaged staff\n• Win-win for employees and managers"
         },
         {
           "number": 6,
-          "slidetitle": "Balancing Fairness and Efficiency",
-          "subtitle": "Scheduling that works for everyone fairly",
-          "slidecontent": "• AI scheduling tools can optimise shift patterns while still accounting for individual employee needs and preferences\n• Fairness built into the algorithm from the start\n• Employees with caring responsibilities, health conditions, or religious observances can have constraints flagged automatically\n• Transparent rules mean staff can see why schedules are generated the way they are\n• Reduces the risk of unconscious bias influencing who gets desirable or difficult shifts\n• Efficiency and fairness are not opposites, they can be designed to work together"
+          "slidetitle": "Legal Compliance Requirements",
+          "subtitle": "Meeting regulations in automated scheduling",
+          "slidecontent": "• Working time regulations still apply\n• Maximum hours and minimum rest periods\n• Break entitlements must be protected\n• Anti-discrimination laws remain in force\n• Data protection for employee information\n• AI tools must enforce, not bypass, legal limits"
         },
         {
           "number": 7,
-          "slidetitle": "Balancing Fairness and Efficiency",
-          "subtitle": "Aligning People Needs With Business Goals",
-          "slidecontent": "• Fairness builds staff trust\n• Efficiency meets business targets\n• Both goals can coexist\n• Bias harms morale quickly\n• Clear rules help balance both"
+          "slidetitle": "Measuring Operational Impact",
+          "subtitle": "Tracking real-world results from AI scheduling",
+          "slidecontent": "• Labour cost optimization and control\n• Improved coverage during peak periods\n• Reduced last-minute shift changes\n• Better staff utilization rates\n• Decreased scheduling administrative time\n• Enhanced service delivery consistency"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• AI scheduling tools must be monitored, not blindly trusted\n• Fairness and compliance are non-negotiable, even when automation speeds things up\n• Always audit outputs for bias\n• Workers deserve transparency about how AI influences their shifts and hours\n• Legal obligations (like working time regulations) still apply regardless of the tool used\n• Start small, review often, and involve your team in the process"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Core principles for successful adoption",
+          "slidecontent": "• Monitor AI outputs, don't trust blindly\n• Regular audits for bias and fairness\n• Maintain transparency with your team\n• Start small and review frequently\n• Involve staff in the implementation process\n• Remember: AI supports human judgment, not replaces it"
         }
       ],
       "scripts": [
@@ -77,11 +77,11 @@
         },
         {
           "number": 3,
-          "script": "Workforce scheduling has always had to serve two masters at once. On one side, you have the business, which needs shifts covered reliably and at a manageable cost. On the other, you have your people, who expect to be treated fairly and consistently, regardless of who they are or when they work. The challenge is that these two goals can genuinely pull against each other. Cutting costs might mean asking the same reliable staff to cover extra shifts, which starts to feel very unfair very quickly. A human scheduler doing this manually can only hold so many variables in their head at once, and that is where mistakes and inconsistencies creep in. AI can process a far greater number of factors simultaneously, which means it is much better placed to find a solution that works for both sides. And getting that balance right is not just good practice. It directly affects staff retention, morale, and your legal obligations as an employer."
+          "script": "When we talk about workforce scheduling, there are really two things we're always trying to achieve at the same time. On one hand, we need efficiency, making sure the right people are in the right place at the right time so the operation runs smoothly. On the other hand, we need fairness, making sure shifts, rest periods, and opportunities are shared out equitably amongst the team. Now, here's the challenge: those two goals can sometimes pull in opposite directions. A schedule that looks perfectly efficient on paper might actually be placing an unfair burden on certain employees. And that's where AI becomes genuinely useful. Rather than a manager trying to juggle dozens of constraints manually, AI can process thousands of variables in seconds to find a solution that works for both the business and the people within it. Get this balance wrong, and you risk burnout, potential legal issues, or a drop in the quality of service your customers receive."
         },
         {
           "number": 4,
-          "script": "When we talk about workforce scheduling, there are really two things we're always trying to achieve at the same time. On one hand, we need efficiency, making sure the right people are in the right place at the right time so the operation runs smoothly. On the other hand, we need fairness, making sure shifts, rest periods, and opportunities are shared out equitably amongst the team. Now, here's the challenge: those two goals can sometimes pull in opposite directions. A schedule that looks perfectly efficient on paper might actually be placing an unfair burden on certain employees. And that's where AI becomes genuinely useful. Rather than a manager trying to juggle dozens of constraints manually, AI can process thousands of variables in seconds to find a solution that works for both the business and the people within it. Get this balance wrong, and you risk burnout, potential legal issues, or a drop in the quality of service your customers receive."
+          "script": "One of the concerns people often raise about AI scheduling is whether it treats everyone fairly, and it is a completely valid question. The good news is that fairness does not have to be an afterthought. When these systems are designed well, they can factor in individual needs right from the start. So if someone has caring responsibilities, a health condition, or a religious observance that affects their availability, those constraints can be built in automatically. What is really powerful is the transparency side of things. Staff can actually see the logic behind why their schedule looks the way it does, which builds trust and reduces the feeling that certain people are being favoured. It also takes away the risk of unconscious bias creeping in when managers are deciding who gets the better shifts. The key point here is that efficiency and fairness are not pulling in opposite directions. With the right approach, you genuinely can have both."
         },
         {
           "number": 5,
@@ -89,11 +89,11 @@
         },
         {
           "number": 6,
-          "script": "One of the concerns people often raise about AI scheduling is whether it treats everyone fairly, and it is a completely valid question. The good news is that fairness does not have to be an afterthought. When these systems are designed well, they can factor in individual needs right from the start. So if someone has caring responsibilities, a health condition, or a religious observance that affects their availability, those constraints can be built in automatically. What is really powerful is the transparency side of things. Staff can actually see the logic behind why their schedule looks the way it does, which builds trust and reduces the feeling that certain people are being favoured. It also takes away the risk of unconscious bias creeping in when managers are deciding who gets the better shifts. The key point here is that efficiency and fairness are not pulling in opposite directions. With the right approach, you genuinely can have both."
+          "script": "Now, it's crucial to understand that introducing AI doesn't change your legal obligations as an employer. Working time regulations, maximum hours, minimum rest periods, break entitlements - all of these still apply regardless of what tool you're using to create the schedules. In fact, AI should be helping you stay compliant, not finding ways around the rules. The system needs to have these legal limits built in from the start, so it simply won't generate schedules that breach working time directives or anti-discrimination laws. And don't forget about data protection - you're processing personal information about your staff, so privacy regulations apply here too. The key is making sure your AI scheduling tool enforces legal compliance rather than treating it as an optional extra."
         },
         {
           "number": 7,
-          "script": "Now, one of the most common concerns people raise when AI enters workforce scheduling is this: will it be fair? And that is a completely valid question. When staff feel the system is treating them unfairly, trust breaks down very quickly, and that affects morale across the whole team. But here is the good news. Fairness and efficiency are not opposites. A well-designed AI scheduling system can absolutely deliver both. It can meet your business targets around coverage, cost, and productivity, while also respecting people's preferences, rest needs, and personal circumstances. The key is making sure the rules built into the system are transparent and consistent. When everyone understands how decisions are being made, and those decisions are applied equally, you get buy-in from staff and better outcomes for the business. Where things go wrong is when hidden bias creeps into the logic, so getting those foundations right from the start really does matter."
+          "script": "So what does AI scheduling actually deliver for your operation? The benefits go well beyond just saving time on admin. You'll typically see much better control over labour costs because the system can optimize staffing levels based on actual demand patterns rather than guesswork. Coverage during busy periods improves because the AI can predict when you'll need extra hands and schedule accordingly. Those last-minute scrambles to cover shifts become much less frequent, which reduces stress for everyone involved. Staff utilization rates generally improve too, because people are scheduled based on their actual skills and availability rather than whoever happens to be convenient. And all of this adds up to more consistent service delivery, which your customers will definitely notice. The operational impact is measurable and usually quite significant once the system beds in properly."
         },
         {
           "number": 8,

@@ -1,0 +1,107 @@
+{
+  "Course Title": "Smart Grids and AI: Security Implications",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Risks in AI-managed energy distribution and demand balancing.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how electricity grids work and a general awareness of cybersecurity concepts will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security risks associated with AI-managed smart grid systems and explain how artificial intelligence influences energy distribution and demand balancing. You will also be able to apply foundational risk assessment principles to recognise vulnerabilities in AI-driven energy infrastructure and describe practical strategies for improving resilience across smart grid networks.",
+  "lessons": [
+    {
+      "lesson title": "Smart Grids and AI: Security Implications",
+      "order": 1,
+      "Description": "This lesson introduces the security challenges that arise when artificial intelligence is used to manage and automate smart grid systems. You will explore how AI-driven energy distribution and demand balancing can create new vulnerabilities, including risks from cyberattacks, data manipulation, and system failures. We will look at real-world examples to help you understand how these threats can affect power supply reliability and public safety. By the end of this lesson, you will have a clearer picture of why securing AI-managed energy infrastructure is a growing priority for governments, utilities, and cybersecurity professionals alike.",
+      "status": "draft",
+      "content": "Risks in AI-managed energy distribution and demand balancing.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Smart Grids and AI: Introduction",
+          "subtitle": "Where AI Meets Energy Security",
+          "slidecontent": "• AI now manages power grids\n• Demand balancing happens automatically\n• Security risks are growing fast\n• Attacks can cut electricity supply\n• This course explains the risks"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Mapping the Smart Grid Landscape",
+          "subtitle": "From generation to consumer endpoints",
+          "slidecontent": "• Power plants generate electricity\n• Transmission lines carry power\n• Substations step voltage down\n• Smart meters track usage\n• Consumers receive and respond"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Vulnerabilities in AI Decision-Making",
+          "subtitle": "Where AI Judgement Can Go Wrong",
+          "slidecontent": "• AI systems trained on historical data may misread unusual but legitimate demand spikes\n• Adversarial inputs (small, deliberate data tweaks) can silently steer AI decisions in dangerous directions\n• Overconfident predictions with no uncertainty flagging\n• A model optimising for efficiency may deprioritise grid stability during stress events\n• Limited ability to explain decisions makes faults harder to catch before damage occurs"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Vulnerabilities in AI Decision-Making",
+          "subtitle": "Where AI Judgement Can Go Wrong",
+          "slidecontent": "• AI systems trained on historical data can misread unusual but legitimate demand spikes\n• Adversarial inputs (small, deliberate data manipulations) can silently skew automated decisions\n• Overconfident predictions with no uncertainty flagging\n• A single flawed sensor feeding bad data into an AI model can trigger cascading grid responses\n• Limited ability to explain decisions makes faults harder to diagnose quickly"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Vulnerabilities in AI Decision-Making",
+          "subtitle": "Where AI Judgement Can Go Wrong",
+          "slidecontent": "• AI systems trained on historical data may misread unusual but legitimate demand spikes\n• Adversarial inputs (small, deliberate data manipulations) can silently skew automated decisions\n• Overconfident predictions with no uncertainty flagging\n• A single flawed sensor reading can cascade into widespread load mismanagement\n• AI models optimised for efficiency may deprioritise resilience, leaving the grid fragile under stress"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating AI-Driven Grid Risks",
+          "subtitle": "Strategies to strengthen grid resilience effectively",
+          "slidecontent": "• Patch systems regularly\n• Encrypt all grid data\n• Train staff on threats\n• Monitor networks continuously\n• Limit AI access rights"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI Energy Security Risks",
+          "subtitle": "Strategies to Strengthen Grid Resilience",
+          "slidecontent": "• Segmenting grid networks to limit how far an attack or AI error can spread\n• Regular audits of AI decision-making logs to spot unusual patterns early\n• Human override controls kept active at all times\n• Backup systems that operate independently of AI management during outages or failures\n• Training grid operators to recognise signs of compromised AI behaviour\n• Coordinating with national cybersecurity agencies to share threat intelligence across energy providers"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for securing smart grids",
+          "slidecontent": "• AI grids need constant monitoring\n• Patch systems regularly and promptly\n• Limit access, verify all users\n• Plan for failures before they happen\n• Share threat data across teams\n• Start small, then scale securely"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on Smart Grids and AI: Security Implications. Over the past decade, artificial intelligence has moved from the fringes of the energy sector right into the heart of how we manage power. Today, AI systems are actively controlling electricity grids, making thousands of decisions every minute to balance supply and demand across entire regions, all without a human needing to lift a finger. That is genuinely impressive, but it also opens up a whole new set of risks that we cannot afford to ignore. As these systems become more connected and more automated, they also become more attractive targets for cybercriminals and other malicious actors. A successful attack on a smart grid is not just a technical inconvenience; it can mean hospitals losing power, homes going dark, and critical infrastructure grinding to a halt. Throughout this course, we are going to explore exactly how those risks arise and what can be done about them. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "Before we can talk about security, we need to understand what a smart grid actually looks like from end to end. Think of it as a long journey that electricity takes before it reaches your home or workplace. It starts at a power plant, where electricity is generated, and then travels enormous distances along high-voltage transmission lines. Along the way, it passes through substations, which bring that voltage down to safer, usable levels. Then, at the consumer end, smart meters come into play. These are the devices that monitor how much energy you are using, often in real time. Finally, that information feeds back to the people and systems managing the grid, allowing consumers and suppliers to respond and adjust. So the smart grid is not just about moving electricity from A to B. It is a two-way flow of both power and data, and that distinction is absolutely central to everything we will be discussing in this course."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about where AI can actually get things wrong in a smart grid context. One issue is that AI learns from historical data, so if something unusual happens, like a sudden legitimate surge in demand, it might misread the situation entirely. Even more concerning is what's called adversarial manipulation, where someone makes tiny, deliberate tweaks to the data feeding into the AI, quietly pushing it towards a dangerous decision without anyone noticing. There's also the problem of overconfidence. AI systems don't always signal when they're uncertain, so they can present a flawed prediction with the same apparent confidence as a reliable one. And because many AI models are optimised purely for efficiency, they may make choices that compromise grid stability when things get stressful. Perhaps most worrying of all is that these systems often can't explain their own decisions, which makes it very difficult to spot a problem before real damage is done."
+        },
+        {
+          "number": 4,
+          "script": "So, let us think about where AI can actually let us down in a smart grid context. AI systems learn from historical data, which sounds sensible, but it means they can struggle when something genuinely unusual happens, like a sudden legitimate surge in demand. They simply have not seen it before. There is also a subtler risk called adversarial manipulation, where someone makes tiny, deliberate tweaks to the data feeding into the AI, and the system quietly starts making poor decisions without anyone noticing. On top of that, many AI models give you a confident answer without telling you how confident they actually are, so there is no early warning that something might be off. And because these systems are all connected, one faulty sensor can set off a chain reaction across the entire grid. Perhaps most frustratingly, AI often cannot explain its own reasoning, which makes diagnosing and fixing problems much slower than we would like."
+        },
+        {
+          "number": 5,
+          "script": "So we've established that AI brings real power to grid management, but now let's look at where it can let us down. One key issue is that AI learns from historical data, so when something genuinely unusual happens, like an unexpected surge in demand, it can misread the situation entirely. And it gets more concerning when you consider that attackers can deliberately feed tiny, almost invisible manipulations into the data to quietly push the AI toward bad decisions. On top of that, many AI systems deliver their outputs with complete confidence, even when they really shouldn't be trusted. There's often no warning flag saying \"actually, I'm not sure about this one.\" A single faulty sensor reading can then ripple outward, causing mismanagement across a much wider part of the grid. And perhaps most subtly, AI that's been optimised purely for efficiency may have quietly sacrificed resilience, meaning the grid looks fine under normal conditions but becomes fragile exactly when you need it most."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is that there are some straightforward, practical steps that can make a real difference. First, keeping your software and systems up to date is absolutely essential. Attackers love exploiting known vulnerabilities, so regular patching closes those doors quickly. Next, encrypting your grid data means that even if someone intercepts it, they cannot make sense of it. People are often the weakest link in any security setup, so training your staff to recognise threats like phishing or suspicious behaviour is genuinely valuable. You also want to be watching your networks around the clock, because the sooner you spot something unusual, the sooner you can respond. Finally, limiting what your AI systems can actually access reduces the damage if something does go wrong. Think of it as giving people only the keys they truly need. Together, these measures build a much more resilient grid."
+        },
+        {
+          "number": 7,
+          "script": "So, we've talked about the risks, but what can we actually do about them? The good news is there are some practical steps that help protect the grid. First, it helps to segment the network, so if something does go wrong, the problem stays contained rather than spreading everywhere. Alongside that, regularly reviewing the logs of what AI systems are actually deciding means you can catch unusual behaviour before it becomes a serious issue. It's also really important to keep human operators in the loop, with the ability to override AI decisions at any point. Independent backup systems give you a safety net if the AI fails entirely. And don't underestimate the human element, training operators to spot when something seems off with the AI is genuinely valuable. Finally, sharing threat intelligence with national cybersecurity agencies means energy providers aren't each fighting these challenges alone. Together, these measures build a much more resilient grid."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. Because AI-powered smart grids are constantly active, you need continuous monitoring in place, not just occasional check-ins. Keep your systems updated regularly, because outdated software is one of the easiest ways attackers get in. Think carefully about who has access to what, and always verify users before granting permissions. Rather than waiting for something to go wrong, build your incident response plans now, before a crisis hits. No single team can see every threat, so make sure you are sharing intelligence across departments and with trusted partners. And finally, if you are introducing new AI tools or expanding your grid infrastructure, start with a smaller pilot, get the security right, and then scale up from there. These six principles are straightforward, but together they form a really solid foundation for keeping your smart grid safe and resilient."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Energy managers, utility operators, infrastructure engineers, cybersecurity analysts, risk management professionals, facilities managers, operations managers, compliance officers",
+  "Team or Dept this is for": "Operations, IT Security, Risk Management, Facilities, Infrastructure, Energy Management, Compliance"
+}

@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Flawed Data, Unequal Support",
-          "subtitle": "How biased data harms aid delivery.",
-          "slidecontent": "• Aid systems trained on incomplete records miss entire communities in need\n• Biased historical data reflects past inequalities, not current reality\n• Marginalised groups underrepresented in datasets\n• Flawed inputs lead to skewed resource allocation across regions\n• Women, displaced persons, and minorities often undercounted in official registries\n• Small data gaps can compound into large, systemic failures over time"
-        },
-        {
-          "number": 3,
-          "slidetitle": "Gaps in the Data",
-          "subtitle": "When records are missing or incomplete.",
+          "slidetitle": "The Hidden Problem",
+          "subtitle": "When missing data means missing people",
           "slidecontent": "• Displaced people often lack official documents, making them invisible to data systems\n• No records means no aid\n• Informal settlements and remote areas are frequently undercounted or missed entirely\n• Language barriers and low literacy can prevent people from registering in the first place\n• Even small gaps in data can exclude entire communities from receiving support"
         },
         {
+          "number": 3,
+          "slidetitle": "Historical Inequalities in Data",
+          "subtitle": "When past bias shapes current decisions",
+          "slidecontent": "• Aid systems trained on incomplete records miss entire communities in need\n• Biased historical data reflects past inequalities, not current reality\n• Women, displaced persons, and minorities often undercounted in official registries\n• Old data excludes new crises and emerging patterns\n• Small data gaps compound into large, systemic failures over time"
+        },
+        {
           "number": 4,
-          "slidetitle": "Bias in the Training Data",
-          "subtitle": "Skewed data skews who gets help.",
-          "slidecontent": "• Old data excludes new crises\n• Rural areas often underrepresented\n• Gender gaps skew need assessments\n• Refugee data frequently incomplete\n• Biased input, biased output"
+          "slidetitle": "Real-World Impact",
+          "subtitle": "How flawed data translates to unequal outcomes",
+          "slidecontent": "• Rural areas receive less aid due to underrepresentation in datasets\n• Gender gaps skew need assessments, leaving women and girls underserved\n• Refugee populations with incomplete records fall through system cracks\n• Resources flow to well-documented areas while invisible communities wait\n• Biased input produces biased output - the core principle"
         },
         {
           "number": 5,
-          "slidetitle": "Addressing Bias in AI Systems",
-          "subtitle": "Reducing Unfair Outcomes Through Better Data",
-          "slidecontent": "• Biased data skews aid delivery\n• Minorities often underrepresented\n• Audit data sources regularly\n• Diverse teams spot blind spots\n• Better data, fairer outcomes"
+          "slidetitle": "Building Better Data",
+          "subtitle": "Practical steps to improve data quality",
+          "slidecontent": "• Audit data sources regularly to identify gaps and biases\n• Include diverse local voices who understand community needs\n• Update datasets to reflect current realities, not just historical patterns\n• Invest in mobile data collection for hard-to-reach populations\n• Document collection methods to understand data limitations"
         },
         {
           "number": 6,
-          "slidetitle": "Addressing Bias in AI Systems",
-          "subtitle": "Recognising and reducing systemic unfairness",
-          "slidecontent": "• Biased data skews outcomes\n• Minorities often underserved\n• Audit data sources regularly\n• Diverse teams spot gaps\n• Test systems before deploying"
+          "slidetitle": "Testing and Monitoring",
+          "subtitle": "Ensuring fair outcomes through ongoing evaluation",
+          "slidecontent": "• Test AI systems across different groups before deployment\n• Monitor results regularly to catch emerging biases\n• Compare AI recommendations with ground-truth community feedback\n• Adjust algorithms when certain populations receive consistently poor outcomes\n• Build feedback loops from field workers and beneficiaries"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Bias in AI Systems",
-          "subtitle": "Tackling Unfair Outcomes in Aid Systems",
-          "slidecontent": "• Audit data for gaps\n• Include diverse local voices\n• Test outputs across groups\n• Fix skewed training data\n• Monitor results regularly"
+          "slidetitle": "Prevention Strategies",
+          "subtitle": "Stopping bias before it starts",
+          "slidecontent": "• Form diverse teams to spot blind spots during system design\n• Partner with local organisations who know vulnerable communities\n• Use multiple data sources to cross-validate information\n• Train staff to recognise signs of data quality problems\n• Create transparent processes for questioning AI recommendations"
         },
         {
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Core lessons to carry forward",
-          "slidecontent": "• Flawed or biased data in AI systems can directly cause unequal or delayed aid distribution\n• Garbage in, garbage out\n• Always question the source, completeness, and recency of data feeding any AI tool\n• Vulnerable populations are most at risk when data gaps go unchecked\n• Small data errors can compound into large, real-world consequences for communities in crisis\n• As a next step, audit one data source your organisation currently uses and identify where gaps or biases may exist"
+          "slidecontent": "• Flawed or biased data in AI systems can directly cause unequal or delayed aid distribution\n• Always question the source, completeness, and recency of data feeding any AI tool\n• Vulnerable populations are most at risk when data gaps go unchecked\n• Small data errors can compound into large, real-world consequences for communities in crisis\n• As a next step, audit one data source your organisation currently uses and identify where gaps or biases may exist"
         }
       ],
       "scripts": [
@@ -73,27 +73,27 @@
         },
         {
           "number": 2,
-          "script": "When we talk about using AI to distribute aid, one of the biggest problems we face is the quality of the data we feed into these systems. If the records used to train an AI are incomplete or outdated, entire communities can simply be overlooked. And here is the difficult part: a lot of historical data already reflects old inequalities. It was collected in ways that left out women, displaced persons, and minority groups, because they were never properly counted in official registries to begin with. So when an AI learns from that data, it does not learn about current needs, it learns about past blind spots. What makes this especially serious is that even a small gap in the data does not stay small. Over time, those gaps compound, and the result is a system that consistently sends resources to the wrong places while the most vulnerable people receive little or nothing at all."
+          "script": "One of the biggest challenges in humanitarian aid is something that might not be immediately obvious: the data simply isn't complete. When people are displaced, they often don't have official documents, passports, ID cards, or registration papers. And if you don't exist in a system, you can't receive support from it. It's as straightforward, and as troubling, as that. This problem is made worse in informal settlements or hard to reach rural areas, where populations are frequently undercounted or missed altogether. Add to that language barriers and low literacy levels, which can prevent people from registering in the first place, and you start to see how the gaps build up. The really important point here is that these aren't just minor technical oversights. Even a small gap in the data can mean an entire community receives nothing."
         },
         {
           "number": 3,
-          "script": "One of the biggest challenges in humanitarian aid is something that might not be immediately obvious: the data simply isn't complete. When people are displaced, they often don't have official documents, passports, ID cards, or registration papers. And if you don't exist in a system, you can't receive support from it. It's as straightforward, and as troubling, as that. This problem is made worse in informal settlements or hard to reach rural areas, where populations are frequently undercounted or missed altogether. Add to that language barriers and low literacy levels, which can prevent people from registering in the first place, and you start to see how the gaps build up. The really important point here is that these aren't just minor technical oversights. Even a small gap in the data can mean an entire community receives nothing. So before we can talk about how AI helps, we need to understand what it's working with, and what it isn't."
+          "script": "When we talk about using AI to distribute aid, one of the biggest problems we face is the quality of the data we feed into these systems. If the records used to train an AI are incomplete or outdated, entire communities can simply be overlooked. And here is the difficult part: a lot of historical data already reflects old inequalities. It was collected in ways that left out women, displaced persons, and minority groups, because they were never properly counted in official registries to begin with. So when an AI learns from that data, it does not learn about current needs, it learns about past blind spots. What makes this especially serious is that even a small gap in the data does not stay small. Over time, those gaps compound, and the result is a system that consistently sends resources to the wrong places while the most vulnerable people receive little or nothing at all."
         },
         {
           "number": 4,
-          "script": "Now, one of the most serious challenges with AI systems is the quality of the data they learn from. If that data is flawed or incomplete, the AI will make flawed decisions, and in humanitarian work, that has real consequences for real people. For example, if a system is trained mostly on data from past crises, it may not recognise the patterns of a brand new emergency. Rural communities are often poorly documented, so they can be overlooked entirely. There are also significant gender gaps in how needs are recorded, which means women and girls may not receive the support they actually require. And refugee populations, who are frequently on the move and difficult to track, often have incomplete records in these systems. The core principle here is simple: biased input produces biased output. The AI can only work with what it is given, so if the data does not reflect everyone equally, neither will the help that gets distributed."
+          "script": "Now, one of the most serious challenges with AI systems is how flawed data translates into real-world harm. If a system is trained mostly on data from urban areas, rural communities may not receive the support they desperately need. There are also significant gender gaps in how needs are recorded, which means women and girls may not receive appropriate assistance. And refugee populations, who are frequently on the move and difficult to track, often have incomplete records in these systems. The core principle here is simple: biased input produces biased output. The AI can only work with what it is given, so when resources consistently flow to well-documented areas while invisible communities wait, we see the direct consequences of data quality problems."
         },
         {
           "number": 5,
-          "script": "One of the most important challenges we face when using AI in humanitarian work is bias. If the data we feed into an AI system is skewed or incomplete, the system will make unfair decisions, and that can mean vulnerable people miss out on the help they desperately need. Minority groups and marginalised communities are often underrepresented in datasets, which makes this problem even more serious. So what can we do about it? First, we need to regularly audit our data sources, checking where the information comes from and who might be missing from it. Second, and this is really valuable, we need diverse teams working on these systems. When people with different backgrounds and lived experiences are involved, they are far more likely to spot gaps and blind spots that others might overlook. The bottom line is straightforward: if we invest in better, more representative data, we build fairer AI systems, and fairer systems mean more equitable aid for everyone who needs it."
+          "script": "So what can organisations do to build better data? It starts with regularly auditing your data sources, checking where the information comes from and who might be missing from it. This is where diverse local voices become invaluable - people who understand the communities being served will spot gaps that outsiders simply miss. It's also crucial to keep datasets current, because relying on historical patterns means missing new crises and changing needs. For hard-to-reach populations, investing in mobile data collection can make a real difference. And importantly, document how you collect data, because understanding the limitations of your information is the first step toward improving it."
         },
         {
           "number": 6,
-          "script": "One of the most important things we need to talk about when using AI in humanitarian work is bias. If the data we feed into an AI system reflects historical inequalities, the system will simply reproduce those inequalities, and that means the people who are already most vulnerable can end up being overlooked or underserved. So what can we do about it? First, we need to regularly audit where our data is coming from and ask honest questions about who might be missing from it. Second, and this is really crucial, we need diverse teams involved in building and reviewing these systems. People with different backgrounds and lived experiences are far more likely to spot gaps that others might miss. And finally, before any AI tool is rolled out in the field, it must be properly tested to check for unfair outcomes. Getting this right is not just a technical task, it is an ethical responsibility."
+          "script": "Building better data is only half the solution - you also need ongoing testing and monitoring to ensure fair outcomes. Before any AI tool is deployed in the field, test how it performs across different groups, not just on average. If one population consistently receives worse outcomes, something needs to change. Once systems are running, regular monitoring is essential because circumstances change and new biases can emerge. Compare AI recommendations with ground-truth feedback from communities themselves, and build feedback loops from field workers who see the results firsthand. This kind of continuous evaluation helps catch problems before they become entrenched."
         },
         {
           "number": 7,
-          "script": "Bias in AI systems is one of the most serious challenges we face in humanitarian work, because unfair outcomes can mean the wrong people receive help, or vulnerable groups are overlooked entirely. So how do we tackle this? It starts with looking closely at your data. Are there gaps? Are certain communities underrepresented? If so, your AI will likely reflect those gaps in its decisions. From there, it is really important to bring in diverse local voices, people who understand the communities being served, because they will spot problems that outsiders simply miss. Once your system is running, test how it performs across different groups, not just on average. If one group is consistently receiving worse outcomes, something needs to change. That might mean going back and correcting skewed training data. And importantly, this is not a one-time fix. You need to keep monitoring results on an ongoing basis, because bias can creep back in as circumstances change."
+          "script": "Prevention is always better than correction when it comes to bias in AI systems. Form diverse teams during the design phase, because people with different backgrounds and lived experiences are far more likely to spot potential problems early. Partner with local organisations who have deep knowledge of vulnerable communities. Use multiple data sources to cross-validate information rather than relying on a single dataset. Train your staff to recognise the warning signs of data quality problems, and create transparent processes that allow people to question and challenge AI recommendations. These prevention strategies help stop bias before it becomes embedded in your systems."
         },
         {
           "number": 8,

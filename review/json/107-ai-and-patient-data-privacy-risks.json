@@ -32,32 +32,32 @@
         {
           "number": 3,
           "slidetitle": "Risks of AI Data Misuse",
-          "subtitle": "When Data Falls Into Wrong Hands",
-          "slidecontent": "• Unauthorised access to AI systems can expose patient diagnoses, medications, and personal identifiers\n• Data breaches affecting AI tools often involve large volumes of records at once\n• Serious consequences for patients\n• Re-identification of anonymised data using AI pattern recognition\n• Third-party AI vendors may store or process data in ways that fall outside NHS governance controls\n• Leaked health data can be used for discrimination, fraud, or targeted scams"
+          "subtitle": "When data falls into wrong hands",
+          "slidecontent": "• Unauthorised access to AI systems can expose patient diagnoses, medications, and personal identifiers\n• Data breaches affecting AI tools often involve large volumes of records at once\n• Re-identification of anonymised data using AI pattern recognition\n• Third-party AI vendors may store or process data outside NHS governance controls\n• Leaked health data can be used for discrimination, fraud, or targeted scams"
         },
         {
           "number": 4,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect patient data",
-          "slidecontent": "• Anonymise data before sharing\n• Use approved tools only\n• Limit access strictly\n• Log every data interaction\n• Review permissions regularly"
+          "slidetitle": "Legal and Regulatory Framework",
+          "subtitle": "Your obligations under data protection law",
+          "slidecontent": "• UK GDPR requires explicit consent for processing health data\n• Data Protection Act 2018 sets specific rules for NHS organisations\n• ICO can impose significant fines for privacy breaches\n• Common law duty of confidentiality applies to all patient information\n• Professional bodies have clear guidance on data handling responsibilities"
         },
         {
           "number": 5,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect patient data",
-          "slidecontent": "• Use approved tools only\n• Anonymise data before sharing\n• Limit access to need-to-know\n• Report breaches immediately\n• Follow your organisation's policy"
+          "slidetitle": "Safe Tool Selection",
+          "subtitle": "Choosing approved AI platforms",
+          "slidecontent": "• Use approved tools only\n• Avoid general-purpose AI platforms for patient data\n• Check your organisation's approved software list\n• Verify data processing locations and storage policies\n• Ensure proper contractual safeguards are in place"
         },
         {
           "number": 6,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect patient data",
-          "slidecontent": "• Use approved tools only\n• Anonymise data before sharing\n• Limit access to essentials\n• Report breaches immediately\n• Follow your organisation's policy"
+          "slidetitle": "Data Preparation Best Practices",
+          "subtitle": "Making data safe before AI processing",
+          "slidecontent": "• Anonymise data before sharing\n• Remove all direct identifiers first\n• Consider indirect identifiers that could combine\n• Use pseudonymisation where full anonymisation isn't possible\n• Document your anonymisation methods"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Data in Practice",
-          "subtitle": "Practical steps to safeguard patient information",
-          "slidecontent": "• Always use NHS-approved or organisationally vetted AI tools when handling patient data\n• Never input identifiable information such as names, dates of birth, or NHS numbers into general-purpose AI platforms\n• Anonymise or pseudonymise data before use where possible\n• Check your organisation's data protection policy before trying any new AI tool\n• Report concerns promptly\n• Keep a clear record of when and how AI tools are used in your workflow"
+          "slidetitle": "Access Control and Monitoring",
+          "subtitle": "Managing who sees what",
+          "slidecontent": "• Limit access strictly to need-to-know basis\n• Log every data interaction for audit trails\n• Review permissions regularly as roles change\n• Monitor for unusual access patterns\n• Report breaches immediately when they occur"
         },
         {
           "number": 8,
@@ -81,19 +81,19 @@
         },
         {
           "number": 4,
-          "script": "So let's talk about what you can actually do in your day-to-day work to keep patient data safe. First, whenever you're sharing data, even internally, make sure any identifying details have been removed beforehand. Strip out names, dates of birth, addresses, anything that could point back to a real person. Next, only ever use tools and systems that have been officially approved by your organisation. If a piece of software hasn't been vetted, don't use it, no matter how convenient it seems. It's also really important to think about who actually needs access to data. The fewer people who can see it, the lower the risk. Alongside that, make sure every interaction with patient data is recorded and logged, so there's always a clear audit trail. And finally, don't just set permissions and forget about them. Come back and review them regularly, because roles change and access rights should reflect that. Small habits like these make a genuinely big difference."
+          "script": "Understanding the legal framework is crucial because it defines your obligations as a healthcare professional. Under UK GDPR, health data receives special protection, and you need explicit patient consent before processing it through AI systems. The Data Protection Act 2018 sets out specific requirements for NHS organisations, and the Information Commissioner's Office has the power to impose substantial fines when things go wrong. But the legal obligations go beyond statute law. There's also a common law duty of confidentiality that applies to all patient information, regardless of how it's processed. Professional bodies like the GMC, NMC, and others have published clear guidance on data handling responsibilities. These aren't just bureaucratic requirements - they exist to maintain the trust that patients place in healthcare professionals and ensure that sensitive information is treated with the respect it deserves."
         },
         {
           "number": 5,
-          "script": "So, how do we actually put all of this into practice? The good news is that protecting patient data does not have to be complicated. Start by only using tools that your organisation has officially approved for handling patient information. If a tool has not been vetted, do not use it, even if it seems helpful. Before sharing any data, make sure it has been properly anonymised, so that individuals cannot be identified from it. It is also worth thinking carefully about who actually needs access to that information. Not everyone does, and limiting access reduces the risk significantly. If something does go wrong, and breaches do happen, report it straight away. Delays can make things much worse, both for patients and for your organisation. And finally, your organisation will have its own policies and procedures around data privacy, so make sure you are familiar with them and follow them consistently. These steps, taken together, make a real difference."
+          "script": "When it comes to choosing AI tools for healthcare work, your organisation will have an approved list of software that's been properly vetted for security and compliance. This isn't red tape - it's protection. General-purpose AI platforms, like free chatbots available online, simply aren't designed to handle patient data safely. They may store information on servers in different countries, lack proper encryption, or use your inputs to train their models. Before using any AI tool at work, check your organisation's approved software list and make sure you understand where the data will be processed and stored. Proper contractual safeguards need to be in place with any third-party vendor, covering everything from data encryption to breach notification procedures. If a tool isn't on the approved list, don't use it for patient-related work, no matter how convenient it might seem."
         },
         {
           "number": 6,
-          "script": "So, let's talk about what you can actually do day to day to keep patient data safe. First, always stick to the tools your organisation has officially approved. If a system hasn't been vetted, don't use it, even if it seems helpful. Before sharing any data, make sure it's been properly anonymised, so there's nothing that could identify an individual patient. It's also worth thinking about access. Only the people who genuinely need to see certain information should have it. Don't share more widely than necessary. If something does go wrong and you suspect a breach has occurred, report it straight away. Delays can make things significantly worse. And underpinning all of this is your organisation's own policy. It exists for good reason, so make sure you're familiar with it and following it consistently. These steps might seem straightforward, but putting them into practice every single day is what genuinely makes the difference to patient privacy."
+          "script": "Preparing data safely before it goes anywhere near an AI system is absolutely critical. Anonymisation isn't just about removing someone's name - you need to strip out all direct identifiers like dates of birth, NHS numbers, addresses, and phone numbers. But it goes further than that. You also need to consider indirect identifiers that could combine to reveal someone's identity. For example, age combined with a rare condition and a specific postcode area might be enough to identify someone. Where full anonymisation isn't possible, pseudonymisation can be an alternative - replacing identifiers with codes that can only be linked back by authorised people with the right key. Whatever method you use, document it clearly so others can understand what steps you've taken. This preparation work takes time, but it's what makes the difference between safe and unsafe AI use."
         },
         {
           "number": 7,
-          "script": "So, knowing the risks is one thing, but what does good practice actually look like day to day? The most important habit to build is only ever using AI tools that your organisation has approved. General-purpose platforms like free chatbots are not designed for patient data, so never type in anything that could identify someone, whether that is a name, a date of birth, or an NHS number. If you do need to use data, anonymise or pseudonymise it first wherever you can. Before you try any new AI tool at work, always check your organisation's data protection policy. It is there to protect both patients and you. If something does not feel right, report it promptly rather than waiting to see what happens. And finally, keep a record of when and how you are using AI in your work. That transparency is what builds trust and keeps patients safe."
+          "script": "Controlling who can access patient data and monitoring how it's used are fundamental safeguards that apply just as much to AI systems as to traditional records. The principle is simple: people should only have access to the information they genuinely need to do their job. This means regularly reviewing permissions as roles change, people move teams, or responsibilities shift. Every interaction with patient data should be logged to create a clear audit trail - who accessed what, when, and why. Modern systems can also monitor for unusual patterns that might indicate a problem, like someone accessing far more records than usual or looking at information outside their normal area of work. And if something does go wrong, immediate reporting is essential. The sooner a breach is identified and contained, the better the outcome for everyone involved."
         },
         {
           "number": 8,

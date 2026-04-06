@@ -27,77 +27,77 @@
           "number": 2,
           "slidetitle": "Identifying Safety-Critical AI Decisions",
           "subtitle": "Where AI choices affect vehicle safety",
-          "slidecontent": "• AI systems in automotive manufacturing make decisions that directly influence whether a finished vehicle is safe to drive\n• Defect detection, weld inspection, and torque verification are prime examples\n• Some decisions are safety-critical\n• A missed fault in a brake component or steering part can lead to failure on the road\n• Understanding which AI decisions carry safety risk is the essential first step for any team working with these systems"
+          "slidecontent": "• Defect detection in brake components\n• Weld inspection systems\n• Torque verification checks\n• Missed faults lead to road failures\n• Not all AI decisions are safety-critical"
         },
         {
           "number": 3,
-          "slidetitle": "Detecting Defects Before Assembly",
-          "subtitle": "Catching flaws before they cause harm",
-          "slidecontent": "• AI-powered vision systems scanning parts for surface cracks, dimensional errors, and material flaws at high speed\n• Defects caught here prevent faulty components from reaching the assembly line\n• Faster than manual inspection\n• Machine learning models trained on thousands of images of both acceptable and rejected parts\n• Even subtle inconsistencies, invisible to the human eye, flagged before they become safety risks"
+          "slidetitle": "AI-Powered Vision Systems",
+          "subtitle": "How machines see manufacturing flaws",
+          "slidecontent": "• High-resolution cameras scan at speed\n• Machine learning models trained on defect databases\n• Detects cracks invisible to human eyes\n• Identifies dimensional errors automatically\n• Processes thousands of images per day"
         },
         {
           "number": 4,
-          "slidetitle": "When AI Flags a Defect",
-          "subtitle": "What happens next matters most.",
-          "slidecontent": "• AI raises a defect alert\n• Human reviews the flag\n• Part gets quarantined immediately\n• Root cause is investigated\n• Production line may pause\n• Decision logged for traceability"
+          "slidetitle": "Alert Response Protocol",
+          "subtitle": "What happens when AI flags a defect",
+          "slidecontent": "• AI raises defect alert\n• Human reviews the flag\n• Part gets quarantined immediately\n• Root cause investigation begins\n• Decision logged for traceability"
         },
         {
           "number": 5,
-          "slidetitle": "Catching Defects Before Assembly",
-          "subtitle": "AI spots flaws before parts combine.",
-          "slidecontent": "• Cameras scan every part instantly\n• Tiny cracks detected early\n• Rejects faulty parts automatically\n• Stops bad parts entering assembly\n• Reduces costly downstream rework"
+          "slidetitle": "Early Detection Benefits",
+          "subtitle": "Why catching defects early matters",
+          "slidecontent": "• Prevents faulty parts entering assembly\n• Stops compound failures downstream\n• Reduces expensive rework costs\n• Maintains consistent quality standards\n• Protects end-user safety"
         },
         {
           "number": 6,
-          "slidetitle": "Catching Defects Before Assembly",
-          "subtitle": "AI spots flaws before parts join.",
-          "slidecontent": "• AI-powered cameras scan components at high speed, flagging surface cracks and dimensional errors invisible to the human eye\n• Defects caught early\n• Faulty parts rejected before they enter the assembly line, preventing compounding faults downstream\n• Vision systems check hundreds of parts per minute with consistent accuracy\n• Early detection reduces costly rework and the risk of defective vehicles reaching customers"
+          "slidetitle": "Real-Time Quality Control",
+          "subtitle": "Speed and accuracy in manufacturing",
+          "slidecontent": "• Hundreds of parts checked per minute\n• Consistent accuracy without fatigue\n• Surface crack detection capability\n• Immediate reject decision making\n• Prevents defective vehicles reaching customers"
         },
         {
           "number": 7,
-          "slidetitle": "Responding to AI Quality Alerts",
-          "subtitle": "Knowing When and How to Act",
-          "slidecontent": "• Stop the line immediately\n• Check the flagged part\n• Inform your supervisor\n• Log the alert details\n• Never override without approval"
+          "slidetitle": "Operator Response Guidelines",
+          "subtitle": "Your role when alerts trigger",
+          "slidecontent": "• Stop production line immediately\n• Physically inspect flagged part\n• Notify supervisor promptly\n• Document alert details thoroughly\n• Never override without approval"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safer AI decisions",
-          "slidecontent": "• AI flags quality issues, but a human must make the final call on safety-critical parts\n• Even small defects can cascade into serious vehicle failures downstream\n• Trust the data, not just the output\n• Always document AI-assisted decisions so they can be reviewed and audited later\n• When in doubt, escalate to a qualified engineer rather than accepting an AI recommendation at face value\n• As a next step, review your facility's current AI decision protocols and identify where human sign-off is required"
+          "slidetitle": "Safety-First Decision Framework",
+          "subtitle": "Core principles for AI-assisted manufacturing",
+          "slidecontent": "• Human oversight required for safety-critical decisions\n• Small defects can cascade into major failures\n• Document all AI-assisted decisions\n• Escalate uncertainties to qualified engineers\n• Review facility protocols for human sign-off requirements"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome, and thank you for joining this course on AI in automotive manufacturing. Over the next few lessons, we are going to explore something that really matters: how artificial intelligence is being used to make decisions in vehicle production, and why getting those decisions right is absolutely critical. When a car rolls off a production line, every single component needs to meet an exacting standard. A faulty part does not just mean a warranty claim or a recall. In the worst cases, it can cost someone their life. AI is now playing a significant role in how manufacturers assess quality, flag problems, and decide what passes and what does not. This course is going to walk you through how that works, why it matters, and what the real risks look like when things go wrong. And do not worry if you have never studied AI before. We are starting from scratch, and everything will be explained in plain, straightforward language. Let us get started."
+          "script": "Welcome, and thank you for joining this course on AI in automotive manufacturing. Over the next few lessons, we are going to explore something that really matters: how artificial intelligence is being used to make decisions in vehicle production, and why getting those decisions right is absolutely critical. When a car rolls off a production line, every single component needs to meet an exacting standard. A faulty part does not just mean a warranty claim or a recall. In the worst cases, it can cost someone their life. AI is now playing a significant role in how manufacturers assess quality, flag problems, and decide what passes and what does not. This course is going to walk you through how that works, why it matters, and what the real risks look like when things go wrong. And do not worry if you have never studied AI before. We are starting from scratch, and everything will be explained in plain, straightforward language."
         },
         {
           "number": 2,
-          "script": "When we talk about AI in automotive manufacturing, we are not just talking about efficiency or speed. Some of the decisions these systems make have a direct bearing on whether a vehicle is safe to drive once it leaves the factory. Think about processes like checking welds, inspecting brake components, or verifying that bolts have been tightened to the correct torque. If an AI system gets one of those wrong and a fault slips through undetected, the consequences on the road could be serious. That is what we mean by a safety-critical decision. Not every AI decision in a factory carries that level of risk, but some absolutely do, and it is vital that anyone working with these systems can tell the difference. So before we go any further in this course, we want to build that foundation: understanding which AI decisions matter most from a safety perspective, and why that distinction is so important for your team."
+          "script": "When we talk about AI in automotive manufacturing, we are not just talking about efficiency or speed. Some of the decisions these systems make have a direct bearing on whether a vehicle is safe to drive once it leaves the factory. Think about processes like checking welds, inspecting brake components, or verifying that bolts have been tightened to the correct torque. If an AI system gets one of those wrong and a fault slips through undetected, the consequences on the road could be serious. That is what we mean by a safety-critical decision. Not every AI decision in a factory carries that level of risk, but some absolutely do, and it is vital that anyone working with these systems can tell the difference."
         },
         {
           "number": 3,
-          "script": "One of the most powerful applications of AI in automotive manufacturing is in quality inspection, specifically catching defective parts before they ever reach the assembly line. Traditional manual inspection is time-consuming and, frankly, human eyes can miss things, especially when you are checking thousands of components every single day. AI-powered vision systems solve this by scanning parts at incredible speed, looking for surface cracks, dimensional errors, and material flaws that might otherwise slip through. These systems are trained on enormous datasets, sometimes hundreds of thousands of images, covering both acceptable parts and rejected ones, so the model learns to spot even the most subtle inconsistencies. We are talking about flaws that are genuinely invisible to the naked eye. By catching those problems at this early stage, before assembly even begins, manufacturers can prevent faulty components from making their way into a finished vehicle, which is absolutely critical when we are talking about safety."
+          "script": "The backbone of modern quality control is AI-powered vision technology. These systems use high-resolution cameras paired with sophisticated machine learning models that have been trained on enormous datasets - sometimes hundreds of thousands of images showing both acceptable and defective parts. What makes this technology so powerful is its ability to detect flaws that are genuinely invisible to the human eye: hairline surface cracks, microscopic dimensional variations, and subtle material inconsistencies. The AI processes this visual information at incredible speed, analyzing component after component without the fatigue or attention lapses that naturally affect human inspectors over long shifts."
         },
         {
           "number": 4,
-          "script": "So let's walk through what actually happens when the AI spots something it doesn't like. The system raises an alert, and straight away a human operator steps in to review it. We never just let the AI make the final call on its own. The suspect part is immediately quarantined, so it doesn't accidentally make its way further down the line. Then the team investigates to understand what caused the defect in the first place. Was it a one-off, or is something going wrong more systematically? Depending on what they find, the production line itself might be paused to prevent more faulty parts from being produced. And importantly, every single decision made throughout this process is logged. That traceability is really important, because if questions arise later, whether from a safety audit or a customer complaint, you need a clear record of exactly what happened and why. It is a proper, structured response, not just a quick fix."
+          "script": "Let's walk through what actually happens when AI spots a potential problem. The system immediately raises an alert, triggering a structured response protocol. A human operator steps in to review the flag - we never let AI make final decisions on safety-critical parts alone. The suspect component is quarantined right away to prevent it moving further down the production line. Then the team investigates to understand the root cause. Was this a one-off anomaly, or is there a systematic issue affecting multiple parts? Depending on what they discover, production may be paused to prevent more faulty components being manufactured. Every decision throughout this process is meticulously logged, creating the traceability that is essential for safety audits and quality investigations."
         },
         {
           "number": 5,
-          "script": "So, let's think about what happens before a single part even reaches the assembly line. Traditionally, quality checks were done by human inspectors, and whilst they did a brilliant job, no one can catch every tiny flaw on every single component, especially at the speed modern manufacturing demands. This is where AI-powered vision systems come in. High-resolution cameras scan each part in a fraction of a second, looking for things like hairline cracks, surface imperfections, or dimensional errors that the human eye might simply miss. And importantly, when the system spots a problem, it acts immediately, pulling that faulty part out of the process automatically, without any delay. This means nothing substandard ever makes it into the assembly stage. Why does that matter so much? Because fixing a problem at this early point is far cheaper and simpler than discovering it later, once dozens of other components have already been built around it."
+          "script": "The value of catching defects before assembly cannot be overstated. When a faulty component makes it into the assembly process, the problem does not stay contained - it can cascade, causing additional faults as other parts are built around it. This compounds both the safety risk and the cost of remediation. By intercepting defective parts at the component level, manufacturers prevent these compound failures from developing. The economics are striking too: fixing a problem at this early stage costs a fraction of what it would take to address the same issue after assembly, let alone after the vehicle reaches a customer."
         },
         {
           "number": 6,
-          "script": "So, before a single bolt is tightened or a panel is fitted, AI is already hard at work checking every component that comes down the line. High-speed cameras powered by AI scan parts in real time, picking up surface cracks, tiny dimensional errors, and other flaws that a human inspector simply wouldn't catch at that pace. And the speed here is remarkable. These vision systems can check hundreds of parts every single minute, without losing concentration or consistency. Now, why does that matter so much? Well, if a faulty component makes it into the assembly process, the problem doesn't stay contained. It can compound, causing further faults further down the line, and potentially ending up in a finished vehicle. By catching defects at this early stage, manufacturers can reject the bad parts immediately, avoid expensive rework later on, and most importantly, protect the people who will eventually drive those vehicles. It really is prevention working at its best."
+          "script": "The speed and consistency of AI-powered inspection systems represent a fundamental shift in manufacturing quality control. These vision systems can examine hundreds of components every single minute, maintaining perfect consistency without the natural variations in attention that affect human inspectors. They work continuously, detecting surface defects and dimensional errors with remarkable precision. When a fault is identified, the system makes an immediate reject decision, automatically removing the defective part from the production flow. This real-time response ensures that no substandard components progress to assembly, where they could compromise the safety of the finished vehicle."
         },
         {
           "number": 7,
-          "script": "So when the AI system raises a quality alert, what should you actually do? The first thing is simple: stop the line. Don't carry on and hope for the best. Bring production to a halt so the problem doesn't travel further down the process. Then go and physically inspect the part that's been flagged. The AI has spotted something, and your job is to verify what's going on. Once you've done that, get your supervisor involved straight away. This isn't something you should be dealing with on your own. While you're waiting, make sure you log the alert details, because that information is really valuable for understanding patterns over time. And here's the most important point: never override an AI alert without getting proper approval first. It might feel like a small thing in the moment, but in a safety-critical environment, that decision could have serious consequences. Follow the process, every single time."
+          "script": "When an AI quality alert triggers, your response as an operator is critical to maintaining safety standards. The first action is always to stop the production line immediately - never continue hoping the alert might be incorrect. Next, physically inspect the flagged component to understand what the AI has detected. Promptly notify your supervisor, because these decisions require management oversight. While waiting for guidance, document the alert details thoroughly, as this information helps identify patterns over time. Most importantly, never override an AI alert without proper approval. In safety-critical manufacturing, that override decision could have serious consequences down the line."
         },
         {
           "number": 8,
-          "script": "So let's bring together the core principles we've covered in this lesson. The most important thing to remember is that AI is a tool to support your judgement, not replace it. It can flag a potential defect, but a qualified human being must make the final decision on anything safety-critical. And this matters enormously, because even a tiny fault that slips through can cause serious problems further down the line in a finished vehicle. Now, trusting the data means looking beyond just what the AI tells you and understanding the reasoning behind it. You also need to document every AI-assisted decision you make, so there's a clear audit trail if anything is ever questioned. And if you're ever unsure, please escalate to an engineer rather than simply accepting the AI's recommendation. As a practical next step, I'd encourage you to review your facility's current protocols and pinpoint exactly where human sign-off is required. That's where you can make a real difference."
+          "script": "As we conclude this lesson, remember these core principles for working with AI in safety-critical manufacturing. AI serves as a powerful tool to support human judgment, but qualified people must make final decisions on anything that affects vehicle safety. Even tiny defects that seem insignificant can cascade into major failures once a vehicle is on the road. Always document your AI-assisted decisions to create a clear audit trail. When you encounter uncertainty, escalate to qualified engineers rather than accepting AI recommendations at face value. As a practical next step, review your facility's current protocols to identify exactly where human sign-off is required - that is where you can make the greatest impact on manufacturing safety."
         }
       ]
     }

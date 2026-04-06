@@ -1,0 +1,14 @@
+{
+  "Course Title": "Model Misuse in Applications",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software developers, application developers, AI developers, product managers, software engineers, technical leads, development team leads",
+  "Team or Dept this is for": "Engineering, Software Development, Product Development, IT, Technology teams",
+  "Description": "When developers unintentionally enable unsafe or unintended AI behaviors.",
+  "Prerequisites": "A basic familiarity with software development concepts and a general awareness of how AI-powered applications are built and deployed is all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common ways developers unintentionally introduce unsafe or unintended behaviours into AI-powered applications, and explain the underlying technical and design factors that contribute to model misuse. You will also apply practical strategies to recognise, prevent, and address these vulnerabilities when building or reviewing software that incorporates intelligent models.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

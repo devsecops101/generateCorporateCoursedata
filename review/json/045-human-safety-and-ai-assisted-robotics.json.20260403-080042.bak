@@ -1,0 +1,107 @@
+{
+  "Course Title": "Human Safety and AI-Assisted Robotics",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "What happens when AI misinterprets movement or intent on the factory floor.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with factory floor operations or general manufacturing processes is helpful, though no prior knowledge of robotics or artificial intelligence is required to follow this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks that arise when AI-assisted robotic systems misinterpret human movement or intent on the factory floor, and explain how these misinterpretations can lead to safety incidents across manufacturing environments such as chemicals, food production, and automotive assembly. You will also be able to apply practical safety awareness strategies to recognise warning signs, respond appropriately to AI system errors, and support a safer working environment when operating alongside robotic technology.",
+  "lessons": [
+    {
+      "lesson title": "Human Safety and AI-Assisted Robotics",
+      "order": 1,
+      "Description": "As AI-assisted robots become more common in manufacturing and industrial environments, understanding how they interpret human movement and intent is essential for keeping workers safe. This lesson explores what can go wrong when an AI system misreads a gesture, an unexpected action, or a person's proximity to a robotic arm or automated machine. Using clear, practical examples from real factory floor scenarios, you will learn how these misinterpretations happen and why they can lead to serious safety incidents. By the end of this lesson, you will have a solid foundation for recognising the risks associated with AI-assisted robotics and understanding the basic principles that help protect people working alongside these systems.",
+      "status": "draft",
+      "content": "What happens when AI misinterprets movement or intent on the factory floor.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Human Safety in AI Robotics",
+          "subtitle": "When machines misread human intent",
+          "slidecontent": "• AI-assisted robots are increasingly common on factory floors across the UK and beyond\n• These systems use sensors and algorithms to detect and respond to human movement\n• Sometimes the AI misreads a gesture, posture, or intention\n• The consequences can range from minor disruption to serious injury\n• Understanding why misreads happen is the first step toward preventing them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising AI Misinterpretation Risks",
+          "subtitle": "When Machines Misread Human Behaviour",
+          "slidecontent": "• AI systems on factory floors read human movement through cameras and sensors, but can misread normal actions as threats or errors\n• A worker reaching across a conveyor belt may trigger an unplanned machine stop\n• Misreadings happen more often in busy, cluttered, or poorly lit environments\n• Even small gestures can confuse an AI that was not trained on that specific behaviour\n• The consequences range from minor disruptions to serious safety incidents"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Misreading Movement and Intent",
+          "subtitle": "When Robots Misread Human Behaviour",
+          "slidecontent": "• Robots misjudge human gestures\n• Speed confuses motion sensors\n• Sudden moves trigger wrong responses\n• Crowded spaces increase errors\n• Intent is rarely obvious"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Misreading Human Movement Intent",
+          "subtitle": "When Robots Misread Our Next Move",
+          "slidecontent": "• AI systems predict where a worker is heading, not just where they are standing right now\n• A sudden change in direction can confuse the robot's movement model\n• Brief freezes or hesitations by the robot while it recalculates\n• Workers crouching, reaching, or turning unexpectedly are common triggers for misreads\n• Poor lighting or cluttered environments make accurate intent detection even harder"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Misreading Human Movement Signals",
+          "subtitle": "When Gestures Get Lost in Translation",
+          "slidecontent": "• Gestures misread as commands\n• Speed confused with aggression\n• Pauses trigger false alerts\n• Gloves obscure hand signals\n• Fatigue alters movement patterns"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Misreads That Caused Real Harm",
+          "subtitle": "When Errors Led to Injury",
+          "slidecontent": "• Worker struck by moving arm\n• Sensor misread a gesture\n• Robot ignored a stop signal\n• Speed not reduced in time\n• Injury followed the misread"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Preventing Misinterpretation on the Floor",
+          "subtitle": "Reducing Risk Through Clearer Human Signals",
+          "slidecontent": "• Wearing high-visibility clothing helps AI systems distinguish workers from background machinery\n• Avoid sudden, unpredictable movements near robotic work zones\n• Clear signals matter\n• Designated walkways give robots consistent, learnable human pathways to anticipate\n• Hand signals and gestures should follow agreed site-wide standards, not personal habits\n• Simple routines, repeated consistently, reduce the chance of misreads"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer human-robot collaboration",
+          "slidecontent": "• Slow down near robots\n• Clear signals prevent accidents\n• Humans always take priority\n• Report misreadings immediately\n• Training reduces risk significantly\n• Stay alert, stay safe"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on Human Safety and AI-Assisted Robotics. Over the next few lessons, we are going to explore something that is becoming increasingly relevant across factory floors and industrial workplaces throughout the UK and beyond. AI-assisted robots are no longer a distant concept. They are already working alongside people, using sensors and clever algorithms to detect human movement and respond accordingly. But here is the thing: these systems are not perfect. Sometimes a robot misreads a gesture, misjudges a posture, or simply gets the wrong idea about what a person is about to do. And when that happens, the results can range from a minor interruption to something far more serious, including genuine physical harm. So the question we need to ask is: why does this happen, and what can we do about it? That is exactly what this course is designed to help you understand, starting right here with the fundamentals."
+        },
+        {
+          "number": 2,
+          "script": "So, one of the first things we need to understand is that AI systems are not perfect readers of human behaviour. On a factory floor, these systems use cameras and sensors to monitor what people are doing, and most of the time that works reasonably well. But problems arise when the AI misinterprets a perfectly normal action. Something as simple as a worker reaching across a conveyor belt could be read as a potential hazard, causing the machine to stop unexpectedly. And these misreadings become far more likely in environments that are busy, cluttered, or poorly lit, because the AI is essentially trying to make sense of a messy, unpredictable world. Even a small or unfamiliar gesture can throw the system off, particularly if it was never trained to recognise that specific movement. The consequences of getting this wrong can range from a minor disruption to the workflow, all the way through to a genuinely serious safety incident. So this is something we really need to take seriously."
+        },
+        {
+          "number": 3,
+          "script": "One of the trickiest challenges in human and robot collaboration is that robots are not very good at reading us. When we wave, point, or reach for something, a robot's sensors might completely misinterpret what we are doing. And it is not just gestures that cause problems. If someone moves quickly, perhaps rushing to catch something they have dropped, the robot's motion sensors can get confused and respond in completely the wrong way. Sudden, unexpected movements are particularly problematic, because the robot has no way of knowing whether you are simply startled or actively trying to get out of its path. In busy, crowded environments, these errors become even more frequent, because there is simply more happening for the system to process. The core issue here is that human intent is rarely obvious, even to other humans, so expecting a machine to reliably interpret it is a significant ask. This is something we really need to keep in mind as these systems become more common."
+        },
+        {
+          "number": 4,
+          "script": "One of the more subtle challenges with AI-assisted robots is that they are not simply tracking where you are right now. They are constantly trying to predict where you are going next. And most of the time, that works well. But human movement is not always predictable. If you suddenly change direction, crouch down to pick something up, or reach across unexpectedly, the robot's model of your intended path can be thrown off completely. When that happens, you might notice the robot briefly pause or hesitate. That is it recalculating, trying to figure out what you are doing. It is not a fault exactly, but it does create a moment of uncertainty on the shop floor. And the problem gets worse in difficult conditions. Poor lighting, cluttered workspaces, or busy environments all make it harder for the system to read your movements accurately. So understanding that robots are predicting your intent, not just reacting to your position, is really important for working safely alongside them."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the trickier challenges with AI-assisted robotics is that these systems have to interpret human movement in real time, and they do not always get it right. Imagine you are scratching your head or waving to a colleague, and the robot interprets that as an instruction to move or stop. That is the kind of misreading we are talking about. Similarly, if someone moves quickly because they are in a hurry, the system might flag that as a threat rather than simply recognising it as normal urgency. Even pausing for a moment can trigger an unnecessary alert. Then there are practical factors like wearing thick gloves, which can make hand signals much harder for the system to read accurately. And when workers are tired, their movements naturally become slower or less precise, which can confuse the robot further. So the system is not just reading your body, it is trying to make sense of it, and that is where errors creep in."
+        },
+        {
+          "number": 6,
+          "script": "Let's look at a real-world example of what can go wrong when a robot misreads a human. Imagine a worker on the factory floor, moving their hand to signal a stop. The robot's sensor interprets that gesture incorrectly, perhaps reading it as a movement to continue rather than a command to halt. The stop signal is effectively ignored, the robot's arm keeps moving at full speed, and before the system can correct itself, the worker is struck. This isn't a hypothetical scenario. Incidents like this have happened, and they remind us that the consequences of a misread aren't just technical failures on a report. They result in real injuries to real people. The critical point here is that the chain of events is often very fast. A misread leads to a missed signal, a missed signal means no speed reduction, and within seconds, harm has occurred. Understanding this chain is exactly why safety design matters so much."
+        },
+        {
+          "number": 7,
+          "script": "One of the most practical things we can do to stay safe around AI-assisted robots is to make ourselves easier to read. These systems are constantly scanning their environment, and anything that helps them identify you clearly as a person reduces the risk of a misread. High-visibility clothing is a simple but effective tool here. It helps the AI distinguish you from the surrounding machinery. Beyond what you wear, how you move matters too. Sudden or unpredictable movements near robotic work zones can confuse the system, so staying calm and deliberate is genuinely important. Sticking to designated walkways also helps, because robots can learn to anticipate where people will be. The same principle applies to hand signals and gestures. If everyone on site uses the same agreed standards rather than their own personal habits, the system has a much better chance of interpreting them correctly. Consistency, in short, is one of your best safety tools."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. When you're working near robots, always reduce your pace. Moving slowly gives both you and the system more time to react. Clear, consistent signals, whether physical gestures or verbal cues, help the robot interpret your intentions correctly and avoid dangerous misunderstandings. And remember, no matter how advanced the technology becomes, human safety always comes first. That is a non-negotiable principle in any well-designed human-robot environment. If you ever notice the robot misreading a situation or behaving unexpectedly, report it straight away. Don't wait and hope it resolves itself. Early reporting can prevent serious incidents down the line. We've also seen how proper training makes a real difference in reducing risk, so take every learning opportunity seriously. And finally, stay alert. Complacency is one of the biggest hazards in any workplace. Keep your focus, follow the protocols, and you'll be in a much stronger position to work safely alongside robotic systems."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Factory workers, production line operators, manufacturing technicians, quality control inspectors, maintenance staff, shift supervisors, plant managers, safety coordinators",
+  "Team or Dept this is for": "Manufacturing, Operations, Health and Safety, Production, Quality Assurance, Maintenance, Plant Operations"
+}

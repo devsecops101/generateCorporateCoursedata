@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "AI Threats in Industrial Settings",
-          "subtitle": "When AI Becomes a Vulnerability",
-          "slidecontent": "• AI runs critical industrial systems\n• Attacks cause real-world harm\n• Disruption spreads fast\n• AI can be manipulated\n• Ransomware exploits AI gaps"
+          "slidetitle": "AI in Industrial Operations Today",
+          "subtitle": "From Automation to Critical Control",
+          "slidecontent": "['• AI manages power grids, water treatment, and manufacturing lines', '• Systems make real-time decisions about valves, pressure, and switching', '• AI has moved from background tool to critical infrastructure', '• Interconnected systems create dependencies across facilities', '• Industrial AI operates physical processes, not just data']"
         },
         {
           "number": 2,
-          "slidetitle": "Ransomware Threats to Industrial Systems",
-          "subtitle": "Growing risks across critical infrastructure sectors",
-          "slidecontent": "• Ransomware attacks on industrial systems have surged dramatically in recent years\n• Critical sectors like energy, water, and manufacturing are prime targets\n• Attackers lock operators out of control systems, halting production entirely\n• Costly downtime\n• Recovery can take days or weeks, with serious knock-on effects for public safety\n• AI-driven systems add new complexity, creating more entry points for attackers"
+          "slidetitle": "Ransomware Targeting Industrial Sectors",
+          "subtitle": "Why Critical Infrastructure Attracts Attackers",
+          "slidecontent": "['• Energy, water, and manufacturing sectors see increasing attacks', '• Attackers lock operators out of control systems entirely', '• Industrial downtime causes immediate real-world impact', '• Public safety implications make organizations pay faster', '• Connected environments expand attack surfaces']"
         },
         {
           "number": 3,
-          "slidetitle": "Disruption and Manipulation Risks",
-          "subtitle": "When AI Becomes a Vulnerability",
-          "slidecontent": "• AI controls critical systems\n• Attacks cause physical damage\n• Manipulation spreads false data\n• Downtime costs millions\n• Recovery is slow, complex"
+          "slidetitle": "AI Manipulation vs Disruption",
+          "subtitle": "Two Distinct Attack Approaches",
+          "slidecontent": "['• Disruption: Shutting down AI systems completely', '• Manipulation: Feeding false data to cause bad decisions', '• Manipulation attacks often go undetected longer', \"• Both approaches target AI's decision-making capabilities\", '• Physical damage can result from either method']"
         },
         {
           "number": 4,
-          "slidetitle": "Disruption Amplified by AI Dependency",
-          "subtitle": "When AI Fails, Everything Fails Faster",
-          "slidecontent": "• AI now controls critical decisions in industrial systems, from valve pressure to power grid switching\n• A single ransomware attack can freeze the AI brain, leaving operators blind\n• Faster automation means faster failure\n• Without AI oversight, backup systems often lack the speed to compensate in time\n• Cascading shutdowns across interconnected plant equipment can follow within minutes"
+          "slidetitle": "Speed Amplifies Vulnerability",
+          "subtitle": "When Fast Automation Becomes Fast Failure",
+          "slidecontent": "['• AI makes split-second decisions too fast for manual backup', \"• Ransomware can freeze the AI 'brain' instantly\", '• Automated speed means cascading failures happen in minutes', '• Human operators cannot compensate quickly enough', '• Backup systems lack the speed to prevent cascade effects']"
         },
         {
           "number": 5,
-          "slidetitle": "Disruption Amplifies Operational Risk",
-          "subtitle": "Downtime Cascades Across Critical Systems",
-          "slidecontent": "• Ransomware halts production lines\n• Sensors lose AI guidance\n• Safety systems go offline\n• Delays cascade plant-wide\n• Recovery takes days, not hours"
+          "slidetitle": "Operational Cascade Effects",
+          "subtitle": "How One System Failure Spreads",
+          "slidecontent": "['• Production lines halt when control systems lock up', '• Sensors lose AI guidance and provide no visibility', '• Safety systems dependent on real-time data go offline', '• Failures trigger more failures across connected equipment', '• Full recovery requires days, not hours']"
         },
         {
           "number": 6,
-          "slidetitle": "Disruption Amplifies Operational Risk",
-          "subtitle": "Downtime Cascades Beyond the Factory Floor",
-          "slidecontent": "• AI systems in factories now control scheduling, quality checks, and supply chain decisions in real time\n• A single ransomware attack can freeze these systems and halt production entirely\n• Downtime spreads fast, affecting suppliers, distributors, and customers downstream\n• Recovery takes longer when AI models must be retrained or reconfigured after an attack\n• Lost output and emergency response costs can reach millions within hours\n• Reputational damage often outlasts the technical disruption itself"
+          "slidetitle": "Extended Business Impact",
+          "subtitle": "Disruption Beyond the Factory Floor",
+          "slidecontent": "['• Supply chain partners feel immediate effects', '• Emergency response costs mount by the hour', '• AI models require retraining before safe restart', '• Customer confidence takes months to rebuild', '• Financial losses reach millions within hours']"
         },
         {
           "number": 7,
-          "slidetitle": "Disruption and Manipulation Consequences",
-          "subtitle": "When AI Fails, Consequences Escalate Fast",
-          "slidecontent": "• Production lines stop instantly\n• Safety systems go blind\n• Operators lose all control\n• Damage spreads very fast\n• Recovery costs millions"
+          "slidetitle": "Cost and Recovery Realities",
+          "subtitle": "The True Price of AI System Compromise",
+          "slidecontent": "['• Industrial downtime costs millions per day', '• Recovery complexity increases with AI dependencies', '• Regulatory penalties often follow safety incidents', '• Insurance may not cover all ransomware-related losses', '• Rebuilding trust takes longer than rebuilding systems']"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for staying resilient",
-          "slidecontent": "• AI systems in industrial environments are high-value targets for ransomware attacks\n• Disrupting or manipulating AI can cause cascading failures across critical operations\n• Segment networks to limit how far an attack can spread\n• Keep backups offline and test them regularly\n• Know your incident response plan before an attack happens, not during\n• Start by auditing which AI-connected systems in your facility carry the highest risk"
+          "slidetitle": "Practical Protection Steps",
+          "subtitle": "Building Resilience Against AI-Targeted Attacks",
+          "slidecontent": "['• Audit AI-connected systems by risk level', '• Segment networks to contain attack spread', '• Maintain offline backups and test them regularly', '• Prepare incident response plans before attacks occur', '• Focus protection efforts on highest-risk AI systems first']"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI and Ransomware in Industrial Environments. We are going to start by looking at why AI has become such a significant concern in industrial settings, and the answer really comes down to how deeply embedded it now is in the way these environments operate. AI is no longer just a background tool. It is actively running critical systems, managing power grids, water treatment facilities, manufacturing lines, and more. That means when something goes wrong, the consequences are not just digital. They are physical and potentially very serious. What makes this even more concerning is how quickly a disruption can spread across interconnected systems. And here is the part that often surprises people: AI itself can be manipulated. Attackers have learnt to exploit the gaps and weaknesses within AI-driven infrastructure, and ransomware is increasingly being used to do exactly that. So throughout this course, we will explore how these threats work and what can be done about them."
+          "script": "Welcome to this course on AI and Ransomware in Industrial Environments. Let's start with a fundamental reality: AI is no longer a background technology in industrial settings. It has become the nervous system of critical infrastructure. We're talking about AI that actively manages power grids, controls water treatment facilities, and runs manufacturing lines. These systems make thousands of real-time decisions about valve pressure, power distribution, and equipment switching. The key difference from traditional automation is that AI has moved from supporting operations to actually controlling them. And because these systems are interconnected across entire facilities, a problem in one area can quickly affect everything else. This isn't just about data processing anymore - this is AI operating physical processes that affect the real world."
         },
         {
           "number": 2,
-          "script": "Over the past few years, ransomware attacks targeting industrial systems have increased significantly, and the consequences are far more serious than a typical IT outage. Sectors like energy, water treatment, and manufacturing are particularly attractive to attackers, because disrupting them causes immediate, real-world harm. When ransomware hits an industrial environment, operators can be locked out of the very systems they rely on to keep things running, and production can grind to a complete halt. The financial cost of that downtime is enormous, but beyond the money, recovery can stretch on for days or even weeks, and that has genuine implications for public safety. Now, as industrial environments become more connected and start incorporating AI-driven systems, the attack surface grows even larger. More technology means more potential entry points for attackers to exploit. So throughout this course, we will look at how these threats are evolving and what can be done to address them."
+          "script": "Ransomware attacks on industrial environments have surged in recent years, and there's a clear reason why. Sectors like energy, water treatment, and manufacturing make attractive targets because disrupting them has immediate, serious consequences. When attackers successfully deploy ransomware against industrial control systems, they can lock operators out completely, bringing production to a standstill. What makes these attacks particularly effective from the attacker's perspective is the urgency they create. Organizations in critical infrastructure often face genuine public safety concerns when systems go down, which can make them more likely to pay ransoms quickly. The increasing connectivity of industrial environments also works in the attacker's favor, providing more potential entry points and pathways to spread malicious code throughout an organization's systems."
         },
         {
           "number": 3,
-          "script": "Now, here is where things start to get really serious. In industrial environments, AI is not just crunching numbers in the background. It is actively controlling physical systems, things like valves, turbines, conveyor belts, and power grids. So when an attacker targets that AI, the consequences are not just digital, they can be very much physical. We are talking about machinery being damaged, production lines grinding to a halt, or even safety systems being compromised. There is also a subtler threat worth understanding, and that is manipulation. Rather than shutting a system down outright, an attacker might quietly feed false data into the AI, causing it to make bad decisions without anyone realising something is wrong. And the financial impact of all this can be enormous. Downtime in an industrial setting can cost millions of pounds per day, and getting everything back up and running is rarely quick or straightforward. So the stakes here are genuinely very high."
+          "script": "It's important to understand that ransomware can target AI systems in two distinct ways, each with different implications. The first is straightforward disruption - completely shutting down AI systems so they stop functioning entirely. This is the more obvious threat, and it gets attention quickly because everything stops working. But there's a second, more subtle approach: manipulation. Instead of shutting systems down, attackers can feed false information into AI systems, causing them to make incorrect decisions while appearing to function normally. Manipulation attacks are particularly dangerous because they can go undetected for extended periods. Whether through disruption or manipulation, both approaches target the AI's core function - its ability to make decisions - and both can result in physical damage to equipment or unsafe conditions."
         },
         {
           "number": 4,
-          "script": "Here's something that might surprise you. The more we rely on AI to run industrial systems, the more vulnerable we become when that AI is taken offline. Think about what AI is actually doing in these environments. It's making split-second decisions about things like valve pressure, power distribution, and equipment switching. Decisions that happen far too quickly for a human operator to manage manually. Now imagine a ransomware attack freezes that system completely. Suddenly, your operators are flying blind, with no visibility and no control. And here's where it gets worse. Because modern automation moves so fast, failures don't unfold slowly. They cascade. One system goes down, and within minutes, interconnected equipment across the entire plant can follow. Backup systems exist, of course, but they're often simply not fast enough to step in and compensate in time. So the very speed that makes AI so powerful is the same thing that makes its failure so dangerous."
+          "script": "Here's a critical vulnerability that emerges from AI's greatest strength: speed. Modern industrial AI systems make decisions in milliseconds - far too quickly for human operators to manage manually. This speed is exactly what makes them so powerful, but it also makes them incredibly vulnerable when they fail. When ransomware freezes an AI system, operators don't just lose a tool - they lose their ability to keep up with the pace of operations. Think about it: if an AI system is managing hundreds of rapid-fire decisions across a power grid or manufacturing line, there's simply no way for humans to step in and maintain that level of control manually. The automation that allows operations to run so efficiently becomes a single point of failure that can trigger cascading shutdowns across interconnected equipment within minutes."
         },
         {
           "number": 5,
-          "script": "When ransomware strikes an industrial environment, the damage doesn't stop at a locked screen or an encrypted file. It spreads. Production lines grind to a halt because the systems controlling them are suddenly unreachable. The AI tools that guide your sensors and automate your processes lose their connection, so those sensors are essentially flying blind. And critically, safety systems that depend on real-time data can go offline too, which introduces genuine physical risk to people and equipment. What makes this especially serious is the cascade effect. One failure triggers another, and before long the disruption has spread across the entire plant. You might assume recovery is a matter of hours, but in reality it often takes days, sometimes longer, to restore full operations safely. So we're not just talking about an IT inconvenience here. We're talking about a chain reaction that touches every corner of your facility."
+          "script": "When ransomware hits AI-driven industrial systems, the damage doesn't stay contained - it spreads in a predictable pattern that we need to understand. First, production lines halt because the control systems become unreachable. Then sensors that depend on AI for guidance lose their ability to provide meaningful data, leaving operators essentially blind to what's happening. Most critically, safety systems that rely on real-time analysis can go offline, introducing genuine physical risks. What makes this particularly challenging is the domino effect. One system failure triggers related failures, and before long the disruption has spread across the entire facility. This isn't a quick fix situation either. Getting industrial systems back online safely after a ransomware attack typically requires days of careful work, not hours, because each system needs to be verified and tested before it can be trusted again."
         },
         {
           "number": 6,
-          "script": "So let's think about what actually happens when a ransomware attack hits a modern AI-driven factory. These systems are not just running one or two processes. They are managing scheduling, quality control, and supply chain decisions all at once, in real time. When they go down, everything stops. And the damage does not stay inside the factory walls. Suppliers waiting on orders, distributors expecting deliveries, customers downstream, they all feel it very quickly. What makes recovery even harder is that AI models often need to be retrained or reconfigured before they can be trusted again, and that takes time. Meanwhile, the financial losses are mounting by the hour, sometimes reaching millions before the technical team has even identified the root cause. And even once the systems are back online, the reputational damage can linger for months. Customers and partners start asking serious questions about whether they can rely on you. The disruption, in other words, goes far deeper than most people initially expect."
+          "script": "The impact of ransomware on industrial AI extends far beyond the factory walls. Modern AI systems don't just run equipment - they manage scheduling, coordinate with suppliers, and make supply chain decisions in real time. When these systems go down, the disruption ripples outward immediately. Suppliers expecting orders, distributors waiting for deliveries, and customers counting on products all feel the impact within hours. The financial losses start mounting immediately, often reaching millions before technical teams have even fully assessed the damage. But there's an additional complication with AI systems: they often need to be retrained or reconfigured after an attack before they can be trusted to operate safely again. This extends recovery time significantly. And even after systems are restored, rebuilding customer and partner confidence can take months, making the business impact much longer-lasting than the technical disruption itself."
         },
         {
           "number": 7,
-          "script": "When AI systems in industrial environments are disrupted or manipulated by ransomware, the consequences can escalate extraordinarily quickly. We are not talking about a minor inconvenience here. Production lines can grind to a complete halt in seconds, meaning factories stop producing anything at all. What makes this even more alarming is that the safety systems, the ones designed to protect workers and equipment, can effectively go dark. Operators are suddenly flying blind, with no visibility or control over what is happening on the factory floor. And because everything is so tightly connected in a modern industrial environment, the damage does not stay contained. It spreads rapidly across systems and sites. When you eventually get to the recovery stage, you are looking at costs that can run into millions of pounds, and that is before you even factor in reputational damage or regulatory penalties. So the stakes here are genuinely very high, and that is why understanding these risks matters so much."
+          "script": "Let's talk numbers, because the financial reality of AI ransomware attacks is sobering. Industrial downtime typically costs millions per day, and that's before considering emergency response expenses, cleanup costs, or regulatory penalties. The complexity of recovery increases dramatically when AI systems are involved, because you can't just restore from backup and assume everything works correctly. AI models may need retraining, decision algorithms require validation, and safety systems demand extensive testing. Insurance coverage for ransomware attacks varies widely and often excludes certain types of losses. There's also the regulatory dimension - safety incidents resulting from compromised AI systems can trigger investigations and penalties that add to the financial burden. Perhaps most challenging of all, rebuilding stakeholder trust takes far longer than rebuilding technical systems, creating business impacts that extend well beyond the immediate crisis."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The core message here is straightforward: AI systems in industrial environments are genuinely attractive targets for ransomware, and when attackers go after them, the consequences can ripple outward very quickly, affecting far more than just the system that was hit. The good news is that the fundamentals of protection are well established. Segment your networks so an attack cannot travel freely. Keep your backups offline and actually test them, because a backup you have never tested is one you cannot trust. And please, do not wait until something goes wrong to figure out your incident response plan. Know it now, rehearse it, and make sure the right people know their roles. Finally, a practical place to start is simply auditing which of your AI-connected systems carry the greatest risk. Identify those first, and you will know exactly where to focus your energy."
+          "script": "Let's focus on practical steps you can take to build resilience against these threats. Start with an audit of your AI-connected systems, ranking them by risk level and potential impact if compromised. This gives you a clear picture of where to focus your protection efforts first. Network segmentation is crucial - design your networks so that an attack can't travel freely between systems and departments. Maintain offline backups and actually test them regularly, because an untested backup is one you can't rely on when you need it most. Develop and rehearse incident response plans before you need them, not during a crisis. Make sure key personnel know their roles and have practiced the procedures. The goal isn't to make attacks impossible - it's to limit their impact and speed your recovery when they do occur. Focus your initial efforts on protecting the AI systems that would cause the most damage if compromised."
         }
       ]
     }

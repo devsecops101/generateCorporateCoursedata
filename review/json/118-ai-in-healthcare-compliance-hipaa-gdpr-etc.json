@@ -25,38 +25,38 @@
         },
         {
           "number": 2,
-          "slidetitle": "Regulatory Risks of AI Systems",
-          "subtitle": "Where compliance gaps become legal risks",
-          "slidecontent": "• AI systems process vast amounts of sensitive patient data, creating new points of regulatory exposure\n• Even well-intentioned deployments can breach HIPAA or GDPR without proper safeguards\n• Automated decisions (such as triage or diagnosis support) may trigger additional legal obligations\n• Audit trails are often incomplete\n• Regulators are increasingly scrutinising AI vendors and the healthcare organisations that use them\n• Non-compliance can result in significant fines, reputational damage, and loss of patient trust"
+          "slidetitle": "HIPAA and GDPR Exposure Points",
+          "subtitle": "Where well-intentioned AI deployments breach regulations",
+          "slidecontent": "• Automated clinical decisions trigger additional legal obligations\n• Incomplete audit trails prevent accountability demonstration\n• Regulators scrutinise both AI vendors and healthcare users\n• Non-compliance results in fines, reputational damage, and lost patient trust\n• Even careful implementations can breach regulations without proper safeguards"
         },
         {
           "number": 3,
-          "slidetitle": "Data Minimisation and AI Risk",
-          "subtitle": "Collecting Less Data, Reducing AI Risk",
-          "slidecontent": "• AI systems trained on excessive patient data create larger regulatory targets under HIPAA and GDPR\n\n• More data collected means more data that can be breached, misused, or mishandled\n\n• Data minimisation (collecting only what is strictly necessary) is a core legal principle in both frameworks\n\n• Limits AI risk directly\n\n• Anonymising or pseudonymising data before feeding it into AI tools reduces compliance exposure significantly\n\n• Regulators increasingly scrutinise whether AI deployments justify the volume of personal data they consume"
+          "slidetitle": "Data Minimisation Principles",
+          "subtitle": "Why collecting only essential data reduces risk",
+          "slidecontent": "• GDPR and HIPAA require collecting only strictly necessary data\n• Excess patient data creates larger regulatory targets\n• More data means more breach and misuse potential\n• Anonymising data before AI processing reduces compliance exposure\n• Regulators question whether AI data consumption justifies volume"
         },
         {
           "number": 4,
-          "slidetitle": "Data Minimisation and AI Risk",
-          "subtitle": "Collecting Less Reduces Compliance Risk",
-          "slidecontent": "• AI systems often collect far more data than they actually need to function\n\n• More data means more liability\n\n• GDPR's data minimisation principle requires collecting only what is strictly necessary for a defined purpose\n\n• Healthcare AI tools trained on excess patient data create unnecessary exposure under both HIPAA and GDPR\n\n• Limiting data inputs at the design stage reduces breach risk, audit complexity, and regulatory penalties\n\n• Small design choices, like restricting which fields an AI can access, can significantly shrink your compliance burden"
+          "slidetitle": "Implementing Data Limits",
+          "subtitle": "Practical design choices to minimise compliance burden",
+          "slidecontent": "• Restrict AI access to specific data fields only\n• Address over-collection at the design stage\n• Smaller data inputs create smaller breach surfaces\n• Fewer inputs simplify audits and reduce penalties\n• Design decisions directly impact compliance liability"
         },
         {
           "number": 5,
-          "slidetitle": "Data Minimisation and AI Risk",
-          "subtitle": "Collecting Less Reduces Compliance Risk",
-          "slidecontent": "• Collect only essential data\n• Less data, less risk\n• AI often over-collects\n• Minimise before you train\n• Audit inputs regularly"
+          "slidetitle": "Ongoing Data Governance",
+          "subtitle": "Regular monitoring prevents compliance drift",
+          "slidecontent": "• Audit AI data inputs regularly\n• Data requirements can expand without notice\n• Strip non-essential information before training\n• Monitor for gradual increases in data collection\n• Maintain strict purpose limitation throughout AI lifecycle"
         },
         {
           "number": 6,
           "slidetitle": "Audit Trails and Accountability",
-          "subtitle": "Tracking Every AI Decision Made",
+          "subtitle": "Tracking every AI decision made",
           "slidecontent": "• AI logs every action automatically\n• Records who approved each decision\n• Timestamps prove regulatory compliance\n• Auditors can trace AI choices\n• Gaps in logs mean liability"
         },
         {
           "number": 7,
           "slidetitle": "Reducing Your Compliance Risk",
-          "subtitle": "Practical Steps to Protect Your Organisation",
+          "subtitle": "Practical steps to protect your organisation",
           "slidecontent": "• Audit all AI tools used\n• Train staff on data rules\n• Document every AI decision\n• Limit data access strictly\n• Review vendor contracts regularly\n• Report breaches without delay"
         },
         {
@@ -73,19 +73,19 @@
         },
         {
           "number": 2,
-          "script": "So let's talk about where things can go wrong. AI systems in healthcare are handling enormous volumes of sensitive patient data, and that creates real regulatory exposure, even when everyone involved has the best intentions. You might deploy an AI tool to genuinely improve patient care, but if the right safeguards aren't in place, you could still find yourself in breach of HIPAA or GDPR. It gets more complicated when AI is making or supporting clinical decisions, like triage or diagnosis, because that can trigger additional legal obligations that many organisations simply aren't prepared for. There's also the issue of audit trails, which are frequently incomplete, making it very difficult to demonstrate accountability after the fact. Regulators are paying close attention to this space now, and they're looking at both the AI vendors and the healthcare organisations using their products. The consequences of getting this wrong include substantial fines, serious reputational damage, and a real erosion of patient trust."
+          "script": "Let's look at specific ways AI creates regulatory exposure under HIPAA and GDPR. Even when you deploy AI tools with the best intentions to improve patient care, you can still breach these frameworks without proper safeguards. The situation becomes more complex when AI supports clinical decisions like triage or diagnosis, because that triggers additional legal obligations many organisations aren't prepared for. Incomplete audit trails make it nearly impossible to demonstrate accountability after problems arise. Both regulators and enforcement agencies are now actively scrutinising AI vendors and the healthcare organisations using their products, leading to substantial fines, reputational damage, and erosion of patient trust when compliance failures occur."
         },
         {
           "number": 3,
-          "script": "One of the most practical ways to reduce your AI compliance risk is actually quite straightforward: collect less data. Both HIPAA and GDPR are built around the principle of data minimisation, which simply means only gathering the personal information you genuinely need. When AI systems are trained on vast amounts of patient data, you are essentially creating a much larger target for regulators, and for potential breaches. The more data you hold, the more there is to go wrong. A really effective strategy here is to anonymise or pseudonymise patient data before it ever enters an AI tool. This strips away identifying details and significantly reduces your compliance exposure. And this is not just good practice, regulators are now actively asking whether the volume of personal data an AI system consumes is actually justified by its purpose. So the message is clear: less data, less risk, and a much stronger compliance position overall."
+          "script": "Both HIPAA and GDPR are built around a fundamental principle: data minimisation, which means collecting only the personal information you genuinely need for a specific purpose. When AI systems consume vast amounts of patient data, you create a much larger regulatory target and increase potential for breaches and misuse. The solution is to anonymise or pseudonymise patient data before it enters AI tools, stripping away identifying details and significantly reducing compliance exposure. Regulators are increasingly asking whether the volume of personal data an AI system processes is actually justified by its clinical or operational purpose."
         },
         {
           "number": 4,
-          "script": "Here is something that surprises a lot of people when they first encounter healthcare AI compliance: more data is not always better. In fact, collecting more data than you actually need creates more risk, more liability, and more regulatory headaches. Under GDPR, there is a principle called data minimisation, which essentially says you should only collect what is strictly necessary for a specific, defined purpose. Nothing extra. And this matters enormously in healthcare AI, because tools that are trained or run on excess patient data are creating unnecessary exposure under both GDPR and HIPAA. The good news is that you can address a lot of this at the design stage, before the system ever goes live. Simple decisions, like restricting which data fields an AI tool can actually access, can dramatically reduce your compliance burden. Fewer data inputs means a smaller breach surface, simpler audits, and lower risk of regulatory penalties. Less really is more here."
+          "script": "Here's something that surprises many people: you can dramatically reduce compliance burden through simple design choices made before AI systems go live. By restricting which data fields an AI tool can access, you create smaller breach surfaces, simpler audits, and lower risk of regulatory penalties. The key is addressing potential over-collection at the design stage rather than trying to fix it later. These upfront decisions about data access directly determine your organisation's compliance liability, making thoughtful system architecture a critical risk management strategy."
         },
         {
           "number": 5,
-          "script": "One of the most powerful ways to reduce your compliance risk is actually quite simple: collect less data. Under frameworks like GDPR, there is a principle called data minimisation, which means you should only gather the personal information you genuinely need for a specific purpose. Now, here is where AI can create a real problem. AI systems have a tendency to hoover up as much data as possible, because more data often means better performance. But from a compliance standpoint, that approach is dangerous. Every extra piece of personal data you hold is another liability. So before you even begin training an AI model, take a step back and ask yourself what data is truly essential. Strip out anything that is not necessary. And this is not a one-time exercise either. You should be regularly auditing what data is feeding into your AI systems, because over time, inputs can creep and expand without anyone really noticing. Less data, genuinely, means less risk."
+          "script": "Data minimisation isn't a one-time exercise. AI systems have a tendency to gradually expand their data consumption over time, often without anyone noticing. You need regular audits of what information is feeding into your AI tools, because data requirements can creep upward as systems evolve. Before training any AI model, strip out information that isn't essential for the specific purpose. This ongoing governance prevents the gradual drift that can turn a compliant system into a regulatory liability over months or years of operation."
         },
         {
           "number": 6,

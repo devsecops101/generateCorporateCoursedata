@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "What Can Go Wrong?",
-          "subtitle": "When AI advice leads travellers astray",
-          "slidecontent": "• AI tools confidently suggesting hotels, routes, or attractions that no longer exist\n• Outdated visa or entry requirement information presented as current fact\n• Wrong currency, time zones, or local laws\n• Fabricated reviews or ratings for restaurants and accommodations\n• Real place names mixed with invented details, making errors hard to spot\n• No warning given when the AI is uncertain or working from old data"
+          "slidetitle": "Common Types of AI Travel Misinformation",
+          "subtitle": "What can go wrong with automated advice",
+          "slidecontent": "• Non-existent hotels and closed attractions recommended confidently\n• Outdated visa requirements presented as current fact\n• Wrong currency, time zones, or local laws\n• Fabricated reviews and ratings for accommodations\n• Real place names mixed with invented details"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting Unreliable AI Advice",
-          "subtitle": "Recognising the warning signs of misinformation",
-          "slidecontent": "• Vague or unverifiable details\n• Outdated visa information\n• Conflicting opening hours\n• No source cited\n• Overly confident tone\n• Generic, copy-paste feel"
+          "slidetitle": "Why AI Gets Travel Information Wrong",
+          "subtitle": "Understanding the root causes of errors",
+          "slidecontent": "• Training data becomes outdated quickly\n• No real-time access to current conditions\n• Cannot distinguish reliable from unreliable sources\n• Generates plausible-sounding but false details\n• No warning when uncertain or working from old data"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Unreliable AI Advice",
-          "subtitle": "Recognising the warning signs of errors",
-          "slidecontent": "• AI-generated itineraries that list closed attractions or outdated opening hours\n• Vague or overly confident language with no sources cited\n• No dates\n• Suggested routes that are geographically illogical or physically impossible in the given timeframe\n• Prices, visa requirements, or entry rules that cannot be verified on official government or tourism websites\n• A suspiciously perfect itinerary with no trade-offs or practical limitations mentioned"
+          "slidetitle": "Warning Signs of Unreliable AI Advice",
+          "subtitle": "Red flags to watch for in travel recommendations",
+          "slidecontent": "• Vague details with no sources cited\n• Missing dates on time-sensitive information\n• Geographically impossible routes or timeframes\n• Prices that seem too good to be true\n• Perfect itineraries with no trade-offs mentioned"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting Unreliable AI Advice",
-          "subtitle": "Recognising the warning signs of misinformation",
-          "slidecontent": "• Vague or no sources cited\n• Outdated opening hours listed\n• Prices seem unusually low\n• Landmarks placed in wrong cities\n• Confident tone, wrong details"
+          "slidetitle": "Spotting Fabricated Travel Details",
+          "subtitle": "Identifying invented information that sounds real",
+          "slidecontent": "• Famous landmarks placed in wrong cities\n• Overly specific but unverifiable opening hours\n• Generic advice that could apply anywhere\n• Confident tone despite providing wrong details\n• Inconsistent information across different queries"
         },
         {
           "number": 6,
-          "slidetitle": "Spotting AI Travel Misinformation",
-          "subtitle": "Recognising false information before you travel",
-          "slidecontent": "• Check official tourism websites\n• Verify visa rules independently\n• Cross-reference multiple sources\n• Look for recent travel dates\n• Trust government travel advisories"
+          "slidetitle": "Verification Strategies",
+          "subtitle": "How to fact-check AI travel recommendations",
+          "slidecontent": "• Check official tourism and government websites\n• Verify visa rules through embassy sources\n• Cross-reference multiple trusted sources\n• Look for recent publication dates\n• Use operator websites for transport details"
         },
         {
           "number": 7,
-          "slidetitle": "Fact-Check Before You Travel",
-          "subtitle": "Verify details with official travel sources.",
-          "slidecontent": "• Always cross-check AI-suggested itineraries against official tourism or government travel websites\n• Visa rules change frequently\n• Verify entry requirements directly with the destination country's embassy or consulate\n• Check transport timetables and booking links on the operator's own site, not just what an AI tool suggests\n• Local conditions (weather, closures, safety alerts) need confirming through up-to-date official sources\n• A quick second check can prevent costly or dangerous mistakes on the road"
+          "slidetitle": "Building Safe Travel Planning Habits",
+          "subtitle": "Your workflow for using AI responsibly",
+          "slidecontent": "• Start with AI for initial ideas and inspiration\n• Always verify key details independently\n• Check current conditions and safety alerts\n• Confirm booking links and contact information\n• Never rely on AI as your only information source"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Essential points to carry forward always",
-          "slidecontent": "• Always verify AI-generated itineraries against official tourism websites or trusted travel guides\n• Cross-check visa requirements, entry rules, and transport details independently\n• AI can confidently state outdated or simply wrong information\n• Never rely solely on one source\n• Treat AI suggestions as a starting point, not a finished plan\n• For your next step, practise fact-checking one AI travel suggestion using a government or official travel advisory site"
+          "slidetitle": "Your Action Plan",
+          "subtitle": "Next steps for confident travel planning",
+          "slidecontent": "• Treat AI suggestions as starting points, not final plans\n• Always cross-check visa and entry requirements\n• Remember AI can sound confident while being wrong\n• Practice fact-checking one AI recommendation today\n• Build verification into your planning routine"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in travel planning, and specifically the risks that come with relying on it too heavily. Now, AI tools have become genuinely useful for planning holidays and trips. You can ask them to suggest itineraries, find things to do, or even help you book accommodation. And a lot of the time, they do a decent job. But here is the thing: they also get things wrong, and they get things wrong more often than most people realise. The problem is that when AI gives you incorrect information about a destination, a visa requirement, or a local safety situation, the consequences can be very real. We are not just talking about a minor inconvenience. We are talking about missed flights, wasted money, or even putting yourself in a risky situation. So throughout this course, we are going to look honestly at where AI can let you down, and how you can protect yourself when using these tools to plan your travels."
+          "script": "Welcome to this course on AI in travel planning, and specifically the risks that come with relying on it too heavily. AI tools have become genuinely useful for planning holidays and trips. You can ask them to suggest itineraries, find things to do, or even help you book accommodation. And a lot of the time, they do a decent job. But here is the thing: they also get things wrong, and they get things wrong more often than most people realise. The problem is that when AI gives you incorrect information about a destination, a visa requirement, or a local safety situation, the consequences can be very real. We are not just talking about a minor inconvenience. We are talking about missed flights, wasted money, or even putting yourself in a risky situation. So throughout this course, we are going to look honestly at where AI can let you down, and how you can protect yourself when using these tools to plan your travels."
         },
         {
           "number": 2,
-          "script": "So let's look at some of the specific ways AI can lead travellers into trouble. One of the most common issues is AI confidently recommending hotels, attractions, or routes that simply no longer exist. It might also give you visa or entry requirements that were accurate a year or two ago but have since changed completely. Beyond that, details like local currency, time zones, or even the law can be wrong. And it gets trickier, because sometimes AI will mix real place names with invented details, so everything sounds plausible even when parts of it are completely made up. You might also encounter fabricated reviews or ratings for restaurants and accommodations. Perhaps the most important point here is that AI tools often do not flag when they are uncertain or when their information is out of date. They present everything with the same confident tone, whether it is accurate or not. That is what makes this genuinely risky for travellers."
+          "script": "Let's look at the specific types of misinformation that AI commonly produces in travel planning. One of the most frequent issues is AI confidently recommending hotels, attractions, or routes that simply no longer exist. It might also give you visa or entry requirements that were accurate a year or two ago but have since changed completely. Beyond that, details like local currency, time zones, or even the law can be wrong. AI will sometimes mix real place names with invented details, so everything sounds plausible even when parts of it are completely made up. You might also encounter fabricated reviews or ratings for restaurants and accommodations. These errors happen because AI generates responses based on patterns in its training data, not real-time verification of facts."
         },
         {
           "number": 3,
-          "script": "So how do you actually spot when an AI travel recommendation might be leading you astray? There are a few telltale signs to watch out for. First, if the information feels vague or you simply cannot verify it anywhere else, that is a red flag. Visa requirements are a classic example because these change frequently, and AI tools often work from outdated data. Similarly, if you search for a museum's opening hours and get different answers depending on where you look, that inconsistency should make you pause. Another warning sign is when no source is mentioned at all. Reliable information usually has a trail you can follow. Also be cautious of responses that sound extremely confident, because AI can state incorrect things with complete certainty. And finally, if the advice feels very generic, almost like it could apply to any destination, it probably has not been tailored to your actual situation. Keep these signals in mind as we move forward."
+          "script": "Understanding why AI makes these mistakes helps you protect yourself. AI systems are trained on data that becomes outdated quickly, especially for travel information that changes frequently. They don't have real-time access to current conditions like hotel closures, new visa requirements, or transport disruptions. AI also cannot distinguish between reliable and unreliable sources in its training data, so it might base advice on outdated blog posts rather than official announcements. Perhaps most importantly, AI can generate plausible-sounding details that are completely fabricated, and it presents everything with the same confident tone whether the information is accurate or not. There's no built-in warning system when the AI is uncertain or working from old data."
         },
         {
           "number": 4,
-          "script": "So how do you actually spot when AI travel advice might be leading you astray? There are a few telltale signs to watch out for. First, check whether the information has any dates attached. If there are none, you have no idea how current it is, and details like opening hours or entry requirements may well be out of date. Be wary of language that sounds very confident but offers no sources to back it up. If you cannot verify prices, visa rules, or entry requirements on an official government or tourism website, treat that information with real caution. It is also worth questioning any suggested route that seems geographically odd or simply impossible to complete in the time given. And finally, if an itinerary looks absolutely perfect with no compromises, no travel time, no practical limitations whatsoever, that is actually a red flag. Real travel involves trade-offs, and a good plan should reflect that."
+          "script": "So how do you spot when AI travel advice might be unreliable? There are several warning signs to watch for. First, if information feels vague or has no sources cited, that's a red flag. Be especially cautious when there are no dates attached to time-sensitive details like opening hours or entry requirements. Question any suggested route that seems geographically odd or simply impossible to complete in the timeframe given. If prices seem unusually low or too good to be true, they probably are. And finally, be suspicious of any itinerary that looks absolutely perfect with no compromises, no travel time, and no practical limitations mentioned. Real travel involves trade-offs, and a realistic plan should reflect that."
         },
         {
           "number": 5,
-          "script": "So how do you actually spot when an AI travel suggestion might be leading you astray? There are a few warning signs worth keeping in mind. First, if the AI gives you information but cannot tell you where it got it from, that is a red flag straight away. Reliable information has a source. You should also watch out for practical details that feel a bit off, like opening hours that seem oddly specific but turn out to be years out of date, or prices that look far too good to be true. And here is a subtle one that catches a lot of people out: sometimes AI will confidently place a famous landmark in completely the wrong city. It sounds authoritative, so you trust it, but the detail is simply wrong. That confident tone is actually one of the trickiest things about AI, because it does not hesitate even when it is mistaken. Staying alert to these signs will help you travel smarter."
+          "script": "Some AI errors are particularly tricky because they sound completely believable. For example, AI might confidently place a famous landmark in the wrong city, or give you overly specific opening hours that are years out of date. Sometimes the advice feels very generic, almost like it could apply to any destination, which suggests it hasn't been tailored to your actual situation. The confident tone is one of the most challenging aspects of AI misinformation because it doesn't hesitate or express uncertainty even when providing incorrect details. You might also notice inconsistent information if you ask the same AI system similar questions at different times, which reveals the unreliable nature of the responses."
         },
         {
           "number": 6,
-          "script": "So how do you actually spot when AI has given you dodgy travel information? The good news is there are some straightforward habits you can build. Always head to official tourism websites and government travel advisories for your destination, because these are updated regularly and carry real authority. Visa rules are particularly risky to rely on AI for, so verify those independently through the official embassy or consulate website. It is also worth cross-referencing at least two or three different sources, because if they all agree, you can feel much more confident. One thing people often overlook is checking the dates on any information they find. Travel conditions change quickly, so anything more than a few months old could already be out of date. Think of it like checking the weather forecast before you pack your bag. A little bit of verification goes a long way, and it could save you from a very stressful situation at the airport."
+          "script": "The good news is that verifying AI travel advice is straightforward once you know what to check. Always head to official tourism websites and government travel advisories for your destination, because these are updated regularly and carry real authority. Visa rules are particularly risky to rely on AI for, so verify those independently through the official embassy or consulate website. Cross-reference at least two or three different trusted sources because if they all agree, you can feel much more confident. For transport details, go directly to the operator's own website rather than trusting what AI suggests. And always check publication dates on any information you find, because travel conditions change quickly and anything more than a few months old could already be outdated."
         },
         {
           "number": 7,
-          "script": "So, AI can be a brilliant starting point for planning a trip, but it should never be your final source of truth. Before you book anything, get into the habit of checking the details against official sources. Visa rules and entry requirements change all the time, sometimes with very little notice, so always go directly to the destination country's embassy or consulate website to confirm what you need. For transport, head to the operator's own website rather than relying on what an AI tool has suggested, because timetables and booking links can be out of date. And do check for any local conditions that might affect your trip, things like weather warnings, site closures, or safety alerts, through official channels. It only takes a few extra minutes to verify the key details, but that small effort can genuinely save you from an expensive mistake, or worse, a dangerous situation once you are already travelling."
+          "script": "Building safe travel planning habits means developing a workflow that uses AI responsibly. Start by using AI tools for initial ideas and inspiration, but never stop there. Always verify key details independently, especially for visa requirements, entry rules, and transport schedules. Check for current local conditions like weather warnings, site closures, or safety alerts through official channels. Make sure booking links and contact information are current by visiting the provider's official website. Think of AI as a helpful brainstorming partner that gets you thinking and organizing your ideas, but remember that it should never be your only source of information. This approach lets you benefit from AI's convenience while protecting yourself from its limitations."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with the key points to keep in mind going forward. Whenever you use AI to help plan a trip, always check what it tells you against official sources, like a national tourism website or a government travel advisory. This is especially important for things like visa requirements and entry rules, because these can change quickly and AI may not have the latest information. In fact, one of the biggest risks with AI is that it can sound completely confident while giving you outdated or incorrect details, and that is easy to miss if you are not looking for it. So please, never rely on just one source. Think of AI as a helpful starting point that gets you thinking and organising your ideas, but not as a finished, reliable plan. For your next step, I would encourage you to practise this yourself. Take one AI travel suggestion and fact-check it using an official travel advisory site. You might be surprised what you find."
+          "script": "Let's wrap up with your action plan for confident travel planning going forward. The most important mindset shift is to treat AI suggestions as starting points, not finished, reliable plans. Always cross-check visa and entry requirements through official government sources because these change frequently and can seriously impact your trip. Remember that AI can sound completely confident while giving you outdated or incorrect details, so that authoritative tone shouldn't make you skip verification. For your immediate next step, I encourage you to practice this approach: take one AI travel suggestion and fact-check it using an official travel advisory site. You might be surprised what you discover. Build this verification habit into your planning routine, and you'll be able to use AI tools safely and effectively for years to come."
         }
       ]
     }

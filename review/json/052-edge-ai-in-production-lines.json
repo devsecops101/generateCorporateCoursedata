@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining Edge AI Systems",
-          "subtitle": "Processing intelligence at the source",
-          "slidecontent": "• AI runs on local devices\n• No cloud connection needed\n• Decisions made instantly onsite\n• Lives inside cameras, sensors, machines\n• Reduces network dependency risks"
+          "slidetitle": "Local vs Cloud Processing",
+          "subtitle": "Understanding the architectural difference",
+          "slidecontent": "• Traditional AI: data travels to remote servers\n• Edge AI: processing happens on-device\n• Lives inside cameras, sensors, machines\n• Millisecond response times possible\n• Network outages don't stop operations"
         },
         {
           "number": 3,
-          "slidetitle": "Securing Models on Device",
-          "subtitle": "Protecting Models from Tampering and Theft",
-          "slidecontent": "• On-device models stored as files can be copied, reverse-engineered, or modified without proper protection\n• Encryption at rest keeps model weights unreadable if a device is stolen or physically accessed\n• Secure boot ensures only authorised firmware and model versions can run on the hardware\n• Code signing verifies integrity\n• Tamper-evident logging records any unexpected access attempts or changes to model files\n• Hardware security modules (HSMs) provide a dedicated, isolated environment for storing encryption keys safely"
+          "slidetitle": "Model Storage Security",
+          "subtitle": "Protecting intellectual property at rest",
+          "slidecontent": "• Model files vulnerable to copying and theft\n• Encryption at rest scrambles model weights\n• Hardware security modules store keys safely\n• Secure enclaves isolate sensitive operations\n• Physical device theft remains a risk vector"
         },
         {
           "number": 4,
-          "slidetitle": "Securing Models Against Tampering",
-          "subtitle": "Protecting integrity from edge to core",
-          "slidecontent": "• On-device models stored as files can be copied, modified, or replaced by attackers with physical access\n• Cryptographic signing verifies that a model has not been altered since it left the manufacturer\n• Tamper-evident hardware (such as secure enclaves) detects and blocks unauthorised changes at runtime\n• Encryption at rest keeps model weights unreadable if a device is stolen\n• Regular integrity checks catch silent corruption, whether accidental or deliberate\n• A compromised model may produce subtly wrong outputs without triggering any obvious system alert"
+          "slidetitle": "Runtime Integrity Protection",
+          "subtitle": "Detecting tampering during operation",
+          "slidecontent": "• Cryptographic signing verifies model authenticity\n• Secure boot blocks unauthorized firmware\n• Tamper-evident logging records access attempts\n• Regular integrity checks catch silent corruption\n• Compromised models may fail subtly"
         },
         {
           "number": 5,
-          "slidetitle": "Securing Edge AI Models",
-          "subtitle": "Protecting Models from Tampering and Theft",
-          "slidecontent": "• Edge AI models stored on factory devices are vulnerable to extraction, copying, and reverse engineering\n• Encryption at rest protects model weights if a device is physically stolen\n• Secure boot ensures only authorised firmware and models load on startup\n• Tamper-evident hardware (such as TPM chips) detects unauthorised access attempts\n• Access controls limit which users or processes can query or update a deployed model\n• Regular integrity checks confirm a model has not been silently modified between production runs"
+          "slidetitle": "Access Control Implementation",
+          "subtitle": "Managing who can interact with deployed models",
+          "slidecontent": "• Restrict user permissions to essential personnel\n• Control which processes can query models\n• Implement authentication for remote updates\n• TPM chips detect unauthorized access\n• Limit administrative privileges strictly"
         },
         {
           "number": 6,
-          "slidetitle": "Securing Edge AI Deployments",
-          "subtitle": "Protecting Models, Data, and Access",
-          "slidecontent": "• Physical access controls to prevent tampering with edge devices on the factory floor\n• Encrypted model storage to stop intellectual property theft\n• Strict authentication for any remote updates or configuration changes\n• Network segmentation to isolate edge nodes from broader corporate systems\n• Regular vulnerability audits"
+          "slidetitle": "Network Security Architecture",
+          "subtitle": "Isolating edge devices from broader threats",
+          "slidecontent": "• Network segmentation isolates edge nodes\n• Separate from corporate systems\n• Firewall rules control traffic flow\n• VPN requirements for remote access\n• Regular vulnerability scanning"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Risks in Deployment",
-          "subtitle": "Safeguarding Systems Before Issues Arise",
-          "slidecontent": "• Test before you deploy\n• Patch firmware regularly\n• Limit device access strictly\n• Monitor outputs continuously\n• Plan for failure early"
+          "slidetitle": "Operational Risk Management",
+          "subtitle": "Safeguarding systems before issues arise",
+          "slidecontent": "• Test before you deploy\n• Patch firmware regularly\n• Monitor outputs continuously\n• Plan for failure early\n• Start small, scale carefully"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for confident AI deployment",
-          "slidecontent": "• Keep models updated regularly\n• Encrypt data on device\n• Monitor for drift always\n• Test before full deployment\n• Security and speed both matter\n• Start small, scale carefully"
+          "slidetitle": "Reliability Challenges",
+          "subtitle": "Maintaining consistent performance over time",
+          "slidecontent": "• Model drift degrades accuracy gradually\n• Hardware failures disrupt operations\n• Environmental conditions affect sensors\n• Updates may introduce new bugs\n• Monitoring systems need maintenance too"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to Edge AI in Production Lines. This course is all about how artificial intelligence is being used directly on the factory floor, and what that means in practice. Now, when most people think of AI, they imagine data being sent off to some distant server or cloud platform. But edge AI works differently. The intelligence lives right there on the machine, on the production line itself, making decisions in real time without needing any internet connection at all. That means if a fault appears, or a product moves out of tolerance, the system can react instantly, keeping everything running smoothly. No waiting, no delays. And that speed really does matter when you are talking about high-volume manufacturing. Now, it is not all straightforward. Bringing AI onto the factory floor also introduces some genuine security considerations that we need to take seriously. Throughout this course, we will explore all of these areas, so you come away with a solid, practical understanding of edge AI in production."
+          "script": "Welcome to Edge AI in Production Lines. This course is all about how artificial intelligence is being used directly on the factory floor, and what that means in practice. When most people think of AI, they imagine data being sent off to some distant server or cloud platform. But edge AI works differently. The intelligence lives right there on the machine, on the production line itself, making decisions in real time without needing any internet connection at all. That means if a fault appears, or a product moves out of tolerance, the system can react instantly, keeping everything running smoothly. No waiting, no delays. And that speed really does matter when you are talking about high-volume manufacturing. Now, it is not all straightforward. Bringing AI onto the factory floor also introduces some genuine security considerations that we need to take seriously."
         },
         {
           "number": 2,
-          "script": "So, what exactly do we mean when we talk about Edge AI? At its core, Edge AI simply means that the artificial intelligence is doing its work right there, on the device itself, rather than sending data off to a remote server or cloud platform somewhere. Think of it as putting the brain directly inside the machine. That might be a camera on the production line, a sensor monitoring temperature, or a piece of equipment tracking vibration. Because the processing happens locally, decisions can be made in a fraction of a second, without waiting for a round trip to the internet and back. And that matters enormously in a manufacturing environment where every millisecond counts. There is also a practical reliability benefit here. If your network goes down or your connection becomes unstable, an Edge AI system keeps working regardless, because it simply does not depend on that connection in the first place. That is the fundamental idea we will be building on throughout this course."
+          "script": "So what exactly makes edge AI different from traditional cloud-based systems? The key difference is where the processing happens. In a traditional setup, your factory sensors collect data and send it off to a remote server somewhere, the AI does its work there, and then sends back instructions. That whole round trip takes time, and if your network goes down, everything stops. Edge AI flips this around completely. The AI model runs right there inside your cameras, sensors, and machinery. When a camera spots a defect, it makes the decision instantly, on the spot. No network delays, no dependency on internet connectivity. If your wifi crashes at 2 AM, your quality control system keeps running just fine."
         },
         {
           "number": 3,
-          "script": "Once your AI model is deployed onto an edge device, it becomes a physical asset that someone could potentially steal, copy, or tamper with. So how do we protect it? The first line of defence is encrypting the model at rest, meaning the model weights are scrambled and unreadable if someone gets hold of the device. We also use secure boot, which ensures the hardware will only run authorised firmware and approved model versions, nothing else. Code signing works alongside this by verifying that the model files themselves have not been altered. If anything suspicious does happen, tamper-evident logging keeps a record of unexpected access attempts, giving you a clear audit trail. And underpinning all of this are hardware security modules, or HSMs, which are dedicated chips designed specifically to store encryption keys in a safe, isolated environment. Together, these layers make it significantly harder for anyone to interfere with your deployed models."
+          "script": "Once you deploy an AI model onto a factory device, that model becomes valuable intellectual property sitting on a piece of hardware. Think about it - someone could potentially walk up to your equipment, copy the model files, and reverse engineer months of development work. That's why we encrypt models at rest, meaning the actual weights and parameters are scrambled and unreadable if someone gets physical access. Hardware security modules act like a safe for your encryption keys, storing them in dedicated, tamper-resistant chips. Some systems use secure enclaves - isolated areas of the processor that keep sensitive operations completely separate from the main system. But remember, none of this helps if someone just walks off with the entire device."
         },
         {
           "number": 4,
-          "script": "When you deploy an AI model onto a factory floor device, that model is essentially just a file sitting on a piece of hardware, and that makes it vulnerable. Someone with physical access could copy it, swap it out, or quietly modify it. So how do we protect against that? Well, there are several layers of defence working together. Cryptographic signing acts like a tamper-proof seal, confirming the model is exactly as the manufacturer intended. Secure hardware components, sometimes called secure enclaves, actively block any unauthorised changes while the system is running. If a device is stolen, encryption ensures the model weights remain completely unreadable. And regular integrity checks mean that even gradual, silent corruption gets caught before it causes problems. The really concerning scenario is a model that has been tampered with but still appears to be working fine, quietly producing slightly wrong outputs with no obvious alarm going off. That is why these protections need to be layered and continuous, not just a one-time check."
+          "script": "Protecting a model when it's stored is one thing, but what about when it's actually running? That's where runtime integrity protection comes in. We use cryptographic signing - think of it like a tamper-proof seal that proves the model hasn't been altered since it left your development team. Secure boot ensures that when a device starts up, it only loads firmware and models that have been properly authorized. Tamper-evident logging keeps a detailed record of any suspicious access attempts. And we run regular integrity checks to catch problems early. The really dangerous scenario is a model that's been quietly modified but still appears to work normally - it might be making subtly wrong decisions without triggering any obvious alarms."
         },
         {
           "number": 5,
-          "script": "Once you deploy an AI model onto a factory device, that model becomes a valuable asset worth protecting. Think of it like proprietary software or a trade secret sitting on hardware that could potentially be physically accessed by the wrong person. There are several layers of defence you can put in place. Encryption keeps the model's data safe if a device is ever stolen. Secure boot means the device will only run software that has been properly authorised, so nobody can sneak in a modified version at startup. Specialist hardware components, like TPM chips, can actually detect if someone has physically tampered with a device. On top of that, you can restrict which users or systems are even allowed to interact with the model in the first place. And finally, running regular integrity checks means you will quickly spot if a model has been quietly altered between production runs, before it causes any real damage."
+          "script": "Not everyone in your facility needs access to your AI systems, and certainly not with the same level of permissions. Access control is about creating layers of protection around who can do what. Only essential personnel should be able to query your models or see their outputs. Administrative functions like updating models or changing configurations should require strong authentication. TPM chips can actually detect when someone tries to access a device without proper authorization. The principle here is simple: the fewer people and processes that can interact with your AI systems, the smaller your attack surface becomes. Every additional access point is a potential vulnerability."
         },
         {
           "number": 6,
-          "script": "Security is something we absolutely cannot overlook when we're deploying Edge AI on a production line. Think about it: these devices are sitting right there on the factory floor, so the first thing we need to do is make sure nobody can physically tamper with them. Beyond that, the AI models running on those devices often represent significant intellectual property, so we store them in an encrypted format to keep them protected. When it comes to making updates or changes remotely, we want strict authentication in place, so only authorised personnel can make those modifications. We also practise network segmentation, which essentially means our edge devices live on their own isolated network, separate from the wider corporate systems. That way, if something goes wrong in one area, it doesn't spread. And finally, we carry out regular vulnerability audits to catch any weaknesses before they become serious problems. Security isn't a one-time job; it's an ongoing commitment."
+          "script": "Your edge AI devices shouldn't be sitting on the same network as your email servers and file shares. Network segmentation means creating separate network zones, so your edge devices live in their own isolated environment. If someone compromises your corporate systems, they can't automatically jump over to your production line AI. Firewall rules control exactly what traffic can flow between different zones. If technicians need remote access for maintenance, they should connect through a VPN with proper authentication. And just like any other IT infrastructure, you need regular vulnerability scans to spot potential weaknesses before attackers do."
         },
         {
           "number": 7,
-          "script": "Before you roll out any Edge AI system on a production line, you really want to have a solid plan for managing risk. The first thing to do is test thoroughly in a controlled environment before anything goes live. You do not want to discover problems when machines are running at full capacity. Once your devices are deployed, keep their firmware up to date, because manufacturers regularly release patches that close security vulnerabilities. You should also be quite strict about who and what can access those devices. The fewer entry points, the smaller your attack surface. Beyond that, set up continuous monitoring so you can spot unusual behaviour in the outputs early on, rather than waiting for something to go wrong. And perhaps most importantly, plan for failure from the very beginning. Assume things will break at some point and have a recovery process ready. A little preparation now saves a great deal of disruption later."
+          "script": "The best way to handle problems with edge AI is to prevent them from happening in the first place. That means testing thoroughly in a controlled environment before anything goes live on your production line. Keep firmware updated, because manufacturers regularly release patches that fix security vulnerabilities and improve performance. Set up continuous monitoring so you can spot unusual behavior in outputs early, rather than waiting for something to break. Most importantly, plan for failure from day one. Assume things will go wrong at some point and have a recovery process ready. Start with small pilot deployments, learn from them, then scale up gradually. A little preparation now saves enormous disruption later."
         },
         {
           "number": 8,
-          "script": "So before we move on, let's just bring together the most important lessons from everything we've covered. First, your AI models need regular updates, because the world on your production line changes, and your models need to keep up. Make sure any data processed on the device is encrypted, keeping it secure right where it lives. Always keep an eye on model drift, because a model that performed brilliantly last month might quietly be losing accuracy now. And please, test thoroughly in a controlled environment before you roll anything out at full scale. You also want to hold both security and processing speed in mind at the same time, because sacrificing one for the other will cause problems down the line. Finally, and this is perhaps the most practical piece of advice, start with a small pilot, learn from it, and then scale up gradually. Getting these fundamentals right gives you a really solid foundation for confident, reliable AI deployment in your facility."
+          "script": "Even the most secure, well-designed edge AI system faces ongoing reliability challenges. Model drift is probably the most insidious - your AI might gradually lose accuracy as real-world conditions change, without any dramatic failure to alert you. Hardware components wear out, environmental factors like temperature and vibration affect sensor readings, and software updates can introduce unexpected bugs. Your monitoring systems themselves need maintenance and can fail. The factory floor is a harsh environment for electronics, and what works perfectly in a lab might struggle with dust, heat, and electromagnetic interference. Building reliable edge AI means accepting these realities and designing systems that can detect, adapt to, and recover from various types of degradation over time."
         }
       ]
     }

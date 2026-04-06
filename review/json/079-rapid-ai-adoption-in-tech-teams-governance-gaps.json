@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Spotting the Governance Gap",
-          "subtitle": "When speed outpaces oversight and control.",
+          "slidetitle": "Recognising Governance Breakdown",
+          "subtitle": "Warning signs that oversight has failed.",
           "slidecontent": "• AI deployed before policies exist\n• No clear ownership or accountability\n• Security reviews skipped entirely\n• Risks hidden in plain sight\n• Speed valued over safety"
         },
         {
           "number": 3,
-          "slidetitle": "Identifying the Governance Gaps",
-          "subtitle": "Where oversight struggles to keep pace",
-          "slidecontent": "• AI tools adopted by individual developers before security teams are even aware\n• No clear owner for AI-related risk\n• Existing policies written long before large language models existed\n• Audit trails missing or incomplete when AI assists in code or decisions\n• Speed of adoption leaving compliance checks perpetually behind"
+          "slidetitle": "Common Governance Gaps",
+          "subtitle": "Where oversight struggles most.",
+          "slidecontent": "• Tools adopted before security awareness\n• No clear risk ownership\n• Outdated policies miss AI scenarios\n• Missing audit trails\n• Compliance always catching up"
         },
         {
           "number": 4,
-          "slidetitle": "Shadow IT Risks Emerge",
-          "subtitle": "Ungoverned tools create hidden vulnerabilities.",
+          "slidetitle": "Shadow IT: The Hidden Problem",
+          "subtitle": "Unapproved tools create invisible risks.",
           "slidecontent": "• Unapproved tools spread quickly\n• Data leaks go unnoticed\n• No audit trails exist\n• Compliance gaps multiply fast\n• IT loses full visibility"
         },
         {
           "number": 5,
-          "slidetitle": "Shadow IT Risks Emerge",
-          "subtitle": "Ungoverned tools create hidden vulnerabilities.",
-          "slidecontent": "• Employees adopting unapproved AI tools without IT or security review\n• No audit trail\n• Sensitive data entered into external platforms with unknown retention policies\n• Compliance obligations quietly broken\n• Security teams unaware of which tools are actively in use across the organisation\n• Vulnerabilities accumulate faster than they can be discovered or patched"
+          "slidetitle": "Data Exposure Risks",
+          "subtitle": "When sensitive information flows unchecked.",
+          "slidecontent": "• Sensitive data enters external platforms\n• Unknown data retention policies\n• No access controls in place\n• Regulatory violations accumulate\n• Breaches happen silently"
         },
         {
           "number": 6,
-          "slidetitle": "Shadow IT Risks Emerge",
-          "subtitle": "Unauthorised tools bypass critical oversight controls",
-          "slidecontent": "• Employees adopting unapproved AI tools without IT or security sign-off\n• No audit trail\n• Sensitive data entered into external platforms with unknown retention policies\n• Compliance obligations (GDPR, ISO 27001) quietly broken without anyone noticing\n• Security teams unable to monitor or respond to threats they cannot see\n• A single unsanctioned tool can expose the entire organisation"
+          "slidetitle": "Compliance Blind Spots",
+          "subtitle": "How regulations fail in ungoverned environments.",
+          "slidecontent": "• GDPR obligations quietly broken\n• ISO 27001 gaps go undetected\n• No incident response capability\n• Audit failures discovered too late\n• Legal exposure increases daily"
         },
         {
           "number": 7,
-          "slidetitle": "Bridging the Governance Gap",
-          "subtitle": "Closing the gap before risks escalate",
-          "slidecontent": "• Audit tools already in use\n• Set clear usage policies\n• Train staff on risks\n• Assign an AI lead\n• Review regularly, not once"
+          "slidetitle": "Practical Governance Solutions",
+          "subtitle": "Closing gaps without blocking progress.",
+          "slidecontent": "• Audit current AI tool usage\n• Establish clear usage policies\n• Train teams on risk awareness\n• Assign dedicated AI ownership\n• Implement regular review cycles"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• AI adoption in tech teams often moves faster than governance frameworks can keep up with\n\n• Shadow AI is a real and growing risk\n\n• Without clear policies, teams fill the gap with their own judgement (sometimes well, often not)\n\n• Data exposure, compliance failures, and accountability gaps are the most common consequences\n\n• Small, practical steps (an AI register, a usage policy, a review process) make a meaningful difference\n\n• Start by auditing what AI tools your team is already using, then build from there"
+          "slidetitle": "Building Sustainable Oversight",
+          "subtitle": "Long-term strategies that scale with innovation.",
+          "slidecontent": "• Start with tool inventory and assessment\n• Create lightweight approval processes\n• Build governance into development workflows\n• Establish ongoing monitoring practices\n• Balance innovation speed with responsible use"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI governance in tech teams. We're going to start by looking at a challenge that's playing out right now across organisations of every size. AI tools are being adopted at a remarkable pace, and that's genuinely exciting. But here's the problem: the processes and policies that should guide how those tools are used are often struggling to keep up. When innovation moves faster than oversight, gaps appear, and those gaps aren't just theoretical concerns. They can lead to real consequences, whether that's data being handled inappropriately, decisions being made without proper accountability, or teams being exposed to risks they didn't even know existed. Good governance isn't about slowing things down or blocking progress. It's actually about protecting the people building these systems and the users who rely on them. So throughout this course, we'll be looking honestly at where those gaps tend to appear and what you can do about them."
+          "script": "Welcome to this course on AI governance in tech teams. We're going to start by looking at a challenge that's playing out right now across organisations of every size. AI tools are being adopted at a remarkable pace, and that's genuinely exciting. But here's the problem: the processes and policies that should guide how those tools are used are often struggling to keep up. When innovation moves faster than oversight, gaps appear, and those gaps aren't just theoretical concerns. They can lead to real consequences, whether that's data being handled inappropriately, decisions being made without proper accountability, or teams being exposed to risks they didn't even know existed. Good governance isn't about slowing things down or blocking progress. It's actually about protecting the people building these systems and the users who rely on them."
         },
         {
           "number": 2,
-          "script": "So let's talk about what a governance gap actually looks like in practice. Imagine a team gets excited about a new AI tool, they start using it straight away, and nobody stops to ask whether there are any policies in place to guide that use. There probably aren't. And alongside that, nobody is quite sure who is responsible if something goes wrong. Security reviews get skipped because everyone is moving too fast, and the risks that are building up are often completely visible, sitting right there in the open, but nobody is paying attention to them. That is the core of the problem. When speed becomes the top priority, safety and oversight tend to get pushed to the back of the queue. And this is not about slowing innovation down for the sake of it. It is about recognising that when oversight is missing, even well-intentioned teams can end up in serious trouble without ever meaning to."
+          "script": "So let's talk about what a governance breakdown actually looks like in practice. Imagine a team gets excited about a new AI tool, they start using it straight away, and nobody stops to ask whether there are any policies in place to guide that use. There probably aren't. And alongside that, nobody is quite sure who is responsible if something goes wrong. Security reviews get skipped because everyone is moving too fast, and the risks that are building up are often completely visible, sitting right there in the open, but nobody is paying attention to them. When speed becomes the top priority, safety and oversight tend to get pushed to the back of the queue. This isn't about slowing innovation down for the sake of it. It's about recognising that when oversight is missing, even well-intentioned teams can end up in serious trouble."
         },
         {
           "number": 3,
-          "script": "So let's look at where these governance gaps actually show up in practice. One of the most common patterns we see is developers quietly adopting AI tools on their own, often weeks or months before anyone in security or compliance even knows they exist. And when something does go wrong, there's frequently no clear person or team who owns that risk. Making things harder still, most existing policies were written long before large language models were even a concept, so they simply don't cover the situations teams are now facing. There's also a real problem around visibility. When AI is helping write code or informing decisions, the audit trail is often patchy or missing entirely, which creates serious headaches when you need to demonstrate accountability. And underpinning all of this is just the sheer speed of adoption. Compliance processes that were designed for slower, more deliberate change are constantly struggling to catch up. These are the gaps we need to understand before we can begin to address them."
+          "script": "Let's look at where these governance gaps actually show up most commonly. One of the most frequent patterns we see is developers quietly adopting AI tools on their own, often weeks or months before anyone in security or compliance even knows they exist. When something does go wrong, there's frequently no clear person or team who owns that risk. Making things harder still, most existing policies were written long before large language models existed, so they simply don't cover the situations teams are now facing. There's also a real problem around visibility. When AI is helping write code or informing decisions, the audit trail is often patchy or missing entirely. And underpinning all of this is just the sheer speed of adoption. Compliance processes that were designed for slower, more deliberate change are constantly struggling to catch up."
         },
         {
           "number": 4,
-          "script": "When teams start adopting AI tools without going through official channels, something called shadow IT begins to take hold. Essentially, people are using unapproved applications that the IT department simply doesn't know about. And that creates a whole set of hidden problems. Sensitive data might be flowing into these tools without anyone realising, which means potential leaks are happening completely under the radar. Because these tools aren't officially managed, there are no proper audit trails, so if something goes wrong, there's no record to investigate. From a compliance perspective, this is genuinely worrying, because regulatory gaps can pile up very quickly indeed. And perhaps most critically, your IT team loses its ability to see the full picture of what's happening across your systems. So what starts as a well-meaning attempt to work more efficiently can quietly become a serious security and governance risk. That's exactly why visibility and oversight matter so much from the very beginning."
+          "script": "When teams start adopting AI tools without going through official channels, something called shadow IT begins to take hold. Essentially, people are using unapproved applications that the IT department simply doesn't know about. And that creates a whole set of hidden problems. These tools aren't officially managed, so there are no proper audit trails. If something goes wrong, there's no record to investigate. From a compliance perspective, this is genuinely worrying, because regulatory gaps can pile up very quickly indeed. Perhaps most critically, your IT team loses its ability to see the full picture of what's happening across your systems. What starts as a well-meaning attempt to work more efficiently can quietly become a serious security and governance risk."
         },
         {
           "number": 5,
-          "script": "When employees start using AI tools that haven't been approved or reviewed by IT or security teams, you end up with what's often called shadow IT. And the risks here are very real. There's no record of what's being used or what data is being shared, which means sensitive information could be flowing into external platforms where you simply don't know how long that data is kept or who can access it. At the same time, compliance obligations can be quietly broken without anyone realising. Your security team may have no visibility into which tools are actually being used across the organisation, and that's a serious problem. Vulnerabilities start to build up faster than anyone can find them, let alone fix them. So the challenge isn't just about one rogue tool. It's about a pattern of ungoverned adoption that creates hidden risks across the whole organisation, often long before anyone notices something has gone wrong."
+          "script": "One of the most serious consequences of ungoverned AI adoption is data exposure. When employees use unapproved AI tools, sensitive information might be flowing into external platforms where you simply don't know how long that data is kept, who can access it, or what security controls are in place. There's no visibility into what's being shared, when, or with whom. This creates a perfect storm for data breaches that can happen completely under the radar. Your security team has no way to monitor threats they can't see, and by the time a problem surfaces, the damage may already be done. The scary part is how silently this can happen - sensitive data quietly flowing out of your organisation without anyone noticing until it's too late."
         },
         {
           "number": 6,
-          "script": "When employees start using AI tools that haven't been approved by IT or security, you end up with what's commonly called shadow IT, and it creates some serious blind spots. Nobody knows what data is being entered into these external platforms, how long that data is being stored, or who might have access to it. That's a real problem when you consider obligations like GDPR or ISO 27001, because those rules don't pause just because someone found a convenient free tool online. Breaches can happen quietly, without anyone in the security team even knowing there's a threat to respond to. And here's the thing: there's no audit trail. No record of what was shared, when, or with whom. It only takes one unsanctioned tool used by one well-meaning employee to create an exposure that affects the whole organisation. This isn't about blame; it's about understanding why oversight matters before problems appear."
+          "script": "From a regulatory perspective, shadow AI creates serious blind spots. Compliance obligations like GDPR or ISO 27001 don't pause just because someone found a convenient tool online. When AI tools are adopted without proper governance, these regulations can be quietly violated without anyone realising. There's no audit trail to demonstrate compliance, no incident response capability for tools you don't know exist, and no way to conduct proper risk assessments. By the time audit failures are discovered, the legal and financial exposure can be substantial. Regulators don't accept ignorance as a defence, and the penalties for non-compliance can be severe. This is why visibility and control over AI tool usage isn't just good practice - it's essential for regulatory survival."
         },
         {
           "number": 7,
-          "script": "So now we know the risks, let's talk about what you can actually do about them. Bridging the governance gap doesn't have to be overwhelming, and you don't need to have everything sorted overnight. Start by finding out which AI tools your team is already using, because you might be surprised. Once you know what's in play, you can put some sensible guidelines in place around how those tools should and shouldn't be used. From there, make sure your people understand the risks we've been discussing, not to frighten them, but to help them make better decisions. It's also worth having one person who owns this area, someone who keeps an eye on things and acts as a point of contact. And importantly, this isn't a one-time exercise. AI is moving fast, so your governance approach needs to keep pace. Think of it as an ongoing habit rather than a box you tick once and forget about."
+          "script": "So now we know the risks, let's talk about what you can actually do about them. Bridging the governance gap doesn't have to be overwhelming, and you don't need to have everything sorted overnight. Start by finding out which AI tools your team is already using, because you might be surprised. Once you know what's in play, you can put some sensible guidelines in place around how those tools should and shouldn't be used. From there, make sure your people understand the risks we've been discussing, not to frighten them, but to help them make better decisions. It's also worth having one person who owns this area, someone who keeps an eye on things and acts as a point of contact. And importantly, this isn't a one-time exercise. AI is moving fast, so your governance approach needs to keep pace."
         },
         {
           "number": 8,
-          "script": "So let's bring this all together. The core message here is simple: AI adoption moves fast, and governance almost always lags behind. When there are no clear policies in place, people do not stop using AI tools, they just make their own decisions about how to use them, and that is where the problems start. Shadow AI, data exposure, compliance risks, accountability gaps, these are not theoretical concerns, they are happening right now in organisations just like yours. The good news is that you do not need a perfect, fully formed governance strategy before you can act. Small, practical steps genuinely make a difference. An AI register, a basic usage policy, a simple review process, these are all achievable starting points. And the best place to begin is with an honest audit of what AI tools your team is already using. You might be surprised by what you find. From there, you can start building something that actually works."
+          "script": "Building sustainable AI governance is about creating systems that can evolve with technology rather than just reacting to problems after they appear. Start with a comprehensive inventory of current AI tool usage - you need to understand your baseline before you can improve it. Then establish lightweight approval processes that don't slow teams down but do provide necessary oversight. The key is embedding governance directly into development workflows so it becomes part of how work gets done, not an additional burden. Set up ongoing monitoring practices that can spot new risks as they emerge. Remember, the goal isn't to stop innovation - it's to ensure that innovation happens responsibly. When governance is done well, it actually enables teams to move faster with confidence because they understand the boundaries within which they can safely operate."
         }
       ]
     }

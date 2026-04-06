@@ -8,7 +8,7 @@ Now, here's where things get really important. In finance, even a tiny error can
 
 Script 6 (Slide 3)
 ------------------------------------------------------------------------
-Here is the narration script for Slide 6:
+
 
 One of the trickiest problems with AI in financial decisions is not when it gets something wrong outright. It is when it gets something partially right, but stays quiet about the parts it is unsure of. That silence is actually a signal. It often means the model has gaps in its knowledge that it is not flagging for you. And here is the really dangerous bit: those gaps can hide inside answers that look completely correct on the surface. You might see a confident response, maybe even a confidence score of 90 percent or higher, and still be missing crucial context that changes the entire picture. That missing context has a real cost, whether that is a mispriced risk, a missed obligation, or a decision made on incomplete information. The hardest situations to manage are the ones where you do not even know what you do not know. Those hidden blind spots tend to cause the most damage in practice.
 

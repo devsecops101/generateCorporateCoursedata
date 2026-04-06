@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Identifying Key AI Risks",
-          "subtitle": "Where AI Decisions Can Go Wrong",
-          "slidecontent": "• Biased data skews decisions\n• Errors misallocate resources\n• Accountability gaps emerge\n• Impact scores mislead staff\n• Vulnerable groups face harm"
+          "slidetitle": "The Scope of AI Risk",
+          "subtitle": "Why non-profits face unique challenges",
+          "slidecontent": "• Limited resources make every allocation decision critical\n• Vulnerable populations depend on accurate assessments\n• Historical data often reflects existing inequalities\n• Non-profit staff may lack technical expertise to spot problems\n• Accountability is harder when algorithms influence decisions"
         },
         {
           "number": 3,
-          "slidetitle": "Risks in Resource Allocation",
-          "subtitle": "Where AI Decisions Can Go Wrong",
-          "slidecontent": "• AI tools trained on biased data may consistently underfund certain communities or overlooked groups\n• Automated decisions can lack the human context needed to reflect real-world need\n• Over-reliance on historical patterns\n• Impact assessments driven by AI may miss qualitative outcomes that matter most to beneficiaries\n• Small errors in data input can lead to large, compounding misallocations over time"
+          "slidetitle": "Resource Allocation Risks",
+          "subtitle": "When funding decisions go wrong",
+          "slidecontent": "• Biased training data consistently underfunds certain communities\n• Automated systems lack human context for real-world needs\n• Over-reliance on historical patterns misses emerging issues\n• Small data errors compound into large misallocations\n• Geographic or demographic blind spots emerge systematically"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Bias in AI Outputs",
-          "subtitle": "Recognising Patterns That Skew Results",
-          "slidecontent": "• AI tools trained on historical data can reflect past inequalities in funding and service delivery\n• Outputs favouring certain demographics over others without clear justification\n• Watch for skewed results\n• Recommendations that consistently overlook rural, minority, or under-resourced communities\n• Checking whether training data represents your actual beneficiary population\n• A result that looks neutral on the surface can still embed structural bias"
+          "slidetitle": "Impact Assessment Pitfalls",
+          "subtitle": "Measuring what matters most",
+          "slidecontent": "• Quantitative metrics overshadow qualitative outcomes\n• AI struggles to capture beneficiary wellbeing and satisfaction\n• Programme success gets reduced to incomplete data points\n• Long-term community impact becomes invisible to algorithms\n• Staff misinterpret AI confidence scores as absolute truth"
         },
         {
           "number": 5,
-          "slidetitle": "Mitigating AI Allocation Risks",
-          "subtitle": "Reducing Bias and Allocation Errors Effectively",
-          "slidecontent": "• Regularly audit AI outputs for patterns of unfair resource distribution across different community groups\n• Test with diverse data\n• Involve frontline staff in reviewing AI recommendations before any final allocation decisions are made\n• Cross-check AI suggestions against your organisation's own impact records and beneficiary feedback\n• Document every override\n• Build in a clear review cycle so allocation models are updated as community needs change over time"
+          "slidetitle": "Spotting Bias in AI Outputs",
+          "subtitle": "Recognising patterns that skew results",
+          "slidecontent": "• Consistent recommendations favouring certain demographics\n• Rural, minority, or under-resourced communities repeatedly overlooked\n• Results that appear neutral but embed structural inequalities\n• Training data that doesn't represent your actual beneficiary population\n• Historical funding patterns perpetuated without justification"
         },
         {
           "number": 6,
-          "slidetitle": "Avoiding Bias in AI Outputs",
-          "subtitle": "Recognising and Reducing Algorithmic Prejudice",
-          "slidecontent": "• Biased data skews results\n• Past inequity repeats digitally\n• Audit outputs regularly\n• Diverse teams spot errors\n• Question surprising recommendations"
+          "slidetitle": "Data Quality and Accountability",
+          "subtitle": "Understanding your foundation and responsibility",
+          "slidecontent": "• Incomplete or outdated data produces unreliable recommendations\n• Missing context about local conditions and community needs\n• Unclear responsibility when AI-influenced decisions cause harm\n• Difficulty explaining algorithmic choices to stakeholders\n• Staff overconfidence in apparently precise AI outputs"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Risks Going Forward",
-          "subtitle": "Practical Steps for Safer AI Use",
-          "slidecontent": "• Audit AI outputs regularly\n• Train staff on bias\n• Keep humans in control\n• Document all AI decisions\n• Review data sources often"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Practical steps for safer AI use",
+          "slidecontent": "• Regular auditing of AI outputs for fairness across groups\n• Frontline staff review of recommendations before implementation\n• Cross-checking AI suggestions against beneficiary feedback\n• Documentation of all overrides and decision rationale\n• Scheduled reviews to update models as needs change"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for responsible AI use",
-          "slidecontent": "• AI supports, not replaces, decisions\n• Check data for bias regularly\n• Keep humans accountable always\n• Start small, then scale up\n• Review AI outputs critically\n• Next step: pilot one AI tool"
+          "slidetitle": "Moving Forward Responsibly",
+          "subtitle": "Your next steps with AI tools",
+          "slidecontent": "• Start with small pilots to build expertise gradually\n• Maintain human oversight of all AI-influenced decisions\n• Establish clear accountability chains and decision documentation\n• Build diverse review teams to catch different types of errors\n• Create feedback loops from beneficiaries and frontline staff"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's talk about where things can actually go wrong when non-profits start using AI to make decisions. The first thing to be aware of is that AI systems learn from historical data, and if that data contains bias, the AI will simply repeat and reinforce those biases in its outputs. That can lead to resources being directed to the wrong places, or certain communities being overlooked entirely. There's also a real question of accountability. When an AI system makes a poor recommendation, it isn't always clear who is responsible for that mistake. And here's something that catches a lot of organisations off guard: AI tools often produce scores or ratings that look very precise and authoritative, but staff can misinterpret what those numbers actually mean. Perhaps most importantly, the people most at risk from these errors are often the most vulnerable individuals your organisation exists to support. So understanding these risks isn't just a technical concern, it's a fundamental part of responsible practice."
+          "script": "Before we dive into specific risks, it's important to understand why non-profits face particular challenges with AI. Unlike private companies that can absorb some inefficiency, every pound or dollar matters when you're working with limited resources. Your decisions directly affect vulnerable people who may have nowhere else to turn. This creates enormous pressure to get things right. Adding to this challenge, most AI systems learn from historical data, and in the non-profit sector, that data often reflects decades of systemic inequalities. Finally, many non-profit staff lack the technical background to spot when an AI tool might be producing questionable results. This combination of high stakes, biased data, and limited technical expertise creates a perfect storm for AI-related problems."
         },
         {
           "number": 3,
-          "script": "So, we've seen how AI can help with resource allocation, but let's be honest about where things can go wrong. One of the biggest concerns is bias. If the data used to train an AI tool reflects historical inequalities, the system will likely reproduce those same inequalities, meaning certain communities could consistently miss out on funding. There's also the issue of context. AI doesn't understand nuance the way a person does, so it can miss the very human factors that tell you where support is genuinely needed most. And if a system is heavily influenced by past patterns, it may struggle to respond to new or changing circumstances. On top of that, qualitative outcomes, things like improved wellbeing or community confidence, are often invisible to AI assessments. Finally, even a small error in your data can snowball into significant misallocations over time. These aren't reasons to avoid AI, but they are absolutely reasons to use it carefully."
+          "script": "Let's examine what can go wrong specifically with resource allocation. When AI tools are trained on historical funding data, they often learn to replicate past inequalities. If rural communities were historically underfunded, the AI may continue that pattern, presenting it as an objective recommendation. The algorithms also struggle with context that humans take for granted. They can't factor in a sudden economic downturn in one area or recognise when a community's needs have fundamentally shifted. Small errors in your data can compound over time too. If you misclassify one programme's success rate, that error influences future recommendations, creating a ripple effect that grows worse with each funding cycle."
         },
         {
           "number": 4,
-          "script": "One of the most important things to understand about AI tools is that they learn from historical data, and that data often reflects the inequalities that already exist in our sector. So if past funding decisions consistently overlooked rural communities or minority groups, an AI system trained on that data may quietly reproduce those same patterns. The tricky part is that the output can look perfectly reasonable on the surface. There are no obvious red flags, no alarming language, just a clean recommendation that happens to favour certain groups over others. What you want to watch for is consistency. If the same communities keep getting deprioritised in the results, that is worth questioning. A good starting point is to ask whether the data the tool was trained on actually reflects the people you serve. If your beneficiaries are not well represented in that training data, the results will not serve them well either."
+          "script": "Impact assessment presents its own set of challenges with AI. The most significant issue is that AI excels at processing numbers but struggles with the human stories behind those numbers. A programme might show modest statistical improvements while transforming participants' sense of hope and community connection. AI systems miss these qualitative outcomes entirely. They reduce complex human experiences to data points, potentially undervaluing programmes that create the most meaningful change. There's also a danger that staff begin treating AI confidence scores as gospel truth. When an algorithm assigns a programme a 73% effectiveness rating, that precise number can seem very authoritative, even though it may be based on incomplete or inappropriate measures."
         },
         {
           "number": 5,
-          "script": "So, once you're using AI to help with resource allocation, the real work begins in making sure it stays fair and accurate over time. The most important habit is regular auditing. Look at the outputs and ask: are certain groups consistently receiving less? If so, that's a signal something needs adjusting. Make sure the data you're feeding into the system reflects the full diversity of the communities you serve. And importantly, don't let AI make final decisions alone. Bring your frontline staff into the process. They'll often spot things the algorithm simply cannot. It's also worth cross-checking AI recommendations against your own records and beneficiary feedback, because your organisation holds knowledge that no model can replicate. Whenever you override a recommendation, write it down and explain why. That documentation builds a valuable evidence trail. Finally, set a regular review cycle so your allocation model keeps pace as community needs evolve."
+          "script": "One of the most important skills for any non-profit using AI is learning to spot bias in the outputs. The tricky thing is that biased results often don't announce themselves obviously. Instead, you need to look for patterns over time. If AI recommendations consistently favour urban over rural areas, or certain ethnic groups over others, that's a red flag worth investigating. Sometimes the bias is more subtle, embedded in apparently neutral recommendations that actually perpetuate structural inequalities. A good starting point is examining whether the training data accurately represents the communities you serve. If your beneficiaries aren't well represented in that historical data, the AI's recommendations won't serve them well either."
         },
         {
           "number": 6,
-          "script": "Now, one of the most important things to understand about AI is that it is only as fair as the data it learns from. If that data reflects historical inequalities, such as funding patterns that consistently overlooked certain communities, the AI will simply repeat those patterns and present them as objective recommendations. That is a real risk, and it is why you cannot just set up an AI tool and trust it blindly. You need to regularly review the outputs it produces, looking for anything that seems skewed or unexpected. If a recommendation surprises you, dig into it and ask why. It is also worth making sure that the people reviewing AI outputs come from diverse backgrounds, because different perspectives are far better at catching subtle errors or unfair assumptions. Essentially, AI can reinforce prejudice without anyone intending it to, so building in human oversight and critical thinking is absolutely essential for responsible use in your organisation."
+          "script": "Beyond bias, there are fundamental questions about data quality and accountability that every non-profit must address. AI systems are only as good as the information they receive, and non-profit data is often incomplete, inconsistent, or outdated. Local conditions, community relationships, and cultural factors that influence programme success rarely make it into databases. This creates a gap between what the AI knows and what actually matters for effective service delivery. There's also the thorny question of responsibility. When an AI-influenced decision leads to poor outcomes, who is accountable? The software vendor? The staff member who implemented the recommendation? These accountability gaps can create serious legal and ethical problems down the line."
         },
         {
           "number": 7,
-          "script": "So now that we understand the risks, let's talk about what you can actually do to manage them. First, make it a habit to regularly check the outputs your AI tools are producing. Are they making sense? Are they fair? Don't just trust them blindly. Alongside that, make sure your team understands what bias is and how it can creep into AI systems, because awareness really is your first line of defence. Crucially, always keep a human being in the decision-making loop. AI should be informing your choices, not making them for you. It's also really good practice to keep a clear record of when and how AI has been used in any decision, so you have a proper audit trail if questions arise later. And finally, revisit the data sources your AI tools are drawing from on a regular basis, because data can become outdated or unreliable over time. Small, consistent habits like these can make a significant difference."
+          "script": "Now let's talk about concrete steps you can take to reduce these risks. The most important habit is regular auditing of AI outputs, specifically looking for patterns of unfair distribution across different community groups. Don't let AI make final decisions alone, bring your frontline staff into the process because they'll often spot problems the algorithm cannot see. Cross-check AI recommendations against your organisation's own impact records and beneficiary feedback, as your organisation holds institutional knowledge that no model can replicate. Whenever you override an AI recommendation, document why you made that choice, this creates valuable evidence for future decisions. Finally, establish regular review cycles so your models stay current as community needs evolve."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together from this lesson. The most important thing to hold onto is that AI is here to support your judgement, not to replace it. You and your team remain responsible for every decision made in your organisation. As you begin exploring AI tools, keep a close eye on the data you're feeding into them, because bias in data leads to biased outputs, and that can cause real harm. Start small, perhaps with just one process or one tool, and build your confidence before scaling up. And whenever AI gives you a result or a recommendation, approach it with a critical eye. Ask yourself whether it makes sense, whether it reflects your values, and whether it serves your beneficiaries well. On that note, your practical next step is simply to identify one AI tool and run a small pilot with it. Small, thoughtful steps are how responsible AI adoption begins."
+          "script": "As you move forward with AI tools, remember that successful adoption is about building capabilities gradually and responsibly. Start with small pilot projects where you can learn without major consequences. This might mean using AI to inform one type of decision while keeping everything else manual for now. Always maintain clear human oversight, with designated staff responsible for reviewing and approving AI recommendations. Document your processes thoroughly so you can explain decisions to stakeholders and learn from both successes and mistakes. Build diverse review teams because different perspectives catch different types of problems. Most importantly, create feedback mechanisms so beneficiaries and frontline staff can flag issues you might otherwise miss. The goal isn't to eliminate all risk, but to use AI thoughtfully in service of your mission."
         }
       ]
     }

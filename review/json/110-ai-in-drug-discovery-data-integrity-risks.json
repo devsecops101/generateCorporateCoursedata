@@ -31,39 +31,39 @@
         },
         {
           "number": 3,
-          "slidetitle": "Garbage In, Garbage Out",
+          "slidetitle": "How Errors Compound in AI Pipelines",
           "subtitle": "Flawed inputs corrupt AI-driven discoveries.",
-          "slidecontent": "• AI models trained on incomplete or mislabelled data produce unreliable predictions from the start\n• Errors compound at every stage\n• A single corrupted dataset can skew compound screening results across an entire drug programme\n• Poor data quality often goes undetected until late in the discovery pipeline, wasting significant time and resource\n• Real consequences for patients"
+          "slidecontent": "• AI models trained on incomplete data produce unreliable predictions\n• Errors compound at every stage\n• Single corrupted dataset skews entire programmes\n• Poor data quality goes undetected until late stages\n• Real consequences for patients"
         },
         {
           "number": 4,
-          "slidetitle": "Bias in Training Data Sets",
-          "subtitle": "Where skewed data distorts drug research.",
-          "slidecontent": "• Skewed data skews results\n• Old data misses new populations\n• Rare diseases underrepresented often\n• Biased inputs, biased outputs\n• Small datasets amplify errors"
+          "slidetitle": "Population Bias in Training Data",
+          "subtitle": "When datasets exclude key demographics.",
+          "slidecontent": "• Training data drawn mainly from Western, male, younger populations\n• Underrepresented groups left out entirely\n• Models predict drug efficacy poorly for excluded demographics\n• Historical clinical trial gaps feed directly into AI learning\n• Biased outputs advance flawed candidates into pipeline"
         },
         {
           "number": 5,
-          "slidetitle": "Bias in Training Data Sets",
-          "subtitle": "Where gaps skew drug discovery outcomes.",
-          "slidecontent": "• Training data drawn mainly from Western, male, or younger populations\n• Underrepresented groups left out\n• Models trained on skewed data predict drug efficacy poorly for excluded demographics\n• Historical clinical trial gaps feeding directly into AI learning sets\n• Rare diseases especially vulnerable due to small, incomplete data pools\n• Biased outputs can advance flawed candidates further into the pipeline"
+          "slidetitle": "Rare Disease Data Challenges",
+          "subtitle": "Special vulnerabilities in small datasets.",
+          "slidecontent": "• Rare diseases severely underrepresented in datasets\n• Small patient pools amplify any data errors\n• Incomplete medical histories common\n• Limited diversity within already small cohorts\n• AI struggles with insufficient training examples"
         },
         {
           "number": 6,
-          "slidetitle": "Mitigating Data Integrity Risks",
-          "subtitle": "Strategies to Protect Research Data Quality",
-          "slidecontent": "• Validate training data sources before feeding them into any AI pipeline\n• Audit regularly\n• Implement version control to track changes to datasets over time\n• Separate raw data from processed outputs to preserve the original record\n• Train research teams to spot common data quality issues early in the workflow\n• Document every data transformation step for full traceability"
+          "slidetitle": "Data Governance and Controls",
+          "subtitle": "Foundational practices for data integrity.",
+          "slidecontent": "• Validate training data sources before AI pipeline entry\n• Implement version control for all datasets\n• Separate raw data from processed outputs\n• Document every data transformation step\n• Establish clear audit trails for traceability"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk in Practice",
-          "subtitle": "Practical steps to safeguard your data",
-          "slidecontent": "• Validate training data sources before feeding them into any AI pipeline\n• Document every data transformation step\n• Use version control for datasets, not just code\n• Regularly audit outputs for unexpected patterns or anomalies\n• Assign clear ownership of data quality checks to named team members\n• Start small, test rigorously, then scale"
+          "slidetitle": "Ongoing Monitoring and Quality Assurance",
+          "subtitle": "Continuous practices to catch problems early.",
+          "slidecontent": "• Regularly audit outputs for unexpected patterns\n• Assign clear ownership of data quality checks\n• Train research teams to spot common issues\n• Start small, test rigorously, then scale\n• Build systematic review processes"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for data integrity success",
-          "slidecontent": "• Garbage in, garbage out\n• Validate data before use\n• Bias corrupts AI models\n• Audit trails matter always\n• Clean data saves lives\n• Start small, check everything"
+          "slidetitle": "Key Principles for Success",
+          "subtitle": "Core takeaways for responsible AI implementation.",
+          "slidecontent": "• Garbage in, garbage out applies absolutely\n• Validate data before use, always\n• Bias corrupts AI models silently\n• Clean data protects patient safety\n• Start small and build confidence gradually"
         }
       ],
       "scripts": [
@@ -81,23 +81,23 @@
         },
         {
           "number": 4,
-          "script": "Now, one of the most significant risks with AI in drug discovery is the quality of the data we feed into these systems. Think of it this way: if you train an AI on skewed or incomplete data, it will produce skewed and incomplete results. It really is that straightforward. A common problem is that many datasets are built from older clinical studies, which means they often reflect a narrow slice of the population and miss more recent or diverse groups entirely. Rare diseases suffer particularly badly here, because there simply is not enough patient data available to give the AI a solid foundation to learn from. And when you are working with small datasets, any errors or gaps get magnified rather than smoothed out. So the core issue is this: the AI is only ever as good as the data it learns from. Garbage in, garbage out, as they say. Getting the training data right is absolutely fundamental to trustworthy results."
+          "script": "One of the most serious risks in AI-driven drug discovery is population bias in training datasets. Historically, clinical trials have skewed heavily towards Western populations, men, and younger adults. That means the datasets AI systems learn from carry those same gaps and blind spots. When a model is trained on skewed data, it simply cannot predict accurately how a drug will perform in women, older patients, or people from different ethnic backgrounds. Those groups are effectively invisible to the model. And here is why this really matters in practice: if the AI is working from flawed data, it can push a drug candidate further along the development pipeline than it deserves, wasting enormous resources and potentially putting patients at risk. The bias starts early in data collection, and the consequences compound quickly as the AI makes predictions based on incomplete information."
         },
         {
           "number": 5,
-          "script": "Now, one of the most significant risks with AI in drug discovery is the quality and fairness of the data used to train these models in the first place. Historically, clinical trials have skewed heavily towards Western populations, men, and younger adults. That means the datasets AI systems learn from carry those same gaps and blind spots. When a model is trained on skewed data, it simply cannot predict accurately how a drug will perform in women, older patients, or people from different ethnic backgrounds. Those groups are effectively invisible to the model. This problem is even more pronounced for rare diseases, where data pools are already small and often incomplete. And here is why this really matters in practice: if the AI is working from flawed data, it can push a drug candidate further along the development pipeline than it deserves, wasting enormous resources and potentially putting patients at risk. The bias starts early, and the consequences compound quickly."
+          "script": "Rare diseases present a particularly challenging scenario for AI in drug discovery. By definition, these conditions affect small patient populations, which means the available data is already limited. But the problem goes beyond just having fewer data points. Any errors or gaps in those small datasets get magnified rather than smoothed out by statistical averaging. You might have incomplete medical histories, missing test results, or very little diversity even within an already tiny patient cohort. This puts AI systems in a difficult position because machine learning algorithms generally perform better with large, comprehensive datasets. When you're working with rare diseases, the AI is trying to learn patterns from insufficient examples, making its predictions inherently less reliable. This creates a real equity issue, where patients with rare conditions may be systematically underserved by AI-driven research approaches."
         },
         {
           "number": 6,
-          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is that most data integrity problems are preventable if you put the right habits in place early. Start by checking where your training data comes from and whether it is actually reliable before it goes anywhere near your AI pipeline. From there, keep a clear separation between your raw data and anything that has been processed, so the original record is always protected. Use version control to track how datasets change over time, and make sure every transformation step is properly documented so you can trace exactly what happened and when. Regular audits are also essential, because problems can creep in gradually and you want to catch them early. And perhaps most importantly, invest in training your research teams so they can recognise data quality issues themselves before those issues have a chance to cause real damage downstream."
+          "script": "Now let's talk about the foundational practices you need to protect data integrity. Think of data governance as the framework that keeps everything else working properly. Start by validating your training data sources before they go anywhere near your AI pipeline. You need to know where the data came from and whether you can trust it. Implement version control for your datasets, just like developers do for code, so you can track exactly which version was used when. Keep a clear separation between your raw data and anything that has been processed, so the original record is always protected. Document every transformation step along the way, because if something goes wrong, you need to be able to trace it back. These might seem like administrative tasks, but they're actually the foundation of reliable research."
         },
         {
           "number": 7,
-          "script": "So, how do we actually put all of this into practice? The good news is that reducing data integrity risk does not require a complete overhaul of how you work. It starts with some straightforward habits. Before you feed any data into an AI pipeline, check where it came from and whether you can trust it. Then, keep a clear record of every change made to that data along the way, because if something goes wrong, you need to be able to trace it back. Treat your datasets the same way developers treat code, use version control so you always know which version was used and when. Build in regular checks to spot anything unusual in your outputs, and make sure specific people are responsible for data quality rather than assuming everyone is. Finally, resist the urge to scale up too quickly. Start small, test thoroughly, and only expand once you are confident things are working as they should."
+          "script": "Good data governance sets you up for success, but ongoing monitoring is what keeps you there. Build regular audits into your workflow to spot unusual patterns or anomalies in your outputs before they cause problems downstream. Assign clear ownership of data quality checks to specific team members, rather than assuming everyone will catch issues. Invest in training your research teams so they can recognise common data quality problems early in the process. And if you're just getting started with AI in your organisation, resist the urge to scale up too quickly. Start with something small and manageable, test your results thoroughly, and only expand once you're confident your processes are working reliably. This systematic approach to quality assurance will save you significant time and resources in the long run."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together with some core principles to carry forward. First, the quality of your AI output depends entirely on the quality of your input data. If you feed the model poor data, you will get poor results, and in drug discovery, that can have serious consequences. Always validate your data before you use it, and be mindful of bias, because biased data quietly corrupts your model in ways that are not always obvious. Audit trails are not optional extras, they are essential. You need to be able to show exactly where your data came from and how it was handled. And ultimately, the reason all of this matters is patient safety. Clean, reliable data genuinely saves lives. Finally, if you are just starting out with AI in your organisation, do not try to do everything at once. Start with something small, check your results carefully, and build your confidence from there. These principles will serve you well throughout your journey."
+          "script": "Let us bring everything together with the core principles that will serve you throughout your work with AI in drug discovery. Remember that the quality of your AI output depends entirely on the quality of your input data. Garbage in, garbage out is not just a catchy phrase, it's a fundamental truth. Always validate your data before you use it, and stay vigilant about bias because it corrupts models in ways that aren't always obvious. Build proper audit trails, not as optional extras but as essential safety measures. And ultimately, remember why all of this matters: clean, reliable data protects patient safety and leads to better treatments. If you're just starting your journey with AI, take it step by step. Start small, check your results carefully, and build your confidence from there. These principles will guide you toward responsible and effective AI implementation."
         }
       ]
     }

@@ -43,27 +43,27 @@
         },
         {
           "number": 5,
-          "slidetitle": "Minimising Risk Through Best Practice",
-          "subtitle": "Practical steps to protect guest data.",
-          "slidecontent": "• Limit data collection always\n• Use strong, unique passwords\n• Encrypt sensitive guest information\n• Train staff regularly\n• Review access permissions often\n• Delete data when unnecessary"
+          "slidetitle": "Daily Data Protection Practices",
+          "subtitle": "Building secure habits into your work",
+          "slidecontent": "• Limit data collection to essential information only\n• Use strong, unique passwords for all systems\n• Encrypt sensitive guest information\n• Train staff regularly on privacy procedures\n• Review access permissions routinely\n• Delete data when no longer needed"
         },
         {
           "number": 6,
-          "slidetitle": "Minimising Risk Through Best Practice",
-          "subtitle": "Practical steps to protect guest data",
-          "slidecontent": "• Limit data collection always\n• Use strong, unique passwords\n• Encrypt sensitive guest information\n• Train staff regularly\n• Review access permissions often\n• Report breaches immediately"
+          "slidetitle": "Compliance with Data Protection Laws",
+          "subtitle": "Meeting your legal obligations",
+          "slidecontent": "• UK GDPR requires explicit consent for data processing\n• Guests have rights to access, correct, and delete their data\n• Data processors must demonstrate lawful basis for collection\n• Privacy policies must clearly explain AI usage\n• Regular audits ensure ongoing compliance\n• Violations carry significant financial penalties"
         },
         {
           "number": 7,
           "slidetitle": "Reporting and Escalating Data Breaches",
-          "subtitle": "Speak Up Before It Is Too Late",
-          "slidecontent": "• Any suspected breach involving guest data reported to your manager or data protection officer immediately\n• Do not wait until you are certain, suspicion alone is enough to escalate\n• Time matters\n• Common triggers include lost devices, unauthorised system access, or accidentally emailed guest records\n• Your organisation likely has a written breach response procedure, know where to find it\n• Reporting promptly protects guests and reduces your organisation's legal exposure under UK GDPR"
+          "subtitle": "Speak up before it's too late",
+          "slidecontent": "• Any suspected breach involving guest data reported to your manager or data protection officer immediately\n• Do not wait until you are certain, suspicion alone is enough to escalate\n• Time matters - 72-hour reporting window under UK GDPR\n• Common triggers include lost devices, unauthorised system access, or accidentally emailed guest records\n• Know your organisation's written breach response procedure\n• Prompt reporting protects guests and reduces legal exposure"
         },
         {
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Core principles to keep in mind",
-          "slidecontent": "• Guest data is sensitive and deserves careful handling every time\n• AI tools can process personal, travel, and payment data in ways that are not always visible\n• Always follow your organisation's data privacy policies before sharing guest information with any system\n• When in doubt, less is more\n• Report concerns about data misuse to your manager or data protection officer promptly\n• Review your workplace's AI usage guidelines as a practical next step"
+          "slidecontent": "• Guest data is sensitive and deserves careful handling every time\n• AI tools can process personal information in ways that are not always visible\n• Always follow your organisation's data privacy policies before sharing guest information\n• When in doubt, less is more\n• Report concerns about data misuse promptly\n• Review your workplace's AI usage guidelines as a practical next step"
         }
       ],
       "scripts": [
@@ -77,19 +77,19 @@
         },
         {
           "number": 3,
-          "script": "So how exactly does AI use the data that guests share with a hotel? Well, it starts by looking at things like booking history and past stays, building up a picture of who each guest is and what they enjoy. From there, it tracks patterns in behaviour, perhaps noticing that someone always requests a quiet room, or tends to order room service late in the evening. Over time, AI uses all of this to predict what a guest might want on their next visit, before they even ask for it. That allows the hotel to personalise offers, recommendations, and communications in a way that feels relevant and timely. And here is where it gets important from a privacy perspective: this data does not just sit in one place. It moves across multiple hotel systems, from reservations and housekeeping to marketing and loyalty programmes. So the data picture being built is actually quite detailed, and quite far-reaching. That is what we need to keep in mind as we go through this lesson."
+          "script": "So how exactly does AI use the data that guests share with a hotel? Well, it starts by looking at things like booking history and past stays, building up a picture of who each guest is and what they enjoy. From there, it tracks patterns in behaviour, perhaps noticing that someone always requests a quiet room, or tends to order room service late in the evening. Over time, AI uses all of this to predict what a guest might want on their next visit, before they even ask for it. That allows the hotel to personalise offers, recommendations, and communications in a way that feels relevant and timely. And here is where it gets important from a privacy perspective: this data does not just sit in one place. It moves across multiple hotel systems, from reservations and housekeeping to marketing and loyalty programmes. So the data picture being built is actually quite detailed, and quite far-reaching."
         },
         {
           "number": 4,
-          "script": "So let's look at where things can actually go wrong when AI handles guest data. One of the most common issues is AI systems holding onto guest information far longer than they should, or using it in ways that were never originally intended. Then there's the question of who else gets access to that data. Travel history, payment details, personal preferences, these can end up being shared with third-party vendors without guests ever knowing. And it's not just about sharing. If the datasets used to train AI systems aren't properly secured, they become a real vulnerability and a potential entry point for a breach. There's also a subtler risk with personalisation tools. They can surface information about a guest that feels intrusive, because the guest never actually agreed to share it in that way. And that brings us to the core of it all: when there's no consent and no control given to the guest, trust breaks down very quickly."
+          "script": "So let's look at where things can actually go wrong when AI handles guest data. One of the most common issues is AI systems holding onto guest information far longer than they should, or using it in ways that were never originally intended. Then there's the question of who else gets access to that data. Travel history, payment details, personal preferences - these can end up being shared with third-party vendors without guests ever knowing. And it's not just about sharing. If the datasets used to train AI systems aren't properly secured, they become a real vulnerability and a potential entry point for a breach. There's also a subtler risk with personalisation tools. They can surface information about a guest that feels intrusive, because the guest never actually agreed to share it in that way. And that brings us to the core of it all: when there's no consent and no control given to the guest, trust breaks down very quickly."
         },
         {
           "number": 5,
-          "script": "So, now that we understand the risks, let's talk about what you can actually do to protect your guests' data. The good news is that most of this comes down to sensible habits. Start by only collecting the information you genuinely need. The less data you hold, the less there is to lose. Make sure any systems storing guest information are protected with strong, unique passwords, and that sensitive data is encrypted so it cannot easily be read if it falls into the wrong hands. Your team also plays a huge role here, so regular training is essential. People make mistakes when they are not sure what to look out for. It is also worth checking who has access to guest data on a routine basis and removing permissions that are no longer needed. And finally, if you no longer need certain data, delete it. Holding onto information unnecessarily is an unnecessary risk."
+          "script": "Now that we understand the risks, let's talk about what you can actually do to protect your guests' data on a daily basis. The good news is that most of this comes down to sensible habits built into your regular work. Start by only collecting the information you genuinely need for each transaction. The less data you hold, the less there is to lose. Make sure any systems storing guest information are protected with strong, unique passwords, and that sensitive data is encrypted so it cannot easily be read if it falls into the wrong hands. Your team also plays a huge role here, so regular training is essential. People make mistakes when they are not sure what to look out for. It is also worth checking who has access to guest data on a routine basis and removing permissions that are no longer needed. And finally, if you no longer need certain data, delete it. Holding onto information unnecessarily is an unnecessary risk."
         },
         {
           "number": 6,
-          "script": "So, let's look at some practical steps you can take right now to reduce the risk of a guest data privacy incident. First, only collect the information you genuinely need. The less data you hold, the less there is to lose. Make sure your passwords are strong and unique across every system, and that sensitive guest information is encrypted, so it's unreadable if it falls into the wrong hands. Your staff are a really important part of this too, so make sure they receive regular training on data privacy and know exactly what's expected of them. It's also worth reviewing who has access to guest data on a routine basis, because people change roles and permissions can quickly become outdated. And finally, if something does go wrong, report it straight away. A fast response can significantly limit the damage. None of these steps are complicated, but together they make a real difference to how well you protect your guests."
+          "script": "Beyond daily practices, you need to understand the legal framework that governs how you handle guest data. Under UK GDPR, you must have explicit consent before processing personal information, and guests have specific rights including the ability to access, correct, or delete their data. When AI is involved, this becomes more complex because you need to clearly explain how automated systems use their information. Your privacy policies must be transparent about AI usage, not buried in legal jargon that guests cannot understand. Regular audits help ensure you remain compliant over time, especially as AI systems evolve. This is not just about doing the right thing - violations of data protection laws carry significant financial penalties that can seriously damage your organisation. Compliance protects both your guests and your business."
         },
         {
           "number": 7,

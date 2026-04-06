@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Procurement and Vendor Selection",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Risks of biased or incomplete supplier evaluations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with procurement or vendor selection processes within construction, engineering, or related infrastructure sectors is helpful, though no prior experience with artificial intelligence tools is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with biased or incomplete supplier evaluations in construction and engineering procurement, and explain how AI tools can be applied to improve the fairness and accuracy of vendor selection processes. You will also apply practical frameworks to recognise and address common sources of bias in AI-assisted procurement decisions, ensuring more reliable outcomes for infrastructure and real estate development projects.",
+  "lessons": [
+    {
+      "lesson title": "AI in Procurement and Vendor Selection",
+      "order": 1,
+      "Description": "Supplier evaluations are a critical part of procurement, yet they can be undermined by bias, incomplete data, or inconsistent scoring methods. This lesson explores how AI tools are increasingly being used to support vendor selection processes, helping organisations assess suppliers more systematically and fairly. We will examine the risks that arise when AI systems are trained on flawed or limited data, and how those risks can lead to poor purchasing decisions or the exclusion of capable suppliers. You will also learn practical steps to identify and reduce bias in AI-assisted evaluations, ensuring your procurement process remains transparent and defensible. By the end of this lesson, you will have a clearer understanding of how to use AI responsibly within your vendor selection workflow.",
+      "status": "draft",
+      "content": "Risks of biased or incomplete supplier evaluations.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Procurement: An Introduction",
+          "subtitle": "Transforming how we source and select",
+          "slidecontent": "• AI reshapes supplier sourcing\n• Faster, smarter vendor decisions\n• Reduces manual evaluation effort\n• Bias risks still exist\n• Humans remain essential oversight"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Identifying Bias in Supplier Data",
+          "subtitle": "Where Hidden Prejudices Skew Supplier Choices",
+          "slidecontent": "• Historical data reflects past prejudices\n• Small suppliers often under-scored\n• Postcode bias skews results\n• Missing data penalises diverse suppliers\n• Algorithms amplify existing inequalities"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Gaps in Supplier Data",
+          "subtitle": "Where missing information distorts decisions",
+          "slidecontent": "• Supplier profiles often missing financial health data, certifications, or recent performance records\n• Gaps rarely random, tending to cluster around smaller or newer vendors\n• Incomplete data\n• AI tools flag absent fields but cannot invent reliable information to fill them\n• Decisions made on partial profiles risk favouring well-documented suppliers over better-fit ones"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Gaps in Supplier Data",
+          "subtitle": "Where missing data distorts supplier decisions",
+          "slidecontent": "• Supplier profiles often missing key fields like financial history, capacity data, or past performance records\n• Gaps rarely random, tending to cluster around newer, smaller, or less familiar vendors\n• Missing data treated as neutral by many AI tools, when it actually skews scoring\n• Incomplete profiles quietly disadvantage capable suppliers\n• Procurement teams unaware of which fields are absent and how much weight those fields carry in the algorithm\n• Small data gaps can compound, producing significantly distorted vendor rankings"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Gaps in Supplier Data",
+          "subtitle": "Where missing data distorts supplier insight",
+          "slidecontent": "• Missing fields skew rankings\n• Gaps favour familiar suppliers\n• Incomplete data hides risk\n• Silence is not a good sign\n• Sparse profiles need flagging"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Bias in Supplier Evaluations",
+          "subtitle": "Strategies for fairer, more balanced assessments",
+          "slidecontent": "• Auditing AI-generated shortlists regularly to catch patterns of excluding certain supplier types or regions\n• Blind scoring where possible\n• Using diverse evaluation panels to challenge assumptions baked into automated recommendations\n• Setting clear, weighted criteria before running any AI tool so results stay anchored to business need\n• Documenting every decision point to create an audit trail if a supplier disputes the outcome"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Bias in Evaluations",
+          "subtitle": "Reducing Unfair Bias in Supplier Assessments",
+          "slidecontent": "• Audit AI for hidden bias\n• Diversify your training data\n• Review outputs regularly\n• Include human oversight always\n• Test across supplier types"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for smarter procurement decisions",
+          "slidecontent": "• AI tools can speed up supplier evaluation but only as good as the data they are trained on\n• Biased or incomplete data leads to flawed shortlists\n• Always audit AI recommendations before making final procurement decisions\n• Diverse, well-structured supplier data reduces the risk of unfair or inaccurate outcomes\n• Human oversight remains essential\n• As a next step, review your current supplier dataset for gaps, inconsistencies, or historical bias before introducing AI into your procurement process"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Procurement and Vendor Selection. Over the next few lessons, we are going to explore how artificial intelligence is genuinely changing the way organisations find, evaluate, and choose their suppliers. Traditionally, procurement has been a time-consuming process, involving lots of manual research, spreadsheets, and gut instinct. AI is starting to shift that, helping teams make faster and more informed decisions about which vendors to work with. It can sift through enormous amounts of data in a fraction of the time it would take a human. But, and this is important, it is not a perfect solution. There are real risks around bias, where AI can reflect the flaws in the data it has been trained on. So throughout this course, we will be looking at both the opportunities and the responsibilities that come with using these tools. Human judgement remains absolutely central to good procurement practice."
+        },
+        {
+          "number": 2,
+          "script": "So let's talk about something that catches a lot of organisations off guard: bias hiding inside supplier data. When an AI system learns from historical procurement records, it picks up the patterns from those records, including the prejudices baked into past decisions. If your organisation has historically favoured large, well-established suppliers, the algorithm will likely continue doing exactly that, quietly scoring smaller businesses lower without any obvious reason. There is also something called postcode bias, where suppliers based in certain locations are disadvantaged simply because of where they are situated. And when data is incomplete or missing, which happens far more often with newer or more diverse suppliers, the system tends to penalise those businesses unfairly. The result is that AI does not just reflect existing inequalities, it can actually amplify them over time. So before you trust an AI tool to shortlist your suppliers, it is worth asking: what data was it trained on, and whose voices might be missing from that picture?"
+        },
+        {
+          "number": 3,
+          "script": "When you pull together supplier profiles, you'll often find that key pieces of information are simply missing. Things like financial health data, up-to-date certifications, or recent performance records. And here's what's interesting: those gaps don't tend to be spread evenly. Smaller suppliers and newer vendors are far more likely to have incomplete profiles, simply because they haven't built up the same paper trail as established players. Now, AI tools are genuinely useful here because they can quickly flag where information is absent, highlighting those empty fields that a human reviewer might overlook. But, and this is important, AI cannot reliably invent the missing data. It can tell you something is absent; it cannot fill the gap with trustworthy information. The real risk is that your decisions end up favouring suppliers who are simply better documented, rather than suppliers who are actually the better fit for your needs. Awareness of that bias is the first step to addressing it."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nOne of the trickiest problems with AI in procurement is not bad data, it is missing data. Supplier profiles are often incomplete, lacking things like financial history, capacity figures, or past performance records. And this tends to happen most with newer or smaller suppliers, the ones you are perhaps less familiar with. Now, you might assume that if a field is blank, the system simply ignores it. But many AI tools do not work that way. They treat missing information as a neutral signal, which actually ends up skewing the scores. So a capable supplier with an incomplete profile quietly gets pushed down the rankings, not because they performed poorly, but because their data was thin. What makes this particularly difficult is that procurement teams often have no visibility into which fields are missing or how heavily those fields influence the final output. Small gaps, compounded across multiple criteria, can produce rankings that are quite significantly distorted."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the sneakier problems in procurement is not bad data, it is missing data. When a supplier leaves fields blank in their profile, those gaps do not just sit there harmlessly. They actually distort how that supplier gets ranked or evaluated. And here is the interesting part: incomplete profiles tend to favour suppliers you already know. Because familiar names feel safe, you unconsciously fill in the blanks with positive assumptions. But a supplier you have never worked with, who has a sparse profile, looks risky by comparison, even if they are actually excellent. The real danger is that missing information can hide genuine risk. If a supplier has not provided details about their financial stability, their certifications, or their delivery track record, that silence should raise a flag, not be ignored. So when you are using AI tools to assess suppliers, make sure the system is set up to highlight incomplete profiles rather than quietly work around them."
+        },
+        {
+          "number": 6,
+          "script": "Bias in AI-driven supplier evaluations is a real risk, and it often creeps in quietly. One of the best things you can do is regularly audit the shortlists your AI tools produce. If you notice the same types of suppliers or the same regions being consistently overlooked, that is a signal worth investigating. Where you can, use blind scoring to remove identifying details that might unconsciously influence decisions. It also helps to involve a diverse evaluation panel, because different perspectives will challenge assumptions that might be baked into the algorithm. Crucially, define your criteria and their weightings before you run any AI tool, not after. That way, the results stay grounded in genuine business need rather than drifting toward whatever the system happens to favour. And finally, document every decision you make throughout the process. If a supplier ever questions why they were not selected, you will have a clear, transparent record to refer back to."
+        },
+        {
+          "number": 7,
+          "script": "Now, one of the most important things to understand about using AI in supplier evaluations is that these systems are not automatically fair. They can inherit bias from the data they were trained on, and if left unchecked, that bias can quietly influence your decisions. So what can you do about it? Start by auditing your AI tools to look for patterns that seem unfair or inconsistent. Make sure the data you are feeding into the system represents a wide range of supplier types, not just the ones you have historically worked with. Once the system is running, review its outputs on a regular basis and ask whether the results genuinely make sense. Crucially, never remove the human element from the process. A person should always be involved in final decisions. And do test your AI across different kinds of suppliers, including smaller businesses and newer entrants, to make sure it is treating everyone equitably. Fairness does not happen by accident; it requires deliberate effort."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. AI can genuinely transform the way you evaluate suppliers, making the process faster and more consistent. But it is only ever as good as the data behind it. If that data is incomplete, outdated, or carries historical bias, your AI tool will simply reflect those problems back at you in the form of flawed recommendations. That is why auditing what the AI suggests, rather than just accepting it, is so important. The quality of your supplier data really does matter, and keeping it diverse and well-structured helps ensure fairer, more accurate outcomes. And throughout all of this, human judgement stays at the centre. AI supports your decisions, it does not replace them. As a practical next step, I would encourage you to take a close look at your current supplier dataset before you introduce any AI tools. Identify the gaps, spot any inconsistencies, and consider where historical bias might have crept in."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Procurement managers, purchasing agents, vendor managers, construction project managers, engineering managers, contract administrators, supply chain coordinators, real estate development managers",
+  "Team or Dept this is for": "Procurement, Supply Chain, Construction, Engineering, Operations, Project Management, Real Estate Development"
+}

@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Automotive Manufacturing vs On-Road Systems",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Differences in risk between production AI and driving AI.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how cars are made or how modern vehicles operate on the road, along with a general curiosity about artificial intelligence, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key differences between AI systems used in automotive manufacturing environments and those deployed in on-road vehicles, and explain how each setting presents its own unique safety and operational risks. You will also be able to apply this understanding to recognise why the consequences of AI errors in a controlled factory setting differ significantly from those in dynamic, real-world driving conditions.",
+  "lessons": [
+    {
+      "lesson title": "AI in Automotive Manufacturing vs On-Road Systems",
+      "order": 1,
+      "Description": "Artificial intelligence plays very different roles depending on whether it is operating inside a factory or behind the wheel of a vehicle on a public road. In automotive manufacturing, AI systems control robotic arms, monitor quality, and optimise production lines within carefully managed and predictable environments. On-road systems, by contrast, must respond to unpredictable conditions such as weather, pedestrians, and other drivers, which introduces a far greater level of risk and complexity. This lesson explores those key differences, helping you understand why the stakes, safety requirements, and regulatory expectations vary so significantly between the two settings. By the end, you will have a clearer picture of how risk is assessed and managed across both applications of AI in the automotive industry.",
+      "status": "draft",
+      "content": "Differences in risk between production AI and driving AI.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Exploring risk across two AI worlds",
+          "slidecontent": "• Two AI worlds, one course\n• Factories versus roads\n• Risk looks very different\n• Beginners welcome here\n• Let's explore together"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Where AI Fits in Automotive",
+          "subtitle": "Two distinct worlds, one industry.",
+          "slidecontent": "• Automotive AI splits into two separate domains: the factory floor and the public road\n• Manufacturing AI controls robots, quality checks, and supply chains\n• On-road AI handles perception, decisions, and vehicle control in real time\n• Very different stakes\n• A factory error may pause production; a driving error can cost lives\n• Understanding this split is the foundation for everything in this course"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Quality Control Without Consequences",
+          "subtitle": "Catching Defects Before Cars Leave Factories",
+          "slidecontent": "• Cameras spot paint flaws instantly\n• Sensors detect misaligned parts\n• Errors fixed before cars ship\n• No moving vehicles involved\n• Mistakes stay inside the factory"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Where Risk Profiles Diverge",
+          "subtitle": "Stakes differ across each environment.",
+          "slidecontent": "• Factory errors delay production\n• Road errors risk lives\n• Recall timelines differ greatly\n• Real-time decisions matter more\n• Consequences scale differently"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Comparing Risk Profiles Side by Side",
+          "subtitle": "Where stakes and consequences sharply diverge.",
+          "slidecontent": "• A factory AI misclassifying a weld costs money and time, not lives\n• On-road AI errors can injure or kill within seconds\n• Controlled environments allow human review before consequences occur\n• Real-world driving offers no pause button\n• Manufacturing systems can be shut down, tested, and restarted safely\n• Autonomous vehicles must make correct decisions the very first time, every time"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Comparing Risk: Who Bears Responsibility?",
+          "subtitle": "Liability shifts from factory to road.",
+          "slidecontent": "• Factory AI errors traced back to a single manufacturer or programmer\n• Road AI must account for unpredictable human behaviour, weather, and split-second decisions\n• Liability clear in production\n• When a self-driving car causes an accident, responsibility may fall on the carmaker, the software developer, or even the vehicle owner\n• Regulatory frameworks for on-road AI are still catching up with the technology\n• Insurance and legal systems are being redesigned to handle this new kind of risk"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Choosing the Right AI Approach",
+          "subtitle": "Matching Risk Levels to AI Solutions",
+          "slidecontent": "• Low stakes, simpler AI\n• High stakes, stricter rules\n• Match risk to solution\n• Test before deploying\n• Safety first, always"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons from this course summarised",
+          "slidecontent": "• Manufacturing AI operates in controlled, repeatable environments where errors can be caught before they cause harm\n• On-road AI must respond to unpredictable, real-world conditions in real time\n• The consequences of failure differ enormously between a factory floor and a public road\n• Risk profiles shape how each system is designed, tested, and regulated\n• Always consider context when evaluating how safe or reliable an AI system truly is\n• As a next step, explore how regulators in the UK and EU are developing standards for both environments"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you so much for joining this course. What we're going to be exploring together is a fascinating split in the world of artificial intelligence, specifically how AI is used in two very different settings within the automotive world. On one side, we have the factory floor, where AI helps build and assemble vehicles. On the other side, we have the open road, where AI helps those vehicles navigate and make decisions in real time. Now, here's the interesting thing: even though both worlds involve cars and AI, the risks involved look remarkably different from one another. And that contrast is really at the heart of what this course is all about. If you're completely new to this topic, please don't worry at all. This course has been designed with beginners very much in mind, so we'll be building everything up gradually and clearly. So let's get started and take a proper look at these two fascinating AI worlds together."
+        },
+        {
+          "number": 2,
+          "script": "Before we dive into the details, it helps to understand that automotive AI is not one single thing. It actually lives in two very different worlds. The first is the factory, where AI is managing robots on the assembly line, checking for defects, and keeping supply chains running smoothly. The second is out on the road, where AI has to perceive its surroundings, make split-second decisions, and control the vehicle in real time. Now, why does this distinction matter? Because the consequences of getting things wrong are completely different. If an AI system makes a mistake in a factory, you might lose a few hours of production. That is costly, but it is recoverable. If an AI system makes a mistake while driving, someone could be seriously hurt or killed. The stakes could not be more different. So keeping these two domains clearly separated in your mind is absolutely essential, and it is the foundation on which this entire course is built."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the most important jobs AI does inside a factory is quality control, and this is where things get really interesting. As a car moves along the production line, AI-powered cameras are constantly scanning the bodywork, picking up paint flaws that a human eye might easily miss. At the same time, sensors are checking that every single component is fitted correctly, so if a door panel is even slightly out of alignment, the system flags it immediately. And here is the really important point: all of this happens before the car ever leaves the building. There are no customers on the road, no moving vehicles involved, and no risk to the public. If a mistake is found, it stays inside the factory and gets corrected on the spot. This is a beautifully controlled environment, and it is a very different situation to AI operating out on real roads, which we will come to shortly."
+        },
+        {
+          "number": 4,
+          "script": "Now, this is where things get really interesting, because the two environments we're comparing don't just use AI differently, they carry very different levels of risk. In a factory, if something goes wrong, you might slow down a production line, delay a shipment, or waste some materials. That's costly, but it's manageable. On the road, a mistake can cost someone their life, and that changes everything. It also affects how quickly problems need to be fixed. A manufacturing issue might be addressed over weeks or months through process improvements. But a flaw in an on-road system could trigger an urgent safety recall affecting millions of vehicles almost overnight. And think about real-time decision making. A factory robot has a fraction of a second to place a component correctly. A self-driving system has that same fraction of a second to avoid a collision. The consequences simply aren't comparable, and that's why we treat these two environments so differently."
+        },
+        {
+          "number": 5,
+          "script": "Now this is where the comparison really comes into sharp focus. In a factory, if an AI system makes a mistake, say it misclassifies a weld or flags the wrong component, the consequence is a financial one. It costs time, it costs money, and that is frustrating, but it is fixable. Engineers can review what went wrong, shut the system down, run tests, and start again safely. There is always a chance to catch the error before it causes any real harm. On the road, that luxury simply does not exist. An autonomous vehicle making a poor decision at speed has no pause button, no second chance, and no human supervisor stepping in to review things before consequences unfold. We are talking about situations where a mistake can injure or kill someone within seconds. So whilst both environments use sophisticated AI, the pressure and responsibility placed on on-road systems is in a completely different category altogether."
+        },
+        {
+          "number": 6,
+          "script": "Now, one of the most important questions in this whole space is: when something goes wrong, who is actually responsible? In a factory, that question is relatively straightforward. If an AI system makes an error on the production line, you can usually trace it back to the manufacturer or the engineer who programmed it. Liability is fairly clear. But on the road, things get much more complicated. A self-driving car has to deal with unpredictable human behaviour, sudden weather changes, and decisions made in fractions of a second. So if there is an accident, is it the fault of the carmaker, the software developer, or perhaps the person who owns the vehicle? The honest answer right now is that nobody is entirely sure, because the legal and regulatory frameworks are still catching up with the technology. Insurance companies and lawmakers are actively rethinking how responsibility should work in a world where the driver might not actually be driving."
+        },
+        {
+          "number": 7,
+          "script": "So how do you actually decide which type of AI is right for a given situation? The key is matching the level of risk to the right level of solution. If you are working on something like optimising a paint schedule in a factory, the stakes are relatively low, so a simpler AI system will often do the job perfectly well. But if you are dealing with a vehicle making split-second decisions on a busy motorway, the rules become much stricter, and the AI needs to be far more robust and thoroughly validated. Before anything goes live, you absolutely must test it, and test it again, under as many real-world conditions as you can simulate. And running through all of this, no matter the context, is one guiding principle: safety comes first, every single time. Getting this matching process right is not just good engineering practice, it is a fundamental responsibility to the people who will ultimately rely on these systems."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. Throughout this course, we've seen that manufacturing AI and on-road AI are fundamentally different beasts, even though they both sit within the automotive world. In a factory, the environment is controlled, mistakes can be caught early, and the system can be refined before anything reaches the public. On a road, there's no such luxury. The AI has to handle the unexpected, in real time, with lives potentially at stake. That difference in consequence is enormous, and it shapes absolutely everything about how these systems are built, tested, and governed. The core lesson here is this: context matters. A system that's perfectly safe in one setting might be wholly inadequate in another. So whenever you're evaluating an AI system, always ask where it's operating and what happens if it gets things wrong. As a next step, I'd encourage you to look into how regulators here in the UK and across the EU are working to set standards for both of these environments."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Manufacturing engineers, automotive technicians, production managers, quality assurance specialists, safety managers, operations supervisors, plant managers, automotive industry professionals",
+  "Team or Dept this is for": "Manufacturing, Operations, Quality Assurance, Safety, Engineering, Production, Risk Management"
+}

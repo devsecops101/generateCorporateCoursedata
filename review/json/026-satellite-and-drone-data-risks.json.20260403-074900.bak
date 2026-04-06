@@ -1,0 +1,107 @@
+{
+  "Course Title": "Satellite and Drone Data Risks",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Security and accuracy concerns in remote sensing and aerial monitoring.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how agricultural or resource industries operate, along with a general interest in data collection technologies such as drones or satellites, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security and accuracy risks associated with satellite and drone data collection across agriculture, forestry, fishing, mining, and energy sectors. You will also be able to explain how these risks arise in remote sensing and aerial monitoring operations, and apply practical strategies to safeguard data integrity in your organisation.",
+  "lessons": [
+    {
+      "lesson title": "Satellite and Drone Data Risks",
+      "order": 1,
+      "Description": "This lesson introduces the key risks associated with collecting, storing, and using data gathered from satellites and drones. You will explore how remote sensing technologies can raise serious concerns around data security, privacy, and accuracy, particularly when that data is used to inform important decisions. We will look at real-world examples of how satellite and drone data can be intercepted, manipulated, or misinterpreted, and what that means for organisations relying on it. By the end of this lesson, you will have a clearer understanding of the practical steps that can be taken to reduce these risks and handle aerial and satellite data more responsibly. No prior technical knowledge is required, making this an ideal starting point for anyone working with or around remote sensing technologies.",
+      "status": "draft",
+      "content": "Security and accuracy concerns in remote sensing and aerial monitoring.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing Satellite and Drone Risks",
+          "subtitle": "Why remote sensing risks matter now",
+          "slidecontent": "• Satellites and drones now collect vast amounts of data about people, places, and infrastructure every day\n• Much of this data is sensitive\n• Errors or security gaps in remote sensing systems can cause real harm, from privacy breaches to flawed decisions\n• Organisations across defence, agriculture, logistics, and urban planning all rely on this technology\n• Growing reliance means growing risk\n• Understanding these risks is the first step toward using remote sensing responsibly and safely"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Data Integrity and Accuracy Risks",
+          "subtitle": "Spotting Errors Before They Cause Harm",
+          "slidecontent": "• Sensors drift over time\n• Weather distorts readings\n• GPS signals can slip\n• Calibration errors compound quickly\n• Bad data misleads decisions"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Signal Spoofing and GPS Risks",
+          "subtitle": "Manipulating Location Data From Afar",
+          "slidecontent": "• Fake GPS signals fool drones\n• Drones fly to wrong locations\n• Attackers work from miles away\n• Cargo and data get stolen\n• Military and civilian drones affected"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Signal Spoofing and Jamming Threats",
+          "subtitle": "Disrupting Navigation and Data Integrity",
+          "slidecontent": "• GPS signals are weak and easily overwhelmed by stronger false transmissions from ground-based devices\n• Spoofing feeds a drone or satellite receiver incorrect coordinates, causing it to report a wrong location\n• Jamming simply blocks the signal entirely\n• Both attacks can occur without any physical access to the aircraft or satellite system\n• Critical infrastructure sites, border zones, and conflict areas see the highest frequency of these incidents"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Signal Spoofing and Jamming Threats",
+          "subtitle": "Disrupting Navigation and Data Integrity",
+          "slidecontent": "• GPS signals are weak and easy to overpower with cheap, widely available equipment\n• Jamming blocks satellite signals entirely, leaving drones unable to navigate\n• Spoofing sends fake signals\n• A spoofed drone can be silently redirected to a wrong location without triggering any alerts\n• Both threats can corrupt the positional data collected during a survey mission"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Signal Spoofing and Jamming Threats",
+          "subtitle": "Disrupting Navigation and Data Integrity",
+          "slidecontent": "• Fake GPS signals fool drones\n• Jamming blocks real navigation\n• Aircraft lose positional accuracy\n• Data becomes unreliable instantly\n• Attackers exploit signal weaknesses"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Signal Spoofing and Jamming Threats",
+          "subtitle": "Disrupting Navigation and Data Integrity",
+          "slidecontent": "• GPS signals are weak and easy to overpower with cheap, widely available equipment\n• Jamming blocks satellite signals entirely, causing drones to lose position or return home unexpectedly\n• Spoofing feeds false coordinates to a drone, tricking it into flying to the wrong location\n• Both threats can corrupt the data collected, not just disrupt the flight itself\n• Critical infrastructure sites and border zones are common targets"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer data practices",
+          "slidecontent": "• Verify all data sources first\n• Encrypt sensitive imagery always\n• Check legal permissions beforehand\n• Outdated data misleads decisions\n• Report breaches immediately\n• Review your data practices regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on satellite and drone data risks. Over the past decade or so, remote sensing technology has become part of everyday life in ways most people never really notice. Satellites pass overhead capturing images of cities, farmland, and critical infrastructure. Drones survey construction sites, monitor borders, and deliver packages. All of that activity generates enormous volumes of data, and a good deal of it is genuinely sensitive. The problem is that when these systems have security weaknesses or produce inaccurate results, the consequences can be serious, ranging from privacy violations to poor decisions made on flawed information. And it is not just one industry we are talking about. Defence, agriculture, logistics, urban planning, they all depend on this technology now. That growing reliance is precisely why understanding the risks matters so much. Throughout this lesson, we will build a clear picture of where those risks come from and what responsible use of remote sensing actually looks like."
+        },
+        {
+          "number": 2,
+          "script": "Let's talk about something that catches a lot of people off guard: the data coming from satellites and drones isn't always as reliable as it looks. The equipment itself can drift over time, meaning sensors that were perfectly accurate when first deployed gradually start giving slightly wrong readings. Add in bad weather, and those readings can get distorted further. Even GPS signals, which we tend to trust completely, can slip and place objects or measurements in slightly the wrong location. Now, here's where it gets serious. If you've got a calibration error at the start of your data collection process, that small mistake doesn't stay small. It compounds, building on itself until the final output is significantly off. And when decisions are being made based on that data, whether it's planning infrastructure, managing land, or responding to an emergency, bad data leads people in the wrong direction. So spotting these errors early really does matter."
+        },
+        {
+          "number": 3,
+          "script": "One of the most concerning threats in this space is something called signal spoofing, and it is surprisingly straightforward for attackers to pull off. Essentially, a bad actor can broadcast fake GPS signals that trick a drone into thinking it is somewhere it is not. The drone trusts those signals completely, so it changes course and flies to entirely the wrong location, sometimes delivering its cargo straight into the hands of the attacker. What makes this particularly alarming is that the person doing it does not need to be anywhere near the drone. They can be operating from miles away, which makes them very difficult to catch. And this is not just a problem for military operations. Civilian drones used for deliveries, surveying, and logistics are just as vulnerable. So whether we are talking about a parcel delivery service or a defence operation, spoofing represents a very real and very serious risk to both safety and security."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the more subtle but serious risks in this space is what happens when the navigation signals that drones and satellites rely on get interfered with. GPS signals are actually surprisingly weak, which means a relatively simple ground-based device can either overpower them with false information or block them altogether. The first type of attack is called spoofing, where the drone or satellite receiver is fed incorrect coordinates, so it genuinely believes it is somewhere it is not. The second is jamming, which simply cuts the signal off entirely. What makes both of these threats particularly concerning is that nobody needs to physically touch the aircraft or the satellite system to carry out the attack. It can all happen remotely. And while this can occur almost anywhere, you tend to see it most frequently around critical infrastructure, border regions, and active conflict zones. So the risk is very real and very widespread."
+        },
+        {
+          "number": 5,
+          "script": "One of the more unsettling risks with drone and satellite systems is how vulnerable GPS signals actually are. Despite how much we rely on them, these signals are surprisingly weak, and it does not take expensive or specialist equipment to interfere with them. There are two main threats to be aware of here. The first is jamming, which simply overwhelms or blocks the signal entirely, leaving a drone with no idea where it is. The second is spoofing, which is arguably more dangerous because it is far more subtle. Instead of blocking the signal, spoofing feeds the drone false location data, so it thinks it is somewhere it is not, and it will follow that false information without raising any alarms. Now, why does this matter for data collection? Because if a drone is navigating using corrupted positional information during a survey mission, every single data point it records becomes unreliable. The location stamps on your data simply cannot be trusted."
+        },
+        {
+          "number": 6,
+          "script": "Now let's talk about two serious threats to drone and satellite navigation: signal spoofing and jamming. Spoofing is where an attacker broadcasts fake GPS signals, essentially tricking a drone into thinking it's somewhere it isn't. The drone trusts those false signals and behaves accordingly, which can lead to it flying completely off course. Jamming works differently but is equally dangerous. Instead of sending fake signals, it simply floods the area with interference, blocking the legitimate navigation signals from getting through at all. When either of these attacks happens, the aircraft loses its ability to accurately determine where it is, and any data it collects during that time becomes completely unreliable. You can't trust the coordinates, and you can't trust the imagery linked to those coordinates. What makes this particularly concerning is that the technology needed to carry out these attacks is increasingly accessible, meaning the weaknesses in radio signal infrastructure are being actively exploited by those with malicious intent."
+        },
+        {
+          "number": 7,
+          "script": "One of the more unsettling vulnerabilities with drone and satellite systems is how easily their navigation signals can be interfered with. GPS signals are actually quite weak, which means relatively cheap, off-the-shelf equipment can be used to disrupt them. There are two main ways this happens. Jamming simply overwhelms the signal, so the drone loses its sense of position and may behave unpredictably, perhaps returning home on its own or hovering in place. Spoofing is more sinister, because instead of blocking the signal, it replaces it with false information, effectively tricking the drone into thinking it is somewhere it is not. And here is the important point for data professionals: these attacks do not just affect the flight. They can corrupt the data being collected, meaning your imagery, sensor readings, or coordinates could all be unreliable without you even realising it. These threats are particularly common around critical infrastructure and border areas, so it is well worth being aware of them."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. Before you use any satellite or drone data, always check where it came from and whether you can trust that source. If the imagery contains anything sensitive, make sure it is properly encrypted to keep it protected. And before you fly or collect data, confirm you have the legal permissions in place, because getting that wrong can cause serious problems. It is also worth remembering that old or outdated data can lead you to make poor decisions, so always check how current your information is. If something does go wrong and you suspect a data breach, report it straight away rather than waiting to see what happens. Finally, do not treat data security as a one-off task. Come back to your practices regularly, review them, and update them as things change. These principles are straightforward, but following them consistently is what really makes the difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Agricultural managers, farm operations staff, forestry supervisors, mining engineers, energy facility operators, GIS analysts, environmental compliance officers, data analysts in natural resources, operations managers in agriculture and energy sectors",
+  "Team or Dept this is for": "Operations, Environmental Compliance, Data Management, Agricultural Operations, Mining Operations, Energy Operations, GIS and Mapping, Risk Management"
+}

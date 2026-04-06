@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining Accountability in AI",
-          "subtitle": "What accountability means and who holds it",
-          "slidecontent": "• Accountability means owning the outcome of a decision, not just the process that produced it\n• In AI-assisted work, a human still carries responsibility for acting on what the system suggests\n• Three groups typically share this responsibility: operators in the field, engineers who configure the tools, and leadership who set the policies\n• Not the machine's fault\n• Each role has a different slice of accountability depending on how much control they have over the decision\n• Clarity about who owns what prevents blame-shifting when things go wrong"
+          "slidetitle": "What Accountability Means",
+          "subtitle": "Owning outcomes, not just processes.",
+          "slidecontent": "• Accountability means owning the outcome of a decision, not just following procedures\n• In AI-assisted work, humans remain responsible for acting on system suggestions\n• The machine doesn't carry responsibility—people do\n• Ownership extends beyond the person who pressed the button\n• Clear accountability prevents blame-shifting when problems occur"
         },
         {
           "number": 3,
-          "slidetitle": "Operators, Engineers, and Leadership",
-          "subtitle": "Defining roles, rights, and responsibilities.",
-          "slidecontent": "• Operators configure and deploy AI systems within their specific context\n• Engineers build and maintain the underlying tools\n• Leadership sets the boundaries\n• Each role carries distinct accountability, not shared blame\n• Clear role definition prevents gaps where no one feels responsible"
+          "slidetitle": "Three Key Roles",
+          "subtitle": "Operators, engineers, and leadership each have distinct responsibilities.",
+          "slidecontent": "• Operators configure and deploy AI systems within their specific context\n• Engineers build and maintain the underlying tools and systems\n• Leadership sets policies and boundaries for acceptable AI use\n• Each role carries distinct accountability, not shared blame\n• Clear role definition prevents gaps where no one feels responsible"
         },
         {
           "number": 4,
-          "slidetitle": "Shared Accountability in Practice",
-          "subtitle": "Roles, Responsibilities, and Real Accountability",
-          "slidecontent": "• Operators act, engineers build\n• Leaders set the rules\n• Everyone shares the risk\n• No single owner exists\n• Roles overlap constantly"
+          "slidetitle": "How Roles Connect",
+          "subtitle": "Why accountability spans multiple people.",
+          "slidecontent": "• Operators make decisions using tools that engineers designed\n• Engineers build systems within policies that leadership approved\n• Leaders depend on feedback from operators and engineers\n• Role boundaries blur in practice—people wear multiple hats\n• When something goes wrong, multiple roles contributed to the outcome"
         },
         {
           "number": 5,
-          "slidetitle": "Shared Accountability in Practice",
-          "subtitle": "Roles, Responsibilities, and Real Accountability",
-          "slidecontent": "• Operators follow procedures and flag anomalies in real time\n• Engineers maintain systems and document known limitations\n• Leadership sets the boundaries for acceptable AI use\n• Everyone accountable\n• No single role carries the full weight alone\n• Clear handoffs between roles prevent gaps in responsibility"
+          "slidetitle": "Daily Accountability Tasks",
+          "subtitle": "What each role does to maintain responsibility.",
+          "slidecontent": "• Operators follow procedures and flag anomalies in real time\n• Engineers maintain systems and document known limitations\n• Leadership sets boundaries for acceptable AI use and escalation protocols\n• Clear handoffs between roles prevent gaps in responsibility\n• No single role carries the full weight of every decision"
         },
         {
           "number": 6,
-          "slidetitle": "Shared Accountability in Practice",
-          "subtitle": "Roles, responsibilities, and real-world examples.",
-          "slidecontent": "• Operators act, engineers build\n• Leaders set the rules\n• Everyone shares some blame\n• No single owner exists\n• Roles overlap constantly"
+          "slidetitle": "When Things Go Wrong",
+          "subtitle": "How shared accountability works during problems.",
+          "slidecontent": "• Multiple people likely contributed to any AI-related problem\n• Focus on understanding the system, not finding someone to blame\n• Each role examines their part: procedures, tools, or policies\n• Documentation helps trace decision paths across roles\n• Learning from incidents strengthens future accountability"
         },
         {
           "number": 7,
-          "slidetitle": "Shared Accountability in Practice",
-          "subtitle": "Roles, Responsibilities, and Real Decisions",
-          "slidecontent": "• Operators act, engineers support\n• Leaders set the boundaries\n• Everyone shares the risk\n• No single owner exists\n• Roles overlap in practice"
+          "slidetitle": "Escalation Framework",
+          "subtitle": "When and how to raise concerns about AI decisions.",
+          "slidecontent": "• Operators escalate when AI outputs seem wrong or uncertain\n• Engineers escalate when system limitations affect field decisions\n• Leadership escalates when AI use exceeds organizational boundaries\n• Clear escalation paths prevent delayed responses to problems\n• Speaking up protects everyone when AI recommendations are questionable"
         },
         {
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• Humans stay accountable always\n• Question AI outputs regularly\n• Escalate when uncertain\n• Document every AI decision\n• Leadership sets the standard"
+          "slidecontent": "• Humans stay accountable always—AI suggests, people decide\n• Question AI outputs regularly rather than accepting blindly\n• Escalate when uncertain—there's no shame in asking for help\n• Document every AI-influenced decision for transparency\n• Leadership sets the standard that others follow"
         }
       ],
       "scripts": [
@@ -73,7 +73,7 @@
         },
         {
           "number": 2,
-          "script": "Let's start by getting clear on what we actually mean by accountability, because it's a word that gets used a lot but isn't always well understood. Accountability isn't just about following a process correctly. It's about owning the outcome of a decision, whatever that outcome turns out to be. Now, when AI is involved, some people assume the machine carries that responsibility. It doesn't. The system makes a suggestion, but a human being decides what to do with it. And in most real-world situations, accountability is shared across three groups: the people working in the field who act on the AI's output, the engineers and technical teams who configure and maintain the tools, and the leaders who set the policies that govern how those tools are used. Each group holds a different slice of responsibility depending on how much influence they have over the final decision. Getting that clarity sorted in advance is what stops everyone pointing fingers at each other when something goes wrong."
+          "script": "Let's start by getting clear on what we actually mean by accountability, because it's a word that gets used a lot but isn't always well understood. Accountability isn't just about following a process correctly. It's about owning the outcome of a decision, whatever that outcome turns out to be. Now, when AI is involved, some people assume the machine carries that responsibility. It doesn't. The system makes a suggestion, but a human being decides what to do with it. And accountability extends far beyond whoever happens to press the final button or flip the switch. The person who acted was working within systems, policies, and constraints that other people created. Getting that clarity sorted in advance is what stops everyone pointing fingers at each other when something goes wrong."
         },
         {
           "number": 3,
@@ -81,7 +81,7 @@
         },
         {
           "number": 4,
-          "script": "So when we talk about accountability in AI systems, it is tempting to point at one person and say, \"that's the one responsible.\" But in practice, it simply does not work that way. The operator in the field is making real-time decisions, but they are working within a system that engineers designed and that leaders approved. If something goes wrong, you cannot just blame the person who pressed the button, because the rules, the tools, and the training all played a part. And here is the thing: those roles are not neatly separated. An engineer might also be a team leader. A field operator might also be contributing feedback that shapes future system design. The boundaries blur constantly. What this means is that accountability is genuinely shared across the whole organisation. Everyone has a stake in how these decisions play out, and everyone carries a portion of the responsibility when they do not go as planned."
+          "script": "So when we talk about accountability in AI systems, it is tempting to point at one person and say, 'that's the one responsible.' But in practice, it simply does not work that way. The operator in the field is making real-time decisions, but they are working within a system that engineers designed and that leaders approved. If something goes wrong, you cannot just blame the person who pressed the button, because the rules, the tools, and the training all played a part. And here is the thing: those roles are not neatly separated. An engineer might also be a team leader. A field operator might also be contributing feedback that shapes future system design. The boundaries blur constantly. What this means is that accountability is genuinely shared across the whole organisation. Everyone has a stake in how these decisions play out, and everyone carries a portion of the responsibility when they do not go as planned."
         },
         {
           "number": 5,
@@ -89,11 +89,11 @@
         },
         {
           "number": 6,
-          "script": "So when we talk about shared accountability in practice, what does that actually look like? Think of it this way. The person operating an AI system in the field is making real-time decisions, but they are working within a system that engineers designed and that leaders approved. If something goes wrong, you cannot simply point at one person and say it was entirely their fault. The operator acted, yes, but the engineer built the tool they were using, and the leader set the policies that shaped how it was deployed. Accountability does not sit neatly in one place. It is distributed across roles, and those roles often overlap in ways that are not always obvious until something goes wrong. A frontline worker might also be feeding data back to the engineering team. A manager might also be making operational calls. The boundaries are blurry, and that is precisely why understanding this shared responsibility matters so much."
+          "script": "When something does go wrong with an AI system, the natural human reaction is to look for someone to blame. But that approach misses the point entirely. In most cases, multiple people contributed to the problem, even if they did not realize it at the time. The operator might have followed procedure, but maybe the procedure was flawed. The engineer might have built the system correctly, but maybe the requirements were unclear. The leader might have approved the deployment, but maybe they were not told about certain limitations. Instead of pointing fingers, the focus should be on understanding how the whole system failed and what each role can do differently next time. Good documentation helps here because it lets you trace the decision path and see where things started to go off track. When you approach problems this way, you learn from them instead of just finding someone to punish."
         },
         {
           "number": 7,
-          "script": "So when we talk about shared accountability in practice, what does that actually look like day to day? Well, think of it this way. The person in the field, the operator, is the one making real-time decisions and taking action. The engineers and technical teams are there to support them, not to make those calls for them. Meanwhile, leaders and managers are responsible for setting the boundaries, deciding what the AI system is allowed to do, and what falls outside its scope. But here is the important part: no single person owns the outcome entirely. If something goes wrong, or indeed goes right, the responsibility is distributed across all of those roles. And in reality, those roles do not sit in neat, separate boxes. They overlap. An operator might flag a concern that shapes how engineers refine the system. A leader might step in when a decision exceeds what the AI was designed to handle. Accountability, in other words, is a shared and ongoing responsibility, not a label you pin on one person."
+          "script": "Knowing when and how to escalate concerns about AI decisions is a critical skill that every role needs to develop. If you are an operator and the AI is giving you recommendations that feel wrong, do not just override it quietly—flag it up the chain. If you are an engineer and you know the system has limitations that could affect field decisions, make sure those limitations are clearly communicated. If you are in leadership and AI use is pushing beyond what your organization is prepared to handle, that is when you step in and reset the boundaries. The key is having clear escalation paths so people know exactly who to contact and when. There should never be a situation where someone stays quiet about a concern because they do not know how to raise it or they are worried about looking foolish. Speaking up when AI outputs are questionable protects everyone involved."
         },
         {
           "number": 8,

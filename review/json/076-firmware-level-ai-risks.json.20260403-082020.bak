@@ -1,0 +1,107 @@
+{
+  "Course Title": "Firmware-Level AI Risks",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Security implications of AI embedded in hardware and chipsets.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic understanding of computer hardware components and a general familiarity with cybersecurity concepts, such as those gained from an introductory IT or networking course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security risks associated with AI embedded in hardware and chipsets, and explain how firmware-level vulnerabilities can be exploited in modern telecommunications and computing systems. You will also apply foundational risk assessment techniques to recognise potential threats posed by AI-integrated hardware, helping you make more informed decisions about device security in both personal and professional contexts.",
+  "lessons": [
+    {
+      "lesson title": "Firmware-Level AI Risks",
+      "order": 1,
+      "Description": "This lesson introduces the security risks that arise when artificial intelligence is embedded directly into hardware components such as chipsets, microcontrollers, and firmware layers. You will explore how AI operating at this low level of a system can create vulnerabilities that are difficult to detect, patch, or remove compared to software-based threats. The lesson covers practical examples of how malicious or compromised firmware-level AI can be exploited, and why traditional security tools often struggle to address these risks. By the end of this lesson, you will have a clearer understanding of why firmware-level AI deserves special attention in any security strategy, and what steps organisations can begin to take to protect themselves.",
+      "status": "draft",
+      "content": "Security implications of AI embedded in hardware and chipsets.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Firmware AI Risks: An Introduction",
+          "subtitle": "Where hardware meets hidden AI threats",
+          "slidecontent": "• AI is now embedded directly into chips, processors, and firmware, not just software applications\n• This creates security risks that sit below the operating system, making them harder to detect\n• Firmware-level threats\n• Traditional security tools often cannot scan or monitor at this level\n• Understanding these risks is essential for anyone responsible for hardware procurement or system security"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Firmware-Level AI Risks",
+          "subtitle": "Where hardware meets intelligent threat vectors",
+          "slidecontent": "• AI increasingly embedded directly into chips, processors, and device firmware\n• Operates below the operating system, making it harder to monitor or remove\n• Deeply hidden\n• Threat vectors include manipulated model weights baked into hardware at manufacture\n• Traditional security tools often blind to activity at this level\n• A growing concern for critical infrastructure, medical devices, and defence systems"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Firmware Vulnerabilities and Attack Surfaces",
+          "subtitle": "Where AI Exploits Enter the System",
+          "slidecontent": "• Unsigned firmware accepts any code\n• Boot process runs before antivirus\n• Update channels lack encryption\n• Debug ports stay open post-manufacture\n• Supply chains introduce hidden code"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Firmware Backdoors and Hidden Threats",
+          "subtitle": "Concealed Code With Serious Consequences",
+          "slidecontent": "• Hidden code embedded in firmware during manufacture or supply chain handling\n• Designed to activate silently, often triggered by specific conditions or remote commands\n• Can bypass security software entirely, since it operates below the operating system\n• Extremely difficult to detect\n• AI accelerators and smart chips increasingly targeted due to their privileged hardware access\n• Once installed, removal often requires physical replacement of the affected component"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Firmware Vulnerabilities and Attack Vectors",
+          "subtitle": "Where Weaknesses Become Entry Points",
+          "slidecontent": "• Outdated firmware lacks patches\n• Hardcoded passwords invite access\n• Unsigned code runs unchecked\n• Supply chains introduce hidden flaws\n• Debug ports left open accidentally"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Patching AI Firmware Vulnerabilities",
+          "subtitle": "Closing the Gaps Before Threats Escalate",
+          "slidecontent": "• Firmware patches for AI components often require full device restarts, making timely updates harder to schedule\n• Vendors may release fixes slowly\n• Prioritising critical vulnerabilities over minor ones helps teams focus limited patching resources effectively\n• Automated patch management tools can flag outdated AI firmware across large fleets of devices\n• Testing patches in a controlled environment before wide deployment reduces the risk of breaking existing functionality\n• Keeping a clear record of patch history supports audits and helps identify gaps in coverage"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Firmware AI Threats",
+          "subtitle": "Practical steps to reduce firmware exposure",
+          "slidecontent": "• Update firmware regularly\n• Disable unused AI features\n• Verify firmware signatures always\n• Monitor chip-level behaviour closely\n• Source hardware from trusted vendors"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for staying secure ahead.",
+          "slidecontent": "• AI hides inside hardware\n• Firmware updates matter always\n• Verify chip sources carefully\n• Patch regularly, stay protected\n• Trust nothing by default"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on Firmware-Level AI Risks. Now, when most people think about artificial intelligence, they picture software, apps, maybe a chatbot or a recommendation engine. But AI is increasingly being built directly into the hardware itself, into chips, processors, and firmware. And that shift creates a whole new category of security risk that many organisations simply are not prepared for. Because firmware sits below the operating system, traditional security tools often cannot even see what is happening at that level, let alone detect a threat. That makes these risks particularly serious and, frankly, quite difficult to deal with once they take hold. Throughout this course, we are going to explore what firmware-level AI threats actually look like, why they are so hard to spot, and what you can do to protect your systems. Whether you are responsible for procurement, IT security, or just want to understand the landscape better, this course is designed to give you a solid foundation."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start by getting clear on what we actually mean by firmware-level AI risks. Artificial intelligence is no longer just running on your laptop or in the cloud. It's being embedded directly into the chips and processors that power our devices, right down at the firmware level. Now, firmware sits below the operating system, which means it operates in a layer that most of our standard security tools simply cannot see. That makes it incredibly difficult to monitor, and even harder to remove if something goes wrong. One of the more concerning threats here involves manipulated model weights, essentially biased or corrupted AI behaviour, that could be baked into hardware during the manufacturing process itself. By the time a device reaches you, the threat is already inside. This is particularly worrying when we think about critical infrastructure, medical devices, and defence systems, where the consequences of compromised hardware could be genuinely serious. That's the landscape we're exploring in this course."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at where these AI-driven attacks actually get in, because firmware has quite a few weak spots that make it an attractive target. First, if firmware isn't digitally signed, the system has no way of verifying whether the code it's running is legitimate or something malicious. On top of that, the boot process happens before your antivirus or any security software even wakes up, so threats can slip in completely undetected. The channels used to deliver firmware updates are often unencrypted, which means an attacker could intercept and tamper with them in transit. Many devices also ship with debug ports that were left open during development and simply never closed, giving attackers a ready-made entry point. And finally, the supply chain itself can be compromised, with hidden or altered code introduced long before a device ever reaches you. Together, these vulnerabilities create a surprisingly wide attack surface, and that's exactly what makes firmware such a serious concern."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most serious threats we need to talk about is firmware backdoors. These are hidden pieces of code that can be secretly embedded into firmware, either during the manufacturing process or somewhere along the supply chain before a device even reaches you. What makes them so dangerous is that they sit below the operating system, which means your antivirus and security software simply cannot see them. They can lie completely dormant until a specific condition is met, or until someone sends a remote command to activate them. And increasingly, attackers are targeting AI accelerators and smart chips, precisely because those components have deep, privileged access to the hardware. Detection is genuinely very difficult, and here is the really troubling part: if your firmware has been compromised in this way, simply running a software fix will not solve the problem. In most cases, you would need to physically replace the affected component entirely. That is a significant operational and financial challenge for any organisation."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about where things actually go wrong at the firmware level. One of the most common issues is simply running outdated firmware that hasn't been updated, meaning known security holes are just left wide open. Then there are hardcoded passwords, where a manufacturer bakes a default password directly into the device, and anyone who knows it can walk straight in. Unsigned code is another serious concern, because if a device will run any code without verifying where it came from, an attacker can slip in something malicious without raising any alarms. Supply chains are also a real problem, since firmware can be tampered with before a device even reaches you. And finally, debug ports, which are tools developers use during testing, are sometimes accidentally left enabled in the final product, giving attackers a convenient back door. Each of these on its own is a risk, but together they paint a picture of just how many entry points exist at this level."
+        },
+        {
+          "number": 6,
+          "script": "Patching AI firmware isn't quite as straightforward as updating a regular app. Many firmware updates require a full device restart, which means you need to plan carefully to avoid disrupting operations. On top of that, vendors don't always release fixes quickly, so vulnerabilities can sit open for longer than we'd like. The sensible approach is to prioritise the most critical issues first, rather than trying to tackle everything at once with limited resources. Automated patch management tools are genuinely useful here, because they can scan large numbers of devices and flag anything that's running outdated firmware. Before you roll out a patch widely, always test it in a controlled environment first, so you're not accidentally breaking something that was working perfectly well. And finally, keep a clear record of everything you've patched and when. That patch history becomes invaluable during audits and helps you spot any gaps you might have missed along the way."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand the threats, let's talk about what you can actually do to protect yourself. The good news is that most of these steps are straightforward. First, keep your firmware updated. Manufacturers regularly release patches that close known vulnerabilities, so don't ignore those notifications. Next, if your device has AI features you're simply not using, turn them off. Fewer active components means a smaller attack surface. You should also get into the habit of verifying firmware signatures before installing anything. This confirms the firmware genuinely comes from the manufacturer and hasn't been tampered with. Beyond that, consider monitoring behaviour at the chip level where possible, because unusual activity there can be an early warning sign of something going wrong. And finally, be thoughtful about where your hardware comes from. Sourcing devices from reputable, trusted vendors significantly reduces the risk of compromised components entering your environment in the first place."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. One of the most important things to understand is that AI threats do not always appear in obvious places. They can be buried deep inside the hardware itself, well below the level where most security tools even look. That is why keeping your firmware updated is absolutely essential, not optional. Think of firmware updates as the foundation of your security, not an afterthought. You also want to be careful about where your chips and components are actually coming from, because a compromised supply chain is a very real risk. Regular patching goes hand in hand with this, it is one of the simplest habits you can build that makes a genuine difference. And finally, adopt a mindset of healthy scepticism. Do not automatically trust a device or system just because it looks legitimate. Verify first, trust second. These principles are straightforward, but consistently applying them is what keeps you genuinely protected."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "IT professionals, network administrators, cybersecurity analysts, system administrators, technology managers, procurement specialists, risk management professionals",
+  "Team or Dept this is for": "IT, Cybersecurity, Operations, Risk Management, Technology, Procurement"
+}

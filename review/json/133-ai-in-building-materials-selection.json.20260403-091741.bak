@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Building Materials Selection",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Risks in durability, compliance, and environmental suitability.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or building materials concepts is helpful, though no prior experience with artificial intelligence is required to follow this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI tools in building materials selection, including concerns around durability, regulatory compliance, and environmental suitability. You will also be able to apply practical frameworks to evaluate AI-generated recommendations critically, and explain how to integrate these insights responsibly into real-world construction and infrastructure projects.",
+  "lessons": [
+    {
+      "lesson title": "AI in Building Materials Selection",
+      "order": 1,
+      "Description": "This lesson introduces how artificial intelligence is being used to support building materials selection, with a focus on the key risks that professionals need to understand. You will explore how AI tools can help assess the durability of materials, check compliance with building regulations, and evaluate environmental suitability for different project contexts. We will also look at where AI can fall short, including the limitations of data quality, the risk of over-reliance on automated recommendations, and the importance of professional judgement. By the end of this lesson, you will have a clearer understanding of how to use AI responsibly as part of your materials selection process. No prior experience with AI is required, and all concepts are explained in plain, practical terms.",
+      "status": "draft",
+      "content": "Risks in durability, compliance, and environmental suitability.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Materials Selection",
+          "subtitle": "Smarter Choices, Fewer Costly Mistakes",
+          "slidecontent": "• Building materials choices carry real consequences for safety, cost, and longevity\n• AI tools now help professionals evaluate options faster and with greater accuracy\n• Poor selections risk compliance failures, premature deterioration, or environmental damage\n• Mistakes are expensive\n• This lesson introduces how AI supports smarter, evidence-based material decisions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks in Materials Selection",
+          "subtitle": "Avoiding Costly Errors in Material Choice",
+          "slidecontent": "• Choosing the wrong material can lead to structural failure, costly repairs, or full replacement\n• Durability risks arise when materials are poorly matched to their environment\n• Compliance failures\n• Environmental factors like moisture, temperature, and UV exposure accelerate material degradation\n• Overlooking local building regulations can result in project delays or legal penalties"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Durability and Compliance Risks",
+          "subtitle": "Where Gaps in Data Create Liability",
+          "slidecontent": "• Missing data causes compliance failures\n• Durability gaps increase liability\n• Incomplete specs risk rejection\n• Poor data, costly mistakes\n• Gaps hide environmental risks"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Durability and Compliance Risks",
+          "subtitle": "Where Mistakes Carry Lasting Consequences",
+          "slidecontent": "• Wrong material choices can cause structural failures that last decades\n• Compliance errors may trigger costly retrofits or legal liability\n• Some materials degrade faster in specific climates or exposure conditions\n• Regulations vary by region\n• AI tools trained on outdated data may miss recent code changes\n• Small specification errors compound over a building's entire lifespan"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Compliance Risks and Limitations",
+          "subtitle": "Where AI Advice May Fall Short",
+          "slidecontent": "• AI misses local building codes\n• Regulations change frequently\n• No liability, just suggestions\n• Overlooks site-specific conditions\n• Always verify with professionals"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Compliance Risks and Regulatory Gaps",
+          "subtitle": "Where AI Misses the Mark on Rules",
+          "slidecontent": "• AI misses local building codes\n• Regulations change frequently\n• AI training data lags behind\n• No automatic compliance checks\n• Liability stays with you"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risk With AI",
+          "subtitle": "Reducing Errors Before They Cost More",
+          "slidecontent": "• Flags durability risks early\n• Checks compliance automatically\n• Reduces costly specification errors\n• Spots environmental mismatches fast\n• Learns from past project data"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for confident AI use",
+          "slidecontent": "• AI tools can support materials selection but must never replace professional judgement on compliance and safety\n• Always verify AI-generated recommendations against current British Standards and local building regulations\n• Durability and environmental suitability require site-specific knowledge that AI alone cannot provide\n• Cross-check outputs with suppliers, engineers, or certified specialists\n• Document every AI-assisted decision for audit and accountability purposes\n• As a next step, identify one materials decision in your current project where you could trial an AI tool alongside your usual verification process"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI in building materials selection. Every time a professional specifies a material, whether it is structural steel, insulation, cladding, or anything else, that decision carries real weight. Get it wrong, and you could be looking at compliance failures, materials that deteriorate far sooner than expected, or serious environmental consequences. And of course, putting things right costs money, often a great deal of it. The good news is that AI tools are now genuinely helping professionals make better, faster, more evidence-based choices. Rather than relying solely on experience or manually sifting through data sheets and regulations, AI can evaluate options quickly and flag potential issues before they become expensive problems. Throughout this lesson, we will explore how these tools work in practice and how you can start applying them to your own projects. So let us get into it."
+        },
+        {
+          "number": 2,
+          "script": "Before we look at how AI can help, it's worth understanding why getting materials selection right matters so much in the first place. The consequences of a poor choice can be serious. At best, you're looking at expensive repairs or replacements. At worst, you risk structural failure. A big part of the problem is matching materials to their environment. If a material isn't suited to the conditions it will face, whether that's moisture, extreme temperatures, or prolonged UV exposure, it will deteriorate far more quickly than expected. Then there's the regulatory side of things. Building regulations exist for good reason, and overlooking local compliance requirements can bring a project to a halt, or even result in legal penalties. So there are real risks here, both technical and administrative. The good news is that AI tools are increasingly being used to help professionals navigate these challenges more confidently and accurately. That's exactly what we'll be exploring throughout this course."
+        },
+        {
+          "number": 3,
+          "script": "When we talk about durability and compliance risks, we're really talking about what happens when the information behind a materials decision is incomplete. If a specification is missing key data, whether that's a performance rating, a certification, or an environmental property, it can fail a compliance check entirely, and that means delays, rejections, and potentially significant costs. Durability is another area where gaps cause real problems. If you don't have reliable long-term performance data for a material, you're essentially guessing how it will hold up over time, and that exposes everyone involved to liability. There's also an environmental dimension here that's easy to overlook. Incomplete data can mask risks around things like embodied carbon or hazardous substances, which are increasingly scrutinised on modern projects. The core message is straightforward: poor data doesn't just slow things down, it creates genuine legal and financial exposure. Getting the data right from the start is not optional, it's essential."
+        },
+        {
+          "number": 4,
+          "script": "Now, why does all of this matter so much? Because in construction, a poor decision doesn't just cause a short-term headache. It can create problems that persist for the entire life of a building, sometimes decades. If you specify the wrong material, you might be looking at structural issues, expensive retrofits, or even legal liability down the line. And it gets more complicated because materials behave differently depending on climate and exposure. Something that performs brilliantly in a dry inland environment might degrade quickly near a coastal site. On top of that, building regulations vary from region to region, and they change over time. This is where AI tools can actually introduce risk if they're not kept up to date. A model trained on older data might not reflect the latest code requirements. So the message here is simple: small errors in specification don't stay small. They compound over time, and the consequences can be significant. That's why getting materials selection right from the start is so important."
+        },
+        {
+          "number": 5,
+          "script": "Now, as useful as AI can be for materials selection, it's really important that we understand where it falls short, particularly around compliance. AI tools are trained on general data, which means they often don't account for your specific local building regulations or planning requirements. And here's the thing: those regulations change regularly, so even if an AI was accurate at some point, it may simply be out of date. It's also worth remembering that AI gives you suggestions, not professional advice. There's no liability attached to what it tells you, so if something goes wrong, you can't hold the tool responsible. AI also tends to overlook the unique conditions of your actual site, things like soil type, local climate, or nearby structures. So the golden rule here is straightforward: always treat AI recommendations as a starting point, and verify everything with a qualified professional before making any final decisions. That step is non-negotiable."
+        },
+        {
+          "number": 6,
+          "script": "Now, this is where things get really important, so pay close attention. One of the biggest limitations of AI tools in materials selection is around compliance and regulations. AI systems are trained on data from a particular point in time, which means they can easily miss recent changes to building codes or local planning requirements. And building regulations do change, sometimes quite frequently. So if you ask an AI to recommend a material, it might give you something that was perfectly acceptable two years ago but no longer meets current standards. On top of that, AI tools do not automatically cross-check their suggestions against your specific local authority requirements. They simply are not built to do that. And here is the critical point: if something goes wrong on your project because a material does not comply with regulations, the responsibility sits with you, not with the AI tool. So always treat AI recommendations as a starting point, and verify compliance yourself or with a qualified professional."
+        },
+        {
+          "number": 7,
+          "script": "One of the most valuable things AI brings to materials selection is the ability to catch problems before they become expensive mistakes. Rather than waiting until a material fails on site or a specification gets rejected, AI tools can flag potential durability issues right at the start of the process. They can automatically cross-check your choices against current building regulations and standards, so compliance is built into the workflow rather than bolted on at the end. This dramatically reduces the kind of specification errors that can send costs spiralling. AI can also identify when a material simply is not suited to its environment, whether that is exposure to moisture, temperature extremes, or local conditions, and it does this quickly. Perhaps most impressively, these systems learn from previous projects, meaning the more they are used, the smarter and more reliable they become. Essentially, AI acts as a very thorough second pair of eyes, working quietly in the background to protect your project."
+        },
+        {
+          "number": 8,
+          "script": "So let us pull everything together from this lesson. The most important thing to hold onto is this: AI is a genuinely useful support tool, but it does not replace your professional judgement, especially when compliance and safety are involved. Whatever an AI tool suggests, you still need to verify it against current British Standards and your local building regulations. And remember, AI cannot know your specific site conditions, so durability and environmental suitability always need that human, on-the-ground knowledge. It is also good practice to cross-check any AI output with your suppliers, engineers, or relevant specialists before acting on it. And please do document your AI-assisted decisions, because that audit trail really matters for accountability. Finally, here is a practical next step for you: look at your current project and identify just one materials decision where you could trial an AI tool alongside your normal verification process. Start small, stay curious, and build your confidence from there."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Construction managers, project managers, architects, civil engineers, building engineers, facilities managers, construction supervisors, general contractors, real estate developers, building inspectors",
+  "Team or Dept this is for": "Construction, Engineering, Operations, Project Management, Facilities Management, Real Estate Development"
+}

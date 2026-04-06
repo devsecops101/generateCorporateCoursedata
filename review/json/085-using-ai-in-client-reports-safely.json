@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Why This Matters to Clients",
-          "subtitle": "Protecting trust, accuracy, and confidentiality always.",
-          "slidecontent": "• Clients trust you with sensitive data, financial details, and personal information\n• AI tools can leak that data if used carelessly\n• Accuracy matters\n• A single hallucinated figure in a report can damage your credibility and harm a client's decisions\n• Confidentiality breaches can have legal and regulatory consequences\n• Getting this right protects both your clients and your professional reputation"
+          "slidetitle": "Why Client Data Protection Matters",
+          "subtitle": "Trust, compliance, and professional reputation at stake",
+          "slidecontent": "• Clients trust you with sensitive financial details and personal information\n• Confidentiality breaches can have legal and regulatory consequences\n• Professional reputation depends on maintaining client trust\n• Single data leak can damage long-term client relationships\n• Getting this right protects both clients and your practice"
         },
         {
           "number": 3,
-          "slidetitle": "Risks of AI-Generated Content",
-          "subtitle": "What can go wrong, and why.",
-          "slidecontent": "• AI can hallucinate facts\n• Client data may leak\n• Outputs lack source checks\n• Errors look convincing\n• Confidentiality easily breached"
+          "slidetitle": "AI Hallucination Risks",
+          "subtitle": "When AI makes up convincing-sounding facts",
+          "slidecontent": "• AI can fabricate statistics, citations, and facts with complete confidence\n• Hallucinated information looks polished and professional\n• No obvious warning signs when AI generates false content\n• Made-up figures can mislead client decisions\n• Outputs lack built-in source verification"
         },
         {
           "number": 4,
-          "slidetitle": "Anonymising Data Before Input",
-          "subtitle": "Strip identifiers before sharing data.",
-          "slidecontent": "• Replace client names with generic labels like \"Client A\" before pasting any data into an AI tool\n• Remove email addresses, phone numbers, and account references\n• Swap out job titles or team names that could identify individuals\n• Anonymise even seemingly minor details\n• Check for indirect identifiers, such as unique project names or niche industry descriptions that narrow down who the client is\n• Keep a mapping document so you can re-insert the correct details accurately after generating the content"
+          "slidetitle": "Data Anonymisation Process",
+          "subtitle": "Step-by-step guide to protecting client identities",
+          "slidecontent": "• Replace client names with generic labels like 'Client A'\n• Remove email addresses, phone numbers, and account references\n• Swap out job titles or team names that could identify individuals\n• Check for indirect identifiers like unique project names\n• Keep a private mapping document to re-insert correct details later"
         },
         {
           "number": 5,
-          "slidetitle": "Anonymising Data Before Input",
-          "subtitle": "Protect clients before sharing any data.",
-          "slidecontent": "• Remove all client names first\n• Replace numbers with placeholders\n• Delete identifying job titles\n• Anonymise locations and dates\n• Review before every paste"
+          "slidetitle": "Before Every AI Input",
+          "subtitle": "Build the habit of pre-screening data",
+          "slidecontent": "• Review content before every paste operation\n• Replace sensitive numbers with placeholders like 'X' or 'six-figure sum'\n• Anonymise locations and dates that could trace back to clients\n• Consider whether combined details make data traceable\n• Make this review automatic, not just a first-time check"
         },
         {
           "number": 6,
-          "slidetitle": "Reviewing AI Output for Accuracy",
-          "subtitle": "Never accept AI output at face value.",
-          "slidecontent": "• Always verify every fact\n• Check names and numbers\n• Spot confident-sounding errors\n• Cross-reference your own notes\n• Trust your expertise first"
+          "slidetitle": "Fact-Checking AI Output",
+          "subtitle": "Your expertise trumps AI confidence",
+          "slidecontent": "• Verify every factual claim against your source material\n• Double-check names, dates, and numbers that clients will notice\n• Cross-reference AI output with your own notes and conversations\n• Remember AI has no knowledge of your specific client relationship\n• Use AI output as starting point, not finished product"
         },
         {
           "number": 7,
-          "slidetitle": "Reviewing AI Output Before Submission",
-          "subtitle": "Never submit without a final check.",
-          "slidecontent": "• Always read the full AI output before copying anything into a client document\n• Check every fact, figure, and name against your original source material\n• Spot-check tone\n• Look for hallucinated details such as invented statistics, fake citations, or plausible-sounding but incorrect claims\n• Confirm no client data from other projects has appeared in the response\n• A second pair of eyes helps catch what a tired reviewer misses"
+          "slidetitle": "Final Review Before Client Submission",
+          "subtitle": "Last line of defence against errors",
+          "slidecontent": "• Read complete AI output before copying into client documents\n• Watch for cross-contamination from other client projects\n• Verify tone matches your firm's voice and standards\n• Get a colleague to review when possible for fresh perspective\n• Check for invented statistics or fake citations"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Keep these principles close at hand.",
-          "slidecontent": "• Never paste real client data\n• Always verify AI outputs\n• Anonymise before you input\n• You own the final check\n• Review, edit, then submit"
+          "slidetitle": "Essential Safeguards Summary",
+          "subtitle": "Your responsibility checklist",
+          "slidecontent": "• Always anonymise before inputting client data\n• Never accept AI outputs without verification\n• You own the final accuracy check, not the AI\n• Review and edit every AI response thoroughly\n• Maintain these habits consistently across all projects"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on using AI in client reports safely. AI tools are becoming really popular for speeding up report writing, and it's easy to see why. They can save you a lot of time. But there are some genuine risks that are worth understanding before you dive in. Two of the biggest concerns are data privacy and accuracy. If you paste client information into a public AI tool, that data could be exposed in ways you might not expect. And if you rely on AI output without checking it carefully, mistakes can slip through and end up in front of your clients. Not ideal. So in this lesson, we're going to walk through those risks clearly and, importantly, show you how to avoid them. The good news is you do not need any previous experience with AI to follow along. We're starting from the beginning and keeping things practical throughout. Let's get started."
+          "script": "Welcome to this lesson on using AI in client reports safely. AI tools are becoming really popular for speeding up report writing, and it's easy to see why. They can save you a lot of time. But there are some genuine risks that are worth understanding before you dive in. Two of the biggest concerns are data privacy and accuracy. If you paste client information into a public AI tool, that data could be exposed in ways you might not expect. And if you rely on AI output without checking it carefully, mistakes can slip through and end up in front of your clients. Not ideal. So in this lesson, we're going to walk through those risks clearly and, importantly, show you how to avoid them. The good news is you do not need any previous experience with AI to follow along. We're starting from the beginning and keeping things practical throughout."
         },
         {
           "number": 2,
-          "script": "So before we dive into the how, let's talk about the why, because this really does matter. When a client shares their financial details, personal circumstances, or sensitive business information with you, they're placing a huge amount of trust in you. And that trust is fragile. If you use an AI tool carelessly, that data could end up somewhere it absolutely should not be. On top of that, AI tools can sometimes generate information that simply isn't true. It might look convincing, but if a fabricated figure makes its way into a client report, it could seriously damage your credibility and, more importantly, lead your client to make a poor decision. There are also real legal and regulatory risks around confidentiality that you need to be aware of. The good news is that with a bit of knowledge and care, you can use AI effectively and responsibly. That's exactly what this course is here to help you do."
+          "script": "Let's start by understanding why data protection matters so much in our industry. When clients share their financial details, personal circumstances, or sensitive business information with you, they're placing enormous trust in you. That trust forms the foundation of your professional relationship. But if client data ends up in the wrong hands through careless AI use, you're not just dealing with an embarrassed client. You could face serious legal and regulatory consequences, depending on your jurisdiction and the type of data involved. Your professional reputation, which takes years to build, can be damaged very quickly. And in competitive markets, clients have choices. A single breach of trust can cost you not just that client, but referrals and future business as well."
         },
         {
           "number": 3,
-          "script": "So before we look at how to use AI well in client reports, we need to be honest about what can go wrong. And there are a few things worth being aware of. First, AI can simply make things up. It might state a statistic or a fact with complete confidence, when actually that information is entirely fabricated. This is sometimes called hallucination, and it is more common than you might expect. On top of that, if you are pasting client information into an AI tool, there is a real risk that sensitive data could be exposed or stored in ways you have not agreed to. And here is the part that makes this particularly tricky: the output usually looks polished and professional. There are no obvious warning signs. Errors do not announce themselves. So without careful checking, a convincing-sounding mistake could end up in a client report, potentially breaching confidentiality or simply giving your client wrong information. That is why understanding these risks is so important."
+          "script": "Now let's talk about a specific AI risk that catches many people off guard: hallucination. This is when AI generates information that's completely made up but sounds entirely convincing. The AI might confidently cite a regulation that doesn't exist, quote statistics from a study that was never conducted, or reference a company policy that's pure fiction. What makes this particularly dangerous is how professional and authoritative these fabrications sound. There are no red flags, no obvious signs that something is wrong. The formatting looks right, the language flows well, and everything appears credible. But if those made-up facts end up in your client report, they could lead to poor business decisions or make you look incompetent when the client tries to follow up on the information."
         },
         {
           "number": 4,
-          "script": "Before you paste anything into an AI tool, you need to strip out anything that could identify your client. That means the obvious stuff like names, email addresses, phone numbers, and account references, but also the less obvious details like job titles, team names, or a unique project name that someone could trace back to a specific person or organisation. Even small details can give things away when you put them together, so it is worth being thorough. Now, I know what you might be thinking: if I remove all of that, how do I put the right details back in afterwards? The answer is simple. Keep a private mapping document, something just for your own reference, that records what you replaced and with what. So \"Client A\" maps back to the actual client name, and so on. That way you can swap everything back in accurately once the AI has done its job, and your final report still reads correctly."
+          "script": "So how do you protect client data while still getting the benefits of AI? The answer is systematic anonymisation before you input anything. Start with the obvious identifiers: swap out the client's actual name for something generic like 'Client A' or 'the company.' Remove email addresses, phone numbers, account numbers, anything that directly identifies the client. But don't stop there. Job titles can be identifying, especially in smaller organisations, so replace 'Chief Technology Officer' with something broader like 'senior executive.' Unique project names, specific locations, even particular dates can all serve as identifying details when combined. Keep a private mapping document that records what you've replaced and with what, so you can accurately restore the real details once the AI has generated your content."
         },
         {
           "number": 5,
-          "script": "Before you paste anything into an AI tool, you need to strip out anything that could identify your client. That means names go first, obviously, but it does not stop there. Specific figures, job titles, locations, even dates can all act as identifying details, especially if someone were to piece them together. So replace sensitive numbers with something generic like \"X\" or \"a six-figure sum,\" swap out job titles for broader descriptions, and think carefully about whether a location or timeframe makes the data traceable back to a real person or organisation. The habit I would encourage you to build is a quick review every single time before you hit paste. Not just the first time you use a tool, but every time. It only takes a moment, and it is that moment that keeps you on the right side of your professional obligations and, more importantly, keeps your clients safe."
+          "script": "Here's the habit that will serve you well: never paste anything into an AI tool without a quick review first. I mean every single time, not just when you're getting started with a new tool. Look for client names, obviously, but also for specific numbers that might identify a transaction or account. Replace sensitive figures with placeholders like 'a significant amount' or 'approximately X dollars.' Think about whether location details or timeframes might make the client identifiable to someone who knows the industry. Even seemingly harmless details can combine to create a fingerprint that traces back to a real person or organisation. This review should become automatic, like checking your mirrors before changing lanes. It takes seconds but prevents major problems."
         },
         {
           "number": 6,
-          "script": "So you've got your AI-generated draft in front of you. What do you do next? The most important habit you can build is this: never just accept what the AI has written without checking it first. AI tools can sound incredibly confident, even when they're completely wrong. They might get a client's name slightly off, misquote a figure, or state something as fact that simply isn't accurate. So go through the output carefully. Verify every factual claim. Double-check names, dates, and numbers in particular, because those are the details that clients will notice immediately if they're wrong. And here's something worth remembering: AI has no knowledge of your specific client relationship. Your own notes, your memory of conversations, your professional judgement, those are your most reliable sources. Use the AI output as a starting point, not a finished product. Your expertise is what makes the report trustworthy, so always let that lead the way."
+          "script": "Once you have AI-generated content, your real work begins: verification. AI can sound incredibly confident while being completely wrong, so you need to check every factual claim against your source material. Pay special attention to names, dates, and numbers because clients will spot those errors immediately. Remember that AI has no access to your specific client conversations, your case files, or your professional experience with this particular situation. That means your own notes and memory are far more reliable sources than whatever the AI has generated. Use the AI output as a helpful starting point for structure and language, but always let your professional expertise guide the accuracy and relevance of the final content."
         },
         {
           "number": 7,
-          "script": "Before you copy a single word of AI output into a client document, stop and read the whole thing through. I mean every sentence. Check any facts, figures, or names against your original source material, because AI can sound very confident while being completely wrong. This is sometimes called hallucination, where the model invents statistics, makes up citations, or produces claims that sound plausible but simply are not true. While you are reading, also pay attention to tone. Does it sound like your firm, or does it feel a bit off? And here is something people often overlook: make sure no details from a different client project have crept into the response, especially if you have been using the same tool across multiple pieces of work. Finally, if you can, ask a colleague to give it a quick read as well. A fresh pair of eyes will almost always catch something that a tired reviewer misses. Never submit without that final check."
+          "script": "Before you copy any AI content into a client document, stop and read everything through completely. This isn't just about checking facts, though that's crucial. You're also watching for tone and voice consistency with your firm's standards, and you're making sure no details from other client projects have somehow appeared in this response. This cross-contamination can happen if you're using the same AI tool across multiple projects. Look out for invented statistics, made-up citations, or claims that sound plausible but don't match your experience. If possible, get a colleague to review the content as well. Fresh eyes often catch errors that you might miss when you're too familiar with the material."
         },
         {
           "number": 8,
-          "script": "So before we wrap up this lesson, let's bring everything together into a handful of principles you'll want to keep in mind every time you use AI in your reporting work. First and most importantly, never drop real client information directly into an AI tool. Always anonymise it beforehand, swapping out names, addresses, or any identifying details. Once you've got a response back from the AI, don't just accept it at face value. Read it carefully, because AI can get things wrong, and in a professional report, accuracy really matters. It's also worth remembering that the responsibility sits with you. The AI is a helper, not the author. You are the one signing off on that document, so you need to own the final check. That means reviewing what the AI has produced, editing it to match your voice and the facts of the case, and only then submitting it. Keep those habits consistent, and you'll use AI confidently and responsibly."
+          "script": "Let's wrap up with the core principles that should guide every interaction you have with AI in your client work. First, always anonymise client data before inputting anything into an AI system. Make this non-negotiable. Second, never accept AI outputs at face value – your verification is essential. Third, remember that you, not the AI, are responsible for the accuracy and appropriateness of the final document that reaches your client. The AI is a tool to help you work faster, but you remain the professional who signs off on the quality and accuracy. Finally, make these safeguards consistent habits, not occasional practices. When you maintain these standards consistently, you can leverage AI's benefits while protecting both your clients and your professional reputation."
         }
       ]
     }

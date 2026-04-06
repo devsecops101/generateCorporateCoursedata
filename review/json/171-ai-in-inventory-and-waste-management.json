@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "When Predictions Miss the Mark",
-          "subtitle": "When forecasts fall short of reality",
-          "slidecontent": "• Forecasts sometimes get it wrong\n• Stock runs out unexpectedly\n• Waste levels spike suddenly\n• Operations grind to a halt\n• Real costs follow quickly"
+          "slidetitle": "When AI Predictions Fail",
+          "subtitle": "Understanding the reality of forecasting errors",
+          "slidecontent": "• AI systems are powerful but not infallible\n• Prediction errors happen even with sophisticated technology\n• Consequences ripple through operations quickly\n• Real costs follow failed forecasts\n• Understanding failure prepares better responses"
         },
         {
           "number": 2,
-          "slidetitle": "When Predictions Go Wrong",
-          "subtitle": "The cost of inaccurate forecasting",
-          "slidecontent": "• Overstocked shelves tying up cash that could be used elsewhere\n• Stockouts leaving customers empty-handed\n• Expired or spoiled goods written off as a direct loss\n• Knock-on delays across the entire supply chain\n• Poor forecasting quietly eroding profit margins over time"
+          "slidetitle": "The Hidden Cost of Poor Forecasting",
+          "subtitle": "How inaccurate predictions drain profitability",
+          "slidecontent": "• Cash tied up in overstocked inventory\n• Lost revenue from stockouts\n• Direct losses from expired goods\n• Supply chain delays cascade downstream\n• Profit margins erode silently over time"
         },
         {
           "number": 3,
-          "slidetitle": "When Forecasts Miss the Mark",
-          "subtitle": "The cost of getting it wrong.",
-          "slidecontent": "• Overestimating demand leads to excess stock, tying up cash and warehouse space\n• Underestimating causes stockouts and lost sales\n• Spoilage and waste rise sharply when perishable goods are over-ordered\n• Reputational damage when customers face empty shelves repeatedly\n• Small forecasting errors compound quickly across large product ranges"
+          "slidetitle": "Scale Amplifies Forecasting Impact",
+          "subtitle": "Why small errors become big problems",
+          "slidecontent": "• Minor errors multiply across product ranges\n• Hundreds of SKUs mean compounding mistakes\n• Volume amplifies financial consequences\n• Large operations face exponential risk\n• System-wide failures start with small inaccuracies"
         },
         {
           "number": 4,
-          "slidetitle": "When Forecasts Miss the Mark",
-          "subtitle": "The cost of getting it wrong",
-          "slidecontent": "• Stock runs out unexpectedly\n• Shelves overflow with surplus\n• Waste costs mount quickly\n• Customers leave disappointed\n• Profits shrink fast"
+          "slidetitle": "Operational Disruption Patterns",
+          "subtitle": "How forecasting failures interrupt daily operations",
+          "slidecontent": "• Emergency reordering disrupts planned workflows\n• Staff scramble to manage unexpected shortages\n• Storage capacity overwhelmed by surplus\n• Customer service handles frustrated complaints\n• Normal operations halt for crisis management"
         },
         {
           "number": 5,
-          "slidetitle": "When Forecasts Miss the Mark",
-          "subtitle": "The cost of getting it wrong",
-          "slidecontent": "• Overestimating demand leads to excess stock, tying up cash and storage space\n• Spoilage and write-offs follow\n• Underestimating demand causes stockouts, lost sales, and frustrated customers\n• Both errors damage supplier relationships and operational trust\n• Small forecasting errors compound quickly across large product ranges\n• The financial and reputational costs add up faster than most teams expect"
+          "slidetitle": "Relationship Damage from Forecasting Errors",
+          "subtitle": "Impact on suppliers and business partnerships",
+          "slidecontent": "• Inconsistent ordering strains supplier relationships\n• Last-minute changes increase procurement costs\n• Partners lose confidence in planning reliability\n• Supply chain trust erodes over time\n• Collaborative planning becomes more difficult"
         },
         {
           "number": 6,
-          "slidetitle": "When Forecasts Miss the Mark",
-          "subtitle": "The cost of inaccurate predictions",
-          "slidecontent": "• Stock runs out unexpectedly\n• Shelves overflow with surplus\n• Waste increases sharply\n• Costs spiral quickly\n• Customer trust erodes"
+          "slidetitle": "Customer Trust and Market Position",
+          "subtitle": "How stockouts and service gaps affect reputation",
+          "slidecontent": "• Empty shelves drive customers to competitors\n• Repeated disappointments damage loyalty\n• Word-of-mouth spreads negative experiences\n• Market share shifts to more reliable providers\n• Recovery takes longer than initial damage"
         },
         {
           "number": 7,
-          "slidetitle": "When Forecasts Miss the Mark",
-          "subtitle": "Exploring the cost of prediction errors",
-          "slidecontent": "• Stock runs out unexpectedly\n• Shelves overflow with surplus\n• Waste costs rise sharply\n• Customer trust quickly erodes\n• Profits shrink noticeably"
+          "slidetitle": "Financial Impact Assessment",
+          "subtitle": "Quantifying the true cost of prediction failures",
+          "slidecontent": "• Write-offs from unsold perishable inventory\n• Premium costs for emergency restocking\n• Lost sales from unavailable products\n• Wasted labor managing crisis situations\n• Opportunity cost of misallocated resources"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for smarter AI decisions",
-          "slidecontent": "• AI predictions can and do fail, so always have a backup plan ready\n• Errors in forecasting can ripple quickly through your entire supply chain\n• Monitor outputs regularly\n• Understanding why a prediction failed matters as much as fixing the immediate problem\n• Small data quality issues often cause the biggest operational disruptions\n• Start by reviewing one process where AI supports decisions and test its accuracy this week"
+          "slidetitle": "Building Resilience Against AI Failures",
+          "subtitle": "Practical strategies for managing prediction risks",
+          "slidecontent": "• Maintain backup plans for critical inventory decisions\n• Monitor AI outputs regularly for accuracy drift\n• Investigate root causes, not just symptoms\n• Address data quality issues proactively\n• Test one AI-supported process for accuracy this week"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Even the most sophisticated AI systems don't always get it right. Forecasting is incredibly powerful, but it's not perfect, and when a prediction misses the mark, the consequences can ripple through your entire operation surprisingly quickly. You might find that stock runs out when you least expect it, leaving customers waiting and your team scrambling. Or perhaps waste levels suddenly spike because the system didn't anticipate a shift in demand, and now you're dealing with spoilage or excess that nobody planned for. In either case, operations can slow down or even grind to a halt, and that's when the real costs start to add up. We're talking about lost sales, emergency orders, unhappy customers, and wasted resources. So in this lesson, we're going to look honestly at where AI forecasting can fall short, why it happens, and what you can do to protect your business when predictions don't quite match reality."
+          "script": "Even the most sophisticated AI systems don't always get it right. Artificial intelligence has transformed many aspects of inventory management, but it's crucial to understand that it's not perfect. When AI predictions miss the mark, the consequences can ripple through your entire operation surprisingly quickly. This lesson takes an honest look at what happens when AI forecasting falls short, why these failures occur, and what you can do to protect your business. We'll explore real-world scenarios where prediction errors have disrupted operations, and you'll learn to recognize the warning signs before problems escalate. Understanding these limitations isn't about being pessimistic—it's about being prepared."
         },
         {
           "number": 2,
-          "script": "Before we explore what AI can do, it helps to understand what poor forecasting actually costs a business. When you order too much stock, that extra inventory sits on the shelf tying up cash that could be doing something more useful elsewhere in the business. Order too little, and your customers leave empty-handed, often heading straight to a competitor. Then there is the issue of perishable goods. If products expire before they are sold, that is a direct financial loss with no way to recover it. And the problems do not stay contained. A bad forecast in one part of the supply chain can cause delays and disruption all the way down the line. What makes this particularly tricky is that none of these issues tend to announce themselves loudly. They quietly chip away at your profit margins over time. So the stakes here are very real, and that is exactly why getting forecasting right matters so much."
+          "script": "Before diving into AI solutions, it's important to understand what poor forecasting actually costs a business. When you order too much stock, that excess inventory ties up cash that could be deployed more productively elsewhere. The opportunity cost is real—that money could be improving other areas of your operation. Meanwhile, products sitting on shelves take up valuable storage space, and if they're perishable, they create direct losses through spoilage. On the flip side, underestimating demand means empty shelves and lost sales. What makes these costs particularly challenging is that they often accumulate quietly, eroding profit margins over time without dramatic announcements. This silent drain on profitability is exactly why accurate forecasting matters so much."
         },
         {
           "number": 3,
-          "script": "So we've established that forecasting matters, but what actually happens when it goes wrong? Well, the consequences fall on both sides. Order too much stock and you've got cash sitting on shelves, taking up valuable warehouse space, and if those products are perishable, you're looking at spoilage and waste on top of that. Order too little, and your shelves are empty, customers walk away disappointed, and if it keeps happening, they stop coming back altogether. That reputational damage is very real and very hard to recover from. Now, you might think a small forecasting error here and there isn't a big deal, but when you're managing hundreds or even thousands of product lines, those small errors multiply quickly and the financial impact adds up fast. This is exactly why getting forecasting right is so critical, and it's also why so many businesses are now turning to AI to help them do it better."
+          "script": "Here's something that catches many businesses off guard: even small forecasting errors can compound quickly when you're managing large product ranges. Think about a hotel restaurant managing hundreds of menu items, or a tourism operator stocking dozens of retail products. A two percent error on a single SKU might seem negligible, but multiply that across hundreds of products and the financial impact becomes significant. This scaling effect means that systems managing larger inventories face exponentially greater risk from prediction errors. The challenge isn't just getting one forecast right—it's maintaining accuracy across your entire product portfolio consistently."
         },
         {
           "number": 4,
-          "script": "So what actually happens when a forecast goes wrong? Well, the consequences tend to fall into two camps. Either you've ordered too little and suddenly find yourself with empty shelves, turning customers away who leave frustrated and quite possibly never come back. Or you've ordered too much, and now you're staring at surplus stock that's taking up space, tying up your cash, and in many cases, heading straight for the bin. Both situations are costly, and the damage adds up faster than most people expect. Wasted product means wasted money. Lost sales mean lost revenue. And when customers have a poor experience, you lose their trust as well. So poor forecasting isn't just a minor inconvenience, it genuinely eats into your profits and your reputation. This is exactly why getting inventory planning right matters so much, and it's the problem that AI is particularly well placed to help solve."
+          "script": "When AI predictions fail, the immediate operational disruption can be just as costly as the financial impact. Your planned workflows suddenly get interrupted as staff scramble to manage unexpected shortages through emergency reordering. Storage areas become overwhelmed when surplus inventory arrives that wasn't anticipated. Customer service teams find themselves fielding frustrated complaints about unavailable products. What was supposed to be a normal operating day transforms into crisis management mode. These disruptions don't just cost money—they consume management attention and employee time that should be focused on serving customers and growing the business."
         },
         {
           "number": 5,
-          "script": "So what actually happens when your forecasts are off? Well, it cuts both ways. If you overestimate demand, you end up with too much stock sitting on shelves, tying up cash you could be using elsewhere, and taking up storage space you might not have. And if that stock is perishable, you are looking at spoilage and write-offs on top of that. But underestimating is just as damaging. Run out of stock and you lose sales, disappoint customers, and risk them going elsewhere permanently. Either way, your relationships with suppliers start to suffer too, because inconsistent ordering makes you a difficult partner to work with. And here is the thing that catches a lot of teams off guard: these are not isolated mistakes. Across a large product range, even small forecasting errors stack up very quickly. The financial hit is significant, but the reputational damage, both internally and externally, can take much longer to recover from."
+          "script": "Poor forecasting doesn't just affect your internal operations—it damages the relationships that make your supply chain work. Suppliers depend on predictable ordering patterns to manage their own inventory and production schedules. When your AI system generates inconsistent forecasts, leading to erratic purchase orders and last-minute changes, suppliers start viewing you as a difficult partner. This relationship strain often translates into higher costs, reduced service priority, and less favorable terms. Over time, damaged supplier relationships can limit your flexibility and increase your vulnerability when you need supply chain support most."
         },
         {
           "number": 6,
-          "script": "So what actually happens when a forecast gets it wrong? Well, the consequences can ripple through a business very quickly. On one end, you might find that popular products simply run out, leaving customers empty-handed and frustrated. On the other end, you could end up with far too much stock sitting on shelves, taking up space and slowly losing value. And when products expire or go unsold, waste starts to climb. All of this puts real pressure on costs, because you are either scrambling to reorder urgently, often at a premium, or writing off stock that never sold. But perhaps the most damaging consequence is what happens to customer trust. If someone visits your store or website and finds the item they need is out of stock, they may simply go elsewhere, and they might not come back. So inaccurate forecasting is not just an operational headache, it genuinely affects your bottom line and your reputation."
+          "script": "Perhaps the most lasting damage from forecasting failures comes from the impact on customer trust and loyalty. When guests arrive at your hotel restaurant to find menu items unavailable, or tourists visit your shop only to discover empty shelves, they don't just experience disappointment—they lose confidence in your reliability. Customers who experience repeated stockouts often quietly shift their business to competitors who can consistently meet their needs. This customer attrition happens gradually, making it easy to overlook until the impact on revenue becomes unmistakable. Rebuilding lost customer trust takes significantly longer than the initial damage occurred."
         },
         {
           "number": 7,
-          "script": "So what actually happens when a forecast gets it wrong? Well, the consequences ripple out in several directions at once. On one hand, you might find yourself completely out of stock on a popular item, leaving customers empty-handed and frustrated. On the other hand, you could end up with far too much of something, with products piling up on shelves, taking up space, and slowly losing value. When perishable goods are involved, that surplus often ends up in the bin, and those waste costs can add up surprisingly quickly. And here is the thing about customers: once they experience a gap on the shelf or a product they needed simply is not there, their confidence in you starts to wobble. They may quietly start shopping elsewhere. All of this, the waste, the lost sales, the disappointed customers, feeds directly into your bottom line. Forecasting errors are not just operational headaches; they are genuinely expensive business problems."
+          "script": "Let's put some concrete numbers around the financial impact of prediction failures. Write-offs from unsold perishable inventory represent direct losses with no recovery possibility. Emergency restocking typically costs 15-30% more than planned purchases due to rush charges and limited supplier options. Lost sales from stockouts represent not just immediate revenue loss, but also the lifetime value of customers who don't return. Then there's the hidden cost of crisis management—the premium labor hours spent firefighting problems instead of pursuing growth opportunities. When you add up these various cost categories, the true financial impact of forecasting failures often surprises business owners."
         },
         {
           "number": 8,
-          "script": "So let us bring together the core lessons from this session. First, AI is a powerful tool, but it is not infallible. Always have a contingency plan in place, because when predictions go wrong, the effects can spread quickly across your entire supply chain. That is why regular monitoring matters so much. Do not just set your AI system running and walk away. Check in on it consistently. And when something does go wrong, take the time to understand why, not just fix the immediate issue. You will often find that the root cause is surprisingly simple, like poor quality data at the input stage. Small data problems can cause surprisingly large disruptions. Finally, here is a practical challenge for you this week. Pick just one process in your operation where AI is currently supporting decisions, and take a closer look at how accurate it actually is. That single step can teach you an enormous amount."
+          "script": "So how do you build resilience against AI prediction failures? Start with the mindset that backup plans aren't optional—they're essential business infrastructure. Monitor your AI outputs regularly rather than assuming they'll remain accurate indefinitely. When problems do occur, resist the temptation to just fix the immediate symptom. Investigate the root cause, which often traces back to data quality issues that seem minor but create major operational disruptions. Here's a practical next step: this week, select one process where AI currently supports your inventory decisions and audit its actual accuracy against real outcomes. This single analysis will teach you more about your system's reliability than months of theoretical planning."
         }
       ]
     }

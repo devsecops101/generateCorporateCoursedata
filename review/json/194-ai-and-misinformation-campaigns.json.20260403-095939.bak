@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI and Misinformation Campaigns",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "How AI amplifies fake news and viral content.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with social media platforms and a general interest in how online news and content spreads are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI technologies are used to create and amplify misinformation campaigns across publishing, advertising, and digital media. You will also be able to explain how viral fake content spreads through modern communications channels and apply practical strategies to recognise and critically evaluate AI-generated misinformation in your everyday media consumption.",
+  "lessons": [
+    {
+      "lesson title": "AI and Misinformation Campaigns",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used to create, spread, and amplify misinformation across the internet. You will learn how AI-generated content, including realistic fake images, videos, and written articles, can be produced quickly and at scale, making it increasingly difficult to distinguish fact from fiction. We will look at real-world examples of how misinformation campaigns have gone viral and the role AI tools have played in accelerating their reach. By the end of this lesson, you will have a clearer understanding of the tactics used to manipulate public opinion online and why this matters in everyday life. No prior technical knowledge is required, just a curiosity about how the digital world around you is changing.",
+      "status": "draft",
+      "content": "How AI amplifies fake news and viral content.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI and Misinformation Campaigns",
+          "subtitle": "Spotting the Threat Before It Spreads",
+          "slidecontent": "• AI spreads fake news fast\n• Misinformation reaches millions instantly\n• Anyone can be a target\n• Spotting it early matters"
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Spread of Fake News",
+          "subtitle": "How misinformation travels and goes viral",
+          "slidecontent": "• Fake news spreads fast online\n• Emotions drive viral sharing\n• Outrage travels further than facts\n• Algorithms reward sensational content\n• Repetition makes lies feel true"
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Spread of Fake News",
+          "subtitle": "How algorithms accelerate false narratives online",
+          "slidecontent": "• Social media algorithms prioritise content that triggers strong emotional reactions, such as outrage or fear\n• Fake news spreads six times faster than accurate information on major platforms\n• Engagement over accuracy\n• Repeated exposure to false claims makes them feel more credible over time\n• Automated accounts (bots) can amplify a story within minutes, long before fact-checkers respond\n• Most users share headlines without reading the full article"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting AI-Driven Fake News",
+          "subtitle": "Recognising the telltale signs and patterns",
+          "slidecontent": "• Too perfect, too polished\n• Faces blur or distort\n• No credible source listed\n• Emotional headlines, vague details\n• Reverse image search it\n• Check the posting date"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting AI-Driven Fake News",
+          "subtitle": "Clues to identify fabricated stories",
+          "slidecontent": "• Headlines designed to trigger outrage or disbelief rather than inform\n• Vague or missing author credits\n• Images that look slightly \"off,\" with blurred edges, extra fingers, or warped backgrounds\n• Publication dates that don't match the events described in the story\n• No credible sources cited\n• The same story appearing word-for-word across dozens of unrelated websites"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting AI-Driven Fake News",
+          "subtitle": "Recognising the telltale signs and patterns",
+          "slidecontent": "• Headlines designed to trigger outrage or disbelief rather than inform\n• Suspiciously polished writing with no clear author or publication date\n• Images that look almost real but have odd details (blurred hands, strange backgrounds)\n• Stories that spread fast but appear on unfamiliar or newly created websites\n• No credible sources cited\n• Multiple outlets repeating identical phrasing word for word"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Spotting AI-Driven Misinformation",
+          "subtitle": "Recognising the warning signs in content",
+          "slidecontent": "• Too perfect, no errors\n• Vague or no author\n• Emotional, urgent tone\n• Images look slightly \"off\"\n• Shares spike unusually fast"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential insights to carry forward always",
+          "slidecontent": "• AI can generate and spread convincing false content faster than humans can fact-check it\n• Emotional, outrage-driven stories are amplified by algorithms because they drive engagement\n• Deepfakes and synthetic media make it harder to trust what you see or hear\n• Always verify before sharing\n• Credible sources, reverse image searches, and fact-checking sites are your best tools\n• Building the habit of pausing before sharing is the single most effective step you can take right now"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI and Misinformation Campaigns. Over the next little while, we're going to explore one of the most pressing challenges of our digital age, and that is how artificial intelligence is being used to create and spread false information at a scale we've never seen before. We're talking about fake news, manipulated content, and misleading narratives that can reach millions of people within minutes, sometimes before anyone has had a chance to question whether any of it is actually true. And here's the thing, this isn't just a problem for politicians or celebrities or big organisations. Ordinary people, people like you and me, can find themselves caught up in a misinformation campaign without even realising it. That's exactly why this course exists. The sooner you can recognise what's happening, the better placed you are to stop it from spreading further. So let's get started and look at how we can spot the threat before it takes hold."
+        },
+        {
+          "number": 2,
+          "script": "So, let us talk about how fake news actually spreads, because it does not just drift around slowly. It moves incredibly fast, and there are some very specific reasons for that. When people see content online that triggers a strong emotional reaction, whether that is anger, fear, or outrage, they are far more likely to share it without stopping to check whether it is actually true. And the platforms themselves make this worse, because their algorithms are designed to push content that gets attention, and sensational stories get a lot of attention. So misleading content gets amplified, often reaching millions of people before anyone has had a chance to fact-check it. There is also something called the illusory truth effect, which basically means that the more we see something repeated, the more familiar it feels, and familiarity can easily be mistaken for truth. So even a complete fabrication can start to feel credible simply because we keep encountering it. That is a really important thing to understand as we move through this course."
+        },
+        {
+          "number": 3,
+          "script": "So why does fake news spread so quickly? A big part of the answer lies in how social media platforms are designed. Their algorithms are built to maximise engagement, and content that triggers strong emotions, things like outrage or fear, tends to perform extremely well. Research has shown that false information spreads roughly six times faster than accurate stories on major platforms. And here is something worth understanding: the more often we see a claim repeated, even a false one, the more believable it starts to feel. That is simply how our brains work. On top of that, automated accounts known as bots can amplify a story within minutes, long before any fact-checker has had a chance to review it. And most of us, if we are honest, have probably shared a headline without actually reading the full article. All of these factors combine to create the perfect conditions for misinformation to thrive."
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot AI-generated fake news in the wild? There are a few patterns worth keeping an eye out for. First, if something looks almost too slick and professional, that can be a warning sign. AI-generated images often have strange distortions around faces, hands, or background details, so look closely. Next, check whether there is a credible source attached. If the article or post does not tell you clearly where the information comes from, be sceptical. Emotionally charged headlines that promise shocking revelations but then deliver very little substance are another red flag. Now, two practical things you can do straight away: run a reverse image search to find out where a photo originally came from, and always check the posting date, because old stories are frequently recycled to make them feel current and relevant. None of these checks takes long, and together they give you a much clearer picture of whether something is genuine."
+        },
+        {
+          "number": 5,
+          "script": "So how do we actually spot AI-generated fake news in the wild? There are some really practical clues to look out for. First, pay attention to how a headline makes you feel. If it's designed to make you furious or completely shocked, that's often deliberate. Fabricated stories rely on strong emotional reactions to get shared quickly. Next, look for an author. If there's no name attached, or it's vague and unverifiable, that's a red flag. Check the images too. AI-generated pictures often have subtle oddities like blurred edges, distorted backgrounds, or hands with too many fingers. It sounds strange, but once you know to look, you'll notice it. Also check whether the publication date actually lines up with the events being described. And ask yourself, are there any real sources cited? Finally, if you search a phrase from the article and find it copied word-for-word across dozens of unrelated sites, you're almost certainly looking at fabricated content."
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually spot AI-generated fake news in the wild? There are some reliable warning signs to watch for. First, pay attention to how a headline makes you feel. If it's designed to make you furious or completely shocked, that's often deliberate. Genuine journalism informs; it doesn't just provoke. Next, look at the writing itself. AI-generated content can be surprisingly polished, but it often lacks a named author or a publication date, which is a red flag. Check any images carefully too. AI-generated pictures frequently have strange little errors, like distorted hands or backgrounds that don't quite make sense. Think about where you're reading the story as well. If it's spreading rapidly but only appearing on websites you've never heard of, be cautious. Finally, look for sources. Credible reporting cites them clearly. And if you notice several different websites using exactly the same wording, that's a strong sign something coordinated is going on."
+        },
+        {
+          "number": 7,
+          "script": "So how do we actually spot AI-generated misinformation in the wild? There are a few warning signs worth keeping an eye out for. First, if a piece of writing seems unusually polished, no typos, no awkward phrasing, almost too clean, that can be a red flag. Genuine human writers make small mistakes. Next, check who actually wrote it. If there is no clear author, or the attribution is vague and hard to verify, be cautious. Also pay attention to the tone. AI-driven misinformation often tries to provoke a strong emotional reaction, creating a sense of urgency or outrage to make you share before you think. With images, look closely. AI-generated visuals can appear slightly distorted, particularly around hands, teeth, or background details. And finally, if a story seems to spread extraordinarily quickly across social media, that rapid viral spike can sometimes indicate a coordinated campaign rather than organic sharing. Keep these signals in mind as your first line of defence."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. One of the most important things to understand is that AI can produce and spread false content far more quickly than any of us can check whether it's true. And because algorithms are designed to prioritise content that triggers strong emotions, misleading stories often travel furthest and fastest. Add to that the rise of deepfakes and synthetic media, and it becomes genuinely difficult to trust what you see or hear online. So what can you actually do about it? Well, the good news is that the tools are already available to you. Credible news sources, reverse image searches, and dedicated fact-checking websites are all free and accessible. But honestly, the single most powerful habit you can build right now is simply pausing before you share something. Just that one moment of hesitation can make a real difference. These are the ideas I'd encourage you to carry with you long after this course is finished."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Marketing managers, content creators, social media managers, communications specialists, journalists, editors, advertising executives, brand managers, public relations professionals, digital marketing coordinators",
+  "Team or Dept this is for": "Marketing, Communications, Public Relations, Content Strategy, Brand Management, Digital Media, Editorial"
+}

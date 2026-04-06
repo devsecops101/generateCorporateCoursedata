@@ -1,0 +1,107 @@
+{
+  "Course Title": "Embedding Sensitive Data in Models",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "How models can unintentionally memorise and expose secrets.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic understanding of machine learning concepts and familiarity with Python programming will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which sensitive data can become unintentionally embedded within machine learning models and explain the potential risks this poses to individuals and organisations. You will also apply practical strategies to recognise, prevent, and mitigate the exposure of confidential information throughout the model training and deployment process.",
+  "lessons": [
+    {
+      "lesson title": "Embedding Sensitive Data in Models",
+      "order": 1,
+      "Description": "In this lesson, you will explore how machine learning models can unintentionally absorb and later reveal sensitive information that was present in their training data. We will look at the ways that private details such as passwords, personal identifiers, and confidential records can become embedded within a model without any deliberate intention to store them. You will learn why this happens, what risks it creates for individuals and organisations, and how seemingly harmless model outputs can sometimes expose secrets that were never meant to be shared. By the end of the lesson, you will have a clearer understanding of why careful data handling before and during training is so important for protecting sensitive information.",
+      "status": "draft",
+      "content": "How models can unintentionally memorise and expose secrets.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing Sensitive Data Risks",
+          "subtitle": "When models learn more than intended.",
+          "slidecontent": "• Models memorise training data\n• Secrets can leak out\n• Real users get exposed\n• This happens unintentionally\n• The risks are serious"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Training Data and Its Risks",
+          "subtitle": "What models learn can hurt you.",
+          "slidecontent": "• Training data shapes everything a model learns and remembers\n• Sensitive information fed into a model can be recalled later, often unintentionally\n• Passwords, names, and private records are common examples of risky inputs\n• Models don't distinguish between public and confidential content\n• Even small fragments of sensitive data can resurface in unexpected outputs"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Training Data and Memorisation",
+          "subtitle": "How models learn and retain information",
+          "slidecontent": "• Models learn from training data\n• Patterns get stored internally\n• Secrets can be memorised\n• Repetition increases retention risk\n• Memorised data can leak later"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Risks of Model Memorisation",
+          "subtitle": "When models leak what they learned",
+          "slidecontent": "• Models can reproduce fragments of training data verbatim when prompted in certain ways\n• Sensitive strings like API keys or passwords are especially vulnerable\n• Repeated data memorised more reliably\n• Attackers can craft inputs designed to extract memorised content\n• Even anonymised datasets can leak identifying details through indirect outputs"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Training Data Risks Explained",
+          "subtitle": "When models learn more than intended.",
+          "slidecontent": "• Models memorise training examples\n• Secrets hide inside weights\n• Queries can extract them\n• More data, more risk\n• Leaks happen silently"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Risks of Exposed Training Data",
+          "subtitle": "What can go wrong, and why.",
+          "slidecontent": "• Secrets leak via outputs\n• Models memorise training data\n• Attackers extract private details\n• Repeated data increases risk\n• Compliance violations follow exposure"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing the Risk of Exposure",
+          "subtitle": "Practical steps to protect your data",
+          "slidecontent": "• Avoid training on data that contains real credentials, tokens, or personal identifiers\n• Scrub sensitive values before they ever reach your dataset\n• Use synthetic data where possible\n• Apply differential privacy techniques to limit how much any single example influences the model\n• Audit model outputs regularly for signs of memorised content\n• Treat data minimisation as a first principle, not an afterthought"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles to keep in mind",
+          "slidecontent": "• Models can memorise sensitive data if it appears repeatedly or in a distinctive pattern during training\n• Even well-intentioned training pipelines can accidentally bake in secrets\n• Scrubbing data before training is far more reliable than trying to fix leakage afterwards\n• Membership inference and extraction attacks are real, practical threats\n• Anonymisation alone is rarely enough\n• As a next step, audit any datasets you plan to use and remove credentials, personal details, and proprietary information before they ever reach a model"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on embedding sensitive data in models. Now, this might sound like a fairly technical topic, but the core idea is actually quite straightforward, and it matters to anyone who builds or uses machine learning systems. When you train a model on data, the model does not simply learn patterns in an abstract sense. It can actually absorb and retain specific details from that training data, including things like names, email addresses, passwords, or other private information. And here is where it gets concerning: that information can sometimes find its way back out again, through the model's outputs, in ways that were never intended. Real people's data ends up exposed, and the developers who built the system often had no idea this was happening. It is not usually the result of malicious intent; it happens because of the way these models work under the hood. So throughout this lesson, we are going to explore why this happens, and what you can do about it."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by thinking about what training data actually does. When you feed information into a model, that model learns from it, and in many cases, it retains it. The problem is that if sensitive information finds its way into that training data, such as passwords, personal names, or private records, the model can end up reproducing it later, often without anyone realising. And here is the really important point: the model has no concept of what is confidential and what is not. It simply processes what it is given. So it treats a publicly available news article in exactly the same way it treats a private medical record. What makes this even trickier is that it does not take a large amount of sensitive data to cause a problem. Even a small fragment, something that seems insignificant on its own, can resurface in the model's outputs in ways you would never expect. That is what we are going to be exploring throughout this lesson."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about how models actually learn, and why that matters for sensitive data. When you train a machine learning model, you're feeding it enormous amounts of text or other data, and the model picks up patterns from all of it. Now, here's the important bit: those patterns don't just float away after training. They get encoded into the model's internal parameters. And if your training data happened to contain something sensitive, like an API key, a password, or personal information, the model can actually memorise it. This risk gets significantly worse when the same piece of information appears multiple times in the training data. The more a model sees something repeated, the more firmly it tends to hold onto it. And the real danger is that this memorised content can surface later, when someone is simply using the model and asking it perfectly ordinary questions. So training data isn't just an input, it's a lasting influence."
+        },
+        {
+          "number": 4,
+          "script": "So we've established that models can absorb sensitive data during training, but why does that actually matter? Well, here's the concern. Under the right conditions, a model can reproduce exact fragments of text it was trained on. It doesn't just learn patterns, it can sometimes spit back the real thing. And certain types of data are particularly at risk here, things like API keys, passwords, or credentials. If those appeared in your training data, they could potentially be extracted. What makes this worse is that repetition increases the risk. The more often a piece of data appeared in training, the more reliably the model remembers it. And this isn't just theoretical. Attackers can deliberately craft prompts designed to coax that memorised content back out. Perhaps most surprisingly, even data that's been anonymised isn't necessarily safe, because a model can sometimes reveal identifying details indirectly through the way it responds. So the risks here are real and worth taking seriously."
+        },
+        {
+          "number": 5,
+          "script": "So here's where things start to get a little uncomfortable. When you train a machine learning model, it doesn't just learn general patterns, it can actually memorise specific examples from the training data. And if that data contained anything sensitive, like passwords, personal details, or private records, those secrets don't disappear. They get baked into the model's weights, hidden away but still there. The really unsettling part is that someone can query the model in a clever way and actually pull that information back out, sometimes without even realising that's what they're doing. And the more data you feed into a model, the greater the chance that something sensitive slips through. What makes this especially tricky is that there's no obvious warning sign. There's no error message, no alert. The leak happens quietly, in the background, and you might never know it occurred. That's what we're going to be exploring throughout this lesson."
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about what can actually go wrong when sensitive data ends up inside a model. The core problem is that language models have a tendency to memorise things. If private information was present in the training data, the model may reproduce it later, sometimes word for word, in response to a completely unrelated prompt. That means API keys, passwords, personal details, or confidential records could surface in the model's outputs without anyone intending it. And it's not just accidental exposure we need to worry about. Attackers can deliberately probe a model using carefully crafted prompts to extract information it shouldn't be sharing. The risk gets worse when the same sensitive data appears multiple times in training, because repetition makes memorisation far more likely. And once that data is exposed, you're not just dealing with a technical problem. You're potentially looking at serious compliance violations under regulations like GDPR. So the stakes here are genuinely high, and that's exactly why this topic matters."
+        },
+        {
+          "number": 7,
+          "script": "So, what can we actually do to reduce the risk? The good news is there are some straightforward, practical steps you can take. The most important one is to stop sensitive data from entering your training set in the first place. That means scrubbing out real passwords, tokens, and personal identifiers before your data gets anywhere near the model. Where you can, use synthetic data instead of real user data. It is often just as useful for training purposes, and far safer. You might also look into a technique called differential privacy, which limits how much influence any single example has on the model, making it much harder for that data to be reproduced later. Once your model is deployed, audit its outputs regularly and watch for anything that looks like memorised content. And underpinning all of this is a simple principle: only collect and use the data you genuinely need. Data minimisation should be your starting point, not something you think about after the fact."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The core thing to understand is that models don't just learn patterns, they can actually memorise specific pieces of information, especially if that information appears repeatedly or stands out in some way. And this can happen even when nobody intended it to. A perfectly reasonable training pipeline can quietly bake in passwords, personal details, or other sensitive data without anyone realising. What makes this tricky is that fixing the problem after the fact is genuinely difficult. Scrubbing your data before training is always the safer, more reliable approach. We've also seen that attacks like membership inference and model extraction aren't just theoretical, they're practical tools that real adversaries use. And simply anonymising your data isn't a reliable safety net on its own. So as your next step, go and audit any datasets you're planning to use. Remove credentials, personal information, and anything proprietary before it ever gets anywhere near a model."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Data scientists, ML engineers, software developers, AI researchers, data analysts, machine learning practitioners, Python developers",
+  "Team or Dept this is for": "Data Science, IT, Engineering, Research and Development, Information Security, Risk Management"
+}

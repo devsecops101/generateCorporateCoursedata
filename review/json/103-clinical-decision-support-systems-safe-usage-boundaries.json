@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "What AI cannot safely decide alone.",
+          "slidetitle": "Fundamental AI Limitations in Healthcare",
+          "subtitle": "What AI cannot safely decide alone",
           "slidecontent": "• AI tools trained on population data, not your individual patient's full context\n• Unable to account for a patient's values, fears, or personal circumstances\n• No legal or professional accountability\n• Cannot interpret ambiguous symptoms the way a clinician with physical presence can\n• Blind spots in training data mean rare or atypical presentations are often missed"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "Where data ends, judgement begins.",
-          "slidecontent": "• AI systems trained on historical data, meaning gaps and biases can go undetected\n• No awareness of the patient in front of you\n• Unable to account for sudden clinical deterioration or real-time context\n• Recommendations reflect population-level patterns, not individual circumstances\n• Local protocols, patient values, and clinical intuition remain outside AI's reach"
+          "slidetitle": "Data Quality and Bias Issues",
+          "subtitle": "When historical data fails current patients",
+          "slidecontent": "• Training data gaps and biases get embedded in AI recommendations\n• Systems struggle with underrepresented populations and conditions\n• Missing or incomplete patient records lead to flawed suggestions\n• AI cannot detect when key information is absent from the dataset\n• Population patterns may not apply to your specific patient demographics"
         },
         {
           "number": 4,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "Where data ends, wisdom begins.",
-          "slidecontent": "• AI misses patient context\n• Data gaps cause errors\n• Algorithms don't feel nuance\n• Rare cases confuse systems\n• Human judgement fills gaps"
+          "slidetitle": "Real-Time Clinical Context",
+          "subtitle": "What happens between the data points",
+          "slidecontent": "• AI cannot observe patient distress, sudden deterioration, or behavioral changes\n• No awareness of family dynamics, social circumstances, or patient fears\n• Cannot factor in clinical intuition from years of bedside experience\n• Misses subtle cues that indicate something beyond the recorded symptoms\n• Local protocols and institutional knowledge remain outside AI scope"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "When data ends, judgement begins.",
-          "slidecontent": "• AI misses local context\n• Old data, new problems\n• Rare cases confuse algorithms\n• Numbers lack patient history\n• Clinician instinct is important"
+          "slidetitle": "Complex and Rare Presentations",
+          "subtitle": "When patterns break down",
+          "slidecontent": "• Rare conditions have insufficient training examples for reliable AI guidance\n• Atypical symptom combinations confuse pattern-based algorithms\n• Multi-comorbidity cases exceed most AI training scenarios\n• Emergency situations require immediate human judgment, not delayed AI processing\n• Novel conditions or drug interactions may not exist in training data"
         },
         {
           "number": 6,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "Where data ends, clinicians begin.",
-          "slidecontent": "• AI misses patient context\n• Data gaps cause errors\n• Rare cases confuse algorithms\n• Bias hides in training data\n• Clinicians catch what AI cannot"
+          "slidetitle": "Professional Accountability Boundaries",
+          "subtitle": "Where responsibility cannot be delegated",
+          "slidecontent": "• AI carries no legal liability—you remain fully accountable for patient outcomes\n• Professional bodies expect human oversight of all clinical decisions\n• Insurance and medico-legal protection requires documented clinical reasoning\n• Patient consent involves human judgment about risks and benefits\n• Duty of care cannot be transferred to an algorithm"
         },
         {
           "number": 7,
-          "slidetitle": "Knowing When to Step In",
-          "subtitle": "Recognising the limits of AI guidance",
-          "slidecontent": "• AI misses patient context\n• Gut feeling matters\n• Escalate when uncertain\n• Trust your training first\n• Patients override algorithms"
+          "slidetitle": "When to Override AI Recommendations",
+          "subtitle": "Trusting clinical instinct over algorithms",
+          "slidecontent": "• Clinical gut feeling conflicts with AI suggestion—investigate further\n• Patient presentation doesn't match algorithmic expectations\n• High-stakes decisions require human confirmation regardless of AI confidence\n• Vulnerable populations need individualized assessment beyond AI recommendations\n• Emergency situations where human speed and adaptability are essential"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safe AI use",
-          "slidecontent": "• AI tools support decisions, they never replace clinical judgement\n• Always verify AI-generated suggestions against your own assessment and the patient in front of you\n• high risk situations (emergencies, rare conditions, vulnerable patients) require full human oversight\n• Document your reasoning, not just the AI output\n• Know your system's limits\n• As a next step, review your organisation's policy on approved clinical decision support tools and how to report concerns"
+          "slidetitle": "Safe Practice Framework",
+          "subtitle": "Implementing AI boundaries in daily practice",
+          "slidecontent": "• Always verify AI suggestions against your clinical assessment\n• Document your reasoning process, not just AI outputs\n• Maintain heightened oversight for high-risk patients and situations\n• Know your organization's CDSS policies and escalation procedures\n• Regular training on system limitations and appropriate use cases\n• Establish clear protocols for when to seek senior clinical input"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's think carefully about what AI genuinely cannot do, because this is where safe practice really begins. These tools are built on population-level data, which means they reflect patterns across thousands of patients, but they know nothing specific about the person sitting in front of you right now. They cannot factor in someone's personal values, their anxieties, or the social circumstances shaping their health. And importantly, if something goes wrong, the AI carries no professional or legal responsibility. You do. There is also something irreplaceable about physical presence. A clinician in the room picks up on things no algorithm can, subtle cues, tone, the way someone holds themselves. And finally, training data has gaps. Rare conditions, atypical presentations, underrepresented populations, these are exactly the situations where AI is most likely to let you down. Recognising these limits is not about distrusting the technology. It is about using it wisely."
+          "script": "Let's start by understanding what AI genuinely cannot do, because this is where safe practice really begins. These tools are built on population-level data, which means they reflect patterns across thousands of patients, but they know nothing specific about the person sitting in front of you right now. They cannot factor in someone's personal values, their anxieties, or the social circumstances shaping their health. And importantly, if something goes wrong, the AI carries no professional or legal responsibility. You do. There is also something irreplaceable about physical presence. A clinician in the room picks up on things no algorithm can—subtle cues, tone, the way someone holds themselves. And finally, training data has gaps. Rare conditions, atypical presentations, underrepresented populations—these are exactly the situations where AI is most likely to let you down. Recognising these limits is not about distrusting the technology. It is about using it wisely."
         },
         {
           "number": 3,
-          "script": "So, AI decision support tools can be incredibly useful, but it's really important that we understand what they cannot do. These systems learn from historical data, which means any gaps or biases in that data get baked in without anyone necessarily noticing. More importantly, the AI has no idea who is actually sitting in front of you. It cannot see that your patient is visibly distressed, that their condition has changed in the last hour, or that they have expressed very specific values about their care. The recommendations it generates are based on patterns drawn from large populations, so they may not reflect what is right for this particular person, in this particular moment. And things like your local protocols, your clinical intuition, and the nuances of a real conversation with a patient? Those remain firmly outside what AI can access. Recognising these limits is not a criticism of the technology. It is simply good clinical practice."
+          "script": "One of the most serious limitations we need to address is the quality and completeness of the data that trains these systems. Historical medical data inevitably contains gaps and biases that get embedded into AI recommendations. If certain populations were historically underrepresented in clinical studies, the AI will perform poorly for those groups today. Similarly, if key patient information is missing from the electronic record—perhaps an undocumented allergy or a medication taken years ago—the algorithm has no way of knowing what it doesn't know. It will confidently make recommendations based on incomplete information. This is particularly concerning because AI systems rarely flag their own uncertainty. They present their best guess as if it were definitive, leaving you to recognize when that guess might be dangerously wrong."
         },
         {
           "number": 4,
-          "script": "So, let us talk about something really important: what AI simply cannot do. These systems are trained on data, and data alone. They have no idea that your patient has been under enormous stress lately, or that they have a complicated family situation affecting their health. If there are gaps in the records, perhaps a missing test result or an undocumented allergy, the algorithm will work with what it has, and that can lead to errors. And here is the thing about nuance: AI does not feel it. It cannot pick up on the subtle hesitation in a patient's voice, or the clinical instinct that tells you something is not quite right. When a patient presents with a rare or unusual condition, these systems can genuinely struggle, because they simply have not seen enough examples to reason well. That is precisely where you come in. Your clinical judgement, your experience, your humanity, that is what bridges the gap between data and genuinely safe, personalised care."
+          "script": "Here's where human clinical judgment becomes irreplaceable: AI operates in a world of static data points, but real patients exist in dynamic, changing circumstances. The algorithm cannot see that your patient walked into the room looking unusually anxious, or that they mentioned their spouse is seriously ill, or that they seem confused in a way that wasn't evident in their last visit. These contextual factors can be absolutely critical to safe treatment decisions. Your clinical experience allows you to integrate information that never makes it into the formal record—the hesitation in someone's voice when they say they're taking their medication, or the family member who quietly expresses concern about cognitive changes. AI systems also cannot adapt to your local environment: the particular challenges your patient population faces, the resources available in your setting, or the cultural factors that influence how patients experience and express illness."
         },
         {
           "number": 5,
-          "script": "So we've seen what AI can do, but now let's be honest about where it falls short. Even the most sophisticated clinical decision support system has real limitations. For a start, it doesn't know your hospital, your local population, or the particular pressures your team is facing today. It's also working from historical data, which means it can struggle when new conditions or unusual presentations come along that simply weren't in the training set. Rare cases are especially tricky, because algorithms are built on patterns, and if a pattern barely exists in the data, the system has very little to go on. And here's something worth remembering: a set of numbers on a screen tells you nothing about who that patient actually is, their history, their values, their circumstances. That's where you come in. Clinical judgement, experience, and instinct remain absolutely essential. AI is a tool to support your thinking, not to replace it."
+          "script": "AI systems excel with common conditions that appear frequently in their training data, but they struggle significantly with rare diseases and atypical presentations. When a patient presents with an unusual combination of symptoms, or a rare condition that affects only a few thousand people worldwide, the algorithm simply hasn't seen enough examples to make reliable recommendations. This creates a dangerous situation where AI appears most confident in exactly the scenarios where it should be most cautious. Complex patients with multiple comorbidities also challenge these systems, as the interactions between different conditions and treatments can create scenarios that weren't adequately represented in the training data. Emergency situations present another critical limitation: when rapid clinical decisions are needed, AI processing delays can be life-threatening, and the dynamic nature of emergencies requires human adaptability that algorithms cannot match."
         },
         {
           "number": 6,
-          "script": "So we've seen what AI can do, but now let's be honest about what it cannot do. AI systems are only as good as the data they've been trained on, and that data will always have gaps. A patient might have a rare condition the algorithm has simply never encountered before, or there might be missing test results that lead the system down the wrong path entirely. There's also the issue of bias. If the training data over-represents certain groups of patients, the AI may perform poorly for others, and that's a genuine patient safety concern. But perhaps the biggest limitation is context. AI doesn't know that your patient is a carer for three children, or that they've just lost their job, or that they've mentioned something quietly in the corridor that never made it into the notes. That human understanding is yours, not the machine's. The subtitle of this slide says it well: where data ends, clinicians begin."
+          "script": "It's crucial to remember that using AI tools does not transfer your professional responsibility to the machine. You remain fully accountable for every clinical decision, legally and professionally. Medical councils and regulatory bodies expect you to exercise independent clinical judgment, regardless of what technology suggests. Your professional indemnity insurance requires you to document your own reasoning process, not simply to follow algorithmic recommendations. When obtaining patient consent, you must be able to explain risks and benefits based on your clinical assessment—you cannot delegate this responsibility to an AI system. The duty of care you owe to each patient is fundamentally human and cannot be transferred to an algorithm. This means that every AI recommendation must be filtered through your professional judgment, with clear documentation of why you accepted or rejected the system's suggestions."
         },
         {
           "number": 7,
-          "script": "So, we've talked about what AI can do, but now let's focus on something just as important: knowing when to step back from what it's telling you. AI systems are powerful, but they don't know your patient the way you do. They haven't sat with them, heard the worry in their voice, or noticed that something just seems off today. That clinical instinct you've built through your training? It genuinely matters. If something doesn't feel right, don't dismiss that feeling simply because an algorithm is pointing in a different direction. And if you're ever uncertain, the right move is always to escalate, whether that's checking with a senior colleague or pausing before acting. Think of AI guidance as a useful prompt, not the final word. Your patient, their individual circumstances, their values, their presentation in front of you right now, all of that takes priority over any automated recommendation. You are still the clinician. Own that responsibility."
+          "script": "Learning to recognize when to override AI recommendations is a critical skill for safe practice. If your clinical instinct tells you something is wrong, don't dismiss that feeling simply because an algorithm suggests otherwise. Years of clinical experience have taught you to recognize patterns and warning signs that may not be captured in any dataset. When a patient's presentation doesn't match what the AI expects, investigate further before accepting the system's recommendations. High-stakes decisions—those involving significant risks or irreversible treatments—always require human confirmation, regardless of how confident the AI appears. Vulnerable populations, including children, elderly patients, and those with cognitive impairment, need individualized assessment that goes beyond algorithmic recommendations. And in emergency situations, trust your training and experience to make rapid decisions without waiting for AI processing."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The single most important thing to hold onto is this: AI is here to support you, not to make decisions for you. Your clinical judgement always takes priority. Whatever a system suggests, check it against your own assessment and, crucially, the actual patient in front of you. In high-pressure situations, such as emergencies or when you're working with vulnerable patients, human oversight becomes even more essential. Don't step back and let the technology lead. When you're documenting, make sure you're recording your own reasoning and thought process, not simply copying out what the AI produced. And take time to understand the limitations of the tools you're using. Finally, a practical next step: look up your organisation's policy on approved clinical decision support tools, and make sure you know how to raise concerns if something doesn't seem right. These principles will help you use AI safely and confidently in your practice."
+          "script": "Let's establish a practical framework for safe AI use in your daily practice. First, always treat AI suggestions as starting points for your own clinical reasoning, not final answers. Compare every recommendation against your clinical assessment and what you observe in the patient before you. Document your thought process clearly—explain why you agreed or disagreed with the AI's suggestions, what additional factors you considered, and how you reached your final decision. Maintain heightened oversight for high-risk patients and complex clinical situations, recognizing that these are precisely the scenarios where AI is most likely to provide inadequate guidance. Familiarize yourself with your organization's policies on clinical decision support systems and know how to escalate concerns about system performance. Finally, seek ongoing training to stay current with both the capabilities and limitations of the AI tools you use. Remember: you are not just a user of these systems—you are the clinical safety net that ensures they enhance rather than compromise patient care."
         }
       ]
     }

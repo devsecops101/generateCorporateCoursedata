@@ -25,15 +25,15 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks of Using AI",
-          "subtitle": "What could go wrong with AI?",
-          "slidecontent": "• AI can misread or misrepresent patient information, leading to incorrect summaries in the record\n• Sensitive data may be exposed if AI tools are not properly secured\n• Errors in AI output can go unnoticed if clinicians trust results without checking\n• Data privacy risks\n• AI may reflect biases present in the data it was trained on, producing unfair or inaccurate outputs for some patient groups\n• Audit trails can become unclear when AI contributes to clinical documentation"
+          "slidetitle": "Data Exposure Risks",
+          "subtitle": "How Patient Information Can Be Compromised",
+          "slidecontent": "• Sensitive data may be exposed if AI tools are not properly secured\n• Consumer AI applications lack clinical-grade privacy protections\n• Data can be stored on external servers without your knowledge\n• Third-party AI vendors may have different data retention policies\n• Audit trails can become unclear when AI contributes to clinical documentation"
         },
         {
           "number": 3,
-          "slidetitle": "Risks of Using AI",
-          "subtitle": "What could go wrong with AI?",
-          "slidecontent": "• Data can be exposed accidentally\n• AI may summarise records incorrectly\n• Patient safety risks arise\n• Errors can go unnoticed\n• Bias affects AI outputs"
+          "slidetitle": "Human Factors in AI Risk",
+          "subtitle": "Why Good Clinicians Make AI Mistakes",
+          "slidecontent": "• Over-reliance develops when AI outputs look polished and confident\n• Time pressure leads to skipping verification steps\n• Trust in technology can reduce clinical scrutiny\n• Errors can go unnoticed without proper oversight\n• Multiple AI interactions create cumulative risk exposure"
         },
         {
           "number": 4,
@@ -43,15 +43,15 @@
         },
         {
           "number": 5,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect patient data",
-          "slidecontent": "• Always use NHS-approved or trust-approved AI tools only\n• Never paste identifiable patient data into consumer AI applications\n• Double-check every AI-generated summary before acting on it\n• Errors can be subtle\n• Report any suspected data breach immediately using your organisation's standard incident process\n• Keep a brief record of when and how AI was used in any clinical task"
+          "slidetitle": "Approved Tools and Data Protection",
+          "subtitle": "Safe AI Usage Guidelines",
+          "slidecontent": "• Always use NHS-approved or trust-approved AI tools only\n• Never paste identifiable patient data into consumer AI applications\n• Understand your organisation's AI policy and approved vendor list\n• Report any suspected data breach immediately using your organisation's standard incident process\n• Keep a brief record of when and how AI was used in any clinical task"
         },
         {
           "number": 6,
-          "slidetitle": "Minimising Risk in Practice",
-          "subtitle": "Practical steps to protect patient data",
-          "slidecontent": "• Always use NHS-approved or trust-approved AI tools only\n• Never paste identifiable patient data into consumer AI applications\n• Double-check every AI-generated summary before acting on it\n• Errors happen\n• Report any suspected data breaches to your information governance team immediately\n• Keep a brief record of when and how AI was used in your clinical workflow"
+          "slidetitle": "Clinical Verification Protocols",
+          "subtitle": "Essential Checks for AI Outputs",
+          "slidecontent": "• Double-check every AI-generated summary before acting on it\n• Verify patient identity matches at multiple data points\n• Cross-reference critical information with original records\n• Look for temporal inconsistencies in patient history\n• Document your verification process in clinical notes"
         },
         {
           "number": 7,
@@ -73,11 +73,11 @@
         },
         {
           "number": 2,
-          "script": "Before we look at how AI can help us work with electronic health records, it's really important that we're honest about the risks involved. AI tools can make mistakes, and in a clinical setting, those mistakes can have serious consequences. For example, AI might misread or misrepresent patient information, which could lead to errors in the record. There are also real concerns around data privacy, particularly if the tools being used aren't properly secured. One of the biggest dangers is over-reliance. If clinicians simply accept what the AI produces without checking it, errors can slip through unnoticed. It's also worth knowing that AI systems can carry biases from the data they were trained on, which means outputs might be less accurate or even unfair for certain patient groups. And finally, when AI contributes to clinical documentation, it can make audit trails harder to follow. So as we go through this course, keeping these risks in mind is absolutely essential."
+          "script": "Let's start with one of the most serious risks: patient data exposure. When you use AI tools with patient information, that data often gets processed on external servers that you cannot see or control. Consumer AI applications like ChatGPT are not built with clinical-grade privacy protections, and they may store your input data for training purposes or share it with third parties. Even with approved clinical AI tools, you need to understand where your data is going. Different AI vendors have varying data retention policies, and some may keep patient information longer than necessary. This creates ongoing privacy risks that extend well beyond the immediate clinical interaction. The complexity increases when AI contributes to documentation, because it becomes harder to trace exactly what information came from where, making audit trails more difficult to follow."
         },
         {
           "number": 3,
-          "script": "So we've looked at what AI can do with electronic health records, but now let's be honest about the risks, because there are some real concerns we need to talk about. First, patient data can be accidentally exposed if AI tools aren't properly secured or configured, and that's a serious confidentiality issue. Beyond that, AI doesn't always get things right. It might summarise a patient's record incorrectly, and if a clinician acts on that without checking, you can see how quickly that becomes a patient safety problem. What makes this particularly tricky is that errors can slip through unnoticed, especially when people start to trust the technology too much and reduce their own scrutiny. And there's another layer to this as well: AI systems can carry bias. If the data they were trained on wasn't representative, the outputs may disadvantage certain groups of patients. So while AI offers genuine benefits, we always need to approach it with a critical eye."
+          "script": "Even the most careful clinicians can fall into AI-related traps, and understanding why this happens is crucial for prevention. AI outputs often look polished and confident, which can create a false sense of reliability. When you are working under time pressure, it becomes tempting to skip verification steps and trust what the AI has produced. This over-reliance is particularly dangerous because it reduces your natural clinical scrutiny. Each time you interact with AI systems, you are potentially exposing patient data, and multiple interactions create cumulative risk. The more comfortable you become with AI tools, the more vigilant you need to be about maintaining proper oversight and verification processes."
         },
         {
           "number": 4,
@@ -85,11 +85,11 @@
         },
         {
           "number": 5,
-          "script": "So let's talk about how you can actually protect yourself and your patients when using AI day to day. The golden rule is straightforward: only ever use tools that have been approved by your NHS trust or organisation. That means no copying patient details into general consumer apps like ChatGPT or similar. Those tools are not designed for clinical data, and doing so could constitute a serious data breach. When AI does produce a summary or suggestion, always review it carefully before you act on it. Errors can be easy to miss because the output often looks polished and confident, even when something is subtly wrong. If you do suspect a breach has occurred, report it straight away through your organisation's usual incident reporting process. And finally, get into the habit of making a brief note of when and how you used AI in a clinical task. It keeps things transparent and protects you professionally."
+          "script": "Your first line of defence is using only approved AI tools and protecting patient data from inappropriate exposure. Every NHS trust and healthcare organisation should have a clear policy about which AI tools are acceptable for clinical use. These approved tools have undergone security and privacy assessments that consumer applications have not. The golden rule is simple: never copy patient details into general AI applications like ChatGPT, because doing so could constitute a serious data breach. If you do suspect that patient data has been inappropriately shared or exposed, report it immediately through your organisation's incident reporting process. And get into the habit of documenting when and how you use AI in clinical tasks. This creates transparency and accountability, protecting both you and your patients."
         },
         {
           "number": 6,
-          "script": "So, let's talk about how you can actually protect yourself and your patients when using AI day to day. The golden rule is simple: only ever use tools that have been approved by your NHS trust or organisation. That means avoiding the temptation to copy and paste patient details into general consumer AI tools like ChatGPT, because those platforms are not designed for confidential clinical data. When AI does produce a summary or suggestion, always review it carefully before you act on it, because these tools do make mistakes, and the responsibility for clinical decisions remains with you. If something does go wrong and you suspect a data breach has occurred, report it to your information governance team straight away, do not delay. And finally, get into the habit of making a brief note in your workflow of when and how you used AI. It does not need to be lengthy, just enough to keep things transparent and accountable."
+          "script": "Beyond using approved tools, you need robust verification processes for every AI output. This means checking every AI-generated summary against the original patient records before making any clinical decisions. Pay particular attention to patient identity markers, because AI systems can sometimes mix up similar patient names or identifiers. Look for temporal inconsistencies, where AI might have pulled old information and presented it as current, or missed recent updates to the patient's condition. Cross-reference critical information like allergies, current medications, and active diagnoses with multiple sources. And always document your verification process in your clinical notes. This shows that you have exercised proper clinical judgement and provides a clear audit trail for your decision-making."
         },
         {
           "number": 7,

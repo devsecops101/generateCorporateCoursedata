@@ -25,27 +25,27 @@
         },
         {
           "number": 2,
-          "slidetitle": "Identifying the Core Risks",
-          "subtitle": "What can go wrong, and why.",
-          "slidecontent": "• AI invents false legal details\n• Confidential data may leak\n• Outdated law, wrong jurisdiction\n• Errors look convincing\n• No built-in legal accountability"
+          "slidetitle": "The Professional Stakes",
+          "subtitle": "Why these risks matter for your practice",
+          "slidecontent": "• You carry full professional liability\n• AI bears no legal accountability\n• Client trust depends on accuracy\n• Regulatory compliance is mandatory\n• Professional reputation at risk"
         },
         {
           "number": 3,
           "slidetitle": "Confidentiality Risks in AI Drafting",
-          "subtitle": "Where client data may be exposed.",
+          "subtitle": "Where client data may be exposed",
           "slidecontent": "• Data sent to external servers\n• Prompts may be stored\n• Third parties can access inputs\n• No guaranteed confidentiality\n• Client names exposed accidentally"
         },
         {
           "number": 4,
-          "slidetitle": "Accuracy Risks in AI Drafting",
-          "subtitle": "Where AI errors can mislead lawyers.",
-          "slidecontent": "• AI tools can fabricate case citations that appear real but do not exist\n• Subtle errors in dates, party names, or defined terms\n• Confident, fluent output that masks underlying inaccuracies\n• Legal standards vary by jurisdiction, and AI may apply the wrong one\n• No built-in awareness of recent legislative changes or updates"
+          "slidetitle": "AI Hallucination in Legal Content",
+          "subtitle": "When AI invents false legal information",
+          "slidecontent": "• Fabricated case citations that appear real\n• Non-existent statute references\n• Invented legal precedents\n• Confident presentation masks errors\n• Particularly dangerous in legal context"
         },
         {
           "number": 5,
-          "slidetitle": "Accuracy Risks in AI Drafting",
-          "subtitle": "Where AI Errors Can Mislead Drafts",
-          "slidecontent": "• AI tools frequently invent case citations, statute numbers, or legal precedents that do not exist\n• Known as \"hallucination,\" this risk is especially dangerous in legal drafts\n• Outdated training data means AI may reference superseded legislation\n• Jurisdiction errors common, such as applying English law clauses to Scottish or international contracts\n• Small factual mistakes in defined terms or dates can invalidate entire agreements"
+          "slidetitle": "Jurisdiction and Currency Errors",
+          "subtitle": "Wrong law for wrong place and time",
+          "slidecontent": "• Outdated training data references superseded law\n• Wrong jurisdiction applied to contracts\n• English law mixed with Scottish requirements\n• No awareness of recent legislative changes\n• Small factual errors invalidate agreements"
         },
         {
           "number": 6,
@@ -55,9 +55,9 @@
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk in Practice",
-          "subtitle": "Practical steps to minimise legal exposure",
-          "slidecontent": "• Always review AI output\n• Never share client data\n• Check every clause carefully\n• Use approved tools only\n• Verify sources independently"
+          "slidetitle": "Review and Verification Techniques",
+          "subtitle": "How to catch AI errors before they cause problems",
+          "slidecontent": "• Read every clause individually, not just skimming\n• Verify legal references against authoritative sources\n• Check dates, names, and defined terms carefully\n• Cross-reference jurisdiction requirements\n• Use multiple validation methods"
         },
         {
           "number": 8,
@@ -73,7 +73,7 @@
         },
         {
           "number": 2,
-          "script": "So let's start by looking at what can actually go wrong when you use AI for legal drafting, because the risks are real and worth understanding clearly. First, AI tools can simply make things up. They might generate case references, statutes, or legal principles that sound entirely plausible but do not actually exist. Alongside that, if you paste confidential client information into a public AI tool, that data could be exposed in ways you have not anticipated or consented to. There is also the issue of currency and jurisdiction. AI may draw on outdated law, or law from a completely different legal system, without flagging that to you. And here is what makes all of this particularly tricky: the output usually looks polished and authoritative, so errors are easy to miss. Finally, if something goes wrong, the AI bears no professional responsibility whatsoever. That responsibility sits entirely with you. So these are not minor technical quirks; they are genuine professional risks that we need to take seriously."
+          "script": "Before we dive into the specific risks, let's be clear about why this matters for your professional practice. When you use AI to help draft legal documents, you do not share responsibility with the technology. The AI system carries no professional liability whatsoever. If an AI-generated document contains errors, omissions, or creates legal problems for a client, the accountability sits entirely with you as the qualified legal professional. This means client trust, regulatory compliance, and your professional reputation are all on the line. Professional indemnity insurers are still working out how they will handle AI-related claims, but one thing is certain: you cannot point to the AI tool as a defence if something goes wrong. Understanding this context helps frame why the confidentiality and accuracy risks we are about to explore are not just technical issues, but fundamental professional responsibilities."
         },
         {
           "number": 3,
@@ -81,11 +81,11 @@
         },
         {
           "number": 4,
-          "script": "Now, let us talk about where AI can actually get things wrong in legal drafting, because this is genuinely important to understand. One of the most serious issues is what is sometimes called hallucination, where an AI tool confidently produces a case citation that simply does not exist. It looks real, it reads well, but if you rely on it, you could find yourself in serious difficulty. Beyond that, there are subtler errors too, things like a wrong date, a misspelled party name, or an inconsistency in a defined term. These are easy to miss precisely because the writing sounds so polished and authoritative. There is also the question of jurisdiction. AI tools do not always know which legal standards apply in your specific context, and they have no reliable awareness of recent changes to legislation. So the core message here is straightforward: AI output always needs careful human review. Fluent writing is not the same as accurate writing."
+          "script": "One of the most documented problems with AI tools in legal work is something called hallucination, where the system confidently invents information that simply does not exist. In a legal context, this is particularly dangerous because AI might generate a case citation that looks entirely plausible, complete with proper formatting and a convincing case name, but the case never actually happened. The same applies to statute references, legal precedents, or procedural rules. What makes this especially problematic is that the AI presents these fabrications with the same confident, authoritative tone it uses for accurate information. There are no warning signs, no indicators that the content might be unreliable. This means you could unknowingly rely on completely fictional legal authority, which could have serious professional and practical consequences if it reaches a client or a court."
         },
         {
           "number": 5,
-          "script": "Now, let us talk about accuracy, because this is where things can go seriously wrong. One of the most well-documented problems with AI tools is something called hallucination, where the system simply invents information. In a legal context, that might mean a case citation that does not exist, a statute number that is completely fabricated, or a legal precedent that was never actually decided. And because the output looks so polished and confident, it is very easy to miss. On top of that, AI models are trained on data up to a certain point in time, so they may reference legislation that has since been amended or repealed. There are also jurisdiction issues to watch for, for example, an AI might apply principles from English law to a contract that should follow Scottish or international rules. And finally, even a small error in a defined term or a key date can be enough to undermine an entire agreement. So accuracy checks are absolutely essential."
+          "script": "Beyond outright fabrication, AI tools struggle with legal currency and jurisdiction in ways that can catch lawyers off guard. Because these systems are trained on data up to a particular point in time, they may confidently reference legislation that has since been amended, repealed, or replaced. They have no awareness of recent changes, so you might receive advice based on outdated law without any indication that it is no longer current. Jurisdiction errors are equally problematic. An AI might apply English contract principles to a Scottish agreement, or suggest international arbitration clauses where domestic law applies. Even seemingly minor errors in dates, defined terms, or party names can have significant legal consequences. A contract with the wrong completion date or an incorrectly defined term could be unenforceable or create unintended liabilities. These accuracy issues require careful, systematic checking against current, jurisdiction-specific sources."
         },
         {
           "number": 6,
@@ -93,7 +93,7 @@
         },
         {
           "number": 7,
-          "script": "So let's talk about what this actually looks like in your day-to-day work. The first thing to remember is that AI output is never a finished product. You must read through everything it produces before it goes anywhere near a client or a document. Alongside that, please be very careful about what information you put into these tools in the first place. Client data should never be entered into an AI system unless it has been explicitly approved for that purpose by your firm. When you are reviewing the drafted content, go through each clause individually rather than skimming the whole thing. It is also worth verifying any legal references or cited sources independently, because AI can and does get these wrong. And finally, only use tools that your organisation has sanctioned. Using an unapproved application, even with good intentions, can create serious compliance and confidentiality problems. These steps are straightforward, but following them consistently is what genuinely reduces your risk."
+          "script": "When AI produces a legal draft, your review process needs to be more rigorous than you might use for human-generated content. Start by reading every clause individually rather than skimming the document as a whole. AI errors can be subtle and well-hidden within otherwise fluent text. Next, independently verify any legal references, case citations, or statutory provisions against authoritative sources. Do not assume they exist just because they look properly formatted. Pay particular attention to dates, defined terms, and party names, checking these against your original instructions. Also verify that the legal principles being applied match your jurisdiction and current law. Consider using multiple verification methods: cross-reference online legal databases, check recent amendments to cited legislation, and confirm that procedural requirements match local court rules. This systematic approach helps catch the types of errors that AI commonly makes but presents convincingly."
         },
         {
           "number": 8,

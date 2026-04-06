@@ -1,0 +1,14 @@
+{
+  "Course Title": "Embedding Sensitive Data in Models",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Data scientists, ML engineers, software developers, AI researchers, data analysts, machine learning practitioners, Python developers",
+  "Team or Dept this is for": "Data Science, IT, Engineering, Research and Development, Information Security, Risk Management",
+  "Description": "How models can unintentionally memorise and expose secrets.",
+  "Prerequisites": "A basic understanding of machine learning concepts and familiarity with Python programming will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which sensitive data can become unintentionally embedded within machine learning models and explain the potential risks this poses to individuals and organisations. You will also apply practical strategies to recognise, prevent, and mitigate the exposure of confidential information throughout the model training and deployment process.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

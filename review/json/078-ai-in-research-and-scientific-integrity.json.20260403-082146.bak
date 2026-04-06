@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Research and Scientific Integrity",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Risks of incorrect AI-assisted analysis or fabricated outputs.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with research methods and a general interest in how artificial intelligence tools are being used in academic or scientific settings is all that is required to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-assisted research analysis and explain how fabricated or incorrect AI outputs can compromise scientific integrity. You will also apply practical strategies to critically evaluate AI-generated content and recognise the ethical responsibilities researchers hold when incorporating AI tools into their work.",
+  "lessons": [
+    {
+      "lesson title": "AI in Research and Scientific Integrity",
+      "order": 1,
+      "Description": "This lesson introduces learners to the growing role of artificial intelligence in research and explores the important risks that come with relying on AI-assisted analysis. You will learn how AI tools can sometimes produce fabricated references, inaccurate data summaries, or misleading conclusions that appear convincing on the surface. We will look at real-world examples of how these errors can compromise scientific integrity and damage trust in published research. By the end of this lesson, you will have a clearer understanding of how to use AI tools responsibly, apply critical thinking when reviewing AI-generated outputs, and recognise when human oversight is essential. This lesson is designed for beginners and requires no prior technical knowledge, making it accessible to anyone involved in or curious about the research process.",
+      "status": "draft",
+      "content": "Risks of incorrect AI-assisted analysis or fabricated outputs.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Research Today",
+          "subtitle": "Shaping Modern Research With New Tools",
+          "slidecontent": "• AI tools now widely used across literature review, data analysis, and academic writing\n• Adoption is rapid\n• Researchers increasingly rely on AI to process large datasets and identify patterns\n• These tools bring genuine efficiency gains, but also introduce new risks around accuracy and integrity\n• Some AI outputs can appear confident and credible even when factually wrong\n• Understanding both the benefits and the pitfalls is essential before using AI in any research context"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Fabricated Outputs and False Data",
+          "subtitle": "When AI invents what isn't there",
+          "slidecontent": "• AI can invent fake citations\n• Fabricated data looks convincing\n• Numbers may be entirely false\n• Sources often don't exist\n• Errors spread without checks"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Fabricated Outputs and False Results",
+          "subtitle": "When AI invents plausible but false data",
+          "slidecontent": "• AI fabricates convincing citations\n• Statistics invented without data\n• Fake quotes from real researchers\n• Errors look professionally formatted\n• Results impossible to verify quickly"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Fabricated Outputs and False Results",
+          "subtitle": "When AI Invents Plausible but False Data",
+          "slidecontent": "• AI tools can generate statistics, citations, and findings that look credible but are entirely made up\n• Known as \"hallucination\" in technical terms\n• A fabricated reference may include a real journal name, a plausible author, and a convincing title, yet the paper does not exist\n• No built-in fact-checker\n• Researchers who paste AI output directly into reports risk publishing false evidence without realising it\n• The problem is especially dangerous in fields where a single incorrect figure can mislead further studies"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Fabricated AI Outputs",
+          "subtitle": "Warning signs and verification strategies",
+          "slidecontent": "• Citations that don't exist\n• Confident but wrong statistics\n• Vague, unverifiable sources\n• Suspiciously perfect results\n• Cross-check everything always"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Fabricated AI Outputs",
+          "subtitle": "Recognising hallucinations and false citations",
+          "slidecontent": "• AI tools sometimes invent plausible-sounding citations that do not actually exist\n• Always verify references independently using a database such as PubMed or Google Scholar\n• Fabricated outputs often look convincing\n• Watch for vague author names, incorrect journal titles, or page numbers that do not match\n• Statistics and data figures generated by AI should never be used without checking the original source\n• A confident tone from an AI tool is not evidence of accuracy"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Maintaining Integrity in Practice",
+          "subtitle": "Practical steps to uphold research standards",
+          "slidecontent": "• Verify all AI-generated outputs\n• Cross-check sources manually\n• Document your AI usage\n• Report errors promptly\n• Follow your institution's guidelines"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for responsible AI use",
+          "slidecontent": "• Always verify AI-generated outputs against primary sources before including them in any research\n• Fabricated references are a real risk\n• Treat AI as a starting point, not a final authority on facts or analysis\n• Document every instance of AI use clearly, following your institution's guidelines\n• Never submit AI-produced content as your own original analysis without disclosure\n• Speak to your research integrity officer if you are unsure whether your AI use is appropriate"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Research and Scientific Integrity. Before we dive into the details, let's take a moment to look at where things stand right now. AI tools have become remarkably common across almost every stage of the research process, from searching and reviewing literature, to analysing data, to helping draft written work. And the pace of adoption has been genuinely rapid. Researchers are increasingly turning to these tools because they can handle large volumes of information quickly and surface patterns that might otherwise take weeks to find. That is a real and significant benefit. But it does come with risks that we need to take seriously. One of the biggest concerns is that AI can produce outputs that sound authoritative and well-reasoned, even when the underlying information is simply wrong. So throughout this course, our goal is to help you understand both sides of that picture, the genuine advantages and the very real pitfalls, so you can use these tools responsibly and with confidence."
+        },
+        {
+          "number": 2,
+          "script": "One of the most serious risks with AI in research is something that catches a lot of people off guard: AI can simply make things up, and it does so in a way that looks completely credible. If you ask an AI tool to help you find sources or generate data, it might produce references that appear entirely legitimate, complete with author names, journal titles, and publication years, but when you go to look them up, they don't exist. The same applies to numbers and statistics. AI can generate figures that seem precise and well-sourced, but are entirely fabricated. There's no real data behind them at all. The danger here is that because the output looks so polished and professional, it's easy to trust it without questioning it. And once false information makes its way into a piece of work, it can spread quickly if nobody stops to verify it. So the core issue is this: AI doesn't know what's true. It generates what sounds plausible, and that's a very important distinction to understand."
+        },
+        {
+          "number": 3,
+          "script": "One of the most serious risks with AI in research is something called fabrication, and it is more common than you might think. AI tools can generate outputs that look completely legitimate but are entirely made up. For example, an AI might produce a list of academic references, complete with authors, journal names, and page numbers, none of which actually exist. It can invent statistics that sound credible, or even put words into the mouths of real, named researchers who never said anything of the sort. What makes this particularly dangerous is the presentation. These fabricated outputs are well formatted, they use the right academic language, and they fit neatly into whatever context you are working in. Nothing looks out of place at a glance. The problem is that verifying each detail takes time and expertise, and if you are working quickly or are new to a topic, it is very easy to miss. This is why critical checking is absolutely essential when using AI in any research context."
+        },
+        {
+          "number": 4,
+          "script": "One of the most serious risks with AI tools in research is something called hallucination. This is where the AI generates information that sounds completely convincing but is entirely made up. We are not talking about obvious nonsense here. The AI might produce a reference with a real journal name, a believable author, and a perfectly plausible title, and yet that paper simply does not exist. There is no built-in fact-checker quietly working in the background to catch these errors. The AI just produces output that looks credible, and if a researcher copies that directly into their work without checking, they could end up publishing false evidence. That is a serious problem in any field, but it becomes especially dangerous in areas like medicine or environmental science, where a single incorrect figure can influence further studies, policy decisions, or even patient care. So the message here is simple: always verify what the AI gives you before you use it."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot when an AI has made something up? There are a few warning signs to watch out for. First, check any references the AI gives you. It's surprisingly common for AI tools to generate citations that look completely real but simply don't exist. The journal, the author, the title, all plausible, but entirely fabricated. Similarly, be cautious when AI presents statistics with great confidence. Precise-sounding numbers can be completely wrong. You should also be wary of vague source descriptions like \"studies suggest\" or \"researchers have found,\" because these are often impossible to trace back to anything real. And if the results the AI produces seem almost too neat, too perfectly aligned with what you were hoping to find, that's worth questioning too. The golden rule here is straightforward: cross-check everything. Use databases like PubMed or Google Scholar to verify claims independently. Never take AI outputs at face value, no matter how convincing they appear."
+        },
+        {
+          "number": 6,
+          "script": "One of the trickiest problems with AI tools is that they can confidently produce references that simply do not exist. These are often called hallucinations, and they can look completely convincing at first glance. The author names seem plausible, the journal title sounds familiar, and the year fits perfectly. But when you go to look it up, the paper is nowhere to be found. So the rule here is straightforward: always verify every reference independently using a database like PubMed or Google Scholar before you use it in your work. The same caution applies to any statistics or data figures that an AI generates. Never treat those as reliable without tracing them back to the original source. And perhaps the most important point on this slide is this: the fact that an AI sounds confident does not mean it is correct. AI tools do not experience uncertainty the way we do, so that assured tone can be genuinely misleading."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually put all of this into practice? The good news is that maintaining integrity when using AI doesn't have to be complicated. Start by treating every AI-generated output as a first draft rather than a finished product. That means checking the information yourself, going back to the original sources to confirm they actually say what the AI claims they say. It's also really important to keep a clear record of where and how you've used AI throughout your research process, because transparency is at the heart of good scientific practice. If you spot a mistake, whether it's a fabricated reference or an inaccurate summary, flag it promptly rather than hoping nobody notices. And perhaps most importantly, familiarise yourself with your own institution's specific guidelines on AI use, because these will vary from place to place. Following those policies isn't just about ticking boxes; it's about protecting your reputation and the quality of your work."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the most important things to keep in mind as you start using AI in your research. First and foremost, always check what AI tells you against reliable, primary sources. AI can and does fabricate references, so never assume a citation is real until you have verified it yourself. Think of AI as a helpful starting point rather than a definitive source of truth. Equally important is transparency. Keep a clear record of how and where you have used AI, and make sure you are following your institution's specific guidelines on this. You should never present AI-generated content as your own original thinking without being upfront about it. And finally, if you are ever unsure whether something you are doing with AI is appropriate, do not just hope for the best. Reach out to your research integrity officer. That is exactly what they are there for, and it is always better to ask than to get it wrong."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Researchers, Data Analysts, Research Assistants, Graduate Students, Academic Staff, Scientists, R&D Engineers, Market Research Analysts, Clinical Research Coordinators",
+  "Team or Dept this is for": "Research and Development, IT, Academic Affairs, Quality Assurance, Compliance, Data Science, Product Development"
+}

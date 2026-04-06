@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Workflow Disruption: A Real Example",
-          "subtitle": "When Automation Brings Work to Halt",
-          "slidecontent": "• Chatbot stops answering customers\n• Orders queue up, unprocessed\n• Staff scramble for manual workarounds\n• Revenue stalls within hours"
+          "slidetitle": "Customer Service Breakdown",
+          "subtitle": "When chatbots fail during peak business hours",
+          "slidecontent": "• Chatbot stops responding to customers\n• Order processing queue backs up\n• Staff lack manual backup procedures\n• Revenue impact within hours\n• Customer complaints escalate rapidly"
         },
         {
           "number": 3,
-          "slidetitle": "Automation Errors Halt Production Lines",
-          "subtitle": "When machines misread, output grinds down.",
-          "slidecontent": "• A faulty sensor reading causes an automated arm to misplace components repeatedly\n• Entire batches scrapped\n• AI vision systems misidentifying defects flag good parts as rejects, slowing throughput\n• Production halts cascade across shifts\n• A miscalibrated quality-check algorithm approves substandard goods, triggering costly recalls downstream\n• Small misreads, big consequences"
+          "slidetitle": "Manufacturing Floor Failures",
+          "subtitle": "How AI errors cascade through production",
+          "slidecontent": "• Faulty sensors cause robotic misplacement\n• Vision systems reject good products\n• Quality algorithms approve defects\n• Entire batches scrapped or recalled\n• Production halts affect multiple shifts"
         },
         {
           "number": 4,
-          "slidetitle": "Automation Errors Disrupt Daily Operations",
-          "subtitle": "When Automation Goes Wrong, Chaos Follows",
-          "slidecontent": "• Orders sent to wrong addresses\n• Stock levels miscounted overnight\n• Invoices duplicated automatically\n• Emails routed to nobody\n• Schedules wiped without warning"
+          "slidetitle": "Administrative System Breakdowns",
+          "subtitle": "Daily operations disrupted by automation errors",
+          "slidecontent": "• Orders shipped to wrong addresses\n• Inventory levels miscounted overnight\n• Duplicate invoices sent automatically\n• Emails disappear into routing failures\n• Schedules deleted without warning"
         },
         {
           "number": 5,
-          "slidetitle": "Cascading Failures Across Departments",
-          "subtitle": "When One System Fails, All Suffer",
-          "slidecontent": "• An AI scheduling tool fails, delaying procurement, which stalls production and then shipment\n• Knock-on effects spread fast\n• A single broken data feed can corrupt reports across finance, operations, and customer service simultaneously\n• Departments relying on shared AI outputs inherit each other's errors without realising it\n• No isolation between systems means one fault becomes everyone's problem"
+          "slidetitle": "Cascading Department Failures",
+          "subtitle": "How single AI failures spread across organizations",
+          "slidecontent": "• Scheduling failure delays procurement and production\n• Corrupted data feeds affect multiple departments\n• Teams inherit errors from shared AI systems\n• No isolation between interconnected workflows\n• Domino effects amplify initial problems"
         },
         {
           "number": 6,
-          "slidetitle": "Recovering From AI Failures",
-          "subtitle": "Steps to restore normal operations swiftly",
-          "slidecontent": "• Activate your backup process immediately\n• Notify affected teams quickly\n• Log the failure details carefully\n• Switch to manual workarounds\n• Test before resuming AI use"
+          "slidetitle": "Immediate Recovery Actions",
+          "subtitle": "Essential steps when AI systems fail",
+          "slidecontent": "• Activate backup processes immediately\n• Notify affected teams of the situation\n• Document failure details for analysis\n• Switch to manual workarounds temporarily\n• Test systems before resuming AI operations"
         },
         {
           "number": 7,
-          "slidetitle": "Lessons Learned From AI Failures",
-          "subtitle": "Turning Setbacks Into Smarter AI Practices",
-          "slidecontent": "• Document every AI failure, no matter how minor, to spot recurring patterns early\n• Review root causes, not just symptoms\n• Update your workflows and prompts based on what went wrong\n• Share lessons across teams so the same mistakes are not repeated\n• Small fixes applied consistently prevent larger disruptions later\n• Build a simple feedback loop so staff can flag AI errors in real time"
+          "slidetitle": "Learning From AI Failures",
+          "subtitle": "Building organizational resilience through experience",
+          "slidecontent": "• Document all failures to identify patterns\n• Analyze root causes, not just symptoms\n• Update workflows based on lessons learned\n• Share knowledge across teams and departments\n• Create feedback loops for real-time error reporting"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for smarter AI decisions",
-          "slidecontent": "• AI failures in business are common, predictable, and often preventable with the right checks in place\n• Always verify AI outputs before acting on them\n• Poor data quality is one of the leading causes of AI errors in real workflows\n• Human oversight matters\n• Build clear escalation paths so staff know what to do when AI produces unexpected results\n• Start small, test thoroughly, and expand AI use only once reliability is confirmed"
+          "slidetitle": "Prevention and Best Practices",
+          "subtitle": "Proactive strategies for reliable AI deployment",
+          "slidecontent": "• Always verify AI outputs before acting\n• Address data quality issues early\n• Maintain human oversight at critical points\n• Establish clear escalation procedures\n• Start small, test thoroughly, expand gradually"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome, and thank you for joining this course. Over the next few lessons, we're going to look at something that doesn't get talked about nearly enough: what happens when AI goes wrong inside a real business. And the honest answer is, it happens more often than most people realise. When AI tools fail in a workflow, the knock-on effects can be significant. We're talking about lost time, frustrated teams, and real financial costs. Now, the good news is that you don't need to be technical to understand any of this. This course has been designed for anyone who works alongside AI tools, regardless of your background. We'll be drawing on examples from actual businesses, so everything we cover is grounded in reality rather than theory. By the end, you'll have a much clearer sense of where the risks tend to show up and how to spot them before they cause serious problems. So let's get started."
+          "script": "Welcome, and thank you for joining this course. Over the next few lessons, we're going to look at something that doesn't get talked about nearly enough: what happens when AI goes wrong inside a real business. And the honest answer is, it happens more often than most people realise. When AI tools fail in a workflow, the knock-on effects can be significant. We're talking about lost time, frustrated teams, and real financial costs. Now, the good news is that you don't need to be technical to understand any of this. This course has been designed for anyone who works alongside AI tools, regardless of your background. We'll be drawing on examples from actual businesses, so everything we cover is grounded in reality rather than theory. By the end, you'll have a much clearer sense of where the risks tend to show up and how to spot them before they cause serious problems."
         },
         {
           "number": 2,
-          "script": "Let me paint a picture for you. Imagine it's a busy Monday morning, and your business is running on an automated system that handles customer enquiries and processes orders. Everything looks fine, until suddenly, the chatbot goes silent. Customers are reaching out, but nobody is responding. Meanwhile, orders are piling up in a queue with nothing to process them. Your staff, who were never really trained for this situation, are now rushing around trying to figure out how to do things manually. They are digging through old spreadsheets, making phone calls, and essentially rebuilding a process from scratch under pressure. And here is the really uncomfortable part: all of this can happen within just a few hours of the system going down, and by that point, you are already losing revenue. This is not a worst case fantasy. This is the kind of disruption that businesses genuinely face when automation fails and there is no plan in place to handle it."
+          "script": "Let me paint a picture for you. Imagine it's a busy Monday morning, and your business relies on an automated chatbot to handle customer enquiries and process orders. Everything looks fine, until suddenly, the chatbot goes silent. Customers are reaching out, but nobody is responding. Meanwhile, orders are piling up in a queue with nothing to process them. Your staff, who were never really trained for this situation, are now scrambling to figure out how to handle everything manually. They're digging through old spreadsheets, making phone calls, and essentially rebuilding processes from scratch under pressure. And here's the really uncomfortable part: all of this can happen within just a few hours, and by that point, you're already losing revenue and dealing with angry customers. This isn't a worst-case fantasy—this is the kind of disruption that businesses genuinely face when customer-facing AI fails."
         },
         {
           "number": 3,
-          "script": "Let's look at what happens when automation goes wrong on a production line, because the consequences can be surprisingly swift and severe. Imagine a sensor that's feeding slightly incorrect data to a robotic arm. That arm starts misplacing components, one after another, and before long you've got entire batches that have to be scrapped completely. Or consider an AI vision system that's supposed to spot defects. If it's miscalibrated, it starts rejecting perfectly good parts, and your throughput slows to a crawl. Now flip that around: a quality-check algorithm that's too lenient starts approving substandard goods, and those products make it all the way to customers, triggering expensive recalls. What's really striking here is how these problems don't stay contained. A single error on one shift cascades into the next, and suddenly the whole line is affected. The core lesson is a simple one: small misreads in an automated system can very quickly translate into enormous, costly disruption."
+          "script": "Manufacturing environments show us some of the most dramatic AI failure scenarios. Picture a sensor feeding slightly incorrect data to a robotic arm. That arm starts misplacing components, one after another, and before long you've got entire batches that have to be scrapped completely. Or consider an AI vision system that's supposed to spot defects. If it's miscalibrated, it might start rejecting perfectly good parts, slowing your throughput to a crawl. Now flip that around: a quality-check algorithm that's too lenient starts approving substandard goods, and those products make it all the way to customers, triggering expensive recalls. What's really striking is how these problems don't stay contained to one shift—they cascade through the entire production schedule, affecting multiple teams and creating costly delays that can take days to resolve."
         },
         {
           "number": 4,
-          "script": "So let's look at what actually happens when automation goes wrong in day-to-day business operations, because the consequences can be surprisingly disruptive. Imagine your e-commerce system sends a batch of orders to completely the wrong addresses overnight, with no human in the loop to catch it. Or your stock management tool quietly miscounts your inventory levels, and by morning your team is working from figures that simply don't reflect reality. We've also seen situations where invoicing systems generate duplicate bills and send them straight to customers before anyone notices. Then there are email routing failures, where messages disappear into a void and nobody receives them at all. And perhaps most alarming of all, automated scheduling tools that wipe entire calendars without any warning whatsoever. Each of these examples might sound extreme, but they are real failure modes that businesses encounter regularly. The common thread is that automation moved faster than any human could intervene, and that's exactly what makes these scenarios so problematic."
+          "script": "Administrative failures might seem less dramatic than production problems, but they can be just as disruptive to daily operations. Your e-commerce system sends a batch of orders to completely wrong addresses overnight, with no human checking the output. Your inventory management tool quietly miscounts stock levels, so by morning your team is working from figures that don't match reality. Invoicing systems generate duplicate bills and send them straight to customers before anyone notices. Email routing fails, and important messages disappear into the void. Automated scheduling tools wipe entire calendars without warning. Each of these might sound extreme, but they're real failure modes that businesses encounter regularly. The common thread is that automation moved faster than any human could intervene, creating chaos in what should have been routine processes."
         },
         {
           "number": 5,
-          "script": "Let's look at something that catches a lot of businesses off guard: cascading failures. This is where one AI system breaks down, and the damage doesn't stay contained. It spreads. Imagine an AI scheduling tool stops working correctly. Suddenly procurement is delayed, which holds up production, which then pushes back shipments. Each department is waiting on the one before it. And it gets worse when multiple teams are pulling from the same data source. If that feed is corrupted, you're not just looking at one broken report. Finance, operations, and customer service could all be working from bad information at the same time, without any of them realising it. That's the real danger here. When systems aren't properly isolated from one another, a single fault ripples outward and becomes everybody's problem very quickly. Understanding this domino effect is the first step towards building workflows that are a little more resilient when things go wrong."
+          "script": "Here's what catches many businesses off guard: cascading failures, where one AI system breaks down and the damage spreads throughout the organization. Imagine an AI scheduling tool stops working correctly. Suddenly procurement gets delayed, which holds up production, which then pushes back shipments. Each department is waiting on the one before it. It gets worse when multiple teams are pulling from the same AI-generated data source. If that feed is corrupted, you're not just looking at one broken report—finance, operations, and customer service could all be working from bad information simultaneously, without any of them realizing it. When systems aren't properly isolated from one another, a single fault ripples outward and becomes everybody's problem very quickly. Understanding this domino effect is crucial for building more resilient workflows."
         },
         {
           "number": 6,
-          "script": "When an AI failure hits, the priority is getting back on track as quickly and calmly as possible. The first thing you want to do is switch on whatever backup process you have in place, so work does not grind to a halt. At the same time, let the relevant teams know what is happening, because nobody likes being caught off guard. While things are being sorted, make sure someone logs exactly what went wrong, including when it happened and what the system was doing at the time. That information will be invaluable later. In the meantime, your team should move to manual workarounds to keep things ticking over. Now, here is something people often skip, and it is really important: before you switch the AI back on, run some tests first. Do not just assume it is fixed and dive straight back in. A quick check now can save you from triggering the exact same problem all over again."
+          "script": "When an AI failure hits, your priority is getting back on track as quickly and calmly as possible. First, activate whatever backup process you have in place so work doesn't grind to a halt. Simultaneously, notify the relevant teams about what's happening—nobody likes being caught off guard during a crisis. While things are being sorted, make sure someone documents exactly what went wrong, including timing and system behavior. That information will be invaluable for preventing future occurrences. In the meantime, your team should switch to manual workarounds to keep operations moving. Here's something people often skip: before you switch the AI back on, run some tests first. Don't assume it's fixed and dive straight back in. A quick verification now can save you from triggering the exact same problem all over again."
         },
         {
           "number": 7,
-          "script": "So, we have covered quite a few ways that AI can go wrong, but what do we actually do with that knowledge? The answer is to treat every failure as useful information. When something goes wrong, write it down, even if it seems trivial at the time. Then dig into why it happened, not just what happened. Was it a poorly written prompt? A gap in the process? Once you understand the root cause, you can update your workflows and prompts so the same issue does not crop up again. Crucially, share what you learn with the rest of your team, because if one person has already made a mistake, there is no reason for everyone else to repeat it. And do not wait for big problems to act. Small, consistent improvements really do add up. Finally, make it easy for staff to flag AI errors as they happen, so you can catch issues early and keep things running smoothly."
+          "script": "The real value comes from treating every AI failure as useful information for improvement. When something goes wrong, document it, even if it seems minor at the time. Then dig into why it happened, not just what happened. Was it a poorly written prompt? A gap in the training data? A process that wasn't designed with AI limitations in mind? Once you understand the root cause, you can update your workflows so the same issue doesn't crop up again. Crucially, share what you learn with the rest of your team—if one person has already made a mistake, there's no reason for everyone else to repeat it. Create feedback loops that make it easy for staff to flag AI errors as they happen, so you can catch patterns early and address them before they become major disruptions."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The most important thing to understand is that AI failures are not rare, mysterious events. They happen regularly in real businesses, and the good news is that most of them can be prevented. Always check what the AI gives you before you act on it, because even a well-built system can get things wrong. A lot of those errors trace back to poor quality data going in at the start, so that is always worth examining. Human oversight is not optional, it is essential. Make sure your team knows exactly what to do if something looks off, because having a clear escalation process removes confusion in the moment. And finally, do not rush to roll AI out everywhere at once. Start with something small, test it properly, make sure it is reliable, and then build from there. These principles will help you use AI more confidently and more safely across your organisation."
+          "script": "Let's bring everything together with the core principles for reliable AI deployment. Most AI failures are predictable and preventable with the right safeguards in place. Always verify AI outputs before acting on them—even well-built systems can produce unexpected results. Many errors trace back to poor data quality at the source, so that's always worth examining first. Human oversight isn't optional; it's essential for catching problems before they escalate. Make sure your team knows exactly what to do when something looks wrong, because clear escalation procedures remove confusion during critical moments. Finally, resist the urge to deploy AI everywhere at once. Start with small, controlled implementations, test them thoroughly until you're confident in their reliability, and then expand gradually. These principles will help you harness AI's benefits while minimizing the risks we've discussed throughout this course."
         }
       ]
     }

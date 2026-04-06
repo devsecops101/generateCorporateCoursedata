@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Targeting: Who Gets Seen?",
-          "subtitle": "Reaching the right people, ethically.",
-          "slidecontent": "• AI picks who sees ads\n• Targets age, location, behaviour\n• Some groups get excluded\n• Bias hides in the data\n• Vulnerable people face risks"
+          "slidetitle": "How AI Targeting Works",
+          "subtitle": "The mechanics behind personalised advertising",
+          "slidecontent": "• AI analyses browsing habits, purchase history, and location data\n• Algorithms identify likely buyers based on digital footprints\n• Precision targeting reduces wasted advertising spend\n• Systems match specific demographics with relevant products\n• Real-time decisions determine which ads appear when"
         },
         {
           "number": 3,
-          "slidetitle": "Targeting the Right Audience",
-          "subtitle": "Reaching audiences with precision and purpose",
-          "slidecontent": "• AI analyses browsing habits, purchase history, and location data to identify likely buyers\n• Adverts reach specific groups based on age, interests, and online behaviour\n• Highly targeted\n• Precision reduces wasted spend by showing relevant content to receptive audiences\n• Targeting decisions are shaped by the data fed into the system, which may not represent everyone equally"
+          "slidetitle": "Hidden Bias in Targeting Systems",
+          "subtitle": "When algorithms exclude and discriminate",
+          "slidecontent": "• Training data reflects existing societal inequalities\n• Certain groups get excluded from job, housing, or financial ads\n• Bias emerges without deliberate programming\n• Underrepresented communities may be systematically overlooked\n• Discrimination can be invisible to advertisers themselves"
         },
         {
           "number": 4,
-          "slidetitle": "Targeting the Vulnerable",
-          "subtitle": "When Algorithms Exploit Human Weakness",
-          "slidecontent": "• Algorithms spot emotional vulnerability\n• Ads target grief, fear, loneliness\n• Children and elderly most affected\n• Personalisation enables precision manipulation\n• Consent is rarely truly informed"
+          "slidetitle": "Exploiting Emotional Vulnerability",
+          "subtitle": "When algorithms detect and target weakness",
+          "slidecontent": "• AI identifies patterns of grief, stress, and emotional distress\n• Targeted ads appear during vulnerable moments\n• Search behaviour reveals personal struggles\n• Precision exploitation scales to millions instantly\n• Emotional manipulation masquerades as personalisation"
         },
         {
           "number": 5,
-          "slidetitle": "Targeting the Vulnerable: Ethical Risks",
-          "subtitle": "When Precision Targeting Causes Real Harm",
-          "slidecontent": "• Ads target addiction vulnerabilities\n• Children shown adult content\n• Debt products reach struggling families\n• Mental health data exploited\n• Precision targeting amplifies harm"
+          "slidetitle": "High-Risk Targeting Practices",
+          "subtitle": "Real harm from predatory advertising",
+          "slidecontent": "• Gambling ads follow addiction recovery searches\n• Debt products pushed to financially struggling families\n• Children exposed to inappropriate adult content\n• Mental health crises exploited for profit\n• Age-inappropriate targeting systems fail safeguards"
         },
         {
           "number": 6,
-          "slidetitle": "Targeting Vulnerable Audiences: Ethical Risks",
-          "subtitle": "When Personalisation Becomes Exploitation",
-          "slidecontent": "• Ads target children and addicts\n• Algorithms spot emotional weakness\n• Gambling ads follow vulnerable users\n• Personal data enables manipulation\n• Consent is rarely informed"
+          "slidetitle": "The Consent Problem",
+          "subtitle": "Why permission isn't truly informed",
+          "slidecontent": "• Terms and conditions are deliberately complex and lengthy\n• Users rarely understand what data they're sharing\n• Consent is buried in legal jargon\n• Opt-out processes are hidden or difficult\n• True informed consent is practically impossible"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Consumers From AI Harm",
-          "subtitle": "Safeguards, Rights, and Responsible Practice",
-          "slidecontent": "• Regulations like the UK's Online Safety Act and GDPR set legal limits on how AI can target and profile users\n• Consumers have the right to opt out of personalised advertising in many contexts\n• Transparency matters\n• Advertisers must disclose when AI is being used to generate or personalise content\n• Independent audits can help identify bias or manipulation in automated ad systems\n• Clear complaint and redress mechanisms give consumers a way to challenge harmful or misleading AI-driven ads"
+          "slidetitle": "Legal Protections and Rights",
+          "subtitle": "Safeguards, regulations, and consumer power",
+          "slidecontent": "• UK Online Safety Act and GDPR limit AI profiling practices\n• Right to opt out of personalised advertising exists\n• Transparency requirements for AI-generated content\n• Independent audits can identify harmful bias\n• Clear complaint mechanisms provide redress routes"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• AI can target adverts with striking precision, using your data to shape what you see and when\n• Bias in training data leads to biased outcomes, often without anyone intending it\n• Personalisation is not neutral\n• Emotional manipulation in AI-generated messaging is a real and growing concern\n• Always ask who benefits when an advert feels unusually relevant or persuasive\n• As a next step, review the targeting settings on one platform you use regularly and consider what data you have shared"
+          "slidetitle": "Key Takeaways and Next Steps",
+          "subtitle": "What to remember and do",
+          "slidecontent": "• AI targeting is precise and data-driven, never random\n• Bias emerges from imperfect training data\n• Personalisation involves deliberate choices about what you see\n• Always question who benefits from persuasive ads\n• Review your platform targeting settings as a practical first step"
         }
       ],
       "scripts": [
@@ -73,23 +73,23 @@
         },
         {
           "number": 2,
-          "script": "So, let's talk about targeting. When you see an advert online, it hasn't appeared by accident. AI systems are constantly working behind the scenes, deciding who sees which adverts based on things like your age, where you live, and how you behave online. Now, on the surface, that sounds quite useful. Relevant adverts for the right people. But here's where it gets complicated. Those same systems can quietly exclude certain groups from seeing opportunities, whether that's job adverts, financial products, or housing. And often, nobody has deliberately programmed that exclusion. It creeps in through the data the AI has been trained on, data that reflects existing inequalities in society. There's also a real concern around vulnerable people, such as those struggling with debt or mental health challenges, who can end up being specifically targeted in ways that aren't in their best interests. So targeting isn't just a technical process. It carries genuine ethical weight."
+          "script": "Let's start by understanding how AI targeting actually works behind the scenes. When you see an advert online, it hasn't appeared by accident. AI systems constantly analyse your browsing history, what you've bought before, and even where you are, to figure out who is most likely to be interested in a product. This creates highly specific audience profiles that allow advertisers to reach exactly the right people at exactly the right time. The precision is remarkable – rather than showing an advert to everyone and hoping for the best, these systems can identify likely buyers with extraordinary accuracy. This means advertising budgets go much further because companies aren't wasting money on people who simply aren't interested. It sounds efficient and beneficial, but this foundation of data-driven targeting is where both the opportunities and the ethical challenges begin."
         },
         {
           "number": 3,
-          "script": "So, one of the most powerful things AI brings to advertising is the ability to reach exactly the right people at exactly the right time. Rather than showing an advert to everyone and hoping for the best, AI looks at things like your browsing history, what you've bought before, and even where you are, to figure out who is most likely to be interested in a product. This means advertisers can target specific groups based on age, interests, and online behaviour, which makes their budgets go much further because they're not wasting money showing adverts to people who simply aren't interested. It sounds like a win all round, and in many ways it is. But here's something worth keeping in mind: the system can only work with the data it's given. If that data doesn't reflect everyone equally, then certain groups might be overlooked or unfairly targeted. That's something we'll be exploring as we go through this course."
+          "script": "Now here's where things get problematic. Those same targeting systems can quietly exclude certain groups from seeing opportunities, whether that's job adverts, financial products, or housing. And often, nobody has deliberately programmed that exclusion. It creeps in through the data the AI has been trained on – data that reflects existing inequalities in society. If historical hiring patterns show bias against certain communities, the AI will learn and perpetuate those patterns. The system can only work with the data it's given, and if that data doesn't represent everyone equally, then certain groups will be systematically overlooked. This creates a troubling cycle where AI doesn't just reflect existing discrimination – it amplifies and automates it, often without the advertisers even realising it's happening."
         },
         {
           "number": 4,
-          "script": "Now, this is where things get genuinely uncomfortable. Modern advertising algorithms are extraordinarily good at detecting when you are emotionally vulnerable. If you have been searching for information about bereavement, illness, or financial stress, the system notices. And rather than leaving you alone, advertisers can use that data to serve you targeted ads at precisely the moment you are least equipped to think critically. The people most at risk here are children, who lack the experience to recognise manipulation, and older adults, who may be less familiar with how these systems work. What makes this especially troubling is the concept of personalisation. What sounds like a helpful, tailored experience can actually be a precision tool for exploitation. And technically, you may have agreed to all of this buried somewhere in a lengthy terms and conditions document that nobody actually reads. So informed consent, in any meaningful sense, is rarely happening here."
+          "script": "This is where things get genuinely uncomfortable. Modern advertising algorithms are extraordinarily good at detecting when you are emotionally vulnerable. If you have been searching for information about bereavement, illness, or financial stress, the system notices. And rather than leaving you alone during difficult times, these patterns become targeting opportunities. The AI can identify emotional states from search behaviour, social media activity, and browsing patterns, then serve highly specific ads at precisely the moment you are least equipped to think critically. What makes this especially troubling is that emotional manipulation can now happen at massive scale – what might have been a limited problem in the past can now reach millions of people almost instantly, with each person receiving precisely calibrated messaging designed to exploit their specific vulnerabilities."
         },
         {
           "number": 5,
-          "script": "Now, one of the most troubling aspects of AI-powered advertising is how it can be used to target people at their most vulnerable moments. Think about someone who has been searching for help with a gambling problem, or a teenager browsing social media late at night. AI systems can identify these patterns and serve highly specific ads that exploit those exact vulnerabilities. We have seen debt consolidation products pushed towards families already struggling financially, and mental health data used to target people in genuine distress. There are also serious concerns about children being exposed to content that simply is not appropriate for them, because the targeting systems are not always as careful as they should be. The real danger here is that AI makes this kind of targeting incredibly precise and scalable. What might have been a limited problem in the past can now reach millions of people almost instantly. That precision, without proper safeguards, can cause very real harm."
+          "script": "Let me give you some concrete examples of how this targeting can cause real harm. We've seen gambling companies use AI to follow people in addiction recovery around the internet, serving them ads at moments of weakness. Payday loan companies target families already struggling financially, using debt stress as a trigger for more debt products. There are serious concerns about children being exposed to content that isn't appropriate for them because age verification systems aren't foolproof. And mental health data – searches about depression, anxiety, or crisis support – can be used to target people in genuine distress with everything from miracle cures to predatory financial products. These aren't theoretical risks. They're documented cases where AI-powered precision targeting has been used in ways that cause genuine harm to people at their most vulnerable moments."
         },
         {
           "number": 6,
-          "script": "Now, one of the most troubling aspects of AI-driven advertising is who it targets and how. Algorithms are incredibly good at identifying vulnerability. They can recognise patterns that suggest someone is struggling with addiction, going through emotional distress, or is simply a child who doesn't yet have the critical thinking skills to question what they're seeing. Gambling companies, for example, have been caught using these tools to follow vulnerable users around the internet, serving them ads at precisely the moments they're most likely to give in. And all of this is made possible because we've handed over enormous amounts of personal data, often without truly understanding what we've agreed to. Those lengthy terms and conditions? Most people don't read them, and the companies know that. So when we talk about personalisation in advertising, we also need to ask a serious question: at what point does personalisation stop being helpful and start being exploitative? That's the line we need to examine."
+          "script": "Now, you might wonder why people agree to this kind of targeting in the first place. The answer is that meaningful consent is rarely actually happening. Those lengthy terms and conditions documents? Most people don't read them, and the companies know that. The language is deliberately complex and legal, making it nearly impossible for ordinary users to understand what they're actually agreeing to. Even when people want to opt out, the processes are often buried deep in settings menus or designed to be confusing. What we call 'consent' in digital advertising is often just a legal fiction – a box-ticking exercise that protects companies while leaving users genuinely unaware of how their data will be used. True informed consent would require clear, simple explanations of exactly how personal information will be used for targeting, but that level of transparency is still rare in the industry."
         },
         {
           "number": 7,
@@ -97,7 +97,7 @@
         },
         {
           "number": 8,
-          "script": "So let us bring everything together from this lesson. The core idea is that AI-powered advertising is not random. It is precise, it is personalised, and it is shaped by data that you may not even realise you have shared. And because the systems behind it are trained on imperfect data, bias can creep in quietly, without anyone deliberately choosing it. Personalisation might feel helpful, but it is never truly neutral. There are always choices being made about what you see and why. And increasingly, the messages themselves are crafted to connect with you emotionally, which is worth being aware of. A useful habit to develop is simply asking yourself who stands to benefit when an advert feels particularly well-timed or persuasive. Finally, I would encourage you to take one practical step before the next lesson. Go into the settings on a platform you use regularly and have a look at what targeting preferences or data permissions are currently switched on. You might be surprised by what you find."
+          "script": "So let us bring everything together from this lesson. The core idea is that AI-powered advertising is not random. It is precise, it is personalised, and it is shaped by data that you may not even realise you have shared. Because the systems are trained on imperfect data, bias can creep in quietly, without anyone deliberately choosing it. Personalisation might feel helpful, but it is never truly neutral – there are always choices being made about what you see and why. A useful habit to develop is simply asking yourself who stands to benefit when an advert feels particularly well-timed or persuasive. Finally, I would encourage you to take one practical step before the next lesson. Go into the settings on a platform you use regularly and have a look at what targeting preferences or data permissions are currently switched on. You might be surprised by what you find."
         }
       ]
     }

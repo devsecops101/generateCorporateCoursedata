@@ -1,0 +1,14 @@
+{
+  "Course Title": "Edge AI in Production Lines",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Who is this for": "Manufacturing engineers, production managers, plant supervisors, quality assurance specialists, operations managers, process engineers, automation technicians, industrial engineers",
+  "Team or Dept this is for": "Operations, Manufacturing, Production, Engineering, Quality Assurance, IT, Plant Management",
+  "Description": "Security and reliability challenges of on-device AI models.",
+  "Prerequisites": "Learners should have a basic familiarity with manufacturing processes and a general understanding of what artificial intelligence is, though no prior experience with AI systems or advanced technical knowledge is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the core security vulnerabilities and reliability challenges associated with deploying Edge AI systems across manufacturing environments, including chemicals, pharmaceuticals, automotive, and electronics production lines. You will also be able to apply practical strategies to safeguard on-device AI deployments and explain how to maintain consistent, dependable performance in real-world industrial settings.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

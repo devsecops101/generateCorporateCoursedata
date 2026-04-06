@@ -1,0 +1,14 @@
+{
+  "Course Title": "Edge AI Devices in Remote Locations",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Who is this for": "Operations managers, field technicians, farm managers, mine supervisors, forestry workers, agricultural technology specialists, remote site coordinators, equipment operators",
+  "Team or Dept this is for": "Operations, IT, Engineering, Agriculture, Mining, Energy, Field Services",
+  "Description": "Security challenges of AI systems deployed in isolated environments.",
+  "Prerequisites": "A basic familiarity with networking concepts and a general awareness of how AI or automated systems are used in industries such as farming, forestry, or mining will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security vulnerabilities associated with Edge AI devices deployed in remote agricultural, forestry, and mining environments, and explain how isolated conditions such as limited connectivity and physical exposure increase the risk of system compromise. You will also apply practical strategies to protect Edge AI systems in the field, including recognising common attack vectors, assessing physical and network security risks, and selecting appropriate safeguards suited to off-grid and resource-limited settings.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

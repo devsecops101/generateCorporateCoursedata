@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "Welcome to the Course",
-          "subtitle": "Exploring ethics, targeting, and fundraising strategy.",
-          "slidecontent": "• AI shapes modern fundraising\n• Ethics matter throughout\n• Targeting donors more precisely\n• Risks need careful thought\n• Practical strategies included"
+          "subtitle": "AI's Growing Role in Modern Fundraising",
+          "slidecontent": "• AI transforms how nonprofits identify and engage donors\n• Powerful tools require ethical responsibility\n• Balance effectiveness with transparency\n• Practical guidance for responsible implementation\n• Accessible to all experience levels"
         },
         {
           "number": 2,
-          "slidetitle": "Profiling Donors: The Ethical Risks",
-          "subtitle": "Where data meets donor dignity",
-          "slidecontent": "• AI systems can build detailed donor profiles using age, income, location, and giving history\n• These profiles may reveal sensitive personal circumstances without the donor's knowledge\n• Profiling at scale risks reducing people to data points rather than individuals\n• Consent is often unclear\n• Targeting based on vulnerability (such as bereavement or financial stress) raises serious ethical concerns\n• Without proper oversight, bias in training data can lead to unfair or discriminatory outreach"
+          "slidetitle": "How AI Creates Donor Profiles",
+          "subtitle": "The Technology Behind Targeted Fundraising",
+          "slidecontent": "• Analyses age, income, location, and giving history\n• Reveals sensitive personal circumstances\n• Operates at scale across entire databases\n• Often works without donor awareness\n• Can predict behaviour and preferences\n• Builds detailed individual portraits"
         },
         {
           "number": 3,
-          "slidetitle": "Profiling Donors: Ethical Risks",
-          "subtitle": "Where data meets dignity and trust.",
-          "slidecontent": "• Profiling can feel intrusive\n• Data misuse erodes trust\n• Bias skews donor selection\n• Privacy laws apply strictly\n• Consent matters always"
+          "slidetitle": "When Profiling Becomes Invasive",
+          "subtitle": "The Trust and Privacy Risks",
+          "slidecontent": "• Donors unaware of data analysis depth\n• Trust erodes when profiling feels intrusive\n• GDPR and privacy laws apply strictly\n• Consent often unclear or absent\n• Vulnerable targeting raises serious concerns\n• Reputation damage from perceived misuse"
         },
         {
           "number": 4,
-          "slidetitle": "Profiling Risks and Ethical Concerns",
-          "subtitle": "When Data Use Crosses Ethical Lines",
-          "slidecontent": "• Profiling can feel intrusive\n• Data may reveal sensitive traits\n• Consent is often overlooked\n• Bias skews donor selection\n• Privacy laws apply strictly"
+          "slidetitle": "Targeting the Vulnerable",
+          "subtitle": "Ethical Boundaries in Donor Outreach",
+          "slidecontent": "• AI identifies donors experiencing bereavement\n• Financial stress patterns trigger targeting\n• Health conditions revealed through behaviour\n• Religious beliefs inferred from data\n• Emotional manipulation risks increase\n• Clear policies needed for sensitive situations"
         },
         {
           "number": 5,
           "slidetitle": "Bias and Fairness Concerns",
-          "subtitle": "When Data Reflects Existing Inequalities",
-          "slidecontent": "• AI models trained on historical donor data can inherit and reinforce existing patterns of racial, socioeconomic, or geographic exclusion\n• Certain communities may be systematically overlooked simply because they were underrepresented in past fundraising records\n• Biased targeting means some donors never receive outreach, while others are over-contacted\n• Unfair profiling can damage trust and harm your organisation's reputation\n• Regularly auditing your AI outputs for demographic gaps helps catch bias before it affects real people\n• Fairness in targeting is not just ethical, it is also practical for long-term donor relationships"
+          "subtitle": "When AI Perpetuates Historical Inequalities",
+          "slidecontent": "• Historical data contains embedded bias\n• Certain communities systematically overlooked\n• Racial and socioeconomic exclusion patterns repeat\n• Geographic blind spots limit reach\n• Demographic gaps create unfair outcomes\n• Regular auditing catches bias early"
         },
         {
           "number": 6,
-          "slidetitle": "Avoiding Bias in AI Profiling",
-          "subtitle": "Recognising and Reducing Algorithmic Prejudice",
-          "slidecontent": "• Bias hides in training data\n• Past donors skew predictions\n• Minority groups get overlooked\n• Audit your AI outputs regularly\n• Diverse teams spot blind spots"
+          "slidetitle": "Spotting Algorithmic Prejudice",
+          "subtitle": "Practical Steps to Identify AI Bias",
+          "slidecontent": "• Review who gets targeted and who doesn't\n• Compare AI outputs to population demographics\n• Question why certain groups are excluded\n• Diverse review teams spot blind spots\n• Monitor engagement patterns across communities\n• Test assumptions with real-world data"
         },
         {
           "number": 7,
           "slidetitle": "Mitigating Risks in Practice",
-          "subtitle": "Practical steps to reduce ethical risks",
-          "slidecontent": "• Audit your data sources regularly to check for bias or outdated information\n• Use opt-in consent for personalised outreach\n• Test communications on diverse donor groups before full rollout\n• Keep humans in the loop for final decisions\n• Document your AI processes so they can be reviewed and challenged\n• Train staff on spotting when AI outputs seem unfair or inaccurate"
+          "subtitle": "Building Ethical AI into Daily Operations",
+          "slidecontent": "• Audit data sources for bias regularly\n• Implement opt-in consent systems\n• Test communications with diverse groups\n• Keep humans involved in final decisions\n• Document AI processes for accountability\n• Train staff to spot problematic outputs"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Principles to guide your AI practice",
-          "slidecontent": "• Always question whether your data sources are fair, representative, and free from hidden bias\n• Transparency builds trust\n• Obtain clear consent before using personal data to profile or target potential donors\n• Regularly audit your AI tools to check they are producing ethical, accurate outcomes\n• Balance efficiency with empathy, remembering that donors are people, not data points\n• As a next step, review one current fundraising process and identify where AI could help without compromising your values"
+          "slidetitle": "Your Next Steps",
+          "subtitle": "Implementing Responsible AI Practices",
+          "slidecontent": "• Assess current fundraising processes for AI opportunities\n• Establish clear consent and transparency policies\n• Build regular bias audits into workflows\n• Train team on ethical AI principles\n• Start small with pilot programs\n• Balance efficiency gains with donor dignity"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome, and thank you so much for joining me on this course. Over the coming lessons, we are going to explore how artificial intelligence is genuinely transforming the world of fundraising, and what that means for organisations like yours. AI is no longer something reserved for big tech companies. It is increasingly shaping how charities and nonprofits find, understand, and connect with their donors. But as we embrace these powerful tools, we also need to think carefully about the ethical responsibilities that come with them. How do we use data responsibly? Where do the risks lie? These are questions we will be addressing throughout. We will also get into the practical side of things, looking at how AI can help you target the right donors at the right time, with the right message. This course is designed to be accessible whether you are brand new to AI or just starting to explore its potential in a fundraising context. So let us get started."
+          "script": "Welcome to this course on AI in donor targeting and fundraising. AI is no longer just for tech giants - it's increasingly shaping how charities and nonprofits find, understand, and connect with supporters. These tools offer remarkable potential to enhance your fundraising effectiveness, but they also bring significant ethical responsibilities. Throughout this course, we'll explore how to harness AI's power while maintaining the trust and dignity that ethical fundraising requires. Whether you're new to AI or exploring its fundraising applications, this course will give you practical guidance for responsible implementation. Let's begin by understanding what AI can do and where the ethical challenges lie."
         },
         {
           "number": 2,
-          "script": "So, AI can be remarkably good at building detailed pictures of your donors. It can pull together information like age, income, location, and giving history to create rich profiles that help you target the right people. But here is where we need to pause and think carefully. Those profiles can start to reveal quite sensitive things about someone's personal circumstances, often without them ever knowing. And when you are doing this at scale, there is a real risk of reducing real human beings to nothing more than a collection of data points. There are also serious questions around consent. Most donors have no idea how their data is being used. It becomes even more troubling when targeting is based on vulnerability, such as someone going through bereavement or financial difficulty. And if the data used to train these AI systems contains bias, the outreach you produce could end up being unfair or even discriminatory. These are not small concerns. They sit right at the heart of responsible fundraising."
+          "script": "Let's start by understanding what AI profiling actually involves. Modern AI systems can analyse vast amounts of data about your donors - their age, income, location, giving history, even their online behaviour patterns. These systems are remarkably sophisticated, able to build detailed individual portraits that predict everything from donation timing to preferred communication channels. They work by finding patterns across thousands or millions of data points, creating profiles that can reveal intimate details about someone's life circumstances, financial situation, or personal values. The technology operates continuously and at scale, processing entire donor databases to identify prospects and personalise outreach. This capability is what makes AI so powerful for fundraising - but it's also where the ethical questions begin."
         },
         {
           "number": 3,
-          "script": "Now, before we get too excited about all the possibilities AI offers, we need to have an honest conversation about the risks. When we start building detailed profiles of donors, using their behaviour, their giving history, their personal circumstances, it can very quickly start to feel invasive. People do not always know their data is being used in this way, and if they find out, trust can evaporate almost instantly. There is also the issue of bias. If the data we feed into an AI system already reflects historical inequalities, the system will simply repeat and reinforce those patterns, potentially overlooking whole groups of potential supporters. On top of that, privacy legislation such as GDPR here in the UK places very clear obligations on organisations handling personal data, and those rules apply fully to AI-driven processes. And underpinning all of this is one simple principle: consent. People should know what they are agreeing to, and we have a responsibility to honour that."
+          "script": "Here's where things get complicated from an ethical standpoint. Most donors have no idea their data is being analysed at this level of detail. They may have agreed to receive communications, but they likely never expected their personal information would be used to build comprehensive behavioural profiles. When people discover this is happening, trust can evaporate quickly - and rightfully so. The regulatory landscape adds another layer of complexity. GDPR and similar privacy laws place strict obligations on how organisations handle personal data, and these rules apply fully to AI-driven processes. The legal requirement for clear, informed consent becomes particularly challenging when donors don't understand what they're consenting to. This isn't just about compliance - it's about maintaining the fundamental trust that makes fundraising relationships possible."
         },
         {
           "number": 4,
-          "script": "Now, as powerful as AI-driven profiling can be, it does come with some serious ethical responsibilities that we cannot afford to ignore. When organisations start building detailed pictures of individual donors, people can quite rightly feel that their privacy is being invaded, especially if they never expected their data to be used in this way. And it goes further than just feeling uncomfortable. AI systems can inadvertently surface sensitive information about a person, things like health conditions, financial struggles, or religious beliefs, simply by analysing patterns in their behaviour. There is also the question of consent. Many donors have no idea their data is being analysed at this level, and that is a real problem. On top of that, if the data feeding these systems contains historical bias, the AI will replicate and even amplify that bias in who gets targeted. And underpinning all of this are strict legal obligations under regulations like GDPR, which apply fully to how charities handle personal data."
+          "script": "One of the most troubling aspects of AI profiling is its ability to identify and target vulnerable individuals. These systems can detect patterns that suggest someone is grieving, facing financial hardship, dealing with health issues, or going through other difficult circumstances. While this information might seem useful for crafting empathetic communications, targeting people based on vulnerability crosses serious ethical lines. It raises questions about exploitation and manipulation that go to the heart of ethical fundraising practice. Organizations need clear policies about what types of targeting are acceptable and what crosses the line into predatory behaviour. The power to identify vulnerability comes with the responsibility to protect it, not exploit it for fundraising gain."
         },
         {
           "number": 5,
-          "script": "One of the most important things to understand about AI is that it learns from the past, and if the past was unfair, the AI can repeat those same patterns. If your historical donor data has gaps, perhaps certain communities were never really targeted or engaged before, then your AI model may simply continue to ignore them. This creates a cycle where some groups are constantly overlooked, while others receive too much contact. And beyond the ethical problems, this kind of biased targeting can genuinely damage trust in your organisation if it comes to light. The good news is that this is something you can actively manage. Regularly reviewing your AI outputs and checking for demographic gaps means you can catch these issues early, before they affect real people. Fairness in targeting is not just the right thing to do, it also makes practical sense for building lasting, meaningful relationships with a diverse donor base."
+          "script": "One of the most significant risks with AI is that it can perpetuate and amplify existing inequalities. These systems learn from historical data, and if that data contains bias - which it almost certainly does - the AI will reproduce those same patterns. If your organization historically had limited success engaging certain racial, socioeconomic, or geographic communities, your AI model may simply continue to overlook them. This creates a problematic cycle where underrepresented groups remain excluded while overrepresented groups receive excessive attention. The result isn't just ethically concerning - it also limits your fundraising potential by systematically missing entire segments of potential supporters. This kind of bias can be particularly insidious because it often appears as objective, data-driven decision making."
         },
         {
           "number": 6,
-          "script": "One of the most important things to understand about AI is that it can be biased, and often you won't even realise it's happening. The problem usually starts with the training data. If your AI has learned from your historical donor records, it will naturally favour people who look like your past donors. That might sound logical, but it means whole communities could be quietly ignored simply because they weren't well represented in your data to begin with. Minority groups, younger donors, people from different cultural backgrounds, they can all get missed. So what can you do about it? First, audit your AI outputs regularly. Look at who is being targeted and ask whether that picture reflects the full range of people you could be reaching. Second, make sure the people reviewing your AI include diverse perspectives. A varied team is far more likely to notice when something doesn't look right. Bias isn't always obvious, but with the right habits, it is absolutely manageable."
+          "script": "So how do you actually spot bias in your AI systems? It requires active effort and systematic review. Start by regularly examining who your AI is targeting and who it's not. Compare your targeting demographics to the broader population you're trying to reach. Ask hard questions about why certain communities might be underrepresented in your outreach. Diverse review teams are crucial here - people from different backgrounds are more likely to notice when something looks off. Monitor engagement patterns across different demographic groups to see if your AI is creating uneven outcomes. The goal isn't to achieve perfect demographic representation immediately, but to understand where your AI might have blind spots and take steps to address them systematically."
         },
         {
           "number": 7,
-          "script": "So we've talked about the risks, but what can you actually do about them? Here are some practical steps to build ethical AI use into your fundraising work. Start by regularly checking where your data comes from and whether it might be skewed or out of date. Make sure donors have actively opted in before you use AI to personalise your outreach to them. Before you send anything at scale, test your communications with a diverse range of donors to catch anything that might feel off or exclusionary. Crucially, keep a human being involved in the final decisions. AI should be informing your choices, not making them for you. Write down how your AI processes work so that someone can review or question them if needed. And invest time in training your team to recognise when something an AI produces just does not look right. These steps together help you use AI responsibly and with confidence."
+          "script": "Moving from identifying problems to solving them requires concrete operational changes. Regular auditing of your data sources helps catch bias before it affects your outreach. Implementing clear opt-in consent systems ensures donors understand how their information will be used. Testing communications with diverse focus groups before full deployment can catch problematic messaging early. Perhaps most importantly, maintain human oversight in final targeting decisions - AI should inform your choices, not make them automatically. Document your AI processes clearly so they can be reviewed, questioned, and improved over time. And invest in training your team to recognise when AI outputs seem unfair, inaccurate, or ethically questionable."
         },
         {
           "number": 8,
-          "script": "So before we move on, let's pull together the key principles that should guide how you work with AI in fundraising. First, always ask whether the data you are using is fair and truly representative, because hidden bias can creep in without you realising. Be transparent with your donors about how you are using their information, and make sure you have their clear consent before you start building profiles or targeting them. It is also worth building in regular checks on your AI tools, just to make sure they are still producing outcomes you are comfortable with. And perhaps most importantly, never lose sight of the human side of fundraising. Efficiency is wonderful, but donors are people, and they deserve to be treated that way. As a practical next step, I would encourage you to pick one fundraising process you are already running and have a think about where AI might genuinely add value without compromising your values."
+          "script": "As we wrap up, let's focus on practical next steps for your organization. Start by selecting one current fundraising process and evaluate where AI might add genuine value without compromising your ethical standards. Establish clear policies around consent, transparency, and vulnerable targeting before you begin implementation. Build regular bias audits into your standard workflows rather than treating them as one-time exercises. Invest in training your team on both the technical and ethical aspects of AI use. Consider starting with small pilot programs that let you test and refine your approach. Remember, the goal isn't to use AI everywhere, but to use it thoughtfully where it genuinely serves both your mission and your donors' dignity. The most effective AI implementation is one that strengthens rather than undermines the trust your organization has worked to build."
         }
       ]
     }

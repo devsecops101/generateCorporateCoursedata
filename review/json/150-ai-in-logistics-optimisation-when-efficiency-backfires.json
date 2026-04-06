@@ -26,44 +26,44 @@
         {
           "number": 2,
           "slidetitle": "The Efficiency Trap Explained",
-          "subtitle": "When optimising too much costs more.",
-          "slidecontent": "• AI systems built to minimise cost or maximise speed often remove the \"slack\" that keeps operations stable\n• No buffer means no recovery\n• A single disruption (a delayed shipment, a closed port) can cascade across the entire network\n• Optimised routes leave no room for rerouting when conditions change\n• The system performs brilliantly in normal conditions but becomes fragile under pressure\n• Efficiency and resilience are often in direct tension with each other"
+          "subtitle": "How AI strips away protective buffers",
+          "slidecontent": "• AI removes 'slack' to minimise cost or maximise speed\n• No buffer means no recovery options\n• Single disruptions cascade across networks\n• Optimised routes leave no room for rerouting\n• Systems perform brilliantly until pressure hits"
         },
         {
           "number": 3,
-          "slidetitle": "Efficiency Versus Resilience Trade-offs",
-          "subtitle": "The hidden cost of cutting corners",
-          "slidecontent": "• Faster often means more fragile\n• Cost cuts reduce backup options\n• Single suppliers create weak points\n• Disruptions spread quickly downstream\n• Resilience requires deliberate slack"
+          "slidetitle": "Cost Optimisation Creates Vulnerabilities",
+          "subtitle": "The hidden price of cutting corners",
+          "slidecontent": "• Cost cuts eliminate backup options\n• Single suppliers become weak points\n• Spare capacity gets flagged as waste\n• Disruptions spread quickly downstream\n• Resilience requires deliberate investment"
         },
         {
           "number": 4,
-          "slidetitle": "Resilience vs. Speed Trade-offs",
-          "subtitle": "When faster systems become more fragile",
-          "slidecontent": "• Faster often means less flexible\n• No slack, no recovery\n• Single points of failure multiply\n• Disruptions spread more quickly\n• Buffers protect against breakdowns"
+          "slidetitle": "Speed vs Flexibility Trade-offs",
+          "subtitle": "When faster systems lose adaptability",
+          "slidecontent": "• Faster systems have less flexibility\n• Tight connections spread problems rapidly\n• No hard shoulder means no recovery space\n• Single points of failure multiply risk\n• Speed only works if systems survive disruption"
         },
         {
           "number": 5,
-          "slidetitle": "Resilience Versus Speed Trade-offs",
-          "subtitle": "When faster systems fail more catastrophically",
-          "slidecontent": "• AI-optimised logistics networks strip out \"slack\" to cut costs, leaving no buffer when disruptions hit\n• Faster systems, bigger failures\n• A single delayed shipment can cascade across tightly connected supply chains within hours\n• Redundancy feels wasteful until the moment you desperately need it\n• Prioritising speed over resilience means trading small, manageable problems for rare but catastrophic ones"
+          "slidetitle": "The Catastrophic Failure Pattern",
+          "subtitle": "Trading small problems for big disasters",
+          "slidecontent": "• Hours to cascade from one delay to system-wide failure\n• Redundancy feels wasteful until desperately needed\n• Perfect conditions don't last in real operations\n• Small manageable problems become rare catastrophic ones\n• Brittleness hidden until the breaking point"
         },
         {
           "number": 6,
-          "slidetitle": "Resilience Versus Speed Trade-offs",
-          "subtitle": "When faster systems fail more catastrophically",
-          "slidecontent": "• Highly optimised systems leave little room for error when conditions change unexpectedly\n• Redundancy gets cut first\n• Removing backup routes and buffer stock speeds up delivery but creates single points of failure\n• A system tuned for perfect conditions often collapses faster under disruption than a slower, looser one\n• Speed and fragility frequently travel together in AI-optimised logistics networks"
+          "slidetitle": "Why Loose Systems Survive Better",
+          "subtitle": "The advantage of deliberate inefficiency",
+          "slidecontent": "• Backup routes provide escape valves\n• Buffer stock absorbs demand spikes\n• Extra capacity handles unexpected loads\n• Slower systems bend rather than break\n• Redundancy is insurance, not waste"
         },
         {
           "number": 7,
           "slidetitle": "Rebuilding Resilience After Disruption",
-          "subtitle": "Restoring flexibility when systems break down",
+          "subtitle": "Recovery strategies when systems break down",
           "slidecontent": "• Diversify suppliers immediately\n• Build manual backup processes\n• Restock safety stock buffers\n• Communicate delays proactively\n• Review single points of failure"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core lessons for smarter AI decisions",
-          "slidecontent": "• AI optimisation targets efficiency, but always at the cost of something else, usually resilience or flexibility\n• Speed and cost savings can mask hidden fragility\n• Disruptions expose over-optimised systems fast\n• Build slack into your logistics design, not just speed\n• Small buffers and supplier redundancy protect against large failures\n• Start by auditing where your current system has no room to adapt"
+          "slidecontent": "• AI targets efficiency at cost of resilience\n• Speed and cost savings mask fragility\n• Build slack into logistics design\n• Small buffers prevent large failures\n• Audit where systems cannot adapt"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So here's the core problem we're going to keep coming back to throughout this course. When AI is given a single goal, say, cut costs or speed up delivery, it gets very good at stripping out anything it sees as waste. And that includes the buffers, the spare capacity, the little bits of wiggle room that human planners often build in almost instinctively. The trouble is, that wiggle room isn't actually waste. It's what keeps the whole system stable when something goes wrong. And things do go wrong. A shipment gets delayed, a port closes unexpectedly, a supplier misses a deadline. In a well-optimised system, there's often no slack left to absorb that kind of disruption, so it ripples outward and affects everything else. The system looks brilliant on a normal day, but it becomes surprisingly fragile the moment conditions change. That's the efficiency trap. And it comes down to a fundamental tension between being lean and being resilient."
+          "script": "So here's the core problem we're going to keep coming back to throughout this course. When AI is given a single goal, say, cut costs or speed up delivery, it gets very good at stripping out anything it sees as waste. And that includes the buffers, the spare capacity, the little bits of wiggle room that human planners often build in almost instinctively. The trouble is, that wiggle room isn't actually waste. It's what keeps the whole system stable when something goes wrong. And things do go wrong. A shipment gets delayed, a port closes unexpectedly, a supplier misses a deadline. In a well-optimised system, there's often no slack left to absorb that kind of disruption, so it ripples outward and affects everything else. The system looks brilliant on a normal day, but it becomes surprisingly fragile the moment conditions change."
         },
         {
           "number": 3,
-          "script": "So here's something that might seem counterintuitive at first. When AI optimises a logistics network for maximum efficiency, it's essentially trimming away anything that looks wasteful. Spare capacity, backup suppliers, buffer stock. All of that gets cut because, on paper, it looks like unnecessary cost. But those so-called inefficiencies are actually what protect you when things go wrong. If you're relying on a single supplier because they were the cheapest option, and that supplier has a problem, your entire operation feels it almost immediately. And because modern supply chains are so tightly connected, a disruption in one place ripples downstream very quickly. The honest truth is that resilience costs something. It requires what we call deliberate slack, a bit of breathing room built into the system on purpose. AI is brilliant at finding efficiency, but without the right guardrails, it can quietly make your operation far more fragile than it needs to be."
+          "script": "Now let's look specifically at what happens when AI focuses on cutting costs. The algorithm sees multiple suppliers and thinks, why pay three when one will do? It sees spare warehouse capacity and flags it as unnecessary expense. It looks at buffer stock sitting on shelves and calculates how much money is tied up doing nothing. On paper, this all makes perfect sense. But in reality, you're creating single points of failure throughout your network. If that one cheaper supplier has a problem, your entire operation feels it immediately. And because modern supply chains are so interconnected, a cost-cutting decision in one area can create vulnerabilities that show up somewhere completely different when things go wrong."
         },
         {
           "number": 4,
-          "script": "So here's a tension that sits right at the heart of AI-driven logistics: the faster and leaner you make a system, the more fragile it can become. When AI strips out every bit of inefficiency, it also strips out the breathing room that helps a system recover when something goes wrong. Think of it like a motorway with no hard shoulder. Everything moves quickly until there's an incident, and then suddenly there's nowhere to go. Highly optimised systems often have single points of failure baked into them, and because everything is so tightly connected and moving so fast, a disruption in one place spreads rapidly across the whole network. What used to be a local problem becomes a system-wide crisis. This is why buffers, those small reserves of stock, time, or capacity that AI might flag as wasteful, actually serve a really important purpose. They are your shock absorbers. Speed is valuable, but only if the system can still cope when things go wrong."
+          "script": "Here's where the speed obsession gets particularly dangerous. When AI optimises for the fastest possible delivery, it creates what we might call a motorway with no hard shoulder. Everything flows beautifully until there's an incident, and then suddenly there's nowhere to go. Fast systems are tight systems, and tight systems don't adapt well. A delayed shipment that might have been a minor inconvenience in a looser network becomes a major problem because there are no alternative routes, no spare capacity to absorb the delay. The connections between different parts of the supply chain are so direct and immediate that problems spread at the same speed as the goods themselves."
         },
         {
           "number": 5,
-          "script": "Here's something that might seem counterintuitive at first. When AI makes a logistics network faster and leaner, it also makes it more fragile. The way it does this is by stripping out what we might call \"slack\", things like spare capacity, backup suppliers, or extra stock sitting in a warehouse. Those things feel wasteful when everything is running smoothly, but they act as a cushion when something goes wrong. And in a tightly connected supply chain, things do go wrong. One delayed shipment, one blocked port, one supplier who can't deliver, and suddenly the problem isn't contained to one place. It ripples outwards, fast. What we're really talking about here is a trade-off. By chasing speed and efficiency, organisations are essentially swapping small, manageable hiccups for much rarer but far more serious failures. The system works brilliantly right up until the moment it doesn't, and then the consequences can be severe."
+          "script": "What we're really looking at here is a specific type of failure pattern. Instead of the small, frequent hiccups that human-managed systems used to have, AI-optimised networks tend to run smoothly for long periods and then fail catastrophically when something finally goes wrong. Think of it like the difference between a car that needs regular minor repairs versus one that runs perfectly until the engine seizes completely. The tightly connected nature of these systems means that when one thing breaks, the problem spreads incredibly quickly. What starts as a single delayed shipment can cascade across an entire supply network within hours, because there are no circuit breakers, no places where the system can absorb the disruption and prevent it from spreading further."
         },
         {
           "number": 6,
-          "script": "Here's something that might seem counterintuitive at first. When AI makes a logistics network faster and leaner, it often makes it more fragile at the same time. Think of it like this: to squeeze out every last bit of efficiency, the system removes anything that feels unnecessary. Spare warehouse stock, backup delivery routes, extra capacity sitting idle. All of that gets cut because, on paper, it looks like waste. But those so-called inefficiencies are actually your safety net. When something unexpected happens, a port closure, a sudden spike in demand, a supplier going offline, a highly optimised system has nowhere to flex. It was built for perfect conditions, and perfect conditions don't last. A slightly slower, looser system with a bit of redundancy built in will often handle disruption far better. So the pattern to watch out for is this: the faster and leaner the network, the harder it tends to fall when things go wrong."
+          "script": "This is why slightly looser, less optimised systems often handle real-world conditions better than their highly tuned counterparts. When you have backup suppliers, alternative routes, and a bit of extra stock sitting around, you have options when things go wrong. These things look inefficient from a pure cost perspective, but they're actually sophisticated risk management tools. A system with some redundancy built in can bend under pressure rather than break completely. It might not deliver the absolute best performance on a perfect day, but it keeps functioning when conditions become challenging. And in the real world, conditions become challenging fairly regularly."
         },
         {
           "number": 7,
-          "script": "So when a highly optimised system breaks down, what do you actually do next? The first priority is to stop relying on a single source for anything critical. Start reaching out to alternative suppliers straight away, even if they cost a little more. At the same time, make sure your team knows how to operate without the automated tools. Those manual backup processes might feel old-fashioned, but they are genuinely lifesaving in a crisis. You will also want to rebuild your safety stock buffers as quickly as possible, because lean inventories leave you very exposed during recovery. Whilst all of this is happening, keep your customers and partners informed. Proactive communication builds trust, even when the news is not great. And finally, once the dust settles, sit down and honestly identify where your single points of failure are. Because if one thing brought the whole system down, the chances are something similar could happen again."
+          "script": "So when a highly optimised system breaks down, what do you actually do next? The first priority is to stop relying on a single source for anything critical. Start reaching out to alternative suppliers straight away, even if they cost a little more. At the same time, make sure your team knows how to operate without the automated tools. Those manual backup processes might feel old-fashioned, but they are genuinely lifesaving in a crisis. You will also want to rebuild your safety stock buffers as quickly as possible, because lean inventories leave you very exposed during recovery. Whilst all of this is happening, keep your customers and partners informed. Proactive communication builds trust, even when the news is not great. And finally, once the dust settles, sit down and honestly identify where your single points of failure are."
         },
         {
           "number": 8,
-          "script": "So let's bring this all together. The central idea here is that AI optimisation is genuinely powerful, but it always involves a trade-off. When you chase efficiency, you are usually giving up resilience or flexibility in return, and the danger is that you often do not notice until something goes wrong. Fast, lean systems can look brilliant on paper, but they can hide real fragility underneath. When disruptions hit, and they will, over-optimised systems tend to buckle quickly. So the practical lesson is this: build some slack into your logistics design. That might mean holding a small buffer of stock, or keeping a secondary supplier on your list, even if you rarely use them. These things feel inefficient, but they are actually your safety net. And a good place to start is simply auditing your current setup and asking honestly: where does this system have absolutely no room to adapt? That question alone can be very revealing."
+          "script": "So let's bring this all together. The central idea here is that AI optimisation is genuinely powerful, but it always involves a trade-off. When you chase efficiency, you are usually giving up resilience or flexibility in return, and the danger is that you often do not notice until something goes wrong. Fast, lean systems can look brilliant on paper, but they can hide real fragility underneath. When disruptions hit, and they will, over-optimised systems tend to buckle quickly. So the practical lesson is this: build some slack into your logistics design. That might mean holding a small buffer of stock, or keeping a secondary supplier on your list, even if you rarely use them. These things feel inefficient, but they are actually your safety net. And a good place to start is simply auditing your current setup and asking honestly: where does this system have absolutely no room to adapt?"
         }
       ]
     }

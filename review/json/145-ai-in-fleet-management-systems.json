@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Fleet Management",
-          "subtitle": "Navigating Risks in AI-Driven Fleets",
+          "subtitle": "Introduction to AI-Driven Fleet Operations",
           "slidecontent": "• AI now powers routing, scheduling, and real-time monitoring in modern fleet operations\n• Decisions once made by experienced drivers and dispatchers are increasingly automated\n• Errors can cascade quickly across an entire fleet\n• Understanding where AI can fail helps teams stay in control\n• A practical starting point for anyone working with or alongside fleet technology"
         },
         {
           "number": 2,
-          "slidetitle": "Routing Risks and AI Decisions",
-          "subtitle": "Where AI Routing Choices Can Fail",
-          "slidecontent": "• AI routing systems can misread real-time traffic data, sending vehicles into congestion or road closures\n• Outdated map data leads to poor route suggestions\n• Algorithms may prioritise speed over vehicle weight limits or road restrictions\n• No built-in common sense\n• Edge cases like sudden weather changes or local events can cause routing failures that a human dispatcher would catch immediately\n• Over-reliance on automation means errors often go unnoticed until they cause delays or safety issues"
+          "slidetitle": "AI Routing System Failures",
+          "subtitle": "Common Routing Decision Risks",
+          "slidecontent": "• AI routing systems can misread real-time traffic data, sending vehicles into congestion or road closures\n• Outdated map data leads to poor route suggestions\n• Algorithms may prioritise speed over vehicle weight limits or road restrictions\n• Edge cases like sudden weather changes or local events cause failures human dispatchers would catch\n• Over-reliance on automation means errors often go unnoticed until they cause delays or safety issues"
         },
         {
           "number": 3,
-          "slidetitle": "Routing Risks and AI Decisions",
-          "subtitle": "Where AI Choices Can Go Wrong",
-          "slidecontent": "• AI routing systems can suggest unsafe or impractical routes based on outdated or incomplete map data\n• Overconfidence in AI recommendations without human checks\n• Traffic and weather conditions that change rapidly may not be reflected in real-time AI decisions\n• Driver welfare ignored when algorithms prioritise speed and efficiency above all else\n• Small data errors can compound into seriously flawed route planning\n• No built-in common sense"
+          "slidetitle": "Driver Safety in AI Routing",
+          "subtitle": "Human Impact of Algorithmic Decisions",
+          "slidecontent": "• Driver welfare ignored when algorithms prioritise speed and efficiency above all else\n• Unsafe routes suggested based on incomplete hazard data\n• Fatigue risks increased through unrealistic scheduling\n• No consideration for driver experience levels on challenging routes\n• Local knowledge and driver expertise dismissed by automated systems"
         },
         {
           "number": 4,
-          "slidetitle": "Monitoring Risks and Data Gaps",
-          "subtitle": "Where blind spots distort fleet decisions.",
-          "slidecontent": "• Incomplete vehicle data creating misleading performance reports\n• Sensor failures often go undetected for days\n• Gaps in telematics coverage distorting route efficiency calculations\n• Driver behaviour data missing during off-network journeys\n• Outdated maps feeding incorrect risk assessments into routing decisions\n• Small blind spots compounding into costly operational errors over time"
+          "slidetitle": "Vehicle Monitoring Data Gaps",
+          "subtitle": "Sensor and Telematics Failures",
+          "slidecontent": "• Incomplete vehicle data creating misleading performance reports\n• Sensor failures often go undetected for days\n• Gaps in telematics coverage distorting route efficiency calculations\n• Driver behaviour data missing during off-network journeys\n• Small blind spots compounding into costly operational errors over time"
         },
         {
           "number": 5,
-          "slidetitle": "Monitoring Risks and Data Gaps",
-          "subtitle": "Where Data Gaps Create Blind Spots",
-          "slidecontent": "• Missing sensors, blind routes\n• Outdated maps mislead drivers\n• Gaps hide vehicle faults\n• Poor data, poor decisions\n• Incomplete records increase risk"
+          "slidetitle": "Fleet Performance Analytics Risks",
+          "subtitle": "When Data Drives Wrong Conclusions",
+          "slidecontent": "• Incomplete records masking vehicle maintenance needs\n• Performance metrics skewed by missing data points\n• Fuel efficiency calculations based on partial journey data\n• Compliance reporting gaps creating regulatory exposure\n• Predictive maintenance algorithms failing due to sensor blind spots"
         },
         {
           "number": 6,
-          "slidetitle": "Monitoring Risks and Data Gaps",
-          "subtitle": "Where Data Gaps Create Blind Spots",
-          "slidecontent": "• Missing sensors, incomplete picture\n• Gaps hide vehicle faults\n• No data means poor decisions\n• Blind spots increase accident risk\n• Old data misleads routing choices"
+          "slidetitle": "Operational Decision Failures",
+          "subtitle": "AI Misjudgements in Daily Operations",
+          "slidecontent": "• Resource allocation errors during peak demand periods\n• Scheduling conflicts from poor cross-system data integration\n• Emergency response delays when AI systems lack real-time updates\n• Customer service impacts from inaccurate delivery predictions\n• Cost optimisation algorithms ignoring service quality requirements"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating AI Fleet Risks",
-          "subtitle": "Strategies to Reduce and Manage Exposure",
-          "slidecontent": "• Audit AI decisions regularly\n• Keep humans in control\n• Train staff on AI limits\n• Test systems before deployment\n• Monitor outputs continuously\n• Review and update often"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Practical Steps to Manage AI Fleet Risks",
+          "slidecontent": "• Audit AI decisions regularly with human oversight checkpoints\n• Train staff on AI system limitations and failure modes\n• Implement backup decision-making processes for system outages\n• Test systems thoroughly before deployment in live operations\n• Monitor outputs continuously with automated alert thresholds"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safer fleet decisions",
-          "slidecontent": "• AI assists, humans decide\n• Check data before trusting routes\n• Monitor alerts, act promptly\n• Bias in data causes risk\n• Review AI decisions regularly\n• Start small, build confidence"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Building Reliable AI Fleet Operations",
+          "slidecontent": "• Start small with pilot programmes to build confidence and expertise\n• Maintain human decision authority in critical safety situations\n• Regular data quality audits to identify and fix information gaps\n• Cross-train teams on both AI tools and traditional fleet management methods\n• Establish clear escalation procedures when AI recommendations seem questionable"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in Fleet Management Systems. Over the next few lessons, we're going to explore something that's becoming increasingly important for anyone working in or around modern fleet operations. AI is now doing a lot of the heavy lifting when it comes to routing vehicles, scheduling jobs, and keeping an eye on what's happening across a fleet in real time. Tasks that used to rely entirely on the experience and judgement of drivers and dispatchers are now being handled, at least in part, by algorithms. And that brings some real benefits, but it also introduces new risks. When something goes wrong with an AI system, it doesn't just affect one vehicle or one decision. Problems can spread quickly across the whole operation. So the goal of this course is to help you understand where those failure points are, and how to stay in control. Whether you're new to fleet technology or just getting to grips with the AI side of things, this is a practical and accessible starting point."
+          "script": "Welcome to this course on AI in Fleet Management Systems. AI is now doing a lot of the heavy lifting when it comes to routing vehicles, scheduling jobs, and keeping an eye on what's happening across a fleet in real time. Tasks that used to rely entirely on the experience and judgement of drivers and dispatchers are now being handled, at least in part, by algorithms. That brings real benefits, but it also introduces new risks. When something goes wrong with an AI system, it doesn't just affect one vehicle or one decision. Problems can spread quickly across the whole operation. So the goal of this course is to help you understand where those failure points are, and how to stay in control."
         },
         {
           "number": 2,
-          "script": "So AI routing sounds impressive, and it genuinely is, but it does come with some real risks that fleet managers need to understand. These systems rely heavily on live traffic feeds and map data, and if either of those is inaccurate or out of date, the AI can send a vehicle straight into a traffic jam or down a road that simply does not exist anymore. There is also the issue of the algorithm not fully understanding context. It might choose the fastest route without considering that the road has a weight restriction, or that a local event has closed off half the town centre. Unlike an experienced dispatcher, AI has no intuition. It cannot look out the window and think \"something feels off today.\" And because teams often trust the system completely, mistakes can go unnoticed until a vehicle is late or, worse, involved in a safety incident. So awareness of these limitations is absolutely essential."
+          "script": "AI routing sounds impressive, and it genuinely is, but it comes with real risks that fleet managers need to understand. These systems rely heavily on live traffic feeds and map data, and if either is inaccurate or out of date, the AI can send a vehicle straight into a traffic jam or down a road that doesn't exist anymore. There's also the issue of the algorithm not fully understanding context. It might choose the fastest route without considering weight restrictions or local events. Unlike an experienced dispatcher, AI has no intuition. It cannot look out the window and think something feels off today. Because teams often trust the system completely, mistakes can go unnoticed until a vehicle is late or involved in a safety incident."
         },
         {
           "number": 3,
-          "script": "So, AI routing sounds brilliant in theory, but there are some real risks we need to talk about. The system is only as good as the data it's working with, and if that data is outdated or incomplete, it can send drivers down routes that simply don't work in the real world. And here's the thing, if nobody's checking those recommendations, problems can slip through very easily. AI also struggles when conditions change quickly. A sudden downpour or a motorway closure might not be reflected in the decision the system just made. There's also a human side to this. Algorithms tend to chase speed and efficiency, and driver welfare can get forgotten in that process. On top of all that, a small error in the data doesn't stay small. It can snowball into seriously flawed planning. Ultimately, AI has no common sense. It can't read a situation the way an experienced driver or manager can. That's why human oversight matters so much."
+          "script": "One of the most concerning aspects of AI routing is how it can impact driver safety and wellbeing. Algorithms are typically designed to optimise for speed and efficiency, which means driver welfare can get forgotten in the process. You might see unsafe routes suggested because the system doesn't have complete hazard information, or unrealistic schedules that push drivers beyond safe fatigue limits. The system also doesn't consider that some routes require more experienced drivers, or that local knowledge might be crucial for navigating safely. When we rely too heavily on automated decisions, we risk dismissing the expertise and judgement that drivers bring to the job."
         },
         {
           "number": 4,
-          "script": "Now, one of the biggest challenges with AI in fleet management is that the system is only ever as good as the data it receives. If that data has gaps or errors, the AI starts making decisions based on an incomplete picture. For example, if a sensor on a vehicle fails and nobody notices for several days, the performance reports generated during that time are essentially misleading. Similarly, if a vehicle travels through an area with poor telematics coverage, you lose visibility of driver behaviour and route efficiency for that entire journey. Outdated maps are another common issue, feeding incorrect information into routing and risk assessments. What makes this particularly tricky is that individually, each of these blind spots might seem minor. But over time, small inaccuracies compound, and what started as a tiny data gap can snowball into genuinely costly operational mistakes. So understanding where these gaps exist is absolutely essential before you can trust the decisions your AI system is making."
+          "script": "One of the biggest challenges with AI in fleet management is that the system is only as good as the data it receives. If that data has gaps or errors, the AI starts making decisions based on an incomplete picture. If a sensor on a vehicle fails and nobody notices for several days, the performance reports generated during that time are misleading. Similarly, if a vehicle travels through an area with poor telematics coverage, you lose visibility of driver behaviour and route efficiency for that entire journey. What makes this particularly tricky is that individually, each blind spot might seem minor. But over time, small inaccuracies compound into genuinely costly operational mistakes."
         },
         {
           "number": 5,
-          "script": "Now, let's talk about where things can go wrong when your data isn't complete. Think of data gaps as blind spots, areas where you simply cannot see what's happening across your fleet. If a vehicle is missing sensors, or if certain routes aren't being tracked, you lose visibility entirely. Outdated maps are another real problem, because drivers relying on incorrect information can end up taking longer routes or missing important hazards. And when data is incomplete, vehicle faults can go unnoticed until they become serious, costly issues. This is the core challenge: every gap in your data leads to a gap in your decision making. If the information feeding into your fleet management system is unreliable or patchy, the decisions you make based on that information will be unreliable too. Incomplete records also create compliance and safety risks that can be difficult to defend if something goes wrong. So understanding where these gaps exist is absolutely the first step towards addressing them."
+          "script": "Data gaps don't just affect real-time decisions, they also distort the bigger picture analytics that fleet managers rely on for strategic planning. When your performance metrics are based on incomplete data, you might miss critical maintenance needs or make poor resource allocation decisions. Fuel efficiency calculations become unreliable when they're only capturing part of each journey. From a compliance perspective, gaps in your data create regulatory exposure because you can't demonstrate full oversight of your operations. Perhaps most concerning is when predictive maintenance algorithms fail because they're working with incomplete sensor data, potentially leading to unexpected breakdowns."
         },
         {
           "number": 6,
-          "script": "Now, let's talk about something that often gets overlooked in fleet management, and that's the problem of data gaps. When sensors are missing or not working properly, you simply don't have a complete picture of what's happening across your fleet. And here's the danger with that: faults can develop in vehicles without anyone noticing, because there's no data coming through to flag the issue. When you're making decisions without reliable information, those decisions are naturally going to be weaker. That applies to routing as well. If the data you're working with is outdated, your system might be directing drivers down routes that are no longer efficient or even safe. Most critically, these blind spots can directly increase the risk of accidents, because problems go undetected until it's too late. So the message here is straightforward: good AI in fleet management is only as effective as the data feeding into it. Gaps in that data mean gaps in your safety net."
+          "script": "Beyond routing and monitoring, AI systems are increasingly making operational decisions that directly affect service delivery and customer satisfaction. During peak demand periods, resource allocation errors can leave you short-staffed or with vehicles in the wrong locations. Poor integration between different systems can create scheduling conflicts that cascade through your entire operation. When emergency situations arise, delays in AI system updates can significantly impact response times. Customer service suffers when delivery predictions are based on inaccurate data, and cost optimisation algorithms sometimes ignore service quality requirements entirely, focusing purely on financial metrics."
         },
         {
           "number": 7,
-          "script": "So now that we understand the risks, let's talk about what we can actually do to manage them. The good news is that most of these risks are very manageable if you put the right practices in place. First, make sure you're regularly checking the decisions your AI system is making. Don't just assume it's always getting things right. Alongside that, keep your people involved. AI should support your team, not replace their judgement entirely. It's also really important to train your staff so they understand what the system can and cannot do, because overconfidence in AI is a genuine problem. Before you roll anything out, test it thoroughly in a controlled environment. Once it's live, keep a close eye on what it's producing, because systems can drift over time. And finally, treat your AI tools like any other part of your operation. Review them regularly and update them as your needs and circumstances change."
+          "script": "So now that we understand the risks, let's talk about what we can actually do to manage them. Most of these risks are very manageable if you put the right practices in place. First, make sure you're regularly auditing the decisions your AI system is making with proper human oversight checkpoints. Don't just assume it's always getting things right. Train your staff so they understand what the system can and cannot do, because overconfidence in AI is a genuine problem. Have backup decision-making processes ready for when systems fail. Before you roll anything out, test it thoroughly in a controlled environment, and once it's live, keep monitoring what it's producing with automated alerts when things look unusual."
         },
         {
           "number": 8,
-          "script": "So let us bring together the core principles from everything we have covered in this lesson. First and foremost, remember that AI is there to support your judgement, not replace it. You are always the decision maker. Before you trust a suggested route or schedule, take a moment to check that the underlying data actually makes sense. When alerts come through, respond to them promptly, because delays can turn small issues into serious ones. Be aware that if the data feeding your AI system contains bias or errors, the recommendations it produces will carry that same risk. That is why it is so important to review AI decisions on a regular basis rather than simply accepting them at face value. And finally, if you are just getting started with AI tools in your fleet operation, begin with something manageable. Build your confidence gradually before expanding further. Keep these principles in mind and you will be well placed to use AI safely and effectively in your day to day work."
+          "script": "When implementing AI tools in your fleet operation, start with something manageable and build your confidence gradually. Always maintain human authority over critical safety decisions, even when AI provides recommendations. Regular data quality audits help you identify and fix information gaps before they become serious problems. Cross-train your teams on both AI tools and traditional fleet management methods, so they can step in when technology fails. Most importantly, establish clear escalation procedures for when AI recommendations seem questionable. Your people should feel confident about overriding the system when their experience tells them something isn't right. Keep these principles in mind and you'll be well placed to use AI safely and effectively."
         }
       ]
     }

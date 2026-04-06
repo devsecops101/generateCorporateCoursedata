@@ -1,0 +1,107 @@
+{
+  "Course Title": "Poor Data Quality in Construction AI",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "How incomplete or outdated data impacts decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering workflows and a general curiosity about how data is used in decision-making are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the most common sources of poor data quality in construction projects and explain how incomplete or outdated information can lead to costly errors in AI-driven decision making. You will also apply practical strategies to recognise data quality issues early, helping you to support more reliable and informed outcomes across construction, engineering, and real estate development workflows.",
+  "lessons": [
+    {
+      "lesson title": "Poor Data Quality in Construction AI",
+      "order": 1,
+      "Description": "This lesson explores how poor data quality can undermine the effectiveness of artificial intelligence tools used in construction projects. You will learn how incomplete, inaccurate, or outdated information leads to flawed predictions, poor decision-making, and costly mistakes on site. Using practical examples from the construction industry, the lesson breaks down the most common data quality problems and explains why they occur. By the end, you will have a clearer understanding of the risks involved and why maintaining good quality data is essential for getting reliable results from AI systems.",
+      "status": "draft",
+      "content": "How incomplete or outdated data impacts decisions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Poor Data, Poor Decisions",
+          "subtitle": "Garbage in, garbage out, always.",
+          "slidecontent": "• AI systems in construction are only as reliable as the data fed into them\n• Flawed inputs lead directly to flawed outputs\n• No exceptions\n• Incomplete site records, outdated drawings, and missing sensor readings all count as poor data\n• Construction decisions made on bad data can affect safety, cost, and programme delivery\n• Understanding the problem is the first step to fixing it"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Poor Data Quality",
+          "subtitle": "When data falls short of requirements",
+          "slidecontent": "• Missing fields or values\n• Outdated or stale records\n• Duplicate entries exist\n• Inconsistent formats used\n• Inaccurate measurements recorded"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Outdated Data, Flawed Predictions",
+          "subtitle": "When old data misleads AI forecasts.",
+          "slidecontent": "• AI forecasts built on pre-pandemic cost data often underestimate today's material prices significantly\n• Supply chain disruptions have made even two-year-old figures unreliable\n• Old data skews predictions\n• Labour rate changes, inflation, and regional shortages all shift faster than historical datasets are updated\n• Outdated inputs produce confidently wrong outputs"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Outdated Data, Flawed Predictions",
+          "subtitle": "Yesterday's data, tomorrow's costly mistakes.",
+          "slidecontent": "• Old data, wrong forecasts\n• Costs spiral unexpectedly\n• Safety risks increase\n• Outdated specs cause rework\n• Decisions built on stale numbers"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Outdated Data Skews AI Predictions",
+          "subtitle": "Yesterday's data misleads tomorrow's decisions.",
+          "slidecontent": "• Construction projects span years, so data from early phases quickly becomes irrelevant\n• Material costs, supplier availability, and site conditions all change over time\n• Stale data\n• AI trained on outdated records predicts costs or timelines that no longer reflect reality\n• A model using pre-pandemic labour rates will consistently underestimate today's budgets"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Outdated Data, Outdated Decisions",
+          "subtitle": "Yesterday's data undermines today's choices.",
+          "slidecontent": "• Prices change constantly\n• Old specs cause rework\n• Outdated drawings mislead teams\n• Regulations get updated regularly\n• Stale data, costly mistakes"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust in Your Data",
+          "subtitle": "Steps to restore data confidence",
+          "slidecontent": "• Audit your data sources first\n• Fix errors before analysing\n• Set clear data standards\n• Train staff on quality checks\n• Review data regularly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for smarter data decisions",
+          "slidecontent": "• Garbage in, garbage out: poor data leads to poor AI decisions\n• Outdated site records can cause costly errors in planning and procurement\n• Always verify the source and age of any data before feeding it into an AI tool\n• Small data gaps matter\n• Cleaning and maintaining data is not a one-off task but an ongoing responsibility\n• Start small: audit one data set this week and note where the gaps or inconsistencies appear"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on poor data quality in construction AI. There is an old saying in computing: garbage in, garbage out. It is just as true today as it ever was, and it is absolutely central to how AI works in construction. If the data you feed into an AI system is incomplete, outdated, or just plain wrong, then the outputs will be unreliable too. There are no exceptions to that rule. Think about what poor data actually looks like on a construction project: site records with gaps, drawings that have not been updated, sensor readings that never arrived. All of that counts. And when AI is making recommendations based on that kind of information, the consequences can be serious, affecting safety on site, pushing up costs, or causing delays to programme delivery. So before we can talk about solutions, we need to properly understand the problem. That is exactly what this lesson is here to do."
+        },
+        {
+          "number": 2,
+          "script": "So before we can talk about the impact of poor data quality, we need to understand what it actually means in practice. Essentially, it comes down to data that fails to meet the standard required for it to be useful. That can show up in several ways. Sometimes information is simply missing, perhaps a field was never filled in, or a value was left blank. Other times the data exists but it is out of date, so you are making decisions based on records that no longer reflect reality. You might also find the same entry duplicated multiple times, which skews any analysis you try to run. Then there are inconsistencies, where the same type of information has been recorded in different formats across different sources. And finally, there is the problem of inaccurate measurements, where the figures recorded just do not match what was actually observed on site. Any one of these issues can cause real problems, and in construction AI, they can cause serious ones."
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration script for Slide 3:\n\nOne of the most common problems we see with AI in construction is the system making predictions based on data that is simply out of date. Think about cost forecasting. If an AI model was trained on figures from before the pandemic, it has no real understanding of how dramatically material prices have shifted since then. And it is not just ancient history we are talking about. Even data that is two years old can be seriously misleading now, given how volatile supply chains, labour rates, and regional material availability have become. The real danger here is that the AI does not know it is working with stale information. It carries on producing forecasts that look perfectly confident and credible, but are built on a foundation that no longer reflects reality. So the lesson is straightforward: if the data going into your AI is outdated, the predictions coming out will be wrong, no matter how sophisticated the technology appears to be."
+        },
+        {
+          "number": 4,
+          "script": "Now, let's talk about what happens when the data feeding your AI systems is simply out of date. Construction is a fast-moving industry. Material costs shift, regulations change, site conditions evolve. So if your AI is learning from data that's a year or two old, the forecasts it produces are going to be off. And when forecasts are off, budgets spiral. Projects that looked financially sound on paper suddenly run over cost, and nobody saw it coming because the numbers they relied on were stale. It gets more serious than money, though. Outdated information can create genuine safety risks on site, because conditions or standards may have changed since that data was recorded. And if your AI is referencing old specifications, your teams could be building to the wrong requirements entirely, which means rework, delays, and wasted resource. The core problem here is straightforward: when you make decisions based on old data, you are essentially navigating tomorrow's challenges with yesterday's map."
+        },
+        {
+          "number": 5,
+          "script": "Here's something that catches a lot of teams off guard. Construction projects can run for years, and the data collected at the start of a project often looks very different from what's true by the end of it. Material costs shift, suppliers come and go, and site conditions change constantly. So when an AI model is trained on older records, it builds its understanding of the world based on information that simply no longer applies. Think about labour rates before the pandemic compared to now. If your AI was trained on those older figures, it will keep producing cost estimates that are way too low, and nobody will realise why until the budget is already in trouble. This is what we mean by stale data, information that was accurate at one point but has since drifted out of step with reality. The AI doesn't know things have changed. It just keeps predicting based on what it was taught."
+        },
+        {
+          "number": 6,
+          "script": "Now, even if your data is accurate and complete, there's another problem that catches a lot of teams off guard, and that's data that's simply out of date. Construction is a fast-moving environment. Material prices can shift week to week, so if your AI is working from last year's cost figures, it's going to produce estimates that are well off the mark. The same goes for specifications and drawings. If someone is working from an older version of a document, you end up with rework, delays, and wasted budget. And it's not just internal documents you need to worry about. Building regulations and planning requirements get updated regularly, and if your AI hasn't been trained on the latest rules, it could be guiding decisions that are no longer compliant. The core message here is straightforward: stale data leads to costly mistakes. Keeping your data current isn't a nice-to-have, it's absolutely essential for AI to be genuinely useful on a project."
+        },
+        {
+          "number": 7,
+          "script": "So, we've talked a lot about what goes wrong with data quality, but let's end on a positive note and look at how you actually fix it. The first thing you want to do is go back to basics and audit where your data is coming from. Are those sources reliable? Once you know that, you can start cleaning things up, because there's really no point running any kind of analysis on data you already know has errors in it. From there, it's about putting proper standards in place so everyone on the team knows what good data looks like when they're entering or handling it. And that leads nicely into training, because your systems are only as good as the people using them. Finally, don't treat this as a one-off exercise. Build in regular reviews so that data quality stays high over time. It's an ongoing commitment, but it genuinely makes your AI tools far more reliable and trustworthy."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The golden rule is simple: if you put poor data into an AI tool, you will get poor results out of it. That applies whether we are talking about outdated site records, missing measurements, or inconsistent supplier information. Any of those gaps can lead to real mistakes in planning and procurement, and those mistakes cost money. Before you feed any data into an AI system, always ask yourself: where did this come from, and how recent is it? It is also worth remembering that data quality is not something you sort out once and forget about. It needs regular attention, like any other part of your workflow. Now, here is something practical you can do straight away. Pick just one data set this week, maybe a materials log or a site survey record, and have a proper look at it. Note where the gaps are, where things do not quite add up. That single habit is a brilliant place to start."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Project managers, construction managers, site engineers, building inspectors, real estate developers, construction supervisors, engineering technicians, data analysts in construction",
+  "Team or Dept this is for": "Construction, Engineering, Project Management, Real Estate Development, Operations, Quality Assurance"
+}

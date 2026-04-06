@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Risks in Online Travel Platforms",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Dependence on third-party systems and data accuracy.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how online travel platforms work, such as booking websites or travel agency software, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key AI risks associated with dependence on third-party systems in online travel platforms and explain how inaccurate data can affect customer experience and business outcomes. You will also be able to apply practical strategies to recognise and reduce these risks within hotels, travel agencies, and other hospitality and tourism settings.",
+  "lessons": [
+    {
+      "lesson title": "AI Risks in Online Travel Platforms",
+      "order": 1,
+      "Description": "Online travel platforms increasingly rely on artificial intelligence to power everything from price recommendations to customer service chatbots, but this dependence introduces a range of risks that are important to understand. When these platforms draw on third-party systems and external data sources, there is a real possibility that inaccurate or outdated information reaches the traveller, leading to booking errors or unexpected costs. This lesson explores how AI-driven tools can sometimes produce unreliable results, particularly when the underlying data is incomplete or poorly maintained. You will also look at the practical implications for both travellers and travel businesses, including how to spot potential issues and what questions to ask before trusting an AI-generated recommendation. No prior technical knowledge is required, and the focus throughout is on building everyday awareness of how these risks can affect real travel experiences.",
+      "status": "draft",
+      "content": "Dependence on third-party systems and data accuracy.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI in Travel Platforms",
+          "subtitle": "How AI shapes modern travel booking",
+          "slidecontent": "• AI now powers search, pricing, and recommendations on most major travel booking sites\n• Personalised results based on your browsing history and location\n• Faster bookings\n• Third-party data feeds the system, meaning accuracy depends on outside sources\n• Small data errors can lead to wrong prices, unavailable flights, or failed reservations"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Relying on Third-Party Systems",
+          "subtitle": "The Hidden Risks of External Dependence",
+          "slidecontent": "• Third parties can fail unexpectedly\n• Outages affect your whole platform\n• Data errors spread quickly\n• You lose direct control\n• Customers blame you anyway"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Third-Party Data Dependency Risks",
+          "subtitle": "Risks When External Data Sources Fail",
+          "slidecontent": "• Online travel platforms rely heavily on external providers like flight databases, hotel APIs, and payment gateways\n\n• When these third-party sources go down or send incorrect data, the AI has no reliable information to work with\n\n• Outdated pricing or availability data can cause the AI to make bookings that are impossible to fulfil\n\n• Data gaps can trigger errors\n\n• Inconsistent data formats across suppliers make it harder for AI systems to interpret and act on information accurately"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Risks of Inaccurate Third-Party Data",
+          "subtitle": "When Data Fails, Travellers Suffer Most",
+          "slidecontent": "• Outdated hotel details mislead travellers\n• Wrong prices cause booking errors\n• Closed attractions still appear listed\n• Inaccurate reviews damage trust\n• Faulty data harms platform reputation"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Risks of Inaccurate Travel Data",
+          "subtitle": "Outdated Information Can Mislead Travellers Significantly",
+          "slidecontent": "• Hotel listings showing amenities that no longer exist, such as pools or restaurants that have closed\n• Prices pulled from outdated caches, leading to booking surprises at checkout\n• Incorrect availability\n• Visa and entry requirement data that lags behind real government policy changes\n• Travellers making firm plans based on information the platform has not refreshed in months"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Third-Party Data Risks",
+          "subtitle": "Reducing Exposure to External Data Failures",
+          "slidecontent": "• Vetting third-party data providers before integrating their feeds into your platform\n\n• Check for SLAs\n\n• Monitoring live data streams for sudden gaps or anomalies in pricing and availability\n\n• Building fallback options so the platform can display cached or default content during outages\n\n• Regular audits of supplier data quality to catch persistent inaccuracies early\n\n• Training staff to recognise and escalate third-party data failures quickly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Third-Party Data Accuracy Risks",
+          "subtitle": "Outdated Data Can Mislead Travellers Instantly",
+          "slidecontent": "• Prices change without warning\n• Hotels close unexpectedly\n• Reviews become quickly outdated\n• Availability data often lags\n• AI cannot verify sources"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for safer AI travel",
+          "slidecontent": "• Verify all AI-generated prices\n• Cross-check third-party data\n• Keep booking confirmations handy\n• Trust official sources first\n• Review before you confirm"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI risks in online travel platforms. If you've booked a flight or hotel recently, you've almost certainly interacted with artificial intelligence, probably without even realising it. AI is now doing a lot of the heavy lifting on major travel sites. It's powering the search results you see, adjusting prices in real time, and suggesting destinations based on where you've been browsing. In many ways, this makes booking faster and more convenient. But here's the thing: these systems don't operate in isolation. They rely heavily on data coming in from third-party sources, things like airline systems, hotel databases, and external pricing feeds. And when that outside data contains even a small error, the consequences can ripple through quickly. You might see an incorrect price, try to book a flight that's no longer available, or find that your reservation simply doesn't go through. So let's explore how all of this works, and where the risks come in."
+        },
+        {
+          "number": 2,
+          "script": "When you build an online travel platform, you are almost certainly relying on other companies to keep things running. Think about flight data providers, hotel booking engines, payment processors. These are all third-party systems, and here is the thing: you have very little control over what happens on their end. If one of those suppliers goes down, your entire platform can grind to a halt, even if your own code is working perfectly. And it is not just outages you need to worry about. If a third party sends you incorrect data, perhaps a wrong price or an unavailable room, that bad information spreads through your platform almost instantly. Your customers see it, they book based on it, and problems follow. Now, here is the part that really matters for your business: when something goes wrong, your customers are not thinking about which supplier caused the issue. As far as they are concerned, it is your fault, and your reputation is on the line."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the biggest vulnerabilities in AI-powered travel platforms is something that often gets overlooked, and that is how much these systems depend on outside data. Think about everything a travel platform needs to function: live flight information, hotel availability, pricing feeds, payment systems. All of that comes from third-party providers. And here is the problem. If any one of those external sources goes offline, sends corrupted data, or simply falls out of date, the AI is essentially working blind. It might confidently offer a hotel room that is already fully booked, or quote a price that no longer exists. That leads to bookings that simply cannot be fulfilled, which is a serious issue for both the business and the customer. On top of that, different suppliers often format their data in completely different ways, which makes it even harder for the AI to interpret everything accurately. So the AI is only ever as reliable as the data feeding into it."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the biggest challenges facing AI-powered travel platforms is the quality of the data they rely on. These platforms pull in information from hundreds of third-party sources, and when that data is wrong or out of date, it's the traveller who pays the price. Imagine booking a hotel based on its listed amenities, only to arrive and find they no longer exist. Or purchasing a ticket to an attraction that quietly closed months ago. Incorrect pricing is another real problem, leading to booking errors and frustrated customers who feel misled. And then there are reviews. If the platform is surfacing inaccurate or manipulated feedback, travellers lose confidence in what they're reading. All of this adds up to something quite serious for the platform itself, because once trust is broken, it's very difficult to rebuild. So the reliability of third-party data isn't just a technical issue, it's a fundamental business and ethical concern."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the most immediate risks with AI-powered travel platforms is simply that the information they present can be wrong, or more precisely, out of date. Imagine booking a hotel because the listing proudly shows a rooftop pool and an on-site restaurant, only to arrive and find both have been closed for over a year. Or picture reaching the checkout and discovering the price is completely different from what was displayed, because the system was pulling figures from an old cache. It gets more serious than just inconvenience, though. Visa and entry requirements change regularly, and if a platform is working from data that is several months behind actual government policy, a traveller could genuinely be denied boarding or entry at a border. The core problem here is that AI systems are only as reliable as the data feeding them, and when that data is stale, real people make real plans based on information that simply no longer reflects reality."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually reduce our exposure to these third-party data risks? It starts before you even connect a supplier feed. You want to vet your data providers carefully, and make sure there are proper service level agreements in place that hold them accountable. Once those feeds are live, you need to be actively monitoring them for anything unusual, like prices suddenly dropping to zero or availability disappearing without explanation. It is also worth building fallback options into your platform, so that if a feed goes down, users still see something sensible rather than a blank page or an error. Beyond that, running regular audits of supplier data helps you spot persistent problems before they frustrate your customers. And do not overlook your team. Staff who know how to recognise a data failure and escalate it quickly can make a real difference in how fast you recover. A bit of preparation across all these areas goes a long way."
+        },
+        {
+          "number": 7,
+          "script": "Now, one of the trickiest challenges with AI in travel platforms is that the AI is only as good as the data it's working with, and that data often comes from third parties. Think about what that means in practice. A price you see today might have changed by the time you click \"book.\" A hotel that looks available in the search results might have actually closed down months ago. Those glowing reviews you're reading? They could be years old and no longer reflect the current experience. And availability information is notorious for lagging behind reality, so you might think you've found the perfect room only to discover it's already gone. Here's the real concern though: the AI pulling all of this together has no reliable way to verify whether any of it is accurate or up to date. It's presenting information confidently, but that confidence isn't the same as accuracy. So as a traveller, it's always worth double-checking directly with the provider before committing to anything."
+        },
+        {
+          "number": 8,
+          "script": "So before we wrap up this lesson, let's quickly pull together the most important things to keep in mind when using AI on travel platforms. First, never assume a price you see is final or accurate. Always verify it directly with the airline, hotel, or booking site. Similarly, if an AI tool is pulling in information from third parties, do a quick cross-check to make sure it lines up. Once you have made a booking, hold onto your confirmation emails and reference numbers. They are your safety net if anything goes wrong. When in doubt, go straight to official sources like the airline's own website or the hotel directly, rather than relying solely on what an AI has told you. And finally, take a moment to review every detail before you hit confirm. A few extra seconds of checking can save you a great deal of hassle later on. These simple habits will help you travel more confidently in an AI-powered world."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Travel agents, hotel managers, booking specialists, customer service representatives, operations managers, travel coordinators, hospitality staff, tourism industry professionals",
+  "Team or Dept this is for": "Operations, Customer Service, Hospitality Management, Travel Operations, Revenue Management, Business Development"
+}

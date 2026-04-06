@@ -1,0 +1,107 @@
+{
+  "Course Title": "User-Generated Content and AI Risks",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Moderation challenges and harmful content exposure.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with social media platforms and a general interest in how online content is managed are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with user-generated content and explain how AI tools are used to support moderation across publishing, film, advertising, and gaming platforms. You will also be able to apply practical strategies to recognise harmful content, assess moderation challenges, and contribute to safer, more responsible content environments within your organisation.",
+  "lessons": [
+    {
+      "lesson title": "User-Generated Content and AI Risks",
+      "order": 1,
+      "Description": "This lesson explores the growing risks associated with user-generated content in online spaces, with a particular focus on how artificial intelligence tools are changing the moderation landscape. You will learn how harmful content, including misinformation, hate speech, and manipulated media, can spread rapidly across platforms and why it presents such a significant challenge for both human moderators and automated systems. We will look at practical examples of how AI can both help detect harmful content and, in some cases, be used to create or amplify it. By the end of this lesson, you will have a clearer understanding of the key risks involved and the steps that platforms and individuals can take to respond to them. No prior technical knowledge is required, making this an accessible starting point for anyone working in or around digital content environments.",
+      "status": "draft",
+      "content": "Moderation challenges and harmful content exposure.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "User-Generated Content and AI Risks",
+          "subtitle": "Navigating Risks in the Digital Age",
+          "slidecontent": "• Content created and shared by everyday users across social platforms\n• Includes text, images, videos, and comments\n• Volume is vast and growing fast\n• AI tools now generate and amplify this content at scale\n• Moderation teams struggle to keep pace with the sheer amount of material\n• Understanding the risks helps protect users and organisations alike"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Identifying Harmful Content Types",
+          "subtitle": "What moderators need to watch for",
+          "slidecontent": "• Hate speech and harassment\n• Graphic violence or gore\n• Misinformation and fake news\n• Self-harm related content\n• Spam and scam links\n• Illegal or explicit material"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Identifying Harmful Content Types",
+          "subtitle": "What moderators must recognise and flag",
+          "slidecontent": "• Hate speech and harassment\n• Graphic violence or gore\n• Self-harm promotion\n• Misinformation and fake content\n• Spam and scam links"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Harmful AI Content",
+          "subtitle": "Signs to watch for online",
+          "slidecontent": "• AI-generated images often show subtle errors in hands, teeth, or background details\n• Text that sounds fluent but feels oddly vague or generic\n• Deepfake videos may flicker around facial edges or misalign with audio\n• Emotionally manipulative content designed to provoke a strong, immediate reaction\n• No clear author or source\n• Repeated phrasing patterns across multiple posts from different accounts"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising AI-Generated Harmful Content",
+          "subtitle": "Spotting the Signs Before It Spreads",
+          "slidecontent": "• AI-generated images often show subtle errors like misshapen hands, blurred text, or unnatural lighting\n• Faces may look oddly smooth or symmetrical\n• Audio deepfakes can mimic a real person's voice with unsettling accuracy\n• Repeated phrasing patterns or overly polished writing can signal AI-generated text\n• Context mismatches, such as a celebrity appearing in an unlikely setting, are a common red flag\n• Spotting these signs early gives moderators a better chance of stopping harmful content before it spreads"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Reporting and Escalation Processes",
+          "subtitle": "Knowing when and how to escalate",
+          "slidecontent": "• Clear escalation paths for flagging content that may require human review or legal attention\n• Not everything needs immediate escalation, so knowing the difference saves time\n• Urgent cases include threats of violence, child safety concerns, and self-harm disclosures\n• Document what you saw, when you saw it, and any action already taken\n• Use your platform's official reporting tools rather than informal channels\n• When in doubt, escalate up"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting and Escalation Procedures",
+          "subtitle": "When and How to Raise Concerns",
+          "slidecontent": "• Spot it, report it immediately\n• Use your platform's flag tool\n• Escalate if harm seems urgent\n• Tell a supervisor when unsure\n• Document what you witnessed"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for safer content moderation",
+          "slidecontent": "• Report harmful content immediately\n• Never engage with suspicious posts\n• Use moderation tools consistently\n• Document patterns you notice\n• Ask for support when unsure\n• Review guidelines regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on User-Generated Content and AI Risks. So, what are we actually talking about here? Every day, millions of ordinary people post text, share images, upload videos, and leave comments across social media platforms and websites. That content, created and shared by users rather than organisations, is what we call user-generated content. And the sheer volume of it is staggering, growing faster than most of us can imagine. What makes this even more complex is that AI tools are now being used to create and spread content at a scale that simply was not possible before. This puts enormous pressure on the teams responsible for keeping platforms safe, because they genuinely cannot review everything. Throughout this course, we will explore the risks this creates, both for individual users and for the organisations that host or rely on this content, and we will look at practical ways to navigate those risks sensibly."
+        },
+        {
+          "number": 2,
+          "script": "So when we talk about harmful content, what are we actually looking for? Let's walk through the main categories that moderators need to be aware of. First, there's hate speech and harassment, which covers anything targeting people based on who they are or that's designed to intimidate or bully. Then we have graphic violence, so images or videos that are gratuitously gory or disturbing. Misinformation is another big one, particularly false health claims or fabricated news stories that can spread quickly and cause real harm. We also need to watch for content that encourages or glorifies self-harm, which requires a particularly sensitive approach. Spam and scam links might seem less serious, but they can expose users to fraud and malware, so they absolutely count. And finally, anything that's outright illegal or sexually explicit needs to be caught and removed promptly. These categories form the foundation of what a solid content moderation strategy is built around, and we'll be exploring each of them in more detail as we go through this course."
+        },
+        {
+          "number": 3,
+          "script": "So when we talk about harmful content, what are we actually looking for? There are five main categories that every moderator needs to be familiar with. First, there's hate speech and harassment, which covers anything targeting people based on who they are or designed to intimidate or bully them. Then we have graphic violence, so images or videos showing gore or extreme physical harm. Closely related to that is content which promotes or glorifies self-harm, which requires particular sensitivity when handling. We also need to watch out for misinformation, things like fake news, manipulated images, or deliberately misleading claims that could cause real-world harm. And finally, there's spam and scam links, which might seem less serious but can expose users to fraud or malware. Now, these categories can sometimes overlap, and that's where judgement becomes really important. Over the coming lessons, we'll look at each of these in much more detail and explore how AI fits into the picture."
+        },
+        {
+          "number": 4,
+          "script": "So how do we actually spot AI-generated content in the wild? There are a few tell-tale signs worth knowing. With images, look closely at the details, things like hands with too many fingers, strange teeth, or backgrounds that just look a bit off. With written content, it might read smoothly but feel oddly hollow or vague, as if it was written by nobody in particular. Videos are trickier, but deepfakes often have a slight flickering around the face, or the mouth movements do not quite match the voice. Beyond the technical clues, pay attention to how content makes you feel. If something is pushing you to react strongly and immediately, that is worth questioning. Also ask yourself, who actually made this? If there is no clear author or source, that is a red flag. And if you notice the same phrases cropping up across lots of different accounts, that suggests something coordinated rather than genuine."
+        },
+        {
+          "number": 5,
+          "script": "So, how do we actually spot AI-generated content in the wild? There are some tell-tale signs worth knowing. With images, look closely at the details, particularly hands, which AI still struggles to render correctly, as well as blurry text or lighting that just feels a bit off. Faces can appear unusually smooth or perfectly symmetrical in a way that looks almost too good. With audio, deepfakes have become remarkably convincing, so if a voice clip feels slightly unnatural or the context seems wrong, that is worth questioning. Written content is another area to watch. AI-generated text often has a polished, repetitive quality that can feel a little hollow. And always consider whether the scenario makes sense. A well-known figure appearing somewhere completely out of character is a classic warning sign. The good news is that once you know what to look for, you are in a much stronger position to catch harmful content early, before it has a chance to spread."
+        },
+        {
+          "number": 6,
+          "script": "When you come across content that concerns you, it's important to know what to do next and who to involve. Not every piece of problematic content needs to go straight to a manager or legal team, so understanding the difference between what you can handle yourself and what needs escalating will save everyone a lot of time. That said, some situations always require urgent escalation, and those include anything involving threats of violence, concerns about child safety, or someone disclosing that they may harm themselves. In those cases, act quickly. Whatever the situation, make sure you document it properly, noting what you saw, when you saw it, and any steps you've already taken. Always use your platform's official reporting tools rather than just sending an informal message to a colleague. And if you're ever unsure whether something needs escalating, the answer is simple: escalate it anyway. It's always better to raise a concern that turns out to be minor than to ignore one that isn't."
+        },
+        {
+          "number": 7,
+          "script": "So, what do you actually do when you come across something that raises a red flag? The golden rule is simple: don't sit on it. If you see something concerning, report it straight away using whatever flagging or reporting tool your platform provides. Most systems have a built-in way to do this, so make sure you know where that button is before you need it. Now, if the content seems like it could cause immediate harm to someone, don't just flag it and move on. Escalate it. That might mean going directly to a supervisor or following your organisation's urgent reporting process. And if you're ever unsure whether something is serious enough to escalate, err on the side of caution and speak to your manager. One more thing: wherever possible, document what you saw. Note the time, the content, and any relevant details. That record could be really important if the situation needs to be investigated further."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some essential reminders to carry with you. First, if you spot something harmful, report it straight away. Don't sit on it or second-guess yourself. And if a post looks suspicious, don't engage with it at all, just flag it and move on. Make sure you're using the moderation tools available to you consistently, because they only work well when everyone is applying them in the same way. It's also really useful to keep a note of any patterns you start to notice over time, as that information can be genuinely valuable for your team. If you're ever unsure about something, please do ask for support. There's no shame in it, and it's far better than making a decision you're not confident about. Finally, make a habit of revisiting your organisation's guidelines regularly, because they do get updated, and staying current really does make a difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Content moderators, social media managers, community managers, digital marketing specialists, content creators, brand managers, communications professionals, customer service representatives",
+  "Team or Dept this is for": "Marketing, Communications, Customer Service, Brand Management, Digital Media, Content Operations, Community Management"
+}

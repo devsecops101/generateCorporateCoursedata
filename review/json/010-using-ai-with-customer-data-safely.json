@@ -37,21 +37,21 @@
         },
         {
           "number": 4,
-          "slidetitle": "Anonymise Before You Share",
-          "subtitle": "Strip names, details, then proceed.",
+          "slidetitle": "The Anonymisation Process",
+          "subtitle": "Strip identifiers before sharing.",
           "slidecontent": "• Remove names first\n• Delete contact details\n• Swap IDs for codes\n• Check dates and locations\n• Then share safely"
         },
         {
           "number": 5,
-          "slidetitle": "Minimising Risk in Practice",
+          "slidetitle": "Your Daily Checklist",
           "subtitle": "Practical steps to protect customer data",
-          "slidecontent": "• Remove or replace names, emails, and account numbers before pasting data into any AI tool\n• Anonymise first, always\n• Use fictional or scrambled examples when testing AI features during setup or training\n• Check your organisation's policy before sharing any customer information with a third-party AI service\n• Treat AI input fields like public spaces, not private ones\n• Keep a record of what data types you have used with AI tools, in case of a later audit"
+          "slidecontent": "• Use fictional examples when testing AI features\n• Check your organisation's policy before sharing data\n• Treat AI input fields like public spaces\n• Keep a record of data types used with AI tools\n• Apply the minimum data needed principle"
         },
         {
           "number": 6,
-          "slidetitle": "Anonymise Before You Share",
-          "subtitle": "Remove names, details, identifiers first.",
-          "slidecontent": "• Strip names out first\n• Remove emails and phone numbers\n• Replace IDs with placeholders\n• Check dates and locations too\n• Then share with AI tools"
+          "slidetitle": "Building Safe Workflows",
+          "subtitle": "Creating repeatable data protection habits.",
+          "slidecontent": "• Develop a standard cleaning routine before AI use\n• Use placeholder codes consistently\n• Double-check for overlooked identifiers\n• Test your anonymisation with sample data first\n• Make data protection automatic, not optional"
         },
         {
           "number": 7,
@@ -63,7 +63,7 @@
           "number": 8,
           "slidetitle": "What to Remember",
           "subtitle": "Keep these principles close at hand.",
-          "slidecontent": "• Never paste real customer data into a public or unverified AI tool\n• Anonymise first, then prompt\n• Always check your organisation's policy before using AI with any client information\n• If in doubt, leave it out\n• Treat AI tools like any other third-party software, with the same data-handling care\n• Start small, review the results, and build confidence gradually before scaling up your use"
+          "slidecontent": "• Never paste real customer data into unverified AI tools\n• Anonymise first, then prompt\n• Always check your organisation's policy\n• If in doubt, leave it out\n• Start small, review results, build confidence gradually"
         }
       ],
       "scripts": [
@@ -85,11 +85,11 @@
         },
         {
           "number": 5,
-          "script": "So let's talk about what this actually looks like day to day. The golden rule is simple: anonymise first, always. Before you paste anything into an AI tool, strip out the names, email addresses, account numbers, anything that identifies a real person. If you're just testing a feature or setting something up, use made-up examples rather than real customer data. It's also worth checking your organisation's policy before you share anything with a third-party AI service, because not all tools are approved for that kind of use. A helpful way to think about it is this: imagine the AI input field is a public noticeboard. You wouldn't pin a customer's personal details up there, so don't type them in either. And finally, keep a simple log of what types of data you've used with AI tools. If there's ever an audit or a question later on, you'll be really glad you did."
+          "script": "Now let's look at what this means in your everyday workflow. When you're testing AI features or setting something up, always use fictional examples rather than real customer data. There's simply no need to risk actual information when placeholder data will do the job just as well. Before you share any customer information with a third-party AI service, take a moment to check your organisation's policy, because not all tools will be approved for that kind of use. A helpful way to think about AI input fields is to imagine they're public noticeboards. You wouldn't pin a customer's personal details up there, so don't type them in either. And here's a practical tip: keep a simple log of what types of data you've used with AI tools. If there's ever an audit or a question later on, you'll be really glad you kept that record."
         },
         {
           "number": 6,
-          "script": "Before you paste any customer data into an AI tool, take a moment to clean it up first. That means stripping out anything that could identify a real person. Start with the obvious stuff, names, email addresses, and phone numbers. Those should go before anything else. Then look at any ID numbers or reference codes, and replace those with simple placeholders like \"Customer A\" or \"ID001.\" But do not stop there, because dates and locations can also give away more than you might expect, especially if they are specific enough to point to an individual. Once you have gone through all of that, then you are in a much safer position to share the data with an AI tool. Think of it as a quick checklist you run through every single time. It only takes a minute or two, but it makes a real difference in keeping your customers protected and your business on the right side of data regulations."
+          "script": "The key to handling customer data safely with AI is making protection automatic, not something you have to remember each time. Develop a standard routine for cleaning data before you use it, and stick to that routine every time. When you replace IDs with placeholder codes, use a consistent system so you can track things if needed. Always take a second look for identifiers you might have missed the first time, things like email signatures or references buried in text. If you're setting up a new process, test your anonymisation approach with sample data first to make sure it's working properly. The goal is to build habits that protect customer information without slowing down your work. When data protection becomes automatic, you can focus on getting the best results from AI tools while keeping everyone safe."
         },
         {
           "number": 7,
@@ -97,7 +97,7 @@
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The single most important habit to build is this: never put real customer information into an AI tool unless you are absolutely certain it is approved and secure. Anonymise your data first, then work with it. And before you do anything, check your organisation's policy, because the rules will vary from one workplace to another. A simple phrase worth keeping in mind is \"if in doubt, leave it out.\" It really is that straightforward. Think of AI tools the same way you would think of any other third-party software you might use at work, and apply the same level of care around data handling. Finally, there is no need to rush. Start with something small, see how it goes, build your confidence, and then gradually do more. Getting this right from the beginning will save you a great deal of trouble further down the line."
+          "script": "So let's bring everything together. The single most important habit to build is this: never put real customer information into an AI tool unless you are absolutely certain it is approved and secure. Always anonymise your data first, then work with it. And before you do anything, check your organisation's policy, because the rules will vary from one workplace to another. A simple phrase worth keeping in mind is 'if in doubt, leave it out.' It really is that straightforward. Think of AI tools the same way you would think of any other third-party software you might use at work, and apply the same level of care around data handling. Finally, there is no need to rush. Start with something small, see how it goes, build your confidence, and then gradually do more. Getting this right from the beginning will save you a great deal of trouble further down the line."
         }
       ]
     }

@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Scheduling Smarter, Caring Better",
-          "subtitle": "How AI shapes hospital care today.",
-          "slidecontent": "• Hospitals manage thousands of moving parts every single day\n• AI now helps coordinate staff, beds, theatres, and patient flow\n• Faster, smarter scheduling\n• But optimisation can quietly create new problems for patients\n• Real benefits alongside real risks worth understanding"
+          "slidetitle": "AI Transforms Hospital Operations",
+          "subtitle": "From manual coordination to intelligent automation",
+          "slidecontent": "• Hospitals coordinate thousands of daily decisions across staff, beds, and services\n• AI now automates scheduling for theatres, appointments, and patient flow\n• Machine learning optimizes resource allocation in real-time\n• Efficiency gains are measurable and significant\n• Technology handles complexity humans struggle with"
         },
         {
           "number": 2,
-          "slidetitle": "Scheduling Systems and Their Trade-offs",
-          "subtitle": "Balancing Efficiency Against Patient Needs",
-          "slidecontent": "• Schedules balance cost, time, staff\n• Efficiency often conflicts with care\n• Gaps cause delays or overload\n• Optimised systems miss human needs\n• Trade-offs affect real patients daily"
+          "slidetitle": "The Hidden Trade-offs in Optimization",
+          "subtitle": "What efficiency algorithms prioritize and ignore",
+          "slidecontent": "• AI systems optimize for measurable metrics like throughput and cost\n• Unmeasurable factors like patient comfort get deprioritized\n• Algorithms assume all patients have similar needs and timeframes\n• System efficiency can conflict with individual care quality\n• Trade-offs are often invisible until problems emerge"
         },
         {
           "number": 3,
-          "slidetitle": "Scheduling Conflicts and Patient Impact",
-          "subtitle": "When efficiency overlooks individual patient needs",
-          "slidecontent": "• AI schedulers built to maximise throughput can inadvertently deprioritise complex or slower patients\n• Appointment slots assigned by algorithm without accounting for travel time or mobility needs\n• Vulnerable patients most affected\n• Back-to-back scheduling leaves no buffer for overruns, creating cascade delays across a full clinic day\n• Patients with multiple conditions may receive fragmented appointments that fail to address their care holistically"
+          "slidetitle": "When Algorithms Overlook Vulnerability",
+          "subtitle": "How AI scheduling can disadvantage complex patients",
+          "slidecontent": "• Complex patients require more time but reduce throughput metrics\n• Mobility limitations ignored when assigning appointment sequences\n• Multiple conditions get fragmented across separate optimized slots\n• Elderly and disabled patients face the greatest scheduling barriers\n• Vulnerable populations become systematically underserved"
         },
         {
           "number": 4,
-          "slidetitle": "The Human Cost of Optimisation",
-          "subtitle": "When efficiency overlooks individual patient needs",
-          "slidecontent": "• Patients become data points\n• Individual needs get ignored\n• Delays harm vulnerable people\n• Efficiency targets override care\n• Real harm, real people"
+          "slidetitle": "Patients as Data Points",
+          "subtitle": "The human cost of algorithmic decision-making",
+          "slidecontent": "• Individual patient circumstances reduced to standardized data inputs\n• Personal needs that don't fit algorithms get ignored\n• Efficiency targets override clinical judgment about patient readiness\n• Real harm occurs when systems prioritize numbers over people\n• Vulnerable patients suffer most from depersonalized care"
         },
         {
           "number": 5,
-          "slidetitle": "When Efficiency Hurts Patient Care",
-          "subtitle": "Optimisation at the expense of outcomes",
-          "slidecontent": "• Scheduling algorithms that maximise bed turnover can leave patients discharged before they are clinically ready\n\n• Reduced buffer time between appointments increases the risk of rushed assessments\n\n• Efficiency gains on paper\n\n• Staff workload compressed by AI-driven rotas, leading to fatigue and missed observations\n\n• Optimising for cost or throughput without weighting patient outcomes skews the system toward speed over safety"
+          "slidetitle": "Premature Discharge and Rushed Care",
+          "subtitle": "When efficiency metrics drive unsafe practices",
+          "slidecontent": "• Bed turnover algorithms discharge patients before clinical readiness\n• Compressed appointment slots prevent thorough assessments\n• Staff workload optimization leads to fatigue and missed observations\n• Paper metrics improve while patient outcomes deteriorate\n• Speed becomes the goal rather than the means to better care"
         },
         {
           "number": 6,
-          "slidetitle": "Balancing Efficiency With Patient Safety",
-          "subtitle": "When optimisation undermines the care delivered.",
-          "slidecontent": "• AI scheduling tools built to maximise throughput can inadvertently reduce time spent at the bedside\n• Shorter appointment slots may improve efficiency metrics but leave complex patients underserved\n• Algorithms rarely account for the unpredictable, human elements of care\n• Staff overrides of AI recommendations are sometimes discouraged, even when clinical judgement demands it\n• Optimisation without safety guardrails is a risk, not a benefit"
+          "slidetitle": "Overriding Clinical Judgment",
+          "subtitle": "When AI recommendations conflict with professional expertise",
+          "slidecontent": "• Algorithms reduce bedside time in favor of throughput targets\n• Complex patients underserved by standardized appointment lengths\n• Unpredictable care needs don't register in scheduling logic\n• Staff discouraged from overriding AI despite clinical concerns\n• Optimization without safety guardrails creates systematic risks"
         },
         {
           "number": 7,
-          "slidetitle": "Balancing Efficiency With Patient Care",
-          "subtitle": "When efficiency must not compromise care.",
-          "slidecontent": "• Speed can delay real care\n• Targets ignore patient complexity\n• Efficiency metrics miss suffering\n• Optimised rotas cause burnout\n• Numbers never replace judgement"
+          "slidetitle": "The Burnout-Suffering Cycle",
+          "subtitle": "How optimization harms both staff and patients",
+          "slidecontent": "• Rushed schedules prevent meaningful patient interactions\n• Staff burnout from AI-compressed workloads affects care quality\n• Patient complexity invisible to efficiency-focused algorithms\n• Human suffering cannot be captured in performance metrics\n• Clinical expertise devalued when algorithms drive decisions"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for safer AI adoption",
-          "slidecontent": "• AI can harm without intent\n• Optimisation hides patient risk\n• Always audit scheduling outputs\n• Staff feedback matters most\n• Test before full deployment\n• Review, adjust, repeat often"
+          "slidetitle": "Safeguarding AI Implementation",
+          "subtitle": "Essential practices for responsible hospital automation",
+          "slidecontent": "• Audit AI outputs regularly for unintended patient impacts\n• Value frontline staff feedback over efficiency metrics alone\n• Pilot new systems before hospital-wide deployment\n• Build patient safety measures into algorithmic design\n• Maintain ongoing review and adjustment processes"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in hospital operations and scheduling. If you have ever wondered how a busy hospital keeps everything running, the honest answer is that it is enormously complicated. On any given day, a hospital is juggling hundreds of staff shifts, dozens of operating theatres, thousands of patient appointments, and beds that need to be in exactly the right place at exactly the right time. Increasingly, artificial intelligence is stepping in to help manage all of that complexity, making scheduling faster and more responsive than ever before. And that is genuinely exciting. But here is the thing: when you use powerful tools to optimise a system, you can sometimes create new pressures or problems that were not there before, and patients can end up feeling the effects of those changes. So throughout this course, we are going to look honestly at both sides: the real benefits AI brings, and the real risks that are worth understanding."
+          "script": "Welcome to this course on AI in hospital operations and scheduling. Modern hospitals are incredibly complex environments, coordinating thousands of decisions every day across staff rosters, bed assignments, operating theatres, and patient appointments. Increasingly, artificial intelligence is stepping in to automate these scheduling challenges, using machine learning to optimize resource allocation in ways that would be impossible for human coordinators to manage manually. The efficiency gains are real and measurable - AI can process vastly more variables than any human scheduler and adjust in real-time to changing conditions. This technological capability to handle such overwhelming complexity is genuinely impressive and represents a significant advancement in healthcare operations."
         },
         {
           "number": 2,
-          "script": "When we talk about scheduling in a hospital, we're really talking about a constant juggling act. Every rota, every appointment slot, every theatre booking has to balance three things at once: keeping costs manageable, making the best use of time, and making sure the right staff are in the right place. The trouble is, those goals don't always sit comfortably together. A schedule that looks perfectly efficient on paper can fall apart the moment something unexpected happens, like a patient who needs more time, or a member of staff who calls in sick. Those gaps, however small, can ripple outwards and cause delays or leave teams completely overwhelmed. And here's the important point: even the most carefully optimised system can struggle to account for the very human side of care. Behind every scheduling decision, there are real patients whose experience is directly shaped by how well, or how poorly, that balance is struck."
+          "script": "However, there's something important to understand about how these AI systems actually work. When algorithms optimize hospital operations, they focus on what can be easily measured and quantified - things like throughput rates, bed turnover times, and cost per appointment. The challenge is that many aspects of quality patient care are much harder to measure and therefore tend to get ignored by the optimization process. The system assumes all patients have roughly similar needs and will take similar amounts of time, when of course that's far from reality. This creates a fundamental tension: what makes a schedule efficient from an algorithmic perspective may not align with what provides the best care experience for individual patients. These trade-offs are often completely invisible until serious problems start to emerge."
         },
         {
           "number": 3,
-          "script": "So let's talk about what happens when AI scheduling systems are designed purely around efficiency, because that focus can actually work against some of the patients who need the most support. If an algorithm is built to maximise the number of appointments in a day, it may quietly push complex or slower patients down the priority list. It might assign a slot without considering whether someone can actually get there on time, or whether they have mobility challenges that need accounting for. And when every appointment is packed tightly back to back, there's no room for overruns, so one delay can ripple through an entire clinic day. Perhaps most importantly, patients managing several conditions at once can end up with fragmented appointments that never quite address the full picture of their health. The system looks efficient on paper, but the lived experience for vulnerable patients can be quite the opposite. That's the tension we need to understand before we go any further."
+          "script": "Let me give you some concrete examples of how this plays out for vulnerable patients. When an AI system is designed to maximize appointment throughput, complex patients who need extra time actually hurt the algorithm's performance metrics. So the system gradually learns to deprioritize them. Similarly, if someone has mobility challenges or needs wheelchair access, but the algorithm doesn't factor in travel time between appointments, they may be scheduled for back-to-back slots in different buildings. Patients managing multiple chronic conditions often find their care fragmented across separately optimized time slots that don't connect to create a coherent care experience. What we see consistently is that elderly patients and those with disabilities face the greatest barriers when scheduling is purely algorithm-driven, because their needs simply don't fit the standardized assumptions that make optimization possible."
         },
         {
           "number": 4,
-          "script": "Now, here's where we need to pause and be honest about something important. When we talk about optimising hospital operations, it can be very easy to lose sight of what we're actually optimising for. Behind every appointment slot, every bed allocation, every scheduling decision, there is a real person. And when AI systems are designed purely around efficiency targets, patients can effectively become numbers in a spreadsheet rather than individuals with unique and sometimes urgent needs. We've seen cases where vulnerable patients, perhaps elderly people or those with complex conditions, experience harmful delays simply because the system prioritised throughput over their specific circumstances. That's not a hypothetical risk, it's something that has happened. So as we explore how AI can improve hospital operations, we need to keep asking a critical question: efficient for whom, and at what cost? Getting this balance right is absolutely central to responsible use of AI in healthcare."
+          "script": "This brings us to a fundamental issue with how AI systems approach healthcare: they necessarily reduce individual patients to standardized data inputs that can be processed mathematically. Personal circumstances, family concerns, anxiety levels, or cultural considerations that affect care simply don't exist in the algorithm's decision-making process. When efficiency targets override clinical judgment about whether a patient is truly ready for discharge or needs additional support, we've moved from using technology to serve patients to asking patients to serve the technology. The harm that results is not hypothetical - it's documented and affecting real people every day. What's particularly concerning is that the patients who are most vulnerable to begin with are the ones most likely to be further marginalized by these algorithmic systems."
         },
         {
           "number": 5,
-          "script": "So here is something worth pausing on. AI can be genuinely impressive at finding efficiencies, but efficiency is not always the same thing as good care. When a scheduling algorithm is designed purely to maximise bed turnover, patients can end up being discharged before they are actually ready to go home. When appointment slots are squeezed too tightly, clinicians do not have enough time to properly assess each person. And when AI-driven rotas compress staff workloads without accounting for human limits, fatigue sets in, and small but important things get missed. The problem is that on paper, all of this can look like a success. The numbers improve, costs come down, throughput goes up. But if the system is only optimising for speed and cost, and nobody has weighted patient outcomes into that equation, then the system is quietly drifting away from its core purpose. Efficiency should serve patient care, not compete with it."
+          "script": "Here are some specific ways that efficiency-focused algorithms can compromise patient safety. Bed management systems that optimize for turnover rates can flag patients for discharge before they're clinically stable, simply because keeping the bed occupied longer hurts the throughput metrics. Appointment scheduling that eliminates buffer time between slots means clinicians are constantly rushing, increasing the risk that important symptoms get missed during hurried assessments. When AI-driven staff rotas compress workloads without accounting for human limits, the resulting fatigue leads to errors and oversights. The insidious thing is that all of these problems can be hidden behind improving performance numbers - costs go down, efficiency goes up, and targets are met, even while patient outcomes are quietly deteriorating because the system is optimizing for the wrong things."
         },
         {
           "number": 6,
-          "script": "Here is something worth sitting with for a moment. AI scheduling tools are often designed with one goal in mind: get more done in less time. And on paper, that sounds like a good thing. But when you compress appointment slots and push clinicians to move faster, the patients who need the most attention are the ones who suffer. Real care is messy and unpredictable, and algorithms simply are not built to handle that. What makes this more concerning is that staff are sometimes discouraged from overriding AI recommendations, even when their clinical instincts are telling them something is wrong. That is a serious problem. Efficiency only has value when it supports good outcomes, not when it gets in the way of them. So the point here is straightforward: if an AI system is optimising schedules without any safety guardrails built in, that is not progress. That is a risk being dressed up as one."
+          "script": "One of the most troubling developments is when healthcare organizations actively discourage staff from overriding AI recommendations, even when clinical experience suggests something is wrong. These systems often reduce the time clinicians spend at patients' bedsides because face-to-face interaction doesn't contribute to throughput targets. Complex patients who need longer appointments find themselves squeezed into standardized slots that simply aren't adequate for their needs. The unpredictable, human elements of care - the conversation that reveals a crucial symptom, the observation that something isn't quite right - these don't register in algorithmic logic. When we implement optimization systems without built-in safety guardrails that protect space for clinical judgment, we're not improving healthcare, we're systematically undermining it."
         },
         {
           "number": 7,
-          "script": "So here is something worth sitting with for a moment. Efficiency sounds like a good thing, and in many ways it is, but in a hospital setting it can quietly work against the very people we are trying to help. When we push too hard for speed, we can actually slow down the care that really matters, because staff are rushing through interactions rather than truly listening. Targets and throughput numbers tend to treat every patient as roughly the same, when of course they are not. A frail elderly patient and a fit young adult are not the same problem to solve. And when we reduce care to metrics, we risk missing the human suffering that does not show up in a spreadsheet. There is also a real risk to staff. Rotas optimised purely for coverage can grind people down and lead to burnout. The honest truth is that no algorithm, however clever, can replace the judgement of an experienced clinician standing in front of a patient."
+          "script": "There's a destructive cycle that emerges when AI optimization prioritizes speed over care quality. Staff find themselves rushing through patient interactions because the schedule allows no flexibility, which means they can't provide the attentive, personalized care that many patients desperately need. This leads to burnout among healthcare workers, which in turn affects the quality of care they're able to provide. Meanwhile, patient complexity and suffering remain invisible to algorithms that only understand efficiency metrics. The human expertise that experienced clinicians bring - their ability to recognize subtle signs, to understand when someone needs extra support, to make nuanced judgments about care priorities - gets systematically devalued when algorithms are allowed to drive clinical decisions without appropriate human oversight."
         },
         {
           "number": 8,
-          "script": "So let us bring together the most important lessons from this session. First, AI does not need to make a mistake on purpose to cause harm. A system that looks like it is working brilliantly on paper can still put patients at risk if the underlying priorities are wrong. That is why you should never just trust the output. Regularly audit what the scheduling system is actually producing, and look beyond the efficiency numbers. The people closest to the work, your nurses, porters, and ward staff, will often spot problems that the data simply cannot show you, so their feedback is genuinely invaluable. Before you roll anything out fully, test it in a controlled way first, and be honest about what you find. And once it is live, do not walk away. Keep reviewing, keep adjusting, and keep improving. Safe AI adoption is not a one-off project. It is an ongoing commitment."
+          "script": "So how do we implement AI in hospital operations responsibly? The key is building safeguards into the process from the beginning. First, regularly audit what your AI systems are actually producing and look beyond the efficiency numbers to understand patient impacts. The people working closest to patients - your nurses, support staff, and frontline clinicians - will often identify problems that don't show up in performance data, so their feedback is invaluable. Never deploy AI systems hospital-wide without thorough piloting that specifically looks for unintended consequences. Most importantly, patient safety measures need to be built into the algorithmic design itself, not added as an afterthought. Safe AI adoption isn't a one-time implementation project - it requires ongoing monitoring, adjustment, and a commitment to putting patient welfare ahead of operational metrics."
         }
       ]
     }

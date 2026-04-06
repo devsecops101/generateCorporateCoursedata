@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Audit Risks: An Introduction",
-          "subtitle": "Why AI outputs demand closer scrutiny",
-          "slidecontent": "• AI errors look convincing\n• Outputs can mislead auditors\n• Validation gaps create risk\n• Standards haven't caught up\n• Scrutiny is now essential"
+          "slidetitle": "AI in Audit: The New Reality",
+          "subtitle": "Why AI outputs demand professional scrutiny",
+          "slidecontent": "• AI tools now widely used in accounting and audit\n• Polished outputs can appear credible when wrong\n• Visual cues for errors often absent\n• Professional standards lag behind technology\n• Enhanced scrutiny is no longer optional"
         },
         {
           "number": 2,
-          "slidetitle": "Identifying AI Output Risks",
-          "subtitle": "Where AI outputs can go wrong",
-          "slidecontent": "• AI outputs can contain confident-sounding errors that are difficult to spot without domain knowledge\n• Hallucinated figures or citations presented as fact\n• Subtle misapplication of accounting standards\n• Outputs may reflect outdated regulatory guidance\n• Formatting that looks professional but masks underlying inaccuracies"
+          "slidetitle": "Categories of AI Output Risk",
+          "subtitle": "Where AI-generated content fails",
+          "slidecontent": "• Hallucinated data presented as factual\n• Misapplication of accounting standards\n• Outdated regulatory guidance referenced\n• Professional formatting masking inaccuracies\n• Missing context and hidden assumptions"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting Errors in AI Outputs",
-          "subtitle": "Where AI outputs can go wrong",
-          "slidecontent": "• Figures that look plausible but contain subtle calculation errors\n• Invented references\n• Confident, authoritative tone even when the output is wrong\n• Missing context or assumptions buried silently in the response\n• Inconsistencies across sections of the same document"
+          "slidetitle": "Deceptive Confidence Problem",
+          "subtitle": "When authoritative tone misleads",
+          "slidecontent": "• Confident language used for uncertain content\n• Authoritative tone remains consistent despite errors\n• No stylistic signals when information is fabricated\n• Professional presentation creates false security\n• Tone fails as reliability indicator"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Errors in AI Outputs",
-          "subtitle": "Where accuracy demands a critical eye",
-          "slidecontent": "• Numbers can look plausible\n• Dates may be fabricated\n• References often invented\n• Totals rarely self-check\n• Formatting masks mistakes"
+          "slidetitle": "Common Error Patterns",
+          "subtitle": "Specific mistakes to watch for",
+          "slidecontent": "• Plausible-looking but incorrect calculations\n• Fabricated dates and reference numbers\n• Invented citations and sources\n• Non-self-checking totals and summations\n• Clean formatting obscuring underlying errors"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting Errors in AI Outputs",
-          "subtitle": "What to look for and why",
-          "slidecontent": "• Figures that look plausible but cannot be traced back to a source document\n• Inconsistent totals across related schedules\n• Confident-sounding language used to describe uncertain or estimated values\n• Dates, entity names, or reference numbers that do not match the underlying records\n• Subtle shifts in terminology mid-document that may signal stitched-together content\n• Missing caveats where professional judgement would normally be required"
+          "slidetitle": "Red Flags Checklist",
+          "subtitle": "Warning signs requiring immediate attention",
+          "slidecontent": "• Figures untraceable to source documents\n• Inconsistent totals across related schedules\n• Missing caveats where judgement required\n• Entity names/dates mismatching records\n• Terminology shifts suggesting assembled content"
         },
         {
           "number": 6,
-          "slidetitle": "Spotting Errors in AI Outputs",
-          "subtitle": "What to look for and why",
-          "slidecontent": "• Numbers that look plausible but wrong\n• Confident tone, incorrect facts\n• Missing source references\n• Inconsistent figures across sections\n• Outdated regulatory guidance cited"
+          "slidetitle": "Document Consistency Issues",
+          "subtitle": "Internal contradictions and outdated references",
+          "slidecontent": "• Same data showing different values across sections\n• Conflicting information within single document\n• Regulatory guidance beyond knowledge cut-off\n• Missing source attribution for claims\n• Cross-reference failures between schedules"
         },
         {
           "number": 7,
-          "slidetitle": "Strengthening Your Audit Approach",
-          "subtitle": "Practical steps to reduce audit risk",
-          "slidecontent": "• Document all AI inputs used\n• Cross-check outputs independently\n• Flag unusual figures promptly\n• Apply professional scepticism always\n• Review, don't just accept"
+          "slidetitle": "Validation Framework",
+          "subtitle": "Systematic approach to AI output review",
+          "slidecontent": "• Document all AI tool inputs used\n• Cross-verify outputs against source data\n• Flag unusual figures for immediate review\n• Apply heightened professional scepticism\n• Treat AI output as draft requiring validation"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• AI outputs can appear confident and polished even when the underlying data or logic is flawed\n• Always verify, never assume\n• Professional scepticism remains your most important tool when reviewing any AI-assisted work\n• Hallucinated figures and fabricated references are real risks, not edge cases\n• Document your validation steps clearly, as you would for any other audit evidence\n• As a next step, review your firm's current guidance on AI use and identify one area where additional checks could be introduced"
+          "slidetitle": "Implementation Next Steps",
+          "subtitle": "Building robust AI-aware audit practices",
+          "slidecontent": "• Review firm's current AI usage guidance\n• Identify one area for additional validation checks\n• Document verification steps as audit evidence\n• Remember: polished appearance ≠ accuracy\n• Maintain professional scepticism as primary defence"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on auditing risks with AI-generated outputs. Now, you might be wondering why this topic matters so much right now. The honest answer is that AI tools have become remarkably good at producing content that looks polished, confident, and credible, even when it is completely wrong. That creates a real problem for auditors, because the usual visual cues that something might be off simply are not there. On top of that, many organisations are using AI outputs without putting proper checks in place to validate what those tools are actually producing. And here is the thing: the professional standards and guidance that auditors rely on have not yet caught up with how quickly this technology has moved. So we find ourselves in a position where scrutiny is no longer optional. It is absolutely essential. Throughout this course, we will look at where the risks lie and what you can do to approach AI-generated outputs with the right level of professional scepticism."
+          "script": "Welcome to this course on audit risks with AI-generated outputs. AI tools have rapidly become commonplace in accounting and audit practices, but they bring unique challenges. These tools excel at producing content that looks polished, confident, and credible—even when completely incorrect. This creates a serious problem because the usual visual cues that alert us to potential errors simply aren't there. Many organizations are adopting AI outputs without establishing proper validation processes, while professional standards haven't kept pace with technological advancement. The result is that enhanced scrutiny is no longer optional—it's essential for maintaining audit quality and professional standards."
         },
         {
           "number": 2,
-          "script": "So let's start by looking at where AI outputs can actually go wrong, because this is really the foundation of everything we'll cover in this lesson. One of the trickiest things about AI-generated content is that it often sounds completely authoritative, even when it's wrong. It might produce figures, cite sources, or reference accounting standards with total confidence, but those details can be fabricated or misapplied. And unless you have the domain knowledge to spot that, it's very easy to miss. There's also the issue of currency. AI models are trained on data up to a certain point, so the guidance they reference may simply be out of date. And perhaps the most deceptive risk of all is presentation. AI output tends to look polished and well-structured, which can give us a false sense of security. That professional appearance can actually make it harder to notice when something underneath is inaccurate. So looking good and being correct are very different things."
+          "script": "Let's examine the main categories where AI outputs can fail. AI tools may generate hallucinated data—completely fabricated figures, dates, or statistics presented as factual information. They can misapply accounting standards, referencing correct principles but applying them inappropriately to specific situations. Since AI models have knowledge cut-offs, they may cite outdated regulatory guidance that has since been revised. The professional formatting typical of AI outputs can actually work against us, creating a false sense of reliability. Additionally, AI responses often embed assumptions or omit crucial context without clearly flagging these limitations to users."
         },
         {
           "number": 3,
-          "script": "So let's look at some of the specific ways AI outputs can go wrong, because the errors are not always obvious. One of the trickiest issues is with numbers. AI can produce figures that look completely reasonable at first glance, but contain subtle mistakes in the underlying calculation. It can also invent references, citing sources that simply do not exist. And here is what makes both of those problems particularly dangerous: the writing style is usually confident and authoritative, so there is nothing in the tone to signal that something is wrong. On top of that, important assumptions or missing context can be quietly baked into a response without being flagged to you at all. And if you are working with a longer document, you might find that different sections actually contradict each other. So the core message here is that AI outputs can fail in ways that are easy to miss if you are not actively looking for them. That is exactly what this lesson will help you do."
+          "script": "One of the most dangerous aspects of AI-generated content is what we call the deceptive confidence problem. AI maintains the same authoritative, professional tone regardless of whether the underlying information is accurate. There's no stylistic change, no hedging language, and no uncertainty markers when the AI is fabricating information. This consistent confidence can actually make us less likely to question the content critically. Unlike human-generated work, where uncertainty or guesswork might be signaled through language choices, AI presents everything with equal conviction. This means we can't rely on tone as an indicator of reliability."
         },
         {
           "number": 4,
-          "script": "So let's talk about where things can go wrong when you're looking at AI-generated outputs, because the errors aren't always obvious. One of the trickiest things is that numbers tend to look completely convincing, even when they're wrong. AI is very good at producing figures that feel right, but haven't actually been calculated correctly. The same goes for dates, which can simply be made up, and references to sources, reports, or legislation, which are often invented entirely. The AI isn't lying deliberately, it's just predicting what looks plausible. Another issue is that totals don't self-check. If a table adds up to the wrong figure, the AI won't flag it. And perhaps most deceptively, clean formatting gives everything a polished, professional appearance that can make you less likely to question it. So the core skill here is learning to slow down and look critically, rather than assuming that because something looks well-presented, it must be accurate."
+          "script": "Now let's look at specific error patterns to watch for. AI frequently produces calculations that appear completely reasonable but contain subtle mathematical errors. It may fabricate dates, reference numbers, or entity names that sound plausible but don't match actual records. Citations and source references are commonly invented—the AI predicts what a reasonable reference might look like rather than citing actual sources. Totals and summations don't self-check, so related figures may not add up correctly. Perhaps most deceptively, the clean, professional formatting typical of AI outputs can make us less inclined to scrutinize the underlying content."
         },
         {
           "number": 5,
-          "script": "So when you are reviewing AI-generated outputs, what should you actually be watching for? The first thing is numbers that look entirely reasonable but cannot be tied back to any source document. If you cannot trace a figure, that is a problem. You should also check whether totals are consistent across related schedules, because AI can produce figures that look fine in isolation but simply do not add up when you compare them. Pay close attention to the language as well. AI tends to sound very confident, even when it is describing something estimated or uncertain, so do not let a polished tone reassure you. Check that names, dates, and reference numbers actually match the underlying records. Watch for subtle changes in wording mid-document, which can suggest the content has been assembled from different sources. And finally, ask yourself whether any professional judgements or caveats are missing, because AI will often skip those entirely. These are the warning signs that should prompt a closer look."
+          "script": "When reviewing AI-generated content, certain red flags should trigger immediate deeper investigation. Any figures that can't be traced back to source documents are problematic, regardless of how reasonable they appear. Check that totals remain consistent across related schedules and sections. Professional judgment situations often lack appropriate caveats in AI outputs—watch for definitive statements where uncertainty should be acknowledged. Verify that entity names, dates, and reference numbers actually match your underlying records. Finally, pay attention to subtle shifts in terminology throughout a document, which may indicate the content was assembled from different sources or training data."
         },
         {
           "number": 6,
-          "script": "So when you're reviewing AI-generated content, what are the specific things you should be watching out for? The first is numbers. AI can produce figures that look completely reasonable at first glance, but are actually wrong. It's the plausibility that makes them dangerous. Linked to that is tone. AI tends to write with a lot of confidence, even when the underlying information is inaccurate. So a polished, authoritative sentence doesn't mean the content is correct. You should also notice when sources are missing entirely. If there's no reference to back up a claim, that's a red flag. Then look across the whole document for consistency. If a figure appears in one section and a different number appears elsewhere for the same thing, something has gone wrong. Finally, watch out for regulatory guidance that may be out of date. AI models have a knowledge cut-off, so they can cite rules or standards that have since been updated or replaced. These are the patterns worth training your eye to spot."
+          "script": "Document consistency presents another significant challenge with AI outputs. The same piece of data may appear with different values in different sections of the same document. AI doesn't maintain internal consistency checks the way a careful human reviewer would. You'll also encounter regulatory guidance that appears current but is actually outdated due to the AI model's knowledge cut-off date. Missing source attribution is common—claims are made without supporting references. Cross-references between schedules or sections often fail, with related figures that should match showing unexplained discrepancies. These inconsistencies require systematic checking rather than spot-checking."
         },
         {
           "number": 7,
-          "script": "So, how do we actually make our audit work more robust when AI is involved? It comes down to a few practical habits. First, keep a clear record of every input you fed into the AI tool, because if something looks wrong later, you need to be able to trace it back. Then, always verify the outputs independently rather than assuming the AI got it right. If a figure looks unusual or out of place, flag it straight away rather than leaving it for someone else to question. And throughout all of this, bring your professional scepticism to the table. That means actively questioning what you see, not just nodding it through because a machine produced it. The real mindset shift here is moving from passive acceptance to active review. AI can be a genuinely useful tool, but it works best when a trained, thinking professional is checking its work every step of the way."
+          "script": "Developing a systematic validation framework is essential for managing AI-related audit risks. Start by documenting all inputs you provide to AI tools—if problems emerge later, you need to trace back to the source. Cross-verify all outputs against your source data rather than assuming accuracy. Any figures that appear unusual or unexpected should be flagged for immediate detailed review. Apply heightened professional skepticism throughout the process—question actively rather than accept passively. Most importantly, treat AI output as draft material that requires validation, not as final work product ready for client delivery."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. One of the most important things to remember is that AI can sound incredibly convincing, even when it's wrong. A polished, confident-looking output is not the same as a reliable one. That's why professional scepticism is so essential here. It doesn't switch off just because a machine produced the result. We've also talked about hallucinations and fabricated references, and I want to be clear: these are not rare, unusual events. They happen, and you need to be prepared for them. When you do carry out your validation checks, make sure you're documenting what you did, just as you would with any other piece of audit evidence. And as a practical next step, I'd encourage you to go back to your firm's current guidance on AI use, have a proper read through it, and think about where one additional check could genuinely strengthen your process. Small steps like that make a real difference."
+          "script": "As you implement these practices, start by reviewing your firm's current guidance on AI tool usage—many policies haven't kept pace with actual usage patterns. Identify at least one specific area in your workflow where additional validation checks could be introduced effectively. When you do perform verification steps, document them thoroughly as you would any other audit evidence. Remember the key principle: a polished, professional appearance does not equal accuracy. Your professional skepticism remains the most important tool for maintaining audit quality in an AI-assisted environment. These aren't temporary adjustments—they're permanent additions to professional practice."
         }
       ]
     }

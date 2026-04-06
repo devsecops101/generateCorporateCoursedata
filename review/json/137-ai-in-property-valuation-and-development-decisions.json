@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Spotting Market Misjudgements Early",
-          "subtitle": "Before losses become hard to reverse",
-          "slidecontent": "• AI tools flagging price anomalies weeks before traditional appraisals catch them\n• Overvalued sites identified early\n• Demand signals from rental and sales data revealing softening markets before they fully turn\n• Early warnings reducing the risk of committing capital to developments with shrinking margins\n• Pattern recognition across thousands of comparable transactions, far beyond manual capacity"
+          "slidetitle": "Early Warning Systems",
+          "subtitle": "Catching problems before they become costly",
+          "slidecontent": "• Price anomalies flagged weeks before traditional appraisals\n• Overvalued sites identified early\n• Rental and sales signals reveal softening markets\n• Pattern recognition across thousands of transactions\n• Early warnings prevent capital commitment to failing projects"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting Risks Before They Escalate",
-          "subtitle": "Early signals, smarter risk management.",
-          "slidecontent": "• AI tools scanning thousands of data points to flag early warning signs in local markets\n• Sudden shifts in rental demand or planning refusals detected faster than manual review\n• Reduces guesswork\n• Comparable sales anomalies identified before they distort a valuation\n• Risk scoring applied to individual sites based on flood data, infrastructure gaps, and economic indicators"
+          "slidetitle": "Real-Time Risk Detection",
+          "subtitle": "Continuous monitoring of market conditions",
+          "slidecontent": "• Thousands of data points scanned instantly\n• Sudden rental demand shifts detected faster\n• Planning refusal clusters identified immediately\n• Risk scoring based on flood data and infrastructure\n• Comparable sales anomalies caught before distortion"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Valuation Blind Spots",
-          "subtitle": "Where assumptions distort true market value.",
-          "slidecontent": "• Valuers often rely on comparable sales that are outdated or drawn from the wrong catchment area\n• Emotional pricing by sellers inflates perceived market value\n• Local demand shifts (new transport links, school closures) frequently go unaccounted for\n• Assumptions about rental yield based on peak-market figures\n• Development potential overlooked when only current use is assessed\n• Small data gaps compound into significant misjudgements over time"
+          "slidetitle": "Common Valuation Blind Spots",
+          "subtitle": "Where human assumptions fail",
+          "slidecontent": "• Outdated or mismatched comparable sales\n• Emotional pricing by sellers\n• Local demand shifts go unaccounted\n• Rental yields based on peak-market figures\n• Development potential overlooked\n• Small data gaps compound into major errors"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting Valuation Blind Spots",
-          "subtitle": "Where assumptions distort true market value",
-          "slidecontent": "• Outdated comparables skew estimates\n• Emotion inflates perceived worth\n• Location bias clouds judgement\n• Renovations often overvalued\n• Demand assumptions age quickly"
+          "slidetitle": "Psychology of Property Misjudgements",
+          "subtitle": "How bias creeps into valuations",
+          "slidecontent": "• Location bias from over-familiarity\n• Renovation costs consistently overvalued\n• Demand assumptions age quickly\n• Personal attachment inflates perceived worth\n• Market timing assumptions become outdated"
         },
         {
           "number": 6,
-          "slidetitle": "Avoiding Costly Valuation Errors",
-          "subtitle": "Reducing risk through smarter data insights",
-          "slidecontent": "• Spot overvaluations early\n• Reduce costly market misjudgements\n• Flag inconsistent comparable data\n• Catch errors before commitment\n• Protect development budgets"
+          "slidetitle": "Data Quality Control",
+          "subtitle": "Ensuring reliable comparable evidence",
+          "slidecontent": "• Flag inconsistent comparable data\n• Cross-reference multiple data sources\n• Validate against current market conditions\n• Highlight outliers requiring investigation\n• Prevent flawed data from feeding decisions"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Risk With AI",
-          "subtitle": "Reducing Exposure Through Smarter Data Insights",
-          "slidecontent": "• Spots risky markets early\n• Flags overvalued assets instantly\n• Reduces costly misjudgements\n• Monitors trends in real time\n• Supports smarter investment choices"
+          "slidetitle": "AI Risk Mitigation Strategies",
+          "subtitle": "Practical applications for safer investments",
+          "slidecontent": "• Market instability alerts\n• Asset overvaluation warnings\n• Real-time trend monitoring\n• Continuous data validation\n• Evidence-based decision support"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• AI tools can support valuation work but cannot replace professional judgement\n• Always verify AI-generated figures against current market data and comparable evidence\n• Blind reliance on AI outputs is a real source of financial exposure\n• Understand the data your AI tool was trained on, as outdated or biased inputs produce unreliable outputs\n• Start small, test outputs carefully\n• A cautious, informed approach to AI adoption protects both your clients and your practice"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Safe adoption of AI tools",
+          "slidecontent": "• AI supports but never replaces professional judgement\n• Always verify outputs against market evidence\n• Understand your tool's training data limitations\n• Start small and test carefully\n• Maintain cautious, informed approach"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to the course. Over the next few lessons, we're going to explore how artificial intelligence is genuinely changing the way property professionals value assets and make development decisions. Now, if you've ever made a property decision based on instinct alone and later wished you'd had better information, this course is for you. AI gives us the ability to analyse enormous amounts of market data quickly, and in doing so, it helps us spot risks that might otherwise go completely unnoticed. That means fewer costly mistakes and much more confidence when you're committing serious money to a project. Rather than relying on gut feeling, we can now lean on data-driven insights that are faster and frankly more reliable than traditional methods. The goal here isn't to replace your expertise. It's to sharpen it. By the end of this course, you'll understand how to use AI as a practical tool to protect your investments and make smarter, better-informed decisions. Let's get started."
+          "script": "Welcome to the course. Over the next few lessons, we're going to explore how artificial intelligence is genuinely changing the way property professionals value assets and make development decisions. If you've ever made a property decision based on instinct alone and later wished you'd had better information, this course is for you. AI gives us the ability to analyse enormous amounts of market data quickly, helping us spot risks that might otherwise go completely unnoticed. That means fewer costly mistakes and much more confidence when you're committing serious money to a project. The goal here isn't to replace your expertise, it's to sharpen it. By the end of this course, you'll understand how to use AI as a practical tool to protect your investments and make smarter, better-informed decisions."
         },
         {
           "number": 2,
-          "script": "One of the most valuable things AI can do in property is give you an early warning before a bad decision becomes an expensive one. Traditional appraisals are often slow, and by the time a valuation flags a problem, you may already be committed. AI tools can spot price anomalies and overvalued sites weeks earlier, by continuously scanning rental data, sales activity, and market signals that would take a human analyst a very long time to process manually. If demand is starting to soften in a particular area, the data often shows subtle signs before the market fully turns. That matters enormously when you are deciding whether to commit capital to a development. The difference between catching a shrinking margin early and catching it late can be the difference between adjusting your strategy and absorbing a significant loss. AI brings a scale of pattern recognition across comparable transactions that simply is not achievable by hand."
+          "script": "One of the most valuable things AI can do in property is give you an early warning before a bad decision becomes an expensive one. Traditional appraisals are often slow, and by the time a valuation flags a problem, you may already be committed. AI tools can spot price anomalies and overvalued sites weeks earlier, by continuously scanning rental data, sales activity, and market signals that would take a human analyst a very long time to process manually. If demand is starting to soften in a particular area, the data often shows subtle signs before the market fully turns. The difference between catching a shrinking margin early and catching it late can be the difference between adjusting your strategy and absorbing a significant loss."
         },
         {
           "number": 3,
-          "script": "One of the most valuable things AI brings to property work is the ability to catch problems early, before they become costly mistakes. Instead of a surveyor or analyst manually trawling through data, AI tools can scan thousands of data points in seconds, picking up on subtle shifts that a human might easily miss. Things like a sudden drop in rental demand in a particular postcode, or a cluster of planning refusals in an area, can be flagged almost immediately. AI can also spot anomalies in comparable sales data, so if something looks out of place, it gets picked up before it skews a valuation. And when it comes to individual development sites, AI can apply a risk score based on factors like flood risk, gaps in local infrastructure, and broader economic signals. The result is that decisions are grounded in evidence rather than gut feeling, and potential issues are on your radar much sooner."
+          "script": "AI brings unprecedented speed to risk detection by scanning thousands of data points in seconds, picking up on subtle shifts that a human might easily miss. Things like a sudden drop in rental demand in a particular postcode, or a cluster of planning refusals in an area, can be flagged almost immediately. When it comes to individual development sites, AI can apply a risk score based on factors like flood risk, gaps in local infrastructure, and broader economic signals. This continuous monitoring means potential issues are on your radar much sooner, and decisions are grounded in evidence rather than gut feeling."
         },
         {
           "number": 4,
-          "script": "Valuations can go wrong in ways that aren't always obvious, and it often comes down to the assumptions baked into the process. A valuer might rely on comparable sales from six months ago, or from a neighbouring area that doesn't quite match, and suddenly the figure is already drifting from reality. Sellers can be emotionally attached to their properties, which pushes perceived value upward in ways the market simply won't support. Then there are local changes, a new train station, a school closing down, that genuinely shift demand but never make it into the assessment. Rental yields are sometimes based on what the market was doing at its peak, rather than what it's doing now. And if a property has development potential, but the valuer only looks at its current use, that value is invisible. None of these errors are dramatic on their own, but they stack up, and the result can be a figure that's quite significantly off the mark."
+          "script": "Valuations can go wrong in ways that aren't always obvious, and it often comes down to the assumptions baked into the process. A valuer might rely on comparable sales from six months ago, or from a neighbouring area that doesn't quite match, and suddenly the figure is already drifting from reality. Sellers can be emotionally attached to their properties, which pushes perceived value upward in ways the market simply won't support. Then there are local changes like a new train station or school closure that genuinely shift demand but never make it into the assessment. None of these errors are dramatic on their own, but they stack up, and the result can be a figure that's quite significantly off the mark."
         },
         {
           "number": 5,
-          "script": "Now, one of the most valuable things AI can do in property valuation is help us spot the blind spots that humans tend to miss. Let's think about what those look like in practice. If you're relying on sales data from two or three years ago, you're already working with a distorted picture, because markets move quickly. Then there's emotion. Sellers often overestimate what their property is worth simply because they love it, and that feeling can creep into professional judgements too. Location bias is another one, where familiarity with a particular area leads valuers to favour it, sometimes unfairly. Renovation costs are frequently overvalued as well, with owners assuming every pound spent adds a pound of value, which simply isn't the case. And finally, assumptions about demand can become outdated surprisingly fast. AI helps by continuously cross-referencing data, flagging these distortions before they lead to poor decisions. It acts as a kind of impartial second opinion."
+          "script": "Beyond data issues, there are psychological factors that can distort professional judgement. Location bias is common, where familiarity with a particular area leads valuers to favour it, sometimes unfairly. Renovation costs are frequently overvalued, with owners assuming every pound spent adds a pound of value, which simply isn't the case. Personal attachment to properties can cloud objectivity, and assumptions about market demand can become outdated surprisingly fast. AI helps by acting as an impartial second opinion, continuously cross-referencing data and flagging these psychological distortions before they lead to poor decisions."
         },
         {
           "number": 6,
-          "script": "One of the most valuable things AI brings to property valuation is the ability to catch problems before they become expensive mistakes. In development, a misjudged valuation can throw an entire project off course, so having a system that flags potential overvaluations early gives you a real advantage. AI tools can analyse comparable data and highlight inconsistencies that a human reviewer might overlook, particularly when you are working under time pressure or dealing with large volumes of information. If the comparable evidence does not stack up, the system will raise a warning rather than letting that flawed data feed into your decision. This means you have the opportunity to pause, investigate, and correct course before you have committed funds or signed contracts. Ultimately, this kind of intelligent oversight helps protect your development budget and reduces the risk of costly misjudgements further down the line. It is about making more confident decisions, grounded in reliable information."
+          "script": "Quality control of comparable data is crucial for accurate valuations. AI excels at analysing comparable evidence and highlighting inconsistencies that a human reviewer might overlook, particularly when working under time pressure or dealing with large volumes of information. If the comparable evidence doesn't stack up, the system raises a warning rather than letting flawed data feed into your decision. This gives you the opportunity to pause, investigate, and correct course before committing funds or signing contracts. It's about creating multiple validation checkpoints to ensure your decisions rest on solid foundations."
         },
         {
           "number": 7,
-          "script": "Risk is one of the biggest concerns in property investment and development, and this is where AI really starts to earn its place. Rather than relying on gut feeling or outdated reports, AI tools can analyse vast amounts of market data and alert you when something looks off. If a particular area is showing signs of instability, or if an asset appears to be priced well above its realistic value, the system flags it before you commit. That kind of early warning can save enormous amounts of money. Beyond spotting problems, AI also keeps a continuous eye on shifting trends, so you are never working from stale information. You are always looking at what is happening right now, not six months ago. Ultimately, this all feeds into better decision making. You are not eliminating risk entirely, because that is never possible in property, but you are giving yourself a much clearer, more informed picture before you act."
+          "script": "Risk mitigation is where AI really starts to earn its place in property investment and development. Rather than relying on gut feeling or outdated reports, AI tools can analyse vast amounts of market data and alert you when something looks concerning. If a particular area is showing signs of instability, or if an asset appears to be priced well above its realistic value, the system flags it before you commit. Beyond spotting problems, AI keeps a continuous eye on shifting trends, so you're always working with current information, not data from six months ago. You're not eliminating risk entirely, but you're giving yourself a much clearer, more informed picture before you act."
         },
         {
           "number": 8,
-          "script": "So let's pull together the key things to carry forward from this lesson. AI can genuinely support your valuation work, but it is not a replacement for your professional judgement. Whatever figures or insights an AI tool produces, always check them against current market data and real comparable evidence. Blindly trusting AI outputs without that verification is where serious financial risk creeps in. It is also worth understanding where your tool's training data comes from, because if that data is outdated or skewed in some way, the outputs will be unreliable, regardless of how confident the tool appears. If you are just starting to bring AI into your practice, take it slowly. Test the outputs carefully before you rely on them for anything significant. A cautious, informed approach is not about being resistant to new technology. It is about protecting your clients and your professional reputation as you find your feet with these tools."
+          "script": "Let's pull together the key principles for safely adopting AI in your valuation practice. AI can genuinely support your work, but it's not a replacement for professional judgement. Whatever figures or insights an AI tool produces, always verify them against current market data and real comparable evidence. Blindly trusting AI outputs without that verification is where serious financial risk creeps in. It's also worth understanding where your tool's training data comes from, because if that data is outdated or biased, the outputs will be unreliable. If you're just starting to incorporate AI, take it slowly and test outputs carefully. A cautious, informed approach protects both your clients and your professional reputation."
         }
       ]
     }

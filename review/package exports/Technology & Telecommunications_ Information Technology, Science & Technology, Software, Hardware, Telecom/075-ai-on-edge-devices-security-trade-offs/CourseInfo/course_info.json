@@ -1,0 +1,14 @@
+{
+  "Course Title": "AI on Edge Devices: Security Trade-Offs",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Product managers, software developers, IT managers, technology analysts, IoT engineers, mobile app developers, system architects",
+  "Team or Dept this is for": "IT, Product Development, Engineering, Operations, Technology Strategy",
+  "Description": "Running models on devices vs centralised systems.",
+  "Prerequisites": "A basic familiarity with how computers and networks function, along with a general interest in artificial intelligence concepts, is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key differences between running AI on edge devices and centralised systems, and explain the core security trade-offs involved in each approach. You will also apply practical frameworks to evaluate when edge deployment is appropriate, and recognise the privacy, latency, and resource considerations that influence real-world design decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

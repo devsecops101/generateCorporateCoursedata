@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Automation Errors and Their Risks",
-          "subtitle": "When Machines Make Costly Mistakes",
-          "slidecontent": "• Automated claims systems can misread or misclassify data, leading to incorrect payouts or wrongful rejections\n\n• Even small errors scale fast\n\n• A single misconfigured rule can affect thousands of claims simultaneously before anyone notices\n\n• Errors may go undetected for weeks if human oversight is limited or poorly structured\n\n• Financial losses, regulatory penalties, and damaged customer trust are common consequences\n\n• No system is error-free"
+          "slidetitle": "Automation Errors at Scale",
+          "subtitle": "When Single Mistakes Multiply",
+          "slidecontent": "• Automated systems misread or misclassify data leading to incorrect decisions\n• Single misconfigured rules affect thousands of claims simultaneously\n• Errors go undetected for weeks without proper oversight\n• Financial losses and regulatory penalties result\n• Customer trust erodes quickly"
         },
         {
           "number": 3,
-          "slidetitle": "Automation Errors and Their Risks",
-          "subtitle": "When Automation Gets It Wrong",
-          "slidecontent": "• Wrong data, wrong outcome\n• Claims denied unfairly\n• Errors spread at scale\n• Fraud slips through undetected\n• Bias baked into decisions"
+          "slidetitle": "Common Error Sources",
+          "subtitle": "Where AI Gets Tripped Up",
+          "slidecontent": "• Handwritten or poorly scanned documents confuse systems\n• Missing or inconsistent data fields trigger wrong decisions\n• Edge cases outside training data cause approval errors\n• Unusual claim types exceed model capabilities\n• Overconfidence in outputs without human review"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Automation Error Risks",
-          "subtitle": "Where Automation Can Go Wrong",
-          "slidecontent": "• Automated systems can misread handwritten or poorly scanned claim documents\n• Missing or inconsistent data fields often trigger incorrect decisions\n• Edge cases confuse models\n• Unusual claim types that fall outside training data may be approved or rejected in error\n• Overconfidence in automation outputs without human review increases the chance of costly mistakes"
+          "slidetitle": "Fraud Detection Gaps",
+          "subtitle": "What Slips Through Automated Systems",
+          "slidecontent": "• Novel fraud schemes bypass pattern recognition\n• Sophisticated fraudsters adapt faster than training cycles\n• False negatives let fraudulent claims through\n• Systems miss coordinated fraud rings\n• Human experience spots suspicious combinations AI overlooks"
         },
         {
           "number": 5,
-          "slidetitle": "Addressing Bias in AI Systems",
-          "subtitle": "Recognising and Reducing Unfair Algorithmic Outcomes",
-          "slidecontent": "• AI systems trained on historical claims data can inherit past discriminatory patterns around age, postcode, or occupation\n• Biased outputs may lead to unfair claim rejections or inflated premiums for certain customer groups\n• Regular auditing of model decisions helps surface unexpected disparities before they cause harm\n• Diverse training data reduces bias\n• Insurers should document how AI decisions are made, making it easier to challenge or correct unfair outcomes\n• Human review remains essential for flagging cases where algorithmic results appear inconsistent or unjust"
+          "slidetitle": "Recognising Algorithmic Bias",
+          "subtitle": "How Historical Data Creates Unfair Outcomes",
+          "slidecontent": "• Training data inherits past discriminatory patterns\n• Age, postcode, and occupation biases emerge\n• Protected groups face unfair claim rejections\n• Premium calculations reflect historical inequities\n• Bias compounds without regular auditing"
         },
         {
           "number": 6,
-          "slidetitle": "Addressing Bias in AI Systems",
-          "subtitle": "Recognising and Reducing Systemic Unfairness",
-          "slidecontent": "• Biased data skews decisions\n• Protected groups face unfair outcomes\n• Audit models for discrimination\n• Diverse teams reduce blind spots\n• Regulators demand explainable fairness"
+          "slidetitle": "Building Fairer AI Systems",
+          "subtitle": "Practical Steps to Reduce Bias",
+          "slidecontent": "• Use diverse, representative training datasets\n• Audit models regularly for discriminatory patterns\n• Document decision-making processes for accountability\n• Involve diverse teams to spot blind spots\n• Maintain human oversight for questionable outcomes"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Bias and Automation Risks",
-          "subtitle": "Strategies for Fairer, Safer AI Systems",
-          "slidecontent": "• Audit AI decisions regularly\n• Diverse data reduces bias\n• Human review catches errors\n• Test systems before deployment\n• Monitor outcomes over time"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Creating Safer AI Implementation",
+          "slidecontent": "• Test systems thoroughly before deployment\n• Monitor outcomes continuously for drift\n• Combine AI alerts with human judgment\n• Implement regular decision audits\n• Maintain explainable AI for regulatory compliance"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for responsible AI use",
-          "slidecontent": "• AI can speed up claims processing but introduces real risks around errors, bias, and fraud gaps\n• Always verify AI outputs, never approve claims on automation alone\n• Bias in training data leads to unfair outcomes for real people\n• Human oversight is non-negotiable\n• Fraud detection tools miss novel schemes, so combine AI alerts with experienced human judgement\n• As a next step, review your organisation's current AI policies and identify where human checks are already in place (and where they are not)"
+          "slidetitle": "Your Next Steps",
+          "subtitle": "Applying These Lessons",
+          "slidecontent": "• Review your organisation's current AI policies\n• Identify where human oversight exists (and where it doesn't)\n• Ensure no claims are approved on automation alone\n• Plan regular bias audits for your systems\n• Document your decision-making processes"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in Insurance Claims Processing. Over the next few lessons, we are going to look at how artificial intelligence is reshaping the way insurance claims are handled, and what that means for the people working in this industry. AI is already automating many of the steps that used to require a human being, from triaging new claims right through to making payout decisions. And on the surface, that sounds like a brilliant development. Faster processing, lower costs, happier customers. But there is another side to this story. When you hand over decision-making to an algorithm, you introduce new kinds of risk. Errors can creep in, bias can go undetected, and fraud detection gaps can quietly cause serious problems. So throughout this course, our focus is not just on what AI can do, but on helping you recognise where things can go wrong, so you are better equipped to work with these systems safely and confidently. Let us get started."
+          "script": "Welcome to this course on AI in Insurance Claims Processing. Over the next few lessons, we are going to look at how artificial intelligence is reshaping the way insurance claims are handled, and what that means for the people working in this industry. AI is already automating many of the steps that used to require a human being, from triaging new claims right through to making payout decisions. And on the surface, that sounds like a brilliant development. Faster processing, lower costs, happier customers. But there is another side to this story. When you hand over decision-making to an algorithm, you introduce new kinds of risk. Errors can creep in, bias can go undetected, and fraud detection gaps can quietly cause serious problems. So throughout this course, our focus is not just on what AI can do, but on helping you recognise where things can go wrong, so you are better equipped to work with these systems safely and confidently."
         },
         {
           "number": 2,
-          "script": "So, automation in claims processing is powerful, but it is not perfect. When an AI system misreads or misclassifies data, it can lead to claims being paid out incorrectly, or genuine claims being wrongly rejected. And here is the thing that catches many organisations off guard: errors do not stay small for long. Because these systems process thousands of claims at once, a single misconfigured rule can quietly cause widespread damage before anyone even realises something has gone wrong. If human oversight is limited, those errors can go undetected for weeks. And the consequences are serious. We are talking about financial losses, potential regulatory penalties, and customers who lose trust in the insurer entirely. Now, this is not an argument against using AI. It is simply a reminder that no automated system is completely error-free. The goal is to understand where things can go wrong, so we can put the right safeguards in place from the start."
+          "script": "Automation in claims processing is powerful, but it is not perfect. When an AI system misreads or misclassifies data, it can lead to claims being paid out incorrectly, or genuine claims being wrongly rejected. And here is the thing that catches many organisations off guard: errors do not stay small for long. Because these systems process thousands of claims at once, a single misconfigured rule can quietly cause widespread damage before anyone even realises something has gone wrong. If human oversight is limited, those errors can go undetected for weeks. And the consequences are serious. We are talking about financial losses, potential regulatory penalties, and customers who lose trust in the insurer entirely. This is not an argument against using AI, but a reminder that understanding where things can go wrong helps us put the right safeguards in place."
         },
         {
           "number": 3,
-          "script": "So we've seen how automation can speed things up, but what happens when it gets things wrong? And it does get things wrong. If the data going into an AI system is inaccurate or incomplete, the decisions coming out will be too. That might mean a perfectly valid claim gets rejected simply because the system misread or misclassified something. Now here's what makes that really concerning: automation doesn't make one mistake at a time. It can repeat the same error across thousands of claims before anyone notices. And it's not just honest mistakes we need to worry about. Fraudulent claims can sometimes slip through if the system hasn't been trained to spot certain patterns. There's also a subtler problem, which is bias. If the data used to train the AI reflects historical unfairness, the system can end up making biased decisions without anyone realising it. These are real risks, and understanding them is the first step to managing them properly."
+          "script": "Let's look at the specific places where automation commonly trips up. One frequent problem is document quality. If a claim form is handwritten or poorly scanned, the system may simply misread critical information. Similarly, when key data fields are missing or inconsistent, the system makes decisions based on incomplete information. Then there are edge cases - unusual or rare claim types that the AI was never trained on. In those situations, the system might approve or reject a claim incorrectly because it has never seen anything similar. Perhaps the biggest risk is when organisations place too much trust in automation and remove human oversight entirely. Knowing these specific vulnerability points is essential for managing them effectively."
         },
         {
           "number": 4,
-          "script": "Now, automation is powerful, but it is not perfect, and it is really important that we understand where things can go wrong. One common problem is with document quality. If a claim form is handwritten or poorly scanned, the system may simply misread it. Similarly, if key data fields are missing or inconsistent, the system can end up making the wrong call based on incomplete information. Then there are what we call edge cases. These are unusual or rare claim types that the AI was never really trained on, and in those situations, the system might approve or reject a claim incorrectly without anyone realising. Perhaps the biggest risk of all, though, is when organisations place too much trust in automation and remove human oversight entirely. No matter how good the technology is, there will always be situations where a human needs to step in and check the output. Knowing where these risks lie is the first step to managing them effectively."
+          "script": "Fraud detection presents its own unique challenges with AI systems. While these tools are excellent at spotting known patterns, fraudsters are constantly evolving their methods. Novel fraud schemes often bypass pattern recognition entirely because the system has never seen anything like them before. Sophisticated fraudsters can adapt their approaches faster than training cycles can keep up. This means genuinely fraudulent claims slip through as false negatives. Coordinated fraud rings are particularly challenging because they can distribute their activities in ways that avoid triggering individual claim alerts. This is why experienced human judgment remains so valuable - people can spot suspicious combinations and patterns that even the best AI might overlook."
         },
         {
           "number": 5,
-          "script": "One of the most important challenges with AI in claims processing is bias. When we train AI systems on historical data, they can pick up patterns that reflect past unfair treatment, whether that is based on someone's age, where they live, or what they do for a living. Left unchecked, this can result in certain customers having claims unfairly rejected or paying higher premiums than they should. So how do we address this? First, using diverse and representative training data helps reduce those inherited patterns from the outset. Second, insurers need to regularly audit their AI models to spot any unexpected disparities before real harm is done. It is also vital to document how decisions are being made, so that outcomes can be challenged and corrected when needed. And importantly, human oversight should always be part of the process. When something looks wrong or inconsistent, a person needs to be there to question it and act."
+          "script": "One of the most serious challenges with AI in claims processing is algorithmic bias. When we train AI systems on historical claims data, they inevitably absorb patterns that reflect past unfair treatment. This might be subtle discrimination based on someone's age, their postcode, or their occupation that was embedded in previous human decisions. The result is that certain groups of customers face unfair claim rejections or inflated premiums without anyone initially realising why. What makes this particularly dangerous is that bias tends to compound over time. Without regular auditing, these unfair patterns become more entrenched and harder to detect. The discrimination becomes systemic and automated, affecting thousands of people."
         },
         {
           "number": 6,
-          "script": "Now, one of the most important conversations we need to have around AI in claims processing is fairness. If the data we use to train an AI system reflects historical biases, the system will simply learn and repeat those biases. That means certain groups of people, perhaps defined by age, postcode, or ethnicity, could receive unfair decisions without anyone even realising it. So what do we do about it? First, we need to regularly audit our models, actively looking for patterns that suggest discrimination. It also really helps to involve diverse teams in building and reviewing these systems, because people with different backgrounds are far more likely to spot problems that others might overlook. And this is not just good practice, it is increasingly a legal requirement. Regulators here in the UK and across Europe are pushing for AI systems that can clearly demonstrate and explain how they reach fair decisions. Fairness in AI is not optional, it is essential."
+          "script": "So how do we build fairer AI systems? It starts with the foundation - using diverse and representative training data that doesn't just reflect historical patterns but actively works to counteract them. Regular auditing is crucial for surfacing discriminatory patterns before they cause real harm. We need to document how decisions are made so outcomes can be challenged and corrected when necessary. Involving diverse teams in building and reviewing these systems is invaluable because people with different backgrounds are more likely to spot problems others might miss. And crucially, human oversight must remain part of the process, especially when algorithmic results appear inconsistent or potentially unjust."
         },
         {
           "number": 7,
-          "script": "So, we know AI can introduce bias and errors, but the good news is there are practical steps we can take to reduce those risks. First, it is really important to regularly audit what your AI system is actually deciding, because problems can creep in without anyone noticing. The data you train your system on matters enormously too. If that data reflects historical inequalities, your AI will repeat them, so using diverse, representative data helps build fairer outcomes from the start. Even with the best systems in place, human oversight remains essential. Having a person review decisions, especially complex or borderline claims, acts as a vital safety net. Before you roll anything out, thorough testing in a controlled environment is a must. And once the system is live, the work does not stop there. Continuously monitoring outcomes over time means you can spot drift or unexpected patterns early and act before they cause real harm. These steps together make AI genuinely safer and more trustworthy."
+          "script": "Now let's talk about practical risk mitigation strategies. Before any AI system goes live, thorough testing in controlled environments is essential. Once deployed, continuous monitoring helps spot drift or unexpected patterns early. The key is combining AI capabilities with human judgment - AI can flag potential issues, but experienced professionals should evaluate the context and make final decisions. Regular decision audits help ensure the system performs as expected over time. And with increasing regulatory focus on AI fairness, maintaining explainable AI systems that can demonstrate their decision-making process is becoming a legal requirement, not just good practice."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. AI genuinely can make claims processing faster and more efficient, but it comes with real responsibilities. Errors happen, bias can creep in through flawed training data, and fraud detection tools will not catch every new scheme out there. That means human oversight is not optional, it is essential. You should never approve a claim purely because an algorithm said so. Always verify what the AI is telling you, and always apply experienced judgement, especially when something feels off. The bias point is particularly important, because unfair outcomes do not just affect statistics, they affect real people's lives. So here is something practical to do after this lesson. Take a look at your organisation's current AI policies and ask yourself honestly where human checks are already built in, and more importantly, where they are not. That is where your attention needs to go next."
+          "script": "Let's bring this together with concrete next steps you can take. Start by reviewing your organisation's current AI policies and honestly assess where human oversight exists and, more importantly, where it doesn't. That gap analysis will show you where to focus your attention first. Make sure no claims in your organisation are ever approved purely because an algorithm recommended it - human verification should always be part of the process. Plan regular bias audits for your AI systems to catch discriminatory patterns early. Finally, document your decision-making processes clearly. This isn't just about compliance - it's about building systems you can trust and defend. These steps will help you harness AI's benefits while managing its very real risks."
         }
       ]
     }

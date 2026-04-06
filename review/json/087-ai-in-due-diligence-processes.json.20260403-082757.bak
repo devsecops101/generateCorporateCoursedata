@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Due Diligence Processes",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "Where AI can miss critical red flags.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with due diligence concepts and general business or financial processes is helpful, though no prior experience with artificial intelligence tools is required to benefit from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key areas within due diligence processes where AI tools are commonly applied, and explain the fundamental limitations that can cause these systems to overlook critical red flags. You will also apply practical frameworks to recognise when human judgement must take precedence over AI-generated outputs, helping you make more informed and responsible decisions in finance and professional services contexts.",
+  "lessons": [
+    {
+      "lesson title": "AI in Due Diligence Processes",
+      "order": 1,
+      "Description": "This lesson introduces learners to the role of artificial intelligence in due diligence processes, exploring both its practical benefits and its notable limitations. While AI tools can process large volumes of data quickly and efficiently, they are not infallible, and understanding where they fall short is essential for anyone working in finance, legal, or business contexts. The lesson focuses specifically on the critical red flags that AI systems can overlook, such as nuanced qualitative information, cultural context, and complex human behaviour. By the end of this lesson, learners will have a clearer understanding of why human judgement remains an indispensable part of any thorough due diligence process. No prior technical knowledge is required, making this an accessible starting point for professionals looking to use AI tools more responsibly and effectively.",
+      "status": "draft",
+      "content": "Where AI can miss critical red flags.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Due Diligence",
+          "subtitle": "Spotting What AI Can Overlook",
+          "slidecontent": "• AI tools are transforming due diligence, but they are not infallible\n• Critical red flags can slip through automated analysis undetected\n• Human judgement remains essential\n• Understanding where AI falls short helps protect against costly oversights\n• A practical skill for anyone involved in investment, compliance, or risk assessment"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Promises and Pitfalls of AI",
+          "subtitle": "Balancing Opportunity With Careful Caution",
+          "slidecontent": "• AI can process thousands of documents far faster than any human team\n• But speed does not equal accuracy\n• Subtle red flags, such as unusual payment patterns or vague contract language, are easily missed by automated tools\n• Context matters enormously, and AI often lacks the business or legal judgement to interpret what it finds\n• Over-reliance on AI outputs without human review creates serious blind spots in any due diligence process\n• A balanced approach combines AI efficiency with experienced human oversight"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting What AI Misses",
+          "subtitle": "Gaps That Demand Human Judgement",
+          "slidecontent": "• Sarcasm and coded language\n• Cultural context clues\n• Gut instinct signals\n• Unspoken relationship dynamics\n• Tone, not just words"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Blind Spots in AI Analysis",
+          "subtitle": "Where context and nuance get overlooked",
+          "slidecontent": "• Unusual ownership structures buried in complex legal documents\n• Cultural and regional business norms that fall outside standard training data\n• Tone, intent, and relationship context in communications\n• Informal networks and unwritten agreements AI cannot detect\n• Rapidly changing regulatory environments in emerging markets\n• Reputational nuance that numbers alone cannot capture"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Blind Spots in AI Analysis",
+          "subtitle": "Where context and nuance get overlooked",
+          "slidecontent": "• Misses local regulatory nuance\n• Ignores cultural context\n• Overlooks informal relationships\n• Struggles with sarcasm, tone\n• Flags volume, not meaning"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Blind Spots in AI Analysis",
+          "subtitle": "Where context and nuance get overlooked",
+          "slidecontent": "• Misses local regulatory nuance\n• Ignores cultural context\n• Overlooks informal relationships\n• Flags volume, not meaning\n• Struggles with sarcasm, tone"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Blind Spots and Human Oversight",
+          "subtitle": "Where human judgement remains essential",
+          "slidecontent": "• AI misses cultural context\n• Tone and intent unclear\n• Relationships hard to read\n• Fraud hides in plain sight\n• Humans spot gut instincts\n• Oversight catches AI errors"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for smarter AI use",
+          "slidecontent": "• AI tools can speed up due diligence but cannot replace human judgement on complex risks\n• Always verify AI-generated summaries against original source documents\n• Context matters\n• Red flags in unstructured data (tone, relationships, patterns) are easy for AI to miss\n• Build a review checklist that combines AI outputs with manual oversight\n• Start small by piloting AI on one area of your process before rolling it out more broadly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI in due diligence. Now, AI tools have genuinely transformed the way we analyse companies, contracts, and financial data. They are faster, more consistent, and can process enormous volumes of information in a fraction of the time it would take a human. But here is the thing: they are not perfect. There are real, important red flags that automated systems can miss entirely, and if you are relying solely on AI to do your due diligence, you could be leaving yourself exposed to some very costly mistakes. What we are going to explore in this lesson is exactly where those gaps appear, and why human judgement is still absolutely essential in the process. Whether you work in investment, compliance, or risk assessment, understanding the limitations of AI is a genuinely practical skill. It helps you use these tools more effectively and, crucially, it helps you protect yourself and your organisation from oversights that could otherwise go unnoticed."
+        },
+        {
+          "number": 2,
+          "script": "So, AI genuinely is remarkable when it comes to processing large volumes of documents quickly. What might take a human team weeks, an AI tool can work through in hours. But here is where we need to be careful, because speed alone does not guarantee accuracy. Automated tools can quite easily miss the subtle warning signs that an experienced professional would catch, things like unusual payment patterns or vague wording buried deep in a contract. The reason is that AI lacks real business and legal judgement. It can identify and surface information, but it often cannot interpret what that information actually means in context. And if teams start relying too heavily on AI outputs without applying proper human review, they risk developing serious blind spots in their due diligence work. So the approach we are going to advocate throughout this course is a balanced one, using AI for what it does well, and pairing it with experienced human oversight to fill the gaps."
+        },
+        {
+          "number": 3,
+          "script": "So we've established that AI is a powerful tool in due diligence, but it's not infallible. There are some genuinely important gaps where human judgement simply cannot be replaced. Think about sarcasm, for instance. If someone writes \"oh, that went brilliantly\" in an email, AI might log that as a positive comment. A human reader would likely sense the irony immediately. Similarly, cultural context matters enormously. Certain phrases or behaviours carry very different meanings depending on background and setting, and AI often misses those nuances entirely. Then there's gut instinct, that quiet feeling that something doesn't quite add up, even when the numbers look fine on paper. Experienced professionals pick up on unspoken relationship dynamics too, the tension between two executives, the way a question gets deflected. And tone is huge. It's not just what someone says, it's how they say it. These are the signals that keep human expertise firmly at the heart of any due diligence process."
+        },
+        {
+          "number": 4,
+          "script": "So AI is genuinely impressive at processing large volumes of data quickly, but it does have real blind spots, and it's important we understand them. For instance, unusual ownership structures are often buried deep within complex legal documents in ways that are easy to miss if you're relying purely on automated analysis. Similarly, AI systems are trained on existing data, so they can struggle with cultural or regional business practices that fall outside the norm. They also find it difficult to pick up on tone and intent in communications, or to detect the kind of informal relationships and unwritten agreements that exist in many business environments. Add to that the challenge of keeping pace with rapidly shifting regulations in emerging markets, and you start to see the picture. And perhaps most importantly, AI simply cannot capture reputational nuance the way an experienced human analyst can. Numbers tell part of the story, but not all of it. These are the gaps we need to actively manage."
+        },
+        {
+          "number": 5,
+          "script": "So even though AI can process enormous amounts of information very quickly, it does have some genuine blind spots that we need to be aware of. One of the big ones is context. AI might miss the nuances of local regulations, or fail to appreciate how business culture works in a particular region. It also tends to overlook informal relationships, the kind of unwritten dynamics between people or organisations that a seasoned analyst would pick up on instinctively. Then there is the challenge of language itself. AI can struggle to detect sarcasm, irony, or subtle shifts in tone, which can actually be quite telling during due diligence. And perhaps most importantly, AI tends to flag things based on volume rather than meaning. So it might highlight fifty mentions of a word without understanding whether any of them actually matter. This is why human judgement remains absolutely essential. AI is a powerful tool, but it needs a thoughtful person guiding it."
+        },
+        {
+          "number": 6,
+          "script": "So even though AI can process enormous amounts of information quickly, it does have some genuine blind spots that are worth understanding. For a start, it often misses the finer points of local regulation. Rules and compliance requirements vary significantly from one jurisdiction to another, and AI tools trained on broad datasets may simply not pick up on those regional subtleties. Similarly, cultural context tends to get lost. The way business is conducted in one country can be very different from another, and AI rarely appreciates those unwritten norms. It also struggles to recognise informal relationships, the kind of behind-the-scenes connections that can actually be quite significant in a deal. And while AI is brilliant at flagging a high volume of results, it does not always distinguish between what is genuinely meaningful and what is noise. Finally, things like sarcasm, irony, or tone in written communications can completely throw it off. So AI is a powerful tool, but it needs human judgement alongside it."
+        },
+        {
+          "number": 7,
+          "script": "Now, as powerful as AI is, it does have real blind spots, and this is where human judgement becomes absolutely critical. AI is brilliant at processing data, but it struggles to read between the lines. It cannot pick up on cultural nuances, sense when something feels off about a relationship, or interpret the tone behind a carefully worded email. And here is something that might surprise you: sophisticated fraud is often hiding in plain sight, structured in a way that looks perfectly normal to an algorithm. That is where experienced human reviewers earn their place. A seasoned professional might look at a deal and just feel that something is not quite right, even if the numbers all add up. That instinct matters enormously. On top of that, humans provide a vital layer of oversight to catch mistakes that AI makes, because it does make mistakes. The message here is simple: AI supports the process, but it should never replace human judgement entirely."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The big lesson here is that AI is a powerful assistant, but it is not a decision-maker. It can process information quickly, but your judgement is still essential, especially when the risks are complex or nuanced. Always go back to the original documents to check what the AI has summarised, because errors do slip through. And remember that context is everything. AI can struggle to pick up on subtle warning signs in unstructured data, things like tone, unusual relationships, or emerging patterns that an experienced professional would notice. That is why it is so important to build a review process that combines AI outputs with proper manual oversight. A simple checklist can help you do that consistently. And if you are just getting started, do not try to transform everything at once. Pick one area of your due diligence process, pilot the technology there, learn from it, and then expand gradually. That approach will serve you much better in the long run."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Financial analysts, compliance officers, risk managers, investment professionals, legal advisors, business analysts, audit managers, credit analysts, wealth managers",
+  "Team or Dept this is for": "Risk Management, Compliance, Legal, Finance, Internal Audit, Investment Banking, Mergers & Acquisitions"
+}

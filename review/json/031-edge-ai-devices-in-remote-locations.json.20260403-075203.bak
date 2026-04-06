@@ -1,0 +1,107 @@
+{
+  "Course Title": "Edge AI Devices in Remote Locations",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "Security challenges of AI systems deployed in isolated environments.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with networking concepts and a general awareness of how AI or automated systems are used in industries such as farming, forestry, or mining will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security vulnerabilities associated with Edge AI devices deployed in remote agricultural, forestry, and mining environments, and explain how isolated conditions such as limited connectivity and physical exposure increase the risk of system compromise. You will also apply practical strategies to protect Edge AI systems in the field, including recognising common attack vectors, assessing physical and network security risks, and selecting appropriate safeguards suited to off-grid and resource-limited settings.",
+  "lessons": [
+    {
+      "lesson title": "Edge AI Devices in Remote Locations",
+      "order": 1,
+      "Description": "This lesson introduces the unique security challenges that arise when AI-powered devices are deployed in remote or isolated locations, far from centralised IT support and oversight. You will explore how physical isolation, limited connectivity, and restricted maintenance access can create vulnerabilities that differ significantly from those found in traditional networked environments. The lesson covers practical considerations such as protecting devices from tampering, managing software updates in low-bandwidth conditions, and ensuring data integrity when devices operate autonomously for extended periods. By the end of this lesson, you will have a clearer understanding of the risks involved and the foundational strategies used to address them. No prior experience with AI or cybersecurity is required, making this an accessible starting point for anyone looking to understand this growing area of concern.",
+      "status": "draft",
+      "content": "Security challenges of AI systems deployed in isolated environments.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Edge AI in Remote Locations",
+          "subtitle": "Where Isolation Meets Intelligent Risk",
+          "slidecontent": "• AI runs without nearby support\n• Remote means harder to protect\n• Attacks can go unnoticed longer\n• Physical access risks increase\n• Unique threats need unique solutions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Physical Security Risks and Threats",
+          "subtitle": "Protecting Devices From Physical Tampering",
+          "slidecontent": "• Edge AI devices deployed in remote locations are frequent targets for physical theft and vandalism\n• Tamper-evident seals and locked enclosures as a first line of defence\n• Unauthorised access to a device can expose sensitive data, model weights, and local credentials\n• Environmental hazards (extreme heat, flooding, dust) compound physical security risks\n• Hard to monitor\n• Regular physical inspection schedules help detect tampering before serious damage occurs"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Physical Security Risks Explained",
+          "subtitle": "Threats facing unprotected remote hardware",
+          "slidecontent": "• Remote devices left in the field without supervision, making them easy targets for theft or tampering\n• No guards, no cameras\n• Physical access to a device can allow attackers to extract sensitive data or install malicious hardware\n• Harsh environments (extreme heat, flooding, or dust) can damage enclosures and expose internal components\n• Stolen devices may reveal proprietary AI models or confidential operational data\n• Even brief, undetected contact with a device is enough to compromise it entirely"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Physical Tampering and Access Risks",
+          "subtitle": "Unsecured Devices Invite Serious Vulnerabilities",
+          "slidecontent": "• Edge AI devices in remote locations are often physically unattended for weeks or months at a time\n• Easy targets for theft\n• An attacker with physical access can extract stored data, tamper with sensors, or replace firmware entirely\n• No locked cabinet or security guard means the device itself becomes the first line of defence\n• Harsh or isolated environments make it harder to detect tampering quickly\n• Even simple measures like tamper-evident seals can deter opportunistic interference"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Physical Tampering and Access Risks",
+          "subtitle": "Protecting Devices From Unauthorised Physical Access",
+          "slidecontent": "• No locks, easy to steal\n• Tamper seals detect interference\n• Cameras deter physical access\n• Casing protects internal components\n• Remote alerts flag intrusions"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Physical Tampering and Device Security",
+          "subtitle": "Protecting Devices From Unauthorised Physical Access",
+          "slidecontent": "• Tamper-evident seals detect intrusion\n• Lockable enclosures deter theft\n• Motion sensors trigger alerts\n• Anchor devices to fixed structures\n• Log all physical access attempts"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Physical Tamper Protection Strategies",
+          "subtitle": "Deterring Unauthorised Physical Access Effectively",
+          "slidecontent": "• Tamper-evident seals on enclosures\n• Reinforced, lockable housing required\n• Motion sensors detect intrusions\n• Anchor devices to fixed structures\n• Use security screws throughout"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for securing remote deployments",
+          "slidecontent": "• Physical security matters as much as digital security in remote deployments\n• Encrypt data both in transit and at rest\n• Assume the device could be stolen or tampered with\n• Regular firmware updates reduce vulnerability windows significantly\n• Limit network access to only what the device genuinely needs\n• As a next step, audit one existing remote device against the principles covered in this course"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on Edge AI Devices in Remote Locations. Over the next few lessons, we are going to explore a genuinely fascinating and increasingly important challenge. When we deploy artificial intelligence at the edge, meaning out in the field, away from data centres and IT support teams, we introduce a whole new set of risks. These devices are often running in isolated environments, sometimes hundreds of miles from the nearest engineer. That distance matters enormously from a security perspective. If something goes wrong, or if an attacker targets one of these devices, it could be days or even weeks before anyone notices. And because these locations are physically remote, the chances of someone tampering with the hardware directly are much higher than in a controlled office or server room environment. The threats facing edge AI in remote settings are quite distinct from traditional IT security concerns, and that means we need to think about them differently. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "When we deploy Edge AI devices in remote locations, one of the first things we need to think about is physical security. These devices are often sitting in isolated spots, which makes them attractive targets for theft or vandalism. A good starting point is using tamper-evident seals and locked enclosures, so you can at least tell if someone has interfered with the hardware. And that matters a great deal, because if someone gains physical access to a device, they could potentially extract sensitive data, model weights, or stored credentials. On top of that, remote environments bring their own challenges, things like extreme heat, flooding, and dust can all cause serious damage. What makes this particularly tricky is that these devices are genuinely hard to monitor on a day-to-day basis. That is why setting up a regular inspection schedule is so important. Catching signs of tampering or environmental damage early can prevent much bigger problems down the line."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about the physical security risks that come with deploying AI devices in remote locations. Unlike a server room with locked doors and security cameras, these devices are often sitting out in the field completely unattended. That makes them an obvious target for theft or tampering. And here's the thing, an attacker doesn't need much time. Even a brief, undetected interaction with a device can be enough to compromise it entirely. Someone could extract sensitive data, pull out your proprietary AI models, or install malicious hardware that quietly causes problems long after they've gone. On top of that, the environment itself becomes a threat. Extreme heat, flooding, dust, all of these can damage the outer casing and expose the internal components to further risk. So we're not just dealing with human threats here, we're dealing with nature as well. Physical security in remote deployments is genuinely challenging, and it's something we need to take seriously from the very start."
+        },
+        {
+          "number": 4,
+          "script": "When we deploy edge AI devices in remote locations, one of the most overlooked risks is simply the physical one. These devices are often left completely unattended for weeks, sometimes months at a time. There is no security guard, no locked server room, no one keeping an eye on things. That makes them an easy target. If someone can physically get their hands on a device, the consequences can be serious. They could extract sensitive data stored on it, interfere with the sensors feeding it information, or even replace the firmware altogether, essentially taking control of what the device does. And because these locations are so isolated, any tampering might go completely unnoticed for a long time. The good news is that even relatively simple precautions can make a real difference. Something as straightforward as a tamper-evident seal will not stop a determined attacker, but it will deter opportunistic interference and at least alert you that something has happened."
+        },
+        {
+          "number": 5,
+          "script": "When you deploy an Edge AI device in a remote location, one of the biggest risks is simply that someone could walk up to it and tamper with it or steal it outright. Unlike a server room with locked doors and security guards, these devices are often out in the open with very little physical protection by default. So what can we do about that? Well, there are several practical measures worth considering. Tamper-evident seals are a simple but effective way to show whether a device has been interfered with. Placing a camera nearby can discourage people from approaching in the first place. A robust, well-designed casing helps protect the internal components from both deliberate interference and accidental damage. And perhaps most importantly, you can configure the device to send a remote alert if someone tries to access or move it. Together, these layers of protection give you much better visibility and control over what is happening to your devices in the field."
+        },
+        {
+          "number": 6,
+          "script": "Now, when your Edge AI device is sitting out in a remote location, you can't always have someone watching over it, so physical security becomes really important. One simple but effective measure is using tamper-evident seals, which make it obvious if someone has tried to open or interfere with the device. You'll also want to consider lockable enclosures to make theft much harder in the first place. Adding motion sensors is a great idea too, because they can send you an alert the moment something unexpected happens nearby. Where possible, physically anchor your devices to a fixed structure, like a wall or a post, so they can't simply be picked up and walked away with. And finally, make sure you're logging any physical access attempts, so you have a clear record of who interacted with the device and when. Together, these measures give you a much stronger foundation for keeping your devices safe in the field."
+        },
+        {
+          "number": 7,
+          "script": "Now let's talk about keeping your devices physically secure, because in remote locations, there's often no one around to notice if someone is tampering with your equipment. The first thing you want to do is make it obvious if someone has tried to get inside the device. Tamper-evident seals are brilliant for this, as they show clear signs of interference. Beyond that, your housing should be robust and lockable, not just a basic plastic box. It's also worth fitting motion sensors nearby, so you get an alert if anyone approaches the device unexpectedly. Another simple but effective measure is physically anchoring the device to a wall, post, or other fixed structure, making it much harder to simply walk off with. And finally, swap out any standard screws for security screws that require specialist tools to remove. None of these steps are complicated, but together they create a really strong layer of physical protection for your edge AI devices."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. One of the biggest lessons from this course is that securing a remote Edge AI device isn't just about software. The physical world matters just as much. Always assume that a device sitting in an unmanned location could be stolen or interfered with, and design your security approach around that reality. Make sure your data is encrypted whether it's moving across a network or sitting on the device itself. Keep firmware updated regularly, because every patch closes a window that attackers could otherwise exploit. And keep network access tight. If the device doesn't genuinely need a connection to something, don't allow it. Now, here's a practical next step for you. Pick one real remote device you're responsible for and run through the principles we've covered in this course as a simple audit. You'll likely spot at least one area to improve, and that's a great place to start making a real difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Operations managers, field technicians, farm managers, mine supervisors, forestry workers, agricultural technology specialists, remote site coordinators, equipment operators",
+  "Team or Dept this is for": "Operations, IT, Engineering, Agriculture, Mining, Energy, Field Services"
+}

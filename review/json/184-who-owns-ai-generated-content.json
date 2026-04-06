@@ -21,83 +21,83 @@
           "number": 1,
           "slidetitle": "Who Owns AI-Generated Content?",
           "subtitle": "Navigating copyright in the age of AI",
-          "slidecontent": "• AI tools now generate text, images, music, and video at scale\n• Copyright law was not designed with AI-generated content in mind\n• Publishers, filmmakers, and media companies face real legal uncertainty\n• Who owns the output, the user, the developer, or nobody\n• The answer varies depending on jurisdiction and context"
+          "slidecontent": "• AI tools now generate text, images, music, and video at scale\n• Copyright law was not designed with AI-generated content in mind\n• Publishers, filmmakers, and media companies face real legal uncertainty\n• Who owns the output: the user, the developer, or nobody?\n• The answer varies depending on jurisdiction and context"
         },
         {
           "number": 2,
           "slidetitle": "The Current Legal Landscape",
-          "subtitle": "Navigating Uncharted Legal Territory Today",
-          "slidecontent": "• Most countries offer no clear copyright protection for purely AI-generated content\n• Human authorship still the central requirement in UK and US law\n• Courts and legislators actively debating where the boundaries lie\n• A fast-moving area\n• Publishers, studios, and platforms already facing real disputes over ownership rights\n• Existing frameworks written long before generative AI existed"
+          "subtitle": "How existing copyright frameworks struggle",
+          "slidecontent": "• Most countries offer no clear copyright protection for purely AI-generated content\n• Human authorship remains the central requirement in UK and US law\n• Courts and legislators actively debating where the boundaries lie\n• Publishers, studios, and platforms already facing real disputes\n• Existing frameworks written long before generative AI existed"
         },
         {
           "number": 3,
-          "slidetitle": "Who Controls the Creative Output?",
-          "subtitle": "Ownership depends on input and intent.",
-          "slidecontent": "• Who created the prompt?\n• What tool was used?\n• Human input shapes ownership\n• Intent matters legally\n• Output varies by platform"
+          "slidetitle": "Key Factors That Determine Ownership",
+          "subtitle": "What influences who controls the creative output",
+          "slidecontent": "• Who created the prompt and guided the AI process?\n• Which platform or tool was used (terms of service matter)\n• Level of human creativity and judgment in shaping output\n• Evidence of meaningful creative decisions throughout\n• Intent and purpose behind the content creation"
         },
         {
           "number": 4,
-          "slidetitle": "Copyright Without a Human Author",
-          "subtitle": "Where traditional authorship rules fall short",
-          "slidecontent": "• No human, no copyright\n• AI creates, law hesitates\n• Authorship requires human intent\n• Existing rules simply don't fit\n• Ownership stays legally unclear"
+          "slidetitle": "The Human Authorship Requirement",
+          "subtitle": "Why traditional copyright rules create problems",
+          "slidecontent": "• Copyright law assumes a human being made creative choices\n• No human author typically means no copyright protection\n• AI lacks recognised legal capacity to hold rights\n• Machine creativity doesn't fit existing legal categories\n• Legal systems struggle to adapt century-old principles"
         },
         {
           "number": 5,
-          "slidetitle": "Copyright Gaps in Creative Media",
-          "subtitle": "Where creativity meets legal uncertainty",
-          "slidecontent": "• No human, no copyright\n• AI art, legal grey area\n• Films, music, books affected\n• Ownership stays unresolved\n• Laws lag behind technology"
+          "slidetitle": "Impact on Creative Industries",
+          "subtitle": "Real consequences for media professionals",
+          "slidecontent": "• AI-generated images, stories, and music lack automatic protection\n• Publishing, film, and advertising face ownership uncertainties\n• Content may enter public domain immediately\n• Competitors could freely use unprotected AI outputs\n• Revenue streams at risk without clear rights"
         },
         {
           "number": 6,
-          "slidetitle": "Copyright Without a Human Author",
-          "subtitle": "Where law struggles to keep pace",
-          "slidecontent": "• Most copyright law written long before generative tools existed\n• No human author, no automatic copyright protection in many jurisdictions\n• The UK treats computer-generated works differently, offering limited protection to the person who arranged the creation\n• A grey area\n• Courts and legislators still debating where creative credit truly begins and ends\n• Ownership claims remain legally fragile without clear human input on record"
+          "slidetitle": "UK's Computer-Generated Works Exception",
+          "subtitle": "A limited legal framework for AI content",
+          "slidecontent": "• UK offers protection to \"person who made arrangements\" for computer-generated works\n• Coverage is narrow and requires clear human involvement\n• Must demonstrate active role in creation process\n• Other jurisdictions provide even less protection\n• Legal claims remain fragile without documented human input"
         },
         {
           "number": 7,
-          "slidetitle": "Navigating the Legal Grey Area",
-          "subtitle": "Strategies for protecting your creative work",
-          "slidecontent": "• Document your creative process from the very start, saving drafts, notes, and version histories as evidence of human authorship\n• Register your work with relevant copyright bodies where possible\n• Disclose AI involvement clearly in contracts and submissions\n• Consult a media lawyer before signing deals involving AI-assisted content\n• Keep records"
+          "slidetitle": "Practical Risk Management Strategies",
+          "subtitle": "Protecting your work in uncertain times",
+          "slidecontent": "• Document creative process: save drafts, notes, and version histories\n• Register works with copyright bodies where possible\n• Disclose AI involvement transparently in contracts\n• Consult media lawyers before major deals\n• Maintain detailed records of human creative decisions"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Essential points to carry forward today",
-          "slidecontent": "• AI authorship remains legally unclear\n• Humans must add creative input\n• Register and document your work\n• Contracts should address AI use\n• Laws are changing fast\n• Seek specialist legal advice"
+          "slidetitle": "Key Takeaways for Creative Professionals",
+          "subtitle": "Essential principles to remember",
+          "slidecontent": "• AI authorship remains legally unresolved across most jurisdictions\n• Ensure meaningful human creative input to strengthen ownership claims\n• Documentation and registration are your strongest legal protections\n• Contract terms must explicitly address AI use and ownership\n• Laws evolve rapidly—seek current specialist legal advice"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on AI-generated content and copyright. Over the past few years, AI tools have become remarkably capable. They can write articles, compose music, generate images, and even produce video, often in seconds. But here is where things get complicated. Copyright law was built around the idea of human creativity, and nobody really anticipated a world where machines could produce creative work at this scale. That creates genuine uncertainty for anyone working in publishing, film, media, or really any creative industry. The central question we are going to explore is a deceptively simple one: who actually owns the content that AI produces? Is it the person who prompted the tool? The company that built it? Or does the content belong to nobody at all? As you will discover, there is no single answer. It depends on where you are in the world and how the content was created. So let us dig in and start making sense of it all."
+          "script": "Welcome to this lesson on AI-generated content and copyright. Over the past few years, AI tools have become remarkably capable. They can write articles, compose music, generate images, and even produce video, often in seconds. But here's where things get complicated. Copyright law was built around the idea of human creativity, and nobody really anticipated a world where machines could produce creative work at this scale. That creates genuine uncertainty for anyone working in publishing, film, media, or really any creative industry. The central question we're going to explore is a deceptively simple one: who actually owns the content that AI produces? Is it the person who prompted the tool? The company that built it? Or does the content belong to nobody at all? As you'll discover, there's no single answer. It depends on where you are in the world and how the content was created."
         },
         {
           "number": 2,
-          "script": "So where do things actually stand right now, legally speaking? Well, the honest answer is that it is genuinely unclear. In most countries, including the UK and the United States, copyright law has traditionally required a human author. If a person did not create it, the law largely does not protect it. But generative AI has thrown that assumption into question, and courts and governments are actively trying to work out what the rules should be. This is not a settled area of law, it is moving very quickly. And it is not just a theoretical debate either. Publishers, film studios, and online platforms are already dealing with real disputes about who owns what when AI is involved. The important thing to understand is that the legal frameworks we have today were written long before tools like these even existed. So we are essentially trying to apply old rules to a completely new situation, and that creates a lot of uncertainty."
+          "script": "So where do things actually stand right now, legally speaking? The honest answer is that it's genuinely unclear. In most countries, including the UK and the United States, copyright law has traditionally required a human author. If a person didn't create it, the law largely doesn't protect it. But generative AI has thrown that assumption into question, and courts and governments are actively trying to work out what the rules should be. This isn't a settled area of law—it's moving very quickly. And it's not just a theoretical debate either. Publishers, film studios, and online platforms are already dealing with real disputes about who owns what when AI is involved. The important thing to understand is that the legal frameworks we have today were written long before tools like these even existed."
         },
         {
           "number": 3,
-          "script": "So when we talk about who actually owns AI-generated content, the answer is rarely straightforward, and it almost always comes down to a few key factors. First, who wrote the prompt? The person guiding the AI with their instructions is often the most important figure in any ownership conversation. But it is not just about the person; it also matters which tool they used, because different platforms have very different terms of service, and those terms directly affect what you can and cannot claim as your own. The more human creativity and judgement that goes into shaping the output, the stronger the case for ownership tends to be. And intent plays a role too. Courts and legal frameworks are starting to ask whether a human made meaningful creative decisions along the way. So the short version is this: ownership of AI-generated content is not automatic. It depends on your input, your choices, and the platform you are working with."
+          "script": "When we talk about who actually owns AI-generated content, the answer almost always comes down to several key factors. First, who wrote the prompt? The person guiding the AI with their instructions is often the most important figure in any ownership conversation. But it's not just about the person—it also matters which tool they used, because different platforms have very different terms of service, and those terms directly affect what you can and cannot claim as your own. The more human creativity and judgment that goes into shaping the output, the stronger the case for ownership tends to be. Courts are starting to ask whether a human made meaningful creative decisions along the way. So ownership of AI-generated content isn't automatic—it depends on your input, your choices, and the platform you're working with."
         },
         {
           "number": 4,
-          "script": "So here's where things start to get really interesting. Copyright law, as it stands, was built around one core assumption: that a human being created the work. A person sat down, made creative choices, and produced something original. But what happens when an AI does that instead? Well, the law gets very uncomfortable very quickly. Most legal systems, including here in the UK, require a human author for copyright to exist in the first place. There's no provision for a machine to hold rights, and crucially, there's no recognised human intent behind what the AI produces on its own. So the existing rules, which were written long before any of this technology existed, simply don't stretch far enough to cover it. That leaves us in a genuinely uncertain position where AI can generate something that looks and feels like creative work, but nobody can clearly say who, if anyone, actually owns it. That's the problem we're going to keep unpacking throughout this course."
+          "script": "Here's where the fundamental problem lies. Copyright law, as it stands, was built around one core assumption: that a human being created the work. A person sat down, made creative choices, and produced something original. But what happens when an AI does that instead? The law gets very uncomfortable very quickly. Most legal systems require a human author for copyright to exist in the first place. There's no provision for a machine to hold rights, and crucially, there's no recognised human intent behind what the AI produces independently. The existing rules simply don't stretch far enough to cover machine creativity. That leaves us in a genuinely uncertain position where AI can generate something that looks and feels like creative work, but nobody can clearly say who, if anyone, actually owns it."
         },
         {
           "number": 5,
-          "script": "So here's where things get really interesting, especially if you work in any kind of creative field. The core legal principle in most countries, including the UK, is that copyright only exists if a human being created the work. If an AI generates an image, writes a story, or composes a piece of music entirely on its own, there is currently no copyright protection attached to it. That puts AI-generated art, film, literature, and music in a genuine legal grey area, because the question of who actually owns that output simply has no clear answer right now. Could it be the person who typed the prompt? The company that built the AI? Nobody at all? Courts and lawmakers are still working that out, and the honest truth is that the law is struggling to keep pace with how quickly this technology is moving. So if you are creating or commissioning AI-generated content professionally, you need to be aware that the ownership question is very much still open."
+          "script": "This legal uncertainty has very real consequences for creative professionals. If an AI generates an image, writes a story, or composes music entirely on its own, there's currently no copyright protection attached to it in most jurisdictions. That puts AI-generated creative work in a genuine legal grey area with serious commercial implications. Without copyright protection, your AI-generated content could effectively enter the public domain immediately, meaning competitors could freely use and profit from work you commissioned or created. For industries built on exclusive content rights—publishing, film, advertising, gaming—this represents a significant business risk. Revenue streams that depend on controlling and licensing creative content become vulnerable when ownership itself is unclear."
         },
         {
           "number": 6,
-          "script": "Here is where things get genuinely complicated. Most copyright law was written decades ago, long before anyone imagined tools that could generate images, text, or music at the click of a button. The fundamental assumption baked into these laws is that a human being created the work, and without that human author, automatic copyright protection simply does not apply in many countries. The UK does take a slightly different approach, offering some limited protection to the person who arranged or set up the creation process, but even that is quite narrow. Globally, this is still very much a grey area. Courts are debating it, legislators are debating it, and nobody has landed on a definitive answer yet. What that means practically is that if you are relying on AI-generated content and you want to claim ownership, your legal position can be surprisingly fragile unless you have clear evidence of meaningful human involvement in the creative process."
+          "script": "The UK does take a slightly different approach through its computer-generated works provision, which offers some limited protection to the person who made arrangements for the creation. But this coverage is quite narrow and requires demonstrating genuine human involvement in the creative process. You need clear evidence that a person actively directed, shaped, or arranged the creation—not just typed a prompt and accepted whatever came out. Other jurisdictions provide even less protection, and globally this remains very much a grey area. What this means practically is that if you're relying on AI-generated content and want to claim ownership, your legal position can be surprisingly fragile unless you have documented evidence of meaningful human creative involvement throughout the process."
         },
         {
           "number": 7,
-          "script": "So, the law around AI-generated content is still catching up, but that doesn't mean you're powerless. There are some sensible, practical steps you can take right now to protect yourself. First, get into the habit of documenting your creative process from the very beginning. Save your drafts, your notes, your version histories, because that paper trail is what demonstrates human involvement. If copyright registration is available in your territory, use it. It's a small effort that can make a big difference later. When you're working with clients or submitting work, be upfront about any AI involvement in your contracts and submissions. Transparency now prevents disputes down the line. And if you're about to sign a deal involving AI-assisted content, please speak to a media lawyer first. I know that sounds like a big step, but it's genuinely worth it. Finally, keep records of everything. Good documentation is your best friend in a legal grey area like this one."
+          "script": "The law around AI-generated content is still catching up, but that doesn't mean you're powerless. There are sensible, practical steps you can take right now to protect yourself. Get into the habit of documenting your creative process from the very beginning. Save your drafts, your notes, your version histories—that paper trail demonstrates human involvement. If copyright registration is available in your territory, use it. When working with clients or submitting work, be transparent about any AI involvement in your contracts and submissions. Honesty now prevents disputes later. If you're about to sign a significant deal involving AI-assisted content, speak to a media lawyer first. Finally, keep detailed records of everything. Good documentation is your best friend in a legal grey area like this."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The law still has not decided whether AI can be an author, which means if you want protection for your work, you need to make sure a human, ideally you, has made genuine creative decisions along the way. Do not just accept whatever the AI produces. Shape it, direct it, make it yours. Beyond that, keep records of your process and register your work where you can, because documentation really does matter if a dispute ever arises. If you are working with clients or collaborators, make sure your contracts are clear about how AI is being used. And here is the thing to keep front of mind: this area of law is moving quickly. What is true today may shift within months. So if you are building a business or a creative practice around AI-generated content, please do speak with a specialist intellectual property solicitor. Getting proper advice now could save you a great deal of trouble later."
+          "script": "Let's bring everything together with the key points to remember. The law still hasn't decided whether AI can be an author, which means if you want protection for your work, you need to ensure a human has made genuine creative decisions along the way. Don't just accept whatever the AI produces—shape it, direct it, make it yours. Keep records of your process and register your work where possible, because documentation really matters if a dispute arises. Make sure your contracts are clear about how AI is being used. And here's the crucial point: this area of law is moving quickly. What's true today may shift within months. If you're building a business or creative practice around AI-generated content, speak with a specialist intellectual property lawyer. Getting proper advice now could save you significant trouble later."
         }
       ]
     }

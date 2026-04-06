@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Newsrooms: Speed vs Accuracy",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Pressure to publish quickly vs verifying AI-generated content.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how newsrooms operate and a general awareness of artificial intelligence tools used in everyday life are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with publishing AI-generated content under deadline pressure and explain the editorial standards required to maintain accuracy in a modern newsroom. You will also apply practical verification techniques to assess AI-generated material, helping you balance the demand for speed with the responsibility to report truthfully and reliably.",
+  "lessons": [
+    {
+      "lesson title": "AI in Newsrooms: Speed vs Accuracy",
+      "order": 1,
+      "Description": "In today's fast-moving media landscape, newsrooms are under constant pressure to break stories before their competitors, and artificial intelligence tools are increasingly being used to help meet that demand. However, publishing quickly and publishing accurately are not always easy to reconcile, particularly when AI-generated content can contain errors, fabrications, or misleading information that slips through without proper checks. This lesson explores the tension between speed and accuracy in AI-assisted journalism, helping you understand where the risks lie and why verification remains a journalist's most important responsibility. You will look at real-world examples of what can go wrong when AI output is published without sufficient scrutiny, as well as practical steps you can take to maintain editorial standards under deadline pressure. By the end of this lesson, you will have a clearer sense of how to use AI tools responsibly as part of your workflow, without compromising the trust your audience places in you.",
+      "status": "draft",
+      "content": "Pressure to publish quickly vs verifying AI-generated content.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Breaking News: Speed or Truth?",
+          "subtitle": "The race that risks the truth.",
+          "slidecontent": "• Breaking news moves faster than ever, thanks to AI tools in the newsroom\n• Errors spread instantly\n• Audiences expect both speed and accuracy, even when those goals conflict\n• AI can generate a publishable story in seconds, but that story may contain mistakes\n• The pressure to be first often pushes verification steps aside\n• Getting it wrong damages trust, sometimes permanently"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Breaking News, Breaking Truth?",
+          "subtitle": "When speed compromises journalistic truth",
+          "slidecontent": "• Speed kills accuracy fast\n• Errors spread before corrections\n• AI confidently fabricates facts\n• Retractions damage reader trust\n• Pressure overrides verification instincts"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Verifying AI-Generated Content",
+          "subtitle": "Why verification cannot be rushed",
+          "slidecontent": "• AI errors spread fast\n• Facts need human checks\n• Speed causes costly mistakes\n• Sources must be confirmed\n• Reputation takes years to rebuild"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Balancing Speed With Accuracy",
+          "subtitle": "The constant tension every journalist faces.",
+          "slidecontent": "• Speed gets the story out first, but errors get remembered longest\n• AI tools can draft content in seconds, creating pressure to publish before proper checks\n• Accuracy builds trust\n• Every unverified claim risks damaging your outlet's credibility with readers\n• The real challenge is building habits that keep pace with AI without cutting corners on verification"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Balancing Speed With Accuracy",
+          "subtitle": "The journalist's constant editorial challenge",
+          "slidecontent": "• Speed tempts corners cut\n• Errors spread fast online\n• Verify before you publish\n• Accuracy builds reader trust\n• Slow down, check sources"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Balancing Speed With Verification",
+          "subtitle": "Slowing down protects your newsroom's credibility.",
+          "slidecontent": "• A quick verification step before publishing can prevent costly corrections later\n• Cross-check AI-generated facts against at least two reliable sources\n• Verify before you publish\n• Establish a clear newsroom protocol so every journalist follows the same checks\n• Speed matters less than accuracy when your reputation is on the line\n• Even a 10-minute pause to confirm details protects long-term audience trust"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Balancing Speed With Accuracy",
+          "subtitle": "Practical steps for responsible AI use",
+          "slidecontent": "• Verify before you publish\n• Cross-check every AI claim\n• Flag uncertain AI outputs\n• Slow down, save reputation\n• Use humans as final editors"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles for responsible AI journalism",
+          "slidecontent": "• Always verify AI-generated content before publishing, no matter the time pressure\n• Speed without accuracy damages trust\n• Treat AI output as a first draft, not a finished story\n• Label AI-assisted content clearly so your audience knows how it was produced\n• Build a quick verification habit into every workflow, even on tight deadlines\n• Start small by choosing one AI tool and practising responsible use on low-stakes stories"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in newsrooms, and we're starting with a question that sits right at the heart of modern journalism: when a big story breaks, do you go fast, or do you get it right? The honest answer is that most newsrooms feel pressure to do both at the same time, and that tension is where things can go wrong. AI tools can now draft a full, publishable story in a matter of seconds, which sounds impressive until you realise that story might contain errors. And in today's media environment, a mistake doesn't quietly sit on a back page. It spreads instantly, across social media, into other outlets, and into the public conversation. Audiences expect speed and accuracy, but those two goals often pull in opposite directions. When verification steps get skipped in the rush to be first, trust takes the hit, and rebuilding that trust is genuinely difficult. That's what this course is all about."
+        },
+        {
+          "number": 2,
+          "script": "Let's start with a question that gets to the heart of this course. When a story breaks, what matters more: being first, or being right? In the modern newsroom, the pressure to publish instantly is enormous, and that pressure creates real danger. When journalists rush, mistakes happen. And in the digital age, those mistakes travel at extraordinary speed. A wrong fact, a fabricated quote, an AI-generated detail that simply never existed, these things can reach thousands of readers before anyone even notices the error. And here is the uncomfortable truth about AI tools: they can sound completely authoritative while getting things entirely wrong. They do not know what they do not know. When corrections eventually appear, the damage is already done. Reader trust, once lost, is very hard to rebuild. So throughout this course, we are going to explore how AI is reshaping the speed of journalism, and what we must do to make sure that speed does not come at the cost of accuracy."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about why verification is absolutely non-negotiable, even when you're working at speed. When AI generates content, it can get things wrong, and the trouble is those errors don't sit quietly. They spread across platforms almost instantly. That's why every fact, every figure, every claim still needs a human being to check it properly. Now, I know the pressure in a newsroom is enormous, and the temptation is to publish quickly and sort out any problems later. But rushing that verification step is where things get really costly, and I don't just mean financially. I mean your credibility. A single inaccurate story can undo years of trust that your audience has placed in you. So before anything goes out, you need to confirm your sources are solid and your information is accurate. Speed matters in journalism, of course it does, but not at the expense of getting it right."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nThis is really the heart of what we're exploring in this course. Every journalist knows the pressure to be first, but here's the uncomfortable truth: readers might forget who broke the story, yet they will absolutely remember who got it wrong. Now, AI tools can produce a draft in a matter of seconds, and that speed is genuinely impressive. But it also creates a new kind of pressure, a temptation to hit publish before you've properly checked what the AI has actually given you. And that's where things can go wrong very quickly. Accuracy isn't just good practice, it's the foundation of trust between your outlet and your audience. One unverified claim can do real damage to your credibility. So the challenge we're going to work through together is how you build smart, reliable habits that allow you to keep pace with these tools without skipping the verification steps that matter most."
+        },
+        {
+          "number": 5,
+          "script": "Now, this tension between speed and accuracy sits right at the heart of modern journalism, and honestly, it always has done. When you are under pressure to be first with a story, it is incredibly tempting to skip a step or two in your verification process. But here is the problem: online, a mistake does not just sit quietly on a page. It spreads. It gets shared, screenshotted, and amplified within minutes, and correcting the record afterwards is far harder than getting it right in the first place. So the discipline we want to build is simple but not always easy: verify before you hit publish. Every time. Because readers who catch you in an error once will question everything you produce afterwards. Trust, once lost, is genuinely difficult to rebuild. So even when the pressure is on, even when a rival outlet seems to be moving faster, slow down just enough to check your sources. That pause is what separates reliable journalism from noise."
+        },
+        {
+          "number": 6,
+          "script": "So we know AI can help us work faster, but speed without accuracy is a real danger in journalism. Before you hit publish on anything AI has helped produce, build in a quick verification step. It does not need to take long. Even ten minutes spent checking the key facts against two or more reliable sources can save you from an embarrassing correction later, or worse, a serious loss of trust with your audience. The best way to make this consistent across your team is to agree on a shared newsroom protocol, so every journalist follows the same checks every time, regardless of how tight the deadline feels. Because here is the thing: when your reputation is on the line, being accurate will always matter more than being first. A small pause before publishing is not a weakness. It is actually one of the smartest habits your newsroom can build."
+        },
+        {
+          "number": 7,
+          "script": "So we've talked about the tension between speed and accuracy, and now let's look at how you actually manage that balance in practice. The golden rule is simple: never publish anything an AI has produced without checking it first. That means actively cross-checking facts, figures, names, and claims against reliable sources, not just assuming the AI has got it right. When an AI output feels uncertain or vague, flag it internally so your team knows it needs extra scrutiny. And here's something worth remembering: slowing down by even a few minutes to verify a story can save your organisation from a damaging correction or, worse, a serious credibility crisis. Perhaps most importantly, always keep a human editor as the final set of eyes before anything goes live. AI is a brilliant tool for speed, but human judgement is what protects your reputation. These steps aren't complicated, they just require discipline and a clear editorial process."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important thing to carry with you from this lesson is that speed and accuracy are not opposites, but accuracy always comes first. No matter how much pressure you are under, never publish AI-generated content without checking it yourself. Think of anything AI produces as a rough first draft that still needs your editorial judgement. Be transparent with your audience too, because labelling AI-assisted content builds trust rather than undermining it. Now, good habits do not have to be complicated. Even on a tight deadline, a quick verification step can become second nature if you practise it consistently. And if you are just starting out, keep it simple. Pick one tool, try it on something low-stakes, and get comfortable with responsible use before scaling up. These principles are not about slowing you down. They are about making sure that when you do publish quickly, your audience can still rely on every word."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Journalists, editors, content creators, reporters, news producers, editorial staff, digital content managers, social media managers, communications specialists",
+  "Team or Dept this is for": "Editorial, Communications, Marketing, Content Development, Digital Media, Public Relations"
+}

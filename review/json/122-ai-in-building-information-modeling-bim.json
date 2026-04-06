@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks in Digital Construction Models",
-          "subtitle": "Understanding threats to data reliability.",
-          "slidecontent": "• Errors corrupt model data\n• Clashes cause costly rework\n• Outdated files mislead teams\n• Poor inputs, poor outputs\n• Breaches risk project data"
+          "slidetitle": "Common Data Accuracy Risks",
+          "subtitle": "Understanding threats to model reliability",
+          "slidecontent": "• Human input errors corrupt measurements and element placement\n• Design clashes between building systems cause expensive rework\n• Version control failures mislead teams with outdated files\n• Poor quality inputs generate unreliable outputs\n• Security breaches threaten sensitive project data"
         },
         {
           "number": 3,
-          "slidetitle": "Risks to Model Data Integrity",
-          "subtitle": "Where errors silently compromise your data",
-          "slidecontent": "• AI tools can introduce subtle errors into BIM data without triggering any visible warnings\n• Corrupted geometry, mismatched parameters, and incorrect classifications all count as integrity risks\n• Small errors compound quickly\n• Automated data inputs from sensors or external feeds may conflict with existing model information\n• Version control gaps leave teams working from outdated or overwritten model states"
+          "slidetitle": "Silent Model Integrity Failures",
+          "subtitle": "Where errors hide without visible warnings",
+          "slidecontent": "• AI tools can introduce subtle errors without triggering alerts\n• Corrupted geometry and mismatched parameters compound quickly\n• Automated sensor data may conflict with existing model information\n• Version control gaps create inconsistent working states\n• Small integrity issues cascade into larger system failures"
         },
         {
           "number": 4,
-          "slidetitle": "Detecting Errors in BIM Data",
-          "subtitle": "Spotting Issues Before They Escalate",
-          "slidecontent": "• Clashing geometry flagged instantly\n• Missing data caught early\n• Duplicate elements identified automatically\n• Rule violations highlighted clearly\n• Errors logged for review"
+          "slidetitle": "AI-Powered Error Detection",
+          "subtitle": "Automated quality checking capabilities",
+          "slidecontent": "• Instant identification of clashing geometry between components\n• Early detection of missing data fields and specifications\n• Automatic flagging of duplicate elements and object IDs\n• Rule violation alerts against predefined standards\n• Comprehensive error logging for systematic resolution"
         },
         {
           "number": 5,
-          "slidetitle": "Detecting Errors in BIM Data",
-          "subtitle": "Spotting Issues Before They Escalate",
-          "slidecontent": "• AI flags clashing components instantly\n• Detects missing data fields\n• Spots duplicate object IDs\n• Highlights geometry errors early\n• Reduces costly on-site mistakes"
+          "slidetitle": "Proactive Quality Assurance",
+          "subtitle": "Preventing costly on-site corrections",
+          "slidecontent": "• Continuous model scanning across thousands of components\n• Real-time clash detection between structural and MEP systems\n• Automated specification completeness validation\n• Geometry error highlighting before manual review\n• Significant reduction in construction-phase mistakes"
         },
         {
           "number": 6,
-          "slidetitle": "Maintaining Data Accuracy Standards",
-          "subtitle": "Upholding Precision Across All Model Data",
-          "slidecontent": "• Regular audits of BIM data to catch errors before they compound across the model\n• Consistent naming conventions for all elements\n• Validation checks built into the workflow at each project stage\n• Assigning clear data ownership so one person or team is responsible for each model section\n• Version control to track changes and prevent conflicting updates\n• Simple, agreed tolerances for measurements documented and shared with the whole team"
+          "slidetitle": "Data Accuracy Standards Framework",
+          "subtitle": "Building precision into everyday workflows",
+          "slidecontent": "• Regular audits prevent error accumulation across models\n• Consistent naming conventions eliminate labelling confusion\n• Stage-gate validation checks embedded in project workflows\n• Clear data ownership assignments for model sections\n• Documented measurement tolerances shared team-wide"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Risks in BIM Models",
-          "subtitle": "Strategies to Safeguard Model Integrity",
-          "slidecontent": "• Validate data before uploading\n• Use version control always\n• Restrict editing permissions carefully\n• Audit models regularly\n• Train staff on input standards"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Practical safeguards for model protection",
+          "slidecontent": "• Pre-upload data validation as quality gateway\n• Mandatory version control for change tracking\n• Carefully restricted editing permissions by role\n• Scheduled model audits for early issue detection\n• Team training on standardized input procedures"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safer BIM practice",
-          "slidecontent": "• Always verify AI-generated BIM data against trusted source documents before sharing models with your team\n• Check for clashes regularly\n• Maintain a clear audit trail of every change made to a model, including who made it and when\n• AI tools can introduce errors quietly, so human review remains essential at every stage\n• Keep model permissions tightly controlled to reduce the risk of accidental or unauthorised edits\n• As a next step, identify one area of your current BIM workflow where an AI tool could support (not replace) your quality checks"
+          "slidetitle": "Implementation Action Plan",
+          "subtitle": "Next steps for safer BIM practice",
+          "slidecontent": "• Cross-verify AI outputs against trusted source documents\n• Establish regular clash detection routines\n• Maintain detailed audit trails for all model changes\n• Preserve human oversight at every workflow stage\n• Identify one workflow area for AI-supported quality enhancement"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "Now, before we explore how AI can help, it's worth understanding what can go wrong in digital construction models, because these risks are very real. First, simple human errors, things like incorrect measurements or misplaced elements, can corrupt the entire model and cause serious problems downstream. Then there are clashes, where different building systems, say the structural steelwork and the mechanical pipework, physically conflict with each other in the model. If those aren't caught early, fixing them on site becomes extremely expensive. Another common issue is version control. When teams are working from outdated files, decisions get made on the wrong information, and that causes confusion and delays. There's also the classic computing principle at play here: if you put poor quality data into a model, you'll get poor quality outputs. And finally, with so much sensitive project data stored digitally, security breaches are a genuine concern. So these are the challenges that AI is increasingly helping us to address."
+          "script": "Before we explore how AI can help, it's worth understanding what can go wrong in digital construction models, because these risks are very real. First, simple human errors, things like incorrect measurements or misplaced elements, can corrupt the entire model and cause serious problems downstream. Then there are clashes, where different building systems, say the structural steelwork and the mechanical pipework, physically conflict with each other in the model. If those aren't caught early, fixing them on site becomes extremely expensive. Another common issue is version control. When teams are working from outdated files, decisions get made on the wrong information, and that causes confusion and delays. There's also the classic computing principle at play here: if you put poor quality data into a model, you'll get poor quality outputs. And finally, with so much sensitive project data stored digitally, security breaches are a genuine concern."
         },
         {
           "number": 3,
-          "script": "Now, one of the trickiest challenges with AI in BIM is that things can go wrong without you ever realising it. Unlike a visible clash or a missing wall, data integrity issues tend to hide. An AI tool might quietly introduce an error into your model, perhaps a corrupted piece of geometry, a parameter that doesn't match, or an element that's been classified incorrectly, and nothing flags it up. The real danger is that small errors like these don't stay small. They compound. One wrong value influences another, and before long you've got a much bigger problem on your hands. It gets more complicated when you're pulling in live data from sensors or external feeds, because that information can conflict with what's already in the model. And if your version control isn't tight, different team members might be working from different, or even overwritten, versions of the model altogether. So integrity risks are very much a people and process challenge, not just a technical one."
+          "script": "One of the trickiest challenges with AI in BIM is that things can go wrong without you ever realising it. Unlike a visible clash or a missing wall, data integrity issues tend to hide. An AI tool might quietly introduce an error into your model, perhaps a corrupted piece of geometry, a parameter that doesn't match, or an element that's been classified incorrectly, and nothing flags it up. The real danger is that small errors like these don't stay small. They compound. One wrong value influences another, and before long you've got a much bigger problem on your hands. It gets more complicated when you're pulling in live data from sensors or external feeds, because that information can conflict with what's already in the model. And if your version control isn't tight, different team members might be working from different, or even overwritten, versions of the model altogether."
         },
         {
           "number": 4,
-          "script": "Now, one of the most valuable things AI brings to BIM is its ability to catch errors before they become expensive problems on site. Think about clashing geometry, for example, where a pipe runs straight through a structural beam. AI can flag that kind of conflict instantly, rather than waiting for a human to spot it during a manual review. It also picks up on missing data, so if a component hasn't been properly specified, that gap gets highlighted early. Duplicate elements are another common issue, and AI can identify those automatically, keeping your model clean and reliable. Beyond that, if anything in the model breaks a predefined rule or standard, the system will highlight it clearly so nothing slips through the net. All of these errors are then logged, giving your team a clear record to work through and resolve. Essentially, AI acts like a very thorough quality checker that never gets tired or distracted."
+          "script": "One of the most valuable things AI brings to BIM is its ability to catch errors before they become expensive problems on site. Think about clashing geometry, for example, where a pipe runs straight through a structural beam. AI can flag that kind of conflict instantly, rather than waiting for a human to spot it during a manual review. It also picks up on missing data, so if a component hasn't been properly specified, that gap gets highlighted early. Duplicate elements are another common issue, and AI can identify those automatically, keeping your model clean and reliable. Beyond that, if anything in the model breaks a predefined rule or standard, the system will highlight it clearly so nothing slips through the net. All of these errors are then logged, giving your team a clear record to work through and resolve."
         },
         {
           "number": 5,
-          "script": "Now, one of the most powerful things AI brings to BIM is the ability to catch errors early, before they turn into expensive problems on site. Think about how complex a building model can be, with thousands of components all needing to fit together perfectly. AI can scan through all of that and instantly flag where two elements are clashing, perhaps a pipe running straight through a structural beam. It also picks up on things like missing data fields, so if a component hasn't been properly specified, the system will alert you. It can spot duplicate object IDs, which might seem like a small thing, but can cause real confusion down the line. And it will highlight geometry errors that a human reviewer might easily overlook. All of this happens automatically, saving your team hours of manual checking and, more importantly, helping you avoid the kind of mistakes that are far more costly to fix once construction has actually begun."
+          "script": "Think about how complex a building model can be, with thousands of components all needing to fit together perfectly. AI can scan through all of that continuously, acting like a quality checker that never gets tired or distracted. It instantly flags where two elements are clashing, perhaps identifying conflicts between structural and MEP systems that would be easy to miss in manual reviews. The system also validates that every component has complete specifications, alerting you when critical data fields are empty. Geometry errors that might slip past human reviewers get highlighted automatically. All of this happens in real-time during the design process, which means you're preventing mistakes rather than discovering them later when they're far more expensive to fix."
         },
         {
           "number": 6,
-          "script": "Keeping your BIM data accurate is not a one-off task, it is something you build into your everyday process. Start by running regular audits so that small errors get caught early, before they ripple through the entire model. Alongside that, make sure everyone is using the same naming conventions for elements, because inconsistent labelling causes real confusion down the line. It also helps to build validation checks into each stage of the project workflow, rather than leaving everything to a final review. Assign clear ownership too, so each section of the model has a named person or team responsible for it. Use version control to track changes and avoid conflicting updates when multiple people are working simultaneously. Finally, agree on simple measurement tolerances as a team, write them down, and share them with everyone involved. These habits might seem small individually, but together they make a significant difference to the reliability of your model."
+          "script": "Keeping your BIM data accurate is not a one-off task, it is something you build into your everyday process. Start by running regular audits so that small errors get caught early, before they ripple through the entire model. Alongside that, make sure everyone is using the same naming conventions for elements, because inconsistent labelling causes real confusion down the line. It also helps to build validation checks into each stage of the project workflow, rather than leaving everything to a final review. Assign clear ownership too, so each section of the model has a named person or team responsible for it. Finally, agree on simple measurement tolerances as a team, write them down, and share them with everyone involved. These habits might seem small individually, but together they make a significant difference to the reliability of your model."
         },
         {
           "number": 7,
-          "script": "So we've talked about the risks, but let's focus on what you can actually do about them. The good news is that protecting your BIM model doesn't have to be complicated. It starts before anything even enters the model. Always check your data for errors or inconsistencies before uploading it. Think of it as a quality check at the door. From there, make sure you're using version control, so you always know which iteration of the model you're working with and can roll back if something goes wrong. It's also worth being quite deliberate about who can edit what. Not everyone needs full access, and restricting permissions reduces the chance of accidental changes. On top of that, schedule regular audits of your models to catch any issues early, before they snowball into bigger problems. And finally, invest time in training your team on proper input standards. Consistent, accurate data entry from the start makes everything downstream so much easier."
+          "script": "So we've talked about the risks, but let's focus on what you can actually do about them. The good news is that protecting your BIM model doesn't have to be complicated. It starts before anything even enters the model. Always check your data for errors or inconsistencies before uploading it. Think of it as a quality check at the door. From there, make sure you're using version control, so you always know which iteration of the model you're working with and can roll back if something goes wrong. It's also worth being quite deliberate about who can edit what. Not everyone needs full access, and restricting permissions reduces the chance of accidental changes. On top of that, schedule regular audits of your models to catch any issues early, before they snowball into bigger problems. And finally, invest time in training your team on proper input standards."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with some core principles to carry forward into your day-to-day BIM practice. First, never take AI-generated data at face value. Always cross-check it against your trusted source documents before sharing anything with the wider team. Alongside that, make clash detection a regular habit rather than a last-minute task. It's also really important to keep a clear audit trail, so you always know who changed what, and when. Now, one thing worth remembering is that AI tools can introduce errors quietly, without any obvious warning signs, which is exactly why human review needs to stay part of every stage of your workflow. Keep your model permissions tightly controlled as well, to avoid accidental or unauthorised edits creeping in. And finally, as a practical next step, have a think about one area of your current workflow where an AI tool could genuinely support your quality checks, rather than replace them entirely."
+          "script": "Let's bring everything together with some practical next steps you can take. First, never take AI-generated data at face value. Always cross-check it against your trusted source documents before sharing anything with the wider team. Make clash detection a regular habit rather than a last-minute task. Keep a clear audit trail, so you always know who changed what, and when. Remember that AI tools can introduce errors quietly, without any obvious warning signs, which is exactly why human review needs to stay part of every stage of your workflow. Keep your model permissions tightly controlled as well, to avoid accidental or unauthorised edits creeping in. And finally, as a practical next step, identify one area of your current workflow where an AI tool could genuinely support your quality checks, rather than replace them entirely."
         }
       ]
     }

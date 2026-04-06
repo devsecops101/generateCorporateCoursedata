@@ -1,0 +1,14 @@
+{
+  "Course Title": "Testing AI Systems: Why Traditional QA Fails",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software Developers, QA Engineers, Test Engineers, Software Testers, Product Managers, Technical Leads, DevOps Engineers",
+  "Team or Dept this is for": "Quality Assurance, Software Development, Product Development, Engineering, IT",
+  "Description": "Limitations of deterministic testing for probabilistic systems.",
+  "Prerequisites": "A basic familiarity with software development concepts and a general curiosity about how AI systems work are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the core limitations of traditional deterministic testing methods when applied to probabilistic AI systems, and explain why conventional QA frameworks are insufficient for validating unpredictable, non-linear AI behaviour. You will also apply practical strategies to recognise where standard testing approaches break down, and begin to explore alternative evaluation techniques better suited to the unique challenges of modern AI systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

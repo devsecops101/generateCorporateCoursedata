@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Pharmacovigilance",
-          "subtitle": "Safeguarding Patients Through Smarter Surveillance",
-          "slidecontent": "• Drugs can cause harm\n• Signals get missed daily\n• AI changes surveillance\n• Patients depend on speed\n• This course explains how"
+          "subtitle": "Transforming Drug Safety Monitoring",
+          "slidecontent": "• Every medicine carries potential risks\n• Traditional monitoring faces data overload\n• AI revolutionizes signal detection speed\n• Patient safety depends on early warning\n• This course explores practical applications"
         },
         {
           "number": 2,
-          "slidetitle": "Defining Pharmacovigilance Today",
-          "subtitle": "Safeguarding patients through continuous drug monitoring",
-          "slidecontent": "• The systematic practice of detecting, assessing, and preventing adverse effects caused by medicines\n• Covers all stages of a drug's life, from clinical trials through to post-market use\n• Protects patients\n• Relies on collecting safety reports from healthcare professionals, patients, and manufacturers\n• Governed by national regulators and international bodies such as the EMA and WHO"
+          "slidetitle": "What is Pharmacovigilance?",
+          "subtitle": "The Science of Medicine Safety",
+          "slidecontent": "• Systematic detection and assessment of drug adverse effects\n• Continuous monitoring from trials to market withdrawal\n• Collects reports from healthcare providers and patients\n• Managed by regulatory bodies like EMA and WHO\n• Essential for protecting public health"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting Safety Signals Earlier",
-          "subtitle": "Catching risks before they escalate",
-          "slidecontent": "• AI detects patterns faster\n• Flags rare drug reactions\n• Monitors millions of reports\n• Alerts teams to risks early\n• Reduces human oversight gaps"
+          "slidetitle": "The Challenge of Scale",
+          "subtitle": "Why Human Review Alone Falls Short",
+          "slidecontent": "• Millions of adverse event reports generated globally\n• Rare reactions buried in massive datasets\n• Human teams limited by time and capacity\n• Critical signals can be missed or delayed\n• Geographic and linguistic barriers complicate analysis"
         },
         {
           "number": 4,
-          "slidetitle": "Detecting Safety Signals with AI",
-          "subtitle": "Spotting risks faster with machine learning",
-          "slidecontent": "• AI scans millions of reports\n• Spots patterns humans miss\n• Flags risks much earlier\n• Reduces manual review time\n• Learns from new data"
+          "slidetitle": "AI Pattern Recognition",
+          "subtitle": "Machine Learning Finds Hidden Connections",
+          "slidecontent": "• Algorithms analyze multiple variables simultaneously\n• Detects subtle patterns across patient demographics\n• Identifies dosage-related safety correlations\n• Continuous learning improves accuracy over time\n• Processes structured and unstructured data sources"
         },
         {
           "number": 5,
-          "slidetitle": "Detecting Safety Signals with AI",
-          "subtitle": "Spotting Risks Before They Escalate",
-          "slidecontent": "• AI systems scanning millions of adverse event reports far faster than any human team\n• Patterns that might take months to spot manually, flagged within hours\n• Early detection\n• Weak signals identified across multiple data sources simultaneously, including social media and electronic health records\n• Fewer missed risks reaching patients before action is taken\n• Prioritised alerts helping pharmacovigilance teams focus on the cases that matter most"
+          "slidetitle": "Real-Time Signal Detection",
+          "subtitle": "Speed Advantage in Safety Monitoring",
+          "slidecontent": "• AI processes reports within hours not months\n• Integrates multiple data sources simultaneously\n• Flags emerging risks before widespread exposure\n• Prioritizes alerts by severity and urgency\n• Enables proactive rather than reactive responses"
         },
         {
           "number": 6,
-          "slidetitle": "Detecting Safety Signals with AI",
-          "subtitle": "How AI spots risks others miss",
-          "slidecontent": "• AI scans millions of patient records and reports far faster than any human team\n• Spots subtle patterns across age, dosage, and geography that manual review would likely miss\n• Flags rare but serious side effects earlier in a drug's lifecycle\n• Reduces signal noise\n• Helps prioritise which alerts genuinely need urgent human investigation\n• Particularly valuable when monitoring multiple drugs across large, diverse populations"
+          "slidetitle": "Enhanced Risk Assessment",
+          "subtitle": "Beyond Simple Alert Generation",
+          "slidecontent": "• Distinguishes true signals from statistical noise\n• Considers patient context and drug interactions\n• Evaluates geographic and temporal patterns\n• Supports evidence-based regulatory decisions\n• Reduces false positive alert fatigue"
         },
         {
           "number": 7,
-          "slidetitle": "Preparing for an AI Future",
-          "subtitle": "Steps to embrace AI confidently",
-          "slidecontent": "• Start by learning the basics of how AI tools handle and flag safety data\n• Familiarise yourself with your organisation's data quality standards before any AI rollout\n• Small steps first\n• Work closely with IT and compliance teams to address regulatory and privacy requirements\n• Build confidence by piloting AI on low-risk signal detection tasks before scaling up\n• Stay curious and keep updating your knowledge as the technology evolves rapidly"
+          "slidetitle": "Implementation Strategy",
+          "subtitle": "Building AI Capabilities Responsibly",
+          "slidecontent": "• Start with pilot projects on routine tasks\n• Ensure data quality meets AI requirements\n• Collaborate with IT and compliance teams\n• Address regulatory and privacy considerations\n• Maintain continuous learning and adaptation"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• AI spots safety signals faster\n• Human oversight remains essential\n• Missed signals harm patients\n• Validate AI outputs always\n• Report concerns without delay\n• Keep learning, stay vigilant"
+          "slidetitle": "Key Takeaways",
+          "subtitle": "Essential Principles for Practice",
+          "slidecontent": "• AI accelerates but doesn't replace human judgment\n• Always validate AI-generated insights\n• Early detection saves lives and prevents harm\n• Report safety concerns without delay\n• Stay current with evolving technologies"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in Pharmacovigilance. Now, that might sound like a mouthful, but the core idea is actually quite straightforward, and it matters enormously. Every medicine that reaches a patient has the potential to cause harm, and the systems we use to detect those harms have to work quickly and accurately. The trouble is, with millions of reports coming in from around the world, critical safety signals can and do get missed. That is where artificial intelligence is starting to make a real difference. AI is transforming the way we monitor drug safety, helping us spot patterns faster than ever before. And when we are talking about patient safety, speed genuinely saves lives. Throughout this course, we are going to explore exactly how AI is being applied in pharmacovigilance, why it matters, and what it means for the future of medicines safety. So let us get started."
+          "script": "Welcome to AI in Pharmacovigilance. While the name might sound complex, the core concept is straightforward and critically important. Every medicine has the potential to cause harm alongside its benefits, and detecting these risks quickly is essential for patient safety. Traditional drug safety monitoring faces an overwhelming challenge: millions of adverse event reports flood in globally, making it impossible for human teams to process everything at the speed needed. This is where artificial intelligence is making a transformative difference, revolutionizing how we detect safety signals and respond to emerging risks. Throughout this course, we'll explore how AI is reshaping pharmacovigilance and what this means for protecting patients worldwide."
         },
         {
           "number": 2,
-          "script": "Before we explore how artificial intelligence is changing things, let us make sure we are all starting from the same place. Pharmacovigilance is essentially the science of keeping medicines safe after they leave the laboratory. It covers everything from the earliest clinical trials right through to the years and decades a drug is available on the market. The core job is to spot any harmful or unexpected effects that a medicine might cause, assess how serious those effects are, and then take action to prevent them from happening again. To do that, safety reports are gathered from a wide range of sources, including doctors, nurses, patients, and the companies that manufacture the medicines. All of this activity is overseen by regulatory bodies at both national and international levels, such as the European Medicines Agency and the World Health Organisation. So in short, pharmacovigilance exists to protect patients, and it does that through continuous, systematic monitoring throughout a medicine's entire life."
+          "script": "Before diving into AI applications, let's establish what pharmacovigilance actually is. It's the systematic science of detecting, assessing, understanding, and preventing adverse effects or problems related to medicines. This isn't just about clinical trials - pharmacovigilance covers the entire lifecycle of a drug, from initial testing through decades of real-world use. The process relies on collecting and analyzing safety reports from healthcare professionals, patients, and pharmaceutical companies. All this activity is coordinated by regulatory agencies like the European Medicines Agency and World Health Organization, who set standards and ensure consistent safety monitoring across borders. Fundamentally, pharmacovigilance exists to protect public health by ensuring medicines remain safe throughout their use."
         },
         {
           "number": 3,
-          "script": "One of the most powerful things AI brings to pharmacovigilance is speed. When you are dealing with millions of adverse event reports coming in from all over the world, no human team can realistically review all of that data quickly enough to catch every warning sign. AI can. It works through vast volumes of reports at a pace that simply is not possible manually, and it is particularly good at spotting rare drug reactions that might only appear in a small handful of cases buried within an enormous dataset. Left undetected, those rare signals can escalate into serious patient safety issues. By flagging potential risks early and alerting the relevant teams straightaway, AI helps organisations respond before a problem grows. It also fills in some of the gaps that naturally occur when you rely solely on human review, whether that is due to workload, fatigue, or just the sheer scale of the data involved. Essentially, it acts as an always-on safety net."
+          "script": "To understand why AI is so valuable in pharmacovigilance, we need to appreciate the enormous scale challenge facing traditional safety monitoring. Globally, millions of adverse event reports are submitted every year, creating an avalanche of data that grows constantly. Within this massive volume, rare but serious reactions can easily be overlooked - imagine finding a needle in a haystack the size of a football stadium. Human reviewers, no matter how skilled, have natural limitations in processing speed and working hours. They also face geographic and language barriers when analyzing reports from different countries. This means potentially critical safety signals can be missed entirely or discovered too late to prevent patient harm. The sheer scale of modern drug safety data has simply outgrown what human review alone can handle effectively."
         },
         {
           "number": 4,
-          "script": "So, one of the most powerful things AI brings to pharmacovigilance is the ability to detect safety signals far more quickly than we ever could manually. Think about the sheer volume of adverse event reports that come in globally, we are talking millions of documents. No human team could realistically read through all of that at speed. But AI can. It scans through vast amounts of data, picks up on subtle patterns that might not be obvious to the human eye, and raises a flag when something looks concerning, often much earlier in the process than traditional methods would allow. That means potential risks get identified sooner, which is obviously better for patient safety. And here is the really clever bit: the system keeps learning. As new data comes in, the AI refines its understanding, so it gets better over time. The result is a significant reduction in the burden of manual review, freeing up your team to focus on higher level decision making."
+          "script": "AI excels at pharmacovigilance because of its sophisticated pattern recognition capabilities. Unlike humans who typically examine reports sequentially, machine learning algorithms can simultaneously analyze multiple variables across vast datasets - patient age, gender, medical history, drug dosage, timing of events, and geographic location. This multidimensional analysis reveals subtle connections that would be nearly impossible for human reviewers to detect. For example, AI might identify that a particular side effect occurs more frequently in elderly patients taking higher doses during winter months. These algorithms also learn and improve continuously, becoming more accurate as they process additional data. Importantly, AI can handle both structured database entries and unstructured text from clinical notes, expanding the scope of safety information that can be systematically analyzed."
         },
         {
           "number": 5,
-          "script": "So, one of the most exciting things AI brings to pharmacovigilance is the ability to spot safety signals much earlier than we ever could before. Think about the sheer volume of adverse event reports being submitted every single day, from hospitals, patients, regulators, and even social media. No human team could realistically read through all of that quickly enough. AI systems can scan millions of reports in a fraction of the time, identifying patterns that might otherwise take months to surface. And it is not just looking at one data source; it is pulling together information from electronic health records, patient forums, and more, all at once. What this means in practice is that weak signals get caught earlier, fewer risks slip through unnoticed, and the pharmacovigilance team receives prioritised alerts so they can focus their attention where it is genuinely needed. It is about working smarter, and ultimately, keeping patients safer."
+          "script": "The speed advantage AI brings to signal detection represents a fundamental shift from reactive to proactive safety monitoring. Where traditional methods might take months to identify emerging patterns, AI systems can flag potential safety signals within hours of receiving new reports. This rapid processing integrates information from multiple sources simultaneously - hospital records, patient forums, social media, and regulatory databases - creating a comprehensive real-time picture of drug safety. Early detection means risks can be investigated and addressed before they affect large numbers of patients. AI also prioritizes alerts based on severity and statistical significance, helping safety teams focus their attention on the most urgent cases first. This speed isn't just about efficiency - it's about preventing avoidable patient harm."
         },
         {
           "number": 6,
-          "script": "One of the most powerful things AI brings to pharmacovigilance is its ability to detect safety signals that humans might simply never catch. Think about the sheer volume of data involved: millions of patient records, adverse event reports, clinical notes, all accumulating constantly. No human team could realistically comb through all of that at speed. AI can, and it does so while looking for subtle connections across things like patient age, dosage levels, and geographic location. That means rare but serious side effects can be flagged much earlier in a drug's lifecycle, giving regulators and manufacturers more time to act. AI also helps cut through the noise, because not every alert is equally urgent. Rather than overwhelming safety teams with thousands of flags, AI helps prioritise the ones that genuinely need immediate human attention. And when you are monitoring multiple medicines across large, diverse populations simultaneously, that kind of intelligent filtering becomes absolutely essential."
+          "script": "Beyond simply generating alerts faster, AI enhances the quality of risk assessment in pharmacovigilance. One of the biggest challenges in safety monitoring is distinguishing genuine safety signals from statistical noise - random fluctuations that appear concerning but aren't clinically meaningful. AI algorithms can evaluate the strength of statistical associations while considering important contextual factors like patient characteristics, concomitant medications, and underlying medical conditions. They also analyze geographic and temporal patterns to determine whether apparent safety signals represent real risks or coincidental clusters. This sophisticated analysis supports more informed regulatory decision-making and reduces the alert fatigue that occurs when safety teams are overwhelmed by false positive signals. The result is more precise, actionable safety intelligence."
         },
         {
           "number": 7,
-          "script": "So, how do you actually get started with all of this? The good news is, you do not need to become a data scientist overnight. Begin by building a basic understanding of how AI tools process and flag safety information, and make sure you know your organisation's data quality standards before anything gets rolled out. From there, think small. Pilot AI on lower-risk tasks first, like routine signal detection, so you can build confidence without feeling overwhelmed. Throughout that process, keep your IT and compliance colleagues close, because navigating the regulatory and privacy requirements is very much a team effort. And perhaps most importantly, stay curious. AI in pharmacovigilance is evolving quickly, so committing to ongoing learning is genuinely part of the job now. None of this has to happen all at once. Steady, informed progress is far more sustainable than rushing in, and it puts you in a much stronger position as the technology continues to develop."
+          "script": "Successfully implementing AI in pharmacovigilance requires a thoughtful, systematic approach. Start with pilot projects focusing on routine signal detection tasks where the stakes are lower and teams can build confidence with the technology. Before deployment, ensure your organization's data quality meets the standards AI systems require - poor quality input inevitably leads to unreliable outputs. This implementation journey demands close collaboration between pharmacovigilance professionals, IT specialists, and compliance teams to navigate complex regulatory requirements and data privacy considerations. Begin with clearly defined use cases, establish validation procedures, and maintain human oversight throughout the process. Remember that AI implementation isn't a one-time event but an ongoing process of learning, refinement, and adaptation as both the technology and regulatory landscape evolve."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together with a few core principles worth holding onto long after this lesson ends. AI is genuinely powerful at spotting safety signals quickly, far faster than traditional methods, but it is not infallible. Your judgement as a human professional is still absolutely essential, and that will never change. Remember that missed signals have real consequences for real patients, so complacency is never an option. Whenever AI produces an output, validate it. Question it, check it, and make sure it makes clinical sense before acting on it. If something does not look right, report your concerns promptly. Delays in pharmacovigilance can cost lives, so do not sit on a worry. And finally, this field is evolving rapidly, so commit to keeping your knowledge current. The more you understand about how these tools work, the better placed you are to use them responsibly. Stay curious, stay critical, and above all, stay vigilant."
+          "script": "As we conclude, let's reinforce the essential principles for working with AI in pharmacovigilance. While AI dramatically accelerates signal detection and pattern recognition, it never replaces the need for human expertise and clinical judgment. Always validate AI-generated insights against your professional knowledge and established clinical evidence before taking action. Remember that the ultimate goal is patient safety - early detection of adverse effects can literally save lives and prevent widespread harm. When you encounter potential safety concerns, whether identified by AI or through traditional means, report them promptly without delay. Finally, commit to staying current with rapidly evolving AI technologies and regulatory guidance. The more you understand these tools, the more effectively you can use them to protect patient safety while maintaining the highest professional standards."
         }
       ]
     }

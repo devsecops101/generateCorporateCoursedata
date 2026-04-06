@@ -1,0 +1,107 @@
+{
+  "Course Title": "False Confidence in AI Predictions",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "How inaccurate AI insights can lead to dangerous operational decisions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with day-to-day operations in at least one agricultural, forestry, fishing, mining, or energy sector is helpful, along with a general curiosity about how digital tools and data-driven systems are being used in those industries.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key warning signs of overconfident AI predictions and explain how misleading outputs can lead to harmful decisions in agricultural, forestry, and resource-based operations. You will also apply practical strategies to critically evaluate AI-generated insights, helping you protect your organisation from costly and potentially dangerous mistakes in the field.",
+  "lessons": [
+    {
+      "lesson title": "False Confidence in AI Predictions",
+      "order": 1,
+      "Description": "In this lesson, you will explore how artificial intelligence systems can generate predictions that appear highly confident but are fundamentally flawed or misleading. We will examine real-world scenarios where organisations have relied too heavily on AI-generated insights, leading to poor decision-making and serious operational consequences. You will learn to recognise the warning signs of overconfident AI outputs, including how numerical scores and probability figures can create a false sense of certainty. By the end of this lesson, you will have a clearer understanding of why critical thinking and human oversight remain essential when working alongside AI tools. This knowledge will help you make safer, more informed decisions in your own professional context.",
+      "status": "draft",
+      "content": "How inaccurate AI insights can lead to dangerous operational decisions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "False Confidence in AI Predictions",
+          "subtitle": "When AI Certainty Masks Hidden Risk",
+          "slidecontent": "• AI systems can sound certain even when their predictions are deeply unreliable\n• Confident outputs don't equal correct outputs\n• Operational decisions made on flawed AI insights can carry serious, real-world consequences\n• This lesson explains why false confidence happens and how to spot it\n• No technical background needed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "When AI Sounds Too Certain",
+          "subtitle": "Recognising overconfidence before it misleads",
+          "slidecontent": "• AI states facts confidently\n• Confidence doesn't mean correct\n• Errors hide in plain sight\n• Certainty can mislead quickly\n• Question every firm answer"
+        },
+        {
+          "number": 3,
+          "slidetitle": "When AI Sounds Too Certain",
+          "subtitle": "Certainty that masks hidden uncertainty",
+          "slidecontent": "• AI tools often state predictions in confident, authoritative language even when the underlying data is weak or incomplete\n• No caveats offered\n• A system might say \"sales will increase by 23%\" with no indication of how reliable that figure actually is\n• Confident phrasing can make guesswork sound like fact\n• Operators who trust these outputs without questioning them risk making critical decisions on shaky foundations\n• The problem is not the prediction itself, but the absence of any visible uncertainty around it"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising Overconfident AI Outputs",
+          "subtitle": "Spotting the Signs Before It's Late",
+          "slidecontent": "• AI outputs that express certainty without showing any margin of error or confidence range\n\n• Suspiciously round numbers\n\n• Predictions that align perfectly with what decision-makers hoped to hear\n\n• No acknowledgement of missing, incomplete, or low-quality input data\n\n• Consistent high confidence scores across very different types of questions\n\n• Language like \"will definitely\" or \"guaranteed outcome\" rather than \"likely\" or \"estimated\""
+        },
+        {
+          "number": 5,
+          "slidetitle": "Recognising the Warning Signs",
+          "subtitle": "Spotting Overconfident AI Output Early",
+          "slidecontent": "• AI outputs that include no uncertainty ranges or confidence intervals\n• Precise-sounding numbers (like \"87.3% probability\") with no supporting explanation\n• No caveats\n• Recommendations that ignore edge cases or conflicting data entirely\n• Language that presents one outcome as inevitable rather than likely\n• Consistent agreement with user assumptions, regardless of the input data"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Questioning AI Confidence Levels",
+          "subtitle": "When should you trust AI outputs?",
+          "slidecontent": "• Check the source data first\n• High confidence ≠ correct\n• Ask \"why does it think this?\"\n• Verify against real evidence\n• Treat outputs as drafts"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Questioning AI Before You Act",
+          "subtitle": "Before trusting output, ask these questions.",
+          "slidecontent": "• Who trained this model?\n• What data was used?\n• How recent is it?\n• Was it tested here?\n• Does this match reality?"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• AI confidence scores can mislead\n• High probability does not mean certain\n• Always verify before acting\n• Context shapes prediction accuracy\n• Question outputs, not just results\n• Seek human oversight always"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on false confidence in AI predictions. Here's something that might surprise you: an AI system can sound completely certain about something and still be completely wrong. The way these systems communicate their outputs often feels authoritative, even decisive, but that confidence in the presentation doesn't mean the underlying prediction is actually reliable. And this matters enormously in practice, because when people or organisations act on AI insights without questioning them, the consequences can be very real and very serious. What we're going to explore in this lesson is why this happens, what causes an AI to project certainty it hasn't earned, and how you can start to recognise the warning signs. The good news is that you don't need any technical background to follow along. This is about developing a sharper, more critical eye for how AI outputs are presented, and what might be hiding beneath that confident surface."
+        },
+        {
+          "number": 2,
+          "script": "One of the first things people notice when they start using AI tools is how confident they sound. The responses come back polished, fluent, and stated as though they are absolute fact. But here is the thing: that confident tone tells you nothing about whether the information is actually correct. AI systems do not flag their own mistakes with a warning sign. The errors are woven right into the text, sitting alongside accurate information, and they look identical. That is what makes this so tricky. When something is delivered with total certainty, our natural instinct is to trust it, and we move on without questioning it. But that instinct can lead us astray very quickly. So the habit we want to build throughout this course is simple but powerful: whenever an AI gives you a firm, definitive answer, pause and ask yourself whether you have actually verified that. Confidence is not the same as correctness, and recognising that difference is where we begin."
+        },
+        {
+          "number": 3,
+          "script": "Here is something that catches a lot of people off guard. AI tools often speak with tremendous confidence, even when the information behind that confidence is actually quite thin. You might see a system tell you something like \"sales will increase by 23%\" and it sounds precise, it sounds authoritative, and so you trust it. But here is the issue: there is no indication of how reliable that figure actually is. No caveats, no range, no sense of how uncertain the model really was when it produced that number. Confident language can make what is essentially an educated guess sound like established fact. And when operators take those outputs at face value and base important decisions on them, they are building on very shaky foundations. The prediction itself is not necessarily the problem. The problem is that there is nothing visible around it to tell you how much weight you should actually give it."
+        },
+        {
+          "number": 4,
+          "script": "So how do we actually spot when an AI is being overconfident? There are a few warning signs worth keeping an eye out for. First, be cautious if the output gives you a precise figure with no indication of uncertainty, especially if that number looks suspiciously neat, like exactly 80% or precisely 1,000 units. Second, if the prediction happens to match exactly what everyone in the room was hoping to hear, that should raise a flag. Good AI outputs challenge us sometimes. Third, watch out for systems that never mention gaps in the data they were given, because no dataset is perfect. Fourth, if an AI is equally confident whether it is predicting the weather or diagnosing a medical condition, something is off. And finally, pay close attention to the language being used. Phrases like \"will definitely happen\" or \"guaranteed outcome\" are red flags. Honest AI systems use words like \"likely\" or \"estimated\" because they reflect genuine uncertainty."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot overconfidence in AI output before it causes a problem? There are a few reliable warning signs to watch for. First, if the AI gives you a very precise-sounding number, something like \"87.3% probability,\" but offers no explanation of where that figure comes from, treat it with caution. Genuine confidence comes with context. Similarly, if there are no caveats at all, no acknowledgement of uncertainty or alternative outcomes, that is a red flag. Real-world predictions are rarely that clean. You should also be wary when recommendations seem to ignore awkward data or edge cases entirely, as though complications simply do not exist. And pay attention to the language being used. Phrases that make one outcome sound inevitable, rather than merely likely, are a sign the system is overstating its certainty. Finally, if the AI consistently agrees with everything you suggest regardless of what data you provide, it is probably telling you what you want to hear rather than what the evidence supports."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually put this into practice? When an AI gives you a confident-sounding answer, the first thing to do is ask yourself: where is this information coming from? The quality of the output depends heavily on the quality of the data behind it. And here is something really important to remember: a high confidence score does not mean the answer is correct. The AI might be absolutely certain and still be wrong. So get into the habit of asking \"why does it think this?\" rather than just accepting what it says. Then go and check it against real-world evidence, whether that is a reliable source, a colleague, or your own professional knowledge. Perhaps the most useful mindset shift is this: treat every AI output as a first draft, not a finished answer. It is a starting point for your thinking, not a replacement for it. That one shift alone will make you a much more effective and responsible user of these tools."
+        },
+        {
+          "number": 7,
+          "script": "Before you act on anything an AI system tells you, it is worth pausing and asking a few simple but powerful questions. Start by thinking about where the model actually came from. Who built it, and what information was it trained on? That matters enormously, because the data shapes everything the model believes to be true. Then ask yourself how current that data is, because AI systems can be working from information that is months or even years out of date. Next, consider whether this model was ever tested in a context like yours. A system trained on data from one industry or one country may not perform reliably in a different setting. And finally, the most grounding question of all: does what the AI is telling you actually match what you can see in the real world? If something feels off, trust that instinct. These five questions take only seconds to ask, but they can save you from making a very costly mistake."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together. The big thing to hold onto is this: when an AI gives you a confidence score, that number can be deceptive. Something showing as ninety percent probable is not the same as being certain, and treating it that way can lead you into real trouble. Before you act on any AI prediction, take a moment to verify it through other means. It is also worth remembering that context matters enormously. The same model can perform brilliantly in one situation and poorly in another, so accuracy is never guaranteed across the board. And do not just question the final result you are given. Ask yourself how the system arrived at that output, because that is where the real understanding lives. Finally, and perhaps most importantly, keep a human in the loop. AI is a powerful tool, but human judgement and oversight should always be part of the process. These are the principles worth carrying with you."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Operations managers, farm managers, site supervisors, field technicians, production coordinators, safety officers, data analysts, agricultural specialists, mining engineers, forestry supervisors, energy facility operators",
+  "Team or Dept this is for": "Operations, Production, Safety, Risk Management, Agricultural Operations, Mining Operations, Energy Operations, Forestry Management"
+}

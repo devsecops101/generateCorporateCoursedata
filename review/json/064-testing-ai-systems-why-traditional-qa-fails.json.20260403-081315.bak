@@ -1,0 +1,107 @@
+{
+  "Course Title": "Testing AI Systems: Why Traditional QA Fails",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "Limitations of deterministic testing for probabilistic systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with software development concepts and a general curiosity about how AI systems work are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the core limitations of traditional deterministic testing methods when applied to probabilistic AI systems, and explain why conventional QA frameworks are insufficient for validating unpredictable, non-linear AI behaviour. You will also apply practical strategies to recognise where standard testing approaches break down, and begin to explore alternative evaluation techniques better suited to the unique challenges of modern AI systems.",
+  "lessons": [
+    {
+      "lesson title": "Testing AI Systems: Why Traditional QA Fails",
+      "order": 1,
+      "Description": "Traditional software testing relies on predictable, repeatable outcomes, where the same input always produces the same output. AI systems behave very differently, generating responses that can vary each time, making conventional pass/fail testing methods largely ineffective. In this lesson, you will explore why the deterministic approaches used in standard QA processes struggle to keep pace with the probabilistic nature of AI. We will look at practical examples that highlight where traditional testing breaks down, and begin to build an understanding of what a more suitable testing approach might look like. By the end, you will have a clearer picture of the unique challenges involved in testing AI systems and why new thinking is needed in this space.",
+      "status": "draft",
+      "content": "Limitations of deterministic testing for probabilistic systems.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Testing AI: A New Challenge",
+          "subtitle": "Why old methods fall short here",
+          "slidecontent": "• Traditional QA assumes software behaves the same way every time it runs\n• AI systems are probabilistic, meaning identical inputs can produce different outputs\n• Old pass/fail checklists simply do not apply\n• Deterministic testing methods were built for rule-based code, not learned behaviour\n• A spell-checker either works or it does not, but an AI writing tool might be right, wrong, or somewhere in between\n• This gap between old methods and new systems is exactly what this course addresses"
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Limits of Fixed Rules",
+          "subtitle": "When rules meet unpredictable outputs",
+          "slidecontent": "• Traditional QA relies on fixed inputs producing fixed, predictable outputs\n• AI systems behave probabilistically, meaning the same input can yield different results each time\n• Rule-based test scripts simply cannot account for this variability\n• No single \"correct\" answer to validate against\n• Threshold-based pass/fail criteria break down when outputs exist on a spectrum of quality"
+        },
+        {
+          "number": 3,
+          "slidetitle": "The Determinism Problem Explained",
+          "subtitle": "Same input, different output, every time.",
+          "slidecontent": "• AI outputs vary constantly\n• Same prompt, different result\n• No single \"correct\" answer\n• Randomness is by design\n• Traditional tests expect consistency"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Same Input, Different Output",
+          "subtitle": "Why AI outputs vary each time",
+          "slidecontent": "• AI systems use probability and randomness to generate responses, so identical inputs rarely produce identical outputs\n• Unlike a calculator, no guaranteed fixed answer\n• Temperature settings, sampling methods, and model state all influence what gets returned each time\n• Running the same test twice can produce two completely different, yet equally valid, results\n• This breaks the core assumption that traditional QA relies on\n• Deterministic testing tools expect one correct output to check against, making them poorly suited for systems that are designed to vary"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Embracing Probabilistic Testing Approaches",
+          "subtitle": "Shifting from certainty to confidence ranges",
+          "slidecontent": "• Accepting that AI outputs vary within a range, rather than expecting a single fixed answer\n• Run tests hundreds of times to build statistical confidence\n• Define acceptable pass/fail thresholds based on percentages, not absolutes\n• Track distributions\n• Measure how often the system lands within your expected range across repeated runs\n• Use confidence intervals to communicate results to stakeholders clearly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Embracing Probabilistic Testing Approaches",
+          "subtitle": "Shifting from certainty to confidence ranges",
+          "slidecontent": "• Accept outputs vary naturally\n• Test ranges, not exact values\n• Run tests many times over\n• Track pass rates, not passes\n• Set confidence thresholds instead"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rethinking Quality for AI",
+          "subtitle": "A new mindset for uncertain outputs",
+          "slidecontent": "• Expect variation, not perfection\n• Define \"good enough\" ranges\n• Test behaviours, not exact outputs\n• Reframe failure as probability\n• Quality means consistent patterns"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons for your QA journey",
+          "slidecontent": "• AI outputs vary each time\n• Old QA methods miss this\n• Test ranges, not exact answers\n• Bias and drift need monitoring\n• Start small, observe patterns\n• Explore AI testing tools next"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Let's start by looking at why testing AI systems is genuinely different from anything most QA professionals have encountered before. Traditional software testing is built on a simple assumption: if you put the same input in, you get the same output out, every single time. That predictability is what makes pass/fail testing work so well for conventional code. But AI systems do not behave that way. They are probabilistic, which means identical inputs can produce different results on different occasions. Think about the difference between a spell-checker and an AI writing assistant. The spell-checker either flags a word or it does not. The AI writing tool, though, might give you a brilliant response, a mediocre one, or something completely off the mark. There is no simple right or wrong answer to check against. That gap between the old deterministic methods and the reality of modern AI is exactly what this course is here to help you bridge."
+        },
+        {
+          "number": 2,
+          "script": "So let's think about how traditional QA actually works. You write a test, you define an exact input, and you expect an exact output every single time. If the output matches, the test passes. Simple. But AI systems don't work like that. Give the same prompt to a language model twice, and you might get two completely different responses, and both of them could be perfectly reasonable. That's not a bug, that's just how these systems are designed to behave. The problem is that our traditional rule-based test scripts have no way of handling that kind of variability. They're looking for a single correct answer to check against, and with AI, that answer often doesn't exist. And when you try to apply a simple pass or fail threshold, things get even trickier, because AI outputs don't sit neatly in one of two boxes. Quality exists on a spectrum, and that's something conventional testing frameworks were simply never built to deal with."
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration script for Slide 3:\n\nSo let's get into what I think is the most fundamental challenge when testing AI systems, and it comes down to something called determinism. In traditional software, if you put the same input in, you get the same output out, every single time, without fail. That predictability is exactly what automated tests rely on. But AI systems simply do not work that way. Ask a language model the same question twice, and you will very likely get two different answers, both of which could be perfectly reasonable and correct. That is not a bug, it is actually intentional. The randomness is baked in by design, because it is what makes AI feel natural and flexible rather than robotic. The problem is that traditional testing tools and frameworks are built around the assumption of consistency. They expect one right answer. When there is no single right answer, those tools start to struggle. And that is the core tension we are going to be unpacking throughout this course."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nOne of the first things that surprises people when they start testing AI systems is that you can send the exact same input twice and get two completely different responses back, and both of them might be perfectly reasonable answers. That happens because AI models are built around probability and randomness rather than fixed logic. Things like temperature settings and sampling methods mean the model is essentially making weighted choices every time it generates a response, so there is no guaranteed output the way there would be with a calculator or a traditional piece of software. Now, this creates a real problem for conventional QA approaches, because traditional testing tools are designed around one core assumption: that a given input always produces one correct output that you can check against. When your system is deliberately built to vary, that assumption falls apart completely, and your standard deterministic testing toolkit simply is not equipped to handle it."
+        },
+        {
+          "number": 5,
+          "script": "So once we accept that AI outputs aren't fixed, we need a completely different way of testing them. Instead of asking \"did the system give the exact right answer,\" we start asking \"did the system give a good enough answer, often enough?\" That means running your tests not once, but hundreds of times, and looking at the spread of results you get back. You're building statistical confidence rather than chasing certainty. From there, you define what \"passing\" actually looks like in percentage terms. Maybe your system needs to respond correctly at least 90% of the time to be considered acceptable. You then track how often results land within that acceptable range across all your repeated runs. And when it comes to reporting back to stakeholders, confidence intervals are your friend. Rather than saying \"it works\" or \"it doesn't work,\" you can say \"it performs within the expected range 92% of the time.\" That's a much more honest and useful conversation to have."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually test AI systems if we can't rely on exact, predictable outputs? The answer is to embrace what's called probabilistic testing. Rather than expecting the same result every single time, we accept that some variation is completely normal and by design. Instead of checking for one precise answer, we define an acceptable range of outputs and ask whether the system is landing within that range consistently. And the word \"consistently\" is doing a lot of work there, because we need to run our tests many, many times to get a meaningful picture. A single pass or fail tells us very little. What we really want to know is the pass rate across hundreds or even thousands of runs. From there, we set confidence thresholds, so for example, we might decide that a system needs to produce an acceptable output at least ninety-five percent of the time to be considered reliable. It is a fundamentally different mindset, but once it clicks, it makes a lot of sense."
+        },
+        {
+          "number": 7,
+          "script": "So at this point, we need to fundamentally shift how we think about quality when it comes to AI systems. Traditional QA is built around the idea that there is one correct answer, and anything else is a failure. But AI simply does not work that way. Instead of expecting a perfect, identical output every time, we need to accept that some variation is completely normal and even expected. That means defining what \"good enough\" actually looks like, setting a range of acceptable responses rather than a single right answer. We also need to focus on how the system behaves overall, rather than checking whether it produced one specific output. And when something does go wrong, we reframe that not as a binary pass or fail, but as a question of probability and frequency. Ultimately, quality in an AI context means the system is producing consistently good patterns over time, not that it is perfect on every single occasion."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this lesson together. The big thing to hold onto is that AI systems behave differently from traditional software. Every time you run a query, you might get a slightly different response, and that means your old testing playbook simply won't cut it on its own. Instead of checking for one exact answer, you need to think in terms of acceptable ranges and expected behaviours. You also need to keep an eye on things like bias creeping into outputs, and drift happening over time as the model or the data around it changes. The good news is you don't need to overhaul everything at once. Start small, run some tests, and look for patterns before you scale up. And coming up next, we'll start exploring some of the tools that are specifically designed to help you test AI systems more effectively. So stick with me, because that's where things get really practical."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Software Developers, QA Engineers, Test Engineers, Software Testers, Product Managers, Technical Leads, DevOps Engineers",
+  "Team or Dept this is for": "Quality Assurance, Software Development, Product Development, Engineering, IT"
+}

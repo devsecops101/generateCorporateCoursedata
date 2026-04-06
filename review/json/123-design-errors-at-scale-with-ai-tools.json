@@ -21,83 +21,83 @@
           "number": 1,
           "slidetitle": "Design Errors at Scale",
           "subtitle": "When Small Mistakes Multiply Fast",
-          "slidecontent": "• AI tools work fast\n• Errors spread instantly\n• Small mistakes, big impact\n• Scale amplifies everything\n• One flaw, thousands affected"
+          "slidecontent": "• AI tools work at incredible speed\n• Errors spread instantly across outputs\n• Small mistakes create massive impact\n• Scale amplifies both good and bad\n• One flaw can affect thousands of files"
         },
         {
           "number": 2,
-          "slidetitle": "Mistakes That Multiply Fast",
-          "subtitle": "When one error echoes through everything.",
-          "slidecontent": "• One mistake, many consequences\n• Errors copy themselves automatically\n• Small flaws scale instantly\n• Templates spread problems everywhere\n• Speed hides the damage"
+          "slidetitle": "The Amplification Problem",
+          "subtitle": "Why AI makes errors more dangerous",
+          "slidecontent": "• Manual work contains errors naturally\n• AI copies mistakes automatically\n• Templates inherit and spread flaws\n• Speed masks damage until it's widespread\n• Traditional review cycles can't keep up"
         },
         {
           "number": 3,
-          "slidetitle": "Errors Multiply Across Projects",
-          "subtitle": "Small mistakes grow into major problems.",
-          "slidecontent": "• One error, many files\n• Templates spread mistakes fast\n• Clients notice repeated flaws\n• Fixing late costs more\n• Scale amplifies every slip"
+          "slidetitle": "Common Error Types That Propagate",
+          "subtitle": "Mistakes that spread fastest in AI workflows",
+          "slidecontent": "• Inconsistent naming conventions\n• Misaligned grid systems\n• Incorrect colour values in reusable components\n• Flawed spacing tokens\n• Wrong material specifications"
         },
         {
           "number": 4,
-          "slidetitle": "Errors Compound Across Your Project",
-          "subtitle": "Small mistakes grow into bigger problems.",
-          "slidecontent": "• One error, many copies\n• Mistakes multiply fast\n• Early flaws spread furthest\n• Fixing late costs more\n• Scale amplifies every mistake"
+          "slidetitle": "The Compounding Effect",
+          "subtitle": "How errors multiply exponentially over time",
+          "slidecontent": "• Early errors spread furthest\n• Each copied instance becomes a separate fix\n• Later discovery means exponential rework\n• Costs increase with project size\n• Client trust erodes with repeated flaws"
         },
         {
           "number": 5,
-          "slidetitle": "Errors Multiply Across Your Project",
-          "subtitle": "Scale amplifies every small design flaw.",
-          "slidecontent": "• A single misaligned spacing value copied across 50 components creates 50 separate problems\n• Errors compound quickly\n• Inconsistent colour tokens ripple through every screen that references them\n• The larger your project, the harder it becomes to trace a flaw back to its source\n• Small oversights become expensive fixes at the wrong moment in production"
+          "slidetitle": "Real-World Impact Examples",
+          "subtitle": "Concrete scenarios of error propagation",
+          "slidecontent": "• Misaligned spacing copied to 50 components\n• Wrong colour token affecting every screen\n• Flawed building code reference in all plans\n• Incorrect material grade in structural elements\n• Template errors across hundreds of documents"
         },
         {
           "number": 6,
-          "slidetitle": "Catching Errors Before They Spread",
-          "subtitle": "Early checks save time and effort.",
-          "slidecontent": "• Reviewing designs early, before assets are reused or shared, stops one mistake from multiplying across dozens of files\n• Spot errors fast\n• A simple checklist run at the end of each design session catches inconsistencies before they become habits\n• Version control tools flag unexpected changes between saves, giving you a clear record of what shifted and when\n• Fresh eyes help\n• Asking a colleague to review even a rough draft surfaces blind spots that familiarity causes you to overlook"
+          "slidetitle": "Early Detection Strategies",
+          "subtitle": "Catching problems before they multiply",
+          "slidecontent": "• Review designs before asset reuse\n• Run checklists after each session\n• Use version control to track changes\n• Get fresh eyes on rough drafts\n• Validate shared components thoroughly"
         },
         {
           "number": 7,
-          "slidetitle": "Preventing Errors Before They Spread",
-          "subtitle": "Catch mistakes before they multiply further.",
-          "slidecontent": "• Validate AI outputs at the component level before applying them project-wide\n• Check for pattern consistency early\n• Use version control to isolate changes and catch propagation before it spreads\n• Review a small sample of generated assets manually before bulk-applying any automated process\n• Flag anomalies immediately rather than assuming they will resolve later\n• Build a simple checklist for each AI-assisted task to catch recurring mistake types"
+          "slidetitle": "AI-Specific Prevention Methods",
+          "subtitle": "Tailored approaches for AI-generated content",
+          "slidecontent": "• Test AI outputs at component level first\n• Sample review before bulk application\n• Flag anomalies immediately\n• Build task-specific checklists\n• Isolate changes using version control"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• Small errors in AI-generated content multiply fast across large projects\n• Always validate AI outputs before reusing them at scale\n• A single flawed template or prompt can corrupt dozens of downstream assets\n• Spot checks matter\n• Build review steps into your workflow from the start, not as an afterthought\n• Start small, test thoroughly, then scale with confidence"
+          "slidetitle": "Building Error-Resistant Workflows",
+          "subtitle": "Sustainable practices for long-term success",
+          "slidecontent": "• Integrate validation from day one\n• Start small, test thoroughly, then scale\n• Build review checkpoints, not afterthoughts\n• Create feedback loops for continuous improvement\n• Balance AI speed with human oversight"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on designing errors at scale with AI tools. Now, one of the most exciting things about AI is how fast it works. You can generate content, make decisions, or process data in seconds. But here is the thing: that speed cuts both ways. If something goes wrong, it does not go wrong slowly. It goes wrong everywhere, all at once. A tiny mistake, something you might barely notice in a small project, can ripple out across thousands of outputs before anyone has a chance to catch it. Think of it like a typo in a template. If you send one letter with a typo, that is embarrassing. If your AI tool sends ten thousand letters with that same typo, that is a crisis. Scale amplifies everything, the good and the bad. So throughout this lesson, we are going to look at how errors behave differently when AI is involved, and what you can do to get ahead of them."
+          "script": "Welcome to this lesson on design errors at scale with AI tools. AI's incredible speed is both its greatest strength and its biggest risk. When things go right, you can generate thousands of outputs in minutes. But when things go wrong, that same speed means errors spread everywhere before you can catch them. Think of it like a typo in a template - one wrong letter in a manual document is embarrassing, but that same typo automatically copied to ten thousand AI-generated documents becomes a crisis. Throughout this lesson, we'll explore how errors behave differently when AI is involved and what you can do to stay ahead of them."
         },
         {
           "number": 2,
-          "script": "Here is the narration script for Slide 2:\n\nOne of the things that makes AI tools so powerful is also what makes them risky. When you work manually, a mistake tends to stay contained. You make an error on one page, and that is where it lives. But when you bring AI into the picture, especially at scale, that same mistake can copy itself across dozens, hundreds, or even thousands of outputs before you have even noticed anything is wrong. Think about a template with a flawed assumption baked in, or a prompt that consistently pulls the wrong tone. Every piece of content generated from that starting point carries the same problem. And because AI works so quickly, the damage can spread faster than your review process can catch it. That speed feels like a benefit, and it often is, but it can also mask just how far an error has travelled. So before we go any further, it is worth understanding why errors behave so differently when AI is involved."
+          "script": "Traditional manual work naturally contains errors to specific instances. You make a mistake on one drawing, and that's where it stays. But AI fundamentally changes this dynamic. When you use templates, prompts, or automated processes, every mistake gets copied automatically. A flawed assumption in your prompt becomes a flawed output in every generated file. The speed that makes AI so valuable also masks how far damage has spread - by the time you notice something's wrong, it may already exist in hundreds of places. Traditional review cycles simply weren't designed for this kind of rapid proliferation."
         },
         {
           "number": 3,
-          "script": "When you are working at scale, a single small error can ripple out across dozens or even hundreds of files before you have had a chance to catch it. Think about how templates work. You build one master layout, and then it gets applied everywhere. If there is a mistake baked into that template, every document that uses it inherits the same problem. And here is the thing: clients absolutely notice when the same flaw keeps showing up. It damages trust and makes your work look careless, even if the rest of it is excellent. The other issue is timing. The later you spot an error, the more expensive and time-consuming it becomes to fix, because you are not correcting one file, you are correcting many. Working with AI tools adds another layer to this, because AI can produce output very quickly. That speed is brilliant, but it also means any mistake gets amplified just as fast. Scale works in both directions."
+          "script": "Certain types of mistakes are particularly dangerous in AI workflows because they spread so easily. Inconsistent naming conventions might seem minor, but they create chaos when scaled across large projects. Misaligned grid systems compound into major layout problems. Incorrect colour values in reusable components affect every instance where they're applied. These aren't random errors - they're systematic flaws that AI tools excel at propagating. Understanding which mistakes spread fastest helps you focus your prevention efforts where they matter most."
         },
         {
           "number": 4,
-          "script": "Here is the narration script for Slide 4:\n\nOne of the trickiest things about working at scale is that a single error does not stay a single error for very long. Imagine you make one small mistake early on, perhaps a slightly wrong colour value or an incorrect spacing token. Now imagine that mistake is copied across dozens of screens, or pulled into a shared component used throughout your entire project. Suddenly that one mistake exists everywhere. And the earlier it happens in your process, the further it spreads before anyone notices. That is what we mean when we say errors compound. They do not just add up, they multiply. And here is the really important part: the later you catch a problem, the more expensive it becomes to fix, whether that is in time, effort, or rework. Scale does not just make your good decisions more powerful, it makes your mistakes more powerful too. So getting things right early really does matter."
+          "script": "Here's where the mathematics of error propagation become really sobering. Errors don't just add up - they multiply exponentially. An early mistake in your process has maximum time to spread before discovery. Each copied instance becomes a separate problem requiring individual attention. What starts as a two-minute fix in isolation becomes hours of systematic correction across an entire project. The compounding effect means timing isn't just important - it's everything. Catching problems early isn't just good practice, it's economic survival."
         },
         {
           "number": 5,
-          "script": "Here is the narration script for Slide 5:\n\nThis is where things start to get really interesting, and honestly, a little uncomfortable. Imagine you have a spacing value that is slightly off. On its own, not a big deal. But the moment you copy that component across fifty screens, you now have fifty problems to fix instead of one. That is what scale does. It takes every small mistake and multiplies it. The same thing happens with colour tokens. If one token is wrong, every single screen that references it inherits that error. And the bigger your project grows, the harder it becomes to track down where the problem actually started. You end up spending time hunting through files rather than building. What might have been a two-minute fix early on can turn into a very expensive, very stressful problem right before a deadline. So the goal is to catch these things as early as possible, and that is exactly where AI tools can genuinely help us."
+          "script": "Let's make this concrete with real scenarios you might face. Imagine a spacing value that's slightly off - say 8 pixels instead of 12. When that component gets copied across 50 screens, you now have 50 individual problems to fix. Or consider a colour token with the wrong hex value - every screen referencing that token inherits the error instantly. In construction, a flawed building code reference in your template means every generated plan contains the same compliance issue. These aren't hypothetical problems - they're the kind of systematic errors that can derail entire projects when discovered late in the process."
         },
         {
           "number": 6,
-          "script": "Once a mistake gets baked into a shared asset or a reused component, it can spread across dozens of files before anyone notices. So the best habit you can build is catching errors early, right at the source. Something as simple as running through a short checklist at the end of each design session can stop small inconsistencies from quietly becoming the norm. Version control tools are brilliant for this too, because they flag unexpected changes between saves, so you always have a clear record of what shifted and when. And do not underestimate the value of a second pair of eyes. When you have been staring at the same design for hours, familiarity makes it very easy to miss things that are right in front of you. Asking a colleague to take a quick look, even at a rough draft, often surfaces blind spots you would never have spotted on your own. Small checks, done consistently, save a lot of rework later."
+          "script": "The best defense against error propagation is catching problems before they have a chance to spread. This means reviewing designs before any assets get reused or shared with others. Simple habits make a huge difference - running through a checklist after each design session catches inconsistencies before they become normalized. Version control tools are invaluable here, flagging unexpected changes between saves and giving you clear records of what shifted when. Never underestimate fresh perspective either - asking a colleague to review even rough work surfaces blind spots that familiarity causes you to miss."
         },
         {
           "number": 7,
-          "script": "Once an error starts spreading through a project, stopping it becomes much harder than preventing it in the first place. So the goal here is to catch mistakes early, before they multiply. Before you apply any AI-generated output across your entire project, test it at the component level first. Check that patterns are consistent, and use version control so you can isolate changes and spot any unwanted propagation quickly. It is also worth manually reviewing a small sample of generated assets before you commit to a bulk process. Do not assume that something odd you notice will sort itself out later. Flag it straight away. And one of the simplest habits you can build is a short checklist for each AI-assisted task, tailored to the kinds of mistakes that tend to crop up repeatedly. These are not complicated steps, but together they create a reliable safety net that keeps small problems from quietly growing into much bigger ones."
+          "script": "AI-generated content requires specialized prevention approaches. Never apply AI outputs across your entire project without testing them at the component level first. Before committing to any bulk process, manually review a representative sample of generated assets. When you spot something unusual, flag it immediately rather than assuming it will resolve itself. Build task-specific checklists that target the kinds of mistakes your particular AI tools tend to make repeatedly. Use version control to isolate changes and spot unwanted propagation quickly. These targeted approaches create safety nets specifically designed for AI workflows."
         },
         {
           "number": 8,
-          "script": "So let's bring this all together. The big thing to hold onto is that AI tools can move incredibly quickly, and that speed is genuinely useful, but it also means that a small mistake can spread across your entire project before you even notice it. One dodgy template, one flawed prompt, and suddenly you have got the same error baked into dozens of files. That is why validation matters so much. Do not just trust the output because it looks right at first glance. Build in those review steps from the very beginning of your workflow, not as something you bolt on at the end when things have already gone wrong. Spot checks are your friend here. And the practical advice is simply this: start small, test what you have got properly, and only then scale up. That way, you are growing with confidence rather than just hoping for the best. Keep those habits in mind as you move forward."
+          "script": "Building truly error-resistant workflows means making prevention systematic rather than accidental. Integrate validation steps from day one - they're much harder to retrofit later. Always start small, test thoroughly, then scale with confidence rather than hope. Build review checkpoints as integral parts of your process, not afterthoughts when problems emerge. Create feedback loops so you learn from each project and continuously improve your prevention methods. The goal isn't to eliminate AI's speed advantage, but to balance it with appropriate human oversight. This approach lets you harness AI's power while protecting against its risks."
         }
       ]
     }

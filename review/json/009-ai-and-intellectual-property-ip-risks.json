@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner in most countries when AI generates content without significant human input\n• Copyright law was built for human creators\n• The person who prompts an AI tool may have limited or no automatic rights to the output\n• Ownership rules vary significantly depending on the country and the platform used\n• Some AI tools claim a licence over content created using their service, through their terms and conditions\n• An evolving area, with courts and governments still working out the answers"
+          "slidetitle": "Copyright Law Wasn't Built for AI",
+          "subtitle": "Why traditional ownership rules don't apply.",
+          "slidecontent": "• Copyright requires human creators\n• AI operates without human authorship\n• Legal frameworks struggle to classify AI outputs\n• Most countries have no clear rules yet\n• Creates ownership gaps and uncertainties"
         },
         {
           "number": 3,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner in most countries when AI creates content without significant human input\n• Copyright law was built for human creators, not machines\n• In the UK, computer-generated works can be protected for 50 years, but the rules are still being tested\n• The person who prompted or directed the AI may have some claim, depending on their level of creative input\n• Ownership disputes are already appearing in courts worldwide\n• A fast-moving area, so guidance from legal and compliance teams is essential"
+          "slidetitle": "UK Computer-Generated Works Provision",
+          "subtitle": "How UK law approaches machine-created content.",
+          "slidecontent": "• 50-year protection for computer-generated works\n• Applies to content with no human author\n• Still being tested with modern AI tools\n• May provide some protection for AI outputs\n• Courts determining practical application"
         },
         {
           "number": 4,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner in most countries when AI generates content without significant human input\n• Copyright law was written for human creators, not machines\n• In the UK, computer-generated works can be protected for 50 years, but the rules are still being tested\n• The person who prompted the AI may have some claim, depending on how much creative direction they provided\n• Ownership disputes are already reaching the courts\n• Your employer may automatically own AI-assisted work produced during employment"
+          "slidetitle": "The Role of Human Creative Input",
+          "subtitle": "When prompting might create ownership rights.",
+          "slidecontent": "• Significant creative direction may establish claims\n• Level of input determines potential ownership\n• Employment context affects who owns the work\n• Employer may automatically own AI-assisted work\n• Creative contribution must be substantial"
         },
         {
           "number": 5,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner yet\n• Creator, user, or platform?\n• Laws vary by country\n• Courts still deciding\n• Guidance changes frequently"
+          "slidetitle": "Platform Terms and Licensing Claims",
+          "subtitle": "How AI service providers protect their interests.",
+          "slidecontent": "• AI platforms include licensing terms\n• Service agreements may claim content rights\n• Terms vary significantly between providers\n• Users may grant platforms usage licenses\n• Always read the fine print before using"
         },
         {
           "number": 6,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner yet\n• Creator, user, or platform?\n• Laws vary by country\n• Courts still deciding\n• Guidance changes frequently"
+          "slidetitle": "Global Variations and Court Cases",
+          "subtitle": "How different countries are handling AI ownership.",
+          "slidecontent": "• Laws vary significantly by jurisdiction\n• Active court cases worldwide\n• Precedents being set in real time\n• Guidance changes frequently\n• International approaches differ substantially"
         },
         {
           "number": 7,
-          "slidetitle": "Who Owns AI-Generated Content?",
-          "subtitle": "A complex and evolving legal question.",
-          "slidecontent": "• No clear legal owner in most countries when AI generates content without significant human input\n• Copyright law was written for human creators, not machines\n• Some jurisdictions may recognise the person who prompted or directed the AI as a potential rights holder\n• Ownership claims vary depending on the tool used and its terms of service\n• Contested territory, legally speaking\n• Businesses using AI-generated content may find they have limited or no exclusive rights to it"
+          "slidetitle": "Business Risks of Uncertain Ownership",
+          "subtitle": "What unclear IP rights mean for organizations.",
+          "slidecontent": "• Limited or no exclusive rights to AI content\n• Others may freely use the same outputs\n• Competitive disadvantage from shared access\n• Difficulty protecting AI-generated assets\n• Challenges in licensing or selling content"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Essential reminders for responsible AI use",
-          "slidecontent": "• AI output isn't automatically yours\n• Check licences before reusing\n• Disclose AI use when required\n• Verify originality, avoid infringement\n• Keep records of AI prompts\n• Seek legal advice when unsure"
+          "slidecontent": "• AI output isn't automatically yours\n• Check licenses before reusing\n• Disclose AI use when required\n• Verify originality, avoid infringement\n• Keep records of AI prompts\n• Seek legal advice when unsure"
         }
       ],
       "scripts": [
@@ -73,27 +73,27 @@
         },
         {
           "number": 2,
-          "script": "So here's a question that might surprise you: if an AI tool creates something, who actually owns it? The honest answer is, it's complicated. Copyright law was designed with human creators in mind, so when a machine does the heavy lifting, the law struggles to keep up. In most countries, there's no clear owner when AI generates content with little or no meaningful human input. And even if you wrote the prompt, you may not automatically have any rights over what comes out. It also depends on where you are in the world, because different countries are taking different approaches. On top of that, some AI platforms include clauses in their terms and conditions that give them a licence over content created using their tools, so it's always worth reading the small print. This is genuinely new territory, and courts and governments are still working through the answers. We'll explore what this means in practice as we go through this lesson."
+          "script": "Here's the fundamental problem: copyright law was designed centuries ago with human creators in mind, and it simply hasn't evolved to handle machine-generated content. Traditional copyright assumes there's a person behind every creative work who deserves protection and recognition. But AI operates differently - it processes vast amounts of existing content to generate new outputs without any human directly authoring the result. This creates a legal gap that most countries haven't filled yet. When there's no clear human creator, the usual ownership rules simply don't apply, leaving AI-generated content in a kind of legal limbo."
         },
         {
           "number": 3,
-          "script": "So, who actually owns something that an AI has created? Honestly, it is a question that even legal experts are still working through. Most countries do not have a clear answer yet, because copyright law was designed with human creators in mind, not machines. The UK is actually a little ahead of the curve here. There is existing legislation that can protect computer-generated works for up to 50 years, but how that applies to modern AI tools is still being tested. One thing worth knowing is that if you provided significant creative direction through your prompts, you may have some claim to the output. But \"may\" is doing a lot of work in that sentence. Courts around the world are already seeing disputes over exactly these questions, and the law is moving quickly. The practical advice here is straightforward: if ownership matters for something you have created using AI, speak to your legal or compliance team before making any assumptions."
+          "script": "The UK is actually somewhat unique in having legislation that addresses computer-generated works. Under current law, content produced by a computer with no human author can receive copyright protection for up to 50 years. This was written long before today's AI tools existed, but it potentially applies to modern AI-generated content. However, the practical application is still being worked out through test cases and legal challenges. Courts are determining how this older provision applies to sophisticated AI systems, and the outcomes will shape how AI content is treated legally in the UK going forward."
         },
         {
           "number": 4,
-          "script": "So here's a question that's causing real headaches in legal circles right now: if an AI creates something, who actually owns it? The honest answer is, it depends, and in most cases it's genuinely unclear. Copyright law was designed with human creators in mind, so it doesn't map neatly onto AI-generated content. The UK does have a provision that gives computer-generated works a 50-year protection period, but how that applies in practice is still being worked out. If you've prompted an AI and provided significant creative direction, you might have some claim to the output, but that's far from guaranteed. What's worth knowing on a practical level is that if you're producing AI-assisted work as part of your job, your employer may well own it automatically, just as they would with other work you create during employment. These disputes are already landing in court, so this isn't a distant concern. It's happening right now."
+          "script": "One key factor that might influence ownership is the level of creative input you provide when working with AI. If you give detailed, specific direction through your prompts and make creative choices that significantly shape the output, you might have a stronger claim to ownership than someone who simply asks for 'a picture of a cat.' The amount and type of human creativity involved could determine whether you have rights to the result. There's also an employment dimension here - if you're creating AI-assisted content as part of your job, your employer may automatically own it, just as they would with other work you produce during employment. But these are still evolving areas with no guaranteed outcomes."
         },
         {
           "number": 5,
-          "script": "So here's a question that's causing a lot of debate right now: if an AI tool generates a piece of text, an image, or even a piece of music, who actually owns it? And the honest answer is, we don't fully know yet. The law hasn't caught up with the technology. Depending on where you are in the world, the rules can be quite different, and courts in various countries are still working through cases that will help shape the answer. Some argue ownership should sit with the person who created the AI, others say it belongs to the user who gave the instructions, and some platforms claim rights of their own through their terms and conditions. What makes this particularly tricky is that official guidance keeps changing, sometimes quite quickly. So if you're using AI to produce content for work or business purposes, it's really important to stay informed, because what's true today may well be different in six months' time."
+          "script": "Here's something many people overlook: the terms and conditions of the AI platform you're using. Most AI services include licensing clauses that give them certain rights over content created using their tools. Some platforms claim a license to use, modify, or distribute anything generated through their service. Others may be more restrictive about commercial use. The fine print varies dramatically between different providers, and these terms can significantly affect what you can do with the content you generate. Before assuming you can freely use AI-generated content for business purposes, it's essential to understand what rights the platform is claiming."
         },
         {
           "number": 6,
-          "script": "So here's a question that's causing quite a lot of debate right now: if an AI tool generates a piece of content, who actually owns it? And honestly, the answer at the moment is: we don't fully know. The law hasn't caught up with the technology yet. You might think it belongs to the person who created the AI, or perhaps the person who used it, or even the platform that hosts it. Different countries are approaching this in different ways, and courts around the world are still working through cases that will help shape the answers. What makes this particularly tricky for businesses and individuals is that the guidance keeps changing. Something that seemed acceptable six months ago might look very different today. So it's really important to stay informed and not assume that because you prompted an AI to create something, you automatically own it. This is genuinely unsettled territory, and we all need to tread carefully."
+          "script": "This is genuinely a global patchwork right now. Different countries are taking vastly different approaches to AI and intellectual property, and courts worldwide are making decisions that will set important precedents. What's permissible in one jurisdiction might be problematic in another. We're seeing active cases in the US, Europe, and Asia that are shaping how AI-generated content will be treated legally. The challenge for businesses operating internationally is that guidance keeps changing, sometimes quite rapidly, as new court decisions emerge and governments update their approaches. What seems settled today may look very different in six months."
         },
         {
           "number": 7,
-          "script": "So here's a question that might surprise you: when AI generates a piece of content, who actually owns it? The honest answer is that in most countries, nobody does, at least not clearly. Copyright law was built around human creativity, and it simply hasn't kept pace with what AI can now produce. Some places are starting to consider whether the person who wrote the prompt or guided the AI might have some claim, but that's far from settled. It also depends heavily on which tool you're using, because the terms of service can vary quite a bit from one platform to another. The practical concern for businesses is this: if you're using AI to create content, you may not have the exclusive rights to it that you'd expect. Someone else could potentially use that same content without infringing anything. It's genuinely contested legal territory right now, and it's something every organisation needs to be aware of."
+          "script": "So what does this uncertainty mean for your organization in practical terms? If you create content using AI, you may have limited or no exclusive rights to it. That means competitors could potentially use the same or very similar outputs without infringing anything you own. You might invest resources in AI-generated materials only to find you can't prevent others from using identical content. This creates real competitive and commercial risks. You may also struggle to license or sell AI-generated content because you can't guarantee clear ownership to potential buyers. These aren't theoretical concerns - they're happening right now as businesses grapple with the practical implications of unclear intellectual property rights in AI-generated materials."
         },
         {
           "number": 8,

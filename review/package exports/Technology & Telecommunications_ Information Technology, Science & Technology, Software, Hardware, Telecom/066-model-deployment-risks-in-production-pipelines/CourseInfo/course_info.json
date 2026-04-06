@@ -1,0 +1,14 @@
+{
+  "Course Title": "Model Deployment Risks in Production Pipelines",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software developers, DevOps engineers, ML engineers, system administrators, software architects, deployment engineers, platform engineers",
+  "Team or Dept this is for": "IT, Engineering, Operations, Development teams, DevOps, Platform teams",
+  "Description": "Issues with versioning, rollback, and environment drift.",
+  "Prerequisites": "Learners should have a basic understanding of software development concepts, some familiarity with version control tools such as Git, and ideally a little hands-on experience deploying or maintaining applications in any environment.",
+  "Learning objectives": "By the end of this course, you will be able to identify common deployment risks in production pipelines, explain the principles of versioning and rollback strategies, and recognise the causes and consequences of environment drift. You will also apply practical techniques to manage and mitigate these risks, helping you build more stable and reliable software deployment workflows.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

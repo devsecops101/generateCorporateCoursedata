@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising the Threat Landscape",
-          "subtitle": "How AI Exploits Critical Project Vulnerabilities",
-          "slidecontent": "• AI tools can scan project data at speed, identifying weaknesses humans would likely miss\n\n• Attackers target design files, schedules, and cost models\n\n• Even small data changes can cascade into costly structural or operational failures\n\n• Supply chain systems are a common entry point\n\n• Manipulation is often subtle, making early detection difficult without the right controls in place"
+          "slidetitle": "Why AI Attacks Work",
+          "subtitle": "The Speed and Stealth Advantage",
+          "slidecontent": "• AI processes project data at superhuman speed\n• Identifies vulnerabilities humans would miss\n• Makes subtle changes that avoid detection\n• Exploits trust in digital systems\n• Operates 24/7 without breaks"
         },
         {
           "number": 3,
-          "slidetitle": "Targeting Critical Infrastructure Systems",
-          "subtitle": "Why Infrastructure Systems Are Prime Targets",
-          "slidecontent": "• Critical infrastructure includes power grids, water systems, transport networks, and hospitals\n• Disrupting these systems causes immediate, widespread harm to large populations\n• Highly interconnected\n• Operational data (schedules, sensor readings, control commands) is extremely valuable to attackers\n• Many infrastructure systems rely on legacy technology with known security weaknesses\n• Even small manipulations to plans or data can trigger costly failures or safety incidents"
+          "slidetitle": "High-Value Attack Targets",
+          "subtitle": "What Makes Infrastructure Attractive",
+          "slidecontent": "• Critical systems affect entire populations\n• Power grids, water, transport, hospitals\n• Highly interconnected networks\n• Legacy systems with security gaps\n• Immediate, widespread impact potential"
         },
         {
           "number": 4,
           "slidetitle": "Manipulating Plans and Data",
-          "subtitle": "How attackers falsify critical project information",
+          "subtitle": "How Attackers Falsify Project Information",
           "slidecontent": "• Fake blueprints replace real ones\n• Cost figures get altered silently\n• Deadlines shift without approval\n• Safety data quietly removed\n• Corrupted files look legitimate"
         },
         {
           "number": 5,
-          "slidetitle": "Exploiting Operational Systems and Data",
-          "subtitle": "Targeting Systems at the Heart of Operations",
-          "slidecontent": "• Sensors feed false readings\n• Controls get hijacked remotely\n• Schedules and plans altered\n• Safety systems bypassed silently\n• Data logs quietly corrupted"
+          "slidetitle": "Common Entry Points",
+          "subtitle": "Where Attackers Find Their Way In",
+          "slidecontent": "• Supply chain systems connect multiple platforms\n• Shared project management tools\n• Cloud storage with weak authentication\n• Email attachments and file transfers\n• Third-party contractor access portals"
         },
         {
           "number": 6,
-          "slidetitle": "Disrupting Operational Systems With AI",
-          "subtitle": "How AI Targets Critical Control Systems",
+          "slidetitle": "Disrupting Operational Systems",
+          "subtitle": "When AI Targets Physical Infrastructure",
           "slidecontent": "• AI disrupts industrial control systems\n• Fakes sensor readings remotely\n• Triggers false equipment alarms\n• Overrides automated safety controls\n• Causes physical infrastructure damage"
         },
         {
           "number": 7,
           "slidetitle": "Protecting Against AI Threats",
           "subtitle": "Strategies to Safeguard Critical Systems",
-          "slidecontent": "• Regular audits of AI-integrated systems to catch unusual changes in project data or plans\n• Multi-factor authentication on all operational platforms\n• Training staff to recognise suspicious automated activity or unexpected system behaviour\n• Separating critical infrastructure controls from general network access\n• Clear incident response procedures tested before a real attack occurs\n• Keeping human oversight at every key decision point in automated workflows"
+          "slidecontent": "• Regular audits of AI-integrated systems\n• Multi-factor authentication on all platforms\n• Staff training on suspicious activity\n• Separate critical controls from general networks\n• Clear incident response procedures\n• Human oversight at key decision points"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for staying vigilant today",
-          "slidecontent": "• AI can silently alter plans, data, and operational systems without obvious signs of tampering\n• Verify critical project files through independent channels, not just digital records\n• Small, incremental changes are harder to spot\n• Train your team to question unexpected updates or approvals that arrive through automated systems\n• Audit trails matter, so protect and review them regularly\n• Start today by identifying the three most vulnerable data points in your current project"
+          "subtitle": "Core Lessons for Staying Vigilant",
+          "slidecontent": "• AI attacks are often invisible\n• Verify critical files through independent channels\n• Small changes are hardest to spot\n• Question unexpected automated updates\n• Protect and review audit trails regularly\n• Start by identifying your three most vulnerable data points"
         }
       ],
       "scripts": [
@@ -73,11 +73,11 @@
         },
         {
           "number": 2,
-          "script": "So let's start by understanding what we're actually up against. AI gives attackers a significant advantage because it can process enormous amounts of project data incredibly quickly, spotting vulnerabilities that a human analyst might easily overlook. And the targets aren't random. Attackers tend to go after the things that matter most to a project, things like design files, scheduling data, and cost models. What makes this particularly concerning is that even a small, seemingly insignificant change to that data can trigger a chain reaction, leading to serious structural problems or costly operational failures down the line. Supply chain systems are especially attractive entry points, because they connect so many different organisations and platforms. Perhaps the most unsettling part is that this kind of manipulation is often very subtle. There's no obvious alarm going off. Without the right controls in place, these changes can go unnoticed until the damage is already done. That's what we'll be exploring throughout this lesson."
+          "script": "So what makes AI such a powerful tool for attackers? The key advantage is speed and processing power. AI can analyze enormous amounts of project data in minutes, spotting patterns and weaknesses that would take human analysts days or weeks to identify. But it's not just about speed - it's about stealth. AI can make changes that are so subtle and well-crafted that they slip past normal detection methods. These systems can learn your organization's typical data patterns and mimic them perfectly when making alterations. They exploit our natural trust in digital systems - when we see a file in our project folder, we assume it's legitimate. And unlike human attackers who need rest, AI operates continuously, probing for vulnerabilities around the clock. This combination of speed, subtlety, and persistence is what makes AI-driven attacks so concerning for infrastructure projects."
         },
         {
           "number": 3,
-          "script": "So why do attackers focus so heavily on critical infrastructure? Well, think about the systems that keep society running day to day: power grids, water treatment, transport networks, hospitals. If any of these are disrupted, the impact is immediate and it affects enormous numbers of people. What makes these systems particularly attractive to attackers is how deeply interconnected they are. A problem in one area can quickly ripple across others. On top of that, the operational data these systems generate, things like sensor readings, control commands, and scheduling information, is incredibly valuable to anyone with malicious intent. There is also a significant vulnerability issue. Many infrastructure systems were built decades ago and still rely on older technology that was never designed with modern cyber threats in mind. And here is the really concerning part: attackers do not always need to cause obvious damage. Even a small, subtle manipulation to data or plans can trigger serious failures or dangerous safety incidents down the line."
+          "script": "So why do attackers focus so heavily on critical infrastructure? Well, think about the systems that keep society running day to day: power grids, water treatment, transport networks, hospitals. If any of these are disrupted, the impact is immediate and it affects enormous numbers of people. What makes these systems particularly attractive to attackers is how deeply interconnected they are. A problem in one area can quickly ripple across others. There is also a significant vulnerability issue. Many infrastructure systems were built decades ago and still rely on older technology that was never designed with modern cyber threats in mind. The potential for cascading failures means that even a small successful attack can have massive consequences, making infrastructure projects high-value targets that justify the investment in sophisticated AI attack tools."
         },
         {
           "number": 4,
@@ -85,7 +85,7 @@
         },
         {
           "number": 5,
-          "script": "Now let's look at what happens when attackers get inside the operational systems that keep an infrastructure project running day to day. These are the systems that monitor conditions, control equipment, and keep everything coordinated. When AI-driven attacks target them, the effects can be subtle but devastating. Imagine sensors quietly feeding incorrect readings to operators, so decisions are being made based on completely false information. Or think about control systems being hijacked remotely, with an attacker effectively sitting at the wheel without anyone realising. Project schedules and plans can be altered in ways that cause costly delays or dangerous misalignments. Even more worrying, safety systems can be silently bypassed, removing the very protections that are there to prevent accidents. And all the while, data logs are being corrupted in the background, so when something does go wrong, there is no reliable record of what actually happened. These attacks are designed to be invisible for as long as possible."
+          "script": "Understanding where attackers typically get into your systems is crucial for building effective defenses. Supply chain systems are particularly vulnerable because they connect so many different organizations and platforms - each connection point is a potential entry. Shared project management tools that multiple teams access create another common pathway. Cloud storage systems with weak authentication policies make attractive targets because they often contain entire project archives. Even something as simple as email attachments and file transfers can be weaponized to deliver malicious content. And don't overlook third-party contractor access portals - these systems often have elevated privileges but may not receive the same security attention as your main infrastructure. The key insight is that attackers look for the path of least resistance, which is often through these interconnected systems rather than direct attacks on your most protected assets."
         },
         {
           "number": 6,

@@ -25,39 +25,39 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "Where AI judgement falls short",
-          "slidecontent": "• AI misses context and nuance\n• Bias hides in training data\n• Edge cases confuse AI\n• Emotions need human reading\n• AI can't judge ethics"
+          "slidetitle": "How AI Systems Fail",
+          "subtitle": "Understanding where automation breaks down",
+          "slidecontent": "• Trained on past data, struggles with change\n• Confidently wrong with no self-awareness\n• Missing nuance, tone, cultural context\n• Poor handling of edge cases\n• No understanding of real consequences"
         },
         {
           "number": 3,
-          "slidetitle": "When AI Gets It Wrong",
-          "subtitle": "Spotting the Gaps AI Leaves Behind",
-          "slidecontent": "• AI systems trained on past data often fail when real-world conditions suddenly change\n\n• Confidently wrong\n\n• Outputs can sound authoritative even when the underlying information is outdated or incomplete\n\n• Nuance, tone, and cultural context frequently lost in translation\n\n• Edge cases and unusual situations that fall outside the training data are handled poorly\n\n• No built-in awareness of consequences"
+          "slidetitle": "AI's Blind Spots in Resource Industries",
+          "subtitle": "Specific risks in agriculture, mining, and energy operations",
+          "slidecontent": "• Weather patterns change faster than training updates\n• Equipment conditions vary by location and age\n• Safety protocols require human interpretation\n• Environmental factors need local knowledge\n• Regulatory changes happen in real-time"
         },
         {
           "number": 4,
           "slidetitle": "Recognising the Warning Signs",
-          "subtitle": "When AI Signals Need Human Attention",
-          "slidecontent": "• AI outputs that seem overly confident despite incomplete or ambiguous input data\n• Repeated errors in the same area\n• Results that contradict known facts, recent events, or established organisational policy\n• Unusual patterns, like sudden shifts in tone, logic, or recommendations with no clear cause\n• Flagged uncertainty from the system itself, such as low confidence scores or incomplete responses\n• A gut feeling that something is off, often worth acting on"
+          "subtitle": "When AI signals need human attention",
+          "slidecontent": "• Overly confident outputs from incomplete data\n• Repeated errors in the same area\n• Results contradicting known facts or policies\n• Sudden shifts in tone or logic\n• System flags uncertainty or incomplete responses\n• Your gut feeling that something is off"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising the Limits of AI",
-          "subtitle": "Where AI judgement falls short",
-          "slidecontent": "• AI cannot read context the way a human can, especially in emotionally charged or ambiguous situations\n• No sense of ethics built in\n• Struggles to recognise when a situation has changed significantly since its training data was collected\n• Unable to weigh competing values or make judgement calls that require lived experience\n• Confidently wrong sometimes, with no awareness of its own errors"
+          "slidetitle": "Common Override Triggers",
+          "subtitle": "Red flags that demand immediate human review",
+          "slidecontent": "• Numbers that don't pass basic sense checks\n• Recommendations ignoring safety protocols\n• Solutions assuming perfect conditions\n• Advice contradicting recent field experience\n• Outputs that seem suspiciously perfect"
         },
         {
           "number": 6,
-          "slidetitle": "Recognising the Warning Signs",
-          "subtitle": "When AI Outputs Demand Closer Scrutiny",
-          "slidecontent": "• Outputs feel oddly confident\n• Numbers don't quite add up\n• Context seems clearly missing\n• Tone feels unexpectedly off\n• Results look suspiciously perfect"
+          "slidetitle": "Building Override Confidence",
+          "subtitle": "Practical steps to strengthen decision-making",
+          "slidecontent": "• Practice with realistic scenarios regularly\n• Identify the shift from helpful to risky\n• Rehearse responses out loud or in writing\n• Reflect on past hesitations to learn patterns\n• Trust your instincts as valid data points"
         },
         {
           "number": 7,
-          "slidetitle": "Practising Confident Override Decisions",
-          "subtitle": "Building confidence through realistic scenario practice",
-          "slidecontent": "• Reviewing short, realistic scenarios where override decisions must be made quickly\n\n• Identifying the moment when AI output shifts from helpful to risky\n\n• Practising out loud or in writing to build decision-making muscle memory\n\n• Trust your instincts\n\n• Reflecting on past hesitations to understand what held you back\n\n• Repeating scenarios until confident responses feel natural and automatic"
+          "slidetitle": "Scenario Practice: Field Decisions",
+          "subtitle": "Applying override judgement to real situations",
+          "slidecontent": "• AI recommends equipment changes mid-season\n• System suggests ignoring weather warnings\n• Algorithm proposes cost cuts affecting safety\n• Automated schedule conflicts with crew limits\n• Output assumes resources that aren't available"
         },
         {
           "number": 8,
@@ -73,11 +73,11 @@
         },
         {
           "number": 2,
-          "script": "So before we can talk about when to step in, we need to understand why stepping in is sometimes necessary in the first place. AI systems are genuinely impressive, but they do have real limitations. They can struggle to read between the lines, missing the subtle context that a human would pick up on instinctively. They can also carry hidden bias, because if the data they were trained on was skewed in some way, the AI will reflect that without even realising it. Then there are edge cases, those unusual or unexpected situations that simply fall outside what the AI has learned to handle. Add to that the fact that AI cannot truly read human emotions, and you start to see the gaps. And perhaps most importantly, AI has no moral compass. It cannot weigh up ethical considerations the way a person can. These are not reasons to distrust AI entirely, but they are very good reasons to keep humans in the loop."
+          "script": "So let's talk about where AI actually falls short, because this is really important. AI systems learn from historical data, which means when the world changes quickly, they can be slow to catch up. And here's the tricky part: AI doesn't always know when it's wrong. It can give you an answer that sounds completely confident and authoritative, even when the information is outdated or just plain inaccurate. There's also the question of nuance. Things like tone, cultural sensitivity, and context are genuinely difficult for AI to get right. Then there are edge cases, those unusual or unexpected situations that simply don't fit neatly into the patterns the system was trained on. AI tends to struggle with those. And perhaps most importantly, AI has no real understanding of consequences. It doesn't weigh up the impact of what it's suggesting. That's why human judgement isn't just helpful in these moments, it's absolutely essential."
         },
         {
           "number": 3,
-          "script": "So let's talk about where AI actually falls short, because this is really important. AI systems learn from historical data, which means when the world changes quickly, they can be slow to catch up. And here's the tricky part: AI doesn't always know when it's wrong. It can give you an answer that sounds completely confident and authoritative, even when the information is outdated or just plain inaccurate. There's also the question of nuance. Things like tone, cultural sensitivity, and context are genuinely difficult for AI to get right. Then there are edge cases, those unusual or unexpected situations that simply don't fit neatly into the patterns the system was trained on. AI tends to struggle with those. And perhaps most importantly, AI has no real understanding of consequences. It doesn't weigh up the impact of what it's suggesting. That's why human judgement isn't just helpful in these moments, it's absolutely essential."
+          "script": "In resource-based industries like agriculture, mining, and energy, these AI limitations take on particular significance. Weather patterns shift faster than most training data can be updated, but AI might still recommend planting schedules based on last decade's rainfall. Equipment conditions vary dramatically by location, age, and usage, yet AI often assumes standard performance across the board. Safety protocols need human interpretation because they were written by people who understand real-world consequences, not statistical patterns. Environmental factors require local knowledge that no algorithm can capture, and regulatory changes happen in real-time while AI training cycles take months. These aren't abstract problems, they're daily realities that make human oversight absolutely critical in your sector."
         },
         {
           "number": 4,
@@ -85,15 +85,15 @@
         },
         {
           "number": 5,
-          "script": "So AI is genuinely impressive, but it does have some real blind spots, and it is worth being honest about those. One of the biggest is context. AI cannot pick up on the emotional undercurrents in a situation the way a person can. It also has no built-in ethical compass. It does not weigh up right and wrong the way we do. Then there is the issue of time. AI learns from data collected up to a certain point, so if the world has moved on, it may not realise that. It also struggles when situations require you to balance competing values, the kind of judgement that comes from lived experience. And perhaps most importantly, AI can be completely wrong while sounding absolutely certain. It has no awareness of its own mistakes. That combination of confidence and error is exactly why human oversight is not optional. It is essential."
+          "script": "Beyond general warning signs, there are specific red flags that should trigger immediate human review. If numbers appear in AI output, do a quick sense check, because systems can be confidently wrong about figures that would be obviously incorrect to someone with field experience. Watch for recommendations that seem to ignore established safety protocols or assume perfect operating conditions that rarely exist in real operations. Be particularly cautious when AI advice contradicts recent experience from your team or location, as the system may not have access to that current information. And be suspicious of anything that looks absolutely perfect. Real-world solutions usually involve trade-offs and compromises, so flawless recommendations often signal that the AI has missed something important about the complexity of your situation."
         },
         {
           "number": 6,
-          "script": "So how do you actually know when something an AI has produced deserves a second look? There are a few patterns worth watching for. One of the most common is when the output sounds almost too assured, as though the AI has no doubt whatsoever, even on a topic where uncertainty would be completely reasonable. Then there are the numbers. If figures appear in the response, do a quick sense check, because they can be confidently wrong. You should also ask yourself whether the AI seems to have understood the full picture, or whether it has missed something important about your specific situation. Pay attention to tone as well. If the writing feels oddly formal, strangely casual, or just a bit off for your audience, that is worth questioning. And finally, be a little suspicious of anything that looks absolutely perfect. Real-world answers are rarely flawless, so if something seems too neat, it probably warrants a closer look."
+          "script": "Building confidence in override decisions is genuinely a skill you can develop, and like most skills, it improves with practice. Work through realistic scenarios regularly, the kind where you need to spot when an AI response crosses from useful into potentially risky territory. Practice articulating your concerns out loud or in writing, because this trains your brain to respond with confidence rather than hesitation. When you find yourself hesitating to override a system, take a moment to understand what's holding you back. Often it's not that your instincts are wrong, but that you haven't learned to trust them yet. Remember that your gut feeling is actually your brain processing subtle cues that don't fit into neat categories. That intuition, combined with your experience and knowledge of local conditions, is exactly what makes human oversight so valuable."
         },
         {
           "number": 7,
-          "script": "So now we get to the practical side of things, and this is where real confidence starts to build. The best way to get comfortable making override decisions is simply to practise them, regularly and deliberately. We'll work through some short, realistic scenarios together, the kind where you need to spot fairly quickly when an AI response has crossed from useful into potentially risky territory. And here's the thing: practising out loud, or even writing your response down, genuinely helps. It trains your brain to respond with confidence rather than hesitation. You'll also want to trust your instincts, because often your gut is picking up on something important before your conscious mind has caught up. We'll also take a moment to reflect on past situations where you held back, because understanding what caused that hesitation is really valuable. The goal is to repeat these scenarios until confident, clear responses start to feel completely natural."
+          "script": "Let's work through some realistic scenarios you might encounter. Imagine AI recommends changing equipment settings mid-season based on efficiency data, but you know your particular machinery behaves differently in current field conditions. Or the system suggests proceeding despite weather warnings because historical data shows low risk, but your local weather patterns have shifted recently. Consider an algorithm proposing cost cuts that would affect safety measures, confident in its calculations but unaware of regulatory requirements. What about automated scheduling that conflicts with crew availability or legal work hour limits? These scenarios help you practice identifying the moment when AI confidence meets real-world complexity, and where your expertise becomes essential for safe, effective decisions."
         },
         {
           "number": 8,

@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Automation Risks: An Overview",
-          "subtitle": "Understanding the core challenges ahead",
+          "slidetitle": "The Hidden Dangers of Over-Automation",
+          "subtitle": "Why too much automation creates vulnerability",
           "slidecontent": "• Automation can fail unexpectedly\n• Over-reliance removes human oversight\n• Errors spread faster when automated\n• Recovery becomes harder, not easier\n• Skills gaps grow over time"
         },
         {
           "number": 3,
-          "slidetitle": "Automation Failures and Consequences",
-          "subtitle": "When automation breaks, problems cascade.",
-          "slidecontent": "• Automation fails silently sometimes\n• Faults spread across systems\n• Manual override becomes difficult\n• Outages affect many customers\n• Recovery takes longer than expected"
+          "slidetitle": "How Automation Failures Cascade",
+          "subtitle": "When small problems become major outages",
+          "slidecontent": "• Silent failures spread undetected\n• Faults ripple across connected systems\n• Manual intervention becomes difficult\n• Widespread customer impact results\n• Recovery complexity increases dramatically"
         },
         {
           "number": 4,
-          "slidetitle": "Automation Failures and Consequences",
-          "subtitle": "When Automation Goes Wrong: Real Risks",
-          "slidecontent": "• Cascading failures spread fast\n• Wrong fix worsens outages\n• No human catches errors\n• Automation amplifies small mistakes\n• Recovery takes longer alone"
+          "slidetitle": "When Automated Solutions Make Things Worse",
+          "subtitle": "How wrong fixes amplify problems",
+          "slidecontent": "• Wrong remedies worsen original faults\n• Chain reactions trigger new failures\n• No human catches faulty decisions\n• Small mistakes get amplified quickly\n• System conflicts complicate recovery"
         },
         {
           "number": 5,
-          "slidetitle": "Over-Automation Risk Scenarios",
-          "subtitle": "When automation creates new vulnerabilities",
-          "slidecontent": "• Automated systems that misconfigure thousands of network nodes simultaneously before any human notices\n\n• A single flawed rule cascading across the entire network in seconds\n\n• No human oversight\n\n• Self-healing scripts that mask recurring faults rather than resolving the root cause\n\n• Over-reliance on automation leaving engineers without the skills to intervene manually during a failure\n\n• Vendor software updates silently altering automated behaviour in ways the operations team never anticipated"
+          "slidetitle": "Real-World Over-Automation Scenarios",
+          "subtitle": "Common ways automation creates new risks",
+          "slidecontent": "• Mass misconfigurations pushed to thousands of nodes\n• Traffic spikes misread as faults, causing unnecessary rerouting\n• Self-healing masks recurring issues instead of fixing root causes\n• Skills erosion leaves teams unable to intervene manually\n• Silent vendor updates alter automation behaviour unexpectedly"
         },
         {
           "number": 6,
-          "slidetitle": "Over-Automation Risk Scenarios",
-          "subtitle": "When Automation Causes More Harm",
-          "slidecontent": "• Automated systems cascading a single misconfiguration across thousands of network nodes simultaneously\n\n• No human checkpoint to catch the error\n\n• Self-healing logic misreading a traffic spike as a fault, triggering unnecessary rerouting that degrades performance\n\n• Runaway automation loops\n\n• Closed-loop systems that suppress alerts, leaving engineers unaware a problem was ever detected and \"resolved\"\n\n• Over-reliance on automation eroding the hands-on skills engineers need when manual intervention becomes unavoidable"
+          "slidetitle": "The Runaway Automation Problem",
+          "subtitle": "When systems create feedback loops and hide problems",
+          "slidecontent": "• Automation loops trigger cascading responses\n• Performance degradation from unnecessary actions\n• Suppressed alerts hide real problems from engineers\n• Closed-loop systems prevent human awareness\n• No visibility into what was 'fixed' automatically"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Over-Automation Risks",
-          "subtitle": "Balancing Automation With Human Oversight",
-          "slidecontent": "• Fully automated systems can make cascading errors without human checks in place\n• Set clear boundaries for what automation is allowed to fix independently\n• Always keep a human-in-the-loop for high-impact or irreversible network changes\n• Audit automation decisions regularly\n• Log every automated action so engineers can review, learn, and intervene when needed\n• Start with low-risk tasks before expanding automation across critical network functions"
+          "slidetitle": "Building Safeguards Into Automation",
+          "subtitle": "Practical strategies for responsible automation",
+          "slidecontent": "• Set clear boundaries for automated actions\n• Require human approval for high-impact changes\n• Maintain comprehensive audit logs\n• Start with low-risk tasks first\n• Regular review and testing of automation rules"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for responsible automation",
-          "slidecontent": "• Always keep a human in the loop for high-impact network decisions\n• Automation fails, so build in fallback procedures from the start\n• Test before you trust\n• Blind reliance on self-healing systems can turn small faults into large outages\n• Log everything, because audit trails are your first defence when something goes wrong\n• As a next step, review your current automation policies and identify where human oversight could be strengthened"
+          "slidetitle": "Key Principles for Safe Automation",
+          "subtitle": "Essential practices for balanced network operations",
+          "slidecontent": "• Keep humans in the loop for critical decisions\n• Build fallback procedures from day one\n• Test thoroughly before deploying automation\n• Monitor for over-reliance warning signs\n• Maintain audit trails for troubleshooting\n• Review current policies for improvement opportunities"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on autonomous network operations, or what many people call self-healing networks. Now, the idea here is actually quite straightforward. Imagine a network that can spot its own problems and fix them without anyone needing to pick up the phone or log into a system. No engineer rushing to respond at two in the morning, no waiting around while a fault brings a service down. The network simply detects something is wrong and sorts it out automatically. This kind of capability is already being used widely across the telecoms industry, and it is making a real difference in reducing downtime and keeping services running smoothly. However, and this is important, handing control over to automated systems does come with its own set of challenges and risks. So throughout this lesson, we are going to explore both sides of that picture, looking at how self-healing networks work and what we need to be careful about when we rely on them."
+          "script": "Welcome to this lesson on autonomous network operations, or what many people call self-healing networks. The idea is quite straightforward: networks that can spot their own problems and fix them without anyone needing to pick up the phone or log into a system. No engineer rushing to respond at two in the morning, no waiting around while a fault brings a service down. The network simply detects something is wrong and sorts it out automatically. This capability is already being used widely across the telecoms industry, making a real difference in reducing downtime and keeping services running smoothly. However, handing control over to automated systems does come with its own set of challenges and risks. Throughout this lesson, we'll explore both sides of that picture."
         },
         {
           "number": 2,
-          "script": "Before we dive into the exciting possibilities of self-healing networks, we need to have an honest conversation about the risks that come with automation. And there are quite a few worth understanding. First, automated systems are not foolproof. They can fail in ways that are difficult to predict, and often at the worst possible moment. When we rely too heavily on automation, we also tend to reduce the human oversight that would normally catch those failures early. What makes this particularly tricky is that when something does go wrong in an automated environment, problems can spread incredibly quickly across the network before anyone even notices. And here is the uncomfortable truth: recovering from those failures can actually be more complex than it would have been in a manual setup. On top of all that, over time, teams can lose the hands-on skills they once had, simply because the systems have been doing the work for them. So let us keep these challenges in mind as we move forward."
+          "script": "Before we dive into the possibilities of self-healing networks, we need to understand the risks that come with over-automation. First, automated systems are not foolproof - they can fail in ways that are difficult to predict. When we rely too heavily on automation, we reduce the human oversight that would normally catch those failures early. Problems can spread incredibly quickly across automated networks before anyone notices. Recovery from automated failures can actually be more complex than manual fixes. And over time, teams can lose the hands-on skills they once had, simply because the systems have been doing the work for them. These challenges are worth keeping in mind as we explore automation further."
         },
         {
           "number": 3,
-          "script": "Now, one of the most important things to understand about automation is what happens when it goes wrong. And the tricky part is that it doesn't always fail loudly. Sometimes automation breaks quietly in the background, and nobody notices until the damage has already spread. Because these systems are all connected, a small fault in one area can ripple outwards very quickly, affecting other parts of the network before anyone has had a chance to react. And here's where it gets really challenging: when you've relied on automation to manage everything, stepping in manually at short notice is genuinely difficult. Your team may not even have the tools or the access they need to intervene quickly. The result is that outages can affect a large number of customers all at once, and getting things back to normal often takes far longer than you'd expect. So whilst automation brings enormous benefits, we absolutely need to plan for when it doesn't behave as intended."
+          "script": "One of the most important things to understand about automation is what happens when it goes wrong. The tricky part is that automation doesn't always fail loudly - sometimes it breaks quietly in the background, and nobody notices until damage has spread. Because these systems are interconnected, a small fault in one area can ripple outwards very quickly, affecting other parts of the network before anyone can react. When you've relied on automation to manage everything, stepping in manually at short notice becomes genuinely difficult. Your team may not have the tools or access needed to intervene quickly. The result is that outages can affect many customers simultaneously, and recovery often takes far longer than expected."
         },
         {
           "number": 4,
-          "script": "Now, automation is powerful, but it is not perfect, and this is where things can get genuinely risky. When an automated system makes a wrong decision, it does not just cause a small hiccup. It can trigger a chain reaction, where one fault leads to another, and suddenly a minor issue has snowballed into a major outage. What makes this worse is that the system might actually try to fix the problem, but apply the wrong remedy, which can make things significantly worse rather than better. And because there is no human actively watching every decision, these errors can go unnoticed until the damage is already done. Automation is brilliant at scaling actions quickly, but that also means it scales mistakes quickly too. Perhaps most frustrating of all, recovering from an automated failure often takes longer, because untangling what the system did and why can be incredibly complex. So understanding these risks is absolutely essential before we go any further."
+          "script": "When automated systems make wrong decisions, they don't just cause small hiccups - they can trigger chain reactions where one fault leads to another, and a minor issue snowballs into a major outage. What makes this worse is that the system might try to fix the problem but apply the wrong remedy, which can make things significantly worse rather than better. Because there's no human actively watching every decision, these errors can go unnoticed until damage is done. Automation is brilliant at scaling actions quickly, but that also means it scales mistakes quickly too. Perhaps most frustrating, recovering from an automated failure often takes longer because untangling what the system did and why can be incredibly complex."
         },
         {
           "number": 5,
-          "script": "Now, automation is genuinely powerful, but it does introduce some risks that are worth understanding clearly. The biggest concern is speed. An automated system can push a misconfiguration to thousands of network nodes in seconds, long before any engineer even realises something has gone wrong. And if the underlying rule driving that automation is flawed, the damage spreads across the entire network almost instantly. There is also a subtler problem, which is that self-healing scripts can actually hide recurring faults rather than fixing them properly, so the same issue keeps returning without anyone investigating the root cause. Over time, if engineers rely too heavily on automation, they can lose the hands-on skills needed to intervene manually when things go wrong. And finally, vendor software updates can quietly change how automated systems behave in ways the operations team never anticipated or tested for. So the message here is simple: automation needs guardrails, human oversight, and regular review to remain safe and effective."
+          "script": "Let's look at some real-world scenarios where over-automation creates vulnerabilities. The biggest concern is speed - an automated system can push a misconfiguration to thousands of network nodes in seconds, long before any engineer realises something has gone wrong. There's also the problem of self-healing scripts that misinterpret normal traffic spikes as faults, triggering unnecessary rerouting that actually degrades performance. Sometimes these scripts hide recurring faults rather than fixing them properly, so the same issue keeps returning without anyone investigating the root cause. Over time, engineers can lose hands-on skills needed for manual intervention, and vendor software updates can quietly change automated behaviour in unexpected ways."
         },
         {
           "number": 6,
-          "script": "So we've seen how powerful automation can be, but it's not without its risks. One of the biggest dangers is a single misconfiguration being automatically pushed out to thousands of nodes at once, with no human in the loop to catch it before the damage is done. There's also the risk of self-healing logic getting it wrong, mistaking a normal traffic spike for a fault and rerouting traffic unnecessarily, which can actually make performance worse. Then you have runaway automation loops, where the system keeps triggering responses that create further problems. Perhaps more worrying is when closed-loop systems quietly suppress alerts, so engineers never even know something went wrong and was supposedly fixed. And finally, there's a longer-term concern: if engineers rely on automation for everything, they gradually lose the hands-on skills they need when something goes wrong and manual intervention is the only option. Automation is a powerful tool, but it needs careful guardrails."
+          "script": "Beyond simple failures, automation can create more complex problems through feedback loops. Runaway automation loops occur when the system keeps triggering responses that create further problems, essentially chasing its own tail. Closed-loop systems can suppress alerts, leaving engineers completely unaware that problems were detected and supposedly resolved. This creates a dangerous blind spot where issues may be masked rather than truly fixed. The lack of visibility means teams can't learn from incidents or spot patterns that might indicate deeper problems. These scenarios highlight why human oversight and transparency in automated systems are absolutely critical."
         },
         {
           "number": 7,
-          "script": "Now, automation is powerful, but it is not without risk. If a fully automated system makes a wrong decision, it can trigger a chain of further mistakes before anyone even notices something has gone wrong. So we need to be thoughtful about how much control we hand over. The key is setting clear boundaries around what the system is allowed to handle on its own, and making sure a human is always involved when the stakes are high or when a change cannot easily be undone. It is also really important to keep detailed logs of every automated action. That way, your engineers can review what happened, spot patterns, and step in if something looks off. And rather than automating everything at once, start small. Begin with lower-risk, routine tasks, build your confidence in the system, and then gradually expand from there. Automation should support your team, not replace their judgement entirely."
+          "script": "So how do we get the benefits of automation while managing the risks? The key is setting clear boundaries around what the system is allowed to handle independently, and ensuring a human is always involved when stakes are high or when changes can't easily be undone. Keep detailed logs of every automated action so engineers can review what happened, spot patterns, and intervene when something looks off. Rather than automating everything at once, start small with lower-risk, routine tasks, build confidence in the system, and gradually expand from there. Regular testing and review of automation rules helps ensure they remain appropriate as your network evolves."
         },
         {
           "number": 8,
-          "script": "So let's bring this lesson together with a few core things to keep in mind. First, no matter how clever your automation becomes, always make sure a human is involved when the stakes are high. Automation can and does fail, so build your fallback procedures in from day one, not as an afterthought. And please, test your systems thoroughly before you trust them with your live network. One of the biggest risks with self-healing technology is becoming over-reliant on it, because a small fault left unchecked by automation can quickly snowball into something much more serious. Make sure you are logging everything as well, because when something does go wrong, that audit trail is often the first place you will find answers. Finally, as a practical next step, take a look at your current automation policies and ask yourself honestly where human oversight could be a little stronger. Small improvements there can make a very big difference."
+          "script": "Let's bring this lesson together with core principles for responsible automation. No matter how clever your automation becomes, always ensure a human is involved when stakes are high. Build fallback procedures from day one, not as an afterthought, and test systems thoroughly before trusting them with your live network. Watch for signs of over-reliance, because small faults left unchecked by automation can snowball into serious problems. Comprehensive logging provides the audit trail you'll need when troubleshooting. Finally, as a practical next step, review your current automation policies and honestly assess where human oversight could be strengthened. Small improvements can make a very big difference."
         }
       ]
     }

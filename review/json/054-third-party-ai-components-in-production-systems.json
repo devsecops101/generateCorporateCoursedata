@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "Introducing Third-Party AI Risks",
-          "subtitle": "When vendors introduce hidden vulnerabilities.",
-          "slidecontent": "• Third-party AI components are pre-built tools, models, or services dropped into your own systems\n• Vendors control the code you depend on\n• Hidden vulnerabilities can arrive through updates, APIs, or bundled datasets you never inspect\n• Supply chain risks apply to AI just as they do to traditional software\n• A single compromised component can affect every system it touches"
+          "subtitle": "When vendors introduce hidden vulnerabilities",
+          "slidecontent": "• Third-party AI components are pre-built tools, models, or services integrated into your systems\n• Vendors control the code, updates, and infrastructure you depend on\n• Hidden vulnerabilities can arrive through APIs, model updates, or bundled datasets\n• Supply chain risks extend beyond traditional software to AI-specific concerns\n• A single compromised component can affect every system it touches"
         },
         {
           "number": 2,
-          "slidetitle": "Risks From External AI Vendors",
-          "subtitle": "What vendors bring beyond their models",
-          "slidecontent": "• Third-party AI vendors supply more than just a model, they bring infrastructure, APIs, and update cycles you do not control\n• Hidden dependencies on vendor-managed servers, data pipelines, and licensing terms\n• Vendor decisions can change your system overnight\n• Terms of service updates may alter how your data is processed or retained without direct notice\n• Supply chain risks extend to the libraries, datasets, and third-party components the vendor itself relies on\n• Compliance obligations can shift when a vendor changes their data handling practices mid-contract"
+          "slidetitle": "Beyond the Model: Vendor Ecosystem Dependencies",
+          "subtitle": "What vendors bring to your production environment",
+          "slidecontent": "• Vendors supply infrastructure, data pipelines, and update cycles you cannot control\n• Terms of service changes can alter data processing without direct notice\n• Compliance obligations shift when vendors change data handling practices\n• Vendor supply chains introduce nested third-party risks\n• Business decisions by vendors can change your system behavior overnight"
         },
         {
           "number": 3,
-          "slidetitle": "Evaluating Vendor AI Reliability",
-          "subtitle": "What to look for in vendors",
-          "slidecontent": "• Check uptime guarantees first\n• Review past incident history\n• Confirm data handling policies\n• Ask about model update notices\n• Test fallback behaviour early"
+          "slidetitle": "Due Diligence: Assessing Vendor Reliability",
+          "subtitle": "Key factors to evaluate before integration",
+          "slidecontent": "• Examine uptime guarantees and SLA terms with penalty clauses\n• Review published incident history and response quality\n• Verify data handling policies and retention practices\n• Understand model update notification processes\n• Request independent audit reports or security certifications"
         },
         {
           "number": 4,
-          "slidetitle": "Vendor Lock-In and Dependencies",
-          "subtitle": "Recognising the Risks of Vendor Reliance",
-          "slidecontent": "• Relying on a single vendor for core AI functionality creates a fragile single point of failure\n• Switching costs are high\n• API changes, deprecations, or price increases can break production systems overnight\n• Contracts and service terms can shift with little notice, leaving teams scrambling\n• Deep integration makes it harder to swap components later\n• Dependency on external model behaviour means your system can change even when your own code does not"
+          "slidetitle": "Vendor Lock-In: Recognizing Dependency Risks",
+          "subtitle": "How single-vendor reliance creates vulnerabilities",
+          "slidecontent": "• Single vendor creates a critical point of failure\n• API changes and feature deprecations can break production overnight\n• Switching costs increase with deeper system integration\n• Model behavior changes can affect outputs without code changes\n• Contract terms can shift with minimal notice periods"
         },
         {
           "number": 5,
-          "slidetitle": "Vendor Lock-In and Dependencies",
-          "subtitle": "Reducing Reliance on External AI Providers",
-          "slidecontent": "• One vendor, one point of failure\n• APIs change without warning\n• Switching costs grow over time\n• Abstract your integration layer early\n• Test with multiple providers regularly"
+          "slidetitle": "Breaking Dependencies: Multi-Vendor Strategies",
+          "subtitle": "Technical approaches to reduce vendor lock-in",
+          "slidecontent": "• Abstract integration layers to decouple core applications from specific APIs\n• Design fallback mechanisms for vendor unavailability\n• Test regularly with alternative providers to maintain switching capability\n• Implement monitoring for vendor-specific performance degradation\n• Maintain data portability to support provider transitions"
         },
         {
           "number": 6,
-          "slidetitle": "Evaluating Vendor AI Reliability",
-          "subtitle": "What to look for before committing",
-          "slidecontent": "• Uptime guarantees and SLA terms from the vendor, including penalties for downtime\n• Track record matters\n• Published incident history showing how past failures were handled and resolved\n• Model versioning policies that clarify whether updates are automatic or opt-in\n• Data handling commitments, especially around logging, retention, and third-party sharing\n• Independent audit reports or certifications as evidence of genuine accountability"
+          "slidetitle": "Operational Monitoring: Tracking Third-Party AI Performance",
+          "subtitle": "Ongoing oversight of external components",
+          "slidecontent": "• Monitor output quality for drift or degradation over time\n• Track API response times and error rates\n• Log model version changes and their impact on results\n• Set alerts for unusual behavior patterns\n• Document incidents for vendor accountability discussions"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Vendor AI Risks",
-          "subtitle": "Strategies to reduce third-party exposure",
-          "slidecontent": "• Vet vendors before integrating\n• Review contracts for liability\n• Monitor outputs regularly\n• Limit vendor data access\n• Plan for vendor failure"
+          "slidetitle": "Risk Mitigation Framework",
+          "subtitle": "Comprehensive strategies to reduce third-party exposure",
+          "slidecontent": "• Limit vendor access to only essential data\n• Negotiate clear liability terms in contracts\n• Establish incident response procedures for vendor failures\n• Create contingency plans for vendor discontinuation\n• Regular security reviews of all external integrations"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
+          "slidetitle": "Implementation Best Practices",
           "subtitle": "Core principles for safer AI integration",
-          "slidecontent": "• Vet vendors before integrating\n• Monitor outputs continuously\n• Assume third-party risks exist\n• Document every external dependency\n• Review access permissions regularly\n• Start small, then scale"
+          "slidecontent": "• Start with pilot deployments before full production rollouts\n• Document all external dependencies and access permissions\n• Review vendor relationships and contracts quarterly\n• Maintain current inventory of all third-party AI components\n• Train teams on vendor risk identification and response"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start by thinking about what we actually mean when we talk about third-party AI components. Essentially, these are ready-made tools, models, or services that someone else has built, and that you've brought into your own system to save time or effort. Sounds convenient, right? And it often is. But here's the thing: when you rely on a vendor's component, you're also trusting everything that comes with it, including the updates they push, the APIs you connect to, and the datasets bundled inside. You rarely get to inspect any of that in detail. This is what we call supply chain risk, and it's not a new idea in software development, but it takes on a fresh dimension with AI. Because if a vulnerability sneaks into one of these components, it doesn't just affect one system. It can quietly spread to every single system that depends on it. That's the core concern we'll be exploring throughout this lesson."
+          "script": "When we talk about third-party AI components, we're referring to pre-built tools, models, or services that someone else has developed and that you're integrating into your own systems. While this can save significant development time, it also means accepting everything that comes with these components, including updates you don't control, APIs you depend on, and datasets you've never inspected. This creates a supply chain risk that's familiar in traditional software development, but takes on new dimensions with AI. The key concern is that vulnerabilities in one component can propagate across every system that depends on it, often in ways that aren't immediately obvious."
         },
         {
           "number": 2,
-          "script": "When you bring a third-party AI vendor into your system, you are not just adopting a model. You are taking on their entire ecosystem, their servers, their APIs, their update schedules, and their business decisions. And here is the thing: you do not control any of that. A vendor can update their terms of service, change how they handle your data, or alter their infrastructure, and your system feels the consequences overnight, sometimes without any direct warning. It goes even deeper than that, because the vendor themselves relies on other libraries, datasets, and components, so you are inheriting their supply chain risks as well. From a compliance perspective, this is particularly important. If a vendor quietly changes their data retention practices mid-contract, your own obligations under regulations like GDPR can shift without you realising it. So the core message here is simple: when you integrate a third-party AI component, you are accepting far more than just the model itself."
+          "script": "Integrating a third-party AI vendor means taking on far more than just their model. You're inheriting their entire operational ecosystem: their servers, data processing pipelines, business decisions, and even their own third-party dependencies. What makes this particularly challenging is that vendors can change their terms of service, update their data handling practices, or modify their infrastructure with limited notice. From a compliance perspective, this creates moving targets. If a vendor changes how they retain or process data mid-contract, your own regulatory obligations under frameworks like GDPR can shift without you realizing it until it's too late."
         },
         {
           "number": 3,
-          "script": "When you're evaluating a vendor's AI reliability, there are a few key things you want to investigate before you commit. Start by checking what uptime guarantees they actually offer in writing, because promises made in a sales call don't count for much. Then dig into their incident history. Have they had outages before? How did they handle them? That tells you a lot about how they operate under pressure. You'll also want to understand their data handling policies, particularly if you're dealing with sensitive or personal information, as this has real compliance implications. It's worth asking specifically how they communicate model updates, because a vendor quietly changing their model can break your application in unexpected ways. And finally, don't wait until you're live in production to test what happens when things go wrong. Test their fallback behaviour early, so you know your system can cope gracefully if the AI component becomes unavailable."
+          "script": "Before committing to any third-party AI vendor, thorough due diligence is essential. Start by examining their service level agreements, focusing on what uptime they guarantee and what remedies they offer if they fall short. Look beyond marketing materials to their published incident history, which reveals how they actually respond under pressure. Pay particular attention to their data handling commitments, especially around logging, retention, and any third-party sharing arrangements. Understanding their model versioning policy is crucial too, as automatic updates can change your system's behavior unexpectedly. Independent audit reports or security certifications provide third-party validation of their claims."
         },
         {
           "number": 4,
-          "script": "When you build a production system around a single AI vendor, you are placing a lot of trust in one organisation. And that trust comes with real risks. Switching to a different provider later is rarely straightforward. It is expensive, time-consuming, and often means rewriting significant parts of your system. But even if you never want to switch, problems can still find you. Vendors change their APIs, retire features, or adjust their pricing, sometimes with very little warning. The terms of service can shift too, and suddenly your team is scrambling to catch up. There is also a subtler risk that is easy to overlook: the AI model itself can change. A vendor might update how their model behaves, and your system starts producing different outputs even though you have not touched a single line of your own code. So understanding these dependencies early is genuinely important before you commit to a deep integration."
+          "script": "Vendor lock-in presents one of the most significant risks in third-party AI integration. When your production system depends heavily on a single provider, that vendor becomes a critical point of failure. The challenge goes beyond simple service availability. Vendors routinely update their APIs, deprecate features, or adjust pricing structures, sometimes with very little advance warning. There's also a subtler risk: AI models themselves can change, meaning your system might start producing different outputs even when your own code remains unchanged. The deeper your integration, the more expensive and disruptive it becomes to switch providers later."
         },
         {
           "number": 5,
-          "script": "Now, one of the biggest risks people overlook when building with third-party AI is vendor lock-in. If your entire system depends on a single provider, that provider becomes a single point of failure. And here is the thing: AI APIs change frequently, sometimes without much warning at all. A model gets updated, an endpoint gets deprecated, and suddenly your production system is behaving differently. On top of that, the longer you rely on one vendor, the more expensive and painful it becomes to switch. Your code, your data pipelines, your team's habits, they all get shaped around that one provider. So what can you do about it? The best advice is to abstract your integration layer as early as possible. Essentially, build a wrapper around the AI calls so your core application does not care which provider is underneath. And regularly test with more than one provider, so switching is never a surprise. A little preparation now saves a lot of pain later."
+          "script": "To reduce vendor lock-in risks, the most effective approach is building abstraction layers early in your development process. Create wrapper functions around AI API calls so your core application logic doesn't directly depend on any specific vendor's interface. This makes switching providers much more manageable. Design fallback mechanisms that can gracefully handle vendor unavailability, whether temporary or permanent. Regular testing with alternative providers ensures you maintain the technical capability to switch when needed. Keep your data in formats that can be easily migrated, and avoid vendor-specific data structures that could trap your information in proprietary systems."
         },
         {
           "number": 6,
-          "script": "Before you commit to any third-party AI vendor, there are a few things worth checking carefully. Start with their SLA, that is their service level agreement, which tells you what uptime they are promising and what happens if they fall short. A vendor with a strong track record will also have a published history of past incidents, showing not just that things went wrong, but how they handled it. You also want to understand their model versioning policy. Will updates happen automatically, or do you get to choose when to upgrade? That matters a lot in production. On the data side, find out exactly what they log, how long they keep it, and whether any of it is shared with other parties. Finally, look for independent audits or certifications rather than just taking the vendor at their word. These give you genuine, third-party evidence that their commitments are real and not just marketing language."
+          "script": "Once third-party AI components are running in production, ongoing monitoring becomes critical for catching problems early. Track not just whether the service is available, but whether the quality of outputs remains consistent over time. AI models can experience drift or degradation that affects performance gradually. Monitor API response times and error rates to identify service quality issues before they impact users. When vendors update their models, log these changes and assess their impact on your results. Setting up automated alerts for unusual behavior patterns helps your team respond quickly to potential issues."
         },
         {
           "number": 7,
-          "script": "So once you understand the risks that come with third-party AI components, the next step is thinking about how to reduce them. There are five practical things you can do. First, before you integrate any vendor's AI, do your homework. Check their reputation, their security practices, and their track record. Second, read the contract carefully, particularly around who is liable if something goes wrong. Third, once you are using a vendor's AI, keep an eye on what it is producing. Regular monitoring helps you catch problems early. Fourth, only give the vendor access to the data they genuinely need. The less exposure, the better. And fifth, have a contingency plan. What happens if that vendor goes out of business, or simply stops supporting the product? These strategies will not eliminate risk entirely, but they will put you in a much stronger position to manage it confidently and responsibly."
+          "script": "A comprehensive risk mitigation strategy addresses multiple aspects of third-party AI integration. Limit vendor access strictly to the data they genuinely need to perform their function. Nothing more. In your contracts, negotiate clear terms around liability and data handling, ensuring you understand who's responsible when things go wrong. Develop specific incident response procedures for vendor-related failures, because the response playbook for external dependencies differs from internal system failures. Create realistic contingency plans for scenarios where vendors discontinue services or go out of business. Regular security reviews help ensure your risk profile doesn't drift over time as integrations evolve."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with some core principles to carry forward. Before you integrate any third-party AI component, do your homework on the vendor. Understand who they are, how they handle data, and what their track record looks like. Once something is running in production, don't just set it and forget it. Keep a close eye on the outputs, because behaviour can drift or degrade over time. Always assume that external components carry some level of risk, even from reputable providers. Make sure you're documenting every dependency you introduce, so your team always knows what's connected to what. Revisit access permissions on a regular basis, because over time systems can end up with far more access than they actually need. And finally, resist the urge to go big straight away. Start with a smaller deployment, learn from it, and then scale with confidence. These principles won't eliminate risk entirely, but they'll put you in a much stronger position to manage it."
+          "script": "Successful third-party AI integration requires disciplined implementation practices. Start with pilot deployments to understand how components behave in your specific environment before committing to full production rollouts. Maintain detailed documentation of every external dependency, including what data each component accesses and what permissions it has. Schedule quarterly reviews of vendor relationships and contracts, as terms and risk profiles can change significantly over time. Keep a current inventory of all third-party AI components across your organization, because what you don't track, you can't properly secure. Finally, ensure your teams understand how to identify and respond to vendor-related risks as part of their regular responsibilities."
         }
       ]
     }

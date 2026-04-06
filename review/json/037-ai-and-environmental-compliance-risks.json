@@ -20,50 +20,50 @@
         {
           "number": 1,
           "slidetitle": "When AI Reporting Goes Wrong",
-          "subtitle": "Real risks, real regulatory consequences.",
+          "subtitle": "Real risks, real regulatory consequences",
           "slidecontent": "• AI errors trigger real fines\n• Regulators don't accept tech excuses\n• Compliance gaps cost organisations dearly\n• Automated reports can mislead auditors\n• You are still responsible"
         },
         {
           "number": 2,
-          "slidetitle": "Risks of AI-Driven Reporting",
-          "subtitle": "Where automation meets compliance vulnerability.",
-          "slidecontent": "• AI systems can misclassify emissions data, leading to inaccurate regulatory submissions\n• Automated reports may miss jurisdiction-specific compliance thresholds\n• Errors at scale\n• Over-reliance on AI outputs without human review creates audit vulnerabilities\n• Outdated training data can cause AI to apply superseded environmental standards"
+          "slidetitle": "Common AI Reporting Failures",
+          "subtitle": "Where automation creates compliance vulnerabilities",
+          "slidecontent": "• Misclassified emissions data in regulatory submissions\n• Missed jurisdiction-specific compliance thresholds\n• Errors multiply across large datasets\n• Outdated training data applies superseded standards\n• Over-reliance without human review creates audit gaps"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting AI Compliance Failures",
-          "subtitle": "Warning signs and red flags explained",
-          "slidecontent": "• Missing data in reports\n• Figures that never change\n• No audit trail visible\n• Alerts ignored repeatedly\n• Unexplained regulatory gaps"
+          "slidetitle": "Early Warning Signs",
+          "subtitle": "Red flags that indicate AI system problems",
+          "slidecontent": "• Missing or incomplete data in reports\n• Figures that never change between periods\n• No visible audit trail for decisions\n• Automated alerts repeatedly ignored\n• Unexplained gaps versus regulatory expectations"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Compliance Gaps Early",
-          "subtitle": "Before small errors become big problems",
-          "slidecontent": "• AI systems can quietly misclassify emissions data or skip required fields without triggering obvious alerts\n• Regular spot-checks against source data catch discrepancies before they reach regulators\n• Missing thresholds matter\n• Audit trails showing when and how AI generated a report are essential for demonstrating due diligence\n• Staff who understand what the AI is supposed to produce are far better placed to notice when something looks wrong\n• Even small, repeated errors compound into serious non-compliance over time"
+          "slidetitle": "Proactive Detection Methods",
+          "subtitle": "Catching problems before they reach regulators",
+          "slidecontent": "• Regular spot-checks against source data\n• Staff trained to recognize incorrect outputs\n• Clear audit trails for AI-generated reports\n• Documentation of when and how reports were created\n• Systematic review of threshold compliance\n• Tracking small errors before they compound"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting AI Compliance Failures",
-          "subtitle": "Warning signs and red flags to watch",
-          "slidecontent": "• Automated reports that never flag any violations, even in high-risk operations\n• Suspiciously round or uniform figures in emissions data\n• No audit trail\n• Compliance dashboards that update without any human review or sign-off\n• Discrepancies between AI-generated summaries and the raw source data underneath them\n• Staff unable to explain how the system reached its conclusions"
+          "slidetitle": "Advanced Warning Indicators",
+          "subtitle": "Subtle signs of AI system dysfunction",
+          "slidecontent": "• Reports never flag violations in high-risk operations\n• Suspiciously uniform or round emissions figures\n• Dashboards updating without human sign-off\n• Discrepancies between summaries and raw data\n• Staff unable to explain system conclusions\n• Automatic updates bypassing review processes"
         },
         {
           "number": 6,
-          "slidetitle": "Reducing Risk Through Human Oversight",
+          "slidetitle": "Essential Human Oversight",
           "subtitle": "Keeping humans firmly in the loop",
-          "slidecontent": "• Assign a human reviewer always\n• Check AI outputs regularly\n• Question unusual data patterns\n• Approve reports before submission\n• Log every human decision made"
+          "slidecontent": "• Assign named reviewers for all AI outputs\n• Question unusual data patterns before proceeding\n• Require human approval before report submission\n• Log every human decision and override\n• Document review processes for audit purposes\n• Maintain accountability at every stage"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing AI Compliance Risks",
-          "subtitle": "Practical Steps to Stay Compliant",
-          "slidecontent": "• Audit AI-generated reports regularly against the original source data\n• Assign a named human reviewer for all compliance submissions\n• Keep detailed logs of how AI tools are used in your reporting process\n• Train staff on spotting errors\n• Establish a clear escalation path when AI output looks inconsistent or incomplete\n• Review your AI tools whenever regulations change"
+          "slidetitle": "Risk Management Framework",
+          "subtitle": "Systematic approach to AI compliance safety",
+          "slidecontent": "• Regular audits of AI reports versus source data\n• Clear escalation paths for inconsistent outputs\n• Staff training on error identification\n• Process documentation for regulatory defense\n• Review cycles when regulations change\n• Established verification workflows before submission"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for responsible AI use",
-          "slidecontent": "• AI can misreport compliance data\n• Always verify AI outputs manually\n• Regulations require human accountability\n• Errors carry real legal consequences\n• Check, then submit"
+          "slidetitle": "Key Implementation Principles",
+          "subtitle": "Core practices for responsible AI compliance",
+          "slidecontent": "• Never submit without human verification\n• Maintain legal accountability awareness\n• Build systematic checking habits\n• Document all oversight activities\n• Treat AI as assistant, not replacement\n• Prepare for regulatory scrutiny"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's talk about where things can go wrong when AI gets involved in environmental reporting. One of the biggest concerns is accuracy. AI systems can misclassify emissions data, which means the figures submitted to regulators may simply be wrong. And because these tools operate across large datasets, a small error in the logic can multiply quickly, affecting thousands of records at once. There's also the issue of jurisdiction. Environmental thresholds vary from region to region, and an automated system may not account for those local differences. On top of that, if the AI was trained on older data, it might still be applying standards that have since been updated or replaced entirely. Perhaps the most significant risk, though, is over-reliance. If no one is checking the outputs before they're submitted, you're essentially flying blind during an audit. AI can be a powerful tool here, but it genuinely needs human oversight to be used safely and responsibly."
+          "script": "Let's examine the specific ways AI systems fail in environmental compliance. One of the biggest concerns is data classification errors. AI systems can misclassify emissions data, which means the figures submitted to regulators may simply be wrong. There's also the jurisdictional issue - environmental thresholds vary from region to region, and an automated system may not account for those local differences. Because these tools operate across large datasets, a small error in logic can multiply quickly, affecting thousands of records at once. Additionally, if the AI was trained on older data, it might still be applying standards that have since been updated or replaced entirely. The most significant risk is over-reliance - if no one is checking the outputs before submission, you're essentially flying blind during an audit."
         },
         {
           "number": 3,
-          "script": "So how do you actually spot when an AI system might be letting you down from a compliance perspective? There are a few warning signs worth knowing about. First, watch out for gaps in your reports, where data seems to be missing or incomplete without any clear explanation. Similarly, if figures appear identical across multiple reporting periods, that should raise an eyebrow, because real environmental data almost always fluctuates. You also want to check whether there is a proper audit trail in place. If you cannot trace how a decision or figure was produced, that is a problem. Another red flag is when automated alerts are repeatedly dismissed or ignored without any follow-up action being recorded. And finally, if there are unexplained gaps between what your AI system is reporting and what regulators are actually expecting to see, that disconnect needs investigating. These are the kinds of signals that tell you something may have gone wrong beneath the surface."
+          "script": "How do you spot when an AI system might be failing from a compliance perspective? There are several warning signs worth monitoring. Watch for gaps in reports where data seems missing or incomplete without clear explanation. If figures appear identical across multiple reporting periods, that should raise concerns because real environmental data almost always fluctuates. Check whether there's a proper audit trail - if you cannot trace how a decision or figure was produced, that's a problem. Another red flag is when automated alerts are repeatedly dismissed without any follow-up action being recorded. Finally, if there are unexplained gaps between what your AI system reports and what regulators expect to see, that disconnect needs immediate investigation."
         },
         {
           "number": 4,
-          "script": "One of the trickiest things about AI-generated compliance reports is that errors can slip through without any obvious warning signs. The system might misclassify an emissions figure or quietly skip a required field, and nothing flags it as wrong. That is why regular spot-checks against your original source data are so important. You are not looking for dramatic failures; you are looking for small discrepancies, including missed thresholds, that could cause problems if they reach a regulator. It also really helps to maintain a clear audit trail showing when a report was generated and how the AI produced it, because that demonstrates due diligence if questions are ever raised. And honestly, your best defence is well-informed staff. People who understand what a correct output should look like are far more likely to notice when something seems off. Small repeated errors might seem minor individually, but over time they can compound into serious non-compliance issues."
+          "script": "The key to preventing compliance failures is catching problems early, before they reach regulators. AI systems can quietly misclassify data or skip required fields without triggering obvious alerts. That's why regular spot-checks against your original source data are crucial. You're not looking for dramatic failures - you're looking for small discrepancies, including missed thresholds, that could cause problems downstream. Maintain clear audit trails showing when reports were generated and how the AI produced them, as this demonstrates due diligence if questions arise. Your best defense is well-informed staff who understand what correct output should look like. They're far more likely to notice when something seems off. Remember, small repeated errors might seem minor individually, but over time they compound into serious non-compliance issues."
         },
         {
           "number": 5,
-          "script": "So how do you actually spot when an AI compliance system is going wrong? There are some clear warning signs to look out for. First, be suspicious if your automated reports never flag any problems at all, especially in operations you know carry real environmental risk. That is almost certainly too good to be true. Similarly, if your emissions figures look suspiciously neat or identical across different periods, that can suggest the system is generating data rather than measuring it. You should also check whether there is a proper audit trail. If you cannot trace how a figure was produced, that is a serious problem. Watch out too for dashboards that update automatically with no human review involved, and always compare AI-generated summaries against the underlying raw data, because discrepancies there can reveal a lot. Finally, if the people using the system cannot explain how it reached its conclusions, that is a red flag that nobody truly has oversight of what the AI is doing."
+          "script": "Beyond obvious failures, there are subtler warning signs that indicate AI system problems. Be suspicious if automated reports never flag any violations, especially in operations you know carry real environmental risk - that's almost certainly too good to be true. Similarly, if emissions figures look suspiciously neat or identical across different periods, that can suggest the system is generating rather than measuring data. Watch for dashboards that update automatically without human review, and always compare AI-generated summaries against underlying raw data, as discrepancies there reveal significant issues. If staff using the system cannot explain how it reached its conclusions, that's a clear red flag that nobody truly has oversight of what the AI is doing."
         },
         {
           "number": 6,
-          "script": "So, how do we actually reduce the risk that comes with using AI in environmental compliance? The answer is straightforward: keep humans involved at every stage. That means having a named person responsible for reviewing whatever the AI produces. You should not simply trust the output and move on. Build in regular checks, and if something looks unusual or unexpected in the data, stop and question it rather than assuming the AI has got it right. Before any compliance report goes anywhere near a regulator or a client, a human being needs to read it, understand it, and formally approve it. And here is something people often overlook: document your decisions. Every time a human steps in, reviews something, or overrides an AI suggestion, write it down. That audit trail is enormously valuable if your organisation is ever asked to demonstrate how it manages AI responsibly. Human oversight is not a burden here, it is genuinely your best protection."
+          "script": "How do we actually reduce AI compliance risk? The answer is straightforward: keep humans involved at every stage. That means having a named person responsible for reviewing whatever the AI produces. You should not simply trust the output and move on. Build in regular checks, and if something looks unusual or unexpected in the data, stop and question it rather than assuming the AI got it right. Before any compliance report goes to a regulator, a human being needs to read it, understand it, and formally approve it. Document your decisions - every time a human steps in, reviews something, or overrides an AI suggestion, write it down. That audit trail is enormously valuable if your organisation is ever asked to demonstrate how it manages AI responsibly."
         },
         {
           "number": 7,
-          "script": "So now that we understand the risks, let's talk about what you can actually do to manage them. The good news is that none of this needs to be complicated. Start by regularly checking AI-generated reports against your original source data, because errors can creep in without anyone noticing. Make sure a named person is responsible for reviewing every compliance submission before it goes out. That human accountability really matters. Keep a clear record of how and when you are using AI tools in your reporting process, so there is always a traceable audit trail. Train your team to spot when something looks off, because a fresh pair of eyes is still one of your best defences. Make sure everyone knows what to do if AI output seems wrong or incomplete, so issues get escalated quickly rather than ignored. And finally, whenever regulations change, revisit your AI tools to make sure they are still fit for purpose. Small, consistent habits like these make a big difference."
+          "script": "Now let's talk about building a systematic approach to managing AI compliance risks. Start by regularly auditing AI-generated reports against your original source data, because errors can creep in without anyone noticing. Establish clear escalation paths so when AI output looks inconsistent or incomplete, issues get addressed quickly rather than ignored. Train your team to spot errors and unusual patterns - a fresh pair of eyes remains one of your best defenses. Keep detailed logs of how AI tools are used in your reporting process, creating a traceable audit trail. Review your AI tools whenever regulations change to ensure they remain fit for purpose. Most importantly, establish verification workflows that require human approval before any compliance submission goes out."
         },
         {
           "number": 8,
-          "script": "So let's bring together the core lessons from this lesson. First, remember that AI is not infallible. It can produce inaccurate or misleading compliance data, sometimes without any obvious warning signs. That's why manual verification is so important. Never rely solely on what the AI tells you. Always check the output yourself before acting on it. Now, from a legal standpoint, regulations are clear that human beings remain accountable for compliance submissions. You cannot point to an AI system if something goes wrong. The responsibility sits with you and your organisation. And the consequences of getting it wrong are very real, ranging from financial penalties to serious reputational damage. So the simple habit to build is this: check first, then submit. It sounds straightforward, but it is genuinely one of the most important things you can do to protect yourself and your organisation when using AI in an environmental compliance context."
+          "script": "Let's consolidate the core principles for responsible AI use in environmental compliance. First, never submit compliance reports without human verification - always check AI outputs manually before acting on them. Maintain awareness that regulations require human accountability; you cannot point to an AI system if something goes wrong. Build systematic checking habits rather than relying on AI infallibility. Document all oversight activities to demonstrate due diligence during regulatory scrutiny. Treat AI as a powerful assistant rather than a replacement for human judgment. Most importantly, prepare for regulatory scrutiny by maintaining robust verification processes. The simple habit to build is this: check first, then submit. It sounds straightforward, but it's genuinely one of the most important protections you can implement."
         }
       ]
     }

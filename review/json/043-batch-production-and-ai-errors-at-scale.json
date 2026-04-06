@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Introducing Batch Production and AI",
-          "subtitle": "When small errors affect everything produced.",
-          "slidecontent": "• Batch production means creating many identical outputs in one automated run\n• A single flaw in the process affects every item produced\n• AI systems can introduce errors quietly, without obvious warning signs\n• Scale amplifies everything\n• Even a small mistake, repeated thousands of times, becomes a significant problem\n• Understanding this risk is the first step to producing reliably"
+          "slidetitle": "The Scale Challenge in Manufacturing",
+          "subtitle": "How batch production amplifies AI errors",
+          "slidecontent": "• Manufacturing produces hundreds or thousands of identical items per batch\n• AI systems control processes like mixing, temperature, timing, and quality checks\n• A single AI error affects every item produced after that point\n• Scale transforms small mistakes into major production failures\n• Early detection is critical to prevent waste and safety issues"
         },
         {
           "number": 2,
-          "slidetitle": "Defining Batch Production Basics",
-          "subtitle": "What batch production means in practice",
-          "slidecontent": "• Batch production means creating many identical items in one continuous run, rather than one at a time\n• Common in food, pharmaceuticals, textiles, and manufacturing\n• A single batch can contain hundreds or thousands of units\n• All items in a batch share the same inputs, settings, and conditions\n• Errors introduced early affect every unit produced after that point\n• Scale amplifies everything, both quality and mistakes"
+          "slidetitle": "Common AI Errors in Manufacturing",
+          "subtitle": "Types of mistakes that occur in automated systems",
+          "slidecontent": "• Sensor misreadings leading to incorrect temperature or pressure settings\n• Recipe calculation errors affecting ingredient ratios\n• Quality threshold mistakes allowing defective products to pass\n• Timing errors in multi-step processes\n• Calibration drift causing gradual parameter shifts"
         },
         {
           "number": 3,
-          "slidetitle": "Errors Multiply Across Batches",
-          "subtitle": "One flaw, thousands of flawed outputs.",
-          "slidecontent": "• One error, repeated thousands of times\n• Batches amplify every small flaw\n• No human checks each output\n• Mistakes scale silently and fast\n• Entire runs share one fault"
+          "slidetitle": "Error Propagation Across Production Runs",
+          "subtitle": "Why mistakes spread quickly through batches",
+          "slidecontent": "• Manufacturing systems operate continuously without human oversight\n• Each defective item shares identical processing conditions\n• Downstream processes inherit upstream errors\n• Quality issues compound as batches move through production stages\n• Detection often occurs only at final inspection"
         },
         {
           "number": 4,
-          "slidetitle": "Errors Multiply Across Batches",
-          "subtitle": "One flaw, thousands of flawed outputs.",
-          "slidecontent": "• One error, thousands affected\n• Flaws copy across every item\n• Batches amplify small mistakes\n• No human checks each output\n• Scale makes errors invisible fast"
+          "slidetitle": "Industry-Specific Risk Examples",
+          "subtitle": "Real-world consequences in different sectors",
+          "slidecontent": "• Pharmaceuticals: Incorrect dosage calculations affecting entire drug batches\n• Food manufacturing: Temperature control failures causing contamination\n• Chemicals: Mixing ratio errors creating hazardous compounds\n• Electronics: Component placement mistakes in circuit board assembly\n• Textiles: Dye formulation errors affecting color consistency"
         },
         {
           "number": 5,
-          "slidetitle": "Catching Errors Before They Spread",
-          "subtitle": "Spot mistakes early, protect your output.",
-          "slidecontent": "• Review a small sample of outputs before committing to a full batch run\n• Spot the pattern early\n• Consistent errors in tone, format, or facts signal a deeper prompt or settings problem\n• A single flawed template repeated thousands of times multiplies the damage significantly\n• Build a quick checklist to compare early outputs against your expected standard\n• Catching issues at ten items is far cheaper than catching them at ten thousand"
+          "slidetitle": "Early Warning Systems",
+          "subtitle": "Detecting problems before they escalate",
+          "slidecontent": "• Real-time monitoring of critical process parameters\n• Statistical process control to identify unusual variations\n• Automated alerts when measurements exceed normal ranges\n• Regular calibration checks on sensors and equipment\n• Sample testing at predetermined intervals during production"
         },
         {
           "number": 6,
-          "slidetitle": "Catching Errors Before They Spread",
-          "subtitle": "Spotting mistakes before damage multiplies.",
-          "slidecontent": "• Validate outputs before full runs\n• Sample early batches often\n• Set clear error thresholds\n• Stop, check, then continue\n• Catch patterns, not just outliers"
+          "slidetitle": "Checkpoint Implementation Strategies",
+          "subtitle": "Building quality gates into production processes",
+          "slidecontent": "• Define critical control points where human verification occurs\n• Set automatic stop triggers when parameters drift beyond limits\n• Implement staged approval for batch progression\n• Create rapid response protocols when issues are detected\n• Document decision points for traceability and improvement"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk in Batch Production",
-          "subtitle": "Strategies to minimise widespread AI errors",
-          "slidecontent": "• Test before full runs\n• Start with small batches\n• Review outputs regularly\n• Flag errors immediately\n• Pause, fix, then continue"
+          "slidetitle": "Recovery and Prevention Measures",
+          "subtitle": "Managing errors when they occur",
+          "slidecontent": "• Immediate isolation of affected batches to prevent further processing\n• Root cause analysis to identify the source of AI errors\n• Corrective actions to prevent similar future occurrences\n• Batch disposition decisions: rework, discard, or downgrade\n• System updates and retraining to improve AI reliability"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for safer AI production",
-          "slidecontent": "• Even a tiny model error, repeated thousands of times, can ruin an entire production run\n• Always test on small batches before scaling up\n• Errors compound quickly\n• Human review checkpoints at regular intervals catch problems before they spread too far\n• Logging every step of a batch process makes faults far easier to trace and fix\n• Start small, check often, and scale only when you are confident the output is consistent"
+          "slidetitle": "Building Resilient Manufacturing Systems",
+          "subtitle": "Long-term strategies for AI error management",
+          "slidecontent": "• Implement multiple validation layers before batch commitment\n• Maintain human oversight at critical decision points\n• Regular AI model retraining with current production data\n• Cross-functional teams for rapid problem resolution\n• Continuous improvement culture focused on error prevention"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on batch production and AI errors at scale. Now, batch production simply means using an automated process to generate lots of identical outputs in one go, think of a factory stamping out hundreds of identical parts. The challenge is that if something goes wrong at the start of that process, every single item coming off the line carries that same flaw. AI systems work in a very similar way, and what makes them particularly tricky is that errors can creep in quietly, without any obvious alarm bells. And here is the thing about scale: it magnifies everything. A tiny mistake that might be harmless once becomes a serious problem when it is repeated thousands of times across an entire batch. So throughout this lesson, we are going to look at how and why these errors happen, and what you can do to catch them before they cause real damage. Let us get started."
+          "script": "Welcome to this lesson on AI errors in batch manufacturing. In modern manufacturing, we often produce hundreds or thousands of identical items in a single production run. AI systems have become integral to controlling these processes, managing everything from ingredient mixing and temperature control to quality inspections. The challenge is that when an AI system makes an error early in the batch, that mistake gets replicated across every item produced afterward. At manufacturing scale, even a small error becomes magnified into a major production failure. Understanding this risk is essential for anyone working with AI-controlled manufacturing systems."
         },
         {
           "number": 2,
-          "script": "Let's start by making sure we're all on the same page about what batch production actually means. Rather than making one item, checking it, and then making another, batch production is about creating a large number of identical items all in one continuous run. You'll find this approach everywhere, from food manufacturing and pharmaceuticals to textiles and general industrial production. The key thing to understand is that every single unit in a batch is made using the same inputs, the same settings, and the same conditions. That consistency is actually the whole point. But here's where it gets interesting, and a little bit risky. If something goes wrong early in the process, that error doesn't just affect one item. It travels through the entire batch. You might end up with hundreds or even thousands of faulty units before anyone notices. So scale works in both directions. It amplifies quality when things go right, and it amplifies mistakes when things go wrong."
+          "script": "Let's look at the specific types of AI errors that commonly occur in manufacturing environments. Sensors might provide incorrect readings, leading to wrong temperature or pressure settings throughout a batch. AI systems calculating recipes or formulations can introduce errors that affect ingredient ratios. Quality control algorithms might incorrectly classify defective products as acceptable, allowing them to continue through production. Timing errors in multi-step processes can disrupt the entire sequence, and calibration drift can cause gradual shifts in critical parameters. These aren't dramatic failures - they're often subtle mistakes that only become apparent when they've affected an entire production run."
         },
         {
           "number": 3,
-          "script": "Here is the narration script for Slide 3:\n\nSo here is where things start to get a little uncomfortable. When you are producing content or outputs in bulk using AI, any mistake that exists in the process does not just happen once. It happens hundreds, or even thousands, of times over. Think about that for a moment. If there is a subtle flaw in your prompt, or a bias baked into your approach, every single output in that batch carries that same flaw. And because no human is sitting there reviewing each individual result, those mistakes can spread completely unnoticed. That is the real danger here. It is not that AI makes enormous, obvious blunders. It is that small, quiet errors scale at a speed and volume that would simply never happen with manual work. By the time someone spots the problem, an entire production run may already be affected. So as we move through this lesson, keep that idea front of mind: at scale, small problems become very big ones, very quickly."
+          "script": "Once an AI error occurs, it propagates through the manufacturing system in predictable but dangerous ways. Modern manufacturing operates with minimal human oversight during production runs, which means errors can spread unchecked. Every item in the batch inherits the same flawed processing conditions. As products move through multiple production stages, errors from earlier steps compound with new processes. The system treats each defective item as if it were perfect, applying the same subsequent treatments. Often, these issues only surface during final quality inspection, by which time hundreds or thousands of units may be affected."
         },
         {
           "number": 4,
-          "script": "Here is the narration script for Slide 4:\n\nNow, this is where things start to get a little uncomfortable. When you are producing content or outputs in bulk using AI, a single mistake does not stay a single mistake. It multiplies. Imagine you have a flaw baked into your prompt or your process, perhaps a wrong assumption, an incorrect fact, or a tone that is slightly off. Every single item in that batch inherits that same flaw. You might be generating fifty product descriptions, five hundred emails, or thousands of data entries, and every one of them carries that same error. The really tricky part is that because no human is reviewing each individual output, those mistakes can spread incredibly quickly before anyone even notices something has gone wrong. At small scale, errors are easy to spot and fix. At batch scale, they become almost invisible until the damage is already done. So the size of the batch is precisely what makes quality control so critical here."
+          "script": "Different manufacturing sectors face unique risks from AI errors. In pharmaceuticals, incorrect dosage calculations can affect entire drug batches, creating serious safety concerns. Food manufacturers might experience temperature control failures that allow contamination to spread throughout production. Chemical plants face particular dangers when AI systems miscalculate mixing ratios, potentially creating hazardous compounds. Electronics manufacturing can suffer from component placement errors that render entire circuit board batches unusable. In textiles, dye formulation mistakes result in color inconsistencies across thousands of yards of fabric. Each industry must understand its specific vulnerabilities to AI-driven mistakes."
         },
         {
           "number": 5,
-          "script": "Before you commit to running thousands of items through your AI workflow, pause and check a small sample first. Run ten or twenty outputs and actually read through them carefully. What you are looking for are patterns. If the tone feels off, the formatting looks wrong, or the facts seem unreliable, that is almost certainly a problem with your prompt or your settings, not just a one-off glitch. And here is why this matters so much: if you have a flawed template and you repeat it ten thousand times, you have ten thousand flawed results to deal with. That is a significant problem. So build yourself a simple checklist, just a few key things you expect every output to include or avoid, and compare your early samples against it. Catching a mistake at ten items costs you almost nothing to fix. Catching it at ten thousand is a very different situation. Sample early, check carefully, and only then scale up."
+          "script": "Effective early warning systems are your first line of defense against AI errors. Real-time monitoring of critical process parameters allows you to spot problems as they develop. Statistical process control techniques help identify when measurements start varying outside normal ranges, even before they reach failure thresholds. Automated alert systems can notify operators the moment something unusual occurs. Regular calibration checks ensure that sensors and equipment remain accurate over time. Sample testing at predetermined intervals during production provides additional verification that processes remain on track. These systems work together to catch problems before they can affect entire batches."
         },
         {
           "number": 6,
-          "script": "Before you commit to running thousands of outputs, take a moment to check that things are actually working as expected. Run a small test batch first and look carefully at what comes back. Is it accurate? Does it make sense? If something looks off early on, that is your signal to stop and investigate rather than carry on and multiply the problem. It helps to decide in advance what level of error is acceptable. If more than a certain percentage of outputs are wrong, that is your threshold to pause and reassess. And when you are reviewing those early results, do not just look for the obvious mistakes. Look for patterns. Maybe the AI is consistently misunderstanding a particular type of input, or always formatting something slightly wrong. A single odd result might be a fluke, but a repeating pattern tells you something important. Catching that early saves you an enormous amount of time and effort further down the line."
+          "script": "Building quality checkpoints into your production process creates opportunities to catch and correct AI errors before they spread. Define specific control points where human verification is required before proceeding to the next stage. Set up automatic stop triggers that halt production when parameters drift beyond acceptable limits. Implement staged approval systems that require sign-off before batches progress through major process steps. Create rapid response protocols that your team can execute immediately when issues are detected. Document these decision points carefully - this creates the traceability needed for both immediate problem-solving and long-term process improvement."
         },
         {
           "number": 7,
-          "script": "So how do we actually reduce the risk of things going wrong when we're producing content at scale? The good news is there are some straightforward habits that make a real difference. Before you run a large batch, always test your prompt on a small sample first, maybe five or ten items, just to check the output looks right. If that goes well, start scaling up gradually rather than jumping straight to hundreds of items in one go. As the results come in, keep an eye on them regularly rather than walking away and assuming everything is fine. If you spot a problem, flag it straight away, don't let it carry on unchecked. And if something is clearly going wrong, the sensible thing to do is pause the whole process, fix the underlying issue, and then continue from there. These steps won't eliminate every mistake, but they will help you catch problems early before they multiply across your entire output."
+          "script": "When AI errors do occur, your response needs to be swift and systematic. Immediately isolate affected batches to prevent them from continuing through production or reaching customers. Conduct thorough root cause analysis to understand exactly how and why the AI system failed. Implement corrective actions that address the underlying cause, not just the symptoms. Make batch disposition decisions about whether products can be reworked, must be discarded, or can be downgraded for alternative use. Update your AI systems and retrain models based on what you've learned. This systematic approach turns problems into opportunities for improvement."
         },
         {
           "number": 8,
-          "script": "So let us bring together everything we have covered in this lesson. The single most important thing to understand is that AI errors do not stay small when you are working at scale. A tiny mistake, repeated thousands of times, becomes a very big problem very quickly. That is why the golden rule is to always start with a small test batch before you commit to a full production run. Build in regular human review checkpoints so that if something does go wrong, you catch it early rather than discovering it at the end. Make sure you are logging every step of the process as well, because good logs are what allow you to trace a fault back to its source and fix it efficiently. The overall approach is straightforward: start small, check often, and only scale up once you are genuinely confident the output is consistent and reliable. Keep those principles in mind and you will be in a much stronger position."
+          "script": "Building long-term resilience requires a comprehensive approach to AI error management. Implement multiple validation layers that must all agree before committing to full batch production. Maintain meaningful human oversight at critical decision points, even in highly automated systems. Regularly retrain your AI models using current production data to keep them accurate and relevant. Establish cross-functional teams that can rapidly respond to problems when they occur. Most importantly, foster a continuous improvement culture that focuses on preventing errors rather than just responding to them. These strategies work together to create manufacturing systems that are both efficient and reliable."
         }
       ]
     }

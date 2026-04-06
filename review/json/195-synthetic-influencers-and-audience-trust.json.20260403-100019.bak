@@ -1,0 +1,107 @@
+{
+  "Course Title": "Synthetic Influencers and Audience Trust",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Transparency risks in AI-generated personalities.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with social media platforms and a general interest in how digital content is created and shared online are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key transparency risks associated with AI-generated personalities and explain how synthetic influencers are reshaping trust between brands and audiences. You will also apply practical frameworks to recognise and communicate disclosure obligations responsibly across publishing, advertising, and digital communications contexts.",
+  "lessons": [
+    {
+      "lesson title": "Synthetic Influencers and Audience Trust",
+      "order": 1,
+      "Description": "This lesson explores the growing phenomenon of synthetic influencers, which are AI-generated personalities used to promote products, ideas, and lifestyles across social media platforms. You will learn what synthetic influencers are, how they are created, and why their rise presents significant transparency risks for audiences who may not realise they are engaging with a non-human persona. We will examine real-world examples to understand how trust can be built or broken depending on whether brands and creators are open about the artificial nature of these figures. By the end of this lesson, you will have a clearer picture of the ethical responsibilities involved in deploying synthetic influencers, and what audiences can do to protect themselves from misleading content. No prior knowledge of artificial intelligence or marketing is required, making this an accessible starting point for anyone curious about this rapidly evolving area.",
+      "status": "draft",
+      "content": "Transparency risks in AI-generated personalities.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Synthetic Influencers: An Introduction",
+          "subtitle": "When AI becomes the influencer",
+          "slidecontent": "• AI-built online personas\n• Look and act human\n• Promote brands and products\n• Audiences often unaware\n• Trust is at stake"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Synthetic Influencers",
+          "subtitle": "What they are and how they work",
+          "slidecontent": "• Computer-generated characters designed to look and behave like real social media influencers\n• Powered by AI tools that generate images, video, and scripted content\n• No real person behind them\n• Often given names, backstories, and consistent visual identities to feel authentic\n• Operated by brands, agencies, or developers with specific commercial goals\n• Entirely artificial, yet capable of building large, engaged followings"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting the Signs of Inauthenticity",
+          "subtitle": "Clues hidden in plain sight",
+          "slidecontent": "• Skin texture looks too perfect\n• Eyes lack natural movement\n• Backgrounds repeat suspiciously\n• No candid, unpolished moments\n• Follower comments feel generic"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Disclosure Builds Audience Trust",
+          "subtitle": "Honesty Strengthens Long-Term Audience Loyalty",
+          "slidecontent": "• Clear disclosure that a persona is AI-generated reduces the risk of audience betrayal when the truth emerges later\n• Audiences reward honesty\n• Brands that openly label synthetic influencers often see stronger, more resilient community engagement over time\n• Simple on-screen labels or profile bio statements are enough to meet basic transparency expectations\n• Trust, once broken by hidden AI use, is very difficult to rebuild"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Synthetic Influencer Red Flags",
+          "subtitle": "What to watch for online",
+          "slidecontent": "• Perfect skin, no flaws\n• Never ages or changes\n• Vague or missing biography\n• Sponsored posts only\n• No live video appearances"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Synthetic Influencer Red Flags",
+          "subtitle": "Warning signs worth knowing about",
+          "slidecontent": "• No location or background details\n• Overly perfect, flawless appearance\n• Generic, vague responses always\n• Follower count spikes suddenly\n• No real-time live content"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust After Disclosure",
+          "subtitle": "Steps brands can take to recover.",
+          "slidecontent": "• Acknowledge the deception openly and without deflection\n• Apologise directly to the affected audience\n• Short, clear statements work best\n• Explain why the synthetic influencer was used and what changes are being made\n• Offer audiences a genuine way to give feedback or ask questions\n• Rebuild gradually, prioritising transparency in every future campaign"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Synthetic influencers are AI-generated personas designed to look and behave like real people\n• Audiences often cannot tell the difference without clear disclosure\n• Transparency builds trust\n• Undisclosed AI personalities carry real legal and ethical risks for brands\n• Always label synthetic influencers clearly, in plain language audiences can actually understand\n• As a next step, review any influencer content your organisation produces and check where disclosure could be stronger"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on synthetic influencers and audience trust. Now, you might be wondering, what exactly is a synthetic influencer? Well, put simply, it is an online persona that has been built entirely by artificial intelligence. These are not real people. They are computer-generated characters designed to look human, sound human, and behave in ways that feel completely natural on social media. They post content, they engage with followers, and they promote brands and products, often very convincingly. Here is the thing though: most people scrolling through their feeds have absolutely no idea they are interacting with something that does not actually exist. And that raises a really important question about trust. When audiences believe they are connecting with a real person, and they are not, what does that mean for the relationship between influencers and the people who follow them? That is exactly what we are going to explore throughout this course, so let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So before we go any further, let's make sure we're all on the same page about what a synthetic influencer actually is. Essentially, these are characters that have been entirely computer-generated, designed to look, sound, and behave just like a real person you might follow on Instagram or TikTok. There is no human being behind them. Instead, they are built and operated using AI tools that produce images, video, and scripted content. To make them feel convincing, their creators give them names, personalities, and consistent visual styles, so they appear to have a genuine identity and even a life story. They are typically run by brands, agencies, or developers who have very specific commercial goals in mind. And here is the part that really makes you stop and think: despite being entirely artificial, these characters can and do attract large, genuinely engaged audiences. That is what makes them such a fascinating and important topic to understand."
+        },
+        {
+          "number": 3,
+          "script": "So how do you actually spot a synthetic influencer when you come across one? There are some tell-tale clues worth knowing about. First, look at the skin. Real people have pores, blemishes, and texture. If someone looks almost impossibly flawless, that is a red flag. Next, pay attention to the eyes. Natural human eyes shift, blink, and catch the light in subtle ways. AI-generated faces often get this wrong. You might also notice that the backgrounds in their posts look oddly similar or even identical across different images. Real creators move through the world, so their settings vary naturally. Another clue is the absence of genuine, unscripted moments. Authentic influencers share the messy, imperfect side of life occasionally. Synthetic ones rarely do. Finally, scroll through the comments. If the responses from followers feel vague or oddly repetitive, that can suggest the engagement itself is not entirely genuine. Once you know what to look for, these signs become much easier to notice."
+        },
+        {
+          "number": 4,
+          "script": "So here's something that might seem counterintuitive at first: being upfront about the fact that your influencer is AI-generated actually makes your audience trust you more, not less. People genuinely appreciate honesty, and when they feel respected enough to be told the truth, they tend to stick around and engage more meaningfully over time. The good news is that disclosure doesn't have to be complicated. A simple label on screen or a clear statement in the profile bio is usually all it takes to meet basic transparency expectations. What you really want to avoid is hiding the AI element and hoping nobody notices, because audiences do find out eventually, and when they do, the damage to your brand's reputation can be severe and very hard to undo. Trust is fragile, and rebuilding it after a betrayal of that kind is an uphill struggle. So the straightforward advice here is: be honest from the start, and your community will be stronger for it."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot a synthetic influencer when you're scrolling through your feed? There are a few tell-tale signs worth looking out for. First, their appearance is almost unnaturally perfect. Real people have blemishes, bad lighting days, and they change over time. A synthetic influencer tends to look flawless in every single image and never seems to age or evolve. Next, take a look at their biography. If it's vague, minimal, or doesn't quite add up, that's worth noting. Real creators usually share genuine background details about themselves. Another big clue is the content itself. If virtually every post is a sponsored promotion with very little personal or organic content in between, something may be off. And finally, pay attention to whether they ever appear in live video. Synthetic influencers almost never do, because real-time interaction is extremely difficult to fake. Keep these signals in mind and you'll be much better equipped to question what you're seeing online."
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually spot a synthetic influencer in the wild? There are a few warning signs worth keeping an eye out for. First, real people tend to share details about their lives, where they live, their background, their story. If that information is completely absent, that is worth questioning. You might also notice the appearance looks almost too perfect, no bad lighting, no off days, just flawless every single time. Then there is the way they communicate. If the responses to comments always feel a bit generic or vague, never quite directly answering what someone asked, that is a red flag. It is also worth checking the follower growth over time. A sudden, dramatic spike can suggest something artificial is going on. And finally, synthetic influencers almost never appear in live, unscripted content, because that is genuinely difficult to fake in real time. None of these signs alone is conclusive, but together they paint quite a telling picture."
+        },
+        {
+          "number": 7,
+          "script": "So, what happens when a brand gets caught out using a synthetic influencer without being upfront about it? Trust takes a hit, but it is not necessarily the end. The first step is to come forward honestly. No excuses, no shifting the blame. A short, straightforward apology tends to land far better than a lengthy corporate statement. After that, brands need to explain the thinking behind the decision and, crucially, what they are going to do differently going forward. It is also worth giving your audience a real voice in that moment, whether that is a comments thread, a Q and A, or a dedicated inbox. People want to feel heard, not managed. And then comes the slower work of rebuilding, which means making transparency a habit in every campaign that follows, not just a one-off gesture. Trust, once damaged, can be restored, but it takes consistency and genuine effort over time."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. Synthetic influencers are AI-created personas built to look and act like real human beings, and the honest truth is that most audiences simply cannot spot the difference unless you tell them. That is why transparency matters so much. When brands are upfront about using AI personalities, trust is maintained. When they are not, there are genuine legal and ethical consequences to face. So the practical rule is straightforward: always label synthetic influencers clearly, using plain, everyday language that your audience will actually understand. No small print, no vague wording. And here is something worth doing this week: take a look at any influencer content your organisation is currently producing or planning, and ask yourself honestly whether your disclosure is clear enough. If there is any doubt, strengthen it. These are the core principles from this lesson, and applying them consistently is what separates responsible AI-driven marketing from the kind that erodes audience trust."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Marketing managers, brand managers, social media managers, content creators, digital marketing coordinators, communications specialists, advertising account managers, public relations professionals, media planners, brand strategists",
+  "Team or Dept this is for": "Marketing, Communications, Public Relations, Brand Management, Digital Marketing, Advertising, Media, Legal, Compliance"
+}

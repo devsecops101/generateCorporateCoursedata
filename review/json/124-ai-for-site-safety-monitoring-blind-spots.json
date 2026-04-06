@@ -25,33 +25,33 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising AI's Core Limitations",
-          "subtitle": "What AI cannot see or judge.",
-          "slidecontent": "• Cameras miss hidden areas\n• Context confuses AI systems\n• Lighting affects detection accuracy\n• Unusual hazards go unrecognised\n• Human judgement still essential"
+          "slidetitle": "Environmental Barriers to Detection",
+          "subtitle": "Physical conditions that impair AI vision",
+          "slidecontent": "• Poor lighting, rain, or dust clouds obscuring the camera's view\n• Cluttered or busy backgrounds confusing the detection algorithm\n• Dirty or misaligned cameras reducing image quality\n• Reflective surfaces like wet floors or glass causing false readings\n• Camera angles creating natural blind spots around corners and behind structures"
         },
         {
           "number": 3,
-          "slidetitle": "Causes of AI Detection Failures",
-          "subtitle": "Why detection breaks down in practice",
-          "slidecontent": "• Poor lighting, rain, or dust clouds obscuring the camera's view\n• Cluttered or busy backgrounds confusing the detection algorithm\n• Angles matter\n• Workers partially hidden behind equipment or scaffolding\n• AI trained on limited data, missing site-specific hazards it has never seen before\n• Dirty or misaligned cameras reducing image quality"
+          "slidetitle": "Data Training Limitations",
+          "subtitle": "What happens when AI encounters the unfamiliar",
+          "slidecontent": "• AI systems only recognise hazards from their training data\n• Site-specific risks may never have been seen before\n• Unusual working postures fall outside standard safety poses\n• Rare equipment configurations confuse object recognition\n• Regional or industry-specific practices remain undetected"
         },
         {
           "number": 4,
-          "slidetitle": "Gaps in AI Detection",
-          "subtitle": "What AI consistently misses on site",
-          "slidecontent": "• Poor lighting fools cameras\n• Clutter hides hazards easily\n• Unusual angles cause misreads\n• Reflective surfaces confuse detection\n• Slow-moving risks go unnoticed"
+          "slidetitle": "Hidden and Partial Obstructions",
+          "subtitle": "When workers and hazards become invisible",
+          "slidecontent": "• Workers partially hidden behind machinery or scaffolding\n• Confined spaces beyond camera reach\n• Hazards obscured by materials and equipment piles\n• Multiple overlapping objects creating visual confusion\n• Activities in camera dead zones and peripheral areas"
         },
         {
           "number": 5,
-          "slidetitle": "Gaps in AI Detection",
-          "subtitle": "What AI consistently misses on site",
-          "slidecontent": "• Unusual postures or slow-moving hazards that fall outside the AI's training data\n• Poor lighting, dust, and steam obscuring camera views\n• Cluttered or overlapping objects confusing object recognition\n• Near-misses that happen too quickly to trigger an alert\n• Workers partially hidden behind machinery or scaffolding\n• Behavioural cues like fatigue or distraction, which cameras cannot reliably read"
+          "slidetitle": "Timing and Behavioural Detection Gaps",
+          "subtitle": "What cameras cannot read or catch in time",
+          "slidecontent": "• Near-misses happening faster than alert systems can respond\n• Slow-developing hazards like gradual structural shifts\n• Subtle behavioural cues such as fatigue or distraction\n• Small or distant objects below camera resolution thresholds\n• Human decision-making and risk assessment nuances"
         },
         {
           "number": 6,
-          "slidetitle": "Gaps in AI Detection",
-          "subtitle": "What AI consistently struggles to detect.",
-          "slidecontent": "• Partially hidden workers, such as those behind machinery or scaffolding\n• Poor lighting conditions at dawn, dusk, or in unlit areas\n• Cluttered environments where hazards blend into the background\n• Unfamiliar or rare hazard types not included in training data\n• Subtle behavioural cues, like fatigue or distraction\n• Small or distant objects that fall below camera resolution thresholds"
+          "slidetitle": "Compensating for AI Blind Spots",
+          "subtitle": "Strategies to fill detection gaps",
+          "slidecontent": "• Position multiple cameras to reduce blind spots\n• Maintain regular camera cleaning and calibration schedules\n• Train staff to recognise AI system limitations\n• Implement human patrol schedules for high-risk areas\n• Use AI alerts as supplements, not replacements for observation"
         },
         {
           "number": 7,
@@ -73,23 +73,23 @@
         },
         {
           "number": 2,
-          "script": "So before we get into how AI can help on site, we need to be honest about where it falls short. Even the most sophisticated camera system can only see what's directly in its field of view. Blind spots are inevitable, whether that's behind a hoarding, inside a confined space, or simply around a corner. And even when the camera does capture something, AI can struggle to understand the context. A worker crouching down might look like a fall to the system, or a shadow might be mistaken for a hazard. Poor lighting, whether it's a bright glare or a dimly lit area at dusk, can seriously reduce detection accuracy. And if something unusual happens, something the AI hasn't been trained to recognise, it simply won't flag it. That's why human judgement remains absolutely central to site safety. AI is a powerful support tool, but it isn't a replacement for experienced eyes on the ground."
+          "script": "Let's start with the physical environment, because this is where many AI detection failures begin. Environmental conditions are one of the biggest culprits. Poor lighting, heavy rain, or dust clouds can seriously degrade what the camera is able to see. Then there's the site itself. A cluttered, busy construction site can confuse the algorithm, making it harder to pick out what actually matters. Don't overlook the cameras themselves either. A dirty lens or a misaligned camera will reduce image quality and quietly undermine the whole system. Reflective surfaces add another layer of complexity – wet floors, glass panels, or polished metal can confuse the detection software and produce false readings. And finally, camera positioning creates natural blind spots around corners, behind structures, and in areas the lens simply cannot reach. These aren't edge cases – they happen regularly on real sites."
         },
         {
           "number": 3,
-          "script": "So why does AI detection actually fail on construction sites? There are a few common culprits. Environmental conditions are a big one. Poor lighting, heavy rain, or dust clouds can seriously degrade what the camera is able to see. Then there is the background itself. A cluttered, busy site can confuse the algorithm, making it harder to pick out what matters. Camera angle plays a huge role too. If a worker is partially hidden behind a piece of equipment or some scaffolding, the AI may simply not detect them at all. There is also the question of training data. If the AI has only ever been trained on a limited range of scenarios, it will struggle with hazards it has never encountered before. And do not overlook the physical cameras themselves. A dirty lens or a misaligned camera will reduce image quality and quietly undermine the whole system. These are not edge cases. They happen regularly on real sites."
+          "script": "Here's something that catches many people off guard: AI systems can only detect what they've been trained to recognise. If the system has only ever been shown a limited range of scenarios during its development, it will struggle with hazards it has never encountered before. This is particularly challenging on construction sites, where every project can present unique risks. An unusual working posture, a piece of equipment configured differently than expected, or a regional safety practice the system has never seen can all slip through undetected. The training data determines everything, and if your site presents situations that weren't included in that original dataset, the AI will be operating essentially blind. This is why understanding your specific system's training background is so important for realistic expectations."
         },
         {
           "number": 4,
-          "script": "So we know AI can be impressive, but let's talk about where it genuinely struggles on a construction site. One of the biggest issues is lighting. If a camera is pointed into a dark corner or dealing with harsh shadows, the system simply cannot see what it needs to see. Then there is clutter. Sites are busy, messy places, and when equipment or materials are piled up, hazards get hidden behind them. Camera angles matter too. If a camera is positioned awkwardly, the AI can misread what it is looking at entirely. Reflective surfaces are another problem, things like wet floors, glass, or polished metal can confuse the detection software and produce false readings. And finally, slow-moving risks. AI tends to be tuned to spot sudden or obvious dangers, so something like a gradual lean on scaffolding or a slow liquid spill can go completely undetected. These are real, consistent gaps that every site manager needs to be aware of."
+          "script": "One of the most consistent blind spots involves partial obstruction. Construction sites are busy, three-dimensional environments, and cameras can only see what's directly in their field of view. When a worker is partially hidden behind scaffolding or a piece of machinery, the AI may simply not detect them at all. Confined spaces, areas behind equipment piles, and activities happening in the peripheral zones of camera coverage all present genuine detection challenges. The problem becomes even more complex when you have multiple overlapping objects in the frame. The AI might see parts of different things and struggle to piece together what's actually happening, leading to missed hazards that would be obvious to human observers walking the site."
         },
         {
           "number": 5,
-          "script": "So we know AI can be impressive, but it does have some real blind spots that are worth understanding. For a start, these systems are only as good as the data they were trained on, so unusual postures or slow-moving hazards can slip right past them. Physical conditions on site cause problems too. Poor lighting, dust, and steam can all obscure the camera's view, and cluttered environments make it harder for the system to correctly identify what it's actually looking at. There are also timing issues. Near-misses can happen in a fraction of a second, faster than an alert can be triggered. Workers partially hidden behind scaffolding or machinery may not be detected at all. And perhaps most importantly, AI simply cannot read human behaviour reliably. Things like fatigue or distraction, the kinds of subtle signs an experienced safety officer might notice, are largely invisible to a camera. These gaps matter, and they're exactly why human oversight remains so important."
+          "script": "Timing creates another set of detection challenges that are worth understanding. Near-misses can happen in fractions of a second, sometimes faster than the system can process the image and generate an alert. On the other end of the spectrum, slow-developing hazards like a gradual lean in scaffolding or a slowly spreading liquid spill may not trigger detection algorithms that are tuned to spot sudden, obvious dangers. Perhaps most importantly, AI simply cannot read human behaviour reliably. An experienced safety officer might notice signs of fatigue, distraction, or hesitation that indicate elevated risk, but these subtle behavioural cues are largely invisible to camera systems. Small objects or distant activities that fall below the camera's resolution threshold can also go completely unnoticed, even when they pose genuine safety risks."
         },
         {
           "number": 6,
-          "script": "So we know AI can be powerful, but it does have some real weaknesses when it comes to site safety, and it's worth being honest about those. One of the biggest issues is visibility. If a worker is partially hidden behind scaffolding or a piece of machinery, the system may simply not see them. Similarly, in poor lighting conditions, like early morning starts or dimly lit areas, the camera feed can become too degraded to be reliable. Cluttered environments cause problems too, because hazards can easily blend into a busy background. Then there is the question of training data. If the AI has never been shown a particular type of hazard, it will not recognise it. Beyond the physical environment, AI also struggles with human behaviour. Things like fatigue or distraction are subtle and difficult to detect visually. And finally, objects that are small or far from the camera can fall below the resolution threshold entirely. These are not minor issues; they are genuine gaps that safety teams need to plan around."
+          "script": "Understanding these limitations doesn't mean abandoning AI monitoring – it means using it more intelligently. Strategic camera placement can reduce blind spots significantly, though it won't eliminate them entirely. Regular maintenance schedules for cleaning lenses and checking alignment are essential but often overlooked. Staff training becomes crucial here: everyone on site should understand what the AI system can and cannot see, so they don't assume comprehensive coverage where it doesn't exist. Human patrols in high-risk areas that cameras struggle with can fill critical gaps. Most importantly, treat AI alerts as supplements to human observation, not replacements. The technology works best when it's part of a broader safety strategy that keeps experienced eyes actively engaged with what's happening on site."
         },
         {
           "number": 7,

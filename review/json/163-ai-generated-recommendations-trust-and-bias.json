@@ -25,39 +25,39 @@
         },
         {
           "number": 2,
-          "slidetitle": "Recognising Bias in AI Systems",
-          "subtitle": "Where bias hides in plain sight",
-          "slidecontent": "• Biased data, biased results\n• Old data skews suggestions\n• Popularity hides niche options\n• Similar users, similar blind spots\n• Gaps in data mean gaps in choice"
+          "slidetitle": "Where Bias Originates",
+          "subtitle": "Understanding the root sources of AI bias",
+          "slidecontent": "• Biased training data creates biased results\n• Outdated information skews current recommendations\n• Missing demographic groups become invisible\n• Incomplete datasets lead to narrow perspectives\n• Historical preferences don't reflect future needs"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising Bias in AI Suggestions",
-          "subtitle": "Where bias shapes what guests see",
-          "slidecontent": "• Training data reflects past preferences\n• Popular items get recommended more\n• Niche options stay largely hidden\n• Algorithms favour profitable choices\n• Bias shapes guest perception quietly"
+          "slidetitle": "How Bias Influences Recommendations",
+          "subtitle": "The mechanics of algorithmic preference",
+          "slidecontent": "• Popular items get amplified further\n• Niche options stay buried\n• Profitability often drives suggestions\n• Guest preferences take second priority\n• Bias operates invisibly to users"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Bias in Suggestions",
-          "subtitle": "Recognising patterns that skew your results",
-          "slidecontent": "• Recommendations that always favour the same brand, price range, or cuisine type\n• Repetition is a red flag\n• Suggestions shaped by what past users clicked, not what suits your guest\n• A lack of diversity in results, such as only five-star venues or a single neighbourhood\n• Options that reflect popular trends rather than the specific request made"
+          "slidetitle": "Warning Signs of Biased Output",
+          "subtitle": "Red flags in AI recommendations",
+          "slidecontent": "• Same brands or price ranges repeatedly suggested\n• Lack of diversity in results\n• Recommendations ignore specific requests\n• Results mirror trending topics, not guest needs\n• Options clustered in single categories"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising Bias in Suggestions",
-          "subtitle": "Spotting patterns that skew your results",
-          "slidecontent": "• Recommendations that repeatedly favour certain brands, price points, or property types over others\n• Skewed results often reflect gaps or imbalances in the underlying training data\n• Watch for patterns\n• Guests from different backgrounds may receive noticeably different suggestions for the same request\n• A system trained mostly on one type of traveller will struggle to serve everyone fairly\n• Repetition of the same options, regardless of guest preferences, is a clear warning sign"
+          "slidetitle": "Testing for Fairness",
+          "subtitle": "Practical methods to evaluate AI suggestions",
+          "slidecontent": "• Compare suggestions for similar requests\n• Check if different guest backgrounds get equal service\n• Look for systematic exclusion of certain options\n• Question repetitive recommendation patterns\n• Verify alignment with actual guest preferences"
         },
         {
           "number": 6,
-          "slidetitle": "Recognising Bias in Suggestions",
-          "subtitle": "Spotting patterns that skew your results",
-          "slidecontent": "• Recommendations that repeatedly favour certain brands, price points, or cuisines over others\n• Skewed results often reflect gaps or imbalances in the data the system was trained on\n• Popularity bias pushes well-known options to the top, burying newer or lesser-known choices\n• Watch for missing diversity\n• Guests from different backgrounds may consistently see suggestions that do not reflect their preferences or needs\n• Noticing these patterns is the first step toward questioning and adjusting what the system surfaces"
+          "slidetitle": "Impact on Guest Experience",
+          "subtitle": "How bias affects your customers",
+          "slidecontent": "• Guests receive irrelevant suggestions\n• Cultural preferences go unrecognized\n• Limited options create poor experience\n• Trust in your service decreases\n• Some guests feel excluded or underserved"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Bias in AI Systems",
-          "subtitle": "Practical Steps Towards Fairer AI Outputs",
-          "slidecontent": "• Diversifying training data to include underrepresented groups and regions\n• Regular auditing of AI outputs for patterns of unfair or skewed recommendations\n• Human oversight at key decision points\n• Transparent labelling so guests know when a suggestion comes from an automated system\n• Encouraging user feedback to flag recommendations that feel irrelevant or exclusionary\n• Small, consistent checks that build fairer results over time"
+          "slidetitle": "Building Fairer AI Systems",
+          "subtitle": "Practical steps toward improvement",
+          "slidecontent": "• Diversify training data sources\n• Audit outputs regularly for bias patterns\n• Maintain human oversight at decision points\n• Label AI-generated content transparently\n• Collect and act on user feedback"
         },
         {
           "number": 8,
@@ -73,27 +73,27 @@
         },
         {
           "number": 2,
-          "script": "So let's talk about where bias actually creeps into AI systems, because it's often hiding in places you wouldn't immediately think to look. The most obvious source is the data itself. If the information an AI learns from is skewed or unrepresentative, the recommendations it produces will be too. And it gets more subtle than that. If the data is outdated, the system might keep nudging you towards things that were popular years ago rather than what's relevant now. There's also a tendency for AI to favour whatever is already popular, which means quieter, niche options rarely get a look in. Then there's the \"people like you\" problem, where the system groups you with similar users and you all end up sharing the same blind spots. And finally, if certain groups of people are simply missing from the data, their needs and preferences become invisible to the system entirely. Bias, in other words, is baked in at every stage."
+          "script": "Let's start at the beginning and understand where bias actually comes from in AI systems. The foundation of any AI recommendation system is its training data, and if that data is skewed or unrepresentative, everything that follows will be too. Sometimes this happens because the data is simply outdated, reflecting preferences and patterns from years ago rather than current needs. Other times, entire groups of people are missing from the dataset altogether, making their preferences completely invisible to the system. The data might also be incomplete in other ways, capturing only certain types of interactions or behaviours while missing others entirely. Understanding these root causes is crucial because it helps explain why AI systems sometimes produce recommendations that feel off or unfair to your guests."
         },
         {
           "number": 3,
-          "script": "So let's talk about where bias actually creeps into AI recommendations, because it happens in ways that are quite subtle. The AI learns from historical data, which means it reflects what people have chosen in the past, not necessarily what they might enjoy if given the chance. This creates a kind of snowball effect, where popular items keep getting pushed to the front, and quieter, more niche options rarely get a look in. But it goes a bit further than that. Algorithms are often designed with profitability in mind, so the suggestions guests receive may be nudging them towards higher-margin choices rather than the best fit for their needs. And here is the important part: guests have no idea any of this is happening. They simply see a list of recommendations and assume it is neutral and helpful. Understanding this is the first step towards using AI more thoughtfully and making sure your guests are genuinely well served."
+          "script": "Now let's look at how bias actually influences the recommendations your guests see. AI systems often create what's called a popularity cascade, where items that have been chosen frequently in the past get recommended even more, while lesser-known options get buried deeper. This means guests rarely discover hidden gems or niche experiences that might perfectly suit their needs. There's also the business reality that many algorithms are designed with profitability in mind, so the suggestions guests receive may subtly push them towards higher-margin choices rather than what truly serves them best. The troubling part is that guests have no way of knowing this is happening. They simply see a list of recommendations and assume it represents a neutral, helpful assessment of their options."
         },
         {
           "number": 4,
-          "script": "So how do you actually spot bias when it appears in AI recommendations? One of the clearest signs is repetition. If the system keeps suggesting the same brand, the same price bracket, or the same type of cuisine regardless of what you ask, that is worth questioning. Another thing to watch for is a lack of variety in the results. Perhaps every venue suggested is five stars, or everything is clustered in one part of the city. That kind of narrow range rarely reflects the full picture. It is also worth remembering that many AI systems learn from what previous users clicked on, not necessarily what is the best fit for your specific guest or situation. And sometimes the suggestions simply mirror whatever is trending at the moment, rather than responding to the actual request. Once you start noticing these patterns, you are in a much stronger position to challenge the output and seek out more balanced options."
+          "script": "So how do you actually recognise when bias is affecting the recommendations you're seeing? Start by looking for patterns of repetition. If an AI system consistently suggests the same brands, the same price brackets, or the same types of venues regardless of what you ask for, that's a clear warning sign. Watch out for a lack of variety in the results too. If every restaurant recommendation is fine dining, or every hotel suggestion is in the same neighbourhood, the system is probably missing the bigger picture. Another red flag is when recommendations seem to follow popular trends rather than responding to the specific request you made. These patterns become easier to spot once you know what to look for."
         },
         {
           "number": 5,
-          "script": "So how do you actually spot bias in the recommendations an AI is giving you? One of the clearest signs is repetition. If the system keeps suggesting the same brands, the same price ranges, or the same types of property regardless of what a guest has asked for, that is a red flag. Bias often creeps in because the data used to train the AI was not balanced in the first place. If most of that data came from a particular type of traveller, the system will naturally lean towards serving that group well and may struggle with everyone else. A practical way to test this is to think about whether guests from different backgrounds, with different budgets or preferences, would receive noticeably different suggestions for the same request. If the answer is yes, the system is not treating everyone fairly. Recognising these patterns is the first step towards using AI recommendations more critically and responsibly."
+          "script": "Testing AI systems for fairness requires a more systematic approach. Try submitting similar requests and see whether the recommendations vary appropriately, or whether you get essentially the same results regardless of the input. Consider whether guests from different cultural backgrounds or with different budgets would receive meaningfully different suggestions for the same type of request. If a business traveller and a family on holiday both get identical restaurant recommendations for the same city, something is probably wrong. Look for systematic gaps too. Are certain types of venues, price points, or experiences consistently missing? This kind of testing helps you understand whether the AI is truly serving all your guests fairly."
         },
         {
           "number": 6,
-          "script": "So, how do you actually spot bias in the recommendations an AI is giving you? One of the easiest things to look for is repetition. If the system keeps surfacing the same brands, the same price range, or the same type of cuisine, that is worth questioning. It often means the data the system learned from was unbalanced in some way. There is also something called popularity bias, where well-known options get pushed to the top simply because lots of people have interacted with them before, which means newer or lesser-known choices rarely get a look in. And it is worth thinking about your guests too. Someone from a different cultural background might consistently receive suggestions that feel completely irrelevant to them, and that is a real problem in a hospitality setting. The good news is that once you start noticing these patterns, you are already in a much stronger position to challenge what the system is showing you and make better decisions."
+          "script": "It's important to understand how bias in AI recommendations directly affects your guests' experience with your business. When suggestions consistently miss the mark, guests start to feel that your service doesn't understand or value their preferences. This is particularly problematic for guests from different cultural backgrounds, who may find that AI systems repeatedly offer suggestions that feel irrelevant or inappropriate to their needs. Over time, this pattern erodes trust in your organisation's ability to provide personalised service. Some guests may even feel actively excluded when they notice that certain types of options never appear in their recommendations. Recognising this impact helps put the technical challenge of AI bias into perspective as a real customer service issue."
         },
         {
           "number": 7,
-          "script": "So, what can actually be done to make AI recommendations fairer? There are a few practical steps worth knowing about. First, the data used to train these systems needs to reflect a wide range of people and places, not just the most common or well-represented groups. Alongside that, organisations should regularly check their AI outputs to spot any patterns that seem skewed or unfair. It is also important to keep humans involved at key moments, rather than leaving everything to the algorithm. Being transparent with users matters too, so people know when a suggestion has come from an automated system rather than a person. And importantly, listening to user feedback helps flag recommendations that feel off or irrelevant. None of this requires a dramatic overhaul. It is really about building small, consistent habits and checks over time. Done well, these steps can meaningfully improve the fairness and reliability of what AI systems suggest to people."
+          "script": "There are practical steps you can take to reduce bias in the AI systems you use. The most fundamental is ensuring that training data includes diverse perspectives and experiences, not just the most common or well-represented groups. Regular auditing of AI outputs helps spot patterns of unfair recommendations before they become entrenched. Keeping humans involved at key decision points prevents the system from operating entirely on autopilot. Being transparent with guests about when suggestions come from automated systems rather than human expertise builds trust and sets appropriate expectations. Finally, creating channels for user feedback allows you to identify when recommendations feel off-target or exclusionary. These aren't dramatic overhauls, but small, consistent practices that build fairer results over time."
         },
         {
           "number": 8,

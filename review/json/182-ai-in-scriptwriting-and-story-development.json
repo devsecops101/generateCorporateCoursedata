@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Scriptwriting Today",
-          "subtitle": "Reshaping how stories are crafted today",
-          "slidecontent": "• AI tools now assist writers at every stage, from initial concept to final draft\n• Used across film, television, games, and podcast production\n• Speeds up brainstorming\n• Raises real questions about originality, bias, and who truly owns a story\n• Adoption is growing fast, even among writers new to the technology"
+          "subtitle": "How artificial intelligence is transforming story creation",
+          "slidecontent": "• AI tools now assist writers from initial concept to final draft\n• Used across film, television, games, and podcast production\n• Speeds up brainstorming and dialogue generation\n• Growing adoption among writers at all experience levels\n• Creates new possibilities alongside new challenges"
         },
         {
           "number": 2,
-          "slidetitle": "Risks to Originality and Integrity",
-          "subtitle": "Where creativity meets compromise and concern",
-          "slidecontent": "• AI tools trained on existing scripts and stories, risking unintentional repetition of familiar plots and characters\n• Outputs can feel generic\n• Heavy reliance on AI may gradually erode a writer's distinct creative voice over time\n• Bias baked into training data can skew character representation and narrative perspective\n• Attribution becomes murky when AI contributes significantly to a script's core ideas\n• Audiences and commissioners increasingly value authentic, human-driven storytelling"
+          "slidetitle": "The Risk of Generic Storytelling",
+          "subtitle": "When AI output feels familiar and recycled",
+          "slidecontent": "• AI trained on existing scripts, leading to repetitive plots and characters\n• Outputs can feel generic or formulaic\n• Same story structures and character types appear repeatedly\n• Writers may lose their distinctive creative voice over time\n• Audiences increasingly value authentic, original storytelling"
         },
         {
           "number": 3,
-          "slidetitle": "Risks to Originality and Bias",
-          "subtitle": "When AI Echoes What Already Exists",
-          "slidecontent": "• AI remixes existing content\n• Originality can suffer quickly\n• Bias hides in training data\n• Familiar tropes repeat often\n• Your voice gets diluted"
+          "slidetitle": "Understanding Originality Challenges",
+          "subtitle": "Why AI struggles with truly fresh ideas",
+          "slidecontent": "• AI remixes existing content rather than creating from scratch\n• Training data limitations lead to familiar tropes and patterns\n• Risk of unintentional plagiarism or copyright concerns\n• Creative ownership becomes unclear with heavy AI involvement\n• Human creativity essential for breakthrough storytelling"
         },
         {
           "number": 4,
-          "slidetitle": "Bias and Narrative Integrity Risks",
-          "subtitle": "When AI Shapes Stories Unfairly",
-          "slidecontent": "• AI tools trained on historical data can reinforce stereotypes about gender, race, and culture in character portrayals\n• Overrepresented story patterns in training data push scripts toward familiar but narrow narratives\n• Subtle bias\n• Dialogue suggestions may default to clichéd voices for characters from underrepresented backgrounds\n• Relying heavily on AI output without critical review risks eroding the original perspective a writer brings to their work\n• Reviewing AI suggestions with an active, questioning eye helps protect the integrity of your story"
+          "slidetitle": "Bias in Character and Plot Development",
+          "subtitle": "How training data shapes AI storytelling decisions",
+          "slidecontent": "• Historical biases in training data reinforce stereotypes\n• Underrepresented groups often portrayed through clichés\n• Dialogue suggestions may default to reductive character voices\n• Overrepresented story patterns create narrow narrative focus\n• AI lacks cultural sensitivity and authentic lived experience"
         },
         {
           "number": 5,
-          "slidetitle": "Bias and Narrative Integrity Risks",
-          "subtitle": "When AI Shapes Stories Unfairly",
-          "slidecontent": "• AI reflects training data biases\n• Stereotypes appear in generated scripts\n• Minority voices get misrepresented\n• Outputs favour dominant narratives\n• Stories lose authentic cultural nuance"
+          "slidetitle": "Impact on Narrative Authenticity",
+          "subtitle": "When AI suggestions compromise story integrity",
+          "slidecontent": "• AI outputs favour dominant cultural narratives\n• Minority perspectives get misrepresented or overlooked\n• Stories lose authentic cultural nuance and depth\n• Characters become less complex and more stereotypical\n• Authentic emotional resonance gets diluted"
         },
         {
           "number": 6,
-          "slidetitle": "Protecting Narrative Integrity",
-          "subtitle": "Keeping Your Story Authentically Yours",
-          "slidecontent": "• Your voice, your choices\n• AI suggests, you decide\n• Review every generated line\n• Reject what feels off-brand\n• Final edit stays with you"
+          "slidetitle": "Maintaining Creative Control",
+          "subtitle": "Keeping your unique voice at the story's center",
+          "slidecontent": "• AI suggests, you decide what stays in your script\n• Review every generated line against your creative vision\n• Reject suggestions that feel off-brand or inauthentic\n• Final editorial control always remains with the writer\n• Your personal experience and perspective cannot be replicated"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Your Creative Integrity",
-          "subtitle": "Safeguarding originality in AI-assisted work",
-          "slidecontent": "• Always add your own voice\n• Edit every AI suggestion\n• Check for copied ideas\n• Trust your instincts first\n• Originality needs your input"
+          "slidetitle": "Strategies for Preserving Originality",
+          "subtitle": "Practical approaches to authentic AI-assisted writing",
+          "slidecontent": "• Use AI suggestions as starting points, not final answers\n• Extensively edit and reshape all AI-generated content\n• Cross-check ideas against existing works to avoid duplication\n• Trust your creative instincts over algorithmic suggestions\n• Regularly write scenes entirely without AI assistance"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Essential reminders for responsible AI use",
-          "slidecontent": "• Always review AI-generated content for unintended bias before including it in your script\n• Check for originality\n• AI can replicate familiar story patterns, so push beyond its first suggestions to find your unique voice\n• Keep the narrative decisions yours, using AI as a tool rather than the author\n• Watch for factual errors, cultural insensitivities, and stereotypes that AI may introduce without warning\n• As a next step, try rewriting one AI-generated scene entirely in your own words to strengthen your creative ownership"
+          "slidetitle": "Best Practices Summary",
+          "subtitle": "Essential guidelines for responsible AI use in storytelling",
+          "slidecontent": "• Critically review all AI content for bias and stereotypes\n• Verify factual accuracy and cultural sensitivity\n• Push beyond first suggestions to find your unique angle\n• Maintain clear authorial responsibility for narrative decisions\n• Practice rewriting AI scenes in your own voice as an exercise"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in scriptwriting and story development. If you've been curious about how artificial intelligence is changing the way stories get made, you're in exactly the right place. The truth is, AI tools are now being used at virtually every stage of the writing process, whether that's coming up with an initial idea, building out characters, or polishing a final draft. And this isn't just happening in one corner of the industry. Writers working in film, television, video games, and podcasting are all starting to explore what these tools can do. One of the biggest benefits people notice straight away is speed, particularly when it comes to brainstorming. But alongside the excitement, there are some genuinely important questions worth asking, around originality, potential bias in the technology, and who actually owns the creative work that comes out of it. So throughout this course, we'll look at all of that honestly and practically, whatever your current experience level with AI."
+          "script": "Welcome to this course on AI in scriptwriting and story development. Artificial intelligence tools are transforming how stories get created across the entertainment industry. Whether you're working in film, television, video games, or podcasting, AI can now assist at virtually every stage of the writing process. From generating initial concepts to polishing dialogue, these tools offer impressive speed and efficiency, particularly for brainstorming sessions. The adoption rate is accelerating rapidly, even among writers who are completely new to AI technology. But this technological shift brings both exciting possibilities and significant challenges that we need to address thoughtfully and responsibly."
         },
         {
           "number": 2,
-          "script": "So while AI offers some genuinely exciting possibilities for writers, it does come with some real risks worth thinking about. Because these tools have been trained on vast amounts of existing material, there is a danger that what they produce starts to feel familiar, even recycled. Characters, plots, and story structures can come out feeling a little generic. And if a writer leans too heavily on AI over time, their own unique voice can quietly start to fade. There is also the issue of bias. If the training data skews in a particular direction, that can show up in how characters are represented or whose perspective gets centred in a story. Then there is the question of credit and authorship, which gets genuinely complicated when AI has shaped the core ideas. And perhaps most importantly, audiences and commissioners are becoming more attuned to authentic, human storytelling. So these are not small concerns. They are worth keeping front of mind as we explore how to use these tools responsibly."
+          "script": "One of the most immediate risks when using AI for scriptwriting is the tendency toward generic, formulaic output. Because these tools are trained on vast libraries of existing scripts and stories, they often recycle familiar patterns rather than generating truly fresh material. You'll notice the same character archetypes, plot structures, and dialogue styles appearing repeatedly across different AI-generated pieces. This presents a real danger for writers who rely heavily on these suggestions without critical evaluation. Over time, your distinctive creative voice can become diluted as you unconsciously absorb these generic patterns. The result is storytelling that feels safe and familiar rather than innovative and compelling."
         },
         {
           "number": 3,
-          "script": "Now, one of the biggest concerns with using AI in your writing is what happens to originality. AI tools are trained on enormous amounts of existing text, which means they are essentially remixing what has already been written. That sounds useful, and often it is, but it also means your work can start to feel generic quite quickly. You might notice the same familiar story structures, the same character types, the same kinds of dialogue cropping up again and again. There is also the issue of bias. Because AI learns from human-created content, it absorbs the prejudices and assumptions baked into that content, and those can quietly slip into your scripts without you even realising. Perhaps most importantly, the more you rely on AI to generate your ideas and your words, the more your own unique voice gets watered down. The goal is to use these tools to support your creativity, not replace it."
+          "script": "Understanding how AI approaches creativity helps explain why originality can be such a challenge. Unlike human writers who draw from personal experience and genuine inspiration, AI fundamentally works by remixing and recombining existing content from its training data. This means it's inherently limited to variations on what has already been written. The risk of unintentional plagiarism or copyright infringement becomes a real concern, especially when AI produces content that closely mirrors existing works. Questions of creative ownership also become murky when artificial intelligence contributes significantly to your script's core ideas, characters, or plot developments. True breakthrough storytelling requires the kind of authentic human creativity that AI simply cannot replicate."
         },
         {
           "number": 4,
-          "script": "One of the more subtle risks with AI in scriptwriting is bias. These tools learn from enormous amounts of existing text and media, which means they can absorb and repeat the same stereotypes and narrow portrayals that have always existed in storytelling. So if you ask an AI to suggest dialogue for a character from a particular background, it might default to something clichéd or reductive, simply because that is what appeared most often in its training data. The same applies to story structure. AI tends to favour familiar, well-worn narrative patterns because those are the ones it has seen the most. The real danger comes when writers accept these suggestions without questioning them. If you are not critically reviewing what the AI produces, you risk losing the original perspective and authenticity that only you can bring to your work. So treat AI output as a first draft, not a final answer, and always ask whether what it is offering truly serves your story."
+          "script": "Bias represents one of the most serious challenges in AI-assisted scriptwriting. These systems learn from historical data that reflects decades or centuries of cultural prejudices and limited representation. When you ask AI to develop characters from underrepresented backgrounds, it may default to tired stereotypes simply because those appeared most frequently in its training material. The same problem affects plot development, where AI tends to favour narrative patterns that center dominant cultural perspectives while marginalizing others. This isn't malicious intent—it's a direct result of training data that historically excluded or misrepresented many communities. The AI lacks the cultural sensitivity and lived experience necessary to create authentic, nuanced portrayals."
         },
         {
           "number": 5,
-          "script": "Now, one of the most important risks to understand is what happens when AI introduces bias into your storytelling. Here's the thing: AI tools learn from enormous amounts of existing text, and that existing text reflects the world as it has been, not necessarily as it should be. So if certain groups, cultures, or perspectives have historically been underrepresented or misrepresented in media, the AI will likely carry those same blind spots into your script. You might find it defaulting to tired stereotypes, sidelining minority voices, or simply gravitating towards the kinds of stories that have always dominated mainstream media. The result is that your narrative can lose the authentic cultural texture that makes stories genuinely resonate with diverse audiences. This does not mean AI is unusable, but it does mean you need to stay critically engaged. Always review AI output with fresh eyes and ask yourself whose story is actually being told here, and whether it is being told fairly."
+          "script": "The impact on narrative authenticity goes deeper than individual character portrayals. When AI-generated content consistently reflects historical biases, it perpetuates storytelling patterns that exclude or diminish minority voices and experiences. Stories lose the cultural texture and emotional depth that come from genuine understanding of different communities and perspectives. Characters become flatter, more predictable, and less capable of surprising audiences with authentic complexity. The result is narrative homogenization—stories that technically function but lack the distinctive cultural insights and emotional resonance that make truly memorable storytelling. This erosion of authenticity can happen gradually, making it difficult to recognize until significant damage to your creative integrity has already occurred."
         },
         {
           "number": 6,
-          "script": "So let's talk about something really important, and that's making sure your story stays yours. AI is a brilliant tool, but it doesn't know your characters the way you do. It doesn't understand the specific tone you're going for, or the subtle nuances that make your writing feel like you. So the golden rule here is simple: AI suggests, and you decide. Every single line that comes out of an AI tool needs to pass through your filter. Read it, feel it, and ask yourself honestly whether it sounds like something you would write. If it feels off, if it doesn't match your voice or your vision, reject it without hesitation. There's absolutely no obligation to keep anything that doesn't serve your story. The final edit always stays with you, and that's not just a technicality, it's the most important part of the whole process. You are the author, and that never changes."
+          "script": "Maintaining creative control is essential when working with AI tools. The key principle is simple: AI suggests, but you decide. Every piece of AI-generated content must pass through your editorial filter before becoming part of your script. This means reading each suggestion carefully and evaluating whether it aligns with your creative vision, matches your intended tone, and serves your story's specific needs. Don't feel obligated to accept anything that feels inauthentic or off-brand—rejection is a crucial part of the creative process. Remember that your personal experience, emotional intelligence, and artistic instincts are irreplaceable assets that no artificial intelligence can duplicate or replace."
         },
         {
           "number": 7,
-          "script": "Now, one of the most important things to keep in mind when working with AI is protecting what makes your writing uniquely yours. AI can generate ideas quickly, but it has no personal experience, no genuine perspective, and no real creative instinct. That is entirely yours to bring. So whenever AI offers you a suggestion, treat it as a rough starting point rather than a finished answer. Edit it, reshape it, and make sure your own voice comes through in the final result. It is also worth checking that any ideas the AI produces are not simply echoing well-known stories or existing work, because that can happen more often than you might expect. Most importantly, trust yourself first. If something feels wrong or does not quite fit your vision, go with your gut. AI is a useful tool, but originality in your script will always come from you, not from the technology supporting you."
+          "script": "Preserving originality requires deliberate strategies and consistent practice. Treat every AI suggestion as raw material for further development rather than polished content ready for your script. Extensive editing and reshaping should be standard procedure—you're looking to extract useful elements while transforming them into something distinctly yours. Always cross-check AI-generated ideas against existing works to avoid accidental duplication. When your creative instincts conflict with algorithmic suggestions, trust your human judgment. Regular practice writing scenes entirely without AI assistance helps maintain and strengthen your natural creative voice, ensuring it doesn't become dependent on artificial support."
         },
         {
           "number": 8,
-          "script": "So before we move on, let's just pause and pull together the most important things to keep in mind when you're using AI in your scriptwriting work. First, always read through whatever AI produces with a critical eye. Look out for bias, factual mistakes, cultural insensitivities, and lazy stereotypes, because AI can slip these in without any warning at all. It's also worth checking that the content feels original, since AI tends to lean on familiar patterns and well-worn story structures. Push past those first suggestions and find your own voice in the work. Most importantly, remember that you are the author here. AI is a tool to support your creativity, not to replace your judgement or your decisions. And as a practical next step, I'd encourage you to take one scene that AI has generated and rewrite it entirely in your own words. It's a brilliant way to reclaim your creative ownership and really feel the difference."
+          "script": "Let's consolidate the essential practices for responsible AI use in scriptwriting. Always review AI-generated content with a critical eye, specifically looking for bias, stereotypes, factual errors, and cultural insensitivities that the system may have introduced. Verify accuracy and appropriateness before incorporating any suggestions into your work. Push beyond AI's first offerings to find more original angles that reflect your unique perspective. Remember that maintaining clear authorial responsibility means never letting the technology make narrative decisions for you. As a practical exercise, regularly rewrite AI-generated scenes entirely in your own voice—this helps reinforce your creative ownership and keeps your distinctive style sharp and active."
         }
       ]
     }

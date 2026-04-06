@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Collision Avoidance Systems",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Risks of incorrect or delayed decision-making.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with transportation or logistics operations, along with a general interest in how technology supports safety systems, is all that is needed to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the core principles behind AI-driven collision avoidance systems and explain how incorrect or delayed decision-making can introduce critical risks across aviation, maritime, and automotive environments. You will also be able to apply foundational knowledge to recognise the consequences of system failures and describe the safeguards used to minimise human and operational harm in real-world transportation scenarios.",
+  "lessons": [
+    {
+      "lesson title": "AI in Collision Avoidance Systems",
+      "order": 1,
+      "Description": "This lesson introduces learners to the role of artificial intelligence in collision avoidance systems, exploring how AI is used to detect hazards and support rapid decision-making in safety-critical environments. We will examine what can go wrong when AI systems make incorrect or delayed decisions, and why the consequences in these scenarios can be severe. Using clear, practical examples from sectors such as road transport, aviation, and maritime operations, the lesson helps beginners understand the real-world stakes involved. By the end of this lesson, you will have a solid foundation for recognising both the potential and the limitations of AI in keeping people and vehicles safe.",
+      "status": "draft",
+      "content": "Risks of incorrect or delayed decision-making.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI Collision Avoidance",
+          "subtitle": "Where split-second decisions save lives.",
+          "slidecontent": "• AI detects hazards instantly\n• Humans react too slowly\n• Delays cause collisions\n• Systems act in milliseconds\n• Lives depend on speed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Consequences of Poor Decision-Making",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• Crashes happen in milliseconds\n• Late alerts cause collisions\n• Wrong data kills drivers\n• Delays cost human lives\n• Errors ripple outward fast"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Consequences of Poor AI Decisions",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• Crashes happen instantly\n• Delays cost lives\n• Wrong data, wrong choice\n• Injuries follow bad calls\n• Trust in systems breaks"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Consequences of Decision-Making Failures",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• A delayed collision warning, even by milliseconds, can make evasive action impossible\n• Lives lost\n• Incorrect sensor data fed into an AI system may trigger braking at the wrong moment, causing secondary accidents\n• False positives (unnecessary alerts) erode driver or operator trust over time\n• System failures in aviation or rail contexts can affect hundreds of passengers at once\n• Real consequences, not theoretical risks"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Consequences of Decision-Making Failures",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• Delayed decisions giving vehicles or aircraft insufficient time to react safely\n• Collisions\n• False positives triggering unnecessary braking, causing rear-end crashes or passenger injuries\n• Missed hazards due to sensor misreads or poor data quality\n• Cascading failures where one wrong call disrupts an entire traffic or flight system\n• Real human lives at risk every time the system gets it wrong"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Consequences of Decision-Making Failures",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• Crashes cause injuries or deaths\n• Delays worsen collision outcomes\n• Wrong data misleads the system\n• Late alerts reduce reaction time\n• Failures damage public trust"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Consequences of Decision-Making Failures",
+          "subtitle": "When Errors Cost Lives and Time",
+          "slidecontent": "• Delayed braking decisions can turn a near-miss into a fatal collision within milliseconds\n• Wrong object classification (mistaking a pedestrian for a post) leads to no response at all\n• False positives cause unnecessary emergency stops, risking rear-end crashes\n• Cascading failures across sensors and AI layers compound a single small error rapidly\n• Real lives lost\n• System downtime after a critical failure can ground entire fleets, costing operators significant time and money"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for safer AI decisions",
+          "slidecontent": "• Delayed AI decisions can turn a manageable situation into a collision in milliseconds\n• Incorrect sensor data leads to wrong outputs\n• Always verify that AI systems are regularly tested and calibrated against real-world conditions\n• Human oversight remains essential, even when AI performs well\n• Small errors compound quickly\n• Review your organisation's protocols for flagging and reporting AI decision failures before they escalate"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Collision Avoidance Systems. Now, before we dive in, I want you to think about something for a moment. Imagine you are driving along a road and a child suddenly steps out in front of you. Your brain has to see the hazard, process it, and send a signal to your foot to hit the brake. That whole process takes time, and in many situations, that time is simply too long. The uncomfortable truth is that human reaction times, even at their best, are often not fast enough to prevent a collision. This is precisely where artificial intelligence steps in. AI systems can detect potential hazards and respond in just milliseconds, far quicker than any human ever could. Throughout this course, we will explore how these systems work, why speed is so absolutely critical, and how AI is genuinely saving lives on our roads and beyond. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "Let's think about what actually happens when a collision avoidance system gets it wrong. In a crash situation, everything unfolds in a fraction of a second. There is simply no time for a human driver to react if the system has already failed them. If an alert comes even slightly too late, the collision has already begun. And if the system is working from inaccurate or corrupted data, it might not warn the driver at all, or worse, it might give completely the wrong response. These are not minor inconveniences. These are situations where people lose their lives. And the consequences do not stop there. A single accident on a motorway can cause a chain reaction, affecting dozens of other vehicles, closing roads for hours, and stretching emergency services thin. So when we talk about the quality of decision-making in these systems, we are really talking about something with very real, very human consequences. That is why getting this right matters so much."
+        },
+        {
+          "number": 3,
+          "script": "When an AI system gets it wrong in a collision avoidance scenario, the consequences can be severe and they can happen in an instant. There is no time to review the decision or ask for a second opinion. A vehicle, aircraft, or vessel can be involved in a collision before anyone even realises something has gone wrong. And it is not just about the immediate impact. If a system hesitates or produces a delayed response, that fraction of a second can be the difference between a near miss and a fatality. A lot of these failures trace back to poor quality data. If the AI is working with inaccurate or incomplete information, it will make the wrong call, and people can be seriously injured as a result. But perhaps one of the most damaging long-term effects is what happens to public trust. Once people lose confidence in these systems, it becomes very difficult to rebuild that confidence, and that matters enormously for the future of this technology."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about what actually happens when these systems get it wrong, because the consequences are very real. Even a delay of just a few milliseconds in issuing a collision warning can be the difference between a driver having time to react and having no chance at all. And if the AI is working from faulty sensor data, it might trigger emergency braking at completely the wrong moment, which can actually cause a second accident rather than preventing one. Then there's the problem of false alarms. If a system keeps warning drivers about hazards that aren't there, people stop trusting it, and that erosion of trust is genuinely dangerous. Now scale this up to aviation or rail, where a single system failure can put hundreds of lives at risk simultaneously, and you start to appreciate the weight of responsibility here. These aren't hypothetical scenarios we're discussing for the sake of it. They are documented, real-world risks that make getting this technology right absolutely critical."
+        },
+        {
+          "number": 5,
+          "script": "So what actually happens when an AI collision avoidance system gets it wrong? The consequences can be severe. A delayed decision, even by a fraction of a second, can leave a vehicle or aircraft with no safe way to respond in time. And of course, the most obvious outcome of that is a collision. But failures do not always look like that. Sometimes the system overcorrects, triggering emergency braking when there is no real danger, which can cause the vehicle behind to crash into you, or throw passengers off their feet. On the other hand, the system might completely miss a genuine hazard because a sensor has misread the environment or the data coming in is poor quality. And in complex environments like busy roads or controlled airspace, one bad decision can ripple outwards, disrupting entire networks of vehicles or flights. The bottom line is simple: every time one of these systems makes the wrong call, real people can get hurt."
+        },
+        {
+          "number": 6,
+          "script": "When an AI collision avoidance system gets its decision-making wrong, the consequences can be severe. The most obvious outcome is a crash, which can result in serious injuries or, in the worst cases, loss of life. But it is not just about the moment of impact. If the system is slow to respond, even a fraction of a second of delay can make the difference between avoiding a collision and being unable to stop in time. Poor quality or incorrect data feeding into the system can cause it to misread the situation entirely, leading it to react in completely the wrong way. And if alerts reach the driver or operator too late, there simply is not enough time to act. Beyond the immediate physical dangers, repeated failures like these erode public confidence in the technology. If people do not trust these systems, they will not use them, which ultimately slows down the adoption of safety innovations that could save lives."
+        },
+        {
+          "number": 7,
+          "script": "So what actually happens when these AI systems get it wrong? The consequences can be severe, and they fall into a few different categories. At the most serious end, a delayed braking decision, even by a fraction of a second, can turn a near-miss into a fatal accident. And if the system misidentifies an object, say it confuses a pedestrian with a street post, it simply does nothing at all. That is an extraordinarily dangerous outcome. On the other side, if the system is too cautious and triggers unnecessary emergency stops, you risk the vehicle behind running straight into the back of you. Then there is the problem of errors compounding. One small mistake can cascade across multiple sensors and AI layers very quickly. And beyond the immediate safety risks, there are real operational consequences too. After a serious failure, entire fleets can be taken offline for investigation, which costs operators considerable time and money. So the stakes here are genuinely high, both in human and commercial terms."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring together the core lessons from this section. Speed matters enormously with AI. A decision that arrives even a fraction too late can turn a near miss into something far worse. And that decision is only as good as the data feeding into it, so if your sensors are off, your outputs will be too. That's why regular testing and calibration against real-world conditions isn't optional, it's essential. Now, even when AI is performing brilliantly, human oversight should never be switched off. We stay in the loop because small errors have a habit of building on each other very quickly, and what starts as a minor fault can escalate before anyone realises. Finally, make sure you know your organisation's protocols for flagging and reporting AI decision failures. Don't wait for a serious incident to find out what the process is. Know it now, before you need it."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Transportation managers, logistics coordinators, fleet supervisors, safety officers, operations managers, aviation personnel, maritime operators, automotive fleet managers, supply chain managers",
+  "Team or Dept this is for": "Transportation, Logistics, Operations, Safety, Fleet Management, Aviation Operations, Maritime Operations"
+}

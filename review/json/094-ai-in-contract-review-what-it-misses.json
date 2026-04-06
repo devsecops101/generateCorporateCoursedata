@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Contract Review",
-          "subtitle": "What AI consistently gets wrong",
-          "slidecontent": "• AI misses subtle legal risks\n• Context gets lost easily\n• Nuance confuses automated tools\n• Not all errors are obvious\n• Human review still essential"
+          "subtitle": "Understanding the limitations",
+          "slidecontent": "• AI speeds up review but misses critical nuances\n• Subtle legal risks often go undetected\n• Context and meaning get lost in automation\n• Human judgment remains essential\n• Errors aren't always obvious"
         },
         {
           "number": 2,
-          "slidetitle": "Recognising AI's Blind Spots",
-          "subtitle": "Where context and nuance get lost",
-          "slidecontent": "• Misses tone and intent\n• Ignores industry context\n• Overlooks implied obligations\n• Struggles with ambiguity\n• Flags words, not meaning"
+          "slidetitle": "Surface-Level Analysis Problem",
+          "subtitle": "Why AI reads words but misses meaning",
+          "slidecontent": "• Focuses on individual words and phrases\n• Misses tone and negotiation intent\n• Ignores industry-specific context\n• Cannot interpret implied obligations\n• Flags keywords without understanding significance"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting the Gaps Yourself",
-          "subtitle": "Recognising what automation routinely overlooks",
-          "slidecontent": "• Vague terms hide real risk\n• Context changes contract meaning\n• Implied duties often missed\n• Tone signals intent too\n• Read between the lines"
+          "slidetitle": "Common Categories of Missed Risks",
+          "subtitle": "What consistently slips through AI review",
+          "slidecontent": "• Vague terms like \"reasonable\" or \"timely\"\n• Context-dependent clause meanings\n• Unwritten industry customs and practices\n• Power imbalances between parties\n• Cross-references to external agreements"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting What AI Overlooks",
-          "subtitle": "Hidden risks beyond AI's reach",
-          "slidecontent": "• Implied obligations buried in vague or informal contract language\n• Industry-specific customs AI has no training context for\n• Jurisdiction gaps\n• Subtle power imbalances between contracting parties that shift real-world risk\n• Missing cross-references to side agreements or verbal commitments\n• Tone and intent that signal bad faith but read as neutral on the page"
+          "slidetitle": "Jurisdiction and Relationship Gaps",
+          "subtitle": "Legal complexities beyond AI's training",
+          "slidecontent": "• Local legal requirements vary by jurisdiction\n• Relationship history affects clause interpretation\n• Verbal commitments referenced but not detailed\n• Bad faith signals in neutral language\n• Party-specific risk allocations"
         },
         {
           "number": 5,
           "slidetitle": "Ambiguity and Implied Obligations",
-          "subtitle": "Where meaning hides between the lines",
-          "slidecontent": "• Contracts often rely on implied terms that courts read in automatically, even when not written down\n• AI tools scan for explicit wording and frequently miss these invisible obligations\n• Ambiguous phrases like \"reasonable efforts\" or \"timely manner\" carry different legal weight depending on context\n• Context matters enormously\n• A clause that looks standard may carry specific meaning in a particular industry or jurisdiction\n• Human reviewers draw on experience to spot where vague language could create unexpected liability"
+          "subtitle": "Legal meaning that exists between the lines",
+          "slidecontent": "• Courts automatically read in implied terms\n• AI scans explicit text but misses invisible duties\n• Phrases like \"best efforts\" vary by context\n• Standard clauses carry industry-specific weight\n• Vague language creates unexpected liability"
         },
         {
           "number": 6,
-          "slidetitle": "Gaps in Contextual Understanding",
-          "subtitle": "Where context shapes true legal meaning",
-          "slidecontent": "• Misses industry-specific jargon\n• Ignores negotiation history\n• Overlooks local legal customs\n• Skips unwritten business norms\n• Misreads ambiguous phrasing"
+          "slidetitle": "The Context Problem",
+          "subtitle": "How surrounding factors shape contract meaning",
+          "slidecontent": "• Industry jargon has specialized significance\n• Negotiation history influences interpretation\n• Local legal customs affect enforcement\n• Business relationship norms matter\n• Broader commercial context shapes risk"
         },
         {
           "number": 7,
-          "slidetitle": "Proceed With Informed Caution",
-          "subtitle": "Use AI as a starting point.",
-          "slidecontent": "• AI flags common clauses but often misses context-specific risks\n• Always review AI output with a qualified legal professional\n• Treat AI suggestions as a first draft, not a final answer\n• Document any risks the AI identifies for further human review\n• Never rely solely on AI for high-value or complex contracts"
+          "slidetitle": "Best Practices for AI-Assisted Review",
+          "subtitle": "Using AI effectively while managing limitations",
+          "slidecontent": "• Use AI as initial screening tool only\n• Always follow up with qualified legal review\n• Document AI-flagged issues for human analysis\n• Never rely solely on AI for high-stakes contracts\n• Treat output as first draft, not final answer"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• AI tools can miss the legal risks that hide in vague wording, implied obligations, and unusual clause combinations\n• Context matters enormously\n• Always have a qualified lawyer review contracts where the stakes are high or the language is ambiguous\n• AI works best as a first-pass filter, not a final authority\n• Subtle risks, like unbalanced liability caps or poorly defined termination rights, often require human judgement to spot\n• As a next step, try reviewing a familiar contract yourself and note where AI flags issues versus where it stays silent"
+          "slidetitle": "Practical Next Steps",
+          "subtitle": "Building better contract review processes",
+          "slidecontent": "• Combine AI efficiency with human expertise\n• Focus legal review on context-dependent risks\n• Test AI tools against familiar contracts\n• Note what AI misses versus what it catches\n• Develop workflows that leverage both strengths"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in contract review, and specifically what AI tends to get wrong. Now, AI tools have become remarkably capable in recent years, and many organisations are using them to speed up contract review. But here is the thing: fast does not always mean accurate, and in legal work, the gaps really matter. AI can struggle with subtle risks that are buried in the wording of a clause, and it often loses track of the broader context that surrounds a contract. Legal language is full of nuance, and automated tools can easily misread or simply overlook it. What makes this particularly tricky is that the errors are not always obvious. You will not always get a glaring red flag. Some of the most significant mistakes can look perfectly fine on the surface. That is exactly why human review remains so important. Throughout this course, we will explore where these gaps appear and why they matter in practice."
+          "script": "Welcome to this course on AI in contract review and its key limitations. AI tools have become remarkably capable at speeding up contract analysis, but speed doesn't equal accuracy in legal work. The fundamental challenge is that AI can miss subtle legal risks buried in contract language, and these gaps really matter in practice. What makes this particularly concerning is that AI errors aren't always obvious - some significant mistakes can appear perfectly reasonable on the surface. This is why understanding where AI falls short is crucial for anyone using these tools in legal or business contexts."
         },
         {
           "number": 2,
-          "script": "So let's start by looking at where AI actually struggles in contract review, because understanding these blind spots is really the foundation of everything we'll cover in this course. AI tools are genuinely impressive at scanning large volumes of text quickly, but they tend to work at a surface level. They can spot a word or a clause, but they often miss what that word actually means in context. For example, AI won't pick up on the tone of a negotiation, or recognise that a particular phrase carries a very different weight in, say, the construction industry compared to financial services. It also tends to overlook obligations that aren't written down explicitly but are clearly implied by the surrounding terms. And when language is deliberately vague or ambiguous, which happens quite often in contracts, AI can struggle to flag that as a problem at all. So the short version is: AI reads the words, but it doesn't always understand the meaning behind them."
+          "script": "The core issue with AI contract review is that these tools operate at a surface level. They excel at scanning large volumes of text quickly, but they read individual words and phrases without grasping deeper meaning. AI can spot a specific clause but often misses what that clause actually signifies in context. It won't pick up on the tone of a negotiation, recognize that certain terminology carries different weight across industries, or understand when language deliberately obscures important obligations. Essentially, AI processes text mechanically rather than interpreting it with legal understanding."
         },
         {
           "number": 3,
-          "script": "So even when AI tools do a solid job of flagging obvious issues, there are whole categories of risk they consistently miss. Take vague language, for example. Words like \"reasonable\" or \"timely\" might look harmless, but they can hide serious disagreements down the line. AI often reads those words at face value. Then there is context. A clause that seems perfectly fair in one business relationship can mean something quite different in another, and AI has no way of knowing your specific situation. Implied duties are another blind spot. Sometimes obligations exist even when they are not written down, based on law or industry practice, and automated tools rarely pick those up. And here is something people often overlook: tone. The way a contract is written can tell you a lot about how the other party intends to behave. AI does not read between the lines the way an experienced human does. That is exactly the skill we are going to build in this lesson."
+          "script": "There are several categories of risk that AI consistently overlooks. Vague terms like \"reasonable efforts\" or \"in a timely manner\" might seem harmless but often hide potential disputes. AI typically reads these at face value without recognizing the ambiguity. Similarly, clauses that appear standard in one business context can create unexpected obligations in another. Industry customs that aren't explicitly written down go unnoticed, and AI rarely detects when power imbalances between parties shift where the real risks lie."
         },
         {
           "number": 4,
-          "script": "So we know AI can read a contract quickly, but speed is not the same as understanding. There are several things AI consistently misses. It struggles with vague or informal language that implies an obligation without stating it directly. It has no real grasp of how a particular industry actually operates in practice, so unwritten customs and norms go unnoticed. It cannot always account for the legal differences between jurisdictions. It will not pick up on a power imbalance between the two parties, even when that imbalance shifts who bears the real risk. It can miss references to side agreements or verbal commitments that are not written into the contract itself. And perhaps most importantly, it cannot read tone. A clause might be technically neutral on the page but signal bad faith to an experienced human reader. These are not edge cases. They are exactly the kinds of issues that cause problems down the line, and they require human judgement to catch."
+          "script": "AI also struggles with the complex web of relationships and legal environments that surround every contract. Different jurisdictions have varying legal requirements that AI may not account for properly. The history between contracting parties - previous negotiations, ongoing relationships, verbal understandings - all influence how contract terms should be interpreted, but AI has no access to this context. Additionally, AI cannot read between the lines to detect when seemingly neutral language actually signals problematic intent from one of the parties."
         },
         {
           "number": 5,
-          "script": "Now, one of the trickiest areas for AI in contract review is something you might not even notice at first glance: the meaning that lives between the lines. Many contracts rely on what lawyers call implied terms, which are obligations that courts will automatically read into an agreement even if they are never actually written down. AI tools are very good at scanning for explicit wording, but they often miss these invisible layers entirely. Then there are phrases like \"reasonable efforts\" or \"in a timely manner,\" which sound straightforward but can mean very different things depending on the industry, the jurisdiction, or the commercial context surrounding the deal. A clause that looks completely standard in one setting might carry quite specific and significant meaning in another. This is where experienced human reviewers really earn their place. They bring judgement and context that no AI tool currently has, spotting where vague or familiar language could quietly create a serious and unexpected liability."
+          "script": "One of the most challenging areas for AI is implied obligations - legal duties that courts will enforce even when they're not explicitly written in the contract. These implied terms are based on legal precedent, industry standards, or the nature of the business relationship. AI tools focus on explicit wording and frequently miss these invisible but legally binding obligations. When contracts use ambiguous phrases, the true legal significance often depends on context that AI simply cannot interpret."
         },
         {
           "number": 6,
-          "script": "Now, one of the biggest limitations of AI in contract review is its struggle with context. You see, a contract doesn't exist in a vacuum. It sits within an industry, a relationship, and a legal environment, and AI often misses that bigger picture entirely. For example, certain industries have their own specialised terminology that carries very specific meaning, and AI can misinterpret or simply overlook it. Similarly, if two parties have been negotiating back and forth for weeks, that history shapes how certain clauses should be read, but AI has no access to those conversations. Then there are local legal customs and unwritten business norms, the kind of thing that experienced lawyers just know, that AI simply cannot pick up on. And when language is deliberately vague or ambiguous, AI tends to apply a literal reading rather than understanding the intended meaning. So while AI is fast and thorough in many ways, context is where it genuinely struggles."
+          "script": "Context is perhaps AI's biggest limitation in contract review. Every contract exists within a broader framework - specific industry practices, local legal customs, the commercial relationship between parties, and the business environment surrounding the deal. AI lacks this contextual understanding. It might completely miss that certain industry terminology has specialized meaning, or that local legal traditions affect how particular clauses will be enforced. This contextual blindness means AI often fails to assess the real-world implications of contract terms."
         },
         {
           "number": 7,
-          "script": "So, where does all of this leave us? The honest answer is that AI can be genuinely useful in contract review, but only when you treat it as a starting point rather than the final word. It is quite good at spotting common clauses and flagging obvious issues, but it can easily miss risks that are specific to your situation or industry. That is why it is so important to always have a qualified legal professional review whatever the AI produces. Think of the AI output as a rough first draft that still needs expert eyes on it. If the AI does highlight something that looks concerning, make a note of it and make sure a human follows up on it properly. And for anything high-value or particularly complex, please do not rely on AI alone. Used wisely, AI saves you time and helps you ask better questions. But the judgement, ultimately, has to come from a person."
+          "script": "Given these limitations, how should you actually use AI in contract review? The key is treating AI as a valuable first-pass screening tool rather than a complete solution. Use it to quickly identify obvious issues and common clause types, but always follow up with qualified legal review for anything important. Document what the AI flags so humans can investigate further, but never make final decisions based solely on AI analysis, especially for high-value or complex agreements. Think of AI as enhancing human review, not replacing it."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The core message from this lesson is that AI is genuinely useful in contract review, but it has real blind spots. Vague wording, implied obligations, unusual clause combinations, things like unbalanced liability caps or poorly worded termination rights, these are the kinds of issues that often slip past an AI tool entirely. Context matters enormously, and that is something a machine simply cannot replicate. So please do use AI as a helpful first pass, but always bring in a qualified lawyer when the stakes are high or the language is unclear. The final call should always rest with a human. And here is something practical you can do right now: take a contract you are already familiar with, run it through an AI tool, and pay close attention to what it flags and, just as importantly, what it does not. That gap is where your judgement becomes essential."
+          "script": "Moving forward, the most effective approach combines AI's speed with human expertise and judgment. Use AI to handle routine screening and flag potential issues, then focus your legal resources on the context-dependent risks that require human analysis. A practical next step is to test AI tools against contracts you already know well - compare what the AI catches versus what it misses. This will help you develop better workflows that leverage AI's strengths while ensuring human oversight covers its blind spots."
         }
       ]
     }

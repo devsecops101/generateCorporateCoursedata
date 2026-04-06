@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI-Enabled Financial Fraud and Scams",
+  "Category": "Finance & Professional Services: Banking, Insurance, Accounting, Consulting, Legal, Real Estate",
+  "Description": "How attackers use AI to target financial institutions and clients.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with everyday financial services (such as banking or insurance) and a general awareness of common online scams, but no prior knowledge of artificial intelligence or cybersecurity is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the most common AI-enabled fraud techniques targeting financial institutions and their clients, and explain how attackers exploit emerging technologies to deceive individuals and organisations. You will also apply practical strategies to recognise warning signs of AI-driven scams, helping you protect both your clients and your professional practice from financial harm.",
+  "lessons": [
+    {
+      "lesson title": "AI-Enabled Financial Fraud and Scams",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used by fraudsters and cybercriminals to target both financial institutions and their clients. You will learn about the different types of AI-enabled scams that are becoming increasingly common, including deepfake fraud, voice cloning, and highly convincing phishing attacks. We will look at real-world examples to help you recognise the warning signs and understand how these threats differ from more traditional forms of financial fraud. By the end of this lesson, you will have a clearer picture of the risks posed by AI-driven fraud and feel more confident in identifying suspicious activity. No prior technical knowledge is required, as the content is designed to be accessible and practical for anyone working in or around financial services.",
+      "status": "draft",
+      "content": "How attackers use AI to target financial institutions and clients.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "The Rise of AI Fraud",
+          "subtitle": "When fraud gets a technological upgrade",
+          "slidecontent": "• Fraud is not new, but AI has made it faster, cheaper, and far more convincing\n• Criminals now use AI tools to automate attacks at massive scale\n• Even small-scale fraudsters can access sophisticated technology\n• Financial institutions and their clients are both in the crosshairs\n• The threat is growing rapidly"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Anatomy of an AI Scam",
+          "subtitle": "How AI Powers Modern Financial Scams",
+          "slidecontent": "• AI tools let fraudsters automate, personalise, and scale attacks far beyond what was previously possible\n• Scammers use AI to clone voices, generate fake documents, and craft convincing messages in seconds\n• Targets are profiled using stolen data and public information to make scams feel legitimate\n• No technical skill required\n• Financial clients and institutions are primary targets because the potential reward is high\n• The result is fraud that is harder to detect and easier to fall for"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Deepfakes and Voice Cloning",
+          "subtitle": "Manipulating Identity Through Synthetic Media",
+          "slidecontent": "• Fake video, real-looking faces\n• Voices cloned from recordings\n• Fraudsters impersonate executives\n• Authorises fake wire transfers\n• Difficult to detect visually"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Deepfakes and Voice Cloning",
+          "subtitle": "Manipulating Trust Through Synthetic Media",
+          "slidecontent": "• Deepfakes use AI to create convincing fake videos or audio of real people, including bank executives and financial advisers\n• Voice cloning can replicate someone's voice from just a few seconds of recorded speech\n• Fraudsters use these tools to authorise fake wire transfers or bypass security checks\n• Increasingly realistic and cheap to produce\n• A cloned voice of a CEO has already been used to trick a finance director into transferring hundreds of thousands of pounds\n• Even careful listeners struggle to detect high-quality synthetic audio without specialist tools"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Deepfake Scams and Voice Cloning",
+          "subtitle": "Manipulating Trust Through Synthetic Media",
+          "slidecontent": "• Fake video calls fool victims\n• Voices cloned from social media\n• Criminals impersonate bank executives\n• Real-time audio deceives employees\n• Transfers authorised under false pretences"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Defending Against AI Fraud",
+          "subtitle": "Strategies to protect yourself and others",
+          "slidecontent": "• Verify unexpected requests by calling back on a known, official number\n• Pause before acting on any urgent financial instruction\n• Use multi-factor authentication on all banking and investment accounts\n• Train staff to question unusual payment requests, even from familiar voices or faces\n• Slow down\n• Report suspected AI-enabled fraud to your bank and the relevant national authority immediately"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Against AI Fraud",
+          "subtitle": "Strategies to Safeguard Your Finances",
+          "slidecontent": "• Verify callers independently\n• Pause before transferring money\n• Enable two-factor authentication\n• Question urgent payment requests\n• Report suspicious contact promptly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Stay vigilant, informed, and prepared always.",
+          "slidecontent": "• AI scams are increasingly convincing\n• Verify before you trust anyone\n• Deepfakes can mimic real people\n• Pause, check, then respond\n• Report suspicious activity immediately\n• Stay curious, stay protected"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Fraud has been around for as long as money itself, but something has changed dramatically in recent years. Artificial intelligence has given criminals a serious upgrade. We are not just talking about more sophisticated scams, we are talking about attacks that can be launched faster, at enormous scale, and at a fraction of the cost they once required. What used to take a team of fraudsters weeks to pull off can now be automated by a single person with the right tools. And here is the unsettling part: those tools are increasingly accessible. You do not need to be a technical genius or part of a large criminal organisation to cause serious harm. Both financial institutions and their customers are firmly in the sights of these bad actors, and the threat is accelerating. So throughout this course, we are going to look at exactly how these AI-enabled fraud techniques work, and what you can do to protect yourself and your clients."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by understanding what we're actually dealing with here. AI has fundamentally changed the way financial scams work. In the past, running a large-scale fraud operation required real effort, resources, and a certain level of technical skill. That's no longer the case. Today, fraudsters can use readily available AI tools to clone someone's voice, produce convincing fake documents, and write highly personalised messages, all within seconds. They'll pull together information from data breaches and social media to build a detailed profile of their target, which makes the scam feel incredibly believable. And here's the thing that really matters: you don't need to be a technical expert to do any of this. These tools are accessible and easy to use. Financial services are a prime target because the potential payoff is significant. The end result is a new generation of fraud that is far more convincing, far harder to spot, and much easier to fall for."
+        },
+        {
+          "number": 3,
+          "script": "One of the most unsettling developments in AI-enabled fraud is the rise of deepfakes and voice cloning. Using artificial intelligence, criminals can now generate highly convincing fake videos where a person appears to say or do something they never actually did. And it is not just video. AI can analyse a short audio recording of someone's voice and replicate it almost perfectly. So imagine receiving a phone call that sounds exactly like your CEO, asking you to urgently transfer funds to a new account. That is not a hypothetical scenario. It has already happened to real businesses, resulting in significant financial losses. The frightening part is that these fakes are becoming increasingly difficult to spot just by looking or listening. Your eyes and ears can no longer be fully trusted. As we move through this course, we will look at how organisations and individuals can build better defences against this kind of manipulation."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most unsettling developments in AI-enabled fraud is the rise of deepfakes and voice cloning. Essentially, criminals can now use artificial intelligence to create convincing fake videos or audio recordings of real people, think bank executives, financial advisers, even your own colleagues. And the really alarming part is that cloning someone's voice no longer requires hours of recordings. Just a few seconds of audio can be enough. We have already seen real cases where a cloned version of a CEO's voice was used to convince a finance director to transfer hundreds of thousands of pounds, genuinely believing they were following instructions from their boss. These tools are becoming cheaper and easier to access all the time, which means this threat is only going to grow. And here is the difficult truth: even careful, attentive listeners often cannot tell the difference between a real voice and a synthetic one without specialist detection software."
+        },
+        {
+          "number": 5,
+          "script": "Now, this is where things get genuinely unsettling. Criminals are now using AI to create what are called deepfakes, which are convincing fake videos and audio recordings that can make it look and sound as though someone is saying something they never actually said. Imagine receiving a video call from what appears to be your company's chief executive, asking you to urgently transfer funds to a new account. The face looks right, the voice sounds right, and the whole thing feels completely legitimate. But it is entirely fabricated. Fraudsters are harvesting voice samples from social media profiles, interviews, and public videos, and using AI tools to clone those voices in real time. Employees have genuinely been deceived this way, authorising large financial transfers because they believed they were speaking with a trusted senior figure. The technology has become so convincing that even cautious, experienced professionals have been caught out. So the question is, how do you protect yourself when you can no longer trust your own eyes and ears?"
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually protect ourselves? The single most powerful thing you can do is slow down. Fraudsters, whether human or AI-assisted, rely on panic and urgency to cloud your judgement. If someone contacts you out of the blue demanding an immediate payment, stop. Call them back on a number you already know and trust, not one they have given you. Make sure multi-factor authentication is switched on for all your banking and investment accounts, because that extra layer of security makes life significantly harder for criminals. If you work with a team, make sure your colleagues know it is perfectly acceptable to question unusual payment requests, even if the voice or face on the other end seems familiar. And finally, if something does go wrong, or even just feels suspicious, report it straight away to your bank and your national fraud authority. Acting quickly really does make a difference."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand how these scams work, let's talk about what you can actually do to protect yourself. First, if someone rings you claiming to be from your bank or a government agency, hang up and call them back using a number you've found independently, not one they've given you. Before you transfer any money at all, give yourself a moment to pause and think. Fraudsters rely on urgency, so slowing down is one of your best defences. Make sure you've got two-factor authentication switched on for your accounts, as that extra layer of security makes it much harder for criminals to get in. If anyone is pressuring you to pay quickly, treat that as a serious warning sign. Legitimate organisations will never rush you like that. And finally, if something feels off, report it straight away to your bank or Action Fraud. The sooner you act, the better the chance of stopping further harm."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few key things to keep in mind. The scams we've looked at today are becoming more and more convincing, and that's largely because AI is making them that way. Whether it's a deepfake video of someone you recognise, or a voice that sounds exactly like a colleague or family member, these tools can be incredibly deceptive. The most important habit you can build is to pause before you act. Don't rush. Verify who you're actually dealing with, especially if someone is asking you to move money or share sensitive information. A quick phone call or a second opinion can save you an enormous amount of trouble. And if something does feel off, please report it. You don't need to be certain it's fraud to flag it up. Finally, stay curious about how these threats are evolving, because the more you understand, the better protected you'll be."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Bank tellers, loan officers, insurance agents, financial advisors, mortgage brokers, accounting clerks, legal assistants, real estate agents, customer service representatives",
+  "Team or Dept this is for": "Banking, Insurance, Accounting, Legal, Real Estate, Customer Service, Fraud Prevention, Compliance"
+}

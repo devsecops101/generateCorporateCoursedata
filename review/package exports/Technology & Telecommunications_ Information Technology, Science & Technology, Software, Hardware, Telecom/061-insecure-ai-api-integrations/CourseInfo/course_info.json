@@ -1,0 +1,14 @@
+{
+  "Course Title": "Insecure AI API Integrations",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software developers, application developers, system integrators, API developers, full-stack developers, backend developers, DevOps engineers, technical leads, software engineers",
+  "Team or Dept this is for": "IT, Software Development, Engineering, DevOps, Product Development, Technology",
+  "Description": "Risks when connecting applications to external AI services.",
+  "Prerequisites": "Learners should have a basic understanding of how web applications work, including familiarity with APIs and HTTP requests, along with some experience using or integrating third-party services in a software project.",
+  "Learning objectives": "By the end of this course, you will be able to identify common security vulnerabilities that arise when integrating external AI services into applications, and explain the potential risks these weaknesses pose to data privacy and system integrity. You will also be able to apply practical strategies to assess, mitigate, and manage those risks, helping you build more secure and resilient AI-powered integrations.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

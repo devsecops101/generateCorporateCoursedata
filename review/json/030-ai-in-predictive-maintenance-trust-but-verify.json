@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "When Predictions Miss the Mark",
-          "subtitle": "The cost of misplaced AI confidence.",
-          "slidecontent": "• AI predictions sometimes fail\n• Equipment breaks unexpectedly\n• Confidence scores mislead teams\n• Costs rise quickly\n• Trust needs verification"
+          "slidetitle": "When AI Predictions Fail",
+          "subtitle": "The reality of misplaced confidence",
+          "slidecontent": "• AI predictions sometimes fail\n• Equipment breaks unexpectedly despite good forecasts\n• High confidence scores can mislead maintenance teams\n• Unplanned downtime costs escalate rapidly\n• Verification strategies are essential"
         },
         {
           "number": 2,
-          "slidetitle": "When Models Miss the Mark",
-          "subtitle": "Real failures, real consequences.",
-          "slidecontent": "• Models sometimes get it wrong\n• Missed faults cause real damage\n• Downtime costs money fast\n• Trust alone isn't enough\n• Verification saves equipment"
+          "slidetitle": "Common Causes of Model Failures",
+          "subtitle": "Why predictions go wrong",
+          "slidecontent": "• Faulty or miscalibrated sensors feeding bad data\n• Rare faults missing from training datasets\n• Equipment aging beyond model experience\n• Seasonal changes catching systems off guard\n• Over-reliance on single sensor readings"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting the Warning Signs Early",
-          "subtitle": "Before failure leaves its first clues",
-          "slidecontent": "• Subtle shifts in vibration, temperature, or sound often appear days or weeks before a fault becomes visible\n• Baseline data matters\n• Sensors capture patterns that human inspection routinely misses during scheduled rounds\n• Even small deviations from normal operating ranges can signal the early stages of component wear\n• Trending, not just thresholds"
+          "slidetitle": "Reading Early Warning Signs",
+          "subtitle": "Detecting problems before visible failure",
+          "slidecontent": "• Subtle shifts in vibration, temperature, or sound appear days before visible faults\n• Establish baseline data for normal operating ranges\n• Monitor trends over time, not just threshold crossings\n• Small deviations signal early component wear\n• Continuous sensor monitoring catches what inspections miss"
         },
         {
           "number": 4,
-          "slidetitle": "Validating Model Predictions Effectively",
-          "subtitle": "Checking predictions before trusting the output",
-          "slidecontent": "• Cross-checking model predictions against recent sensor readings and historical failure patterns\n• Spot-checking flagged alerts manually before scheduling costly maintenance work\n• Confidence scores matter\n• Reviewing how often the model has been right or wrong for similar equipment in the past\n• Setting clear thresholds for when a prediction triggers action versus further investigation"
+          "slidetitle": "Practical Verification Strategies",
+          "subtitle": "Cross-checking before you act",
+          "slidecontent": "• Cross-reference predictions with recent sensor data\n• Review model's historical accuracy on similar equipment\n• Spot-check high-priority alerts manually\n• Set clear action thresholds versus investigation triggers\n• Consider confidence scores in context of equipment familiarity"
         },
         {
           "number": 5,
-          "slidetitle": "When Models Miss the Mark",
-          "subtitle": "Real failures, real consequences explored here.",
-          "slidecontent": "• Models sometimes get it wrong\n• Sensors feed bad data in\n• Rare faults confuse predictions\n• Costs rise after missed failures\n• Trust alone is never enough"
+          "slidetitle": "Financial Impact of Missed Failures",
+          "subtitle": "When trust becomes costly",
+          "slidecontent": "• Emergency repairs cost significantly more than planned maintenance\n• Unplanned downtime creates cascading production losses\n• False alarms waste maintenance resources and erode team confidence\n• Late warnings offer little protection against breakdown costs\n• Blind trust amplifies financial exposure"
         },
         {
           "number": 6,
-          "slidetitle": "Diagnosing Model Failure Patterns",
-          "subtitle": "Spotting Where Predictions Go Wrong",
-          "slidecontent": "• Models trained on historical data often fail when equipment ages or operating conditions shift\n• Sudden spikes in false negatives (missed failures) usually signal data drift\n• Seasonal changes catch models off guard\n• Overconfidence in a single sensor reading is a common root cause of prediction errors\n• Patterns of clustered failures in one asset type point to a gap in the original training data"
+          "slidetitle": "Diagnosing Model Performance Issues",
+          "subtitle": "Identifying patterns in prediction failures",
+          "slidecontent": "• Data drift occurs when current conditions don't match training data\n• Spikes in false negatives indicate model degradation\n• Clustered failures in asset types reveal training gaps\n• Seasonal variations expose model blind spots\n• Overconfidence patterns highlight sensor dependency issues"
         },
         {
           "number": 7,
-          "slidetitle": "Lessons From Predictive Failures",
-          "subtitle": "When models miss, costs mount fast.",
-          "slidecontent": "• Models miss, costs spike\n• Wrong alerts waste resources\n• Late warnings mean downtime\n• Bias in data, bias in output\n• Trust erodes after failures"
+          "slidetitle": "Learning From Prediction Errors",
+          "subtitle": "Turning failures into improvements",
+          "slidecontent": "• Wrong predictions reveal model limitations and data gaps\n• Failed alerts provide valuable retraining opportunities\n• Error patterns guide sensor placement and calibration\n• Bias in training data creates predictable blind spots\n• Systematic failure analysis strengthens future predictions"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core lessons for smarter AI trust",
-          "slidecontent": "• AI predictions are probabilities, not promises\n• Always pair model outputs with human judgement before acting\n• Confidence scores can mislead, especially on unfamiliar equipment or edge cases\n• Check your data quality regularly\n• When a model is wrong, treat it as a learning opportunity to retrain and improve\n• Start small, verify often, and build trust through evidence rather than assumption"
+          "slidetitle": "Building Reliable AI-Human Partnership",
+          "subtitle": "Smart strategies for sustainable success",
+          "slidecontent": "• Treat AI outputs as probabilities, not certainties\n• Pair model predictions with human judgment\n• Monitor data quality continuously\n• Start with small implementations and expand gradually\n• Build trust through verified results, not assumptions\n• Use failures as learning opportunities for model improvement"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start with an uncomfortable truth: AI gets it wrong sometimes. Now, that might sound alarming, especially if your organisation is already using or considering AI-powered predictive maintenance. But here's the thing, understanding where AI falls short is just as important as understanding what it does well. Imagine a system confidently telling your maintenance team that a piece of equipment is perfectly healthy, and then two days later, that equipment fails completely. The confidence score said everything was fine, so the team trusted it and moved on. That misplaced confidence can lead to unplanned downtime, emergency repair costs, and in some cases, serious safety concerns. These costs add up remarkably quickly. So throughout this lesson, we are going to look honestly at why AI predictions sometimes miss the mark, and more importantly, how you can build a smarter approach where you trust the technology but always verify what it is telling you."
+          "script": "Let's start with an uncomfortable truth: AI gets it wrong sometimes. Imagine a system confidently telling your maintenance team that equipment is perfectly healthy, then two days later, that equipment fails completely. The confidence score said everything was fine, so the team trusted it and moved on. This misplaced confidence leads to unplanned downtime, emergency repair costs, and potentially serious safety concerns. These costs escalate remarkably quickly. Throughout this lesson, we'll examine why AI predictions sometimes miss the mark, and more importantly, how to build a smarter approach where you trust the technology but always verify what it's telling you."
         },
         {
           "number": 2,
-          "script": "Let's start with something that might be uncomfortable to hear: AI models are not perfect. Even the most sophisticated predictive maintenance system will occasionally get it wrong, and when it does, the consequences can be serious. A missed fault does not just sit quietly in a report somewhere. It can lead to unexpected equipment failure, and that failure can cause real physical damage to your machinery. Now, add the cost of unplanned downtime on top of that, and you are looking at losses that can escalate very quickly, sometimes within hours. So here is the core problem we need to address throughout this course. If we simply trust the AI output without questioning it, we are leaving ourselves exposed. Blind trust in any system, no matter how advanced, is a risk we cannot afford. The good news is that building in proper verification processes, checking and validating what the model tells us, is genuinely effective at protecting your equipment and your budget."
+          "script": "When predictive models fail, there are usually identifiable reasons. Sometimes the problem starts with faulty sensors feeding corrupted data into the system - rubbish in, rubbish out. Models also struggle with rare faults that didn't appear frequently in training data. As equipment ages beyond what the model experienced during training, predictions become less reliable. Seasonal changes can catch systems completely off guard because summer and winter conditions look very different to the algorithm. Finally, models that depend too heavily on a single sensor reading become fragile and prone to errors when that sensor has issues."
         },
         {
           "number": 3,
-          "script": "Before a machine actually breaks down, it almost always gives you warning signs first. The problem is, those signs are often so subtle that a routine visual inspection will simply miss them. That's where sensors become genuinely valuable. They're monitoring continuously, picking up tiny shifts in vibration, temperature, or sound that a human walking the floor once a day just won't catch. But here's the thing: raw sensor data on its own isn't enough. You need a solid baseline, a clear picture of what \"normal\" actually looks like for that specific piece of equipment. Once you have that, you can start spotting deviations early, even very small ones, because small deviations are often the first sign that a component is beginning to wear. And importantly, you're not just watching for a single reading to cross a threshold. You're looking at trends over time. That shift in thinking, from thresholds to trends, is really at the heart of effective predictive maintenance."
+          "script": "Before machines actually break down, they almost always give warning signs first. The problem is these signs are often so subtle that routine visual inspection misses them completely. Sensors monitoring continuously can pick up tiny shifts in vibration, temperature, or sound that a human walking the floor once daily won't catch. But raw sensor data isn't enough - you need a solid baseline showing what normal looks like for that specific equipment. Once established, you can spot even small deviations early, because small deviations often signal the beginning of component wear. The key shift is thinking about trends over time, not just threshold crossings."
         },
         {
           "number": 4,
-          "script": "So once your model starts generating predictions, the real work begins: making sure you can actually trust what it's telling you. Before you send a maintenance team out, it's worth cross-checking that alert against your recent sensor data and what you know about how similar equipment has failed in the past. A quick manual spot-check can save you from acting on a false alarm and wasting time and money. Pay attention to confidence scores too, because a model saying it's sixty percent sure is very different from one that's ninety-five percent sure. It also helps to look back at the model's track record on comparable equipment. Has it been reliable, or has it cried wolf before? And finally, set clear thresholds in advance so your team knows exactly when a prediction means \"act now\" versus \"let's investigate further.\" That structure turns a raw prediction into a sensible, defensible decision."
+          "script": "Once your model generates predictions, the real work begins: ensuring you can trust what it's telling you. Before dispatching maintenance teams, cross-check alerts against recent sensor data and historical failure patterns for similar equipment. A quick manual spot-check can save you from acting on false alarms. Pay attention to confidence scores, because sixty percent certainty is very different from ninety-five percent. Review the model's track record on comparable equipment - has it been reliable, or cried wolf before? Set clear thresholds in advance so teams know when predictions mean 'act now' versus 'investigate further.' This structure turns raw predictions into sensible, defensible decisions."
         },
         {
           "number": 5,
-          "script": "So let's be honest about something that doesn't always get enough attention in AI conversations: these models can and do get things wrong. Sometimes the problem starts before the AI even makes a decision, because if the sensors feeding data into the system are faulty or miscalibrated, the model is essentially working blind. Rubbish in, rubbish out, as we say. Then there's the challenge of rare faults, the kind that don't appear often enough in training data for the model to recognise them reliably. And when a failure gets missed, the consequences aren't just technical, they're financial. Emergency repairs, unplanned downtime, and knock-on disruption can cost organisations significantly more than a well-timed maintenance visit would have. This is really the heart of what this lesson is about. Trusting your AI system is reasonable, but trusting it blindly is a risk you simply cannot afford to take. Verification has to be part of the process."
+          "script": "The financial consequences of predictive maintenance failures are substantial and immediate. Emergency repairs typically cost three to five times more than planned maintenance, and that's before considering production losses from unplanned downtime. When equipment fails unexpectedly, the ripple effects can shut down entire production lines or delay critical operations. False alarms create their own costs by sending teams on unnecessary service calls, wasting resources and gradually eroding confidence in the system. Even warnings that arrive too late offer little protection - they're almost as damaging as no warning at all. This is why blind trust in AI predictions becomes a serious financial liability."
         },
         {
           "number": 6,
-          "script": "When an AI model starts getting things wrong, there are usually some telltale patterns that help us understand why. One of the most common issues is that the model was trained on historical data, but the real world has moved on. Equipment gets older, operating conditions change, and the model simply hasn't kept up. If you suddenly notice a spike in missed failures, that's often a sign of data drift, where the incoming data no longer matches what the model learned from. Seasonal shifts are another culprit that catches models off guard, because conditions in summer and winter can look very different. Another thing to watch for is over-reliance on a single sensor reading, which makes predictions fragile. And if failures keep clustering around one particular type of asset, that's usually telling you there was a gap in the original training data. Recognising these patterns is the first step towards fixing them."
+          "script": "When AI models start getting predictions wrong, recognizable patterns usually emerge. Data drift is one of the most common culprits - this occurs when current operating conditions no longer match what the model learned from historical data. You'll typically see this as a sudden spike in false negatives or missed failures. Seasonal changes often catch models unprepared because temperature, humidity, and operational patterns shift dramatically between seasons. Clustered failures around specific asset types usually indicate gaps in the original training data. Watch for overconfidence patterns too - when models become too dependent on single sensor readings, they become vulnerable to sensor malfunctions or calibration drift."
         },
         {
           "number": 7,
-          "script": "So let's talk about what happens when predictive maintenance models get it wrong, because the consequences are very real. If a model misses a fault entirely, you're looking at unexpected breakdowns and the costs that come with them, emergency repairs, lost production, unhappy customers. But it's not just about missing problems. False alarms are equally damaging. If your team is constantly chasing alerts that turn out to be nothing, you're burning time and resources, and people start to lose confidence in the system. Then there's the timing issue. A warning that arrives too late is almost as bad as no warning at all. And here's something that often gets overlooked: if the data you trained your model on was skewed or incomplete, the model will inherit those same blind spots. That's bias in, bias out. And when failures stack up, trust in the whole system begins to crumble. That's the real danger we need to guard against."
+          "script": "Every prediction error, while frustrating, provides valuable learning opportunities. Wrong predictions reveal specific limitations in your model and highlight gaps in training data that need addressing. Failed alerts become case studies for retraining algorithms with better examples. Error patterns can guide decisions about sensor placement, calibration schedules, and monitoring strategies. If bias existed in the original training data, failure patterns will expose these blind spots systematically. The key is treating each failure as diagnostic information rather than just a problem to fix. This systematic approach to failure analysis helps strengthen future predictions and builds more robust maintenance programs over time."
         },
         {
           "number": 8,
-          "script": "So let's bring it all together. The most important thing to hold onto is this: AI gives you probabilities, not guarantees. It's a powerful tool, but it still needs a human in the loop to make the final call. Those confidence scores you see can be misleading, particularly when the model encounters equipment or conditions it hasn't seen much of before. So keep a close eye on your data quality, because poor data in means poor predictions out. And when the model does get it wrong, don't be discouraged. Treat it as useful feedback, an opportunity to retrain and sharpen the system over time. The best approach is to start small, test things carefully, and let trust build gradually through real evidence rather than just assuming the AI knows best. Follow those principles, and you'll be in a much stronger position to use predictive maintenance AI confidently and responsibly."
+          "script": "Building a reliable partnership between AI and human expertise requires the right mindset and processes. Most importantly, treat AI outputs as probabilities, not guarantees - they're powerful tools that still need human judgment for final decisions. Continuously monitor data quality because poor data inevitably produces poor predictions. Start with small implementations where you can carefully verify results before expanding. Let trust build gradually through demonstrated evidence rather than assumptions about AI capabilities. When models do get things wrong, use those failures as opportunities to retrain and improve the system. Follow these principles, and you'll be positioned to use predictive maintenance AI both confidently and responsibly."
         }
       ]
     }

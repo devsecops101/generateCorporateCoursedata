@@ -1,0 +1,14 @@
+{
+  "Course Title": "Training Data Poisoning in Practice",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Data analysts, software developers, product managers, IT managers, business analysts, machine learning engineers, data scientists, technology professionals working with AI systems",
+  "Team or Dept this is for": "IT, Data Science, Product Development, Software Engineering, Risk Management, Operations",
+  "Description": "Real-world scenarios of corrupted datasets affecting outcomes.",
+  "Prerequisites": "A basic understanding of machine learning concepts and familiarity with how datasets are used to train models is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common methods of training data poisoning and explain how corrupted datasets can lead to flawed or harmful outcomes in real-world systems. You will also apply practical techniques to recognise signs of data manipulation and assess the potential risks posed by compromised training data across a range of technology and software environments.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

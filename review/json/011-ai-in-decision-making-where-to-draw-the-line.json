@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Where AI Falls Short",
-          "subtitle": "The gaps machines cannot fill",
-          "slidecontent": "• No feelings or empathy\n• Misses human context\n• Cannot take responsibility\n• Struggles with ethics\n• Blind to nuance"
+          "slidetitle": "AI's Fundamental Limitations",
+          "subtitle": "Understanding where machines fall short",
+          "slidecontent": "• No emotional intelligence or empathy\n• Misses cultural and situational context\n• Cannot be held accountable for mistakes\n• Struggles with complex ethical dilemmas\n• Operates in black and white, not nuanced gray"
         },
         {
           "number": 2,
-          "slidetitle": "Human Judgement Still Matters",
-          "subtitle": "Where context and empathy count most",
-          "slidecontent": "• Decisions involving grief, loss, or personal crisis need a human presence\n• Context matters\n• AI cannot read the room the way a person can\n• high risk conversations (redundancies, medical news, family disputes) rely on tone and trust\n• Empathy is not a feature that can be switched on"
+          "slidetitle": "The Irreplaceable Human Touch",
+          "subtitle": "When empathy and connection matter most",
+          "slidecontent": "• Grief counseling and crisis support\n• Delivering difficult news (layoffs, diagnoses)\n• Reading emotional cues and adjusting approach\n• Building trust through genuine understanding\n• Responding to what isn't said out loud"
         },
         {
           "number": 3,
-          "slidetitle": "The Human Cost of Errors",
-          "subtitle": "When mistakes affect real people's lives",
-          "slidecontent": "• A wrongly denied loan or benefit can push someone into financial crisis\n• Misdiagnosed by an algorithm, a patient may receive the wrong treatment\n• Real harm\n• Automated hiring tools have already screened out qualified candidates unfairly\n• Errors in high risk decisions are rarely just data problems, they are life-changing events for the people involved"
+          "slidetitle": "When AI Errors Devastate Lives",
+          "subtitle": "Real consequences of automated mistakes",
+          "slidecontent": "• Wrongly denied loans pushing families into poverty\n• Medical misdiagnoses leading to incorrect treatment\n• Biased hiring algorithms screening out qualified candidates\n• Benefit denials causing genuine hardship\n• Errors aren't just data problems—they're life-changing events"
         },
         {
           "number": 4,
-          "slidetitle": "The Human Element Matters",
-          "subtitle": "Why human judgement remains irreplaceable",
-          "slidecontent": "• Humans feel consequences\n• Context changes everything\n• Empathy cannot be coded\n• Accountability needs a face\n• Values differ person to person"
+          "slidetitle": "Why Humans Feel Responsibility Differently",
+          "subtitle": "The weight of personal accountability",
+          "slidecontent": "• Humans live with consequences of their choices\n• Personal values shape decision priorities\n• Experience teaches us what truly matters\n• We can explain our reasoning face-to-face\n• Accountability requires someone to answer for outcomes"
         },
         {
           "number": 5,
-          "slidetitle": "Where AI Falls Short",
-          "subtitle": "Blind spots machines cannot overcome",
-          "slidecontent": "• No lived human experience\n• Misses emotional context\n• Cannot assign moral weight\n• Blind to cultural nuance\n• Struggles with genuine uncertainty"
+          "slidetitle": "AI's Blind Spots in Complex Situations",
+          "subtitle": "What algorithms cannot process",
+          "slidecontent": "• No lived experience to draw from\n• Cannot weigh moral significance of outcomes\n• Misses unspoken cultural dynamics\n• Fails when facing genuine ambiguity\n• Produces hollow responses to nuanced problems"
         },
         {
           "number": 6,
-          "slidetitle": "Where Humans Must Stay Involved",
-          "subtitle": "Judgement that machines cannot replace",
-          "slidecontent": "• Decisions that affect someone's livelihood, freedom, or wellbeing\n• Situations where context, emotion, or lived experience matters\n• Anything requiring moral or ethical judgement\n• Cases where accountability must rest with a named person\n• high risk moments with no clear right answer"
+          "slidetitle": "Non-Negotiable Human Territory",
+          "subtitle": "Decisions requiring human judgment",
+          "slidecontent": "• Life-altering choices (employment, health, freedom)\n• Situations demanding contextual understanding\n• Ethical dilemmas with no clear right answer\n• Cases requiring personal accountability\n• High-stakes moments needing human wisdom"
         },
         {
           "number": 7,
-          "slidetitle": "Where AI Must Step Back",
-          "subtitle": "Human judgement remains non-negotiable here.",
-          "slidecontent": "• Hiring and firing people\n• Medical diagnoses\n• Legal sentencing\n• Child welfare decisions\n• Crisis mental health support"
+          "slidetitle": "Critical Decisions Requiring Human Control",
+          "subtitle": "Where AI must never have final authority",
+          "slidecontent": "• Hiring and termination decisions\n• Medical diagnoses and treatment plans\n• Criminal sentencing and legal judgments\n• Child welfare and safety determinations\n• Mental health crisis interventions"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "The principles that should guide you",
-          "slidecontent": "• AI works best as a thinking partner, not a final decision-maker\n• Always keep a human accountable for outcomes that affect people's lives\n• high risk decisions (those involving fairness, safety, or rights) need human judgement\n• Check AI outputs, never just accept them\n• The more irreversible a decision, the more human oversight it requires\n• Start small: identify one decision in your work where you can apply these principles this week"
+          "slidetitle": "Your Decision-Making Framework",
+          "subtitle": "Principles for responsible AI use",
+          "slidecontent": "• Use AI as advisor, not decision-maker\n• Maintain human accountability for life-impacting outcomes\n• Apply extra human oversight to high-risk choices\n• Always verify and question AI recommendations\n• Match oversight level to decision reversibility\n• Practice: Apply these principles to one work decision this week"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "So we've established that AI can do some remarkable things, but let's be honest about where it genuinely struggles. AI has no feelings whatsoever. It cannot sense the emotion in a room, read between the lines, or truly understand what someone is going through. It also misses a great deal of human context, the unspoken history, the relationships, the cultural nuances that shape a situation. And here's a big one: when something goes wrong, AI cannot be held accountable. It cannot own a mistake or face consequences the way a person can. Then there's ethics. AI finds it very difficult to navigate genuinely complex moral questions, the kind where there's no clean right or wrong answer. And finally, nuance. Real life is messy and layered, and AI tends to see things in fairly black and white terms. These aren't small gaps. They're fundamental limitations, and understanding them is exactly why this course matters."
+          "script": "Let's start by acknowledging what AI genuinely cannot do. AI has no emotional intelligence whatsoever. It cannot sense the feeling in a room, read between the lines, or understand what someone is truly experiencing. It also misses crucial human context—the unspoken history, relationships, and cultural nuances that shape every situation. Here's a critical point: AI cannot be held accountable when things go wrong. It cannot own a mistake or face consequences the way a person can. AI also struggles with complex ethical questions where there's no clear right or wrong answer. And finally, real life is messy and layered, but AI tends to see things in black and white terms. These aren't minor gaps—they're fundamental limitations that define where human judgment remains essential."
         },
         {
           "number": 2,
-          "script": "So even as AI becomes more capable, there are moments where human judgement is simply irreplaceable. Think about the kinds of conversations that really matter: telling someone they've lost their job, sharing difficult medical news, or supporting a person through a personal crisis. These situations aren't just about delivering information accurately. They're about reading the room, picking up on emotion, adjusting your tone in real time, and making someone feel genuinely heard. AI can process data brilliantly, but it cannot sense the weight in someone's silence or respond to a trembling voice the way another person can. Empathy isn't a setting you can configure or a function you can call up on demand. It comes from lived experience and human connection. So when the stakes are high and the emotions are raw, that's where we need to be especially thoughtful about where AI fits in, and where it simply doesn't belong."
+          "script": "There are moments where human presence is simply irreplaceable. Consider the conversations that matter most: supporting someone through grief, delivering devastating medical news, or helping during a personal crisis. These situations aren't just about sharing information accurately—they're about reading emotional cues, adjusting your tone in real time, and making someone feel genuinely heard. AI can process data brilliantly, but it cannot sense the weight in someone's silence or respond to a trembling voice with authentic compassion. Empathy isn't a feature you can program—it comes from lived experience and genuine human connection. When emotions run high and stakes matter most, that's exactly where we need to be thoughtful about AI's role."
         },
         {
           "number": 3,
-          "script": "When AI gets it wrong, it is not just a technical glitch. It has real consequences for real people. Think about someone who is wrongly denied a loan or a benefits payment. That is not a minor inconvenience. It can tip a family into genuine financial hardship. Or consider a patient whose symptoms are misread by an algorithm, leading to the wrong diagnosis and the wrong treatment. In hiring, we have already seen cases where automated screening tools have filtered out perfectly qualified candidates, simply because the system was not designed fairly. These are not edge cases or theoretical risks. They are things that have already happened. And that is the point I want you to hold onto throughout this course. When we talk about errors in AI decision-making, we are not just talking about percentages or performance metrics. We are talking about moments that can change the direction of someone's life. That is why getting this right matters so much."
+          "script": "When AI makes mistakes, the consequences extend far beyond technical glitches. Consider someone wrongly denied a loan—that's not a minor inconvenience, it can push a family into genuine financial crisis. Think about a patient whose symptoms are misread by an algorithm, leading to wrong treatment that could be life-threatening. We've already seen automated hiring tools screen out perfectly qualified candidates due to biased programming. These aren't theoretical risks—they're documented cases where AI errors have changed lives for the worse. When we discuss AI decision-making failures, we're not talking about abstract performance metrics. We're talking about real moments that can alter someone's future forever. That's precisely why getting these boundaries right matters so much."
         },
         {
           "number": 4,
-          "script": "So why can't we simply hand everything over to AI and let it get on with things? Well, this is where the human element becomes absolutely critical. Unlike a machine, we actually live with the consequences of our decisions. We feel them. And that changes how we approach choices in a way no algorithm can replicate. We also bring context to the table. Two situations might look identical on paper, but a human recognises the subtle differences that matter. Then there is empathy. You cannot write a line of code that genuinely understands what another person is going through. Beyond that, when something goes wrong, people need to know who is responsible. AI cannot stand up and be accountable in the way a person can. And finally, our values are deeply personal. What matters to you might not matter to me, and that diversity of perspective is something AI simply cannot capture. The human element is not a weakness in the process. It is the backbone of it."
+          "script": "What makes human decision-making fundamentally different? Unlike machines, we actually live with the consequences of our choices, and that personal stake changes how we approach decisions entirely. We bring irreplaceable context to every situation—two scenarios might look identical on paper, but humans recognize the subtle differences that algorithms miss. Our personal values also shape how we prioritize outcomes, and this diversity of perspective is something no AI can replicate. Most importantly, when decisions go wrong, people need someone they can hold accountable. AI cannot stand up, take responsibility, and explain its reasoning the way a human can. This isn't a weakness in human decision-making—it's the foundation of responsible judgment."
         },
         {
           "number": 5,
-          "script": "So we've seen what AI can do well, but now let's be honest about where it genuinely struggles. AI has never lived a human life. It hasn't experienced loss, or joy, or fear, which means it can miss the emotional weight behind a situation entirely. It also can't make moral judgements the way we can. It doesn't truly understand why some outcomes matter more than others. Then there's cultural context. What's perfectly acceptable in one community might be deeply offensive in another, and AI often can't read those subtle differences. And finally, when a situation is genuinely ambiguous, with no clear right answer, AI tends to falter. It needs patterns and data to work from, and when those aren't enough, it can produce responses that feel hollow or even harmful. These aren't small gaps. They're fundamental limitations, and understanding them is exactly why human oversight in decision-making isn't optional. It's essential."
+          "script": "AI's limitations become most apparent in complex, ambiguous situations. Since AI has never lived a human life, it hasn't experienced loss, fear, or joy, which means it completely misses the emotional weight behind many decisions. It also cannot make genuine moral judgments—it doesn't understand why some outcomes carry more significance than others. Cultural context presents another major blind spot. What's appropriate in one community might be deeply offensive in another, and AI often cannot navigate these subtle but crucial differences. When facing genuine uncertainty with no clear patterns to follow, AI tends to produce responses that feel mechanical or even harmful. Understanding these blind spots isn't about dismissing AI—it's about using it appropriately."
         },
         {
           "number": 6,
-          "script": "So we've seen where AI can genuinely help, but there are certain decisions where a human being simply must remain in the driving seat. Think about anything that could change the course of someone's life: whether they get a job, whether they receive medical treatment, whether they face legal consequences. These aren't just data problems, they're deeply human situations. And often the most important factor isn't in any dataset. It's the context behind someone's circumstances, the emotion in the room, or the kind of lived experience that no algorithm has ever had. Then there's the question of moral judgement, those genuinely difficult calls where reasonable people might disagree, and where someone needs to be able to look another person in the eye and explain their reasoning. AI can inform those moments, but it cannot own them. Wherever real accountability is needed, wherever there's no clean right answer, that's where human judgement isn't optional. It's essential."
+          "script": "Certain decisions demand human control, regardless of how sophisticated AI becomes. Any choice that could fundamentally alter someone's life—their employment, health outcomes, or legal status—requires human judgment at the final stage. These situations often hinge on factors no dataset can capture: the context behind someone's circumstances, the emotional dynamics at play, or insights that come only from lived experience. Ethical dilemmas where reasonable people might disagree especially need human reasoning, where someone can look another person in the eye and explain their decision. AI can provide valuable input and analysis, but it cannot own the moral weight of life-changing choices. Where genuine accountability is required, human judgment isn't just preferred—it's essential."
         },
         {
           "number": 7,
-          "script": "So we've talked about where AI can genuinely help, but now let's be honest about where it simply shouldn't be making the final call. Think about the decisions that carry the most weight in someone's life. Whether a person gets a job or loses one. Whether a doctor's hunch about a serious illness gets acted on. Whether a judge decides how long someone spends in prison. These aren't abstract scenarios. They're moments where context, compassion, and human accountability matter enormously. The same applies to decisions about a child's safety and welfare, where the nuances of a family situation can be incredibly difficult to read. And in mental health crises, someone reaching out in their most vulnerable moment needs a real human presence, not an algorithm. AI can support professionals in all of these areas, perhaps by surfacing information or flagging patterns, but the final decision must rest with a person who can be held responsible for it."
+          "script": "Let's be specific about where AI should never have final authority. Employment decisions—hiring and firing—affect someone's livelihood and require understanding of human potential beyond what data reveals. Medical diagnoses demand the intuition and experience that comes from treating real patients, not just analyzing symptoms. Legal sentencing involves moral judgment about justice and proportionality that no algorithm should determine. Child welfare decisions require reading family dynamics and assessing safety in ways that demand human insight. And mental health crises need authentic human connection when someone is at their most vulnerable moment. In all these areas, AI can support professionals by surfacing information or identifying patterns, but the final decision must rest with someone who can be held truly accountable."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The core idea running through all of this is that AI is a brilliant thinking partner, but it should never be the one making the final call, especially when real people's lives, rights, or safety are involved. Someone human always needs to be accountable for those outcomes. And whatever AI gives you, treat it as a starting point, not a conclusion. Check it, question it, apply your own judgement. The bigger and harder to reverse a decision is, the more human oversight it deserves. That's not about distrusting the technology, it's about using it responsibly. Now, rather than leaving this as abstract advice, I'd encourage you to do one practical thing this week. Pick a single decision in your own work and think about how these principles apply to it. Small steps are how good habits get built. That's what we're aiming for here."
+          "script": "Let's consolidate everything into actionable principles. Think of AI as your most capable research assistant, not your replacement decision-maker. For any choice that significantly impacts people's lives, a human must remain accountable for the final outcome. High-risk decisions involving fairness, safety, or fundamental rights deserve extra layers of human oversight. Never accept AI output uncritically—always verify, question, and apply your own judgment. Remember this rule: the more difficult a decision is to reverse, the more human oversight it requires. Now, rather than keeping this theoretical, I challenge you to identify one specific decision in your work this week where you can apply these principles. Start small, but start somewhere. That's how responsible AI use becomes second nature."
         }
       ]
     }

@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Who Holds the Liability?",
+          "slidetitle": "The AI Liability Challenge",
           "subtitle": "When AI Advises, Who Answers?",
-          "slidecontent": "• AI gives advice now\n• Humans still sign off\n• Liability is unclear\n• Rules are catching up\n• Someone must answer"
+          "slidecontent": "• AI systems now provide advice across professional services\n• Human professionals still sign off on recommendations\n• Legal responsibility remains unclear in many situations\n• Regulatory frameworks are evolving rapidly\n• When harm occurs, someone must be held accountable"
         },
         {
           "number": 2,
-          "slidetitle": "The Regulatory Landscape Explained",
-          "subtitle": "Navigating rules that govern AI advice",
-          "slidecontent": "• Financial regulators such as the FCA set strict rules on who can legally give investment or financial advice\n• AI tools do not hold regulated status\n• Firms remain responsible for any advice output generated through automated systems they deploy\n• Consumer protection laws apply equally whether advice comes from a human or a machine\n• Regulatory guidance on AI is evolving rapidly, with new frameworks emerging across the UK and EU"
+          "slidetitle": "Current Regulatory Framework",
+          "subtitle": "How existing rules apply to AI advice",
+          "slidecontent": "• Financial regulators like the FCA set strict authorisation requirements\n• AI tools cannot hold regulated status themselves\n• Firms remain fully responsible for automated advice outputs\n• Consumer protection laws apply equally to human and machine-generated advice\n• New AI-specific guidance is emerging across UK and EU jurisdictions"
         },
         {
           "number": 3,
-          "slidetitle": "Identifying the Key Parties",
-          "subtitle": "Who holds responsibility in AI advice?",
-          "slidecontent": "• The developer builds the AI\n• The firm deploys the tool\n• The adviser uses the output\n• The client receives the advice\n• Regulators oversee all parties"
+          "slidetitle": "The Key Stakeholders",
+          "subtitle": "Understanding the liability ecosystem",
+          "slidecontent": "• AI developers who build and train the systems\n• Firms that deploy AI tools within their operations\n• Individual advisers who use AI outputs with clients\n• Clients who receive and act on the advice\n• Regulators who oversee the entire process"
         },
         {
           "number": 4,
-          "slidetitle": "Identifying the Liable Party",
-          "subtitle": "Who carries the burden of blame?",
-          "slidecontent": "• Developer, deployer, or user\n• Depends on who acted\n• Context shapes blame\n• Contracts matter greatly\n• Regulators are watching"
+          "slidetitle": "How Liability is Determined",
+          "subtitle": "Factors that influence accountability decisions",
+          "slidecontent": "• Context of the failure determines responsible parties\n• Critical decision points reveal where liability attaches\n• Contractual agreements can shift responsibility between parties\n• Professional duty of care standards still apply\n• Regulatory enforcement considers all contributing factors"
         },
         {
           "number": 5,
-          "slidetitle": "Shared Responsibility in Practice",
-          "subtitle": "Who carries which part of accountability?",
-          "slidecontent": "• Developers bear responsibility for how the AI system is built and tested\n• Firms carry accountability for choosing and deploying the tool appropriately\n• Advisers remain liable for the final recommendation given to a client\n• Oversight matters\n• Clients are not left without recourse if harm results from poor AI-driven advice\n• Responsibility is shared, but never entirely absent from any one party"
+          "slidetitle": "The Shared Responsibility Model",
+          "subtitle": "How accountability is distributed across parties",
+          "slidecontent": "• Developers: responsible for system design and testing\n• Firms: accountable for appropriate deployment and supervision\n• Advisers: liable for final recommendations to clients\n• Clients retain legal recourse when harm occurs\n• Multiple parties may share liability simultaneously"
         },
         {
           "number": 6,
-          "slidetitle": "Shared Responsibility in Practice",
-          "subtitle": "Who holds which part of accountability?",
-          "slidecontent": "• The AI developer carries responsibility for how the system is built and tested\n• The deploying organisation owns the duty to configure and supervise the tool appropriately\n• Professionals remain accountable for every recommendation they sign off on\n• Clients are not left without recourse\n• Regulators may assign blame across multiple parties when harm occurs\n• No single actor absorbs all the risk"
+          "slidetitle": "Real-World Liability Scenarios",
+          "subtitle": "How responsibility plays out in practice",
+          "slidecontent": "• Investment advice based on flawed AI algorithms\n• Insurance claims processing errors from automated systems\n• Legal document review mistakes by AI tools\n• Accounting software miscalculations affecting client finances\n• Medical diagnosis support systems providing incorrect guidance"
         },
         {
           "number": 7,
-          "slidetitle": "Minimising Your Liability Risks",
+          "slidetitle": "Risk Management Strategies",
           "subtitle": "Practical steps to protect your practice",
-          "slidecontent": "• Always review AI outputs\n• Document every AI recommendation\n• Disclose AI use clearly\n• Train staff regularly\n• Keep humans accountable"
+          "slidecontent": "• Always review and validate AI-generated outputs\n• Maintain detailed records of AI tool usage and decisions\n• Provide clear disclosure to clients about AI involvement\n• Implement regular staff training on responsible AI use\n• Ensure human oversight remains at every decision point"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for responsible AI use",
-          "slidecontent": "• AI-generated advice does not remove your professional duty of care\n• Always document when and how AI tools were used in a decision\n• Liability stays with the human\n• Clients must be informed when AI has played a significant role in advice given to them\n• Regulators are watching this space closely, so stay current with guidance from your professional body\n• As a next step, review your organisation's AI policy and identify any gaps in accountability"
+          "slidetitle": "Professional Accountability Standards",
+          "subtitle": "Your ongoing responsibilities with AI",
+          "slidecontent": "• Professional duty of care is never transferred to machines\n• Documentation requirements apply to all AI-assisted decisions\n• Client transparency builds trust and reduces disputes\n• Stay current with evolving regulatory guidance\n• Review and strengthen your organisation's AI governance policies"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to the course. Here is the big question we are going to be exploring together: when an artificial intelligence system gives someone advice, and something goes wrong, who is actually responsible? Because here is the thing, AI is no longer just a concept in a science fiction film. It is actively giving guidance in finance, healthcare, law, and beyond. And yet, in most cases, a human professional is still the one putting their name to that advice. So where does the liability sit? With the AI? With the developer who built it? With the professional who used it? Right now, the honest answer is that nobody is entirely sure. The legal and regulatory frameworks are still catching up with the technology. But one thing is certain: when harm occurs, someone will be held to account. Throughout this course, we are going to unpack exactly who that someone might be, and why it matters for anyone working alongside AI today."
+          "script": "Welcome to this course on AI liability in professional services. We're facing a fundamental shift in how advice is delivered. AI systems are now actively providing guidance across finance, healthcare, law, and other professional sectors. Yet in most cases, a human professional still puts their name to that advice. This creates a complex accountability puzzle: when AI-generated advice causes harm, who bears responsibility? The technology? The developer? The professional who relied on it? Right now, the legal frameworks are still catching up with the technology, creating genuine uncertainty. But one thing remains certain: when harm occurs, someone will be held accountable. Throughout this course, we'll explore exactly who that might be and why it matters for your practice."
         },
         {
           "number": 2,
-          "script": "Before we look at who carries the legal responsibility for AI-driven advice, it helps to understand the regulatory environment we are operating in. In the UK, the Financial Conduct Authority sets very clear rules about who is permitted to give financial or investment advice, and here is the important point: AI tools simply do not qualify as regulated entities. They cannot hold authorisation in the way a firm or an individual adviser can. So if a business deploys an AI system that produces advice, the responsibility for that output sits firmly with the firm itself, not the technology. And the same consumer protection standards that apply to human advisers apply equally when a machine is involved. There is no loophole there. What makes this space particularly interesting right now is that regulators are actively developing new guidance, both here in the UK and across the EU, so the rules are genuinely shifting as we speak. That is why staying informed really matters."
+          "script": "To understand AI liability, we need to grasp the regulatory environment we're operating in. In financial services, regulators like the FCA have clear rules about who can give advice - and AI tools simply don't qualify as regulated entities. They can't hold the licenses that firms and individual advisers must have. This means when a business deploys AI that generates advice, legal responsibility sits squarely with the firm, not the technology. Consumer protection standards apply whether advice comes from a human or a machine - there's no regulatory loophole. What makes this particularly dynamic right now is that regulators in the UK and EU are actively developing new AI-specific frameworks, so the rules are genuinely evolving as we speak."
         },
         {
           "number": 3,
-          "script": "When we talk about liability for AI-driven advice, we need to understand that responsibility doesn't sit with just one person or organisation. There are actually several parties involved, and each one plays a distinct role. First, you have the developer, the company that actually builds and trains the AI system. Then there's the firm that chooses to deploy that tool within their business. After that, you have the individual adviser who uses the AI's output when working with clients. And of course, at the end of the chain, there's the client who receives that advice and acts on it. Finally, sitting above all of this, regulators are watching every layer of the process. Now, the reason this matters is that when something goes wrong, the question of who is responsible can be genuinely complicated. Is it the developer, the firm, the adviser, or some combination of all three? That's exactly what we're going to work through in this lesson."
+          "script": "When we examine AI liability, we need to map out all the parties involved, because responsibility doesn't sit with just one entity. You have the developer who builds and trains the AI system. There's the firm that chooses to deploy that technology. Then there's the individual adviser who uses the AI's output when working with clients. The client receives and acts on that advice. And regulators oversee this entire ecosystem. Each party plays a distinct role, and when something goes wrong, determining accountability requires understanding how all these relationships interact. The complexity arises because liability can potentially attach at multiple points in this chain, depending on where the critical failure occurred."
         },
         {
           "number": 4,
-          "script": "So when something goes wrong with AI-driven advice, the big question is: who actually carries the blame? And the honest answer is, it depends. There are three main candidates here: the developer who built the AI, the business or professional who deployed it, and the end user who acted on what it said. Liability tends to follow responsibility, so we need to ask who made the critical decision, and at what point did things go wrong. Context plays a huge role in that judgement. On top of that, contracts between developers, deployers, and clients can shift responsibility quite significantly, so the small print really does matter. And it is worth noting that regulators across various industries are paying close attention to exactly these questions right now. This area of law and professional responsibility is still evolving, but understanding these basic positions will help you think clearly about where the risk sits in your own practice."
+          "script": "So how do courts and regulators actually determine who's liable when AI advice goes wrong? The answer depends heavily on context and where the critical failure occurred. Did the AI system have a fundamental design flaw? That points to developer responsibility. Was it deployed inappropriately or without proper oversight? That suggests firm liability. Did a professional fail to exercise proper judgement when using AI outputs? Individual accountability becomes relevant. Contractual agreements between developers, firms, and practitioners can also significantly shift responsibility - the terms really do matter. Professional duty of care standards continue to apply regardless of technology involvement, and regulators will consider all these factors when determining enforcement action."
         },
         {
           "number": 5,
-          "script": "So when we talk about who is actually responsible when AI-driven advice goes wrong, the honest answer is that it rarely falls on just one party. The developers who build these systems carry responsibility for making sure the technology is sound and properly tested before it ever reaches a client. The firms that choose to deploy those tools are accountable for selecting them wisely and using them appropriately within their business. And the adviser sitting in front of the client? They remain personally liable for whatever recommendation they ultimately give. Nobody gets to hide behind the algorithm. Regulators and oversight bodies also play a role in keeping this whole ecosystem in check. And importantly, if a client suffers harm because of poor AI-driven advice, they do have routes to seek redress. The key point here is that responsibility is genuinely shared across all these parties, but it never disappears entirely from any one of them."
+          "script": "The reality is that AI liability typically involves shared responsibility across multiple parties rather than falling entirely on one entity. Developers bear responsibility for building robust, properly tested systems before they reach users. Firms carry accountability for selecting appropriate tools and deploying them with adequate oversight and controls. Individual advisers remain personally liable for the recommendations they ultimately provide to clients - they can't simply defer to the algorithm. Importantly, clients aren't left without recourse when harm occurs; they still have legal and regulatory routes available. This shared model means everyone in the chain has genuine obligations, and regulators may hold multiple parties accountable simultaneously when failures occur."
         },
         {
           "number": 6,
-          "script": "So when something goes wrong with AI-driven advice, accountability doesn't land on just one person or organisation. It's actually spread across several layers. The company that built the AI is responsible for making sure it was properly designed and tested before it ever reached users. The organisation that deploys it, your employer or firm, is responsible for setting it up correctly and keeping an eye on how it performs. And you, as the professional using it, remain personally accountable for every piece of advice that goes out under your name. Clients who suffer harm aren't left without options either; they still have legal and regulatory routes available to them. Regulators have the power to hold multiple parties responsible at the same time, so no one can simply point the finger elsewhere and walk away. The key point here is that shared responsibility means everyone in the chain has a genuine obligation, not just the person closest to the client."
+          "script": "Let's look at how liability actually plays out through real scenarios. Consider investment advice based on AI algorithms that fail to account for market volatility - responsibility might span the developer's risk modeling, the firm's deployment decisions, and the adviser's failure to recognize limitations. In insurance, automated claims processing errors could involve system design flaws, inadequate firm oversight, and staff training failures. Legal AI tools that miss critical precedents raise questions about technology capabilities, firm implementation, and lawyer professional judgement. These examples show how liability analysis requires examining each party's specific contributions to the harmful outcome, rather than simply pointing to one responsible entity."
         },
         {
           "number": 7,
-          "script": "So, now that we understand where liability can arise, let's talk about what you can actually do to protect yourself and your practice. The good news is that managing your risk does not have to be complicated. It starts with something simple: never just accept what an AI tool tells you. Always read it, check it, and apply your own professional judgement before it goes anywhere near a client. When you do use AI-generated recommendations, write it down. Keep a clear record of what the tool suggested and what decision you ultimately made. You should also be upfront with clients about the fact that AI is part of your process, because transparency builds trust and reduces disputes. Make sure your whole team understands how to use these tools responsibly, not just once, but through regular training as the technology evolves. And above all, keep a human being accountable at every stage. AI can support your work, but the responsibility always stays with you."
+          "script": "Now let's focus on practical risk management. The foundation is never blindly accepting AI outputs - always apply your professional judgement before any recommendation reaches a client. Document everything: what the AI suggested, what you decided, and your reasoning. This creates a clear audit trail if questions arise later. Be transparent with clients about AI involvement - this builds trust and reduces potential disputes. Invest in regular staff training as AI capabilities evolve rapidly. Most importantly, maintain human oversight at every critical decision point. AI should enhance your capabilities, not replace your professional responsibility. These steps don't eliminate risk entirely, but they significantly reduce your exposure."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The most important thing to hold onto from this lesson is that using AI does not transfer your professional responsibility to a machine. You are still accountable. Whatever AI tools contribute to a decision, the liability remains with you, the human professional. That means you need to document how and when AI was involved, and you must be transparent with your clients when AI has played a meaningful part in the advice they receive. It is also worth knowing that regulators are paying close attention to how AI is being used across industries, so keeping up with guidance from your professional body is genuinely important right now, not something to leave for later. As a practical next step, take a look at your organisation's AI policy. Ask yourself whether it clearly sets out who is responsible for what. If there are gaps, now is the time to flag them."
+          "script": "As we conclude, remember that professional accountability standards don't change just because AI is involved. Your duty of care to clients remains paramount - technology doesn't transfer this responsibility away from you. Every AI-assisted decision should be documented to demonstrate professional diligence. Transparency with clients about AI involvement isn't just good practice, it's becoming a professional requirement in many sectors. Stay current with guidance from your professional body as regulators continue developing AI-specific standards. Finally, review your organization's AI policies to ensure clear accountability lines. If there are gaps, address them now rather than waiting for a problem to emerge. Your professional reputation and legal standing depend on getting this right."
         }
       ]
     }

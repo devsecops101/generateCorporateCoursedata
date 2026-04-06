@@ -21,83 +21,83 @@
           "number": 1,
           "slidetitle": "The Forecasting Problem Today",
           "subtitle": "Why traditional methods keep falling short",
-          "slidecontent": "• Demand shifts without warning\n• Spreadsheets miss complex patterns\n• Stockouts cost sales daily\n• Overstock ties up cash\n• Manual forecasts take too long"
+          "slidecontent": "• Demand shifts without warning\n• Spreadsheets miss complex patterns\n• Manual forecasts take too long\n• Human analysis has natural limits\n• Market volatility exceeds traditional planning"
         },
         {
           "number": 2,
-          "slidetitle": "The Cost of Poor Forecasting",
-          "subtitle": "When inaccurate forecasts disrupt supply chains.",
-          "slidecontent": "• Stockouts lose sales fast\n• Overstock ties up cash\n• Waste increases costs\n• Customer trust erodes quickly\n• Margins shrink under pressure"
+          "slidetitle": "The Real Cost of Poor Forecasting",
+          "subtitle": "When inaccurate forecasts disrupt supply chains",
+          "slidecontent": "• Stockouts lose sales immediately\n• Overstock ties up working capital\n• Waste increases in perishable goods\n• Customer trust erodes quickly\n• Margins shrink under pressure"
         },
         {
           "number": 3,
-          "slidetitle": "The Cost of Poor Forecasting",
-          "subtitle": "When inaccurate forecasts disrupt supply chains.",
-          "slidecontent": "• Stockouts lose sales fast\n• Overstock ties up cash\n• Waste increases costs\n• Customer trust erodes quickly\n• Margins shrink significantly"
+          "slidetitle": "Supply Chain Ripple Effects",
+          "subtitle": "How forecast errors cascade through operations",
+          "slidecontent": "• Small errors multiply across the chain\n• Production schedules become unreliable\n• Supplier relationships strain under variability\n• Warehouse costs spike with poor planning\n• Transportation efficiency drops significantly"
         },
         {
           "number": 4,
-          "slidetitle": "Reducing Forecast Errors With AI",
-          "subtitle": "Smarter Predictions, Fewer Costly Mistakes",
-          "slidecontent": "• AI analyses thousands of data points simultaneously, spotting demand patterns that humans easily miss\n• Fewer errors in forecasting\n• Seasonal trends, promotions, and external factors (like weather) are automatically factored in\n• Models continuously learn and self-correct as new sales data arrives\n• Less guesswork means fewer costly overstock and stockout situations\n• Real-time adjustments keep forecasts accurate even when market conditions shift unexpectedly"
+          "slidetitle": "How AI Improves Forecast Accuracy",
+          "subtitle": "Smarter predictions through advanced analytics",
+          "slidecontent": "• Analyses thousands of data points simultaneously\n• Spots patterns humans easily miss\n• Factors in seasonality and promotions automatically\n• Adjusts for external influences like weather\n• Reduces guesswork with data-driven insights"
         },
         {
           "number": 5,
-          "slidetitle": "Reducing Forecast Errors With AI",
-          "subtitle": "Smarter predictions, fewer costly mistakes.",
-          "slidecontent": "• AI analyses thousands of variables at once, catching patterns human planners often miss\n• Fewer stockouts and overstock situations\n• Machine learning models continuously improve as new sales data flows in\n• Seasonal spikes, promotions, and external factors like weather are factored in automatically\n• More accurate forecasts mean less waste and lower carrying costs across the supply chain"
+          "slidetitle": "Machine Learning's Continuous Improvement",
+          "subtitle": "Models that get smarter over time",
+          "slidecontent": "• Systems learn from new sales data daily\n• Self-correcting algorithms adapt to changes\n• Performance improves without manual updates\n• Historical patterns inform future predictions\n• Accuracy increases with more data points"
         },
         {
           "number": 6,
-          "slidetitle": "Reducing Forecast Errors With AI",
-          "subtitle": "Smarter predictions, fewer costly mistakes",
-          "slidecontent": "• AI analyses thousands of variables at once, catching patterns human planners often miss\n• Fewer stockouts and overstock situations\n• Machine learning models continuously improve as they process new sales and supply data\n• Real-time adjustments when demand shifts unexpectedly (such as during seasonal spikes or disruptions)\n• More accurate forecasts mean less waste"
+          "slidetitle": "Real-Time Demand Response",
+          "subtitle": "Adapting forecasts as conditions change",
+          "slidecontent": "• Instant adjustments to unexpected shifts\n• Live market data integration\n• Supply disruption response capabilities\n• Promotional impact tracking\n• Dynamic inventory rebalancing recommendations"
         },
         {
           "number": 7,
-          "slidetitle": "Putting AI Into Practice",
+          "slidetitle": "Implementing AI Forecasting",
           "subtitle": "Steps to begin your AI journey",
-          "slidecontent": "• Start small, test quickly\n• Clean your data first\n• Pick one forecast problem\n• Measure results consistently\n• Scale what works well"
+          "slidecontent": "• Start with a focused pilot project\n• Clean and organize existing data first\n• Choose one specific forecast challenge\n• Measure results against current methods\n• Scale successful approaches gradually"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core insights to carry forward always",
-          "slidecontent": "• AI forecasting reduces costly stockouts and overstock situations caused by inaccurate predictions\n• Small forecast errors compound quickly across a supply chain\n• Clean, consistent data is the foundation of any reliable AI model\n• Start small, pilot one product category before scaling\n• Human oversight remains essential, AI supports decisions but does not replace judgement\n• As a next step, identify one forecasting pain point in your operation and explore which AI tool addresses it directly"
+          "slidetitle": "Key Takeaways for Success",
+          "subtitle": "Core insights to carry forward",
+          "slidecontent": "• Data quality determines AI effectiveness\n• Human judgment remains essential\n• Small pilots lead to bigger wins\n• Continuous monitoring drives improvement\n• Identify your biggest forecasting pain point now"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start by looking at why forecasting is such a headache for so many businesses right now. The honest truth is that demand can shift almost overnight, and most traditional tools simply aren't built to keep up. A lot of teams are still relying on spreadsheets, and whilst they're familiar and comfortable, they struggle to spot the kind of complex patterns that modern data throws at them. And the consequences of getting it wrong are very real. If you run out of stock, you're losing sales every single day. If you order too much, that excess inventory is sitting on shelves tying up cash that could be used elsewhere. On top of all that, putting together a manual forecast is genuinely time consuming, often taking days when the business needs answers in hours. So there's a real gap between what traditional forecasting methods can deliver and what businesses actually need. That's exactly the problem we're going to explore solving throughout this course."
+          "script": "Let's start by looking at why forecasting is such a challenge for businesses today. Demand can shift almost overnight, and most traditional tools simply aren't built to keep up. Many teams are still relying on spreadsheets, and while they're familiar, they struggle to spot complex patterns in modern data. Manual forecasting is also genuinely time-consuming, often taking days when businesses need answers in hours. There's a real gap between what traditional forecasting methods can deliver and what businesses actually need in today's volatile markets."
         },
         {
           "number": 2,
-          "script": "Let's start by looking at what's actually at stake when forecasting goes wrong, because the consequences ripple through every part of your business. If you underestimate demand, you run out of stock, and those lost sales are gone almost immediately. Customers don't wait around. On the flip side, if you overestimate, you're left holding excess inventory, and that stock is essentially frozen cash sitting on a shelf doing nothing for you. There's also the issue of waste, particularly in industries dealing with perishable goods, where surplus stock doesn't just cost money, it gets thrown away. And when customers repeatedly find empty shelves or face delays, their trust starts to erode, and that's genuinely difficult to rebuild. All of this pressure, the lost sales, the tied-up capital, the waste, it squeezes your margins from every direction. So poor forecasting isn't just an operational inconvenience, it's a real financial problem, and that's exactly why getting it right matters so much."
+          "script": "When forecasting goes wrong, the consequences ripple through every part of your business. If you underestimate demand, you run out of stock, and those lost sales are gone immediately. Customers don't wait around. On the flip side, if you overestimate, you're left with excess inventory that ties up cash. In industries dealing with perishable goods, surplus stock creates waste that adds another layer of cost. When customers repeatedly find empty shelves or face delays, their trust erodes, which is difficult to rebuild. All this pressure squeezes margins from every direction."
         },
         {
           "number": 3,
-          "script": "So let's talk about what actually happens when forecasting goes wrong, because the consequences are very real and they ripple right through the business. If you underestimate demand, you run out of stock, and those lost sales are gone almost immediately. Customers do not wait around. But if you overestimate, you end up with shelves full of products that are not moving, and all that unsold inventory is essentially cash sitting idle. In certain industries, like food or fashion, that excess stock can also go to waste, which adds another layer of cost. And here is the thing that often gets overlooked: customers who experience empty shelves or delayed orders start to lose confidence in you, and rebuilding that trust takes a long time. All of this combined puts real pressure on your profit margins. So poor forecasting is not just an operational headache, it genuinely affects the financial health and reputation of the entire organisation."
+          "script": "Here's something that often gets overlooked: small forecast errors don't stay small. They compound as they move through your supply chain. A 10% error in demand prediction can throw off production schedules, strain relationships with suppliers who face unpredictable orders, and create costly inefficiencies in warehousing and transportation. When your forecasts are unreliable, every part of your operation has to build in buffers and contingencies, which drives up costs across the board. Understanding this cascading effect is crucial to appreciating why accurate forecasting matters so much."
         },
         {
           "number": 4,
-          "script": "One of the biggest advantages AI brings to demand forecasting is simply getting the numbers right more often. Traditional forecasting methods rely heavily on human judgement, and humans can only process so much information at once. AI, on the other hand, can analyse thousands of data points simultaneously, picking up on patterns we would almost certainly miss. It automatically accounts for things like seasonal shifts, upcoming promotions, or even changes in the weather, all of which can have a real impact on demand. And here is the part that makes it particularly powerful: the models do not just run once and stop. They continuously learn from new sales data, self-correcting as conditions change. So if something unexpected happens in the market, the forecast adjusts in real time rather than waiting for someone to notice the problem. The practical result is fewer costly mistakes, less overstock sitting in your warehouse, and fewer frustrating stockouts letting your customers down."
+          "script": "One of the biggest advantages AI brings to demand forecasting is its ability to process information at a scale humans simply cannot match. While a planner might track a handful of variables, AI can analyze thousands simultaneously - seasonal patterns, promotional impacts, weather data, economic indicators, and more. It automatically accounts for factors that traditionally required separate analysis, like holiday spikes or competitive actions. The result is predictions based on a much more complete picture of what drives demand, reducing the guesswork that leads to costly mistakes."
         },
         {
           "number": 5,
-          "script": "One of the biggest advantages AI brings to demand forecasting is a dramatic reduction in errors. Traditional forecasting methods can only handle so many variables at once, but AI can analyse thousands of signals simultaneously, spotting patterns that a human planner would simply never notice. And here is the really clever part: machine learning models do not stay static. They keep learning as new sales data comes in, so they are constantly getting sharper and more accurate over time. They also factor in things like seasonal demand spikes, upcoming promotions, and even external influences such as weather, all automatically. What this means in practice is fewer stockouts, where you run out of product and disappoint customers, and fewer overstock situations, where you are left holding excess inventory that ties up cash. The result is less waste, lower carrying costs, and a supply chain that runs far more efficiently. It is a genuine step change in how businesses plan."
+          "script": "What makes AI forecasting particularly powerful is that the models don't just run once and stop. They continuously learn from new sales data, automatically refining their understanding of demand patterns. If a promotional campaign performs differently than expected, or if customer preferences shift, the system incorporates that new information to improve future predictions. This means your forecasts actually get more accurate over time, without requiring manual updates or constant recalibration from your team."
         },
         {
           "number": 6,
-          "script": "One of the biggest advantages AI brings to forecasting is its ability to spot patterns that humans simply cannot see at scale. Where a planner might track a handful of variables, an AI model can analyse thousands simultaneously, things like weather, local events, social trends, and historical sales data, all at once. The result is that businesses end up with far fewer stockouts, where shelves run empty, and far less overstock, where capital is tied up in goods that are not moving. What makes this even more powerful is that machine learning models do not stay static. They keep learning as new data comes in, so their predictions actually get better over time. And when something unexpected happens, a sudden spike in demand or a supply disruption, the system can adjust in real time rather than waiting for a human to catch up. Ultimately, better forecasts mean less waste and smarter use of resources across the board."
+          "script": "Perhaps most importantly, AI systems can respond to changes in real time rather than waiting for the next planning cycle. When something unexpected happens - a supply disruption, a viral social media trend, or sudden weather changes - the forecast can adjust immediately. This responsiveness is crucial in today's fast-moving markets, where waiting days or weeks to update your predictions can mean missing opportunities or facing shortages. The system provides recommendations for inventory adjustments that keep you ahead of demand shifts rather than constantly playing catch-up."
         },
         {
           "number": 7,
-          "script": "So, how do you actually get started with AI in your own organisation? The good news is you don't need to overhaul everything at once. Begin with a small, focused pilot rather than trying to solve every forecasting challenge in one go. Before you do anything else, though, make sure your data is in good shape, because AI is only as reliable as the information you feed it. Choose just one specific forecasting problem to tackle first, something manageable where you can clearly see the impact. From there, track your results consistently so you have real evidence of what the AI is delivering. Are your forecasts more accurate? Is stock availability improving? Once you have that proof, you can confidently expand into other areas. The key message here is to resist the temptation to go big straight away. Start small, learn fast, and then scale up the things that are genuinely working for you."
+          "script": "Getting started with AI doesn't require overhauling your entire operation at once. Begin with a small, focused pilot rather than trying to solve every forecasting challenge simultaneously. Before anything else, ensure your data is clean and consistent, because AI is only as reliable as the information you feed it. Choose one specific product category or region to test with, where you can clearly measure the impact. Track results against your current methods so you have concrete evidence of improvement. Once you prove the value, you can confidently expand to other areas."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The core message here is that AI genuinely helps you avoid the expensive mistakes that come from poor forecasting, whether that is running out of stock or sitting on too much of it. And remember, even a small error in your forecast does not stay small. It grows as it moves through your supply chain. Now, none of this works without good data, so getting your data clean and consistent is absolutely the first priority. When you are ready to start, do not try to transform everything at once. Pick one product category, run a pilot, and learn from it. And throughout all of this, keep your human judgement in the loop. AI is there to support your decisions, not to make them for you. As a practical next step, have a think about where forecasting causes you the most pain right now, and look for an AI tool that speaks directly to that problem."
+          "script": "Let's bring everything together with the key points to remember. Quality data is the foundation - without it, even the best AI tools will struggle. While AI dramatically improves forecast accuracy, human oversight remains essential for interpreting results and making strategic decisions. Start small with pilot projects that prove value before scaling up. Monitor performance continuously to ensure the system keeps delivering results. As your next step, identify where forecasting causes you the most pain right now, and look for AI solutions that address that specific challenge. The technology is ready - it's time to put it to work."
         }
       ]
     }

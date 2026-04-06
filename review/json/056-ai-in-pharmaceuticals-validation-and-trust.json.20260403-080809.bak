@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Pharmaceuticals: Validation and Trust",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "Risks in drug development, testing, and compliance requirements.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with pharmaceutical manufacturing or drug development processes, along with a general understanding of what artificial intelligence means in a professional context, is all that is required to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with applying AI in drug development and testing, and explain the compliance requirements that govern its use in pharmaceutical manufacturing. You will also be able to apply foundational validation principles to assess and build trust in AI-driven processes across regulated pharmaceutical environments.",
+  "lessons": [
+    {
+      "lesson title": "AI in Pharmaceuticals: Validation and Trust",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence is being used across the pharmaceutical industry, from drug discovery and clinical trials through to regulatory compliance and post-market surveillance. You will gain a clear understanding of the unique risks that arise when AI systems are applied in high risk healthcare settings, including issues around data quality, model bias, and the consequences of errors in drug development. The lesson also examines what validation means in a pharmaceutical context, and why demonstrating that an AI system is fit for purpose is essential before it can be trusted in regulated environments. By the end of this lesson, you will be better equipped to think critically about where AI adds genuine value in pharmaceuticals, and where caution, oversight, and rigorous testing are absolutely necessary.",
+      "status": "draft",
+      "content": "Risks in drug development, testing, and compliance requirements.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to AI in Pharmaceuticals",
+          "subtitle": "Exploring risks, validation, and compliance essentials.",
+          "slidecontent": "• AI is reshaping pharmaceuticals\n• Risks require careful management\n• Validation ensures reliable results\n• Compliance protects patients\n• Trust must be earned"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks in Drug Development",
+          "subtitle": "Where errors carry the highest stakes",
+          "slidecontent": "• Wrong doses harm patients\n• Trials cost billions\n• Errors delay approvals\n• Bad data risks lives\n• Recalls damage trust"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Regulatory Compliance and AI Risks",
+          "subtitle": "Navigating Rules in an AI World",
+          "slidecontent": "• AI systems in drug development must meet strict regulatory standards set by bodies like the MHRA and FDA\n• Unvalidated AI outputs can lead to flawed safety decisions\n• Bias in training data is a serious and often overlooked risk\n• Regulatory frameworks are still catching up with AI capabilities\n• Audit trails and documentation requirements apply to AI tools just as they do to traditional processes"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Regulatory Compliance and AI Risk",
+          "subtitle": "Navigating Compliance in an AI World",
+          "slidecontent": "• Regulatory bodies like the FDA and EMA now scrutinise AI-driven decisions in drug development with increasing rigour\n• Unexplainable AI outputs can trigger compliance failures\n• Validation gaps in AI systems may delay product approvals or invite regulatory action\n• Data integrity, audit trails, and version control are non-negotiable requirements for any AI tool used in a regulated environment\n• Risk classification matters, as higher-risk applications demand more extensive documentation and oversight\n• Non-compliance carries serious consequences, including product recalls, fines, and reputational damage"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Regulatory Compliance and AI Risks",
+          "subtitle": "Navigating Rules in an AI World",
+          "slidecontent": "• Rules lag behind AI\n• Bias can harm patients\n• Data quality matters most\n• Audits reveal hidden gaps\n• Regulators demand explainability"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Regulatory Compliance and AI Oversight",
+          "subtitle": "Navigating Rules for Responsible AI Use",
+          "slidecontent": "• Regulatory bodies like the FDA and EMA now actively scrutinising AI tools used in drug development\n• Validation required before any AI system influences a clinical or manufacturing decision\n• Clear audit trails essential\n• Firms must document how AI models are trained, tested, and monitored over time\n• Non-compliance risks product recalls, regulatory holds, and reputational damage"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Regulatory Compliance and AI Oversight",
+          "subtitle": "Navigating Rules for AI Accountability",
+          "slidecontent": "• Regulatory bodies like the FDA and EMA now require documented evidence that AI systems used in drug development are validated and fit for purpose\n• Audit trails essential\n• Any AI-driven decision affecting patient safety must be traceable, explainable, and reviewed by a qualified human\n• Guidance documents such as the FDA's AI/ML action plan set out expectations for ongoing monitoring and change control\n• Organisations must assign clear ownership for AI oversight within their quality management systems\n• Non-compliance can delay approvals or trigger enforcement action"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safe AI adoption",
+          "slidecontent": "• Validate before you trust AI\n• Document every decision made\n• Regulators require human oversight\n• Bias causes real patient harm\n• Start small, scale carefully\n• Review AI outputs regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI in Pharmaceuticals: Validation and Trust. Over the next lessons, we are going to explore one of the most significant shifts happening in the pharmaceutical industry right now. Artificial intelligence is changing the way medicines are discovered, developed, and monitored, and that brings enormous opportunity. But it also brings real responsibility. When AI is involved in decisions that affect patient safety, we cannot simply assume it will get things right. We need to manage the risks carefully, put proper validation processes in place to make sure these systems behave reliably, and ensure everything we do meets regulatory and compliance requirements. Ultimately, this course is about trust. Trust in the technology, trust in the processes behind it, and trust from the patients and regulators who depend on us to get this right. So let us get started, and build that understanding together."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by thinking about why getting AI right in pharmaceuticals matters so much more than in almost any other industry. When something goes wrong here, the consequences are serious. If a drug is formulated at the wrong dose, patients can be harmed, and in the worst cases, that harm can be fatal. Clinical trials are extraordinarily expensive, often running into billions of pounds, so any errors along the way don't just cost time, they cost enormous amounts of money and can set back the entire development programme by years. Regulatory approvals are already a lengthy process, and mistakes in the data or documentation can delay a medicine reaching the patients who need it. And if a product makes it to market with flawed data behind it, the risks multiply further. Recalls are damaging not just financially, but in terms of public trust, which is incredibly hard to rebuild. So the stakes here are genuinely high, and that's exactly why validation and trust are at the heart of this course."
+        },
+        {
+          "number": 3,
+          "script": "When we bring AI into pharmaceutical development, we don't get to leave the rulebook at the door. Regulatory bodies like the MHRA here in the UK and the FDA in the United States have strict standards, and AI systems absolutely must meet them. One of the biggest concerns is what happens when AI outputs haven't been properly validated. If a flawed prediction influences a safety decision, the consequences can be serious. There's also the issue of bias in training data, which is something that often gets overlooked but can quietly skew results in ways that are genuinely dangerous. Now, it's worth acknowledging that regulators are still working to keep pace with how quickly AI is advancing, so the landscape is evolving. But one thing that hasn't changed is the need for thorough documentation and audit trails. Just as with any traditional process, you need to be able to show your working, and AI tools are no exception to that."
+        },
+        {
+          "number": 4,
+          "script": "Regulatory compliance is one of the most critical areas to understand when we talk about AI in pharmaceuticals. Bodies like the FDA and the EMA are paying very close attention to how AI is being used in drug development, and they expect organisations to demonstrate that their systems are trustworthy and well-documented. One of the biggest challenges is explainability. If an AI system cannot clearly show how it reached a decision, that can create serious compliance problems. Beyond that, any gaps in validation could delay your product getting to market, or worse, invite regulatory action. Things like data integrity, proper audit trails, and version control are absolute requirements, not optional extras. Regulators also consider the level of risk involved, so higher-risk applications will face much greater scrutiny and require more thorough documentation. And if compliance is neglected, the consequences can be severe, ranging from product recalls and financial penalties through to lasting damage to your organisation's reputation."
+        },
+        {
+          "number": 5,
+          "script": "Now, one of the biggest challenges we face when bringing AI into pharmaceuticals is the regulatory landscape. The honest truth is that the rules simply haven't kept pace with how quickly AI is developing, which means organisations are often navigating uncertain territory. And that uncertainty carries real risk. If an AI system is trained on biased or poor quality data, the consequences aren't just technical, they can directly affect patient safety. That's why the quality of your data is absolutely foundational. Beyond that, when regulators come knocking, and they will, audits frequently uncover gaps that nobody anticipated. Perhaps a model was making decisions that nobody could fully explain. And that brings us to a critical point: regulators increasingly expect explainability. They want to understand how an AI system reached its conclusions, not just that it did. So as we move through this course, keep in mind that transparency and rigorous data practices aren't optional extras. They are central to building trustworthy AI in this industry."
+        },
+        {
+          "number": 6,
+          "script": "So, as AI becomes more embedded in pharmaceutical work, regulators are paying very close attention. Bodies like the FDA in the United States and the EMA here in Europe are no longer simply watching from the sidelines. They are actively scrutinising how AI tools are being used in drug development and manufacturing. Before any AI system is allowed to influence a real clinical or manufacturing decision, it must be properly validated. That means companies need to show their working, quite literally. There must be clear records of how a model was built, how it was tested, and how it is being monitored on an ongoing basis. Think of it like a paper trail that regulators can follow at any point. And the consequences of getting this wrong are serious. We are talking about product recalls, regulatory holds that can delay a product reaching patients, and significant damage to a company's reputation. Compliance here is not optional, it is absolutely fundamental."
+        },
+        {
+          "number": 7,
+          "script": "So as AI becomes more embedded in drug development, regulators are paying close attention. Bodies like the FDA and the EMA now expect organisations to prove that their AI systems are properly validated and fit for purpose, and that means having solid documentation to back that up. Audit trails are a big part of this. If an AI system influences a decision that could affect patient safety, you need to be able to trace how that decision was made, explain it clearly, and have a qualified human review it. Guidance documents, like the FDA's AI and machine learning action plan, give organisations a clearer picture of what ongoing monitoring and change control should look like. Internally, someone needs to own AI oversight within your quality management system. It cannot just sit in a grey area. And if organisations get this wrong, the consequences are serious, think delayed approvals or regulatory enforcement action."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. Before you place any trust in an AI system, make sure it has been properly validated for your specific use case. And whatever decisions are made along the way, document them thoroughly, because regulators will expect a clear audit trail and they will always require a human to remain accountable. It is also worth remembering that bias in AI is not just a technical problem, it can directly affect patient safety, so it must be taken seriously from the very beginning. When you are introducing AI into your organisation, start with something small and manageable, then scale up gradually once you have built confidence in how the system performs. And do not treat deployment as the finish line. Keep reviewing AI outputs on a regular basis, because these systems need ongoing attention to remain safe and reliable. These principles are your foundation for responsible AI adoption in pharmaceuticals."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Quality Assurance Managers, Regulatory Affairs Specialists, Manufacturing Engineers, Drug Development Scientists, Compliance Officers, Validation Engineers, Pharmaceutical Project Managers",
+  "Team or Dept this is for": "Quality Assurance, Regulatory Affairs, Manufacturing, Research and Development, Compliance"
+}

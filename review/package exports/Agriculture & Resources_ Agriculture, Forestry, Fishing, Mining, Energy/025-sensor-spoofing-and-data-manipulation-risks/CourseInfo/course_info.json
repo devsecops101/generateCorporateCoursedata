@@ -1,0 +1,14 @@
+{
+  "Course Title": "Sensor Spoofing and Data Manipulation Risks",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Who is this for": "Operations managers, facility supervisors, plant operators, field technicians, equipment managers, safety coordinators, production supervisors, maintenance staff, environmental monitoring personnel",
+  "Team or Dept this is for": "Operations, Maintenance, Safety, Environmental Health and Safety, Production, Facilities Management, Field Operations",
+  "Description": "How attackers could manipulate environmental or equipment data.",
+  "Prerequisites": "Learners should have a basic familiarity with how sensors and monitoring systems are used in agricultural, industrial, or resource-based environments, though no technical or cybersecurity background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify common methods attackers use to spoof sensors or manipulate environmental and equipment data across agricultural, energy, and resource-based operations. You will also be able to explain the potential consequences of data manipulation on critical systems and apply basic protective measures to recognise and respond to suspicious sensor activity.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

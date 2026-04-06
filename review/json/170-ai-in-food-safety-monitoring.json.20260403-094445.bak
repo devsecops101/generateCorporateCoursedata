@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Food Safety Monitoring",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Risks of relying on AI for hygiene and compliance checks.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with food safety principles and a general interest in how technology is used in hospitality settings are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with relying on AI for hygiene and compliance checks in food and beverage environments, and explain how these limitations can impact safety standards in hospitality and tourism settings. You will also be able to apply practical strategies to critically evaluate AI-driven monitoring tools, ensuring they complement rather than replace essential human oversight in food safety programmes.",
+  "lessons": [
+    {
+      "lesson title": "AI in Food Safety Monitoring",
+      "order": 1,
+      "Description": "This lesson introduces how artificial intelligence is being used in food safety monitoring, including hygiene inspections and compliance checks across the food industry. While AI tools can offer speed and consistency, it is important to understand the risks that come with relying on them too heavily in high risk environments. We will explore real-world scenarios where AI may fall short, such as misidentifying contamination risks or failing to account for context that a trained human inspector would recognise. By the end of this lesson, you will have a clearer understanding of where AI can support food safety processes and where human oversight remains essential. No prior knowledge of AI or food safety regulations is required, making this lesson accessible to anyone working in or around the food industry.",
+      "status": "draft",
+      "content": "Risks of relying on AI for hygiene and compliance checks.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Food Safety Monitoring",
+          "subtitle": "Exploring risks in automated compliance checks",
+          "slidecontent": "• AI tools increasingly used in food safety to automate hygiene and compliance checks\n• Faster than manual inspection\n• These systems analyse data from sensors, cameras, and temperature logs in real time\n• But automation introduces new risks that food businesses must understand\n• This course explores where AI can go wrong and how to stay in control"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Introducing AI in Food Safety",
+          "subtitle": "Where technology meets food compliance.",
+          "slidecontent": "• AI tools now used across food production, storage, and inspection processes\n• Cameras, sensors, and software working together to flag potential hygiene issues\n• Faster than manual checks\n• Designed to support compliance with food safety regulations and standards\n• Still a relatively new application in many food businesses\n• Not a guaranteed replacement for trained human judgement"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Gaps in AI Detection",
+          "subtitle": "Where AI Struggles to Keep Up",
+          "slidecontent": "• Unusual contamination events that fall outside the AI's training data\n• Novel pathogens not yet recognised by the system\n• Poor lighting or camera angles that distort visual inspections\n• Subtle hygiene failures a human inspector would catch by smell or touch\n• Over-reliance on clean data feeds when sensors malfunction"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Gaps in AI Detection",
+          "subtitle": "Where AI Struggles to Detect Issues",
+          "slidecontent": "• Misses unusual contamination types\n• Struggles in poor lighting\n• Fails with new pathogens\n• Cannot smell or taste\n• Overlooks hidden surface grime"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Blind Spots in AI Monitoring",
+          "subtitle": "Where AI Struggles to See Clearly",
+          "slidecontent": "• Misses unusual contamination sources\n• Struggles with poor lighting\n• Fails on new equipment\n• Cannot smell or taste\n• Gaps in camera coverage"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Gaps in AI Detection",
+          "subtitle": "Where AI Struggles to Keep Up",
+          "slidecontent": "• Misses unusual contamination types\n• Struggles in poor lighting\n• Can't smell or taste\n• New pathogens confuse it\n• Needs constant software updates"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI Compliance Risks",
+          "subtitle": "Strategies to reduce AI-related risks",
+          "slidecontent": "• Regular human audits of AI-flagged results to catch errors before they become compliance failures\n• Cross-check AI outputs against established food safety standards and regulations\n• Train staff to question unusual AI decisions\n• Clear escalation procedures when AI confidence scores fall below acceptable thresholds\n• Never rely solely on AI for critical hygiene sign-off decisions\n• Document every instance where AI recommendations are overridden, for accountability and review"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Essential reminders for responsible AI use",
+          "slidecontent": "• AI can miss critical hazards\n• Always verify AI findings manually\n• Human oversight remains essential\n• Regulations still require human sign-off\n• Train staff on AI limitations\n• Review AI outputs regularly"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in food safety monitoring. Over the past few years, artificial intelligence has started to play a significant role in how food businesses manage hygiene and compliance. Rather than relying solely on manual inspections, many operations are now using automated systems that pull in data from sensors, cameras, and temperature logs, all in real time. And the appeal is obvious: these tools can work faster and more consistently than a human checker walking the floor. But here is the thing, automation does not automatically mean accuracy. When we hand over critical safety decisions to AI systems, we introduce a new set of risks that are easy to overlook, especially if you are not sure what to look for. This course is designed to help you understand where those risks lie and how to keep your business firmly in control. So let us start by looking at the bigger picture of how these systems actually work."
+        },
+        {
+          "number": 2,
+          "script": "So, let's start by setting the scene. Artificial intelligence is increasingly finding its way into food businesses, and it's being used at various points along the way, from production lines and storage facilities right through to inspection processes. In practice, this often means a combination of cameras, sensors, and smart software all working together to spot potential hygiene issues, and doing so much faster than a person carrying out a manual check could manage. The goal is to help businesses stay on top of their food safety obligations and meet the relevant regulations and standards. Now, it's worth being clear that this is still a fairly new area for many food businesses, so we're not talking about something that's been around for decades. And importantly, AI is not here to replace the skilled, trained people who work in food safety. It's a support tool, not a substitute for human judgement. That's a really important distinction to keep in mind as we go through this course."
+        },
+        {
+          "number": 3,
+          "script": "So we've seen what AI can do well, but it's equally important to be honest about where it falls short. One of the biggest challenges is that AI can only recognise what it's been trained on. If a completely new type of contamination appears, or a novel pathogen emerges that the system has never encountered before, the AI simply won't flag it. There are also practical, physical limitations. Poor lighting or an awkward camera angle can easily fool a visual inspection system. And here's something worth thinking about: a human inspector might walk into a room and immediately notice something smells off, or feel that a surface isn't quite right. AI has no sense of smell or touch whatsoever. Finally, these systems rely heavily on accurate data coming in from sensors. If a sensor malfunctions and starts sending clean readings, the AI has no way of knowing something is actually wrong. So AI is powerful, but it genuinely does need human oversight alongside it."
+        },
+        {
+          "number": 4,
+          "script": "Now, as impressive as AI can be in food safety monitoring, it is important that we are honest about where it falls short. AI systems are typically trained on known contamination types, so if something unusual or unexpected turns up, there is a good chance the system simply will not recognise it. The same goes for new or emerging pathogens that the AI has never encountered before. Environmental conditions matter too. Poor lighting on a production line, for example, can significantly reduce detection accuracy. And here is something worth remembering: AI has no senses beyond what its cameras and sensors can capture. It cannot smell something off, and it certainly cannot taste whether a product has gone bad. Perhaps most surprisingly, it can also miss grime or residue that is hidden beneath a surface or tucked into a hard to reach area. So while AI is a powerful tool, it works best when it is part of a broader food safety strategy, not the only line of defence."
+        },
+        {
+          "number": 5,
+          "script": "Now, as impressive as AI monitoring systems are, they do have some real limitations that we need to be honest about. First, if contamination comes from an unusual or unexpected source, the system may simply not recognise it, because it has only learned to spot patterns it has seen before. Lighting is another issue. Poor or inconsistent lighting in a facility can make it genuinely difficult for cameras to capture clear images, which reduces accuracy significantly. Similarly, if you introduce new equipment onto the production line, the AI may struggle to interpret what it is seeing until it has been retrained. There is also something quite fundamental here: AI has no sense of smell or taste whatsoever, so certain spoilage or contamination issues will go completely undetected. And finally, any area that falls outside the camera's field of view is simply invisible to the system. So while AI is a powerful tool, it works best when we understand where its blind spots actually are."
+        },
+        {
+          "number": 6,
+          "script": "Now, AI is impressive, but it is far from perfect, and it is really important that we are honest about its limitations. One of the biggest challenges is that AI systems are trained on known data, so if a contaminant is unusual or has never been seen before, the system can easily miss it. The same goes for new or emerging pathogens, which can genuinely confuse the software. Physical conditions matter too. Poor lighting in a facility, for example, can significantly reduce accuracy. And here is something worth remembering: AI has no senses beyond what its cameras and sensors provide. It cannot smell something off, and it certainly cannot taste whether a product has gone bad. On top of all that, these systems require regular software updates to stay effective, which takes time and resource. So while AI is a powerful tool, it works best when it is supported by human expertise and oversight."
+        },
+        {
+          "number": 7,
+          "script": "So, we know AI can make mistakes, and this slide is really about how we protect ourselves when it does. The first thing to build into your process is regular human audits. Don't just trust every flag the AI raises; have a person review those results before they become a bigger problem. You should also be cross-checking AI outputs against your actual food safety regulations, because the AI doesn't always have the full picture. Train your staff to feel comfortable questioning unusual decisions the system makes, and make sure everyone knows the escalation procedure when the AI's confidence score drops too low. Critically, never let AI be the final word on hygiene sign-off. A human must always be in that loop. And finally, whenever someone overrides an AI recommendation, write it down. That documentation is invaluable for accountability and for spotting patterns over time. These habits together keep your compliance process genuinely robust."
+        },
+        {
+          "number": 8,
+          "script": "So before we move on, let's just pause and bring together the most important things to keep in mind when using AI in food safety monitoring. First and foremost, AI is a powerful tool, but it is not perfect. It can miss hazards, misread data, or simply get things wrong, which is why you should always check its findings yourself rather than accepting them at face value. Human oversight is not optional here; it is absolutely essential, and in most cases, regulations actually require a qualified person to sign off on safety decisions. Your team also needs to understand what AI can and cannot do, so make sure training covers its limitations clearly and honestly. And finally, do not just set it up and forget about it. Review what the AI is producing on a regular basis to catch any errors or patterns that need addressing. Keep these points close, and you will be in a much stronger position to use AI responsibly."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Food service managers, restaurant managers, hotel managers, kitchen staff, food safety officers, hospitality supervisors, catering managers, compliance officers, quality assurance staff",
+  "Team or Dept this is for": "Food & Beverage, Operations, Quality Assurance, Compliance, Hospitality Management, Health & Safety"
+}

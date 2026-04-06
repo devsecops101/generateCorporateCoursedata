@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Robotics: Key Risks Overview",
-          "subtitle": "Identifying Hazards Before They Escalate",
-          "slidecontent": "• Robotic systems in warehouses introduce physical, operational, and data-related hazards\n• Collisions between robots and workers remain the most immediate safety concern\n• Software faults can trigger unexpected movement\n• Poorly maintained sensors increase the likelihood of misreads and downstream errors\n• Integration failures between automated systems and human workflows often go unnoticed until an incident occurs\n• Risk identification must happen before deployment, not after"
+          "slidetitle": "Physical Safety Risks in Robotic Systems",
+          "subtitle": "Managing human-robot interactions safely",
+          "slidecontent": "• Collisions between robots and workers remain the most immediate safety concern\n• Poorly marked safety zones allow accidental human entry into automated areas\n• Sensor failures can cause unexpected robot movement patterns\n• Worn or damaged equipment increases collision probability\n• Workers need proper training on robotic zone protocols and emergency procedures"
         },
         {
           "number": 3,
-          "slidetitle": "Risks in Robotic Systems",
-          "subtitle": "Identifying and Managing Potential Hazards",
-          "slidecontent": "• Robotic systems can cause physical harm if safety zones are not clearly marked and enforced\n• Sensor failures leading to unexpected movement\n• Software bugs or network outages that halt automated workflows mid-operation\n• Poorly maintained equipment increases collision risk\n• Human workers entering restricted areas without proper training or awareness protocols\n• Integration gaps between legacy systems and new automation creating unpredictable behaviour"
+          "slidetitle": "Technical Failures in Robotic Systems",
+          "subtitle": "Software and integration vulnerabilities",
+          "slidecontent": "• Software bugs can trigger unpredictable robot behavior mid-operation\n• Network outages halt automated workflows without warning\n• Integration gaps between legacy systems and new automation create communication failures\n• Poorly maintained sensors increase misreads and downstream errors\n• System incompatibilities lead to operational blind spots"
         },
         {
           "number": 4,
-          "slidetitle": "Sorting System Risks Explored",
-          "subtitle": "Uncovering Hidden Risks in Sorting Systems",
-          "slidecontent": "• Misrouted parcels cause delays\n• Sensors fail under dust\n• Jams halt entire lines\n• Software glitches misdirect items\n• Power cuts stop sorting"
+          "slidetitle": "Automated Sorting System Failures",
+          "subtitle": "Common disruptions in high-speed sorting operations",
+          "slidecontent": "• Misrouted parcels cause delivery delays and customer dissatisfaction\n• Dust and debris interfere with scanner accuracy and sensor readings\n• Physical jams can halt entire sorting lines and create bottlenecks\n• Software glitches misdirect items without immediate detection\n• Power interruptions stop all sorting operations instantaneously"
         },
         {
           "number": 5,
-          "slidetitle": "Inventory System Risks Explored",
-          "subtitle": "Uncovering vulnerabilities in stock management systems",
-          "slidecontent": "• Stockouts from sensor errors\n• Overstock due to miscounts\n• Software glitches freeze orders\n• Cyber attacks corrupt data\n• Human overrides cause confusion"
+          "slidetitle": "Data Accuracy Risks in Inventory Systems",
+          "subtitle": "Stock management vulnerabilities and counting errors",
+          "slidecontent": "• Sensor malfunctions report incorrect stock levels leading to stockouts\n• Barcode scanner errors on damaged labels create counting discrepancies\n• Manual item movements without scanning cause inventory drift\n• Returns processing errors compound stock count inaccuracies\n• Poor sensor calibration results in missed low-stock alerts"
         },
         {
           "number": 6,
-          "slidetitle": "Inventory System Risks Explored",
-          "subtitle": "Spotting Vulnerabilities Before They Escalate",
-          "slidecontent": "• Wrong stock counts occur\n• Labels misread by scanners\n• Software glitches lose data\n• Sensors miss low stock\n• Sync errors between systems"
+          "slidetitle": "System Integration and Security Risks",
+          "subtitle": "Cyber threats and synchronization failures",
+          "slidecontent": "• Cyber attacks can corrupt inventory data and disrupt operations\n• Synchronization errors between multiple systems create data mismatches\n• Software glitches can freeze ordering processes at critical moments\n• Unauthorized manual overrides create system inconsistencies\n• Data loss from system crashes affects operational continuity"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk in Automation",
-          "subtitle": "Safeguarding Systems Against Automation Failures",
-          "slidecontent": "• Automated systems can fail due to sensor errors, software bugs, or unexpected physical obstructions\n• Regular maintenance schedules reduce breakdowns\n• Emergency stop mechanisms give human operators immediate control when something goes wrong\n• Redundant systems (backup processes that activate automatically) keep operations running during partial failures\n• Staff training on manual overrides is essential"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Building resilience into automated systems",
+          "slidecontent": "• Regular maintenance schedules prevent equipment breakdowns and sensor drift\n• Emergency stop mechanisms provide immediate human control during incidents\n• Redundant backup systems maintain operations during partial failures\n• Staff training on manual overrides ensures business continuity\n• Comprehensive testing protocols catch problems before full deployment"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for safer AI deployment",
-          "slidecontent": "• Test robots before full deployment\n• Label all automated zones clearly\n• Monitor inventory systems regularly\n• Train staff on AI risks\n• Report faults immediately\n• Start small, scale gradually"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Safe deployment of warehouse automation",
+          "slidecontent": "• Test all robotic systems thoroughly in controlled environments before live deployment\n• Mark automated zones clearly with proper signage and physical barriers\n• Monitor inventory accuracy through regular system audits and spot checks\n• Train staff on both technology operation and risk recognition\n• Implement immediate fault reporting procedures and start with small pilot programs"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "When we bring robotic systems into a warehouse, we introduce a whole new set of risks that we need to understand before anything goes live. The most obvious concern is physical safety. Robots and people sharing the same space can lead to collisions, and that is a serious hazard. But the risks go beyond the physical. Software glitches can cause a robot to move in ways nobody expected, and if sensors are not properly maintained, they start misreading their environment, which creates a chain of errors further down the line. There is also a subtler risk that often gets overlooked, and that is the point where automated systems and human workflows meet. When those two things are not properly integrated, problems can build up quietly until something actually goes wrong. The key message here is straightforward. We need to identify and address these risks before we deploy the technology, not scramble to fix things after an incident has already happened."
+          "script": "The most immediate concern when deploying warehouse robots is physical safety. Collisions between robots and workers can cause serious injuries, especially when safety zones are not clearly marked or enforced. Workers may enter automated areas without realizing the danger, particularly if they lack proper training on robotic protocols. Equipment condition plays a critical role too - worn sensors or damaged components dramatically increase collision risk. When sensors fail, robots can move in unexpected ways, catching nearby workers off guard. The key is establishing clear boundaries, maintaining equipment properly, and ensuring every team member understands emergency procedures. Physical safety must be the foundation of any robotic deployment."
         },
         {
           "number": 3,
-          "script": "Now, as exciting as robotic systems are, they do come with some very real risks that we need to take seriously. The most obvious concern is physical safety. If robots are operating in shared spaces without clearly marked zones, people can get hurt. And it is not just about the hardware itself. Sensors can fail, causing a robot to move unexpectedly, and software bugs or network issues can bring an entire automated workflow to a sudden stop. Poor maintenance is another factor, because worn or faulty equipment dramatically increases the chance of collisions. We also need to think about human behaviour. Workers who are not properly trained may wander into restricted areas without realising the danger. And finally, when you are connecting new automation technology to older legacy systems, you can end up with unpredictable gaps in communication that nobody anticipated. The good news is that all of these risks can be managed, and that is exactly what we will be exploring throughout this course."
+          "script": "Beyond physical hazards, robotic systems face significant technical vulnerabilities. Software bugs can cause robots to behave unpredictably, moving in ways that nobody anticipated during testing. Network outages present another major risk, potentially halting entire automated workflows without warning. Integration challenges are particularly tricky - when you connect new robotic systems to existing warehouse management software, communication gaps can create operational blind spots. Poorly maintained sensors compound these problems by providing incorrect data that propagates through the entire system. These technical failures require proactive monitoring and robust backup procedures to prevent widespread disruption."
         },
         {
           "number": 4,
-          "script": "Now let's dig into some of the real risks that come with automated sorting systems, because it's not all smooth sailing. One of the most common problems is parcels being sent down the wrong route, which causes delays and unhappy customers. Sensors are another weak point. These systems rely heavily on sensors to read labels and detect items, but in a dusty warehouse environment, those sensors can fail or give incorrect readings. Then there are physical jams. If one item gets stuck, it can bring an entire sorting line to a standstill, which is a significant operational headache. Software glitches are also a genuine concern, where a bug or an error in the system can misdirect items without anyone immediately noticing. And finally, something as simple as a power cut can stop everything dead in its tracks. So as we explore automation, it's really important to understand these vulnerabilities so we can plan around them effectively."
+          "script": "Automated sorting systems face their own unique set of operational risks. Parcels can be misrouted due to scanning errors or software glitches, causing delivery delays and customer complaints. The warehouse environment itself creates challenges - dust and debris interfere with scanner accuracy, while damaged or poorly printed labels can't be read correctly. Physical jams are perhaps the most disruptive risk, as a single stuck item can bring an entire sorting line to a halt, creating costly bottlenecks. Power interruptions add another layer of vulnerability, potentially stopping all operations instantly. Understanding these failure points is essential for maintaining reliable sorting operations."
         },
         {
           "number": 5,
-          "script": "Now let's look at some of the real risks that come with automated inventory systems, because it's not all smooth sailing. If a sensor malfunctions, it might report the wrong stock levels, and suddenly you're running out of products without any warning. On the flip side, counting errors can lead to ordering far too much stock, which ties up space and money. Then there are software glitches, which can freeze the entire ordering process at the worst possible moment. We also need to think about cyber security. Automated systems are connected, and that makes them a target. A successful attack could corrupt your stock data and cause serious disruption. Finally, there's the human element. When staff manually override the system, perhaps with good intentions, it can create inconsistencies that confuse the whole operation. So whilst automation brings enormous benefits, understanding these vulnerabilities is absolutely essential if you want to build a system that's reliable and resilient."
+          "script": "Inventory management systems are vulnerable to various data accuracy problems that can seriously impact operations. Sensor malfunctions might report incorrect stock levels, leading to unexpected stockouts or unnecessary overordering. Barcode scanning errors on damaged labels create counting discrepancies that compound over time. Human factors also play a role - when items are moved manually without proper scanning, inventory records drift away from reality. Returns processing presents another challenge, as incorrectly handled returns can throw off stock counts. Even sensor placement and calibration issues can result in missed low-stock alerts, disrupting the supply chain when you least expect it."
         },
         {
           "number": 6,
-          "script": "Now let's talk about some of the real risks that can crop up inside inventory management systems, because understanding these vulnerabilities is the first step to addressing them. Even in a well-run warehouse, stock counts can drift out of alignment, perhaps because an item was moved without being scanned, or a return was processed incorrectly. Barcode scanners can misread damaged or poorly printed labels, which then creates knock-on errors throughout the system. Software itself is not immune either, glitches happen, and when they do, data can be lost or corrupted in ways that are not immediately obvious. Then there are sensors, which are supposed to flag when stock is running low, but they can miss the mark if they are poorly calibrated or positioned. And finally, when multiple systems need to talk to each other, synchronisation errors can mean that what one platform shows does not match another. These are not rare edge cases, they are everyday risks worth taking seriously."
+          "script": "Modern inventory systems face additional risks from connectivity and security vulnerabilities. Cyber attacks pose a real threat, as connected systems can be targeted to corrupt stock data or disrupt operations entirely. System integration creates its own problems - when multiple platforms need to communicate, synchronization errors can mean different systems show conflicting information. Software glitches can freeze critical processes like ordering at the worst possible moments. Human interventions, while sometimes necessary, can create inconsistencies when staff manually override automated decisions without proper coordination. These risks require both technical safeguards and clear operational procedures to manage effectively."
         },
         {
           "number": 7,
-          "script": "No automation system is perfect, and it's important to plan for things going wrong. Failures can happen for all sorts of reasons, whether that's a faulty sensor, a software glitch, or simply a box falling in the wrong place and blocking a robot's path. The good news is there are practical ways to reduce that risk. Keeping up with regular maintenance means you're catching small problems before they become big ones. Emergency stop mechanisms are also critical, giving your team the ability to halt operations instantly if something looks dangerous or unpredictable. Beyond that, well-designed systems include redundancy, meaning if one part fails, a backup process kicks in automatically to keep things ticking over. And don't underestimate the human element here. Your staff need proper training on how to operate things manually if the automated systems go down. Automation is powerful, but having people who understand the system is just as important as the technology itself."
+          "script": "Effective risk mitigation requires multiple layers of protection built into your automated systems. Regular maintenance schedules are essential - they help you catch small problems before they become major failures. Emergency stop mechanisms give operators immediate control when something goes wrong, providing a crucial safety net during unexpected situations. Redundant systems are equally important, as backup processes can maintain operations during partial failures. Don't underestimate the human element either - staff need comprehensive training on manual overrides and emergency procedures. Thorough testing protocols before deployment help identify vulnerabilities in controlled environments rather than during live operations."
         },
         {
           "number": 8,
-          "script": "So before we wrap up this lesson, let's pull together the most important things to keep in mind when deploying AI in your warehouse. First, always test your robots thoroughly before you let them loose in a live environment. Rushing that stage is where accidents happen. Make sure every automated zone is clearly marked so that your team always knows where the machines are operating. Keep a close eye on your inventory systems on a regular basis, because errors can creep in quietly if left unchecked. Your staff need proper training too, not just on how to use the technology, but on understanding the risks that come with it. If something goes wrong or a fault appears, report it straight away rather than hoping it sorts itself out. And finally, resist the temptation to roll everything out at once. Start with a small pilot, learn from it, and then scale up gradually. These principles will help you build a safer, smarter operation from the ground up."
+          "script": "Successful automation deployment requires following proven best practices that prioritize safety and reliability. Always test robotic systems thoroughly in controlled environments before going live - rushing this stage is where accidents happen. Physical marking of automated zones with proper signage and barriers keeps workers safe and systems running smoothly. Regular monitoring through system audits and spot checks helps maintain inventory accuracy over time. Staff training should cover not just how to operate the technology, but how to recognize and respond to potential risks. Implement clear fault reporting procedures so problems get addressed quickly, and resist the temptation to deploy everything at once. Starting with small pilot programs allows you to learn and refine your approach before scaling up."
         }
       ]
     }

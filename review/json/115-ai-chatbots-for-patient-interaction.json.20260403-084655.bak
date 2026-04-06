@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Chatbots for Patient Interaction",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Risks in advice, triage, and patient trust.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with healthcare settings and a general interest in how digital tools are used in patient care are all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with using AI chatbots for patient advice and triage, and explain how these risks can affect patient safety and trust in healthcare settings. You will also be able to apply practical guidelines to evaluate and manage AI chatbot interactions responsibly, ensuring that patient communication remains accurate, ethical, and aligned with clinical standards.",
+  "lessons": [
+    {
+      "lesson title": "AI Chatbots for Patient Interaction",
+      "order": 1,
+      "Description": "This lesson introduces healthcare professionals to the growing use of AI chatbots in patient-facing settings, exploring how these tools are being used for advice, triage, and general patient communication. You will examine the key risks involved, including the potential for inaccurate information, misinterpretation of symptoms, and the impact on patient trust when things go wrong. The lesson takes a practical, beginner-friendly approach, helping you to recognise where AI chatbots can support patient interaction and where caution is essential. By the end, you will have a clearer understanding of how to evaluate these tools responsibly within a clinical or care environment.",
+      "status": "draft",
+      "content": "Risks in advice, triage, and patient trust.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Exploring risks in AI patient care",
+          "slidecontent": "• AI chatbots are everywhere now\n• Patients already use them\n• Risks are real and serious\n• This course explains the key risks\n• No prior knowledge needed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Risks in Patient Advice",
+          "subtitle": "Where advice can go dangerously wrong",
+          "slidecontent": "• AI chatbots can misinterpret symptoms and suggest the wrong level of urgency\n• No ability to ask follow-up questions the way a clinician would\n• Patients may act on incorrect advice without seeking further help\n• Vulnerable groups (elderly, those with low health literacy) at higher risk\n• A single missed red flag can have serious consequences"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Risks in Triage Advice",
+          "subtitle": "When Chatbots Miss Critical Warning Signs",
+          "slidecontent": "• Chest pain flagged as anxiety\n• Stroke symptoms deemed stress\n• Sepsis missed, delays treatment\n• No escalation to clinicians\n• Algorithms lack clinical judgement"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Triage Risks and Limitations",
+          "subtitle": "When AI Triage Gets It Wrong",
+          "slidecontent": "• Symptoms misread, wrong urgency\n• Serious conditions missed entirely\n• Delays in critical care\n• Patients follow harmful advice\n• No human fallback available"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Risks to Patient Trust",
+          "subtitle": "When AI Erodes Patient Confidence",
+          "slidecontent": "• Chatbot gives wrong information\n• Patients feel unheard\n• Privacy concerns erode trust\n• Errors cause delayed care\n• Impersonal tone alienates users"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Navigating Patient Trust Risks",
+          "subtitle": "When Patients Rely Too Much",
+          "slidecontent": "• Patients may treat chatbot responses as definitive medical advice, bypassing professional consultation\n• Over-reliance can delay urgent care\n• Reassuring but inaccurate outputs can erode trust in healthcare services when errors come to light\n• Vulnerable patients especially at risk\n• Chatbots lack the ability to read emotional cues, physical symptoms, or contextual nuance that a clinician would notice\n• Clear boundaries in chatbot design help manage expectations before trust is misplaced"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Rebuilding Trust After Errors",
+          "subtitle": "Steps to restore patient confidence",
+          "slidecontent": "• Acknowledge the error promptly and without deflection\n• Apologise clearly, using plain language the patient can understand\n• Explain what went wrong\n• Outline the concrete steps being taken to prevent a recurrence\n• Offer the patient a direct route to speak with a human clinician\n• Document the incident and follow your organisation's reporting procedures"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer AI use",
+          "slidecontent": "• AI chatbots can support patient interaction but must never replace clinical judgement\n• Triage and medical advice carry real risk when handled by automated systems\n• Always verify chatbot outputs before acting on them\n• Patient trust is fragile, so transparency about AI use matters\n• Keep a human in the loop\n• As a next step, review your organisation's current policy on AI tools in patient-facing services"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI chatbots for patient interaction. Over the past few years, AI chatbots have moved from something quite futuristic into something genuinely everyday. Patients are already using them, whether that is to check symptoms, ask about medications, or simply try to make sense of a diagnosis they have just received. And because this is happening right now, in the real world, it is really important that healthcare professionals understand the risks involved. Those risks are real, and in some cases they are serious, so this course is designed to walk you through the key ones in a straightforward, practical way. You do not need any technical background or prior knowledge of AI to follow along. Everything will be explained clearly as we go. By the end, you will have a much clearer picture of where these tools can cause harm and what that means for the patients in your care. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "Now, before we get too excited about the possibilities, we need to have an honest conversation about where things can go wrong. When a patient describes their symptoms to an AI chatbot, the system might misjudge how serious the situation actually is. Unlike a clinician, it cannot probe deeper, ask a follow-up question, or pick up on something that does not quite add up. And here is the real concern: patients often trust what they read on screen and may not bother seeking further help if the chatbot gives them a reassuring but incorrect response. This risk is even greater for elderly patients or those who struggle to evaluate health information critically. They are less likely to question what the chatbot tells them. And if the system misses just one red flag, one symptom that should have triggered an urgent referral, the consequences can be genuinely serious. So these are not small technical glitches. They are patient safety issues, and we need to treat them as such."
+        },
+        {
+          "number": 3,
+          "script": "Now, this is where things get really serious, and I want you to pay close attention here. When AI chatbots are used for triage, there is a genuine risk that they miss critical warning signs that a trained clinician would catch immediately. For example, a patient describing chest pain might be told it sounds like anxiety, when in reality it could be a heart attack. Stroke symptoms might be dismissed as stress. Sepsis, which is a life-threatening condition, could go unrecognised, causing dangerous delays in treatment. And here is the core problem: most chatbots are not designed to escalate a conversation to a real clinician when something sounds alarming. They follow pre-set algorithms, and algorithms simply do not have the clinical judgement that comes from years of medical training and human intuition. So whilst chatbots can be genuinely useful, we must be very clear about where their limitations lie, particularly when patient safety is at stake."
+        },
+        {
+          "number": 4,
+          "script": "Now, as promising as AI triage sounds, we really do need to talk about where it can go wrong, because the stakes here are genuinely high. When an AI misreads a patient's symptoms, it might assign the wrong level of urgency, so someone who actually needs immediate attention gets told to wait. And in some cases, serious conditions can be missed altogether. We are talking about things like early signs of a heart attack or stroke being overlooked because the AI simply did not have enough context to recognise them. That kind of delay in getting critical care to someone can have very serious consequences. There is also the risk that patients act on advice that turns out to be harmful, particularly if they trust the chatbot without question. And perhaps most worrying of all, if there is no human fallback built into the system, there is nobody to catch those mistakes before real harm is done. These are not theoretical concerns. They are real risks we need to design around."
+        },
+        {
+          "number": 5,
+          "script": "Now, let's talk about something really important: the ways AI chatbots can actually damage the relationship between patients and their healthcare providers. Trust is fragile, and there are several ways a chatbot can chip away at it. If a chatbot provides inaccurate medical information, even once, a patient may never fully trust it again. Similarly, if someone shares a concern and feels like the system isn't really listening or responding to their specific situation, they'll quickly disengage. There are also genuine worries around data privacy. Patients want to know their personal health information is safe, and any doubt about that can be deeply unsettling. Beyond that, errors in a chatbot's responses can lead to real delays in someone receiving the care they actually need, which is a serious consequence. And finally, if the tone feels cold or robotic, patients may simply feel alienated. So getting these things right isn't just good practice, it's absolutely essential."
+        },
+        {
+          "number": 6,
+          "script": "Now, one of the most significant risks we face with AI chatbots in healthcare is what happens when patients trust them too much. It might sound like a good problem to have, but it genuinely isn't. If someone receives a reassuring response from a chatbot, they may decide they don't need to see a doctor, and in some cases, that delay could be serious. And if that reassuring response later turns out to be wrong, the damage isn't just to that individual patient. It can shake their confidence in the wider healthcare system altogether. We also need to think carefully about vulnerable patients, those who may be anxious, isolated, or less health-literate, because they are particularly susceptible to over-relying on automated responses. The thing is, a chatbot simply cannot pick up on tone of voice, body language, or the kind of subtle cues a clinician would notice immediately. That's why building clear boundaries into the chatbot's design, right from the start, is so important."
+        },
+        {
+          "number": 7,
+          "script": "When an AI chatbot makes a mistake, how you respond matters enormously. The first thing to do is acknowledge it straight away, without making excuses or blaming the technology. Then apologise clearly, in plain, simple language the patient can actually understand. After that, explain what happened. Patients deserve to know why things went wrong, not just that they did. From there, tell them what your organisation is doing to make sure it does not happen again. That kind of transparency goes a long way towards rebuilding confidence. You should also make it easy for the patient to speak with a real clinician if they want to, because sometimes a human conversation is exactly what is needed to restore trust. Finally, make sure the incident is properly documented and reported through your usual procedures. Getting this process right is not just about one patient. It protects everyone who interacts with your service going forward."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. AI chatbots can genuinely help with patient interaction, but they are a support tool, not a replacement for clinical judgement. That distinction really matters, especially when it comes to triage or medical advice, where getting things wrong can have serious consequences. Whatever a chatbot tells you or your patients, always verify it before acting on it. And remember that patients are placing real trust in your organisation, so being open and honest about when AI is involved is absolutely essential. The golden rule here is to keep a human in the loop at every stage. Now, as a practical next step, I'd encourage you to go and look at your organisation's current policy on AI tools in patient-facing services. If one doesn't exist yet, that's important information in itself. These principles are straightforward, but applying them consistently is what makes the difference between AI that helps and AI that causes harm."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Healthcare professionals, nurses, medical assistants, patient care coordinators, clinical staff, healthcare administrators, telemedicine specialists",
+  "Team or Dept this is for": "Healthcare Operations, Patient Care, Clinical Services, Medical Affairs, Quality Assurance, Risk Management"
+}

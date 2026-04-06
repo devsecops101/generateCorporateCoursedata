@@ -25,9 +25,9 @@
         },
         {
           "number": 2,
-          "slidetitle": "Forecasting Risks and Challenges",
-          "subtitle": "Navigating Uncertainty in Demand Planning",
-          "slidecontent": "• Demand shifts without warning\n• Data gaps distort predictions\n• Seasonal spikes cause errors\n• Supplier delays compound risk\n• Over-reliance on single sources"
+          "slidetitle": "AI Demand Forecasting Fundamentals",
+          "subtitle": "How AI Predicts Manufacturing Demand",
+          "slidecontent": "• AI analyzes historical sales patterns and trends\n• Machine learning identifies seasonal fluctuations\n• Algorithms process multiple data streams simultaneously\n• Real-time adjustments based on market signals\n• Pattern recognition improves over time"
         },
         {
           "number": 3,
@@ -37,9 +37,9 @@
         },
         {
           "number": 4,
-          "slidetitle": "Procurement Risks and AI Bias",
-          "subtitle": "Hidden biases in automated sourcing decisions",
-          "slidecontent": "• AI sourcing tools trained on historical data can inherit past supplier preferences, even when those preferences were based on outdated or unfair criteria\n• Bias often invisible to procurement teams reviewing only the final recommendation\n• Smaller or newer suppliers may be systematically ranked lower, limiting competition and innovation\n• Geographic and cultural gaps in training data skew results toward familiar markets\n• Auditing AI decisions regularly helps surface patterns that no single purchase order would reveal"
+          "slidetitle": "AI in Procurement Automation",
+          "subtitle": "How AI Selects Suppliers and Sources Materials",
+          "slidecontent": "• Automated vendor scoring based on performance metrics\n• Price comparison across multiple suppliers\n• Risk assessment of supplier financial stability\n• Contract negotiation support and optimization\n• Purchase order generation and approval workflows"
         },
         {
           "number": 5,
@@ -49,9 +49,9 @@
         },
         {
           "number": 6,
-          "slidetitle": "Mitigating Risks in Logistics Automation",
-          "subtitle": "Safeguarding Automated Systems Against Operational Failures",
-          "slidecontent": "• Build in manual override options\n• Monitor systems around the clock\n• Test backups regularly\n• Plan for cyber threats\n• Train staff on failures"
+          "slidetitle": "Logistics Automation Vulnerabilities",
+          "subtitle": "System Failures and Operational Breakdowns",
+          "slidecontent": "• Automated warehouse systems prone to mechanical failures\n• Network outages disrupt real-time tracking systems\n• Software bugs cause routing and delivery errors\n• Cyber attacks target logistics control systems\n• Single points of failure can halt entire operations"
         },
         {
           "number": 7,
@@ -73,7 +73,7 @@
         },
         {
           "number": 2,
-          "script": "When it comes to demand planning in manufacturing, forecasting is rarely straightforward. Markets can shift unexpectedly, and if your data is incomplete or inconsistent, your predictions will be off before you even get started. Add in seasonal peaks, like a sudden surge in orders before a major holiday, and those errors can multiply quickly. Then consider what happens when a key supplier experiences delays. That single disruption can ripple through your entire supply chain, making an already uncertain situation much worse. And if your operation depends heavily on just one supplier or one data source, you are essentially putting all your eggs in one basket. These are the core challenges that make demand forecasting so difficult in the real world. The good news is that AI tools are specifically designed to help manufacturers navigate exactly these kinds of uncertainties, and that is what we will be exploring throughout this course."
+          "script": "Let's start by understanding how AI actually works in demand forecasting. Unlike traditional forecasting methods that rely on simple historical averages, AI systems can analyze vast amounts of data simultaneously. They examine sales patterns, seasonal trends, and market indicators to predict future demand with remarkable sophistication. Machine learning algorithms get better over time, learning from both successes and mistakes. They can process information from multiple sources at once, from weather data affecting agricultural raw materials to social media trends that might influence consumer demand. The technology adjusts predictions in real-time as new information becomes available, which is a significant advantage over static forecasting models."
         },
         {
           "number": 3,
@@ -81,7 +81,7 @@
         },
         {
           "number": 4,
-          "script": "Now, one of the trickier risks with AI in procurement is something called bias, and it can creep in without anyone realising. When an AI sourcing tool is trained on historical purchasing data, it learns from past decisions, and if those past decisions favoured certain suppliers for the wrong reasons, the AI will simply carry that forward. The problem is that procurement teams often only see the final recommendation, not the reasoning behind it, so the bias stays hidden. This can be particularly unfair to smaller or newer suppliers, who get ranked lower not because they are less capable, but because they are less familiar to the system. Similarly, if the training data is heavily weighted toward certain regions, the AI will naturally lean toward those markets. The good news is that regular auditing of AI decisions can help you spot these patterns over time, and that is something we will come back to later in the course."
+          "script": "Moving on to procurement, AI is revolutionizing how manufacturers select suppliers and source materials. Modern AI procurement systems can automatically score vendors based on delivery performance, quality metrics, and pricing history. They compare offers across multiple suppliers simultaneously, taking into account not just cost but also reliability, capacity, and risk factors. These systems can assess a supplier's financial stability by analyzing public records and credit reports, helping prevent disruptions from financially troubled vendors. Some advanced systems even provide support during contract negotiations, suggesting optimal terms based on market conditions and historical data. The entire purchase order process can be automated, from generation to approval workflows, dramatically reducing manual effort and processing time."
         },
         {
           "number": 5,
@@ -89,7 +89,7 @@
         },
         {
           "number": 6,
-          "script": "Now, automation brings enormous benefits, but it also introduces new risks, so we need to think carefully about how we protect these systems when things go wrong. First, always make sure your automated systems have a manual override option. If the technology fails, your team needs to be able to step in and keep operations moving. Alongside that, continuous monitoring is essential. You want eyes on these systems around the clock, not just during business hours. It is also worth testing your backup systems regularly, because a backup you have never tested is one you cannot rely on in a crisis. Cyber threats are a very real concern in logistics automation, so build a clear plan for how you would respond to an attack or a breach. And finally, invest in training your staff so they know exactly what to do when a failure occurs. Preparation is what separates a minor disruption from a major disaster."
+          "script": "When it comes to logistics automation, the technology creates incredible efficiencies, but it also introduces new vulnerabilities that didn't exist in manual systems. Automated warehouse systems depend on complex mechanical equipment that can break down unexpectedly, potentially halting operations until repairs are completed. Network outages can disrupt real-time tracking systems that logistics managers rely on to monitor shipments and coordinate deliveries. Software bugs in routing algorithms can send trucks to wrong destinations or create inefficient delivery routes that waste time and fuel. Perhaps most concerning are cyber security threats, where malicious actors specifically target logistics control systems to cause maximum disruption. The challenge is that many of these automated systems create single points of failure, where one problem can cascade through the entire operation, affecting everything from inventory management to customer deliveries."
         },
         {
           "number": 7,

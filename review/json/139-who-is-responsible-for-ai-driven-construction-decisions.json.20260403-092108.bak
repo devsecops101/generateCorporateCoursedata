@@ -1,0 +1,107 @@
+{
+  "Course Title": "Who Is Responsible for AI-Driven Construction Decisions?",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Accountability across engineers, contractors, and developers.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering workflows, along with a general curiosity about how artificial intelligence is beginning to influence industry decision-making, is all that is needed to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key roles and responsibilities of engineers, contractors, and developers when AI-driven tools are used to inform construction decisions. You will also be able to explain how accountability is distributed across project teams and apply practical frameworks to ensure responsible use of AI in construction and infrastructure projects.",
+  "lessons": [
+    {
+      "lesson title": "Who Is Responsible for AI-Driven Construction Decisions?",
+      "order": 1,
+      "Description": "As artificial intelligence becomes more widely used on construction projects, questions about accountability are becoming increasingly important for everyone involved. This lesson explores how responsibility is shared across the key parties in a construction project, including engineers, contractors, and developers, when AI tools are used to inform or drive decisions. You will learn how traditional roles and duties of care apply in an AI-assisted environment, and where gaps or uncertainties in accountability can arise. By the end of this lesson, you will have a clearer understanding of who is responsible when an AI-driven decision leads to an error, a delay, or a safety concern on site. No prior knowledge of AI or law is required, and the content is designed to be practical and relevant to everyday construction practice.",
+      "status": "draft",
+      "content": "Accountability across engineers, contractors, and developers.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Owns AI Construction Decisions?",
+          "subtitle": "Accountability starts before the first decision.",
+          "slidecontent": "• AI makes real construction choices\n• Someone must answer for them\n• Roles blur fast on site\n• Accountability needs early clarity\n• This course maps who owns what"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Who Bears Legal Liability?",
+          "subtitle": "When AI errors cause construction failures",
+          "slidecontent": "• Engineers, contractors, or developers\n• Liability depends on context\n• AI errors complicate blame\n• Multiple parties often share fault\n• Contracts define responsibility"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Who Carries Legal Liability?",
+          "subtitle": "When AI errors cause project failures",
+          "slidecontent": "• Engineers who approve AI-generated designs still hold professional responsibility for the final output\n• Contractors can face liability if they act on flawed AI recommendations without independent verification\n• Software developers may be liable when tool defects cause measurable project harm\n• Liability is rarely simple\n• Multiple parties often share fault across a single AI-related failure\n• Current legal frameworks were not written with AI decision-making in mind, creating genuine grey areas"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Contractors and Their AI Duties",
+          "subtitle": "Defining obligations when AI guides work",
+          "slidecontent": "• Contractors must verify that AI-generated schedules, material orders, or site instructions are safe before acting on them\n• Blind trust in AI output is not a defence against liability\n• Responsibility to check\n• If AI recommends a structural approach, the contractor still owns the outcome on site\n• Workers and supervisors need clear guidance on when to override or escalate AI suggestions\n• Procurement of AI tools carries its own duty of care, including vetting the software's limitations"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "Who holds the reins in reality?",
+          "slidecontent": "• Engineers, contractors, and developers each carry a slice of accountability when AI tools influence decisions on site\n• Responsibility rarely sits with one party alone\n• The contractor who acts on an AI recommendation still owns the outcome of that action\n• Developers procuring AI systems must ensure those tools meet safety and compliance standards before deployment\n• Shared accountability requires clear contractual language spelling out who is liable when AI outputs go wrong\n• No algorithm signs off on a building warrant, a human always does"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Shared Liability in Practice",
+          "subtitle": "When multiple parties share the blame.",
+          "slidecontent": "• Engineer, contractor, developer involved\n• Each owns a piece\n• Blame rarely falls alone\n• Contracts define who pays\n• Courts weigh shared fault"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Resolving AI Accountability Disputes",
+          "subtitle": "When Blame Is Shared and Disputed",
+          "slidecontent": "• Multiple parties often share fault when an AI-driven decision causes harm on site\n• Engineers, contractors, and software developers may each hold partial responsibility\n• Contracts rarely specify who owns the risk when AI tools produce flawed outputs\n• Dispute resolution becomes complex without clear documentation of how AI was used\n• Paper trails matter"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for shared AI accountability",
+          "slidecontent": "• AI decisions need human owners\n• Document every AI-driven choice\n• Share accountability across teams\n• Verify outputs before acting\n• Regulations are evolving fast\n• Stay informed, stay responsible"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Here is the central question we are going to be working through together: when artificial intelligence makes a decision on a construction project, who is actually responsible for it? And I do mean real decisions, things like which design option gets selected, how resources get allocated, or when work gets scheduled. AI is already making those kinds of calls on live projects. The problem is that the moment something goes wrong, everyone on site tends to look at someone else. Roles blur very quickly, and if you have not sorted out accountability before the project gets moving, you will be scrambling to find answers at exactly the wrong moment. This course is designed to help you get ahead of that. We are going to map out clearly which roles carry responsibility for AI-driven decisions, and why that clarity needs to be established right at the start, not after the fact."
+        },
+        {
+          "number": 2,
+          "script": "So when something goes wrong on a construction project and AI was involved in the decision-making, the big question is: who is actually responsible? The honest answer is that it depends. It could be the engineer who relied on the AI output, the contractor who acted on it, or the developer who commissioned the system in the first place. What makes this tricky is that AI errors do not fit neatly into traditional ideas of blame. Unlike a human professional making a clear mistake, an AI system can produce a flawed recommendation in ways that are difficult to trace back to a single person. In many cases, you will find that several parties share some degree of fault, and sorting that out can become quite complex. This is exactly why contracts matter so much. A well-drafted contract should spell out who is responsible for what when AI tools are used, because without that clarity, disputes can become very messy indeed."
+        },
+        {
+          "number": 3,
+          "script": "So when something goes wrong on an AI-assisted project, who actually picks up the legal bill? The honest answer is: it depends, and it is rarely straightforward. If an engineer signs off on a design that was generated by AI, they still own that decision professionally, regardless of where the idea originated. Contractors are in a similar position. If you act on an AI recommendation without checking it yourself, you cannot simply point at the software if things go wrong. And in some cases, the developers of the AI tool itself can face liability if a fault in their product causes real, measurable harm. What makes this genuinely complicated is that most failures involve a chain of decisions made by several different parties, so fault often gets shared around. On top of that, our existing legal frameworks were written long before AI was making construction decisions, which means there are real grey areas that the courts and regulators are still working through."
+        },
+        {
+          "number": 4,
+          "script": "So, contractors sit right at the sharp end of this. When AI is generating schedules, ordering materials, or issuing site instructions, the contractor cannot simply follow those outputs without question. Blind trust is not a defence in law, and \"the AI told me to\" will not hold up if something goes wrong on site. If an AI system recommends a particular structural approach, the contractor still owns that decision the moment it is acted upon. That means supervisors and workers need clear, practical guidance on when to push back, escalate a concern, or override a suggestion entirely. And it goes even further than day-to-day operations. When a contractor chooses to procure an AI tool in the first place, that choice carries its own duty of care. You are responsible for understanding what the software can and cannot do before you rely on it. Essentially, AI does not remove contractor responsibility; it adds a new layer of it."
+        },
+        {
+          "number": 5,
+          "script": "So when AI tools are involved in construction decisions, accountability doesn't land neatly on one person's desk. It gets shared across the project team. Engineers, contractors, and developers all carry a portion of responsibility depending on their role. If a contractor acts on an AI recommendation and something goes wrong, they still own that outcome. They can't simply point at the software and walk away. Equally, if a developer has procured an AI system, they have a duty to make sure that tool is safe and compliant before it ever gets used on site. Now, because responsibility is spread across multiple parties, clear contractual language becomes absolutely essential. Everyone needs to know in advance what happens when an AI output leads to a problem. And here is perhaps the most important point of all: no algorithm signs off on a building warrant. A human being always does. That human accountability never disappears, regardless of how sophisticated the technology becomes."
+        },
+        {
+          "number": 6,
+          "script": "In most real-world AI-related construction disputes, liability rarely lands on just one party. Think about a typical project: you have an engineer who specified the AI system, a contractor who implemented it on site, and a developer who commissioned the whole thing. If something goes wrong, each of those parties may carry a share of the responsibility. The courts do not simply point the finger at one person and walk away. Instead, they look at how fault is distributed across everyone involved. Now, contracts play a huge role here, because they set out in advance who is financially responsible if things go wrong. A well-drafted contract can protect you, while a poorly written one can leave you exposed. And when disputes do reach the courts, judges will carefully weigh the degree of fault each party contributed. So the key message is this: in AI-driven construction, shared liability is the norm, not the exception."
+        },
+        {
+          "number": 7,
+          "script": "When something goes wrong on a construction project and an AI tool is involved, working out who is actually responsible can get very messy, very quickly. The reality is that blame rarely sits with just one party. The engineer who relied on the AI output, the contractor who acted on it, and the software developer who built the tool could all share a portion of the fault. The problem is that most contracts simply have not caught up with this yet. They do not clearly state who carries the risk when an AI system produces a flawed recommendation. That ambiguity makes disputes incredibly difficult to resolve. So what can you do about it? Document everything. Keep a clear record of which AI tools were used, when they were used, what outputs they produced, and what decisions were made as a result. That paper trail could make all the difference if a dispute ever lands in front of a lawyer or an adjudicator."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with some core principles to carry forward. First, whenever AI is involved in a decision, a human being must own that decision. No hiding behind the algorithm. Second, keep a clear record of every AI-driven choice you make, because if something goes wrong, you will need that paper trail. Third, accountability is not something one person carries alone. It needs to be shared across your whole team. Fourth, always verify what the AI is telling you before you act on it. These tools can be wrong, and the consequences on a construction project can be serious. Fifth, the legal and regulatory landscape around AI is moving very quickly right now, so what applies today may look quite different in twelve months. And finally, the best thing you can do is simply stay informed. Keep learning, keep asking questions, and you will be well placed to use AI responsibly and confidently in your work."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Civil Engineers, Construction Managers, Project Managers, Site Engineers, Contractors, Construction Supervisors, Real Estate Developers, Project Engineers, Construction Project Coordinators",
+  "Team or Dept this is for": "Engineering, Construction, Project Management, Operations, Real Estate Development, Legal, Risk Management"
+}

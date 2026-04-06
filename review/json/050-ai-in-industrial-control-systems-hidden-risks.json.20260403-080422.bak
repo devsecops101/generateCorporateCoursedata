@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Industrial Control Systems: Hidden Risks",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Description": "New vulnerabilities introduced in PLCs, SCADA, and control layers.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with industrial control systems or manufacturing environments is helpful, though no specialist technical knowledge is required to follow this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the new vulnerabilities that AI introduces into industrial control systems, including PLCs and SCADA environments, and explain how these hidden risks affect sectors such as chemicals, pharmaceuticals, and automotive manufacturing. You will also apply practical strategies to recognise and assess AI-related threats within control layers, helping you protect critical industrial processes across a range of manufacturing settings.",
+  "lessons": [
+    {
+      "lesson title": "AI in Industrial Control Systems: Hidden Risks",
+      "order": 1,
+      "Description": "As artificial intelligence becomes increasingly embedded in industrial environments, it introduces a new layer of risk that many engineers and operators are only beginning to understand. This lesson explores how AI integration within programmable logic controllers (PLCs), SCADA systems, and broader control architectures can create vulnerabilities that traditional security approaches were never designed to address. We will examine real-world scenarios where AI-driven automation has expanded the attack surface, introduced unpredictable behaviours, or undermined established safety protocols. The content is designed to be accessible for those without a deep technical background, offering clear explanations and practical context throughout. By the end of this lesson, you will have a clearer picture of where the hidden risks lie and why they deserve serious attention in any modern industrial setting.",
+      "status": "draft",
+      "content": "New vulnerabilities introduced in PLCs, SCADA, and control layers.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Hidden Risks: An Introduction",
+          "subtitle": "Where AI meets industrial vulnerability.",
+          "slidecontent": "• Industrial control systems now increasingly powered by AI components\n• PLCs, SCADA, and control layers all affected\n• New attack surfaces, new risks\n• AI introduces vulnerabilities that traditional security models were never designed to handle\n• Understanding these risks is the first step toward protecting critical infrastructure"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining the Threat Landscape",
+          "subtitle": "Where old systems meet new dangers",
+          "slidecontent": "• Legacy systems, new AI layers\n• PLCs now network-connected\n• SCADA exposed to internet\n• AI adds unknown attack surfaces\n• Old code, modern threats"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Legacy Systems Under Pressure",
+          "subtitle": "Ageing infrastructure meets modern AI demands",
+          "slidecontent": "• Old PLCs, new AI demands\n• Protocols built before cybersecurity\n• No patches, no updates\n• Gaps widen over time\n• Legacy meets modern, badly"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Legacy Systems Under AI Pressure",
+          "subtitle": "Ageing Infrastructure Struggles With Modern AI",
+          "slidecontent": "• Many PLCs and SCADA systems were designed decades before AI integration was ever considered\n\n• Built for stability, not adaptability\n\n• Adding AI layers on top of ageing hardware creates unexpected compatibility gaps and timing conflicts\n\n• Older protocols like Modbus and DNP3 lack the bandwidth and security features that AI tools require\n\n• Patching is rarely straightforward\n\n• Even small AI-driven updates can destabilise control loops that have run reliably for years"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Supply Chain Vulnerabilities Exposed",
+          "subtitle": "Tracing Risks Across Vendor Networks",
+          "slidecontent": "• AI components in PLCs and SCADA systems often sourced from dozens of third-party vendors\n• Each vendor link a potential entry point for malicious code or compromised firmware\n• Supplier risk largely invisible\n• Outdated or unvetted libraries embedded during manufacture can persist undetected for years\n• A single compromised update pushed silently across an entire fleet of controllers"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Supply Chain Vulnerabilities Exposed",
+          "subtitle": "Where third-party risks quietly enter systems",
+          "slidecontent": "• Third-party vendors often install software components with little security vetting\n• Compromised updates\n• Pre-installed malware can enter a facility before equipment even powers on\n• Supplier access credentials frequently shared across multiple client sites\n• Legacy components sourced from unverified suppliers carry unknown vulnerabilities\n• Even trusted partners can unknowingly pass on corrupted firmware"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating AI-Introduced Vulnerabilities",
+          "subtitle": "Practical Steps to Reduce Exposure Risk",
+          "slidecontent": "• Segment AI from critical systems\n• Patch firmware regularly\n• Monitor all AI outputs\n• Limit AI network access\n• Audit vendor AI components\n• Train staff on new risks"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• AI adds new attack surfaces\n• PLCs and SCADA face risks\n• Validate all AI-generated outputs\n• Patch systems regularly\n• Trust but verify AI decisions\n• Start a risk audit now"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. Over the next several lessons, we are going to explore something that does not get nearly enough attention in the security world: the hidden risks that come with bringing artificial intelligence into industrial control systems. Now, these are the systems that keep our power grids running, our water treatment plants operating, our factories moving. Traditionally, they relied on well-understood, predictable technology. But increasingly, AI components are being woven into everything from PLCs to SCADA systems and the control layers that sit between them. And here is the problem: AI introduces a whole new set of attack surfaces and vulnerabilities that the security models we have relied on for decades were simply never built to handle. That mismatch is where the danger lives. So throughout this course, our goal is straightforward: to help you understand what those risks actually look like, so you can begin thinking seriously about how to protect critical infrastructure from them."
+        },
+        {
+          "number": 2,
+          "script": "So let's start by painting a picture of what we're actually dealing with here. Many industrial facilities are running equipment that was designed and installed decades ago, long before anyone imagined connecting it to the internet. We're talking about programmable logic controllers and SCADA systems that were originally built to operate in isolation. But over time, organisations have networked these systems up, often to improve efficiency or enable remote monitoring. And now, on top of that ageing infrastructure, we're layering in artificial intelligence. That combination creates a real problem. AI introduces new components, new software, new communication pathways, and with all of that comes attack surfaces that nobody fully understands yet. So you've got old code that was never written with cybersecurity in mind, sitting inside systems that are now exposed to modern threats. That tension between legacy technology and cutting-edge AI is really at the heart of what this course is about."
+        },
+        {
+          "number": 3,
+          "script": "Now, one of the biggest challenges we face when bringing AI into industrial environments is the sheer age of the equipment already in place. Many factories and plants are still running on programmable logic controllers that were installed decades ago, long before anyone was thinking about artificial intelligence or even modern cybersecurity. The communication protocols these systems use were designed purely to get the job done, not to be secure. There were no threats in mind at the time. And here is the problem: these systems rarely receive patches or software updates, so any vulnerabilities just sit there, open and unaddressed. As time goes on, the gap between what these legacy systems can handle and what modern AI applications require simply grows wider. When you try to connect cutting-edge AI tools to ageing infrastructure, you are essentially forcing two very different worlds together, and that friction creates real, serious risk. That is what we are going to explore throughout this lesson."
+        },
+        {
+          "number": 4,
+          "script": "Here's something that catches a lot of organisations off guard. Most of the PLCs and SCADA systems running our industrial environments weren't designed with AI in mind at all. They were built years, sometimes decades ago, with one priority: keep things stable and running. That's actually a strength, but it becomes a real problem when you try to bolt modern AI on top. Older communication protocols like Modbus and DNP3 simply weren't built to handle the data volumes or the security demands that AI tools expect. So when engineers try to integrate AI into these systems, you start seeing compatibility gaps and timing conflicts that nobody anticipated. And patching isn't as simple as pushing a software update. Even a relatively minor AI-driven change can upset a control loop that has been running smoothly for years without any issues. So the age of the infrastructure isn't just a technical footnote. It's one of the most significant hidden risks we need to talk about."
+        },
+        {
+          "number": 5,
+          "script": "When we talk about AI in industrial control systems, we rarely think about where all those components actually come from. The truth is, a single PLC or SCADA system might contain parts and software from dozens of different suppliers. And here is the problem: every one of those suppliers is a potential weak point. If just one vendor in that chain ships compromised firmware or includes an outdated software library that nobody has properly checked, that vulnerability gets quietly baked into your system during manufacture. You might not discover it for years. What makes this particularly concerning is that most organisations have very little visibility into their supplier networks. You simply do not know what you do not know. And if an attacker manages to push a malicious update through a trusted vendor channel, that update can roll out silently across every controller in your fleet simultaneously. So the risk is not just technical, it is structural, and it runs deep through the entire supply chain."
+        },
+        {
+          "number": 6,
+          "script": "Supply chain vulnerabilities are one of those risks that can catch organisations completely off guard, because the threat often arrives before anyone has even noticed a problem. When third-party vendors install software or hardware, they don't always follow strict security checks, and that means malware can enter a facility before a single machine has been switched on. Compromised software updates are another concern, where a perfectly routine update quietly introduces something harmful. What makes this worse is that supplier access credentials are frequently shared across multiple client sites, so one weak link can expose many facilities at once. Older components sourced from unverified suppliers bring their own unknown vulnerabilities along with them. And here's the part that surprises most people: even vendors you trust completely can unknowingly pass on corrupted firmware, simply because they were also a victim somewhere along the chain. The supply chain, in short, is a hidden doorway into your systems."
+        },
+        {
+          "number": 7,
+          "script": "So, now that we understand the risks, let's talk about what you can actually do about them. The first thing to consider is keeping your AI systems physically and logically separate from your most critical control infrastructure. If something goes wrong with the AI, you want to contain the damage. You should also be keeping firmware up to date, because vulnerabilities in AI components are discovered regularly, and patches exist for a reason. It is equally important to keep a close eye on what your AI is actually doing, monitoring its outputs for anything unusual or unexpected. Restricting how much network access the AI has is another sensible precaution, limiting the potential attack surface. Beyond your own systems, make sure you are scrutinising the AI components that your vendors supply, because their weaknesses become your weaknesses. And finally, do not overlook your people. Your staff need to understand these new risks so they can spot problems and respond appropriately."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together with the core lessons from this session. When you introduce AI into an industrial environment, you are also introducing new ways for attackers to get in, so that expanded attack surface is something you need to take seriously. Your PLCs and SCADA systems are not immune just because they sit on operational technology networks. Always validate what AI tools produce before acting on those outputs, because errors in this environment can have real physical consequences. Keep your systems patched and up to date, because unpatched vulnerabilities are an open invitation. And whilst AI can support your decision making, never switch off your own critical thinking. Verify what it tells you. Finally, do not wait for an incident to prompt action. Start a risk audit now, whilst you have the opportunity to be proactive rather than reactive. These are the principles that will help you move forward with AI in a safer, more confident way."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Plant managers, manufacturing engineers, operations managers, production supervisors, facility managers, maintenance technicians, quality assurance managers, industrial automation specialists",
+  "Team or Dept this is for": "Operations, Manufacturing, Engineering, Production, Maintenance, Quality Assurance, Plant Management"
+}

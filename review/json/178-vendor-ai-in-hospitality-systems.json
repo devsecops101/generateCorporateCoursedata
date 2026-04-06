@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Hidden Risks in Plain Sight",
-          "subtitle": "Risks hiding in your everyday tools",
-          "slidecontent": "• AI hides in familiar tools\n• Booking engines, POS, CRM\n• Risks often go unnoticed\n• Staff rarely question defaults\n• Small gaps, big consequences"
+          "slidetitle": "AI Already Lives in Your Systems",
+          "subtitle": "Recognising the hidden technology in everyday tools",
+          "slidecontent": "• Booking engines, POS, and CRM tools contain built-in AI\n• Most staff don't realise these features exist\n• Vendors add AI as standard without fanfare\n• Daily operations continue while AI works behind the scenes\n• Understanding starts with awareness"
         },
         {
           "number": 2,
-          "slidetitle": "Booking Engines and Hidden Risks",
-          "subtitle": "What lies beneath the surface",
-          "slidecontent": "• Booking engines often use AI to adjust pricing and availability without alerting hotel staff\n• Decisions made in real time, behind the scenes\n• Guests may see different prices based on browsing history, location, or device type\n• Opaque algorithms make it difficult to audit why a rate was offered or declined\n• Staff rarely have visibility into the logic driving these automated choices\n• Small configuration errors can trigger widespread pricing or availability mistakes"
+          "slidetitle": "Dynamic Pricing Without Transparency",
+          "subtitle": "How booking engines make real-time decisions",
+          "slidecontent": "• Algorithms adjust rates and availability automatically\n• Different guests see different prices\n• Pricing factors: location, device, browsing history\n• No staff notifications or decision logs\n• Configuration errors affect multiple bookings"
         },
         {
           "number": 3,
-          "slidetitle": "Booking Engines and Hidden Risks",
-          "subtitle": "Where convenience conceals compliance concerns",
-          "slidecontent": "• AI suggests prices automatically\n• Guest data leaves your system\n• Consent settings often hidden\n• Bias baked into algorithms\n• Audits rarely happen"
+          "slidetitle": "Data Flow and Compliance Gaps",
+          "subtitle": "Where guest information goes and consent gets buried",
+          "slidecontent": "• Guest data leaves your property management system\n• Consent settings hidden in configuration menus\n• Algorithmic bias affects pricing fairness\n• Compliance audits rarely examine AI behaviour\n• Data processing often lacks transparency"
         },
         {
           "number": 4,
-          "slidetitle": "Risks in Booking Engine AI",
-          "subtitle": "Where automation can quietly go wrong",
-          "slidecontent": "• Prices update without warning\n• Wrong rooms get confirmed\n• Overbooking happens silently\n• Discounts misfire automatically\n• Guest data gets mismatched"
+          "slidetitle": "When Automation Fails Quietly",
+          "subtitle": "Common operational problems with AI booking systems",
+          "slidecontent": "• Silent price updates without alerts\n• Incorrect room assignments confirmed automatically\n• Overbooking through poor channel synchronisation\n• Misfired discount rules applying wrong rates\n• Guest profiles mixed up with wrong personal data"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting AI in Your Systems",
-          "subtitle": "Where AI hides in plain sight",
-          "slidecontent": "• Booking engines suggest prices automatically\n• Chatbots answer guest queries\n• CRM tools predict customer behaviour\n• POS flags unusual transactions\n• Loyalty schemes personalise rewards"
+          "slidetitle": "AI Features Across Hospitality Platforms",
+          "subtitle": "Identifying where algorithms are already working",
+          "slidecontent": "• Automated rate adjustments based on demand\n• Chatbots handling guest inquiries\n• CRM systems predicting customer behaviour\n• POS fraud detection and unusual transaction alerts\n• Personalised loyalty programme rewards"
         },
         {
           "number": 6,
-          "slidetitle": "Spotting AI Red Flags Early",
-          "subtitle": "Warning signs before contracts are signed.",
-          "slidecontent": "• Vague claims like \"AI-powered\" with no explanation of what the system actually does\n• No data transparency\n• Vendor unable to explain how guest data is used or stored after processing\n• Pricing that changes based on \"model updates\" you have no control over\n• No opt-out or override options for staff when the AI makes a decision\n• References and case studies that only show best-case results, never limitations"
+          "slidetitle": "Vendor Red Flags During Procurement",
+          "subtitle": "Warning signs before signing contracts",
+          "slidecontent": "• Vague 'AI-powered' claims without clear explanations\n• No transparency about data usage or storage\n• Pricing changes based on uncontrolled model updates\n• No staff override options for AI decisions\n• Case studies showing only best-case scenarios"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk in Practice",
-          "subtitle": "Practical steps to minimise AI exposure",
-          "slidecontent": "• Ask vendors directly which features use AI and what data those features access\n• Review your contracts for clauses about data sharing with third parties\n• Audit guest data regularly\n• Train staff to recognise when AI-generated suggestions may be inaccurate or biased\n• Limit the personal data fields connected to AI-powered tools where possible\n• Keep a simple log of which systems use AI and when those systems were last reviewed"
+          "slidetitle": "Practical Risk Reduction Steps",
+          "subtitle": "Actions to take control of vendor AI exposure",
+          "slidecontent": "• Question vendors directly about AI features and data access\n• Review contracts for third-party data sharing clauses\n• Conduct regular guest data audits\n• Train staff to question AI suggestions\n• Maintain logs of AI-enabled systems and review dates"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core principles to carry forward always",
-          "slidecontent": "• Vendor AI is already embedded in the tools your team uses every day\n• Always ask suppliers what data their AI collects and how it is used\n• Audit regularly\n• Booking engines, POS, and CRM systems each carry their own hidden risks\n• Staff awareness is your first and most practical line of defence\n• Start small by reviewing one vendor contract this week for AI-related clauses"
+          "slidetitle": "Moving Forward With Confidence",
+          "subtitle": "Essential principles for ongoing AI management",
+          "slidecontent": "• AI exists in your current systems, not future ones\n• Regular vendor questioning builds transparency\n• Each platform type carries distinct risks\n• Staff awareness provides practical defence\n• Start by reviewing one contract for AI clauses this week"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start by thinking about the tools your team uses every single day. Your booking engine, your point of sale system, your CRM. These are familiar, trusted parts of how your property operates. But here's the thing: many of these tools now have AI built quietly into them, and most people never even notice. It's not hidden in a sinister way, it's just that vendors add these features as standard, and staff get on with their jobs without ever questioning what's happening underneath. And that's where the risk creeps in. Not through some dramatic system failure, but through small, overlooked gaps. A default setting nobody changed. An automated decision nobody reviewed. On their own, these things seem minor. But over time, they can add up to something much more significant, whether that's a compliance issue, a guest experience problem, or a reputational concern. So throughout this lesson, we're going to shine a light on exactly where those risks are hiding."
+          "script": "Let's start with a fundamental reality: AI isn't coming to hospitality systems, it's already here. Your booking engine, point-of-sale system, and CRM tools likely contain AI features that work quietly in the background. Most hospitality staff don't realise this because vendors typically add these capabilities as standard features without making a big announcement about it. Your team continues their daily work while algorithms make automated decisions about pricing, customer communications, and data handling. This isn't necessarily problematic, but it does mean the first step in managing AI risk is simply recognising that these technologies are already part of your operational environment."
         },
         {
           "number": 2,
-          "script": "Let's start by looking at booking engines, because this is where a lot of hidden AI activity takes place. When a guest visits your website and searches for a room, there's often an algorithm working in the background, adjusting prices and availability in real time. The guest might see a completely different rate to someone else, based on things like their location, the device they're using, or even their browsing history. And here's the concern: your staff probably have no idea this is happening. There's no notification, no log to check, no easy way to ask the system why it offered a particular price or turned a booking away. These algorithms are largely opaque, meaning they're very difficult to audit or question. And if something is configured incorrectly, even a small setting in the wrong place, it can cause pricing or availability errors that affect a large number of guests before anyone notices. That's a significant operational risk."
+          "script": "Booking engines represent one of the most common places where hospitality businesses encounter vendor AI, particularly through dynamic pricing algorithms. When guests search for rooms on your website, the system often adjusts rates and availability in real time based on factors like their geographic location, the type of device they're using, or their browsing history. This means different guests can see completely different prices for the same room. The challenge here is transparency: these pricing decisions happen automatically without alerting your staff, and there's typically no log you can check to understand why the system offered a particular rate or declined a booking. When configuration errors occur, they can trigger pricing or availability mistakes that affect numerous guests before anyone notices the problem."
         },
         {
           "number": 3,
-          "script": "So let's talk about booking engines, because this is where a lot of hotels first encounter vendor AI, and it's also where some of the biggest risks quietly creep in. When a booking engine uses AI to suggest prices, that sounds helpful, and it often is, but do you actually know what data it's using to make those decisions, or where that guest information is going once it leaves your property management system? In many cases, consent settings are buried deep in configuration menus that nobody ever looks at. And here's something worth thinking about: the algorithms powering these tools can carry bias, meaning certain guests may be shown different prices or options without anyone realising it. On top of all that, formal audits of how these systems behave are genuinely rare in our industry. So the convenience is real, but so are the compliance concerns, and that's exactly why we need to understand what's happening beneath the surface."
+          "script": "Beyond pricing decisions, booking engine AI creates data flow concerns that many properties don't fully understand. When these systems process guest information, that data often leaves your property management system and gets shared with the vendor's servers for analysis. The consent mechanisms for this data sharing are frequently buried in configuration settings that staff rarely examine. Additionally, the algorithms making these decisions can incorporate biases that result in certain guests being shown different options without anyone realising it's happening. Formal audits of how these AI systems actually behave are uncommon in our industry, which means compliance gaps can persist unnoticed for extended periods."
         },
         {
           "number": 4,
-          "script": "Now, booking engine AI can be genuinely impressive, but it does come with some real risks that are worth understanding. Because so much happens automatically, problems can creep in without anyone noticing straight away. For example, pricing algorithms can update rates in the background, sometimes at completely the wrong moment, and no one gets an alert. Room assignments can be confirmed incorrectly, so a guest arrives expecting one thing and gets another. Overbooking is another concern, because if the system is not syncing properly across channels, it can sell rooms that simply are not available. Discount rules can misfire too, applying the wrong rate to the wrong booking without any human ever reviewing it. And perhaps most seriously, guest data can get mixed up, meaning personal details or preferences end up attached to the wrong profile entirely. These are not hypothetical scenarios. They happen in real properties, and they tend to surface at the worst possible time, usually when a guest is standing right at the front desk."
+          "script": "The automated nature of booking engine AI, while often helpful, creates specific operational risks that tend to surface at inconvenient moments. Price updates can happen in the background without any staff notification, sometimes at completely inappropriate times. Room assignments get confirmed incorrectly, leading to guest arrival problems. Poor synchronisation between channels can result in overbooking situations that develop silently. Discount rules can misfire and apply incorrect rates to bookings without human review. Perhaps most concerning, guest data can become mismatched, with personal details or preferences incorrectly attached to different customer profiles. These aren't theoretical concerns - they occur in real properties and typically become apparent when guests are standing at your front desk expecting something different."
         },
         {
           "number": 5,
-          "script": "So let's have a look at where AI is actually showing up in the systems you might already be using every day. When your booking engine automatically adjusts room rates based on demand, that is AI working in the background. When a guest visits your website and a chatbot answers their questions at two in the morning, that is AI too. Your CRM system might be quietly predicting which guests are likely to return, or flagging those who haven't visited in a while. Over at the point of sale, AI can spot transactions that look unusual and raise an alert before a problem escalates. And those loyalty programmes that seem to know exactly what reward to offer each member? That personalisation is driven by AI analysing behaviour and preferences. The point here is that AI is not some distant, futuristic concept. For many of you, it is already embedded in the tools you are working with right now."
+          "script": "To effectively manage AI risks, you need to recognise where these technologies are already operating in your daily systems. Dynamic pricing in booking engines uses demand-based algorithms to adjust room rates automatically. Customer service chatbots on your website respond to guest inquiries using natural language processing. CRM systems employ predictive analytics to identify which guests are likely to return or need attention. Point-of-sale systems use pattern recognition to flag unusual transactions that might indicate fraud or errors. Loyalty programmes utilise behavioural analysis to personalise reward offers for individual members. Understanding that these AI features are embedded in tools you're already using helps you ask better questions about their operation and potential risks."
         },
         {
           "number": 6,
-          "script": "Before you sign anything, there are some warning signs worth knowing about. If a vendor keeps saying their system is \"AI-powered\" but can't actually explain what that means in practice, that's a concern. You should also be asking questions about your guest data. Where does it go? Who can access it? If they can't answer clearly, that's a problem. Watch out for pricing structures that can shift whenever the vendor decides to update their model, because that can make budgeting very difficult. Another thing to look for is whether your staff can actually step in and override the system when needed. If the answer is no, that removes a really important layer of human judgement. And finally, be cautious of case studies that only ever show glowing results. Every technology has limitations, and a vendor who won't acknowledge theirs is one you should approach with real caution. These are the questions to ask before you commit."
+          "script": "Before signing contracts with new vendors, certain warning signs should prompt deeper investigation. Be cautious of suppliers who describe their systems as 'AI-powered' without being able to explain specifically what that means in practice or how it affects your operations. Vendors should be able to clearly describe how guest data is processed, where it's stored, and who has access to it. Watch for pricing structures that can change whenever the vendor updates their underlying models, as this makes budgeting unpredictable. Ensure your staff will have override capabilities when the AI makes decisions they need to question. Finally, be wary of case studies and references that only showcase positive outcomes without acknowledging any limitations or challenges - every technology has constraints, and vendors who won't discuss theirs may not be transparent about other important factors."
         },
         {
           "number": 7,
-          "script": "So now let's look at what you can actually do to reduce your risk. The first thing is simply to ask your vendors directly which features use AI and what data those features are touching. A lot of hospitality businesses don't realise they can just ask that question. From there, it's worth reviewing your contracts to check whether your guest data is being shared with any third parties. You should also be auditing your guest data regularly, so you know exactly what you're holding and where it's going. On the staff side, make sure your team understands that AI suggestions are not always accurate, and they should feel confident questioning them. Where you can, try to limit how much personal data is connected to your AI-powered tools in the first place. And finally, keep a simple internal log of which systems use AI and when you last reviewed them. Small, consistent steps like these make a real difference over time."
+          "script": "Taking control of vendor AI risks requires practical, ongoing actions rather than complex technical solutions. Start by directly asking your current vendors which features use AI and what guest data those features access - many hospitality businesses don't realise this is a reasonable question to ask. Review your existing contracts to identify clauses about data sharing with third parties or automated processing. Establish regular auditing practices for guest data to understand exactly what information you're holding and how it's being used. Train your staff to recognise that AI-generated suggestions aren't infallible and encourage them to question recommendations that seem inappropriate. Where possible, limit the amount of personal data that gets connected to AI-powered features. Maintain a simple internal log documenting which systems use AI and when you last reviewed their configurations and performance."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The most important thing to understand is that AI isn't some distant future technology. It's already sitting inside the systems your team logs into every single day. That means your responsibility starts now. Whenever you're speaking with a supplier, get into the habit of asking straightforward questions about what data their AI is collecting and what they're doing with it. Don't wait for something to go wrong before you look into this. Audit your systems regularly, and remember that your booking engine, your POS, and your CRM each come with their own set of risks that aren't always obvious at first glance. Your staff are genuinely your strongest line of defence here, so keeping them informed really does matter. And if you're not sure where to begin, here's a simple first step: pick one vendor contract this week and look for any clauses that mention AI or automated processing. That's all it takes to get started."
+          "script": "The key insight to carry forward is that managing vendor AI isn't about preparing for future technology - it's about taking control of systems that are already part of your operations. Develop a habit of asking direct questions about AI functionality and data usage whenever you interact with technology suppliers. Remember that each type of system - booking engines, point-of-sale, CRM tools - carries distinct risks that require specific attention. Your staff represent your most practical line of defence because they interact with these systems daily and can spot problems early. If you're unsure where to begin, pick one vendor contract this week and look for clauses mentioning AI, automated processing, or machine learning. This simple first step will help you understand what you're currently committed to and identify areas where you need more information or better protection."
         }
       ]
     }

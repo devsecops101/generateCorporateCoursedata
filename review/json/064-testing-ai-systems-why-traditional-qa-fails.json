@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "The Limits of Fixed Rules",
-          "subtitle": "When rules meet unpredictable outputs",
-          "slidecontent": "• Traditional QA relies on fixed inputs producing fixed, predictable outputs\n• AI systems behave probabilistically, meaning the same input can yield different results each time\n• Rule-based test scripts simply cannot account for this variability\n• No single \"correct\" answer to validate against\n• Threshold-based pass/fail criteria break down when outputs exist on a spectrum of quality"
+          "slidetitle": "Sources of AI Variability",
+          "subtitle": "What makes AI outputs change",
+          "slidecontent": "• Temperature settings control randomness in response generation\n• Sampling methods introduce deliberate variation to avoid robotic responses\n• Model state and internal probability calculations shift between runs\n• Unlike a calculator with fixed logic, AI uses weighted choices at each decision point\n• This variability is intentional design, not a flaw to be fixed\n• Each run essentially rolls different probability dice"
         },
         {
           "number": 3,
-          "slidetitle": "The Determinism Problem Explained",
-          "subtitle": "Same input, different output, every time.",
-          "slidecontent": "• AI outputs vary constantly\n• Same prompt, different result\n• No single \"correct\" answer\n• Randomness is by design\n• Traditional tests expect consistency"
+          "slidetitle": "The Pass/Fail Problem",
+          "subtitle": "When binary testing breaks down",
+          "slidecontent": "• Traditional tests expect one correct answer to validate against\n• AI outputs exist on a spectrum of quality, not right/wrong categories\n• Multiple responses can be equally valid yet completely different\n• Binary pass/fail criteria cannot capture nuanced AI performance\n• Test scripts designed for exact matches become meaningless\n• Quality assessment requires human judgment, not automated comparison"
         },
         {
           "number": 4,
-          "slidetitle": "Same Input, Different Output",
-          "subtitle": "Why AI outputs vary each time",
-          "slidecontent": "• AI systems use probability and randomness to generate responses, so identical inputs rarely produce identical outputs\n• Unlike a calculator, no guaranteed fixed answer\n• Temperature settings, sampling methods, and model state all influence what gets returned each time\n• Running the same test twice can produce two completely different, yet equally valid, results\n• This breaks the core assumption that traditional QA relies on\n• Deterministic testing tools expect one correct output to check against, making them poorly suited for systems that are designed to vary"
+          "slidetitle": "Real-World Testing Breakdown",
+          "subtitle": "Where conventional QA fails with AI",
+          "slidecontent": "• Customer service chatbot gives three different but helpful responses to identical questions\n• Code generation AI produces functionally equivalent solutions using different approaches\n• Content summarization tools extract different key points from the same article\n• Translation systems offer varying but acceptable phrasings\n• Traditional test automation cannot distinguish between good variation and actual problems\n• Manual review becomes necessary but doesn't scale"
         },
         {
           "number": 5,
-          "slidetitle": "Embracing Probabilistic Testing Approaches",
-          "subtitle": "Shifting from certainty to confidence ranges",
-          "slidecontent": "• Accepting that AI outputs vary within a range, rather than expecting a single fixed answer\n• Run tests hundreds of times to build statistical confidence\n• Define acceptable pass/fail thresholds based on percentages, not absolutes\n• Track distributions\n• Measure how often the system lands within your expected range across repeated runs\n• Use confidence intervals to communicate results to stakeholders clearly"
+          "slidetitle": "Statistical Testing Approach",
+          "subtitle": "Building confidence through repetition",
+          "slidecontent": "• Run identical tests hundreds of times to gather meaningful data\n• Calculate pass rates rather than individual pass/fail results\n• Define acceptable performance thresholds (e.g., 95% success rate)\n• Use confidence intervals to communicate uncertainty to stakeholders\n• Track distributions of outputs to identify concerning patterns\n• Statistical significance becomes more important than individual test results"
         },
         {
           "number": 6,
-          "slidetitle": "Embracing Probabilistic Testing Approaches",
-          "subtitle": "Shifting from certainty to confidence ranges",
-          "slidecontent": "• Accept outputs vary naturally\n• Test ranges, not exact values\n• Run tests many times over\n• Track pass rates, not passes\n• Set confidence thresholds instead"
+          "slidetitle": "Defining Quality Ranges",
+          "subtitle": "Setting boundaries for acceptable AI behavior",
+          "slidecontent": "• Establish what \"good enough\" looks like for your specific use case\n• Create scoring rubrics that account for multiple acceptable responses\n• Set tolerance levels for different types of outputs\n• Focus on consistent behavior patterns rather than identical results\n• Build evaluation criteria that humans can reliably apply\n• Document edge cases where variation becomes problematic"
         },
         {
           "number": 7,
-          "slidetitle": "Rethinking Quality for AI",
-          "subtitle": "A new mindset for uncertain outputs",
-          "slidecontent": "• Expect variation, not perfection\n• Define \"good enough\" ranges\n• Test behaviours, not exact outputs\n• Reframe failure as probability\n• Quality means consistent patterns"
+          "slidetitle": "Monitoring Ongoing Challenges",
+          "subtitle": "What to watch for in production AI systems",
+          "slidecontent": "• Model drift: Performance changes as underlying data shifts over time\n• Bias amplification: Unfair patterns that emerge in specific contexts\n• Edge case failures: Rare inputs that produce consistently poor outputs\n• Degradation patterns: Gradual decline in output quality\n• Context sensitivity: Performance varies significantly across different domains\n• These issues require continuous monitoring, not one-time testing"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core lessons for your QA journey",
-          "slidecontent": "• AI outputs vary each time\n• Old QA methods miss this\n• Test ranges, not exact answers\n• Bias and drift need monitoring\n• Start small, observe patterns\n• Explore AI testing tools next"
+          "slidetitle": "Your Next Steps",
+          "subtitle": "Practical actions for getting started",
+          "slidecontent": "• Start with small-scale experiments on your existing AI systems\n• Identify one specific output type to analyze statistically\n• Establish baseline performance metrics before making changes\n• Document patterns you observe rather than individual test failures\n• Connect with teams using specialized AI testing tools\n• Build evaluation processes that can evolve with your AI systems"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's think about how traditional QA actually works. You write a test, you define an exact input, and you expect an exact output every single time. If the output matches, the test passes. Simple. But AI systems don't work like that. Give the same prompt to a language model twice, and you might get two completely different responses, and both of them could be perfectly reasonable. That's not a bug, that's just how these systems are designed to behave. The problem is that our traditional rule-based test scripts have no way of handling that kind of variability. They're looking for a single correct answer to check against, and with AI, that answer often doesn't exist. And when you try to apply a simple pass or fail threshold, things get even trickier, because AI outputs don't sit neatly in one of two boxes. Quality exists on a spectrum, and that's something conventional testing frameworks were simply never built to deal with."
+          "script": "So what exactly makes AI outputs so unpredictable? It comes down to how these systems are actually built. Unlike traditional software that follows fixed logic paths, AI models use probability and randomness at their core. Temperature settings control how much randomness gets injected into responses - higher temperatures mean more creative but less predictable outputs. Sampling methods add another layer of variation, deliberately mixing things up so the AI doesn't sound robotic. And every time the model processes your input, it's making weighted probability choices at each step, essentially rolling different dice each time. This isn't a bug that needs fixing - it's intentional design that makes AI feel natural and flexible. But it also means your traditional testing assumptions go right out the window."
         },
         {
           "number": 3,
-          "script": "Here is the narration script for Slide 3:\n\nSo let's get into what I think is the most fundamental challenge when testing AI systems, and it comes down to something called determinism. In traditional software, if you put the same input in, you get the same output out, every single time, without fail. That predictability is exactly what automated tests rely on. But AI systems simply do not work that way. Ask a language model the same question twice, and you will very likely get two different answers, both of which could be perfectly reasonable and correct. That is not a bug, it is actually intentional. The randomness is baked in by design, because it is what makes AI feel natural and flexible rather than robotic. The problem is that traditional testing tools and frameworks are built around the assumption of consistency. They expect one right answer. When there is no single right answer, those tools start to struggle. And that is the core tension we are going to be unpacking throughout this course."
+          "script": "Here's where things get really tricky for conventional QA approaches. Traditional test automation is built around having one correct answer that you can check against. The test runs, compares the actual output to the expected output, and gives you a simple pass or fail. But AI outputs don't fit into those neat categories. You might ask a question and get three completely different responses that are all perfectly reasonable. Quality exists on a spectrum, not in a binary right-or-wrong bucket. When your testing framework is looking for exact matches and the system is designed to vary, those automated comparisons become meaningless. You end up needing human judgment to evaluate whether responses are good enough, but that doesn't scale when you're trying to run thousands of tests."
         },
         {
           "number": 4,
-          "script": "Here is the narration script for Slide 4:\n\nOne of the first things that surprises people when they start testing AI systems is that you can send the exact same input twice and get two completely different responses back, and both of them might be perfectly reasonable answers. That happens because AI models are built around probability and randomness rather than fixed logic. Things like temperature settings and sampling methods mean the model is essentially making weighted choices every time it generates a response, so there is no guaranteed output the way there would be with a calculator or a traditional piece of software. Now, this creates a real problem for conventional QA approaches, because traditional testing tools are designed around one core assumption: that a given input always produces one correct output that you can check against. When your system is deliberately built to vary, that assumption falls apart completely, and your standard deterministic testing toolkit simply is not equipped to handle it."
+          "script": "Let me give you some concrete examples of where this breaks down in practice. Imagine you're testing a customer service chatbot by asking the same question three times. You get back three completely different responses, but all of them actually solve the customer's problem effectively. Traditional testing would flag this as inconsistent behavior, but from a user experience perspective, it's actually ideal. Or consider an AI code generator - it might produce three functionally equivalent solutions that all work perfectly but use completely different approaches. Your test automation has no way to distinguish between this kind of beneficial variation and actual problems that need attention. This is where manual review becomes necessary, but obviously that approach doesn't scale to the volume of testing that modern AI systems require."
         },
         {
           "number": 5,
-          "script": "So once we accept that AI outputs aren't fixed, we need a completely different way of testing them. Instead of asking \"did the system give the exact right answer,\" we start asking \"did the system give a good enough answer, often enough?\" That means running your tests not once, but hundreds of times, and looking at the spread of results you get back. You're building statistical confidence rather than chasing certainty. From there, you define what \"passing\" actually looks like in percentage terms. Maybe your system needs to respond correctly at least 90% of the time to be considered acceptable. You then track how often results land within that acceptable range across all your repeated runs. And when it comes to reporting back to stakeholders, confidence intervals are your friend. Rather than saying \"it works\" or \"it doesn't work,\" you can say \"it performs within the expected range 92% of the time.\" That's a much more honest and useful conversation to have."
+          "script": "So how do we actually test something that behaves differently every time? The answer is statistical testing. Instead of running a test once and expecting a definitive answer, you run it hundreds or thousands of times and look at the patterns in your results. You're building statistical confidence rather than seeking certainty. Maybe out of 1000 runs, your AI system gives acceptable responses 950 times. That 95% success rate becomes your key metric, not whether any individual test passed or failed. You communicate this using confidence intervals - instead of saying 'it works' or 'it doesn't work,' you can say 'it performs acceptably 95% of the time, plus or minus 2%.' This gives stakeholders a much more honest and useful picture of what they're actually getting."
         },
         {
           "number": 6,
-          "script": "So how do we actually test AI systems if we can't rely on exact, predictable outputs? The answer is to embrace what's called probabilistic testing. Rather than expecting the same result every single time, we accept that some variation is completely normal and by design. Instead of checking for one precise answer, we define an acceptable range of outputs and ask whether the system is landing within that range consistently. And the word \"consistently\" is doing a lot of work there, because we need to run our tests many, many times to get a meaningful picture. A single pass or fail tells us very little. What we really want to know is the pass rate across hundreds or even thousands of runs. From there, we set confidence thresholds, so for example, we might decide that a system needs to produce an acceptable output at least ninety-five percent of the time to be considered reliable. It is a fundamentally different mindset, but once it clicks, it makes a lot of sense."
+          "script": "Once you accept that variation is normal, you need to define what 'good enough' actually looks like for your specific situation. This means creating scoring rubrics that can handle multiple acceptable responses rather than looking for one perfect answer. You set tolerance levels - maybe creative writing outputs can vary widely, but financial calculations need to be much more consistent. The key is focusing on whether the system shows consistent behavior patterns over time, rather than identical results on every run. This requires building evaluation criteria that human reviewers can apply reliably, and documenting the edge cases where variation stops being helpful and starts being problematic. It's more work upfront, but it gives you a much more realistic picture of how your AI system actually performs."
         },
         {
           "number": 7,
-          "script": "So at this point, we need to fundamentally shift how we think about quality when it comes to AI systems. Traditional QA is built around the idea that there is one correct answer, and anything else is a failure. But AI simply does not work that way. Instead of expecting a perfect, identical output every time, we need to accept that some variation is completely normal and even expected. That means defining what \"good enough\" actually looks like, setting a range of acceptable responses rather than a single right answer. We also need to focus on how the system behaves overall, rather than checking whether it produced one specific output. And when something does go wrong, we reframe that not as a binary pass or fail, but as a question of probability and frequency. Ultimately, quality in an AI context means the system is producing consistently good patterns over time, not that it is perfect on every single occasion."
+          "script": "Testing AI systems isn't just a one-time activity - there are ongoing challenges that require continuous monitoring. Model drift is a big one, where performance gradually changes as the underlying data or environment shifts over time. You also need to watch for bias amplification, where unfair patterns emerge in specific contexts that weren't obvious during initial testing. Edge cases are another concern - rare inputs that consistently produce poor outputs, even if the system handles common cases well. And performance can vary dramatically across different domains or contexts, so something that works well for technical documentation might fail completely for creative writing. These aren't problems you can catch with a single round of testing - they require ongoing observation and adjustment."
         },
         {
           "number": 8,
-          "script": "So let's bring this lesson together. The big thing to hold onto is that AI systems behave differently from traditional software. Every time you run a query, you might get a slightly different response, and that means your old testing playbook simply won't cut it on its own. Instead of checking for one exact answer, you need to think in terms of acceptable ranges and expected behaviours. You also need to keep an eye on things like bias creeping into outputs, and drift happening over time as the model or the data around it changes. The good news is you don't need to overhaul everything at once. Start small, run some tests, and look for patterns before you scale up. And coming up next, we'll start exploring some of the tools that are specifically designed to help you test AI systems more effectively. So stick with me, because that's where things get really practical."
+          "script": "So where do you go from here? Start small and practical. Pick one specific type of output from an AI system you're already working with and begin analyzing it statistically. Run the same test multiple times and document what patterns you see, rather than focusing on individual failures. Establish baseline performance metrics before you make any changes, so you can track whether things are getting better or worse over time. Connect with other teams who are using specialized AI testing tools - there's a growing ecosystem of solutions designed specifically for these challenges. Most importantly, build evaluation processes that can evolve alongside your AI systems. This isn't about finding the perfect testing approach once and sticking with it forever - it's about developing the skills and mindset to adapt as AI technology continues to change."
         }
       ]
     }

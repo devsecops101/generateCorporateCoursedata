@@ -1,0 +1,14 @@
+{
+  "Course Title": "Scaling AI Systems Safely",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software developers, product managers, AI engineers, system architects, technical project managers, DevOps engineers, data scientists",
+  "Team or Dept this is for": "Engineering, Product Development, IT Operations, Data Science, Compliance, Legal",
+  "Description": "Risks introduced when models are scaled across users and regions.",
+  "Prerequisites": "Learners should have a basic understanding of software development concepts and some familiarity with how AI or machine learning systems are built and deployed, though no advanced expertise is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks that emerge when AI systems are scaled across large user bases and multiple regions, and explain how factors such as data privacy, regulatory compliance, and infrastructure demands can affect system safety. You will also apply practical strategies to recognise and mitigate common scaling pitfalls, helping you to design and evaluate more robust, responsible deployments in real-world technology environments.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

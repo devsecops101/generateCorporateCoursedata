@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "What Is Copy-Paste Risk?",
-          "subtitle": "Reusing AI output without a second thought",
-          "slidecontent": "• Copying AI-generated text directly into work without reviewing it first\n• A surprisingly common habit\n• Can introduce errors, legal issues, or security risks without you realising\n• Feels efficient but skips a critical step\n• The output looks polished, so it is easy to assume it is safe to use\n• No review means no control over what ends up in your work"
+          "slidetitle": "Why Copy-Paste Risk Is So Common",
+          "subtitle": "The efficiency trap that catches everyone",
+          "slidecontent": "• AI output appears professional and well-structured\n• Feels like a genuine time-saver\n• Easy to assume polished text is accurate and safe\n• Skips the critical review step entirely\n• Creates false confidence in the quality\n• Habit spreads quickly across teams and organisations"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising Risky AI Content",
-          "subtitle": "Spotting the warning signs in outputs",
+          "slidetitle": "Warning Signs in AI Content",
+          "subtitle": "Red flags that demand your attention",
           "slidecontent": "• Vague or unverifiable claims\n• Outdated statistics or dates\n• Confident but incorrect facts\n• Missing source references\n• Generic, templated phrasing\n• Unusual legal or technical terms"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Risky AI Content",
-          "subtitle": "What to watch out for",
-          "slidecontent": "• Confident-sounding facts that are actually fabricated or outdated\n• Code snippets with hidden vulnerabilities\n• Plagiarised phrasing lifted from copyrighted sources\n• No sources cited\n• Personal data patterns that may violate privacy regulations if reused\n• Branded or trademarked content included without any attribution"
+          "slidetitle": "Legal and Security Risks",
+          "subtitle": "The hidden dangers in AI outputs",
+          "slidecontent": "• Copyright infringement from plagiarised text\n• Code snippets with security vulnerabilities\n• Privacy violations from exposed personal data\n• Trademark issues from unattributed branded content\n• Compliance breaches in regulated industries\n• Liability for fabricated or defamatory statements"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting Risky AI Content",
-          "subtitle": "What to watch for in outputs",
-          "slidecontent": "• Outdated or fabricated facts\n• Copied text, uncleared copyright\n• Exposed personal data\n• Confident but wrong claims\n• Hidden sensitive information"
+          "slidetitle": "Types of Fabricated Content",
+          "subtitle": "When AI makes things up convincingly",
+          "slidecontent": "• Statistics and research findings that don't exist\n• Fake citations and non-existent sources\n• Made-up case studies and examples\n• Invented quotes from real people\n• Fictional company names and contact details\n• Outdated information presented as current"
         },
         {
           "number": 6,
-          "slidetitle": "Spot the Risk Before Copying",
-          "subtitle": "Pause, check, then paste with confidence.",
-          "slidecontent": "• Check for confident-sounding facts that could be fabricated or outdated\n• Look for named sources, statistics, or quotes (these need verification)\n• Scan for unusual phrasing that may signal copied or trademarked text\n• Notice any code snippets\n• Consider whether the content includes personal or sensitive data that should not be shared\n• Ask yourself if you would be comfortable defending every word as your own"
+          "slidetitle": "Pre-Copy Review Checklist",
+          "subtitle": "Essential checks before you paste",
+          "slidecontent": "• Verify all facts, figures, and statistics independently\n• Check for unusual phrasing that signals copied text\n• Scan for personal or sensitive data exposure\n• Review any code for security vulnerabilities\n• Confirm all sources and citations actually exist\n• Ask: Would I defend every word as my own work?"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Yourself Going Forward",
-          "subtitle": "Simple habits to reduce your risk.",
-          "slidecontent": "• Always verify AI outputs\n• Check for copied text online\n• Edit before you publish\n• Never share sensitive prompts\n• Review sources independently"
+          "slidetitle": "Building Safe AI Habits",
+          "subtitle": "Practical steps for responsible use",
+          "slidecontent": "• Always edit AI output in your own voice\n• Run suspicious text through plagiarism checkers\n• Never input confidential data into AI tools\n• Verify sources independently before citing\n• Treat AI output as rough drafts, not final copy\n• Document your review process for important work"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Keep these points close to hand.",
-          "slidecontent": "• Always verify AI outputs\n• Check for hidden copyright risks\n• Never share sensitive data\n• Edit before you publish\n• You stay responsible, always"
+          "slidetitle": "Your Ongoing Responsibility",
+          "subtitle": "What to remember every time",
+          "slidecontent": "• You remain accountable for everything you publish\n• AI is a tool, not a replacement for professional judgment\n• Quality control cannot be automated away\n• Legal liability follows the person, not the AI\n• Your reputation depends on consistent verification\n• Professional standards still apply to AI-assisted work"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start by understanding what we actually mean by the copy-paste risk. It's a deceptively simple problem. You ask an AI tool to draft something for you, it produces something that looks polished and professional, and so you copy it straight into your document, email, or report and hit send. Job done, right? Well, not quite. The trouble is that AI-generated text can contain subtle errors in facts, a tone that doesn't quite fit your audience, or even content that raises questions around legal ownership. And because it reads so well on the surface, it's easy to assume it's fine without actually checking. That false sense of quality is precisely what makes this risk so easy to overlook. Whether you're writing a business report, a piece of code, or a simple email, the moment you put your name on something, you own it. The AI doesn't take responsibility. You do. So let's look at why that matters."
+          "script": "Let's start by understanding what we actually mean by the copy-paste risk. It's a deceptively simple problem. You ask an AI tool to draft something for you, it produces something that looks polished and professional, and so you copy it straight into your document, email, or report and hit send. Job done, right? Well, not quite. The trouble is that AI-generated text can contain subtle errors in facts, a tone that doesn't quite fit your audience, or even content that raises questions around legal ownership. And because it reads so well on the surface, it's easy to assume it's fine without actually checking. That false sense of quality is precisely what makes this risk so easy to overlook. Whether you're writing a business report, a piece of code, or a simple email, the moment you put your name on something, you own it. The AI doesn't take responsibility. You do."
         },
         {
           "number": 2,
-          "script": "So let's start by defining what we actually mean by copy-paste risk. Put simply, it's what happens when someone takes text generated by an AI tool and drops it straight into their work without stopping to check it first. And honestly, it's more common than you might think. It feels like a real time-saver, and that's part of the problem. AI output tends to look polished and well-structured, so it's easy to assume it must be accurate and safe to use. But that assumption can get you into trouble. Without reviewing what the AI has produced, you could be introducing factual errors, or even content that raises legal or security concerns, and you might not notice until it's too late. The core issue is control. When you skip the review step, you lose oversight of what's actually going into your work. That's the risk we're going to be exploring throughout this lesson."
+          "script": "So why does this happen so often? The answer lies in how convincing AI output can be. When you receive text that's well-formatted, properly structured, and written in a professional tone, your brain naturally assumes it must be accurate too. It genuinely feels like a time-saver, and in our busy work environments, that's incredibly appealing. The problem is that this apparent efficiency comes with a hidden cost. By skipping the review step, we lose the opportunity to catch errors, check facts, or ensure the content actually fits our specific context. What starts as a personal shortcut can quickly become a team habit, and before long, entire organisations are unknowingly exposing themselves to risks they don't even realise exist."
         },
         {
           "number": 3,
-          "script": "So how do you actually spot content that might be risky to copy and paste directly? There are a few warning signs to look out for. First, watch for claims that sound plausible but are vague or impossible to verify. AI tools often produce statistics or dates that are simply out of date, or in some cases, completely fabricated. And here is the tricky part: the output will sound completely confident even when it is wrong. That false sense of authority is what catches people out. You should also notice when there are no source references at all. If you cannot trace where information came from, that is a red flag. Similarly, if the writing feels very generic or templated, it probably needs more work before it represents you or your organisation. And finally, be especially cautious around unusual legal or technical language. AI can misuse specialist terms in ways that could cause real problems. Keep these warning signs in mind as we move forward."
+          "script": "So how do you actually spot content that might be risky to copy and paste directly? There are several warning signs to look out for. First, watch for claims that sound plausible but are vague or impossible to verify. AI tools often produce statistics or dates that are simply out of date, or in some cases, completely fabricated. And here's the tricky part: the output will sound completely confident even when it's wrong. That false sense of authority is what catches people out. You should also notice when there are no source references at all. If you can't trace where information came from, that's a red flag. Similarly, if the writing feels very generic or templated, it probably needs more work before it represents you or your organisation. And finally, be especially cautious around unusual legal or technical language. AI can misuse specialist terms in ways that could cause real problems."
         },
         {
           "number": 4,
-          "script": "So how do you actually spot content that might be risky to copy and paste? There are a few warning signs to keep in mind. First, AI can sound incredibly confident even when it is completely wrong or working from outdated information, so always verify facts independently. If you are copying code, be aware that it might contain security vulnerabilities that are not obvious at first glance. AI can also reproduce phrasing that is very close to copyrighted material, and it rarely tells you where that content came from, so a lack of sources is itself a red flag. Watch out too for anything that looks like personal data, because reusing that could put you in breach of privacy regulations like GDPR. And finally, branded or trademarked names can sometimes appear in AI output without any attribution, which could create legal headaches. Knowing what to look for is the first step in protecting yourself."
+          "script": "Now let's talk about the serious consequences that can follow when risky AI content slips through. Copyright infringement is a real possibility when AI reproduces text that's too similar to existing copyrighted material. In technical contexts, AI-generated code might contain security flaws that aren't immediately obvious but could expose your systems to attack. Privacy regulations like GDPR can be violated if AI outputs accidentally include personal data that shouldn't be shared. Trademark issues arise when AI includes branded terms without proper attribution. In regulated industries, using unverified AI content could put you in breach of compliance requirements. And perhaps most concerning, you could find yourself legally liable for defamatory statements or false information that the AI has confidently presented as fact."
         },
         {
           "number": 5,
-          "script": "So now that we understand why the copy-paste risk exists, let's look at what you should actually be watching for when you receive an AI output. There are five key warning signs to keep in mind. First, AI tools can present facts that are either out of date or simply made up, and they will do so with complete confidence, which makes them easy to miss. That confidence is actually the second issue as well, because AI can sound authoritative even when it is completely wrong. Third, if the AI has drawn heavily from a specific source, the text may be too close to the original, raising copyright concerns. Fourth, if you fed personal or sensitive data into the tool earlier in your session, there is a chance some of that information could reappear in the output. And fifth, sometimes sensitive details are buried within longer responses, so a quick skim is not enough. You really do need to read carefully before you use anything."
+          "script": "One of the most dangerous aspects of AI-generated content is how convincingly it can present information that simply isn't true. AI tools can generate realistic-looking statistics that have no basis in fact, complete with specific percentages and sample sizes. They can cite research papers that don't exist, or attribute quotes to real people who never said those words. Case studies and examples might be entirely fictional, and company names with websites and contact details can be completely made up. Sometimes the information is real but outdated, presented as if it's current. The problem is that all of this fabricated content is delivered with the same confident tone as genuine facts, making it extremely difficult to spot without careful verification."
         },
         {
           "number": 6,
-          "script": "Before you copy anything from an AI output, take a moment to actually read it critically. Ask yourself a few important questions. Does it state facts, figures, or statistics with great confidence? Those are the things most likely to be fabricated or out of date, so they need checking. Are there named sources or direct quotes? Never assume those are real without verifying them yourself. Does any of the phrasing feel a little off, or unusually polished? That could be a sign the AI has lifted text from somewhere else. If there is any code in the output, treat that with extra care before running it anywhere. And think carefully about whether the content contains any personal or sensitive information that really should not be leaving your system. Finally, ask yourself the honest question: could you stand behind every single word as if you wrote it yourself? If the answer is no, that is your signal to pause and review before you paste."
+          "script": "Before you copy anything from an AI output, take a moment to actually read it critically. Ask yourself a few important questions. Does it state facts, figures, or statistics with great confidence? Those are the things most likely to be fabricated or out of date, so they need checking. Are there named sources or direct quotes? Never assume those are real without verifying them yourself. Does any of the phrasing feel a little off, or unusually polished? That could be a sign the AI has lifted text from somewhere else. If there's any code in the output, treat that with extra care before running it anywhere. And think carefully about whether the content contains any personal or sensitive information that really shouldn't be leaving your system. Finally, ask yourself the honest question: could you stand behind every single word as if you wrote it yourself? If the answer is no, that's your signal to pause and review before you paste."
         },
         {
           "number": 7,
-          "script": "So let's bring this all together with some practical habits you can start using straight away. First, never just copy and paste AI output directly into your work. Always read it through carefully and verify that what it's saying is actually accurate. It's also worth running any AI-generated text through a plagiarism checker or a quick search online, just to make sure nothing has been lifted from another source without you realising. Before you publish or share anything, edit it in your own voice so it genuinely reflects your thinking. That extra step also helps you catch anything that doesn't quite sit right. On the privacy side, be mindful about what you type into AI tools. Avoid sharing sensitive information, personal data, or confidential business details in your prompts. And finally, if the AI cites sources or makes factual claims, go and check those independently. These are simple habits, but they make a real difference to your risk."
+          "script": "Building safe habits around AI use doesn't have to be complicated, but it does require consistency. Always treat AI output as a starting point, not a finished product. Edit everything in your own voice so it genuinely reflects your thinking and catches anything that doesn't quite fit. If you're suspicious about any text, run it through a plagiarism checker or do a quick online search. Never feed confidential information, personal data, or sensitive business details into AI tools in the first place. When AI cites sources or makes factual claims, verify them independently before you rely on them. For important documents, consider documenting your review process so you can demonstrate due diligence if questions arise later. These simple steps can dramatically reduce your exposure to risk."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with a few points worth keeping in mind as you start using AI tools in your work. First, never just trust what the AI gives you. Always read it, check it, and verify the facts before you do anything with it. Second, be aware that some AI-generated content can carry copyright complications that aren't immediately obvious, so it's worth being cautious there. Third, and this is really important, please do not paste sensitive or confidential information into an AI tool. Once it's in, you've lost control of it. Fourth, treat any AI output as a rough draft. Edit it, shape it, make it yours before it goes anywhere near a client, a colleague, or the public. And finally, the big one: you are always responsible for what you produce and publish. The AI is a tool. You are the professional. That accountability sits with you, and that's actually a good thing."
+          "script": "As we wrap up, it's important to remember that AI tools are incredibly powerful assistants, but they don't change the fundamental nature of professional responsibility. You remain fully accountable for everything you produce and publish, regardless of what tools helped you create it. AI is there to support your work, not replace your professional judgment or critical thinking. Quality control cannot be automated away, and the same professional standards that applied to your work before AI still apply now. Your reputation and your organisation's reputation depend on maintaining those standards consistently. Legal liability follows the person who publishes the content, not the AI that helped generate it. By keeping these responsibilities front of mind, you can harness the power of AI tools while protecting yourself and your organisation from unnecessary risk."
         }
       ]
     }

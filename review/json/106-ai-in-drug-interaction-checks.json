@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "When AI Gets It Wrong",
-          "subtitle": "Real cases, real consequences.",
-          "slidecontent": "• AI missed fatal drug combos\n• Patients were seriously harmed\n• Alerts ignored or incomplete\n• Gaps in drug databases\n• Overconfidence in AI output"
+          "slidetitle": "Real-World AI Failures",
+          "subtitle": "Documented cases with serious consequences",
+          "slidecontent": "• Fatal drug combinations missed entirely\n• Patients harmed by overlooked interactions\n• Incomplete alerts provided false confidence\n• Critical gaps in underlying drug databases\n• Healthcare professionals overtrusted AI output"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising AI's Blind Spots",
-          "subtitle": "Where gaps in data create risk",
-          "slidecontent": "• AI tools trained on incomplete or outdated drug databases can miss newly identified interactions\n• Rare drug combinations often underrepresented in training data\n• Patients with unusual genetic profiles or multiple conditions may fall outside the patterns AI recognises\n• Off-label prescribing creates gaps AI rarely accounts for\n• No substitute for clinical judgement when the data is thin"
+          "slidetitle": "Training Data Limitations",
+          "subtitle": "What AI systems don't know",
+          "slidecontent": "• Newer medications not in training datasets\n• Rare drug combinations underrepresented\n• Outdated interaction knowledge\n• Missing coverage of emerging drug risks\n• Training focused on common scenarios only"
         },
         {
           "number": 4,
-          "slidetitle": "Recognising AI's Blind Spots",
-          "subtitle": "Where gaps in data create risk",
-          "slidecontent": "• Rare drugs often missing\n• Old data, new risks\n• Off-label uses overlooked\n• Herbal remedies ignored\n• Local formularies not included"
+          "slidetitle": "Overlooked Drug Categories",
+          "subtitle": "Blind spots in AI coverage",
+          "slidecontent": "• Herbal remedies and supplements ignored\n• Off-label prescribing uses not recognized\n• Local hospital formularies excluded\n• Specialty medications poorly represented\n• Over-the-counter drugs often missed"
         },
         {
           "number": 5,
-          "slidetitle": "Recognising AI's Blind Spots",
-          "subtitle": "Where gaps in data create risk",
-          "slidecontent": "• AI tools trained on incomplete or outdated drug databases may miss newly identified interactions\n• Rare drug combinations often underrepresented in training data\n• Patients with unusual genetic profiles or multiple conditions can fall outside the patterns AI recognises\n• Off-label prescribing creates gaps\n• AI may flag common interactions confidently while staying silent on less documented but equally dangerous ones\n• No substitute for clinical judgement when the full patient picture is complex"
+          "slidetitle": "Complex Patient Factors",
+          "subtitle": "When individual context matters most",
+          "slidecontent": "• Unusual genetic profiles fall outside AI patterns\n• Multiple overlapping conditions create complexity\n• Age-related metabolism changes not captured\n• Individual organ function variations ignored\n• Personal medical history context missing"
         },
         {
           "number": 6,
-          "slidetitle": "Gaps in AI Drug Alerts",
-          "subtitle": "Where critical warnings fall short",
-          "slidecontent": "• AI systems often miss interactions involving newer or rarely prescribed drugs not yet in their training data\n• Incomplete patient records mean the AI only checks what it can see\n• Some tools flag low-risk combinations but stay silent on genuinely dangerous ones\n• Polypharmacy cases (five or more drugs) can overwhelm alert logic\n• Alerts sometimes lack dosage context, making guidance too vague to act on\n• No built-in awareness of a patient's kidney or liver function, which changes everything"
+          "slidetitle": "Alert System Weaknesses",
+          "subtitle": "Why warnings fail in practice",
+          "slidecontent": "• Polypharmacy cases overwhelm alert logic\n• Dosage context frequently missing from warnings\n• Low-risk combinations flagged while dangerous ones missed\n• No integration with patient kidney or liver function\n• Alert fatigue leads to important warnings being ignored"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk With AI",
-          "subtitle": "Smarter Checks, Safer Patient Outcomes",
-          "slidecontent": "• AI flags risky drug combinations\n• Alerts appear before dispensing\n• Reduces human oversight gaps\n• Catches rare interaction patterns\n• Supports safer prescribing decisions"
+          "slidetitle": "Verification Strategies",
+          "subtitle": "How to safely use AI recommendations",
+          "slidecontent": "• Cross-check AI advice with trusted clinical sources\n• Consult pharmacists for complex interactions\n• Review complete patient medical history\n• Consider individual patient factors AI may miss\n• Use multiple resources for high-risk combinations"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Essential points to carry forward always",
-          "slidecontent": "• AI tools can miss dangerous drug combinations, so never rely on them as your only check\n• Always verify AI advice against a trusted clinical source or pharmacist\n• Patient context matters (allergies, age, kidney function) and AI may not have the full picture\n• When in doubt, escalate\n• Document any concerns about AI-generated interaction advice in the patient record\n• As a next step, practise running a familiar medication through an AI tool and then cross-checking the result manually"
+          "slidetitle": "Safe Practice Guidelines",
+          "subtitle": "Essential steps for every clinician",
+          "slidecontent": "• Never rely solely on AI for drug interaction checks\n• Always escalate uncertain or complex cases\n• Document AI-generated advice concerns in patient records\n• Verify recommendations against multiple sources\n• Maintain clinical judgment as primary safety check"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "So far in this course, we have looked at how AI can support drug interaction checks and where it genuinely adds value. But now we need to have an honest conversation about where things can go wrong. Because the truth is, AI does not always get it right, and when it misses something in a clinical setting, the consequences can be serious. Sometimes the system misreads a combination of drugs and flags the wrong risk, or worse, flags nothing at all. Sometimes alerts are generated so frequently that clinicians start to ignore them, which is a real and well-documented problem. There are also situations where the underlying data the AI relies on is simply incomplete or out of date. And because these errors can be subtle, they often slip through without anyone noticing until harm has already occurred. In this lesson, we are going to explore each of these gaps in detail, so you can understand the risks and know what to watch out for."
+          "script": "So far in this course, we have looked at how AI can support drug interaction checks and where it genuinely adds value. But now we need to have an honest conversation about where things can go wrong. Because the truth is, AI does not always get it right, and when it misses something in a clinical setting, the consequences can be serious. Sometimes the system misreads a combination of drugs and flags the wrong risk, or worse, flags nothing at all. Sometimes alerts are generated so frequently that clinicians start to ignore them, which is a real and well-documented problem. There are also situations where the underlying data the AI relies on is simply incomplete or out of date. And because these errors can be subtle, they often slip through without anyone noticing until harm has already occurred."
         },
         {
           "number": 2,
-          "script": "Before we explore how AI can help with drug interaction checks, we need to be honest about where it has fallen short. There have been real cases where AI systems failed to flag dangerous combinations of medications, and patients were seriously harmed as a result. In some instances, the alerts were there but were incomplete or so frequent that clinicians began to ignore them altogether. In other cases, the underlying drug databases simply had gaps, meaning the AI had no knowledge of certain interactions in the first place. And perhaps most concerning of all is the issue of overconfidence, where healthcare professionals trusted the AI output without questioning it, assuming the system had caught everything it needed to catch. These are not hypothetical risks. They are documented failures with serious consequences. So as we go through this course, it is important to keep this in mind: AI is a tool, and like any tool, it can be used well or poorly."
+          "script": "Let's look at specific cases where AI systems have failed in drug interaction checking, because these aren't hypothetical risks. There have been documented instances where AI missed fatal drug combinations entirely, leading to serious patient harm. In some cases, the systems provided incomplete alerts that gave healthcare professionals false confidence that everything had been checked properly. Critical gaps in the underlying drug databases meant certain interactions simply weren't flagged. Perhaps most concerning is when healthcare professionals placed too much trust in AI output, assuming the system had caught everything that needed attention. These real-world failures highlight why we can't treat AI as an infallible safety net."
         },
         {
           "number": 3,
-          "script": "So AI can be genuinely impressive at spotting drug interactions, but it does have real blind spots, and it's worth being honest about those. The biggest issue is that these tools are only as good as the data they were trained on. If that data is outdated, or if a particular drug combination is so rare it barely appeared in the training set, the AI simply won't flag it. The same applies to patients who don't fit the typical profile, perhaps someone with an unusual genetic makeup, or several overlapping conditions at once. Off-label prescribing is another area where AI tends to struggle, because it's working outside the boundaries of what it was taught. None of this means AI isn't useful, it absolutely is. But it does mean you can't hand over your clinical judgement to it. When the data is thin, your expertise and your knowledge of the individual patient in front of you still matter enormously."
+          "script": "One of the biggest challenges with AI drug interaction tools is that they're only as good as the data they were trained on. If newer medications aren't included in those datasets, the AI simply won't know how they interact with other drugs. Rare drug combinations are often underrepresented because there aren't enough cases in the training data for the AI to learn from. The knowledge may also be outdated, meaning recently discovered interaction risks haven't been captured yet. This creates a fundamental problem: AI systems are most confident about common drug interactions but may stay completely silent about newer or less documented risks that could be equally dangerous."
         },
         {
           "number": 4,
-          "script": "So we've established that AI can be genuinely useful for checking drug interactions, but it's not infallible, and this slide gets to the heart of why. The data these systems are trained on has real gaps, and those gaps can create genuine clinical risk. For instance, if a medication is rarely prescribed, there may simply not be enough data for the AI to flag a potential interaction accurately. Similarly, the training data might be outdated, meaning newer risks haven't been captured yet. If a drug is being used off-label, that use case may never have been included in the first place. Herbal remedies and supplements are another blind spot, often overlooked entirely despite being clinically relevant. And locally agreed formularies, the specific medicines your trust or organisation actually uses, are unlikely to feature in a generic AI system. So the message here is straightforward: AI is a support tool, not a safety net you can rely on completely."
+          "script": "There are entire categories of substances that AI systems often overlook, creating significant blind spots in interaction checking. Herbal remedies and dietary supplements are frequently ignored, despite having real potential for dangerous interactions with prescription medications. When drugs are prescribed for off-label uses, the AI may not recognize those specific applications. Local hospital formularies, with their particular selection of medications, are unlikely to be reflected in generic AI systems. Specialty medications used in specific therapeutic areas may be poorly represented, and even common over-the-counter drugs can be missed in interaction analysis."
         },
         {
           "number": 5,
-          "script": "So AI can be genuinely impressive at spotting drug interactions, but it does have blind spots, and it's important we understand where those gaps can appear. These tools are only as good as the data they were trained on. If that data is outdated, or if it simply doesn't include newer medications or rare drug combinations, the AI may not flag a problem even when one exists. The same applies to patients who don't fit the typical profile, perhaps someone with an unusual genetic makeup, multiple overlapping conditions, or who is taking a medication for an off-label purpose. In those situations, the AI might stay completely silent, not because there's no risk, but because it hasn't seen enough similar cases to recognise one. And that silence can feel reassuring when it really shouldn't be. This is precisely why clinical judgement remains so important. AI is a useful tool, but it cannot replace the full picture that an experienced clinician holds."
+          "script": "Individual patient factors create another layer of complexity that AI systems struggle to handle. Patients with unusual genetic profiles may metabolize drugs differently than the typical patterns AI recognizes. When someone has multiple overlapping medical conditions, the interaction between those conditions and various medications becomes incredibly complex. Age-related changes in metabolism, kidney function, and liver function all affect how drugs behave in the body, but most AI systems don't integrate this physiological data. The result is that patients who don't fit standard profiles may be at higher risk precisely because they fall outside what the AI was designed to recognize."
         },
         {
           "number": 6,
-          "script": "So we've seen what AI can do well, but let's be honest about where it struggles. One big issue is that AI systems are only as good as the data they were trained on, so newer or rarely prescribed drugs can slip through undetected. And if a patient's medical records are incomplete, the system simply cannot check what it doesn't know about. There's also a frustrating quirk where some tools will flag combinations that are actually quite low risk, while missing ones that are genuinely dangerous. When a patient is on five or more medications, the logic behind these alerts can really start to break down. On top of that, alerts often don't account for dosage, so the guidance feels too vague to be useful. Perhaps most critically, most systems have no awareness of how a patient's kidney or liver function might change how a drug behaves in their body. These are real, practical limitations that clinicians need to keep in mind."
+          "script": "Even when AI systems do generate alerts, there are practical problems that limit their effectiveness. Polypharmacy cases, where patients are taking five or more medications, can overwhelm the alert logic, making it difficult to prioritize truly dangerous combinations. Many alerts lack dosage context, so the guidance feels too vague to act on confidently. There's also a frustrating inconsistency where systems might flag relatively low-risk combinations while staying silent on genuinely dangerous ones. Without integration with patient-specific factors like kidney or liver function, the alerts can't account for how individual physiology affects drug behavior. All of this contributes to alert fatigue, where clinicians start ignoring warnings because they've lost trust in the system."
         },
         {
           "number": 7,
-          "script": "So let's talk about how AI is actually helping to reduce risk in practice. One of the most valuable things AI does is spot dangerous combinations of drugs before they ever reach the patient. Rather than waiting until after a prescription has been issued, these systems generate alerts at the point of dispensing, which means problems can be caught and addressed in real time. Now, we all know that human beings are brilliant, but we can miss things, especially under pressure or when dealing with a high volume of patients. AI helps to close those gaps. It can also identify rare interaction patterns that might not immediately come to mind, even for experienced clinicians. The result is that prescribers are better supported when making decisions, and patients are safer because of it. It is not about replacing professional judgement; it is about giving that judgement an extra layer of intelligent support."
+          "script": "Given these limitations, it's essential to have strategies for safely using AI recommendations. Always cross-check AI advice against trusted clinical sources or drug interaction databases. For complex cases, consult with pharmacists who can provide specialized expertise. Make sure you're considering the complete patient medical history, not just what the AI system can see. Think about individual patient factors that the AI may have missed, like age, organ function, or genetic factors. For high-risk drug combinations, use multiple resources rather than relying on a single AI tool. This layered approach helps ensure that important interactions don't slip through the cracks."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The most important thing to hold onto is this: AI is a helpful tool, but it is not a safety net on its own. It can miss dangerous combinations, and it simply may not know everything about your patient, their age, their kidney function, their allergies. So always cross-check what the AI tells you against a trusted clinical source or a pharmacist. If something feels off, or you are not sure, escalate it. Do not sit on uncertainty. And if you do have concerns about advice an AI tool has given, write it in the patient record. That documentation matters. Now, for your next step, I would encourage you to try this in practice. Pick a medication you know well, run it through an AI tool, and then check the result manually. See where they agree, and more importantly, see where they do not. That hands-on experience will really help to build your confidence and your critical eye."
+          "script": "Let's bring everything together with essential guidelines for safe practice. Never rely solely on AI for drug interaction checks - treat it as one tool among many, not a complete safety solution. When you encounter uncertainty or complex cases, always escalate to more experienced colleagues or specialists. If you have concerns about AI-generated advice, document those concerns in the patient record for continuity of care. Verify recommendations against multiple sources, especially for unfamiliar drug combinations. Most importantly, maintain your clinical judgment as the primary safety check. AI can support your decision-making, but it cannot replace the comprehensive assessment that only an experienced healthcare professional can provide."
         }
       ]
     }

@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "The Cost of Tiny Errors",
-          "subtitle": "Microscopic flaws, massive financial fallout.",
-          "slidecontent": "• One flaw fails whole boards\n• Recalls cost millions\n• Customers lose trust fast\n• Tiny gaps cause big fires\n• Rework wastes time, money"
+          "slidetitle": "Financial Impact of Manufacturing Defects",
+          "subtitle": "Real costs when precision fails.",
+          "slidecontent": "• Product recalls can cost manufacturers millions of pounds to resolve\n• Entire batches scrapped from single microscopic flaws\n• Customer trust erodes rapidly after quality failures\n• Rework burns through time and production budgets\n• Safety risks from overheating and component failures"
         },
         {
           "number": 3,
-          "slidetitle": "The Cost of Tiny Errors",
-          "subtitle": "Microscopic flaws, massive financial fallout.",
-          "slidecontent": "• One flaw, whole batch scrapped\n• Recalls cost millions\n• Tiny cracks cause circuit failure\n• Rework wastes time and money\n• Reputation damage spreads fast"
+          "slidetitle": "Common Defect Types and Patterns",
+          "subtitle": "What goes wrong at the microscopic level.",
+          "slidecontent": "• Hairline cracks in circuits invisible to naked eye inspection\n• Misaligned component placement causing board failures\n• Solder joint imperfections leading to connection issues\n• Surface contamination affecting electrical conductivity\n• Heat damage creating potential failure points"
         },
         {
           "number": 4,
-          "slidetitle": "Defect Detection in Action",
-          "subtitle": "Catching Faults Before They Escalate",
-          "slidecontent": "• AI-powered vision systems scanning solder joints for micro-cracks invisible to the human eye\n• Catches faults in real time\n• Automated optical inspection (AOI) flagging misaligned components before boards move down the line\n• Thermal imaging detecting heat anomalies that signal potential failure points\n• Defects identified early, before costly rework or product recalls become necessary"
+          "slidetitle": "AI Vision Systems in Action",
+          "subtitle": "How technology detects microscopic flaws.",
+          "slidecontent": "• AI-powered cameras scanning solder joints for micro-cracks\n• Automated optical inspection (AOI) flagging misaligned components\n• Thermal imaging detecting heat anomalies signaling potential failures\n• Real-time analysis during production flow\n• Machine learning models trained on thousands of defect examples"
         },
         {
           "number": 5,
-          "slidetitle": "Catching Defects Before They Spread",
-          "subtitle": "Early detection stops costly downstream failures.",
-          "slidecontent": "• AI spots faults instantly\n• Stops defects spreading further\n• Reduces scrap and rework\n• Flags issues before assembly\n• Saves time, saves money"
+          "slidetitle": "Prevention Through Early Detection",
+          "subtitle": "Stopping problems before they compound.",
+          "slidecontent": "• Instant fault identification prevents downstream cascading failures\n• Defects caught at source rather than final inspection\n• Reduces material waste from scrapped assemblies\n• Maintains production line efficiency and flow\n• Prevents compounding of initial small faults into major issues"
         },
         {
           "number": 6,
-          "slidetitle": "Catching Defects Before They Spread",
-          "subtitle": "Early detection prevents costly downstream failures.",
-          "slidecontent": "• AI vision systems scan solder joints and component placements in real time during production\n• Defects caught early, before boards move further down the line\n• A single missed fault can trigger failures across hundreds of finished units\n• Machine learning models flag anomalies too small for the human eye to reliably spot\n• Faster detection\n• Reduces the cost and waste of reworking or scrapping completed assemblies"
+          "slidetitle": "Real-Time Quality Monitoring",
+          "subtitle": "Continuous oversight throughout production.",
+          "slidecontent": "• AI systems scan every board as it moves through the line\n• Anomaly detection algorithms flag deviations from specifications\n• Immediate alerts to operators when issues are detected\n• Historical data tracking for process improvement insights\n• Integration with production management systems for workflow control"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk Through AI Oversight",
-          "subtitle": "Catching Errors Before They Escalate",
-          "slidecontent": "• AI spots faults instantly\n• Flags micro-cracks early\n• Stops bad batches shipping\n• Reduces costly rework\n• Alerts operators immediately"
+          "slidetitle": "Risk Mitigation Strategies",
+          "subtitle": "Building robust quality control frameworks.",
+          "slidecontent": "• Multiple inspection points throughout the manufacturing process\n• AI systems act as constant quality watchdogs\n• Operator alerts enable immediate intervention decisions\n• Quality data feeds back into process optimization\n• Backup systems ensure no single point of failure"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core lessons from precision and risk.",
-          "slidecontent": "• Even tiny defects at the micro level can trigger failures across thousands of finished products\n• AI catches what human inspectors miss\n• Precision and speed together reduce both waste and costly rework downstream\n• Training data quality shapes how well any AI system performs in real production environments\n• Start small, test thoroughly, then scale\n• Explore one AI inspection tool relevant to your production line as a practical next step"
+          "slidetitle": "Implementation Best Practices",
+          "subtitle": "Getting started with AI-powered inspection.",
+          "slidecontent": "• Start with pilot programs on single production lines\n• Invest in high-quality training data for AI models\n• Test systems thoroughly before full-scale deployment\n• Train operators on interpreting AI system outputs\n• Plan gradual scaling based on proven results\n• Choose inspection tools matched to your specific defect risks"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "Let's start by thinking about why precision matters so much in electronics manufacturing. When you're dealing with components that are sometimes smaller than a grain of sand, even the tiniest mistake can have enormous consequences. A single microscopic flaw on a circuit board doesn't just affect that one component, it can cause the entire board to fail. And when that happens at scale, you're looking at product recalls that can cost manufacturers millions of pounds to resolve. Beyond the financial hit, there's the damage to reputation. Customers who receive faulty products lose confidence quickly, and that trust is incredibly hard to win back. There are also serious safety concerns to consider. A tiny gap or misalignment in a connection can lead to overheating, and in some cases, that means fires. Even when the problem is caught early, fixing it through rework is expensive and time-consuming. So the stakes here really are very high, and that's exactly why this industry is turning to AI for help."
+          "script": "Let's examine the real financial impact when quality control fails in electronics manufacturing. Product recalls can cost manufacturers millions of pounds, and that's before you factor in legal costs and regulatory fines. Often, a single microscopic flaw means entire batches must be scrapped, not just individual units. The business impact extends beyond immediate costs. Customer trust, built over years, can be severely damaged by one high-profile quality failure. Word travels fast in today's connected world. Even when defects are caught before shipping, rework consumes significant time and budget resources. And there are genuine safety concerns too - overheating from faulty connections can lead to fires in consumer electronics. The pressure to maintain perfect quality, every single time, creates an environment where traditional inspection methods simply cannot keep up."
         },
         {
           "number": 3,
-          "script": "Let's talk about what's actually at stake when something goes wrong in electronics manufacturing, because the consequences can be staggering. Imagine a single microscopic flaw making it through the production line. In many cases, that one defect means the entire batch has to be scrapped, not just the one faulty unit. And if products do reach customers, a recall can cost a company millions of pounds, and that's before you even factor in the legal side of things. Now, these aren't always obvious, visible faults. Sometimes it's a hairline crack in a circuit that you simply cannot see with the naked eye, but it will cause the device to fail in the field. Even when defects are caught early, reworking those components burns through time and budget. And perhaps most damaging of all, word travels fast. A reputation built over years can take a serious hit from just one high-profile quality failure. So the pressure to get things right, every single time, is enormous."
+          "script": "Understanding what actually goes wrong helps us appreciate why AI inspection is so valuable. We're dealing with hairline cracks in circuits that are genuinely invisible to human inspectors, even with magnification. Component placement errors of just a fraction of a millimetre can cause entire boards to fail. Solder joints might look perfect to the eye but contain microscopic imperfections that will cause connection failures months later. Surface contamination from manufacturing processes can affect electrical conductivity in ways that won't show up until the product is in use. Heat damage during assembly creates weak points that become failure risks over time. These aren't dramatic, obvious faults - they're subtle defects that require sophisticated detection methods to catch reliably."
         },
         {
           "number": 4,
-          "script": "So let's look at how AI actually catches defects in practice. One of the most impressive applications is AI-powered vision systems that scan solder joints for tiny micro-cracks, the kind that are simply too small for a human inspector to spot reliably. And importantly, this happens in real time, so nothing slips through unnoticed. We also have automated optical inspection, or AOI, which checks that every component is correctly positioned on the board before it moves any further down the production line. Then there is thermal imaging, which picks up unusual heat patterns that could indicate a component is about to fail. Now, why does all of this matter? Because catching a fault early is dramatically cheaper and less disruptive than dealing with it later. Rework is expensive, and product recalls can be genuinely damaging to a business. AI gives manufacturers the ability to intervene at exactly the right moment, before small problems become very big ones."
+          "script": "Now let's look at how AI vision systems actually work in practice. High-resolution cameras equipped with AI algorithms can scan solder joints and identify micro-cracks that would be impossible for human inspectors to spot consistently. Automated optical inspection systems use machine learning to flag components that are even slightly misaligned from their correct positions. Thermal imaging adds another layer, detecting unusual heat patterns that indicate components under stress or connections with high resistance. What makes these systems particularly powerful is that they operate in real-time as boards move through production. The AI models have been trained on thousands of examples of both good and defective components, so they can make accurate judgments about quality instantly."
         },
         {
           "number": 5,
-          "script": "One of the most powerful things AI brings to electronics manufacturing is speed of detection. Traditional inspection methods might catch a defect after dozens or even hundreds of faulty components have already moved down the line. AI changes that completely. It can spot a problem the moment it appears, whether that is a misaligned component, a solder defect, or a surface flaw, and it flags it immediately before anything else goes wrong. That early warning is incredibly valuable, because defects have a habit of compounding. One small fault at the start of a process can turn into a much bigger, more expensive problem by the time you reach final assembly. By catching issues early, you are cutting down on wasted materials, reducing the time your team spends on rework, and keeping your production line moving efficiently. Ultimately, faster detection means lower costs and fewer headaches, and that is a benefit every manufacturer can appreciate."
+          "script": "The key advantage AI brings is prevention through early detection. Traditional quality control often catches problems only at final inspection, by which time defective components may have already been assembled into complex products. AI changes this completely by identifying faults the moment they occur. This prevents what we call cascading failures, where one small defect early in the process creates much larger problems downstream. When you catch a misaligned component immediately, you avoid the waste of continuing to build around a faulty foundation. This approach dramatically reduces material waste, keeps production lines flowing efficiently, and prevents small problems from compounding into expensive failures. It's much cheaper to fix one defective board than to scrap an entire batch of finished assemblies."
         },
         {
           "number": 6,
-          "script": "One of the most powerful things AI brings to electronics manufacturing is the ability to catch problems early, and I mean really early, before they have a chance to snowball. As boards move through the production line, AI vision systems are constantly scanning solder joints and component placements in real time, looking for anything that is not quite right. Now, here is why that matters so much. If a fault slips through undetected, it does not just affect one board. It can trigger failures across hundreds of finished units further down the line, which is an enormously expensive problem to fix. What makes these systems particularly impressive is that they can spot anomalies that are genuinely too small for the human eye to catch consistently. And because detection happens so much faster, manufacturers can intervene immediately rather than discovering the issue after a batch of completed assemblies has already been built. That saves a significant amount of time, money, and wasted materials."
+          "script": "What sets modern AI systems apart is their ability to provide continuous, real-time monitoring throughout the entire production process. As each board moves through the line, AI cameras and sensors are constantly analyzing every aspect of the manufacturing process. These systems use sophisticated anomaly detection algorithms that can spot even tiny deviations from specifications that human eyes would miss. When an issue is detected, operators receive immediate alerts with detailed information about what was found and where. The system also builds a comprehensive database of quality information over time, which becomes invaluable for identifying trends and optimizing the manufacturing process. Integration with production management systems means quality data can automatically influence workflow decisions."
         },
         {
           "number": 7,
-          "script": "So let's talk about how AI actually reduces risk on the production line. One of the most valuable things AI does is catch problems the moment they appear, rather than waiting until a batch has already been completed or, worse, shipped to a customer. We're talking about things like micro-cracks in components, which are incredibly difficult for the human eye to spot but can cause a product to fail in the field. AI can flag these early, which means you can stop a faulty batch before it goes any further. That saves you from expensive rework, from scrapping materials, and from the reputational damage of sending out defective products. And it doesn't just log the issue quietly in the background. It alerts the operator straight away, so a real person can step in and make a decision quickly. Essentially, AI acts as a constant, tireless watchdog, keeping quality high and risk low throughout the entire manufacturing process."
+          "script": "Effective risk mitigation requires a comprehensive approach to quality control. The most robust systems use multiple inspection points throughout the manufacturing process, creating layers of protection against defects. AI systems essentially act as tireless quality watchdogs, never getting tired or losing focus the way human inspectors might. When problems are detected, immediate alerts allow operators to make informed decisions quickly about whether to stop production, adjust settings, or investigate further. The quality data these systems generate also feeds back into process optimization, helping manufacturers understand and eliminate the root causes of defects. Importantly, backup systems and redundancy ensure there's no single point of failure in the quality control process."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together. The big lesson here is that in electronics manufacturing, tiny problems at the microscopic level can ripple outwards and affect thousands of finished products, so catching defects early really does matter. AI gives us the ability to spot faults that human inspectors would simply miss, and when you combine that precision with speed, you reduce waste and avoid expensive rework further down the line. But remember, an AI system is only as good as the data you train it on, so investing in quality training data is not optional, it is essential. If you are just getting started, the sensible approach is to begin small, test your system thoroughly, and then scale up once you have confidence in the results. As a practical next step, I would encourage you to explore one AI inspection tool that is relevant to your own production line. Even a small experiment can teach you a great deal."
+          "script": "If you're considering implementing AI-powered inspection, the smart approach is to start small and scale gradually. Begin with pilot programs on a single production line where you can thoroughly test and refine the system. The quality of your training data is absolutely critical - AI systems are only as good as the examples they learn from, so invest in comprehensive, high-quality datasets. Test extensively before full deployment, and make sure your operators are properly trained on interpreting AI system outputs and making appropriate decisions. Plan your scaling based on proven results rather than rushing to deploy across all lines at once. Most importantly, choose inspection tools that are specifically matched to your most critical defect risks. Even a small initial investment in AI quality control can provide valuable learning and measurable improvements."
         }
       ]
     }

@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "What Could Go Wrong?",
-          "subtitle": "Exploring the risks of AI messaging.",
-          "slidecontent": "• Tone can feel off-brand\n• Facts may be wrong\n• Audiences notice inauthenticity\n• Reputations can suffer quickly\n• Small errors, big consequences"
+          "slidetitle": "The Real Stakes of AI Messaging",
+          "subtitle": "Why small missteps become big problems",
+          "slidecontent": "• AI accelerates content creation but amplifies risks\n• Tone misalignment damages brand trust\n• Factual errors undermine credibility\n• Audiences detect inauthenticity quickly\n• Minor mistakes can escalate rapidly"
         },
         {
           "number": 2,
-          "slidetitle": "When AI Gets the Tone Wrong",
-          "subtitle": "Misreading the room, missing the mark.",
-          "slidecontent": "• AI tools trained on broad data often miss the specific tone a brand has spent years building\n• A casual, jokey output for a serious financial services brand\n• Mismatched tone can feel jarring or even offensive to loyal customers\n• Context clues like recent news or cultural sensitivities are frequently overlooked\n• The result: messaging that sounds generic, cold, or simply wrong for the moment"
+          "slidetitle": "The Tone Challenge",
+          "subtitle": "Why AI struggles with brand voice",
+          "slidecontent": "• AI trained on generic content defaults to neutral tone\n• Lacks understanding of your specific brand personality\n• Misses cultural context and timing sensitivity\n• Cannot adapt to audience nuances or recent events\n• Produces broadly acceptable rather than distinctly yours"
         },
         {
           "number": 3,
-          "slidetitle": "Tone Risks in AI Content",
-          "subtitle": "When tone misses the mark badly",
-          "slidecontent": "• Too formal, feels cold\n• Too casual, seems unprofessional\n• Humour lands badly\n• Wrong tone for the audience\n• Brand voice sounds inconsistent"
+          "slidetitle": "Common Tone Failures",
+          "subtitle": "How AI messaging goes wrong",
+          "slidecontent": "• Overly formal content sounds cold and distant\n• Too casual approach undermines professionalism\n• Attempted humour falls flat or offends\n• Wrong register for specific audience segments\n• Inconsistent voice across different outputs"
         },
         {
           "number": 4,
-          "slidetitle": "Tone Risks and Brand Voice",
-          "subtitle": "When AI Misreads Your Brand's Tone",
-          "slidecontent": "• AI tools trained on generic data often default to a neutral or overly formal tone that clashes with an established brand voice\n\n• A playful, irreverent brand can sound stiff and corporate overnight\n\n• Subtle shifts in language, word choice, or sentence rhythm can quietly erode the personality customers recognise and trust\n\n• Tone inconsistency across channels confuses audiences and weakens brand recall\n\n• Without clear guidelines fed into the prompt, AI has no reliable way to replicate the nuance of a human-crafted voice"
+          "slidetitle": "Factual Accuracy Risks",
+          "subtitle": "When AI gets the details wrong",
+          "slidecontent": "• AI confidently states incorrect information\n• Statistics and data points may be fabricated\n• Outdated information from training data\n• Cannot verify claims against current sources\n• Legal and compliance issues from false statements"
         },
         {
           "number": 5,
-          "slidetitle": "Protecting Your Brand's Reputation",
-          "subtitle": "Safeguarding trust in every message",
-          "slidecontent": "• Review every AI draft carefully\n• Check tone matches your brand\n• Verify all facts and figures\n• Spot offensive or biased language\n• Approve before publishing anything"
+          "slidetitle": "Reputational Damage Patterns",
+          "subtitle": "How trust erodes over time",
+          "slidecontent": "• Single viral mistake can spread rapidly\n• Cumulative effect of small inconsistencies\n• Loss of authentic brand connection\n• Competitor advantage from your missteps\n• Recovery is slower than damage"
         },
         {
           "number": 6,
-          "slidetitle": "Protecting Your Brand's Reputation",
-          "subtitle": "Safeguarding trust in every message.",
-          "slidecontent": "• Always review AI-generated copy before it reaches your audience\n• Tone mismatches can quietly erode customer trust over time\n• Check facts\n• Brand voice guidelines help AI tools produce more consistent, on-brand output\n• A single poorly worded message can spread quickly and cause lasting reputational harm\n• Approval workflows catch errors that automated tools routinely miss"
+          "slidetitle": "Essential Review Process",
+          "subtitle": "Your quality control checklist",
+          "slidecontent": "• Never publish AI content without human review\n• Verify all facts, figures, and claims\n• Check tone alignment with brand guidelines\n• Screen for potentially offensive language\n• Test readability for target audience"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Your Brand's Reputation",
-          "subtitle": "Safeguarding trust through careful oversight.",
-          "slidecontent": "• Review all AI output first\n• Check facts and tone\n• Approve before publishing\n• Monitor audience reactions\n• Correct errors quickly"
+          "slidetitle": "Building Protective Workflows",
+          "subtitle": "Systems that catch problems early",
+          "slidecontent": "• Create approval checkpoints before publication\n• Monitor audience reactions post-launch\n• Establish rapid response for corrections\n• Document common AI errors for team awareness\n• Regular brand voice calibration sessions"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "What to carry forward from here",
-          "slidecontent": "• AI can mimic your brand voice but cannot guarantee accuracy or contextual judgement\n\n• Always review AI-generated copy before it goes anywhere near your audience\n\n• Tone mismatches and factual errors are the two biggest risks to watch for\n\n• Unchecked AI output can quietly erode trust\n\n• Build a simple approval step into your workflow to catch problems early\n\n• Start small, test outputs against your brand guidelines, and adjust from there"
+          "slidetitle": "Your Action Plan",
+          "subtitle": "Moving forward responsibly",
+          "slidecontent": "• Treat AI as a drafting tool, not final output\n• Build consistent review habits into workflow\n• Focus on tone and accuracy as primary risks\n• Start small and test against brand standards\n• Remember: oversight prevents reputation damage"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on AI-generated brand messaging risks. Now, AI tools can be genuinely brilliant for speeding up content creation, but they do come with some real pitfalls that are worth understanding before you dive in. So, what could actually go wrong? Well, quite a lot, if you are not careful. The tone of your messaging might feel slightly off, not quite sounding like your brand. The information generated might not be accurate, and that can cause serious problems. Here is the thing as well: audiences are surprisingly good at spotting when something feels a bit hollow or inauthentic, even if they cannot quite put their finger on why. And when trust starts to erode, your reputation can take a hit very quickly indeed. Perhaps most importantly, what might seem like a small mistake, a wrong statistic, an awkward phrase, can snowball into something much bigger. Throughout this lesson, we are going to explore each of these risks so you can use AI tools confidently and responsibly."
+          "script": "Welcome to this lesson on AI-generated brand messaging risks. AI tools are genuinely brilliant for speeding up content creation, but they come with real pitfalls that are worth understanding before you dive in. The challenge is that AI amplifies everything, including your mistakes. When your tone feels slightly off-brand, or when information is inaccurate, AI can distribute that problem at scale very quickly. Audiences are surprisingly good at detecting when something feels hollow or inauthentic, even if they can't articulate why. And here's the crucial point: what might seem like a minor error can snowball into major reputational damage. Throughout this lesson, we'll explore each of these risks so you can use AI tools confidently and responsibly."
         },
         {
           "number": 2,
-          "script": "Let's start with something that might feel familiar. You've spent years, maybe decades, carefully crafting how your brand sounds. There's a warmth to it, or a gravitas, or a particular kind of wit that your customers recognise and trust. Then you hand a brief to an AI tool, and what comes back feels... off. Maybe it's too breezy for a brand that deals with people's life savings. Maybe it's too stiff for a brand that prides itself on being approachable. The problem is that AI is trained on enormous amounts of general content, so it tends to produce something that sounds broadly acceptable rather than specifically right for you. And it rarely picks up on context, things like a sensitive news story that's just broken, or a cultural moment that changes how certain words land. The result is messaging that feels generic at best, and genuinely tone-deaf at worst."
+          "script": "Let's start with why tone is so problematic for AI. You've spent years crafting how your brand sounds, there's a specific warmth, gravitas, or wit that your customers recognise. Then you feed a brief to an AI tool, and what comes back feels generic. The core issue is that AI is trained on enormous amounts of general content, so it defaults to something broadly acceptable rather than specifically right for your brand. It rarely picks up on context like sensitive news stories or cultural moments that change how certain words land. The result is messaging that sounds like it could have come from any company, not yours specifically."
         },
         {
           "number": 3,
-          "script": "One of the most common ways AI-generated content goes wrong is with tone, and it can go wrong in several directions at once. Sometimes the output sounds overly stiff and formal, almost like a legal document, which can make your brand feel cold and unapproachable. Other times it swings the opposite way, coming across as far too casual or even a bit flippant, which can undermine trust. Humour is particularly tricky. What reads as witty in the AI's output can land as awkward or even offensive to a real audience. And even when the tone seems reasonable in isolation, it might simply be wrong for the specific people you are trying to reach. Perhaps the biggest issue, though, is inconsistency. If different pieces of AI-generated content carry different tones, your brand starts to feel fragmented and unreliable. Audiences notice that, even if they cannot quite put their finger on why something feels off."
+          "script": "AI tone problems typically fall into predictable patterns. Sometimes the output sounds overly formal, almost like a legal document, making your brand feel cold and bureaucratic. Other times it swings too casual, undermining the professionalism you've worked to establish. Humour is particularly dangerous, what reads as clever in the AI's output often lands as awkward or tone-deaf with real audiences. But perhaps the most damaging issue is inconsistency. When different pieces of AI content carry different voices, your brand starts to feel fragmented. Customers notice this lack of coherence, even subconsciously, and it weakens their connection to your brand."
         },
         {
           "number": 4,
-          "script": "Tone is one of the trickiest things to get right with AI-generated content, and it's where a lot of brands quietly come unstuck. Most AI tools are trained on enormous amounts of general text, so they tend to produce writing that feels neutral, polished, and a little... corporate. That might work for some businesses, but if your brand has a distinct personality, something playful, bold, or conversational, that generic tone can feel completely off. And the problem is, it often happens gradually. A slightly stiffer sentence here, a more formal word choice there, and before long your audience starts to feel like they're reading something that just doesn't sound like you anymore. That inconsistency across your website, your emails, your social media, it all adds up and weakens the connection people have with your brand. The root cause is usually simple: the AI hasn't been given enough guidance. Without clear instructions about your voice, it's essentially guessing."
+          "script": "Now let's talk about factual accuracy, which is where AI can cause serious legal and credibility problems. AI tools can confidently present completely incorrect information, made-up statistics, or outdated data from their training. They cannot fact-check against current sources or verify claims in real-time. This means you might publish content stating that your product has won awards it hasn't received, or citing industry statistics that are simply fabricated. In regulated industries, these kinds of factual errors can create compliance issues and legal liability. The danger is that AI presents false information with the same confidence as accurate information."
         },
         {
           "number": 5,
-          "script": "So, we've talked about the risks, and now let's look at how you actually protect your brand when you're using AI to generate messaging. The golden rule here is simple: never publish anything without a human reviewing it first. That means reading every draft carefully and asking yourself whether it genuinely sounds like your brand, because AI can sometimes produce content that feels a little off or generic. You also need to fact-check everything. AI tools can confidently state figures or information that are simply wrong, and that kind of mistake can seriously damage your credibility. Beyond accuracy, you want to watch out for language that could come across as offensive or biased, even unintentionally, because your audience will notice. Think of yourself as the final gatekeeper. AI is a brilliant tool for speeding up your workflow, but your judgement and your values are what keep your brand's reputation intact. Always approve before anything goes live."
+          "script": "Reputational damage from AI messaging happens in two ways: sudden crises and gradual erosion. The sudden crisis occurs when a single piece of problematic content goes viral, a tone-deaf response to current events or a factually incorrect claim that competitors and critics amplify. But often more dangerous is the gradual erosion, where small inconsistencies and authenticity issues accumulate over time. Customers slowly lose that sense of connection with your brand. They might not be able to articulate why, but your messaging starts to feel less trustworthy, less distinctly yours. Recovery from reputational damage is always slower and more expensive than the initial harm."
         },
         {
           "number": 6,
-          "script": "So, how do we actually protect our brand's reputation when we're using AI to help write our messaging? The most important habit you can build is this: never let AI-generated content go straight to your audience without a human reviewing it first. AI tools can get facts wrong, and even subtle tone mismatches, where the writing just feels a little off, can quietly chip away at the trust your customers have in you. And in today's world, one poorly worded message can spread very quickly and do real, lasting damage. The good news is that there are practical steps you can take right now. Give your AI tools clear brand voice guidelines so they have something consistent to work from. And put a proper approval process in place, because having a real person check the content before it goes out is one of the simplest and most effective ways to catch mistakes before they become problems."
+          "script": "So how do you protect yourself? The fundamental rule is never publish AI-generated content without human review. This means reading every draft and asking whether it genuinely sounds like your brand and serves your audience. You need to fact-check everything, AI can state figures confidently that are completely wrong. Look for language that could be interpreted as offensive or biased, even unintentionally. Test the readability for your specific audience, sometimes AI produces content that's too complex or too simple for the people you're trying to reach. Think of yourself as the editor who ensures quality before anything reaches your customers."
         },
         {
           "number": 7,
-          "script": "So, we've talked about the risks, and now let's look at how you actually protect your brand when you're using AI to generate messaging. The most important habit to build is this: never let AI content go straight to your audience without a human reviewing it first. That means checking the facts are accurate, making sure the tone feels right for your brand, and getting proper sign-off before anything is published. Think of yourself as the editor, not just the publisher. But your responsibility doesn't stop once something goes live. You also want to keep an eye on how your audience is responding. Are people confused? Are there complaints? If something has gone wrong, act quickly to correct it and address any concerns. The faster you respond to a mistake, the less damage it tends to cause. Careful oversight like this is really what keeps your brand's reputation intact when you're working with AI tools."
+          "script": "Building protective workflows means creating systems, not just individual habits. Establish clear approval checkpoints where designated team members review content before it goes live. Monitor how your audience responds after publication, are people confused, are there complaints, are engagement metrics dropping? When you do spot errors, have a rapid response process to correct them and address concerns publicly if needed. Document the common types of mistakes your AI tools make so your whole team learns to watch for them. Regular brand voice calibration sessions help ensure everyone understands how to evaluate whether AI output truly sounds like your organisation."
         },
         {
           "number": 8,
-          "script": "So let's bring this all together. The core thing to hold onto is that AI is a genuinely useful tool for brand messaging, but it needs you in the loop. It can produce copy that sounds like your brand, but it cannot think critically about context, and it can get facts wrong. Those two things, tone and accuracy, are where the real risks live. And here's the quiet danger: if you let errors slip through consistently, your audience starts to lose confidence in you, often without you even realising it. The good news is that the fix is straightforward. Add a simple review step before any AI-generated content reaches your audience. Check it against your brand guidelines, ask whether it sounds right, and verify any claims it makes. Start small, test as you go, and build from there. You do not need a complicated process. You just need a consistent one."
+          "script": "Let's bring this all together with your action plan going forward. Treat AI as a sophisticated drafting tool, not a replacement for human judgment and oversight. Build consistent review habits into your workflow, focusing particularly on tone alignment and factual accuracy as your primary risk areas. Start small with low-stakes content, test outputs rigorously against your brand guidelines, and document what works and what doesn't. Remember that the goal isn't to avoid AI tools, it's to use them responsibly with proper safeguards. Your careful oversight is what transforms AI from a potential liability into a genuine competitive advantage."
         }
       ]
     }

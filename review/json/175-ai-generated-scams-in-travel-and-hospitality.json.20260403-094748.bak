@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI-Generated Scams in Travel and Hospitality",
+  "Category": "Hospitality & Tourism: Hotels, Tourism, Travel Agencies, Food & Beverage",
+  "Description": "Fake bookings, phishing, and impersonation risks.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday internet use and a general awareness of how travel bookings are made online is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI-generated scams targeting the travel and hospitality sector, including fake bookings, phishing attempts, and impersonation schemes. You will also be able to explain how these threats operate and apply practical strategies to protect your business and customers from falling victim to them.",
+  "lessons": [
+    {
+      "lesson title": "AI-Generated Scams in Travel and Hospitality",
+      "order": 1,
+      "Description": "Artificial intelligence is making it easier than ever for scammers to create convincing fake travel websites, fraudulent booking confirmations, and highly personalised phishing emails that are difficult to spot. This lesson introduces you to the most common AI-generated scams targeting travellers and hospitality businesses, including fake hotel listings, impersonation of well-known travel brands, and deceptive customer service chatbots. You will learn how these scams are constructed, what warning signs to look out for, and how to protect yourself and your organisation from falling victim. The content is designed for beginners, so no prior knowledge of artificial intelligence or cybersecurity is required. By the end of this lesson, you will feel more confident identifying suspicious activity and taking practical steps to stay safe when booking or managing travel.",
+      "status": "draft",
+      "content": "Fake bookings, phishing, and impersonation risks.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Spotting scams before they catch you.",
+          "slidecontent": "• AI tools are now being used to create convincing fake travel deals and fraudulent booking sites\n• Scammers target hotels, airlines, and holiday rentals\n• Phishing emails and fake customer service accounts are increasingly hard to spot\n• Real losses, real victims\n• This course gives you practical skills to recognise and avoid these threats before they cause harm"
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Rise of AI Scams",
+          "subtitle": "How scammers are exploiting AI tools",
+          "slidecontent": "• AI tools now make it cheap and fast to create convincing fake travel websites, emails, and listings\n• Scammers use AI to personalise phishing messages at scale\n• Even experienced travellers are being fooled\n• Fake hotel bookings, airline deals, and holiday rentals are among the most common targets\n• The technology is advancing faster than most people's awareness of the risks"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting Fake Booking Requests",
+          "subtitle": "Warning signs to watch for",
+          "slidecontent": "• Requests arriving from free email addresses like Gmail or Hotmail rather than a business domain\n• Urgency in the message, pressuring you to confirm quickly\n• Unusual payment methods requested, such as wire transfers or gift cards\n• Poor spelling or oddly formal phrasing that feels slightly off\n• No verifiable contact details or company address included\n• Booking details that don't match your standard forms or systems"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Common AI Scam Tactics Used",
+          "subtitle": "Tactics scammers use to deceive travellers",
+          "slidecontent": "• Fake hotel websites created instantly\n• Cloned booking confirmation emails\n• AI chatbots posing as agents\n• Deepfake customer service calls\n• Phishing links in travel deals"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Fake Travel Offers",
+          "subtitle": "Too good to be true? Think twice.",
+          "slidecontent": "• Prices dramatically below market rate, a classic warning sign\n• Urgency tactics like \"only 2 rooms left\" designed to rush your decision\n• Suspicious\n• No verifiable address, phone number, or company registration details\n• Payment requests via bank transfer or gift card instead of secure methods\n• Offers arriving unsolicited by email or social media, even from familiar-looking accounts"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Red Flags Early",
+          "subtitle": "Warning signs before you commit",
+          "slidecontent": "• Prices seem impossibly low\n• No HTTPS on payment page\n• Urgent \"book now\" pressure\n• Vague or missing contact details\n• Reviews look copied or identical"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Yourself Going Forward",
+          "subtitle": "Staying safe in an AI world",
+          "slidecontent": "• Verify bookings directly with providers\n• Use official websites only\n• Trust your instincts always\n• Enable two-factor authentication\n• Report suspicious activity promptly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Stay alert, stay safe online.",
+          "slidecontent": "• Verify before you book\n• Check URLs carefully\n• Trust your instincts\n• Report suspicious messages\n• Share this with others"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course. Over the next few lessons, we're going to look at something that's becoming a very real problem for travellers and hospitality businesses alike. Artificial intelligence has made it easier than ever for scammers to create fake travel deals, fraudulent booking websites, and phishing emails that look almost identical to the real thing. Hotels, airlines, holiday rentals, none of them are off limits. And the people behind these scams are getting more sophisticated all the time, even setting up fake customer service accounts to catch people off guard. The consequences are serious. We're talking about real people losing real money, sometimes significant amounts. So this course is designed to give you practical, straightforward skills to help you spot these threats before they do any damage. You don't need a technical background to follow along. Everything we cover is accessible and immediately useful. Let's get started."
+        },
+        {
+          "number": 2,
+          "script": "So, let us talk about why this is such a pressing issue right now. Not long ago, creating a convincing fake travel website or a professional-looking booking confirmation took real skill and effort. That is simply no longer the case. AI tools have made it remarkably cheap and quick for scammers to produce fake hotel listings, fraudulent airline deals, and bogus holiday rental pages that look completely legitimate. What makes this even more concerning is that these tools also allow scammers to personalise their messages, so a phishing email no longer feels like a generic, obvious attempt. It can feel like it was written specifically for you. And the result? Even seasoned, experienced travellers are being caught out. The technology is genuinely moving faster than most people's awareness of the risks, which is exactly why understanding this matters so much. Over the next few lessons, we are going to help you recognise the warning signs before they cost you."
+        },
+        {
+          "number": 3,
+          "script": "So, how do you spot a fake booking request before it causes a problem? There are a few tell-tale signs worth knowing. First, check where the email is coming from. Legitimate businesses use their own domain, so if it's coming from a Gmail or Hotmail address, that's a red flag straight away. Watch out for pressure tactics too, where someone is pushing you to confirm quickly without giving you time to think. Be cautious if they're asking for unusual payment methods like wire transfers or gift cards, because genuine customers rarely request those. The language can also give things away. It might be oddly formal, slightly stilted, or just feel a bit off. If there are no verifiable contact details or a proper company address, that's another warning sign. And finally, if the booking details don't match your usual forms or systems, trust your instincts. Something probably isn't right."
+        },
+        {
+          "number": 4,
+          "script": "So let's look at the specific tactics that scammers are now using, and honestly, some of these are quite alarming. With AI, fraudsters can spin up a convincing fake hotel website in minutes, complete with professional photos, reviews, and a booking form that looks entirely legitimate. They can also clone real confirmation emails so precisely that you would struggle to tell the difference from the genuine article. Then there are AI-powered chatbots that pretend to be travel agents, answering your questions fluently and building your trust before taking your money. Taking it even further, some scammers are now using deepfake technology to impersonate customer service representatives in actual phone calls, with a voice that sounds completely real. And finally, phishing links are being embedded inside what appear to be brilliant travel deals, tempting you to click through to a fraudulent site. Each of these tactics is designed to exploit your trust, so awareness really is your first line of defence."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot a fake travel offer before it catches you out? The first thing to look for is the price. If a deal seems dramatically cheaper than anything else you can find, that is a serious red flag. Scammers also love to create a sense of urgency, telling you there is only one room left or the offer expires in an hour, because they want you to act before you think. Always check whether the company has a verifiable address, a phone number, and proper registration details. If you cannot find any of that, walk away. Pay close attention to how they are asking you to pay as well. Requests for bank transfers or gift cards are a huge warning sign, since those payments are almost impossible to recover. And finally, be cautious about unsolicited offers arriving by email or social media, even if the account looks familiar. Scammers are very good at impersonating legitimate brands."
+        },
+        {
+          "number": 6,
+          "script": "So before you hand over any money or personal details, there are some really telling warning signs to watch out for. First, if a deal looks almost too good to be true, a five-star hotel for twenty pounds a night, for example, it almost certainly is. Scammers use artificially low prices to grab your attention quickly. Next, always check the web address on any payment page. If it does not start with HTTPS, do not enter your card details. You should also be wary of high-pressure tactics, messages telling you there is only one room left or that the offer expires in ten minutes. That urgency is designed to stop you thinking clearly. Legitimate businesses will always provide clear contact information, so vague or missing details are a real concern. And finally, if the reviews all sound oddly similar or use the same phrases, they may well have been generated automatically. Trust your instincts on these things."
+        },
+        {
+          "number": 7,
+          "script": "So, as we wrap up, let's talk about what you can actually do to protect yourself going forward. First, always confirm your booking directly with the hotel, airline, or tour operator, rather than relying solely on a third-party email or message. And when you're making bookings online, stick to official websites. If something looks slightly off about a URL, trust that feeling, because your instincts are genuinely one of your best defences here. Speaking of which, if a deal feels too good to be true, it probably is, so don't ignore that nagging doubt. On the technical side, make sure you've switched on two-factor authentication for any travel accounts or payment apps you use. It adds a simple but powerful extra layer of security. And finally, if you do spot something suspicious, report it promptly, whether that's to the company involved, your bank, or the relevant authorities. The sooner it's flagged, the better for everyone."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few key things to keep in mind. Before you book anything, always take a moment to verify that the website or offer is legitimate. Double-check the URL in your browser bar, because scammers are very good at making fake sites look almost identical to the real thing. And if something feels off, trust that instinct. Your gut reaction is often right. If you receive a message that seems suspicious, whether it's an email, a text, or something on social media, please do report it. Most platforms and travel companies have a straightforward way to flag these things, and it genuinely helps protect other people. Speaking of which, please do share what you've learned today with friends, family, or colleagues. Scams like these rely on people not knowing what to look for, so spreading awareness is one of the most powerful things you can do. Stay alert, and stay safe out there."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Hotel managers, travel agents, tourism operators, restaurant managers, hospitality staff, customer service representatives, front desk agents, reservation staff, booking coordinators",
+  "Team or Dept this is for": "Hospitality Operations, Customer Service, Reservations, Sales, Marketing, Front Office, Guest Relations"
+}

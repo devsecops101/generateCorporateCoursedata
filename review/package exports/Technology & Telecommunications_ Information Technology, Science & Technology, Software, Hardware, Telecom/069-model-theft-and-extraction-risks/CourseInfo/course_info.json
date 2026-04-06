@@ -1,0 +1,14 @@
+{
+  "Course Title": "Model Theft and Extraction Risks",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "AI engineers, machine learning developers, data scientists, software engineers, product managers, technology managers, cybersecurity analysts, IT security specialists, chief technology officers, innovation managers",
+  "Team or Dept this is for": "IT, Engineering, Data Science, Cybersecurity, Product Development, Research and Development, Technology",
+  "Description": "How attackers can steal or replicate proprietary AI models.",
+  "Prerequisites": "A basic familiarity with how machine learning systems work, along with a general understanding of cybersecurity concepts, will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key methods attackers use to steal or replicate proprietary machine learning models and explain the potential business and security risks these threats pose to organisations. You will also be able to apply practical strategies to recognise vulnerabilities in model deployment and describe the foundational steps needed to protect intellectual property within AI-driven systems.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

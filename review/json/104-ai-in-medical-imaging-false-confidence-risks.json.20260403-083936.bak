@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Medical Imaging: False Confidence Risks",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Missed or incorrect findings in radiology and diagnostics.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with healthcare or clinical settings is helpful, though no prior knowledge of artificial intelligence or medical imaging technology is required to follow this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI tools in medical imaging can produce false confidence, and explain how missed or incorrect findings arise in radiology and diagnostics. You will also apply practical strategies to critically evaluate AI-generated results, helping to reduce diagnostic errors and support safer patient outcomes.",
+  "lessons": [
+    {
+      "lesson title": "AI in Medical Imaging: False Confidence Risks",
+      "order": 1,
+      "Description": "Artificial intelligence tools are increasingly being used in medical imaging to help identify abnormalities in X-rays, scans, and other diagnostic images, but these systems are not infallible. This lesson explores the very real risks that arise when clinicians or patients place too much trust in AI-generated findings, potentially leading to missed diagnoses or incorrect conclusions. You will learn how AI systems can produce false positives and false negatives, and why understanding their limitations is just as important as appreciating their capabilities. By the end of this lesson, you will have a clearer picture of how to use AI as a supportive tool rather than a definitive authority in diagnostic practice.",
+      "status": "draft",
+      "content": "Missed or incorrect findings in radiology and diagnostics.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Introducing AI in Medical Imaging",
+          "subtitle": "Transforming diagnostics with promise and peril",
+          "slidecontent": "• AI reads medical scans fast\n• Errors still happen often\n• Missed findings harm patients\n• Confidence can mislead clinicians\n• Human oversight remains essential"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining False Confidence Risks",
+          "subtitle": "When AI Misleads Clinical Judgement",
+          "slidecontent": "• AI systems can display high confidence scores even when their findings are wrong or incomplete\n• False confidence occurs when clinicians trust an AI result without applying their own critical judgement\n• A missed tumour flagged as normal by AI, accepted without review, is a direct patient safety risk\n• Overreliance on AI outputs\n• Confidence percentages shown by AI tools do not always reflect true diagnostic accuracy in real-world conditions\n• Both over-detection and under-detection can mislead clinical decision-making in different but equally serious ways"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Overconfidence in AI Outputs",
+          "subtitle": "When AI Scores Override Clinical Judgement",
+          "slidecontent": "• Clinicians sometimes accept a high AI confidence score without reviewing the underlying image themselves\n• Score inflation can occur when AI tools are trained on unrepresentative datasets\n• A 95% confidence rating does not mean the result is correct\n• Subtle findings, such as early-stage lesions, are frequently the ones AI misclassifies with high certainty\n• Overreliance grows gradually, often unnoticed"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "Where AI Confidence Can Mislead Clinicians",
+          "slidecontent": "• AI scores hide uncertainty\n• Rare conditions often missed\n• Training data has gaps\n• Confidence ≠ accuracy\n• Humans must verify findings"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Overconfidence in AI Outputs",
+          "subtitle": "When AI Certainty Misleads Clinicians",
+          "slidecontent": "• AI systems often display high confidence scores even when their output is incorrect\n• A 95% confidence rating does not mean the finding is 95% likely to be right\n• Clinicians may unconsciously defer to a confident-seeming AI result\n• Anchoring bias triggered by AI outputs\n• Subtle or atypical presentations are especially prone to being missed when AI appears certain\n• Confidence scores reflect model behaviour on training data, not real-world diagnostic accuracy"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Recognising the Limits of AI",
+          "subtitle": "Where AI Confidence Can Fall Short",
+          "slidecontent": "• Rare conditions often missed\n• Poor image quality confuses AI\n• Training data has gaps\n• Unusual presentations fool algorithms\n• AI confidence scores mislead clinicians"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Risk in Practice",
+          "subtitle": "Practical steps to safeguard patient outcomes",
+          "slidecontent": "• Always verify AI findings against your own clinical assessment before acting\n• Double-check flagged and unflagged areas equally\n• Report discrepancies\n• Use structured checklists to avoid over-relying on AI confidence scores\n• Maintain regular training to keep independent diagnostic skills sharp\n• Involve senior colleagues when AI output conflicts with clinical presentation"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for safer AI practice",
+          "slidecontent": "• AI can miss critical findings\n• Always verify AI outputs\n• Human review remains essential\n• Confidence scores can mislead\n• Report doubts, never stay silent\n• Seek training, stay informed"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in medical imaging, and specifically the risks that come with false confidence. Artificial intelligence has genuinely transformed the way we analyse medical scans. It can process images at remarkable speed, flagging potential issues far faster than a human radiologist working alone. That sounds impressive, and in many ways it is. But here is the important part: speed does not equal accuracy. AI systems still make errors, and those errors can mean missed diagnoses, delayed treatment, and real harm to patients. What makes this particularly tricky is that AI often presents its findings with a kind of quiet authority, and that can subtly nudge clinicians into trusting the output without questioning it. Throughout this course, we are going to explore why that misplaced confidence is so dangerous, and why keeping a human expert firmly in the loop is not optional. It is absolutely essential. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So, what do we actually mean by false confidence risks? At its core, this is about what happens when an AI system appears certain, but is actually wrong. Many AI tools display a confidence score, something like \"95% probability of normal findings,\" but that number doesn't always reflect how reliable the result truly is in a real clinical setting. The danger comes when a clinician sees that high score and stops there, without applying their own professional judgement. Imagine an AI flagging a scan as clear when there's actually a tumour present. If that result is accepted without a second look, the consequences for the patient can be severe. And it works both ways. AI can miss things it should catch, but it can also flag things that aren't there, leading to unnecessary interventions. Both directions carry serious risk. So the key issue here is overreliance, trusting the machine more than the evidence in front of you."
+        },
+        {
+          "number": 3,
+          "script": "One of the most common pitfalls we see in clinical practice is what happens when a clinician sees a high confidence score from an AI tool and simply accepts it without looking at the image themselves. And that is a genuinely dangerous habit to fall into. Here is something worth understanding: a 95% confidence rating does not mean the AI is correct 95% of the time in your specific clinical context. It means the model is certain about its output, and those are very different things. If the AI was trained on data that does not reflect your patient population, those scores can be inflated in a misleading way. What makes this particularly tricky is that the findings AI tends to get wrong with high certainty are often the subtle ones, like early-stage lesions, precisely the findings that matter most. And the overreliance does not happen overnight. It creeps in gradually, which is exactly why we need to stay alert to it."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about where AI can actually lead us astray. When an AI system returns a confidence score, say 94% or 97%, it can feel reassuring. But that number doesn't tell you what the model doesn't know. AI is trained on datasets, and those datasets have gaps. Rare conditions, unusual presentations, underrepresented patient groups, these are areas where the model may simply have very little experience. And yet it will still produce a confident-looking output. That's the core problem here. A high confidence score is not the same as a correct answer. It reflects how certain the model is based on patterns it has seen before, not whether it has seen anything like your specific patient. This is why human oversight remains absolutely essential. Clinicians need to treat AI outputs as a prompt for further thinking, not as a final verdict. The AI flags something, and then you verify it."
+        },
+        {
+          "number": 5,
+          "script": "One of the trickiest problems with AI in medical imaging is that these systems can sound incredibly sure of themselves, even when they are wrong. You might see a confidence score of 95%, and it is very tempting to read that as \"this finding is almost certainly correct.\" But that is not actually what it means. That score reflects how the model behaved on its training data, not how accurate it is in your clinical environment, with your patients. And here is where it gets dangerous. When clinicians see a confident-looking result, there is a natural, often unconscious tendency to anchor to it. We call that anchoring bias. The AI has planted a flag, and our thinking starts to organise itself around that flag. This is particularly risky with subtle or unusual presentations, precisely the cases where we most need to think critically. The AI appears certain, so we stop questioning, and that is exactly when things can go wrong."
+        },
+        {
+          "number": 6,
+          "script": "So let's talk about where AI actually struggles, because this is really important for anyone working with these tools. AI systems in medical imaging are trained on large datasets, but those datasets are never perfect. If a condition is rare, the AI may simply not have seen enough examples to recognise it reliably. Similarly, if the image quality is poor, perhaps due to patient movement or equipment limitations, the AI can become confused and produce unreliable results. There are also gaps in the training data itself, meaning certain patient populations or presentation types may be underrepresented. And when a condition presents in an unusual or atypical way, the algorithm can easily be fooled. Perhaps the most dangerous issue, though, is this: AI systems often output a confidence score, and clinicians can mistakenly treat a high score as a guarantee of accuracy. It is not. Understanding these limitations is the first step towards using AI safely and responsibly in clinical practice."
+        },
+        {
+          "number": 7,
+          "script": "So, knowing the risks is one thing, but what can you actually do about them in day-to-day practice? The most important habit to build is treating AI output as a starting point, not a final answer. Always run your own clinical assessment alongside whatever the system flags, and crucially, check the areas it did not flag just as carefully as the ones it did. If something does not add up, report it. Those discrepancies help improve systems over time and protect your patients right now. Structured checklists are really useful here because they stop you from unconsciously deferring to the AI's confidence score rather than your own judgement. It is also worth investing time in keeping your independent diagnostic skills sharp through regular training, because those skills can quietly erode if you lean on AI too heavily. And whenever the AI output conflicts with what you are seeing clinically, bring in a senior colleague. Two sets of eyes and a conversation can make all the difference."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with these core principles. First, always remember that AI is not infallible. It can and does miss things, sometimes critical findings, so you must never simply accept what it tells you without question. Your role as a clinician or radiographer is to verify what the AI produces, every single time. Human review is not optional, it is essential. And be particularly cautious about confidence scores. A high percentage might look reassuring, but it does not guarantee accuracy. It can actually lull you into a false sense of security, which is precisely the risk we have been exploring throughout this lesson. If something feels wrong, or you are uncertain about an AI output, speak up. Raise it with a colleague, flag it to your supervisor, never stay silent. And finally, keep learning. AI in medical imaging is evolving rapidly, and staying informed through proper training is one of the most important things you can do for patient safety."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Healthcare professionals, radiologists, medical technologists, clinical staff, physicians, nurses, medical administrators, biotech professionals, hospital staff",
+  "Team or Dept this is for": "Healthcare Operations, Medical Services, Radiology Department, Quality Assurance, Risk Management, Clinical Operations, Patient Safety"
+}

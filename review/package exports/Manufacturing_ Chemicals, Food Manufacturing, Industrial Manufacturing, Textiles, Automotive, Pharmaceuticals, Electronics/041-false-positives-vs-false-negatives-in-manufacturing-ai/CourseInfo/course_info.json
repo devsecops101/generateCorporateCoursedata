@@ -1,0 +1,14 @@
+{
+  "Course Title": "False Positives vs False Negatives in Manufacturing AI",
+  "Category": "Manufacturing: Chemicals, Food Manufacturing, Industrial Manufacturing, Textiles, Automotive, Pharmaceuticals, Electronics",
+  "Who is this for": "Quality assurance managers, production supervisors, manufacturing engineers, plant managers, operations managers, quality control technicians, process improvement specialists",
+  "Team or Dept this is for": "Quality Assurance, Manufacturing Operations, Production, Process Engineering, Continuous Improvement",
+  "Description": "The real-world cost of rejecting good products vs accepting bad ones.",
+  "Prerequisites": "A basic familiarity with manufacturing quality control concepts and a general curiosity about how AI is used in production environments are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the difference between false positives and false negatives in manufacturing AI systems, and explain how each type of error affects product quality, safety, and operational costs across industries such as chemicals, pharmaceuticals, and electronics. You will also apply this understanding to recognise the real-world trade-offs involved in setting detection thresholds, helping you make more informed decisions about when it is costlier to reject good products versus accept faulty ones.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

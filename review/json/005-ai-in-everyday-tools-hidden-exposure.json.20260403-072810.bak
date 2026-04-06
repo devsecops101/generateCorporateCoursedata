@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Everyday Tools (Hidden Exposure)",
+  "Category": "Corporate",
+  "Description": "Risks embedded in office tools, email assistants, and productivity platforms.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have basic familiarity with everyday workplace tools such as email clients, word processors, and collaboration platforms like Microsoft 365 or Google Workspace, but no prior knowledge of artificial intelligence is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the AI features embedded in common office tools, email assistants, and productivity platforms, and explain the data privacy and security risks these features may introduce in a corporate environment. You will also be able to apply practical strategies to assess and manage your organisation's exposure to these hidden AI risks, helping you make more informed decisions about the everyday tools your team relies on.",
+  "lessons": [
+    {
+      "lesson title": "AI in Everyday Tools (Hidden Exposure)",
+      "order": 1,
+      "Description": "Many of the tools we use every day, such as email clients, word processors, and project management platforms, now have AI features built directly into them, often without any obvious announcement or warning. These features might suggest text, summarise documents, analyse your writing, or even send responses on your behalf, all while processing potentially sensitive information in the background. Because these capabilities are frequently switched on by default, most people are unknowingly sharing data with AI systems as part of their normal working routine. This lesson will help you recognise where AI is quietly embedded in the tools you already use, so you can make more informed decisions about how you work with them. By the end, you will have a clearer picture of the hidden risks involved and some practical steps you can take to stay in control of your information.",
+      "status": "draft",
+      "content": "Risks embedded in office tools, email assistants, and productivity platforms.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Hidden AI: An Introduction",
+          "subtitle": "Already in the tools you use",
+          "slidecontent": "• AI is already everywhere\n• Hidden inside familiar tools\n• Not always clearly labelled\n• You use it daily\n• Risks often go unnoticed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Where AI Hides in Plain Sight",
+          "subtitle": "Familiar tools, unexpected AI presence",
+          "slidecontent": "• Email suggests replies automatically\n• Spelling tools predict your words\n• Spreadsheets offer smart suggestions\n• Search bars autocomplete queries\n• Meetings get transcribed silently"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Smart Suggestions, Hidden Risks",
+          "subtitle": "Convenience can quietly compromise your data.",
+          "slidecontent": "• Email tools that auto-complete your sentences may send your words to external servers\n• Grammar checkers often store and analyse everything you type\n• Risky by default\n• Productivity apps can share your documents with third-party AI systems without a clear warning\n• Smart scheduling assistants may read your calendar, contacts, and meeting notes to function"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Smart Suggestions, Hidden Risks",
+          "subtitle": "Convenience can quietly compromise your data.",
+          "slidecontent": "• Email tools that auto-complete your sentences may send fragments of your message to external servers\n• Predictive text learns from what you type\n• Grammar checkers often store your documents in the cloud to process corrections\n• Smart scheduling assistants can read your calendar, contacts, and meeting history\n• These features are on by default"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Smart Suggestions, Hidden Risks",
+          "subtitle": "Convenience can quietly compromise your data.",
+          "slidecontent": "• Email tools that auto-complete your sentences may send phrasing to external servers for processing\n• Predictive text in office apps often learns from your actual documents\n• Even free productivity tools carry hidden data costs\n• Smart suggestions in spreadsheets and presentations can log what you type before you hit send\n• Your data, training someone else's model"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting AI in Your Workflow",
+          "subtitle": "Recognising AI Where You Least Expect",
+          "slidecontent": "• Email clients like Outlook and Gmail now suggest replies and auto-complete your sentences using AI\n• Spell checkers have quietly evolved into writing assistants that reshape your tone and word choices\n• Hidden by default\n• Presentation tools such as PowerPoint and Canva use AI to recommend layouts, images, and slide structures\n• Calendar apps analyse your habits to schedule meetings and predict your availability\n• Even search bars inside company intranets may rank results using AI-driven relevance scoring"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Your AI Risk Exposure",
+          "subtitle": "Practical steps to stay in control",
+          "slidecontent": "• Review app privacy settings\n• Disable AI features when unused\n• Avoid sharing sensitive data\n• Read tool update notices\n• Use approved work software only"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these points close to hand.",
+          "slidecontent": "• AI hides in familiar tools\n• Your data may be shared\n• Check privacy settings regularly\n• Think before you type\n• Ask your IT team questions"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on AI in everyday tools. Now, when most people think about artificial intelligence, they imagine something futuristic or complicated, something they have consciously chosen to use. But here is the thing: AI is already woven into the tools you use every single day, and most of the time, it is not signposted at all. Your email client, your search engine, your spreadsheet software, even your smartphone keyboard, all of these have AI quietly working away in the background. There is no big announcement, no flashing label saying \"AI is here.\" It is simply built in. And because it feels so familiar and ordinary, most of us do not stop to think about what that actually means. The risks that come with using AI-powered tools often go completely unnoticed, precisely because we do not realise we are using AI in the first place. That is exactly what we are going to explore together in this lesson."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by looking at where AI is already showing up in the tools you probably use every single day, often without you even realising it. When you open your email and a suggested reply appears at the bottom of the screen, that is AI. When your word processor quietly fixes a spelling mistake or finishes a sentence for you, that is AI as well. Even in something as familiar as a spreadsheet, you might notice it offering to complete a pattern or suggest a formula. Type something into a search bar and watch it predict what you are about to ask, again, that is AI working behind the scenes. And if you have ever been in an online meeting where a transcript appeared automatically, yes, AI was listening and converting speech to text in real time. The point here is that AI is not some distant, futuristic technology. It is already woven into the everyday tools sitting right in front of you."
+        },
+        {
+          "number": 3,
+          "script": "Here is the narration script for Slide 3:\n\nSo here is something that catches a lot of people off guard. The tools you use every single day, your email, your grammar checker, your calendar app, they often have AI built in, and that AI is quietly doing quite a lot behind the scenes. When your email suggests how to finish a sentence, those words may be travelling to an external server somewhere. When you use a grammar or writing tool, it is quite likely storing and analysing everything you type, not just checking your spelling. And many productivity apps will share your documents with third-party AI systems without making that particularly obvious to you. Perhaps most surprising is your smart scheduling assistant. To work properly, it may be reading your calendar, your contacts, and your meeting notes. None of this is necessarily malicious, but the key point is that most of these features are switched on by default. You have not necessarily agreed to any of it consciously, and that is worth paying attention to."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nLet's talk about something that catches a lot of people off guard. Those helpful little features built into your everyday tools, the ones that finish your sentences, fix your grammar, or suggest a meeting time, they are not just running quietly on your device. In many cases, they are sending your data to external servers to do their work. Your email client might be reading fragments of what you type before you even hit send. Your grammar checker could be storing a copy of your document in the cloud. Your smart scheduling assistant might have access to your entire calendar and contact list. And here is the part that really matters: most of these features are switched on by default. You did not choose them, you were simply opted in. So the question is not whether these tools are useful, because they genuinely are. The question is whether you know what they are doing in the background."
+        },
+        {
+          "number": 5,
+          "script": "Here is the narration script for Slide 5:\n\nThose helpful little suggestions that pop up when you are typing an email or working in a spreadsheet? They are not magic. Behind the scenes, many of these tools are sending what you type to external servers just to generate that suggestion. Your actual words, from real documents and real emails, are being processed somewhere else entirely. And with free productivity tools especially, it is worth asking: if you are not paying for the product, how is it being funded? Often, the answer is your data. Some of these smart features are quietly logging what you type before you even press send, and that information can feed into the very AI models being trained by the companies behind these tools. So the convenience is real, but so is the cost. It is just not a cost you see on an invoice. Being aware of this is the first step towards making more informed choices about the tools you use every day."
+        },
+        {
+          "number": 6,
+          "script": "Let's take a moment to look at where AI is already showing up in the tools you probably use every single day. When you open Outlook or Gmail and a suggested reply pops up, that's AI. When your spell checker does more than fix a typo and actually rewrites a sentence to sound more formal or friendly, that's AI too, and it's often switched on without you realising. The same goes for tools like PowerPoint or Canva, which quietly suggest layouts and images as you build a presentation. Your calendar app may be analysing your working patterns to recommend meeting times, and even the search bar on your company's internal systems might be using AI to decide which results appear at the top. None of this requires you to do anything special to activate it. It's already there, already influencing your work. The first step is simply knowing where to look."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand where AI is hiding in our everyday tools, let's talk about what you can actually do to reduce your exposure. First, it's worth spending a few minutes going into the privacy settings of the apps you use regularly and checking what's switched on by default. You might be surprised. If there are AI features you simply don't need or use, turn them off. There's no reason to leave them running in the background. Be mindful about the information you type into any tool, especially anything sensitive like client details or confidential business data. When an app sends you an update notice, don't just click through it. Take a moment to read what's changed, because AI features are often quietly added in updates. And finally, wherever possible, stick to the software your organisation has officially approved. Those tools are far more likely to have been reviewed with your security and privacy in mind."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few key points worth holding onto. First, AI is not always obvious. It's quietly built into the tools you already use every day, so you may be using it without even realising. Second, when you use those tools, your data could be going somewhere, so it's worth being mindful of what you're sharing and with whom. Make a habit of checking your privacy settings from time to time, because they can change, and it's easy to miss an update. Before you type anything sensitive into a tool, just pause for a moment and ask yourself whether that information should really be going into an AI-powered system. And finally, you don't have to figure all of this out on your own. Your IT team is there to help, so please do reach out to them with any questions or concerns. These are simple habits, but they can make a real difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Office workers, administrative assistants, project managers, team leads, executives, knowledge workers, anyone using Microsoft 365 or Google Workspace",
+  "Team or Dept this is for": "IT, Legal, Compliance, Human Resources, Operations, Risk Management"
+}

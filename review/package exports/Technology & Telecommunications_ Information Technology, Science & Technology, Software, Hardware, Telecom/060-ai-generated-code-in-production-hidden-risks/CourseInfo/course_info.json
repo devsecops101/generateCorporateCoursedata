@@ -1,0 +1,14 @@
+{
+  "Course Title": "AI-Generated Code in Production: Hidden Risks",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Who is this for": "Software developers, programmers, application developers, software engineers, junior developers, coding team leads, technical leads",
+  "Team or Dept this is for": "IT, Software Development, Engineering, DevOps, Quality Assurance",
+  "Description": "Subtle vulnerabilities and logic flaws introduced by AI-assisted coding.",
+  "Prerequisites": "A working knowledge of at least one programming language and a basic familiarity with software development practices are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify subtle vulnerabilities and logic flaws commonly introduced by AI-assisted coding tools, and explain the potential risks these issues pose in production environments. You will also apply practical techniques to review, test, and validate AI-generated code so that it meets the security and reliability standards required for real-world software deployment.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft"
+}

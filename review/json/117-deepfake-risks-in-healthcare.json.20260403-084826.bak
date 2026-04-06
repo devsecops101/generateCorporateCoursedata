@@ -1,0 +1,107 @@
+{
+  "Course Title": "Deepfake Risks in Healthcare",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Impersonation of clinicians or manipulation of medical instructions.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with everyday healthcare settings and a general awareness of how digital communication tools such as email, video calls, and messaging apps are used in clinical or pharmacy environments.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key warning signs of deepfake impersonation targeting clinicians and healthcare staff, and explain how manipulated medical instructions can put patient safety at risk. You will also be able to apply practical verification strategies to recognise and respond to deepfake threats within a healthcare or life sciences setting.",
+  "lessons": [
+    {
+      "lesson title": "Deepfake Risks in Healthcare",
+      "order": 1,
+      "Description": "Deepfake technology is increasingly being used to create convincing but entirely fabricated audio, video, and written content, and healthcare settings are becoming a growing target for this type of deception. This lesson explores how malicious actors can impersonate clinicians, manipulate medical instructions, or fabricate patient communications in ways that put lives at risk. You will learn to recognise the warning signs of deepfake content in clinical and administrative contexts, and understand why healthcare professionals are particularly vulnerable to these threats. We will also look at practical steps you can take to verify the authenticity of communications and reduce the risk of acting on falsified information. No prior technical knowledge is required, and the content is designed to be immediately applicable to your everyday working environment.",
+      "status": "draft",
+      "content": "Impersonation of clinicians or manipulation of medical instructions.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfake Risks in Healthcare",
+          "subtitle": "When Deception Threatens Patient Safety",
+          "slidecontent": "• Deepfakes use artificial intelligence to create convincing fake audio, video, or images of real people\n• A growing threat to healthcare\n• Criminals can impersonate doctors, nurses, or administrators to manipulate patients and staff\n• Fake medical instructions or fraudulent prescriptions can put lives at risk\n• Healthcare workers and patients are increasingly targeted\n• Understanding the risks is the first step to staying protected"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Recognising Deepfake Threats",
+          "subtitle": "Spotting the Signs Before It's Too Late",
+          "slidecontent": "• Deepfakes use artificial intelligence to convincingly mimic a real person's voice, face, or both\n• Clinicians and patients are increasingly targeted\n• A fake video of a doctor issuing revised medication instructions can look entirely authentic\n• Audio deepfakes can impersonate a consultant over the phone\n• Small details often reveal manipulation, such as unnatural blinking, slight lip-sync errors, or odd background distortions\n• Urgency in the message is a common tactic to discourage careful scrutiny"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Recognising Deepfake Impersonation Attempts",
+          "subtitle": "Warning signs and red flags explained",
+          "slidecontent": "• Blurry or unnatural facial movement\n• Voice sounds slightly robotic\n• Odd lighting on the face\n• Requests feel unusually urgent\n• Caller avoids direct questions"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting Manipulated Medical Instructions",
+          "subtitle": "Warning signs to watch for carefully",
+          "slidecontent": "• Blurry lips or mouth\n• Voice sounds slightly robotic\n• Odd lighting on face\n• Instructions change mid-message\n• Sender identity unverifiable\n• Urgency feels forced, suspicious"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Suspicious Clinical Communications",
+          "subtitle": "Warning signs to watch for carefully",
+          "slidecontent": "• Unexpected changes to medication dosages or treatment plans arriving via email or message\n• Instructions that pressure you to act immediately, bypassing normal verification steps\n• Caller ID or sender details that look slightly off\n• Video or audio calls where lip movements, lighting, or voice tone seem unnatural\n• Requests to share patient data outside of established, approved channels\n• Any clinical instruction you cannot trace back to an official, documented source"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Suspicious Medical Communications",
+          "subtitle": "Recognising Red Flags Before Acting",
+          "slidecontent": "• Unexpected requests to change medication doses or treatment plans via message or email\n• Verify urgency claims, as deepfakes often pressure staff to act quickly without checking\n• Caller ID and email addresses can be spoofed\n• Any instruction arriving outside normal clinical channels deserves extra scrutiny\n• Poor audio quality, slight lip-sync delays, or an unusual tone in video calls are warning signs\n• When in doubt, hang up and call back using a number from official records"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting Suspicious Deepfake Activity",
+          "subtitle": "Steps to report and escalate concerns",
+          "slidecontent": "• Stop, do not act\n• Tell your line manager\n• Document what you saw\n• Contact your IT security team\n• Follow local reporting policy"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core points to carry forward always",
+          "slidecontent": "• Verify every clinical instruction\n• Deepfakes mimic real clinicians\n• Check before you act\n• Report suspicious content immediately\n• Trust your verification process"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on deepfake risks in healthcare. Now, you may have heard the word \"deepfake\" before, but what does it actually mean in a healthcare context? Put simply, deepfakes use artificial intelligence to generate convincing fake audio, video, or images that make it look or sound as though a real person said or did something they never actually did. And this technology is becoming a serious threat in healthcare settings. Criminals are using it to impersonate doctors, nurses, and administrators, tricking patients and staff into following false instructions or accepting fraudulent prescriptions. The consequences can be genuinely life-threatening. Both healthcare workers and patients are increasingly finding themselves in the crosshairs of these kinds of attacks. So throughout this course, we are going to look at how these threats work, where they show up, and most importantly, what you can do to protect yourself and the people in your care. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So, what exactly are we dealing with when we talk about deepfakes in healthcare? At their core, deepfakes use artificial intelligence to create convincing imitations of real people, whether that is their face, their voice, or both. And the targets are not just celebrities or politicians. Clinicians and patients are increasingly in the crosshairs. Imagine receiving a video that appears to show your doctor issuing updated medication instructions, or a phone call that sounds exactly like a familiar consultant. These are not far-fetched scenarios. Now, the good news is that deepfakes are not always perfect. If you look carefully, you might notice something slightly off, perhaps the blinking looks unnatural, the lips do not quite match the words, or the background seems a little distorted. One of the most common tactics used is urgency. If a message is pressuring you to act quickly, that is often deliberate, because urgency stops you from pausing to think critically. And that pause could make all the difference."
+        },
+        {
+          "number": 3,
+          "script": "So, how do you actually spot a deepfake in the moment? There are a few warning signs worth knowing. On video calls, watch the face carefully. If the movement looks slightly off, perhaps the lips are not quite syncing with the words, or the lighting on the face looks strange compared to the background, that is worth paying attention to. On audio calls, a voice that sounds a little flat or robotic can be a clue that something is not right. But deepfakes are not just about how someone looks or sounds. Pay close attention to the nature of the request itself. If someone is pressuring you to act quickly, or they seem to be dodging straightforward questions, that is a significant red flag. Fraudsters rely on urgency to stop you thinking clearly. So if something feels off, trust that instinct, slow down, and verify the person's identity through a separate, trusted channel before doing anything else."
+        },
+        {
+          "number": 4,
+          "script": "So, how do you actually spot a deepfake in a medical context? There are some practical warning signs worth knowing. First, pay close attention to the face in any video message. If the lips look blurry or don't quite match the words being spoken, that's a red flag. The voice can also be a giveaway. If it sounds slightly flat, robotic, or unnatural, trust that instinct. Look at the lighting too. Genuine video calls tend to have consistent lighting, whereas deepfakes often show odd shadows or a strange glow around the face. Content-wise, be wary if the instructions seem to shift or contradict themselves partway through the message. Always ask yourself whether you can actually verify who sent this. If you can't confirm the sender's identity through a trusted channel, don't act on it. And finally, if the message feels unnecessarily urgent or is pressuring you to act immediately, slow down. That pressure is often deliberate, and it's designed to stop you thinking clearly."
+        },
+        {
+          "number": 5,
+          "script": "So, how do you actually spot a deepfake or a manipulated communication in a clinical setting? There are some clear warning signs to keep in mind. Be cautious if you suddenly receive an email or message changing a patient's medication or treatment plan, especially if it feels rushed or out of the ordinary. Watch out for anything that pressures you to act immediately, skipping the usual checks and verification steps. That urgency is often deliberate. Check sender details carefully too, because fraudulent messages often have subtle errors in names or addresses that are easy to miss at first glance. On video or audio calls, pay attention to anything that looks or sounds slightly off, such as unnatural lip movements, odd lighting, or a voice that does not quite sound right. Never share patient data outside of your approved systems, and if a clinical instruction cannot be traced back to an official, documented source, treat it with real suspicion and verify before acting."
+        },
+        {
+          "number": 6,
+          "script": "So how do we actually spot a deepfake in a clinical setting? The first thing to watch for is anything that feels off about a communication, especially if it's asking you to change a patient's medication or treatment plan through a message or email. Deepfakes often create a sense of urgency, pressuring you to act quickly before you have time to think. Don't let that rush you. It's also worth knowing that caller ID and email addresses can be faked quite easily, so they're not reliable proof of identity. If an instruction arrives outside your normal clinical channels, that alone is a reason to pause and question it. On video calls, look out for poor audio quality, slight delays between lip movement and speech, or a tone that just doesn't quite sound like the person you know. And if something feels wrong, the simplest advice is this: hang up, find the official contact number, and call back directly."
+        },
+        {
+          "number": 7,
+          "script": "If you ever come across something that feels off, perhaps a video call where a colleague seems strange, or a voice message that doesn't quite sound right, the most important thing you can do first is pause. Don't act on whatever that message or instruction is asking you to do. Then, speak to your line manager as soon as you can, because they need to know straightaway. While it's fresh in your mind, write down exactly what you saw or heard, including the time, the platform, and any details you can recall. That record could be really valuable later. Next, get in touch with your IT security team, as they are trained to investigate these kinds of incidents and can act quickly to protect the organisation. And finally, make sure you follow whatever local reporting policy your workplace has in place. Every organisation handles this slightly differently, so knowing your own procedure in advance means you'll be ready to respond confidently if the moment ever arises."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The single most important habit you can build is this: always verify a clinical instruction before you act on it, no matter how legitimate it appears. Deepfakes are sophisticated enough to convincingly mimic real clinicians, real voices, and real faces, so you simply cannot rely on appearance or sound alone. If something feels off, or even if it does not feel off, pause and check through your organisation's approved verification process. That process exists for a reason, and trusting it is not a sign of doubt, it is a sign of professionalism. And if you ever encounter content that seems suspicious, report it straight away. Do not wait, do not second-guess yourself, just report it. The steps we have covered today are straightforward, but they only work if you apply them consistently. Carry these points forward into every shift, every handover, and every communication you receive."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Healthcare professionals, nurses, doctors, physicians, clinicians, pharmacy staff, pharmacists, medical administrators, hospital staff, healthcare IT personnel, medical technicians, patient care coordinators",
+  "Team or Dept this is for": "Healthcare Operations, Medical Staff, Nursing, Pharmacy, Hospital Administration, Clinical Services, Medical Records, Healthcare IT, Patient Safety, Risk Management"
+}

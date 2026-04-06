@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Network Optimisation: Risk vs Reliability",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "When AI-driven routing and optimisation go wrong.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with computer networks and an interest in how artificial intelligence is applied to telecommunications are all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with AI-driven routing and network optimisation, and explain how failures in these systems can impact reliability across telecommunications infrastructure. You will also apply practical strategies to evaluate, monitor, and mitigate the effects of AI optimisation errors, helping you make more informed decisions when managing or designing resilient network environments.",
+  "lessons": [
+    {
+      "lesson title": "AI in Network Optimisation: Risk vs Reliability",
+      "order": 1,
+      "Description": "This lesson explores what happens when AI systems take control of network routing and optimisation, and why things do not always go to plan. You will learn how AI-driven decisions can introduce unexpected risks, from misrouted traffic to cascading failures across critical infrastructure. We will look at real-world scenarios where automation has both improved efficiency and caused significant disruption, helping you to understand the balance between reliability and risk. By the end of this lesson, you will have a clearer picture of how to evaluate AI tools in network environments and what safeguards are worth putting in place.",
+      "status": "draft",
+      "content": "When AI-driven routing and optimisation go wrong.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI: Promise and Peril",
+          "subtitle": "Exploring the risks behind AI's potential.",
+          "slidecontent": "• AI is reshaping how networks route, prioritise, and manage traffic in real time\n• Powerful, but not infallible\n• Errors in AI-driven decisions can cascade across entire network infrastructures\n• Understanding the risks is just as important as embracing the potential\n• Real-world failures have already caused costly outages and service disruptions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Routing Decisions and Their Risks",
+          "subtitle": "How AI choices can backfire fast",
+          "slidecontent": "• AI systems make routing decisions in milliseconds, often without human review\n• A single miscalculation can cascade across an entire network\n• Speed is the risk\n• Optimising for efficiency sometimes means ignoring resilience\n• Real traffic patterns shift unpredictably, and AI models trained on old data can misread them badly\n• Even small errors in routing logic can knock critical services offline"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Routing Failures and Their Causes",
+          "subtitle": "What goes wrong and why",
+          "slidecontent": "• Misconfigured routing tables sending traffic down the wrong paths\n• Congestion building silently until the network collapses\n• Single points of failure\n• Outdated topology data causing AI models to make decisions based on a network that no longer exists\n• Cascading failures, where one small fault triggers a chain of outages across connected nodes\n• Human error during manual overrides undoing automated optimisation gains"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Balancing Risk and Reliability",
+          "subtitle": "The fine line between speed and stability",
+          "slidecontent": "• Speed can break things\n• Stability needs careful tuning\n• Risk grows with automation\n• Reliability requires constant checks\n• Balance prevents costly failures"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Mitigating Risk in AI Routing",
+          "subtitle": "Strategies to reduce AI routing failures",
+          "slidecontent": "• Set clear fallback rules so the network reverts to manual routing when AI confidence drops below a threshold\n• Regular audits of AI decisions\n• Use human oversight at critical routing junctions, not just during initial deployment\n• Test failure scenarios in a controlled environment before going live\n• Limit AI autonomy in high-risk segments of the network\n• Monitor continuously, not just at scheduled intervals"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Risk in AI Routing",
+          "subtitle": "Strategies to reduce AI routing failures",
+          "slidecontent": "• Set fallback routing rules\n• Monitor AI decisions continuously\n• Test before full deployment\n• Keep humans in the loop\n• Audit logs regularly"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Risk in Practice",
+          "subtitle": "Practical steps to reduce AI failures",
+          "slidecontent": "• Test changes in staging first\n• Monitor traffic after deployment\n• Keep manual override ready\n• Log all AI decisions\n• Review failures regularly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What to carry forward from here",
+          "slidecontent": "• AI routing can fail badly\n• Blind trust causes outages\n• Always keep human oversight\n• Test before full deployment\n• Monitor, then adjust quickly\n• Start small, scale carefully"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. We're going to be exploring something that's genuinely exciting, but also something that deserves a healthy dose of caution. Artificial intelligence is transforming the way networks operate, helping them route traffic, make decisions, and respond to demand, all in real time. That's remarkable. But here's the thing: AI is not perfect. It makes mistakes, and in a network environment, a single bad decision doesn't just affect one small corner of the system. It can ripple outwards and bring down entire infrastructures. We've already seen this happen in the real world, with outages and disruptions that have cost organisations significant time and money. So whilst the potential of AI in network optimisation is genuinely impressive, we have a responsibility to understand the risks just as thoroughly as we celebrate the benefits. That balance between promise and peril is exactly what this course is all about. Let's get into it."
+        },
+        {
+          "number": 2,
+          "script": "So let's talk about what can go wrong. AI systems are making routing decisions constantly, and they're doing it at incredible speed, often with no human in the loop at all. Now, that speed is impressive, but it's also where the danger lives. When an AI makes a poor decision, it doesn't just affect one connection. It can ripple outwards and cause problems across the entire network within seconds. There's also a tension between efficiency and resilience. AI models are often optimised to find the fastest or cheapest route, but that can mean they're not accounting for what happens when things go wrong. And here's another challenge: real-world traffic patterns change all the time. If the model was trained on older data, it may simply misread what's happening right now. Even a relatively small error in routing logic can be enough to take critical services completely offline. So the risks here are real, and they move fast."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at what actually goes wrong in network routing, and why. One of the most common culprits is simply misconfiguration. If a routing table points traffic in the wrong direction, everything downstream suffers. Then there's congestion, which can build up quietly in the background until suddenly the whole network buckles under the pressure. We also have single points of failure, where one weak link can bring down far more than you'd expect. Another tricky problem is stale topology data. If your AI is making decisions based on an outdated map of the network, it's essentially navigating with the wrong directions. That can lead to cascading failures, where one small fault triggers a chain reaction across multiple connected nodes. And finally, there's human error. When engineers manually override automated systems, even with the best intentions, they can accidentally undo all the optimisation gains the AI has worked to achieve. These are the real-world challenges we need to keep in mind."
+        },
+        {
+          "number": 4,
+          "script": "So here's where things get really interesting. When we start using AI to optimise networks, we're essentially asking a system to make decisions faster than any human ever could. And that speed is genuinely powerful, but it also means mistakes can happen just as quickly. A misconfiguration that might take a human engineer a few minutes to introduce could be rolled out across an entire network in seconds by an automated system. That's why stability has to be carefully managed, with the right guardrails in place. And as we hand more control over to automation, the risk doesn't disappear, it actually grows if we're not paying attention. Reliability doesn't just happen on its own. It requires continuous monitoring and regular checks to make sure everything is behaving as expected. The goal, really, is to find that balance point where we're getting the benefits of AI-driven speed without exposing ourselves to failures that could be expensive and disruptive to fix."
+        },
+        {
+          "number": 5,
+          "script": "So, knowing that AI routing can go wrong is one thing, but what do we actually do about it? The good news is there are some straightforward strategies that make a real difference. First, always have a fallback plan. If the AI's confidence drops below a certain level, the network should automatically revert to manual routing rather than guessing. You also want regular audits of the decisions the AI is making, not just a quick check at the start, but ongoing human oversight at the critical points in your network. Before you go live with anything, test your failure scenarios in a safe, controlled environment first. Think of it like a fire drill. And in the highest-risk parts of your network, consider limiting how much autonomy the AI actually has. Finally, monitoring should be continuous. Waiting for a scheduled review means problems can quietly grow in the background. Build these habits in from the start, and you are in a much stronger position."
+        },
+        {
+          "number": 6,
+          "script": "So we know AI routing can go wrong, but the good news is there are practical steps you can take to reduce that risk significantly. First, always have a backup plan. If the AI makes a poor decision, you want fallback rules in place that keep traffic moving safely. Alongside that, you should be watching what the AI is doing in real time, not just assuming it is getting things right. Before you roll anything out across your full network, test it thoroughly in a controlled environment first. Now, this is really important: do not hand everything over to the machine. Keeping a human in the loop means someone with judgement and context can step in when something looks off. And finally, make a habit of reviewing your audit logs regularly. Those logs are your paper trail. They help you spot patterns, catch problems early, and demonstrate accountability if anything does go wrong."
+        },
+        {
+          "number": 7,
+          "script": "So we know AI can introduce risk, but the good news is there are some straightforward things you can do to keep that risk under control. Before you push any AI-driven change to your live network, always test it in a staging environment first. That way, if something goes wrong, it stays contained. Once you do deploy, keep a close eye on your traffic patterns straight away, because problems often show up quickly. It is also really important to have a manual override in place, so your team can step in immediately if the AI starts behaving unexpectedly. Beyond that, make sure every decision the AI makes is being logged. Those records are invaluable when something does go wrong. And finally, build in regular reviews of any failures or near misses. Each one is a learning opportunity that helps you improve the system over time. These steps will not eliminate risk entirely, but they will make your AI deployments significantly safer and more reliable."
+        },
+        {
+          "number": 8,
+          "script": "So let's pull everything together from this lesson. The core message is simple: AI routing is powerful, but it is not infallible. When it goes wrong, it can go wrong in a big way, and that usually happens when people place too much trust in it without proper checks in place. So always keep a human in the loop. Someone needs to be watching, ready to step in. Before you roll anything out across your full network, test it thoroughly in a controlled environment first. And once it is live, keep monitoring it closely so you can spot problems early and make adjustments quickly. Perhaps most importantly, do not try to do everything at once. Start with a small part of your network, learn from that experience, and then scale up gradually. These are not complicated ideas, but they are the ones that will genuinely protect you from costly mistakes as you bring AI into your network operations."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Network administrators, IT managers, telecommunications engineers, systems administrators, infrastructure engineers, network operations center staff, IT directors, technology managers",
+  "Team or Dept this is for": "IT, Network Operations, Telecommunications, Infrastructure, Operations, Engineering"
+}

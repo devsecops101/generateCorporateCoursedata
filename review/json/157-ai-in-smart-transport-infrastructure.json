@@ -25,21 +25,21 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks in Traffic Systems",
-          "subtitle": "Where AI Failures Can Cause Harm",
-          "slidecontent": "• AI systems controlling traffic signals can malfunction and cause dangerous gridlock or collisions\n• Sensor failures may feed incorrect data into automated decision-making\n• Cyberattacks a growing threat\n• Poorly trained models may misread pedestrian behaviour, especially in unusual weather conditions\n• Single points of failure in connected infrastructure can cascade across entire road networks\n• Real consequences for emergency vehicle response times when routing systems go wrong"
+          "slidetitle": "Traffic System Vulnerabilities",
+          "subtitle": "When AI Controls Go Wrong",
+          "slidecontent": "• Malfunctioning traffic signals cause gridlock or collisions\n• Sensor failures feed incorrect data into automated decisions\n• AI models struggle with unusual weather conditions and pedestrian behaviour\n• Emergency vehicle routing failures delay critical response times\n• Connected infrastructure creates cascading failure risks across entire networks"
         },
         {
           "number": 3,
-          "slidetitle": "Risks in Traffic Systems",
-          "subtitle": "Where AI Failures Cause Real Harm",
-          "slidecontent": "• Signals fail, cars crash\n• Wrong data, wrong routes\n• Hacked systems cause gridlock\n• Delays ripple city-wide\n• Lives depend on accuracy"
+          "slidetitle": "Port and Maritime Risks",
+          "subtitle": "Complex Operations Under Pressure",
+          "slidecontent": "• Ship queuing creates massive congestion and million-pound cargo delays\n• Weather disruptions throw schedules into chaos within hours\n• Multiple moving parts increase accident risk from human error\n• Coordination failures between vessels, cranes, and ground operations\n• Physical bottlenecks compound when digital systems malfunction"
         },
         {
           "number": 4,
-          "slidetitle": "Risks in Port Operations",
-          "subtitle": "Navigating Congestion, Delays, and Cyber Threats",
-          "slidecontent": "• Ships queue, ports slow\n• Cargo delays cost millions\n• Cyber attacks target systems\n• Weather disrupts schedules fast\n• Human error causes accidents"
+          "slidetitle": "Airport Safety Challenges",
+          "subtitle": "Managing High-Stakes Aviation Operations",
+          "slidecontent": "• Air traffic control system failures create collision risks\n• Passenger flow management errors cause dangerous crowding\n• Baggage handling automation breakdowns strand thousands\n• Weather routing decisions affect aircraft safety\n• Ground vehicle coordination mistakes threaten runway operations"
         },
         {
           "number": 5,
@@ -49,15 +49,15 @@
         },
         {
           "number": 6,
-          "slidetitle": "Mitigating AI Infrastructure Risks",
-          "subtitle": "Strategies to reduce and manage exposure",
-          "slidecontent": "• Redundant systems that keep traffic and port operations running if one AI component fails\n• Regular audits to catch bias or errors before they affect real decisions\n• Human oversight at critical points\n• Cybersecurity protocols designed specifically for transport control networks\n• Staff training so operators can recognise when AI output seems wrong and act quickly\n• Clear incident response plans tested in advance, not written after something goes wrong"
+          "slidetitle": "Building System Resilience",
+          "subtitle": "Technical Strategies for Risk Reduction",
+          "slidecontent": "• Redundant systems prevent single points of failure\n• Regular audits catch bias and errors before real-world impact\n• Manual override capabilities maintained at all critical junctions\n• Transport-specific cybersecurity protocols beyond generic IT solutions\n• Stress-testing reveals weaknesses in controlled environments"
         },
         {
           "number": 7,
-          "slidetitle": "Mitigating Risks in Smart Transport",
-          "subtitle": "Strategies to Reduce System Vulnerabilities",
-          "slidecontent": "• Regular stress-testing of AI systems to identify weaknesses before real-world failures occur\n• Backup manual controls always available\n• Cybersecurity protocols updated frequently to guard against evolving threats in ports, airports, and road networks\n• Staff trained to recognise and respond when automated systems behave unexpectedly\n• Clear incident reporting procedures\n• Collaboration between transport operators, government bodies, and technology suppliers to share risk intelligence"
+          "slidetitle": "Human-Centered Risk Management",
+          "subtitle": "Training and Response Capabilities",
+          "slidecontent": "• Staff trained to recognise when AI output seems wrong\n• Clear incident response plans tested in advance\n• Operators confident to question automated decisions\n• Collaboration between transport operators, government, and technology suppliers\n• Intelligence sharing improves collective risk understanding"
         },
         {
           "number": 8,
@@ -73,15 +73,15 @@
         },
         {
           "number": 2,
-          "script": "Now, as exciting as all this technology is, we do need to talk about what can go wrong. When AI is controlling something as critical as traffic signals, a malfunction is not just an inconvenience. It can cause gridlock, accidents, or worse. And the data feeding these systems matters enormously. If a sensor gives a faulty reading, the AI makes decisions based on bad information, and that can have real consequences on the road. There is also the growing threat of cyberattacks targeting connected infrastructure, which is something authorities are increasingly concerned about. Even the AI models themselves can struggle in unusual conditions, like heavy snow or fog, where pedestrian behaviour becomes harder to predict. Perhaps most worrying is the idea of a single point of failure. Because so much of this infrastructure is connected, one problem can ripple outwards very quickly. And when routing systems fail, it is not just traffic that suffers. Emergency vehicles can be delayed, and that truly costs lives."
+          "script": "Let's start with traffic systems, where the stakes are genuinely high. When AI controls traffic signals and something goes wrong, we're not talking about minor inconvenience. A malfunction can cause gridlock, accidents, or worse. The data feeding these systems matters enormously - if a sensor gives a faulty reading, the AI makes decisions based on bad information. Even sophisticated AI models can struggle in unusual conditions, like heavy snow or fog, where pedestrian behaviour becomes unpredictable. Perhaps most concerning is how interconnected these systems are. Because so much traffic infrastructure is connected, one problem can ripple outwards very quickly, affecting emergency response times when routing systems fail. That delay can genuinely cost lives."
         },
         {
           "number": 3,
-          "script": "Now, before we get too excited about all the possibilities AI brings to transport, we need to have an honest conversation about what can go wrong. Because in traffic systems, the stakes are genuinely high. If an AI controlling traffic signals makes a poor decision or simply stops working, we are not just talking about minor inconvenience. We are talking about collisions, injuries, and potentially lives lost. If the data feeding into the system is inaccurate, vehicles get routed in completely the wrong direction, creating chaos rather than solving it. And then there is the very real threat of cyberattacks. A hacker gaining access to a city's traffic management system could bring entire road networks to a standstill. What makes this even more serious is that problems do not stay contained. A single failure point can ripple outwards, affecting emergency response times, public transport, and the daily lives of thousands of people. Accuracy and reliability here are not optional extras. They are absolutely essential."
+          "script": "Port operations face a completely different but equally challenging set of risks. Imagine dozens of ships arriving simultaneously with nowhere to berth - that queuing effect creates massive congestion, and when cargo sits waiting, financial losses can run into millions within days. Weather adds another layer of complexity, as a sudden storm can throw an entire port's schedule into chaos within hours. Then there's the sheer complexity of port operations - vessels, cranes, trucks, and workers all moving together creates numerous opportunities for accidents. When you combine physical bottlenecks with the potential for system failures, ports become particularly vulnerable to cascading problems that can affect global supply chains."
         },
         {
           "number": 4,
-          "script": "Now let's talk about some of the very real risks that ports face every single day. Imagine dozens of ships all arriving at once, with nowhere to go. That queuing effect creates massive congestion, and when cargo sits waiting, the financial losses can run into millions of pounds very quickly. But it's not just about physical bottlenecks. Ports are increasingly digital environments, which makes them attractive targets for cyber attacks. Criminals can disrupt booking systems, cargo tracking, and even safety controls. On top of that, the weather doesn't wait for anyone. A sudden storm can throw an entire schedule into chaos within hours. And then there's the human element. With so many moving parts, vehicles, cranes, vessels, and workers all operating together, the risk of accidents caused by human error is genuinely significant. So ports are dealing with a really complex mix of operational, digital, and environmental challenges all at the same time. That's precisely where AI can start to make a difference."
+          "script": "Airports present their own unique risk profile in the transport ecosystem. Air traffic control systems managing hundreds of flights daily cannot afford failures - the collision risks are simply too severe. On the ground, passenger flow management becomes critical during peak times, where algorithmic errors can create dangerous crowding situations. Baggage handling systems, when they fail, don't just inconvenience travellers - they can strand thousands of passengers and create security concerns. Weather routing decisions directly affect aircraft safety, while ground vehicle coordination mistakes can threaten runway operations. The complexity of aviation means that even small AI errors can have disproportionate safety and operational consequences."
         },
         {
           "number": 5,
@@ -89,11 +89,11 @@
         },
         {
           "number": 6,
-          "script": "So we know the risks are real, but the good news is that they are manageable. The key is building resilience into the system from the start. That means having backup systems ready so that if one AI component fails, traffic keeps moving and ports keep operating. It means running regular audits to catch bias or errors before they cause real problems. It also means keeping humans in the loop at the moments that matter most, because automated systems should support decisions, not replace judgement entirely. On the cybersecurity side, transport networks need protection that is specifically designed for their environment, not just generic IT solutions. Staff training is equally important, operators need to feel confident enough to question AI output when something does not look right. And finally, incident response plans should be written, practised, and tested well in advance. The time to figure out what to do in a crisis is definitely not during the crisis itself."
+          "script": "Building resilience requires technical strategies that go beyond hoping nothing will break. Redundant systems are essential - if one AI component fails, traffic keeps moving and ports keep operating without interruption. Regular audits help catch bias or errors before they cause real problems in live operations. Manual override capabilities must be maintained at all critical junctions, because there will always be situations where human judgment trumps algorithmic decisions. Transport networks need cybersecurity protocols specifically designed for their unique environment, not just generic IT solutions adapted from office environments. Stress-testing systems in controlled environments reveals weaknesses before they can cause real-world failures, giving operators the chance to fix problems proactively rather than reactively."
         },
         {
           "number": 7,
-          "script": "So, we know AI brings real benefits to transport, but how do we make sure the risks don't catch us off guard? The answer is preparation. Transport operators regularly stress-test their AI systems, essentially putting them under pressure in a controlled environment to spot weaknesses before anything goes wrong in the real world. Alongside that, manual controls are always kept available, so if an automated system fails, staff can step in immediately. Cybersecurity is another big focus, with protocols updated frequently to stay ahead of emerging threats across ports, airports, and road networks. People are just as important as technology here, so staff are trained to recognise unusual system behaviour and know exactly how to respond. Clear incident reporting procedures mean that when something does go wrong, it gets logged and learned from. And importantly, transport operators, government bodies, and technology suppliers all work together, sharing intelligence so everyone benefits from a collective understanding of the risks involved."
+          "script": "Technology alone cannot manage these risks - people remain central to safe operations. Staff need training to recognise when AI output seems wrong and the confidence to question automated decisions when their experience tells them something isn't right. Clear incident response plans should be written, practiced, and tested well in advance - the time to figure out what to do in a crisis is definitely not during the crisis itself. Collaboration between transport operators, government bodies, and technology suppliers creates a knowledge-sharing network where everyone benefits from collective intelligence about emerging risks. This human-centered approach ensures that as AI becomes more sophisticated, the people working alongside these systems become more capable of managing the inevitable challenges."
         },
         {
           "number": 8,

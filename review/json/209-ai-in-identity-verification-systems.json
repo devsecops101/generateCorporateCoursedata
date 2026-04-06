@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "AI in Identity Verification Systems",
-          "subtitle": "Exploring Risks in AI Verification Systems",
-          "slidecontent": "• AI checks who you are\n• Errors cause real harm\n• False matches happen often\n• Some people get excluded\n• Risks need careful management"
+          "subtitle": "How artificial intelligence confirms who you are",
+          "slidecontent": "• AI systems verify identity using documents, biometrics, and behavioral data\n• Used in banking, government services, and online platforms\n• Technology offers speed and convenience\n• Replaces or supplements manual verification processes\n• Growing adoption across education and public sectors"
         },
         {
           "number": 2,
-          "slidetitle": "Risks of AI Verification",
-          "subtitle": "What can go wrong and why.",
-          "slidecontent": "• False matches cause real harm\n• Bias excludes certain groups\n• Stolen data enables fraud\n• Errors deny legitimate access\n• Systems can be fooled"
+          "slidetitle": "Three Key Risk Categories",
+          "subtitle": "What can go wrong in AI verification",
+          "slidecontent": "• False matches: System links you to wrong person's records\n• False rejections: Legitimate users wrongly denied access\n• Systematic exclusion: Certain groups face higher error rates\n• Data security vulnerabilities\n• System manipulation through spoofing or deepfakes"
         },
         {
           "number": 3,
-          "slidetitle": "Risks of False Matches",
-          "subtitle": "When Systems Confuse One Person for Another",
-          "slidecontent": "• A false match occurs when the system incorrectly links one person's identity to someone else's records\n• Can trigger wrongful denials, fraud flags, or even legal consequences\n• Serious real-world harm\n• Certain groups, including people with similar facial features or names, face higher error rates\n• Errors often go unnoticed until significant damage has already been done\n• The stakes are especially high in banking, border control, and healthcare"
+          "slidetitle": "Understanding False Matches",
+          "subtitle": "When the system thinks you're someone else",
+          "slidecontent": "• Your identity gets linked to another person's records\n• Can trigger fraud alerts or legal investigations\n• Errors often go undetected for extended periods\n• Damage accumulates before problems are discovered\n• Particularly serious in high-stakes environments"
         },
         {
           "number": 4,
-          "slidetitle": "False Matches and Identity Errors",
-          "subtitle": "When Systems Confuse One Person for Another",
-          "slidecontent": "• False matches occur when a system incorrectly links one person's identity to another's records\n• Can trigger wrongful denials, fraud flags, or even legal consequences\n• Errors happen more often with certain groups, including people with darker skin tones or non-Western facial features\n• Small data errors compound quickly\n• A single misidentification can lock someone out of banking, healthcare, or border control\n• Root causes include biased training data, poor image quality, and overly confident matching thresholds"
+          "slidetitle": "Root Causes of Matching Errors",
+          "subtitle": "Why false matches happen more to some groups",
+          "slidecontent": "• Biased training data lacks diversity\n• Poor image quality compounds errors\n• Matching thresholds set incorrectly\n• People with darker skin tones misidentified more often\n• Non-Western facial features less accurately recognized"
         },
         {
           "number": 5,
-          "slidetitle": "False Matches and Exclusion Risks",
-          "subtitle": "When Systems Misidentify or Exclude People",
-          "slidecontent": "• Wrong person flagged as match\n• Real users wrongly rejected\n• Bias affects certain groups more\n• Errors cause real harm\n• Systems are not always accurate"
+          "slidetitle": "Exclusion Through False Rejection",
+          "subtitle": "When legitimate users are turned away",
+          "slidecontent": "• System fails to recognize genuine users\n• Higher rejection rates for women, elderly, minorities\n• Creates barriers to essential services\n• Unintentional but systematic discrimination\n• Technology amplifies existing inequalities"
         },
         {
           "number": 6,
-          "slidetitle": "Consequences of Identity Verification Errors",
-          "subtitle": "When errors cause real-world harm",
-          "slidecontent": "• False matches can lead to wrongful arrests or denied access to essential services\n• Real people locked out of bank accounts or benefits due to system errors\n• Exclusion disproportionately affects marginalised groups\n• Reputational and legal consequences for organisations that deploy flawed systems\n• Errors erode public trust in AI-driven verification over time"
+          "slidetitle": "Real-World Impact of Verification Errors",
+          "subtitle": "Consequences for individuals and organizations",
+          "slidecontent": "• Wrongful arrests or service denials\n• People locked out of bank accounts or benefits\n• Marginalised communities disproportionately affected\n• Legal and reputational risks for organizations\n• Erosion of public trust in AI systems"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Risk and Bias",
-          "subtitle": "Minimising Errors Through Fairness and Oversight",
-          "slidecontent": "• Test for demographic bias regularly\n• Audit outputs, not just inputs\n• Include human review steps\n• Diverse data reduces errors\n• Flag low-confidence matches always"
+          "slidetitle": "Strategies for Risk Reduction",
+          "subtitle": "Building fairer and more reliable systems",
+          "slidecontent": "• Test regularly across demographic groups\n• Audit system outputs, not just inputs\n• Include human review for high-risk decisions\n• Use diverse, representative training data\n• Flag and escalate low-confidence matches"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for responsible AI use",
-          "slidecontent": "• AI identity systems can and do make mistakes, especially with underrepresented groups\n• False matches and false rejections both carry real consequences for real people\n• Bias in training data leads to unequal outcomes\n• Always question results that seem automatic or certain\n• Human oversight remains essential, particularly in high risk decisions\n• Start by reviewing your organisation's current AI verification processes and asking who might be excluded"
+          "slidetitle": "Moving Forward Responsibly",
+          "subtitle": "Essential principles for AI verification deployment",
+          "slidecontent": "• Assume systems will make mistakes\n• Question results that seem automatic\n• Maintain human oversight for critical decisions\n• Audit existing processes for exclusion patterns\n• Prioritize fairness alongside accuracy\n• Build transparency into verification workflows"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this course on AI in Identity Verification Systems. Over the next few lessons, we're going to explore how artificial intelligence is being used to confirm who people are, whether that's unlocking a phone, crossing a border, or accessing a bank account. Now, this technology is genuinely impressive, but it also comes with some serious risks that we need to understand. When these systems get things wrong, and they do get things wrong, real people face real consequences. Sometimes a system incorrectly matches one person to another, which can lead to wrongful accusations or denied access. And for certain groups of people, these errors happen far more frequently, meaning some individuals are effectively shut out of services they have every right to use. So throughout this course, we'll be looking honestly at those risks and thinking about how they can be managed responsibly. Let's get started."
+          "script": "Welcome to this course on AI in Identity Verification Systems. Today, we're exploring how artificial intelligence is revolutionizing the way we confirm who people are. These systems analyze documents, scan faces, check fingerprints, and even study behavioral patterns to verify identity. You'll find this technology everywhere: unlocking your phone, accessing your bank account, crossing borders, or logging into government services. The appeal is obvious - AI can process verification requests instantly, 24/7, without the delays and costs of manual review. In education and public sector organizations, this technology is being rapidly adopted to streamline access to services and improve user experience. But as we'll see throughout this course, this powerful capability comes with significant responsibilities and risks that we need to understand."
         },
         {
           "number": 2,
-          "script": "Before we look at how AI verification works in practice, it's important to understand what can go wrong, because the risks here are very real. When a system makes a false match, it can grant access to the wrong person, and that has serious consequences. There's also the issue of bias. Some AI systems perform less accurately for certain groups of people, particularly those from minority ethnic backgrounds, which means the technology can end up excluding the very people it's supposed to serve. Then there's data security. These systems handle highly sensitive personal information, and if that data is stolen, it can be used to commit fraud. On the flip side, errors can also lock out legitimate users, people who genuinely are who they say they are but get rejected anyway. And finally, some systems can be deliberately tricked using things like deepfakes or spoofing techniques. So there's quite a lot to be aware of, and we'll explore each of these areas as the course progresses."
+          "script": "Before diving deeper, let's map out the main risk categories in AI verification. First, there are false matches - where the system incorrectly links your identity to someone else's records entirely. Then we have false rejections, where legitimate users get turned away despite being exactly who they claim to be. Perhaps most concerning is systematic exclusion, where certain demographic groups consistently experience higher error rates. Beyond accuracy issues, these systems handle extremely sensitive personal data, creating security vulnerabilities if breached. And as AI becomes more sophisticated, so do the methods to fool it - from deepfakes to sophisticated spoofing attacks. Understanding these risk categories helps us approach AI verification with appropriate caution and prepare for the specific challenges each one presents."
         },
         {
           "number": 3,
-          "script": "Now, one of the most serious problems in identity verification is what we call a false match. This is where the system gets confused and links your identity to someone else's records entirely. And as you can imagine, that can cause real problems. Someone might be wrongly denied access to their bank account, flagged for fraud they didn't commit, or in extreme cases, face legal trouble for something they had nothing to do with. What makes this even more concerning is that certain groups of people are more likely to experience these errors, particularly those who share similar facial features or common names. And here is the really troubling part: these mistakes often go undetected for quite some time, meaning the damage can pile up before anyone realises something has gone wrong. In high risk environments like banking, border control, and healthcare, the consequences of getting this wrong are not just inconvenient, they can be genuinely life-changing."
+          "script": "Let's examine false matches in detail, because this is where some of the most serious harm occurs. Picture this: the AI system looks at your face or scans your document and confidently declares it recognizes you - but it's actually matched you to a completely different person in its database. Suddenly, you might find yourself flagged for crimes you didn't commit, blocked from services due to someone else's credit problems, or facing fraud allegations. What makes this particularly troubling is that these errors often go unnoticed for weeks or months. The system appears to be working normally, while someone's life is quietly being disrupted by invisible digital confusion. In critical contexts like healthcare records or immigration databases, a false match can have consequences that extend far beyond mere inconvenience."
         },
         {
           "number": 4,
-          "script": "Now, one of the most serious problems in identity verification is what we call a false match. This is where the system looks at someone and essentially says, \"Yes, I recognise you,\" but it's got the wrong person entirely. And the consequences can be significant. We're talking about people being wrongly flagged for fraud, denied access to their bank account, or even stopped at a border. What makes this particularly concerning is that these errors don't happen equally across all groups. Research consistently shows that people with darker skin tones or non-Western facial features are misidentified far more often. That points to a real problem with the data these systems were trained on in the first place. Add in poor image quality or matching thresholds that are set too high, and small errors start to compound very quickly. So it's not just a technical glitch. For the person on the receiving end, it can have very real, very serious consequences."
+          "script": "So why do false matches happen, and why do they affect some people more than others? The answer often lies in the training data these systems learned from. If an AI was primarily trained on images of light-skinned faces, it will struggle to distinguish between people with darker skin tones - leading to higher rates of false matches within those communities. Technical factors compound this problem: poor lighting conditions, low-resolution cameras, or matching algorithms that are overconfident in their predictions. When systems set their matching thresholds too low, they become more likely to declare a match even when the similarity is marginal. These aren't random glitches - they're predictable patterns that disproportionately impact already marginalized communities, turning technological solutions into sources of additional inequality."
         },
         {
           "number": 5,
-          "script": "Now, one of the most serious concerns with AI identity verification is what happens when the system gets it wrong. There are two main types of error to be aware of. The first is a false match, where the system incorrectly identifies someone as a person they are not. Imagine being flagged as a criminal or a fraud suspect simply because an algorithm made a mistake. The second is a false rejection, where a genuine, legitimate user is turned away because the system fails to recognise them. And here is the really important point: these errors do not affect everyone equally. Research consistently shows that certain groups, particularly people with darker skin tones, women, and older individuals, experience significantly higher error rates. That means the technology can inadvertently discriminate, even without any deliberate intention to do so. These are not just technical glitches. They have real consequences for real people, which is why understanding these limitations matters so much."
+          "script": "Now let's look at the flip side: false rejection, where legitimate users are incorrectly denied access. While false matches grab headlines, false rejections might actually be more common and equally damaging. Research consistently shows that AI verification systems have higher failure rates for women, elderly people, and ethnic minorities. This means that the very groups who often face the greatest barriers to accessing services are being further excluded by the technology meant to streamline those services. Unlike false matches, where someone gets wrongly connected to another identity, false rejections simply shut people out entirely. They can't access their benefits, can't open bank accounts, can't complete online verification processes - effectively creating digital barriers that mirror and amplify existing social inequalities."
         },
         {
           "number": 6,
-          "script": "When an identity verification system gets it wrong, the consequences can be serious and far-reaching. A false match might mean someone is wrongfully arrested, or denied access to a service they genuinely need. Think about being locked out of your bank account or having your benefits stopped because a system incorrectly flagged your identity. These aren't just inconveniences; they can cause real hardship. And it's worth noting that these errors don't affect everyone equally. Marginalised communities, including people from certain ethnic backgrounds, tend to be disproportionately impacted. Beyond the harm to individuals, organisations that deploy flawed systems also face significant legal and reputational risks. Nobody wants to be the company that made headlines for the wrong reasons. And perhaps most importantly, every high-profile error chips away at public trust in AI-driven verification as a whole. So getting accuracy right isn't just a technical goal; it's an ethical and social responsibility."
+          "script": "When verification errors occur, the ripple effects extend far beyond the initial mistake. For individuals, we're talking about being locked out of bank accounts just when you need emergency funds, having benefit payments stopped due to system errors, or being detained at borders because of misidentification. These aren't abstract problems - they cause real hardship and can take months to resolve. Organizations deploying flawed systems face their own consequences: legal liability, regulatory penalties, and severe reputational damage when errors become public. Perhaps most significantly, each high-profile failure erodes public trust in AI-driven verification overall. When people lose faith in these systems, they become less willing to engage with digital services, undermining the very benefits that AI verification was supposed to provide."
         },
         {
           "number": 7,
-          "script": "Now, one of the most important responsibilities when deploying AI in identity verification is making sure the system is fair and reliable for everyone. AI models can develop biases, particularly around age, ethnicity, or gender, so you need to test regularly across different demographic groups to catch those problems early. And here is something people often overlook: it is not enough to check the data going in. You also need to audit what the system is actually producing. Are certain groups being rejected more often? That is a red flag. Building in human review at key decision points adds another layer of protection, especially in high risk situations. The quality of your training data matters enormously too. Diverse, representative datasets genuinely reduce the chance of errors. Finally, whenever the system is uncertain about a match, do not let it guess quietly. Flag it. Make it visible. That transparency is what keeps the whole process trustworthy and accountable."
+          "script": "Fortunately, there are proven strategies to reduce these risks and build more equitable systems. Regular demographic testing is essential - you need to actively measure how your system performs across different groups, not just assume it works equally well for everyone. Auditing outputs means looking at the actual decisions being made: are certain populations being rejected or flagged at higher rates? Human oversight becomes crucial, especially for decisions with serious consequences. No AI system should be making life-changing determinations without human review. Data quality matters enormously too - investing in diverse, representative training datasets genuinely reduces error rates across all groups. And when the system isn't confident about a match, that uncertainty should be visible and acted upon, not hidden behind automated confidence scores."
         },
         {
           "number": 8,
-          "script": "So let's bring together the key lessons from everything we've covered. The most important thing to hold onto is this: AI identity systems are not infallible. They make mistakes, and those mistakes tend to fall hardest on people from underrepresented groups. Whether someone is wrongly matched or wrongly rejected, there are real consequences for that person. And a lot of this comes back to the training data. If the data is biased, the outcomes will be too. So whenever a system gives you a result that feels automatic or certain, that's actually the moment to pause and ask questions. Human judgement and oversight aren't optional extras, especially when the stakes are high. As a practical next step, I'd encourage you to look at the AI verification processes your organisation already uses and ask honestly: who might be getting excluded or disadvantaged by them? That's a genuinely valuable place to start making a difference."
+          "script": "As we conclude, let's focus on the mindset needed for responsible AI verification deployment. Start with the assumption that your system will make mistakes - the question isn't whether, but how you'll detect and respond to them. Whenever you see results that appear automatic or certain, that's precisely when to ask critical questions about accuracy and fairness. Human judgment remains irreplaceable, especially in high-stakes situations where errors can change lives. Take time to audit your existing verification processes: who might be getting excluded or disadvantaged by current systems? This kind of honest assessment is where meaningful change begins. Remember, building trustworthy AI verification isn't just about technical accuracy - it's about ensuring that these powerful tools serve everyone fairly and transparently."
         }
       ]
     }

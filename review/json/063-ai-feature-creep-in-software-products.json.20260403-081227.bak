@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Feature Creep in Software Products",
+  "Category": "Technology & Telecommunications: Information Technology, Science & Technology, Software, Hardware, Telecom",
+  "Description": "How adding AI without proper design introduces risk and complexity.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with software development concepts and a general awareness of how AI tools are being used in technology products will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the common patterns of AI feature creep in software products and explain how unplanned AI additions introduce unnecessary risk and complexity. You will also be able to apply practical design principles to evaluate and prioritise AI features responsibly, helping your team make more informed decisions throughout the product development process.",
+  "lessons": [
+    {
+      "lesson title": "AI Feature Creep in Software Products",
+      "order": 1,
+      "Description": "In this lesson, you will explore how the rush to add artificial intelligence features to software products can quietly introduce unexpected risks and technical complexity. Many teams add AI capabilities without fully considering the design implications, and this often leads to bloated products that are harder to maintain, test, and explain to users. We will look at real-world patterns where well-intentioned AI additions have created confusion, eroded user trust, or made systems more fragile than before. By the end of this lesson, you will have a clearer understanding of what AI feature creep looks like in practice and why a thoughtful, design-led approach is essential before adding any AI capability to a product.",
+      "status": "draft",
+      "content": "How adding AI without proper design introduces risk and complexity.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "What Is AI Feature Creep?",
+          "subtitle": "Defining the problem before it spreads",
+          "slidecontent": "• When AI features are added to a product without a clear purpose or plan, complexity quietly builds up\n\n• Each new addition seems small\n\n• Over time, these unplanned additions create confusion for users and headaches for development teams\n\n• A product bloated with unnecessary AI tools that nobody asked for\n\n• The problem rarely announces itself, it creeps in gradually through well-meaning but poorly scoped decisions"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI Feature Creep",
+          "subtitle": "When AI additions outpace product intent",
+          "slidecontent": "• Features added without clear purpose\n• Complexity grows, value shrinks\n• Users feel lost or overwhelmed\n• AI bolted on, not built in\n• More tools, fewer solutions"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Complexity Grows With Each Addition",
+          "subtitle": "Each feature adds hidden technical debt.",
+          "slidecontent": "• More features, more failures\n• Maintenance costs rise fast\n• Systems become harder to test\n• Dependencies multiply quietly\n• Small additions compound quickly"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Complexity Grows With Each Addition",
+          "subtitle": "Each feature adds hidden technical debt.",
+          "slidecontent": "• More features, more failures\n• Dependencies multiply quickly\n• Maintenance costs rise fast\n• Testing becomes far harder\n• Small additions compound silently"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Complexity Grows With Each Addition",
+          "subtitle": "Each feature adds hidden technical debt.",
+          "slidecontent": "• More features, more dependencies\n• Bugs multiply across integrations\n• Testing becomes exponentially harder\n• Maintenance costs quietly balloon\n• Teams lose system clarity fast"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Unintended Consequences of AI Bloat",
+          "subtitle": "When more AI means more problems.",
+          "slidecontent": "• Overlapping AI features that conflict with each other, confusing users and breaking workflows\n• Slower performance\n• Each added model increases the attack surface for security vulnerabilities\n• Harder to debug when something goes wrong\n• Users lose trust quickly when AI behaves unpredictably across different parts of a product\n• More AI, more liability"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing AI Feature Creep Risk",
+          "subtitle": "Strategies to keep AI additions focused.",
+          "slidecontent": "• Define a clear problem before adding any AI feature\n• Tie each AI addition to a specific, measurable user need\n• Short feedback loops catch scope drift early\n• Review AI features regularly against original goals\n• Kill features that add complexity without clear benefit\n• Involve non-technical stakeholders in scoping decisions"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Every AI feature added without clear purpose increases complexity and risk\n• Users notice when AI feels bolted on\n• Start small, validate, then expand\n• Good AI design solves a real problem the user already has\n• Involve your team early, before the feature is built, not after\n• Review your existing product before adding anything new"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start by getting clear on what we actually mean by AI feature creep, because it's one of those problems that's surprisingly easy to miss until it's already caused real damage. Imagine a product team that keeps adding AI-powered features, one at a time, each one feeling like a reasonable idea in the moment. A smart search here, an automated suggestion there, maybe a little predictive tool tucked into a corner of the interface. None of it seems like a big deal at the time. But gradually, without anyone really noticing, the product becomes cluttered and confusing. Users don't know what half the features do, and the development team is struggling to maintain something that grew without a proper plan. That's AI feature creep. It doesn't arrive with a warning. It sneaks in through good intentions and poorly defined decisions, building up quietly until the product is bloated with tools that nobody actually asked for."
+        },
+        {
+          "number": 2,
+          "script": "So, what exactly do we mean by AI feature creep? At its core, it's what happens when a product keeps gaining AI-powered additions that nobody really asked for, and nobody quite knows what to do with. Each new feature might sound impressive on paper, but without a clear purpose behind it, the product becomes harder to use, not easier. And here's the irony: the more you add, the less value users actually get. They open the product and feel overwhelmed, unsure where to go or what anything is really for. That's a sign that AI has been bolted on as an afterthought, rather than thoughtfully built into the product from the start. It's the difference between adding tools because you can, and solving problems because you should. Throughout this lesson, we'll unpack how this happens, why it's so common, and what we can do to avoid falling into that trap."
+        },
+        {
+          "number": 3,
+          "script": "Here's the narration for slide 3:\n\nSo let's talk about what actually happens under the hood when you keep adding AI features. On the surface, each new addition might seem small and harmless, but the reality is that complexity builds up very quickly. Every feature you bolt on creates new opportunities for things to go wrong, and suddenly your team is spending more time fixing problems than building anything useful. Maintenance becomes expensive, not just in terms of money, but in time and effort too. And testing? That becomes a real headache, because the more moving parts you have, the harder it is to check that everything still works together properly. What makes this especially tricky is that features rarely sit in isolation. They connect to other parts of the system in ways that aren't always obvious at first. So one small addition quietly pulls in several dependencies, and before long, those little decisions have compounded into something genuinely difficult to manage."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nSo let's think about what actually happens under the hood each time you add a new AI feature. On the surface, it might look like a small, harmless addition. But technically, the picture is quite different. Every new feature introduces new ways for things to go wrong, and it creates connections to other parts of the system that didn't exist before. Those connections, those dependencies, start multiplying very quickly. And with more moving parts comes more maintenance work, more cost, and more time spent just keeping things running. Testing becomes significantly harder too, because you now have to account for how all these pieces interact with each other. The really tricky part is that none of this feels dramatic in the moment. Each addition seems minor on its own. But over time, these small decisions quietly stack up, and before long, you're carrying a much heavier technical burden than you ever intended."
+        },
+        {
+          "number": 5,
+          "script": "So here's something that catches a lot of teams off guard. Every time you add a new AI feature, you're not just adding one thing. You're adding a whole web of connections to everything that already exists. And those connections create problems. A bug in one area can ripple out and cause unexpected failures somewhere else entirely. Testing, which was already time-consuming, suddenly becomes a much bigger challenge because you're not just checking one feature in isolation, you're checking how it behaves alongside everything else. And the costs of keeping all of this running, patching it, updating it, supporting it, those costs creep up quietly in the background until one day someone looks at the budget and wonders where it all went. Perhaps most importantly, your development team starts to lose their clear mental picture of how the whole system fits together. And once that clarity is gone, it is genuinely difficult to get back."
+        },
+        {
+          "number": 6,
+          "script": "So we've talked about how AI features pile up, but what actually happens when they do? Well, quite a lot can go wrong. When you have multiple AI systems running inside the same product, they can start to conflict with each other, producing confusing or contradictory behaviour for the user. The product also gets slower, because every additional model needs processing power. And from a security standpoint, each new model is another potential entry point for attackers. When something does break, your developers are left trying to untangle a much more complex system, which makes debugging a real headache. Perhaps most importantly, users notice when AI behaves inconsistently. It erodes trust, and once that trust is gone, it is very hard to win back. There is also a growing legal dimension here, because more AI functionality means more liability exposure. So the message is simple: adding more AI does not automatically make your product better. It can actually make things significantly worse."
+        },
+        {
+          "number": 7,
+          "script": "So how do we actually keep AI feature creep under control? It starts before you write a single line of code. Be really clear about the problem you are trying to solve, and make sure every AI addition is tied to a genuine, measurable user need rather than just a good idea someone had in a meeting. From there, keep your feedback loops short. The sooner you spot that scope is drifting, the easier it is to correct. Build in regular review points where you honestly ask whether each AI feature is still doing what you originally intended. And if something is adding complexity without a clear benefit, be willing to cut it. That takes discipline, but it is worth it. Finally, do not keep these conversations inside the technical team. Bringing in non-technical stakeholders, product owners, customer success people, anyone close to the user, helps ground decisions in real-world value rather than technical enthusiasm."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together. The core lesson here is that AI works best when it earns its place in your product. Every time you add a feature without a clear reason, you are adding complexity, and users will feel that. They are remarkably good at spotting when something has been dropped in just because it was possible, rather than because it genuinely helps them. The approach that tends to work is starting small, proving that something is useful, and only then building further. Ask yourself whether the problem you are solving is one your users actually have, not one you have imagined for them. And please, bring your team into the conversation early. Decisions made before a feature is built are far easier to course correct than ones made afterwards. Finally, before you consider adding anything new, take a proper look at what you already have. That review alone can save you a great deal of trouble."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Software engineers, product managers, product owners, software developers, UI/UX designers, technical leads, engineering managers, software architects",
+  "Team or Dept this is for": "Engineering, Product Development, IT, Software Development, Design"
+}

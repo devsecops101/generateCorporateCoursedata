@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "Introducing Fail-Safe AI Design",
-          "subtitle": "When AI fails, safety must prevail.",
-          "slidecontent": "• AI systems can and do fail\n• Failures risk worker safety\n• Overrides keep humans in control\n• Shutdown mechanisms save lives\n• Safe design is non-negotiable"
+          "slidetitle": "The Reality of AI Failures in Manufacturing",
+          "subtitle": "Understanding the risks and consequences",
+          "slidecontent": "• AI systems inevitably experience failures\n• Manufacturing failures risk worker injury\n• Unexpected behaviors can damage equipment\n• Downtime costs escalate rapidly\n• Safety incidents carry legal liability"
         },
         {
           "number": 2,
-          "slidetitle": "Safety Mechanisms and Override Systems",
-          "subtitle": "Keeping humans firmly in control",
-          "slidecontent": "• Emergency stop buttons exist\n• Humans override AI decisions\n• Alerts flag unsafe conditions\n• Manual mode always available\n• Logs record every action"
+          "slidetitle": "Essential Override Control Types",
+          "subtitle": "Multiple layers of human intervention",
+          "slidecontent": "• Physical emergency stop buttons\n• Software-based manual mode toggles\n• Process parameter overrides\n• Real-time alert systems\n• Comprehensive action logging"
         },
         {
           "number": 3,
-          "slidetitle": "Recognising Failure Modes Early",
-          "subtitle": "Spotting Problems Before They Escalate",
-          "slidecontent": "• Unexpected output patterns (such as repeated errors or erratic decisions) often signal deeper system faults\n• Sensor drift, data gaps, and model degradation are common early warning signs\n• Catching problems early\n• Operators trained to recognise anomalies can intervene before minor faults become costly failures\n• Real-time monitoring dashboards help surface issues that would otherwise go unnoticed"
+          "slidetitle": "Identifying System Failure Warning Signs",
+          "subtitle": "Early detection prevents escalation",
+          "slidecontent": "• Repetitive error patterns indicate system faults\n• Sensor drift causes gradual inaccuracy\n• Data gaps compromise decision-making\n• Model degradation reduces performance\n• Real-time dashboards reveal hidden issues"
         },
         {
           "number": 4,
-          "slidetitle": "Human Override and Control",
-          "subtitle": "Keeping humans firmly in the loop",
-          "slidecontent": "• A human operator must always be able to stop or override an AI system instantly\n• Physical emergency stop buttons, not just software controls\n• Overrides should require no specialist knowledge to activate\n• Clear, simple interfaces so any worker on the floor can intervene\n• Logging every override attempt for later review and improvement\n• Never let the AI lock out human control, even to \"protect\" its own process"
+          "slidetitle": "Design Principles for Human Control",
+          "subtitle": "Maintaining operator authority over AI decisions",
+          "slidecontent": "• Instant override capability without technical knowledge\n• Clear, accessible control interfaces\n• AI cannot lock out human intervention\n• All override actions automatically logged\n• Simple activation under pressure"
         },
         {
           "number": 5,
-          "slidetitle": "Designing Reliable Shutdown Mechanisms",
-          "subtitle": "Ensuring Safe and Controlled System Stops",
-          "slidecontent": "• A reliable shutdown mechanism halts all AI-driven processes quickly and safely when triggered\n• Must work even if the AI itself has failed\n• Hardware-level stops (physical cut-offs) provide a last line of defence independent of software\n• Shutdown triggers can be manual, automatic, or both, depending on the risk level of the task\n• Regular testing confirms the mechanism actually works under real conditions\n• Clear labelling and accessible placement of emergency stops reduces response time in a crisis"
+          "slidetitle": "Hardware-Level Shutdown Mechanisms",
+          "subtitle": "Independent fail-safes when software fails",
+          "slidecontent": "• Physical cut-offs operate independently of software\n• Function even when AI systems malfunction\n• Manual and automatic trigger options\n• Regular testing under real conditions\n• Strategic placement for quick access"
         },
         {
           "number": 6,
-          "slidetitle": "Designing Reliable Override Systems",
-          "subtitle": "Keeping humans firmly in control",
-          "slidecontent": "• A reliable override system lets a human stop or redirect an AI process at any point, without needing technical expertise\n• Physical emergency stops, software kill switches, and manual mode toggles all count as override mechanisms\n• Overrides must be tested regularly, not just installed and forgotten\n• Clear labelling matters\n• Operators should be trained to use overrides confidently, so hesitation never costs precious seconds in a real incident\n• Every override action should be logged automatically, creating an audit trail for later review"
+          "slidetitle": "Override System Architecture",
+          "subtitle": "Building reliable intervention pathways",
+          "slidecontent": "• Multiple override mechanisms for redundancy\n• No technical expertise required for activation\n• Regular testing prevents false confidence\n• Clear labeling reduces response time\n• Automatic logging creates audit trails"
         },
         {
           "number": 7,
-          "slidetitle": "Implementing Overrides in Practice",
-          "subtitle": "Balancing Automation With Human Control",
-          "slidecontent": "• Clear override buttons, always visible\n• Label controls in plain language\n• Test overrides before going live\n• Train staff on manual steps\n• Log every override event"
+          "slidetitle": "Deployment Best Practices",
+          "subtitle": "Translating safety theory into floor operations",
+          "slidecontent": "• Visible controls with plain language labels\n• Pre-deployment testing in safe environments\n• Staff training on manual procedures\n• Documentation of every override event\n• Continuous improvement based on logs"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles for safer AI systems",
-          "slidecontent": "• Always build in shutdown options\n• Humans must stay in control\n• Test overrides before deployment\n• Simple beats complex every time\n• Review safety systems regularly\n• Start small, then scale up"
+          "slidetitle": "Fail-Safe Implementation Strategy",
+          "subtitle": "Systematic approach to safer AI deployment",
+          "slidecontent": "• Build shutdown capabilities from day one\n• Maintain human decision-making authority\n• Prioritize simplicity over complexity\n• Schedule regular safety system reviews\n• Scale gradually from pilot programs"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on fail-safe design for AI systems in manufacturing. Now, here is something that might surprise you: AI systems are not perfect. They can and do fail, and in a manufacturing environment, that is not just an inconvenience, it can be genuinely dangerous for the people working alongside them. So the question we need to ask is: what happens when things go wrong? The answer lies in designing safety into the system from the very beginning. That means building in manual overrides so that human operators can step in and take control at any moment. It also means having reliable shutdown mechanisms that can bring a machine or process to a safe stop before anyone gets hurt. These are not optional extras or nice-to-haves. They are absolutely fundamental to responsible AI deployment in any manufacturing setting. Throughout this lesson, we will explore exactly how these principles work in practice."
+          "script": "Welcome to this lesson on fail-safe design for AI systems in manufacturing. Let's start with a fundamental truth: AI systems will fail. Not might fail, but will fail. In manufacturing environments, these failures aren't just inconvenient—they pose real risks to worker safety and can cause significant equipment damage. When an AI system controlling a chemical process starts making erratic decisions, or when a quality control system begins rejecting good products while passing defective ones, the consequences escalate quickly. Production downtime can cost thousands per hour, and safety incidents carry serious legal and human costs. This is why fail-safe design isn't optional—it's a critical responsibility that begins the moment we consider deploying AI on the factory floor."
         },
         {
           "number": 2,
-          "script": "Now, one of the most important principles in AI-powered manufacturing is that humans must always remain in control. So let's look at how we actually make that happen in practice. First, every AI system should have a physical emergency stop, a big red button that any operator can hit the moment something looks wrong. Beyond that, your team should always be able to step in and override whatever decision the AI has made, no questions asked. The system also needs to be proactive about flagging problems, sending alerts when it detects conditions that could become unsafe, rather than waiting for someone to notice. Crucially, there should always be a manual mode available, so if the AI fails or behaves unexpectedly, production does not grind to a halt. And finally, every single action the system takes should be logged automatically. That audit trail is invaluable when you need to investigate an incident or demonstrate compliance. These mechanisms work together to keep your workforce safe and your operation running reliably."
+          "script": "Effective override systems require multiple types of controls working together. At the most basic level, you need physical emergency stops—the big red buttons that can halt operations instantly. These are your last line of defense. But you also need software-based controls that let operators switch systems to manual mode or adjust critical parameters in real time. Your alert systems should actively notify operators when conditions approach unsafe thresholds, rather than waiting for problems to become obvious. Every action these systems take needs to be logged automatically, creating a detailed record for compliance and improvement. The key is layering these controls so that if one fails, others are ready to step in."
         },
         {
           "number": 3,
-          "script": "When an AI system starts behaving oddly, perhaps making erratic decisions or producing the same errors repeatedly, that is rarely a random glitch. It is usually a sign that something deeper is going wrong. Common culprits include sensor drift, where readings gradually become inaccurate, gaps in the data the system is receiving, or the AI model itself slowly degrading over time. The good news is that if you catch these warning signs early, you can step in before a small issue turns into a serious and costly problem. That is why two things matter enormously on the factory floor. First, your operators need to be trained to recognise when something looks off, because a well-trained human eye is still one of your best defences. Second, real-time monitoring dashboards give everyone a clear, up-to-date picture of how the system is performing, surfacing problems that might otherwise stay hidden until it is far too late."
+          "script": "Catching AI system failures early can mean the difference between a minor adjustment and a major incident. Watch for repetitive error patterns—when a system keeps making the same mistakes, it's often signaling a deeper problem. Sensor drift is particularly common in manufacturing, where environmental conditions gradually cause readings to become less accurate over time. Data gaps, whether from connectivity issues or sensor failures, can leave your AI making decisions with incomplete information. Model degradation is subtler but equally dangerous—the AI's performance slowly deteriorates as real-world conditions drift from its training data. Real-time monitoring dashboards are invaluable here, surfacing these warning signs before they become critical problems."
         },
         {
           "number": 4,
-          "script": "Now, no matter how clever your AI system is, a human being must always be able to pull the plug. And I mean that quite literally. We're talking about physical emergency stop buttons, not just a button on a screen that the software could potentially ignore or override itself. If something goes wrong on the factory floor, you cannot afford to have workers hunting through menus or calling a specialist. The controls need to be simple and obvious enough that absolutely anyone can use them under pressure. Equally important is making sure the AI can never lock humans out, even if it's been designed to protect its own process. That might sound like a helpful feature, but it is actually a serious safety risk. Every time someone does trigger an override, log it. That data is genuinely valuable because it tells you where your system is struggling and where you can make improvements going forward."
+          "script": "The golden rule of AI safety is this: humans must always retain ultimate authority. That means any worker should be able to override an AI decision instantly, without needing specialized training or technical knowledge. Your control interfaces need to be intuitive enough that they work under stress, when adrenaline is high and time is short. Critically, the AI system must never be able to lock humans out, even if it's designed to protect its own processes. This might seem counterintuitive, but an AI that can prevent human intervention becomes a safety hazard itself. Every override action should be logged so you can analyze patterns and improve your systems, but the ability to intervene must never be compromised."
         },
         {
           "number": 5,
-          "script": "When an AI system starts behaving unexpectedly, you need to be able to stop it quickly and with confidence. That is what a reliable shutdown mechanism gives you. Now, here is the critical point: the shutdown must work even if the AI itself has failed. That is why hardware-level cut-offs are so important. They operate independently of the software, so no matter what the system is doing, you can physically pull the plug. Depending on how risky the task is, your shutdown triggers might be manual, automatic, or a combination of both. But having the mechanism in place is only half the job. You also need to test it regularly under real conditions, because a shutdown that only works in theory is no use to anyone. And finally, make sure your emergency stops are clearly labelled and easy to reach. In a crisis, every second counts, and nobody should be searching for the off switch."
+          "script": "When software-based controls aren't enough, hardware-level shutdowns provide the ultimate safeguard. These physical cut-offs operate completely independently of your AI software, meaning they'll work even if the system has crashed or is behaving unpredictably. Think of them as the circuit breakers of AI safety—simple, reliable, and always available. Depending on your manufacturing process, you might use manual triggers, automatic sensors, or both. The critical factor is regular testing under realistic conditions, not just theoretical scenarios. And placement matters enormously—emergency stops must be positioned where operators can reach them quickly, with clear sight lines and no obstructions."
         },
         {
           "number": 6,
-          "script": "So, once you have an AI system running on the factory floor, you need a reliable way to stop it or redirect it if something goes wrong, and crucially, any operator should be able to do that without needing a degree in computer science. Override mechanisms come in several forms: a physical emergency stop button, a software kill switch, or a simple toggle that drops the system into manual mode. The important thing is that these are not just installed and then forgotten about. They need to be tested regularly to make sure they actually work when you need them. Labelling matters too, because in a stressful moment, nobody should be hunting around wondering which button does what. Operators need proper training so they can act quickly and confidently, because hesitation in a real incident can be costly. And every time an override is used, that action should be logged automatically, giving you a clear audit trail to review afterwards."
+          "script": "Building reliable override systems means planning for redundancy at every level. You want multiple ways to intervene, from emergency stops to software switches to manual mode toggles. The beauty of well-designed overrides is their simplicity—any operator should be able to use them confidently without consulting a manual or calling technical support. But simplicity doesn't mean neglect. These systems need regular testing to ensure they function when needed, not just when it's convenient. Clear labeling is crucial because in a crisis, people don't have time to decode technical jargon. And the automatic logging of every override creates valuable data for understanding system performance and identifying improvement opportunities."
         },
         {
           "number": 7,
-          "script": "So, how do we actually put overrides into practice on the factory floor? First, make sure your override controls are impossible to miss. A button that's hidden in a sub-menu is no good in an emergency, so keep them visible at all times. And label everything in plain, everyday language. If an operator has to stop and think about what a control does, that's already a problem. Before you deploy anything, test your overrides thoroughly in a safe environment, because you really don't want to discover a fault when something is actually going wrong. Your staff also need proper training on how to handle the system manually, not just how to press a button, but what to do next once they've taken control. And finally, log every single override event. That record tells you whether your AI is behaving as expected, and it gives you the evidence you need to improve the system over time."
+          "script": "Moving from theory to practice requires attention to operational details. Your override controls need to be prominently positioned and labeled in everyday language that any worker can understand instantly. Before deploying any system, test your overrides thoroughly in controlled environments—you want to discover problems during training, not during emergencies. Staff training goes beyond just knowing which button to press; operators need to understand the manual procedures that take over once they've intervened. Documenting every override event creates a learning opportunity, helping you understand whether your AI is performing as expected and where improvements might be needed."
         },
         {
           "number": 8,
-          "script": "So let us bring everything together with some core principles to carry forward. First, always make sure your AI system can be switched off, and that humans remain firmly in the decision-making seat. Technology should support people, not replace their judgement. Before you go live with anything, test your override and shutdown mechanisms thoroughly, because discovering a flaw after deployment is far more costly than finding it beforehand. Keep your safety designs as straightforward as possible. Complexity introduces risk, and simple systems are much easier to audit and fix when something goes wrong. You also want to build in regular reviews of your safety setups, because manufacturing environments change over time and your safeguards need to keep pace. And finally, resist the urge to roll everything out at once. Start with a small pilot, learn from it, and then scale up gradually. These principles are not complicated, but consistently applying them is what separates a safe AI system from a dangerous one."
+          "script": "Successful fail-safe implementation follows a systematic approach. Start by building shutdown and override capabilities into your system architecture from the beginning—retrofitting safety is always more difficult and expensive. Ensure that human operators retain final decision-making authority, with AI serving as a powerful tool rather than a replacement for human judgment. Keep your safety systems as simple as possible, because complexity introduces new failure modes. Schedule regular reviews of your safety mechanisms as your manufacturing environment evolves. Most importantly, resist the temptation to deploy everything at once. Begin with small pilot programs where you can learn and refine your approach, then scale up gradually as you build confidence and expertise."
         }
       ]
     }

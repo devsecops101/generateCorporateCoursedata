@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Sensor Failures and Their Impact",
-          "subtitle": "When sensors fail, decisions suffer.",
-          "slidecontent": "• Sensors collect real-world data\n• Failures cause missing readings\n• Bad data misleads AI systems\n• Small faults, big consequences\n• Harsh conditions worsen failures"
+          "slidetitle": "Common Sensor Failure Modes",
+          "subtitle": "How sensors break down in harsh conditions",
+          "slidecontent": "• Drift: readings slowly shift over time\n• Signal noise from electrical interference\n• Complete dropouts and communication loss\n• Physical damage from weather and vibration\n• Harsh conditions accelerate all failures"
         },
         {
           "number": 3,
-          "slidetitle": "Sensor Failures and AI Limits",
-          "subtitle": "When sensors lie, AI struggles too.",
-          "slidecontent": "• Sensors are the eyes and ears of any AI system in the field\n• Faulty readings feed directly into AI predictions, skewing results\n• Common failures include drift, signal noise, and complete dropouts\n• AI cannot flag what it does not know is wrong\n• Garbage in, garbage out"
+          "slidetitle": "AI's Blind Trust Problem",
+          "subtitle": "Why AI can't detect bad data on its own",
+          "slidecontent": "• AI accepts all sensor input as valid\n• No built-in quality checks\n• Cannot distinguish real from corrupted signals\n• Trained on clean lab data, not messy field conditions\n• Missing context to question unrealistic readings"
         },
         {
           "number": 4,
-          "slidetitle": "Corrupted Signals, Flawed Predictions",
-          "subtitle": "When inputs fail, outputs mislead.",
-          "slidecontent": "• Sensor fails, data corrupts\n• Bad input, wrong output\n• Weather distorts field readings\n• Garbage in, garbage out\n• AI trusts what it receives"
+          "slidetitle": "Weather Interference Effects",
+          "subtitle": "How environmental conditions corrupt field data",
+          "slidecontent": "• Rain and moisture cause electrical faults\n• Temperature extremes affect sensor accuracy\n• Wind and vibration create false readings\n• Dust and debris block or damage sensors\n• Electromagnetic storms disrupt wireless signals"
         },
         {
           "number": 5,
-          "slidetitle": "Corrupted Signals, Flawed Predictions",
-          "subtitle": "When sensors lie, models follow.",
-          "slidecontent": "• A faulty sensor doesn't just record bad data, it feeds bad data directly into the model\n• Garbage in, garbage out\n• Weather interference can cause temperature or pressure readings to spike far beyond real-world conditions\n• Models trained on clean lab data often have no way to recognise when field inputs have gone wrong\n• Even a single corrupted signal, repeated across thousands of readings, can quietly skew every prediction the system makes"
+          "slidetitle": "The Cascade Effect",
+          "subtitle": "How single corrupted signals spread through systems",
+          "slidecontent": "• One faulty sensor affects thousands of data points\n• Bad readings train models incorrectly\n• Predictions drift silently in wrong direction\n• Small errors compound into major mistakes\n• Problem often unnoticed until damage is done"
         },
         {
           "number": 6,
-          "slidetitle": "Compensating for Corrupted Inputs",
-          "subtitle": "Strategies for maintaining reliable AI outputs",
-          "slidecontent": "• Cross-checking sensor readings against multiple independent sources to catch outliers early\n• Applying data smoothing techniques to filter out sudden, unexplained spikes\n• Flagging corrupted inputs rather than silently discarding them\n• Redundant sensors as a practical safety net\n• Training AI systems on degraded data so they recognise and handle poor-quality inputs in the field\n• Setting confidence thresholds so the system alerts operators when output reliability drops below an acceptable level"
+          "slidetitle": "Prevention Strategies",
+          "subtitle": "Building resilience against data corruption",
+          "slidecontent": "• Cross-check readings from multiple sensors\n• Apply smoothing to filter sudden spikes\n• Install redundant sensors as backup\n• Train AI on degraded data scenarios\n• Set confidence thresholds for uncertain outputs"
         },
         {
           "number": 7,
-          "slidetitle": "Recovering From Corrupted Data",
-          "subtitle": "Restoring Integrity After Data Corruption",
-          "slidecontent": "• Identifying which sensors or sources produced the corrupted values before attempting any fix\n• Cross-referencing backup or redundant data streams to fill critical gaps\n• Flagging suspect records rather than deleting them outright\n• Retraining models on cleaned datasets after corruption is resolved\n• Documenting every recovery step for future audits"
+          "slidetitle": "Recovery and Cleanup",
+          "subtitle": "Restoring integrity after corruption occurs",
+          "slidecontent": "• Identify corrupted data sources first\n• Use backup streams to fill gaps\n• Flag suspect records, don't delete them\n• Retrain models on cleaned datasets\n• Document all recovery steps thoroughly"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Core lessons for real-world AI use",
-          "slidecontent": "• Garbage in, garbage out\n• Sensors fail, data lies\n• Context beats raw numbers\n• Always question the source\n• Build in human checks\n• Start small, verify often"
+          "slidetitle": "Key Takeaways",
+          "subtitle": "Essential principles for reliable AI in harsh environments",
+          "slidecontent": "• Always question your data sources\n• Context matters more than raw numbers\n• Build in human oversight points\n• Start small and verify before scaling\n• Plan for sensor failures from day one"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's start by thinking about where AI gets its information from in the first place. In industrial and physical environments, it relies on sensors. These are the devices that measure things like temperature, pressure, vibration, and flow rates, feeding that data continuously into the system. Now, when those sensors work perfectly, everything is fine. But sensors can and do fail, and when they do, the data they produce becomes unreliable or disappears entirely. The trouble is, the AI doesn't always know that. It might receive a missing reading, or worse, a wildly incorrect one, and it will still try to make a decision based on it. That's where things can go wrong very quickly. A small fault in a single sensor can cascade into a seriously bad outcome. And here's the thing: harsh environments, think extreme heat, dust, moisture, or vibration, make sensor failures far more likely. So the very conditions where we need reliable data the most are often the ones that make it hardest to get."
+          "script": "Let's start by understanding how sensors actually fail in practice. The most common problem is drift, where a sensor's readings gradually shift away from true values over months or years. You might not notice at first, but the AI is slowly learning the wrong patterns. Then there's signal noise from electrical interference, which creates random spikes and dips that look like real events. Complete dropouts are more obvious but equally problematic when sensors stop communicating entirely. Physical damage is inevitable in harsh environments where sensors face extreme temperatures, moisture, dust, and constant vibration. And here's the key point: harsh conditions don't just make these failures possible, they make them inevitable. The very environments where we need reliable data most are the ones that make it hardest to obtain."
         },
         {
           "number": 3,
-          "script": "Think of sensors as the eyes and ears of any AI system working out in the field. If those sensors start giving dodgy readings, the AI has absolutely no way of knowing something is wrong. It simply takes that data at face value and carries on making predictions based on it. And that is where things go wrong very quickly. In practice, sensors fail in all sorts of ways. They can drift gradually over time, giving readings that are slightly off but not obviously broken. They can pick up interference and noise. Or they can cut out completely. In any of these situations, the AI is working blind without realising it. There is an old saying in computing that sums this up perfectly: garbage in, garbage out. Feed an AI system bad data, and you will get bad decisions coming out the other end. So before we even think about the AI itself, we need to talk about the quality of the data going in."
+          "script": "Here's the fundamental problem with AI and bad data: AI systems have no built-in skepticism. They accept whatever sensor input they receive as completely valid and use it immediately for making predictions. There are no quality checks, no common-sense filters, and no ability to step back and ask whether a reading makes sense. Most AI models are trained on clean laboratory data where everything works perfectly. So when they encounter the messy realities of field operations, they have no experience to draw on. A human operator might look at a temperature reading of 200 degrees Celsius from a soil sensor and immediately know something's wrong. The AI sees that same reading and treats it as gospel truth, incorporating it into every calculation that follows."
         },
         {
           "number": 4,
-          "script": "So here's where things start to go wrong in the real world. Imagine a sensor out in a field, exposed to rain, heat, or freezing temperatures. Over time, it starts sending back corrupted or inaccurate readings. Now, the AI system receiving that data has no way of knowing the sensor is struggling. It simply trusts what it receives and carries on making predictions based on that flawed information. And that's the core problem. AI is only as good as the data it's fed. There's an old phrase in computing that sums this up perfectly: garbage in, garbage out. If the inputs are unreliable, the outputs will be too, and in a harsh environment like agriculture or construction, those misleading outputs can lead to genuinely poor decisions. A wrong prediction about soil moisture or structural stress isn't just an inconvenience, it can have real consequences. So the quality of your data matters enormously right from the start."
+          "script": "Weather creates some of the most challenging data corruption problems in field operations. Rain and moisture cause electrical connections to short out or corrode, leading to intermittent failures that are hard to detect. Temperature extremes push sensors beyond their design limits, causing readings to become increasingly unreliable. Wind and vibration shake loose connections and create false readings that look like genuine environmental changes. Dust and debris can physically block sensors or interfere with their mechanisms. And electromagnetic interference from storms can disrupt wireless communications, causing data packets to arrive corrupted or not at all. The irony is that weather monitoring is often most critical during these exact conditions when the weather itself makes reliable monitoring nearly impossible."
         },
         {
           "number": 5,
-          "script": "Here's something that catches a lot of people off guard. When a sensor goes faulty, it doesn't just sit there quietly producing useless readings. It actively feeds those bad readings straight into your AI model, and the model has no idea anything is wrong. This is the classic \"garbage in, garbage out\" problem. Imagine a temperature sensor that gets hit by weather interference and starts reporting wildly unrealistic spikes. The model sees those numbers and treats them as perfectly valid. The trouble is, most models are trained on clean, controlled lab data, so they have no built-in instinct to question whether a field reading makes sense. And here's where it gets really concerning. If that one corrupted signal keeps repeating itself across thousands of data points, the model's predictions start drifting in the wrong direction, slowly and silently. By the time anyone notices, the damage to your decision-making could already be significant."
+          "script": "One corrupted sensor might not sound like a big deal, but the effects cascade through your entire system in ways that can be genuinely dangerous. That single faulty reading gets repeated thousands of times as the sensor continues operating. Each corrupted data point trains your AI model incorrectly, gradually teaching it the wrong patterns about your environment. Over time, the model's predictions start drifting away from reality, but so slowly that nobody notices at first. Small errors compound and multiply as they feed into other calculations and decisions. By the time someone realizes the predictions are consistently wrong, weeks or months of bad decisions might have already been made. This is why single points of failure in data collection can have such outsized impacts on AI-driven operations."
         },
         {
           "number": 6,
-          "script": "So, we know corrupted data is a problem. The question is, what do we actually do about it? There are several practical strategies worth knowing. First, rather than relying on a single sensor, we cross-check readings from multiple independent sources. If one reading looks suspicious, the others can flag it as an outlier. We also apply smoothing techniques to filter out sudden unexplained spikes that are almost certainly noise rather than real events. Crucially, when we do detect a corrupted input, we flag it openly rather than quietly discarding it, because transparency matters. Having redundant sensors adds another layer of protection. We can also train AI systems on deliberately degraded data, so they learn to recognise and handle poor-quality inputs when they encounter them in the real world. And finally, we set confidence thresholds, so if the system becomes uncertain about its own outputs, it alerts the operator rather than carrying on regardless. These strategies work together to keep things reliable."
+          "script": "The good news is there are proven strategies to prevent data corruption from derailing your AI systems. Cross-checking readings from multiple independent sensors helps catch outliers before they contaminate your dataset. If three sensors agree and one disagrees, you know which one to investigate. Data smoothing techniques can filter out sudden spikes that are almost certainly noise rather than real environmental changes. Installing redundant sensors provides backup when primary sensors fail. Training your AI on deliberately degraded data teaches it to recognize and handle poor-quality inputs when they occur in real operations. And setting confidence thresholds allows the system to alert operators when its own predictions become uncertain, rather than continuing to make decisions it's not confident about."
         },
         {
           "number": 7,
-          "script": "Once corruption is detected, the first instinct might be to just delete the bad data and move on. But that is rarely the right approach. Instead, start by tracing the problem back to its source. Which sensor or feed produced the dodgy values? Once you know that, you can look to any backup or redundant streams to fill in the gaps. Crucially, rather than wiping suspect records entirely, flag them. They may still hold useful information for diagnosing what went wrong. After you have cleaned things up, any AI models that were trained on that corrupted data will need retraining on the corrected dataset, otherwise the damage carries forward into future decisions. And throughout all of this, write everything down. Every step you take during recovery should be documented, because when an audit comes along, and it will, you will want a clear record of exactly what happened and how you responded."
+          "script": "When corruption does occur, your response needs to be systematic and thorough. First, identify exactly which sensors or data sources produced the corrupted values before attempting any fixes. Then look to backup or redundant data streams to fill critical gaps in your dataset. Resist the urge to simply delete corrupted records. Instead, flag them clearly so they're excluded from analysis but preserved for forensic investigation. Any AI models that learned from the corrupted data will need retraining on the cleaned dataset, otherwise the corruption continues affecting future predictions. Most importantly, document every step of your recovery process. When audits happen, and they will, you need a clear record of what went wrong and exactly how you responded to restore data integrity."
         },
         {
           "number": 8,
-          "script": "So let's bring it all together. The single most important idea in this entire lesson is simple: if the data going into your AI system is wrong, the decisions coming out will be wrong too. Sensors break, readings drift, and data can mislead you in ways that aren't always obvious. That's why raw numbers on their own are never enough. You need context to understand what those numbers actually mean. And you should always be asking where the data came from and whether you can trust it. Don't hand everything over to the machine and walk away. Build in moments where a human reviews what's happening and can step in if something looks off. And if you're just getting started with AI in your environment, resist the urge to go big straight away. Start with something small, check that it's working properly, and build from there. That approach will save you a great deal of trouble down the line."
+          "script": "Let's wrap up with the core principles that will serve you well when deploying AI in harsh environments. Always maintain healthy skepticism about your data sources. Numbers alone are never enough; you need context to understand what they actually mean and whether they're trustworthy. Don't automate everything and walk away. Build in regular checkpoints where human operators can review what's happening and intervene if something looks wrong. When you're starting out, resist the temptation to deploy AI everywhere at once. Start with small, manageable projects where you can verify the system is working correctly before scaling up. And most importantly, plan for sensor failures from day one. They're not a possibility, they're a certainty. Build your systems with that reality in mind, and you'll save yourself considerable trouble down the line."
         }
       ]
     }

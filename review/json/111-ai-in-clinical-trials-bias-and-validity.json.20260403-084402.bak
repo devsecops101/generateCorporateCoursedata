@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Clinical Trials: Bias and Validity",
+  "Category": "Healthcare & Life Sciences: Medical Services, Pharmacy, Biotechnology, Hospitals",
+  "Description": "Risks in patient selection, analysis, and reporting.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with clinical trial concepts (such as phases, endpoints, and patient recruitment) and an openness to learning about artificial intelligence applications in healthcare are all that is required to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common sources of bias in AI-driven clinical trials, including risks in patient selection, data analysis, and results reporting. You will also be able to explain how these biases affect the validity of trial outcomes and apply practical strategies to recognise and reduce their impact in real-world healthcare and life sciences settings.",
+  "lessons": [
+    {
+      "lesson title": "AI in Clinical Trials: Bias and Validity",
+      "order": 1,
+      "Description": "Artificial intelligence is increasingly being used across all stages of clinical trials, from identifying suitable patients to analysing results and preparing reports. However, these tools can introduce or amplify bias in ways that are not always obvious, potentially affecting the reliability and validity of trial outcomes. This lesson explores the key risks associated with AI-driven patient selection, data analysis, and reporting, using clear, practical examples to illustrate how bias can emerge at each stage. You will learn how to recognise common warning signs and understand why human oversight remains essential when AI is involved in research. No prior technical knowledge is required, making this lesson accessible to anyone working in or around clinical research who wants to use AI more responsibly.",
+      "status": "draft",
+      "content": "Risks in patient selection, analysis, and reporting.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Clinical Trials: Overview",
+          "subtitle": "Risks, Bias, and Validity Explored",
+          "slidecontent": "• AI enters clinical trials\n• Bias risks are real\n• Patient selection matters\n• Data validity is critical\n• Reporting needs scrutiny"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Bias in AI Trials",
+          "subtitle": "What skews results from the start",
+          "slidecontent": "• Bias distorts trial results\n• Starts before data collection\n• Affects patient selection first\n• Skews analysis and reporting\n• Leads to flawed conclusions"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Bias in Patient Selection",
+          "subtitle": "How AI skews participant recruitment data",
+          "slidecontent": "• AI trained on historical patient data often reflects existing inequalities in healthcare access\n• Underrepresented groups, such as women, older adults, and ethnic minorities, frequently excluded from training datasets\n• Skewed data in, skewed results out\n• Recruitment algorithms may favour patients from well-resourced hospitals, narrowing the trial population\n• Findings from a biased sample may not apply to the broader patient population"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Bias in Patient Selection",
+          "subtitle": "How AI skews participant recruitment data",
+          "slidecontent": "• AI recruitment tools trained on historical data often exclude underrepresented groups by default\n• Skewed training data leads to skewed trial populations\n• Certain demographics (older adults, ethnic minorities, women) are frequently filtered out by algorithmic criteria\n• This narrows who benefits from new treatments\n• Automated eligibility screening can embed existing clinical biases without anyone noticing\n• The result is trial findings that may not apply to the broader patient population"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Bias in Data Analysis",
+          "subtitle": "How AI skews analytical outcomes",
+          "slidecontent": "• AI models trained on historical trial data can reinforce existing analytical blind spots\n• Confounding variables often go undetected when algorithms prioritise pattern speed over accuracy\n• Skewed results\n• Outcome reporting shaped by biased training sets, even when the underlying trial design is sound\n• Small but systematic errors in automated analysis can compound across large patient datasets"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating Bias in Reporting",
+          "subtitle": "Strategies for transparent and accurate reporting",
+          "slidecontent": "• Pre-registering analysis plans before data collection to prevent selective reporting\n• Using standardised checklists (such as CONSORT-AI) to guide transparent documentation\n• Reporting null and negative results, not just favourable outcomes\n• Audit trails matter\n• Involving independent reviewers to verify AI-generated findings before publication\n• Clearly disclosing the AI tools, training data, and any known limitations used in the trial"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting Bias and Transparency",
+          "subtitle": "Selective Reporting Undermines Trial Integrity",
+          "slidecontent": "• AI picks what results show\n• Negative findings often hidden\n• Selective output skews evidence\n• Transparency tools help detect bias\n• Pre-registration limits selective reporting"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible AI use",
+          "slidecontent": "• AI can introduce hidden bias\n• Diverse data reduces unfair outcomes\n• Always audit your AI tools\n• Transparency builds clinical trust\n• Question every automated result\n• Next step: review your current datasets"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Clinical Trials, where we'll be exploring some of the most important questions surrounding bias and validity. Artificial intelligence is increasingly finding its way into clinical research, and that brings with it some genuinely exciting possibilities. But it also brings risks that we need to understand clearly. Throughout this course, we'll be looking at how bias can creep into AI systems and why that matters so much in a clinical setting. We'll examine how patients are selected for trials and why that process can have a significant impact on the results we see. We'll also be thinking carefully about data quality, because even the most sophisticated AI is only as good as the information it's working with. And finally, we'll consider how AI-generated findings are reported and why a critical eye is so important when reviewing those outputs. So let's get started and work through this together."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by getting clear on what we actually mean by bias in the context of AI-driven clinical trials. At its core, bias is anything that distorts your results, pulling them away from the truth in a way that's often invisible until the damage is done. And here's the important thing to understand: bias doesn't just appear when you're crunching numbers at the end of a trial. It can creep in right at the very beginning, long before a single data point is collected. It often starts with patient selection, so if the people enrolled in your trial don't represent the broader population, your findings are already on shaky ground. From there, bias can influence how data is analysed and how results are reported, and ultimately it leads you to conclusions that simply don't hold up in the real world. So throughout this course, we'll be looking at where these problems begin and how we can work to address them."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about one of the most significant ways bias creeps into AI-driven clinical trials, and that's right at the very beginning, during patient selection. When an AI system is trained on historical healthcare data, it learns from a world that has never been perfectly fair. Certain groups, including women, older adults, and people from ethnic minority backgrounds, have historically been underrepresented in medical research, and that imbalance gets baked into the algorithm. There's a simple principle at work here: if you feed skewed data into a system, you'll get skewed results out. On top of that, recruitment tools often draw from well-resourced hospitals, which means the trial population ends up being quite narrow. And here's why that really matters: if your study participants don't reflect the broader population, you can't be confident that your findings will apply to everyone who might eventually use that treatment. It's a foundational problem, and it starts before the trial even begins."
+        },
+        {
+          "number": 4,
+          "script": "Now, one of the most significant ways bias creeps into AI-driven clinical trials is right at the very beginning, during patient selection. When AI tools are used to recruit participants, they are typically trained on historical data, and that historical data already reflects decades of underrepresentation. Older adults, ethnic minorities, and women have long been excluded from trials, and if the AI learns from that history, it simply repeats it, often without anyone realising. The algorithm is not making a conscious decision to exclude people; it is just doing what it was taught. The problem is that when your trial population is too narrow, your results are too narrow as well. A treatment might appear highly effective, but only because it was tested on a limited slice of the population. That means the findings may not translate to the patients who actually need the treatment most. So bias in recruitment is not just a fairness issue; it is a scientific one."
+        },
+        {
+          "number": 5,
+          "script": "Now let's look at what happens when AI gets involved in analysing the data itself, because this is where things can quietly go wrong. If an AI model has been trained on historical trial data, it will naturally absorb whatever blind spots and biases were already present in that data. And when these algorithms are optimised for speed, they can miss confounding variables that a careful human analyst might catch. The result is that your outputs can be skewed, even if the original trial was well designed. The bias isn't coming from the trial itself, it's being introduced through the analytical process. What makes this particularly concerning is the scale. A small, systematic error in an automated system might seem insignificant on its own, but when you multiply that across thousands of patient records, the cumulative effect can be substantial. So understanding where these analytical biases creep in is absolutely essential before we can trust AI-generated results in a clinical setting."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually reduce bias in the way we report AI-driven trial results? There are several practical steps the research community is increasingly adopting. One of the most important is pre-registering your analysis plan before you even begin collecting data, which makes it much harder to cherry-pick results after the fact. Standardised checklists, like CONSORT-AI, give teams a clear framework for documenting what they did and why. Crucially, researchers should report findings that did not work out, not just the successes, because negative results are genuinely valuable to the field. Keeping a thorough audit trail means every decision made by the AI system can be traced and scrutinised. Independent reviewers add another layer of accountability before anything goes to publication. And finally, being fully transparent about which AI tools were used, what data they were trained on, and what limitations exist is not optional; it is essential for scientific integrity."
+        },
+        {
+          "number": 7,
+          "script": "Now, one of the more subtle but serious issues we need to talk about is reporting bias. When AI systems are used to analyse and present trial results, they can, sometimes unintentionally, favour certain findings over others. Positive results tend to get surfaced, while negative or inconclusive findings quietly disappear into the background. This is a real problem, because when only the good news gets reported, the overall body of evidence becomes skewed, and that can mislead clinicians, regulators, and ultimately patients. Fortunately, there are ways to tackle this. Transparency tools and audit mechanisms can help us spot when selective reporting is happening. And one of the most effective safeguards we have is pre-registration, where researchers publicly declare what they intend to measure before a trial begins. That way, it becomes much harder to cherry-pick results after the fact. Transparency is not just a nice idea here, it is absolutely essential for maintaining the integrity of clinical research."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring together the core ideas from this lesson. The first thing to hold onto is that AI is not neutral. It can carry hidden bias, often without anyone realising, which is why the data you feed into it really matters. When your datasets reflect a diverse range of patients, you reduce the risk of unfair or skewed outcomes. But diverse data alone is not enough. You also need to regularly audit the tools you are using, checking that they are performing as expected across different groups. Transparency is equally important here, because when clinicians and patients can see how decisions are being made, trust follows naturally. And perhaps most importantly, never simply accept an automated result at face value. Always ask questions and look critically at what the AI is telling you. As a practical next step, I would encourage you to go back and review the datasets you are currently working with, and consider where gaps might exist."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Clinical research coordinators, clinical data managers, regulatory affairs specialists, biostatisticians, medical affairs professionals, clinical trial managers, research nurses, clinical research associates",
+  "Team or Dept this is for": "Clinical Research, Medical Affairs, Regulatory Affairs, Quality Assurance, Data Management, Biostatistics"
+}

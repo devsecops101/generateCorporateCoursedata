@@ -1,0 +1,107 @@
+{
+  "Course Title": "Citizen Data in Government AI Systems",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "Privacy risks when automating public services.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how public services operate and a general awareness of data privacy concepts will help you get the most from this course, though no technical background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key privacy risks associated with using citizen data in government AI systems and explain how automation can affect the rights and wellbeing of members of the public. You will also be able to apply foundational data protection principles to recognise when automated public services may pose ethical or legal concerns for individuals and communities.",
+  "lessons": [
+    {
+      "lesson title": "Citizen Data in Government AI Systems",
+      "order": 1,
+      "Description": "This lesson explores how governments collect, store, and use citizen data when deploying artificial intelligence systems to automate public services. You will learn about the types of personal information that AI systems typically rely on, including financial records, health data, and demographic details, and why this creates significant privacy risks for individuals. The lesson examines real-world examples of how automated decision-making can affect people's lives, from benefits assessments to border control, and what can go wrong when data is handled poorly. By the end of this lesson, you will have a clearer understanding of the key privacy concerns involved and the basic principles that should guide responsible data use in government AI programmes.",
+      "status": "draft",
+      "content": "Privacy risks when automating public services.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Privacy Risks in Public Services",
+          "subtitle": "When automation meets personal data",
+          "slidecontent": "• Government services collect vast amounts of personal data to function\n• Automation speeds up decisions but can amplify errors at scale\n• Real people affected by benefit assessments, visa checks, and tax calculations\n• Mistakes harder to spot\n• Sensitive data (health, income, family status) often feeds these systems\n• Understanding the risks is the first step to protecting citizens"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Data Collection and Consent",
+          "subtitle": "What governments collect and why",
+          "slidecontent": "• Tax, health, benefits records\n• Collected to deliver services\n• Often without clear consent\n• Data shared across departments\n• You rarely see it"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Data Minimisation and Purpose Limitation",
+          "subtitle": "Collecting only what is truly necessary",
+          "slidecontent": "• Government AI systems often collect far more personal data than the task actually requires\n\n• Data minimisation means gathering only the specific information needed, nothing extra\n\n• Purpose limitation prevents data collected for one service being reused in unrelated decisions\n\n• Scope creep is common\n\n• Each additional data field increases the risk of harm if a breach or misuse occurs\n\n• Clear collection limits, set before a system is built, reduce privacy risks from the outset"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Automated Decisions and Bias Risks",
+          "subtitle": "When Algorithms Inherit Human Prejudices",
+          "slidecontent": "• Algorithms trained on historical data can replicate past discrimination in areas like benefits eligibility or policing\n• Biased outputs at scale\n• A system that once denied loans to certain postcodes may teach an AI to do the same automatically\n• Protected characteristics such as race, age, and disability can become hidden inputs through proxy variables\n• Errors are harder to spot and challenge when decisions arrive without human explanation"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Automated Decisions and Bias Risks",
+          "subtitle": "When Algorithms Reflect Human Prejudice",
+          "slidecontent": "• Training data contains human bias\n• Biased outputs harm real people\n• Protected groups face unfair decisions\n• Errors are hard to challenge\n• Automation scales bias quickly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Risks of Automated Decision-Making",
+          "subtitle": "When Algorithms Affect Citizens' Lives",
+          "slidecontent": "• Errors harm real people\n• Bias baked into data\n• No human checks decisions\n• Appeals processes often missing\n• Vulnerable groups most affected"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Citizens: Next Steps",
+          "subtitle": "Practical actions for stronger data safeguards",
+          "slidecontent": "• Audit which citizen data feeds into automated decisions\n• Demand clear opt-out routes for residents\n• Short, plain-language privacy notices\n• Train frontline staff to spot data misuse early\n• Work with community groups to surface hidden risks\n• Review data retention limits regularly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for responsible data use",
+          "slidecontent": "• Consent matters always\n• Data minimisation reduces risk\n• Transparency builds public trust\n• Bias harms real people\n• Review systems regularly\n• Start with your own data practices"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on citizen data in government AI systems. We're going to start by looking at why privacy matters so much when public services begin using automation. Governments hold an enormous amount of personal information about us, things like our income, our health records, our family circumstances. And when automated systems start making decisions based on that data, whether it's a benefits assessment, a visa application, or a tax calculation, the stakes are really high. The problem is that automation works at speed and at scale, which means if something goes wrong, it can go wrong for thousands of people very quickly, and those errors can be much harder to spot than they would be with a human reviewer. Real people's lives are affected by these decisions, so understanding where the risks lie is genuinely important. Throughout this lesson, we'll be building that understanding together, so you're better placed to think critically about how these systems should work."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by thinking about what data governments actually hold about you. Over the course of your life, you interact with the state in all sorts of ways. You pay tax, you use the NHS, you might claim benefits or apply for a passport. Each of those interactions generates data, and that data is stored. Now, most of this collection is entirely legitimate. Governments need that information to deliver services effectively. But here is where it gets interesting. In many cases, you never explicitly agreed to any of it. There was no tick box, no clear explanation of how your information might be used. And it does not stay in one place either. Data collected by one government department is often shared with others, sometimes in ways that are not obvious to the public. The reality is that most people have very little visibility into what is held about them or where it goes. That is what we are going to explore in this lesson."
+        },
+        {
+          "number": 3,
+          "script": "One of the most common problems with government AI systems is that they collect far more personal data than they actually need. The principle of data minimisation is straightforward: only gather the information that is genuinely necessary for the task at hand, nothing more. Alongside that, purpose limitation means that if data was collected for one specific service, it should not quietly find its way into completely unrelated decisions about that person. And this is where scope creep becomes a real concern. Systems that start with a narrow focus can gradually expand, pulling in more and more data over time, often without citizens ever realising it. The reason this matters is simple: every additional piece of personal data you hold is another piece that could be exposed in a breach or misused. The best approach is to define clear collection limits right at the design stage, before the system is ever built, so privacy is protected from the very beginning."
+        },
+        {
+          "number": 4,
+          "script": "One of the most serious concerns with AI in government is that these systems can quietly absorb the prejudices of the past. When an algorithm is trained on historical data, it learns from decisions that were sometimes deeply unfair. So if a system once routinely denied benefits to people from certain areas, or treated particular communities more harshly in policing, the AI can replicate that same pattern, but now at enormous scale and speed. What makes this especially tricky is that protected characteristics like race, age, or disability do not need to be fed in directly. They can sneak in through what we call proxy variables, things like postcode or job type that seem neutral but actually correlate closely with those characteristics. And because these decisions often arrive without any clear explanation, it becomes very difficult for citizens to understand why they have been refused something, let alone challenge it. That lack of transparency is a real problem."
+        },
+        {
+          "number": 5,
+          "script": "So here's where things get really important. When we build AI systems using historical data, we're essentially teaching the algorithm to learn from the past. But the past is full of human bias, and the AI picks that up without question. Think about a system trained on decades of hiring decisions, or loan approvals, or criminal sentencing records. If those decisions were unfair to certain groups, the AI will likely repeat those same patterns, and often at enormous scale. What makes this particularly concerning is that the people most affected, often those from protected groups based on race, gender, disability, or age, may receive an unfair outcome and have very little way to understand why, let alone challenge it. A human decision-maker might explain their reasoning. An algorithm frequently cannot. And because these systems process thousands or even millions of decisions automatically, any embedded bias spreads far faster than it ever could through individual human choices. That's a serious risk we need to understand."
+        },
+        {
+          "number": 6,
+          "script": "When a government algorithm makes a wrong decision, it is not just a technical glitch. It can mean someone loses their benefits, gets flagged as a fraud risk, or is denied housing. These are real consequences for real people. And the problem often starts before the algorithm even runs, because if the data it was trained on reflects historical biases, the system will simply repeat and scale those biases automatically. What makes this especially concerning is that in many cases there is no human being reviewing the output before action is taken. The machine decides, and that is that. And if a citizen wants to challenge the decision, they frequently find there is no clear process for doing so. Perhaps most troubling of all is who tends to bear the brunt of these failures. It is usually the most vulnerable members of society, those who are already least equipped to fight back or seek redress."
+        },
+        {
+          "number": 7,
+          "script": "So we've covered the risks, and now let's talk about what you can actually do. Start by mapping out which citizen data is feeding into your automated systems, because you can't protect what you haven't identified. From there, make sure residents have a genuine, straightforward way to opt out if they choose to. Alongside that, your privacy notices need to be written in plain language that ordinary people can actually understand, not buried in legal jargon. It's also worth investing time in training your frontline staff, because they're often the first to notice when something feels off with how data is being used. Don't underestimate the value of working with local community groups either, as they can highlight risks that internal teams simply don't see. And finally, keep revisiting your data retention policies on a regular basis, because holding onto data longer than necessary only increases your exposure. Small, consistent steps really do add up."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. The principles we've covered aren't abstract ideas, they're practical commitments. Always make sure people have genuinely consented to how their data is being used, and only collect what you actually need, because the less data you hold, the less can go wrong. Be open with the public about what your systems do and why, because transparency is what earns trust over time. Remember that bias in AI isn't just a technical problem, it causes real harm to real people, so take it seriously. And don't treat your AI systems as something you set up once and forget, they need regular review to stay fair and fit for purpose. Finally, before looking outward, start by examining your own data practices. Are they as responsible as they could be? These principles give you a solid foundation for working with citizen data in a way that is ethical, accountable, and genuinely in the public interest."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Government employees, public sector workers, civil servants, policy advisors, social workers, benefits administrators, municipal staff, public service managers, non-profit organization staff",
+  "Team or Dept this is for": "Government Services, Public Administration, Policy & Planning, Social Services, IT, Legal, Compliance, Human Resources"
+}

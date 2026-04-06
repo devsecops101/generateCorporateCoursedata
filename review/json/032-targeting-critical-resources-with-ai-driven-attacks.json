@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining the AI Threat Landscape",
-          "subtitle": "Where AI meets evolving attack vectors",
-          "slidecontent": "• AI tools now accessible to attackers with limited technical skill\n• Critical sectors like energy, mining, and agriculture increasingly reliant on connected, automated systems\n• Attackers use AI to scan for vulnerabilities faster and at greater scale than ever before\n• Traditional defences struggle to keep pace\n• AI-driven threats combine speed, adaptability, and precision targeting in ways older attack methods could not"
+          "slidetitle": "The Evolving AI Threat Landscape",
+          "subtitle": "How accessible tools change the game",
+          "slidecontent": "• AI tools now accessible to less skilled attackers\n• Critical sectors increasingly rely on connected systems\n• Attackers scan vulnerabilities at unprecedented speed and scale\n• Traditional defences struggle to keep pace\n• AI combines speed, adaptability, and precision targeting"
         },
         {
           "number": 3,
-          "slidetitle": "Mapping the AI Attack Surface",
-          "subtitle": "Where vulnerabilities hide in AI systems",
-          "slidecontent": "• AI systems in critical sectors rely on sensors, data pipelines, and control interfaces, each a potential entry point for attackers\n• Weak points often hide where AI connects to legacy industrial equipment\n• Training data, model inputs, and API endpoints all carry risk\n• Outdated software\n• Attackers look for gaps between the AI layer and the physical systems it controls\n• Misconfigured cloud environments hosting AI models are frequently overlooked"
+          "slidetitle": "Mapping Vulnerable Entry Points",
+          "subtitle": "Where attackers find their way in",
+          "slidecontent": "• Sensors, data pipelines, and control interfaces as attack vectors\n• Legacy industrial equipment integration weaknesses\n• Training data, model inputs, and API endpoints carry risk\n• Gaps between AI layer and physical control systems\n• Misconfigured cloud environments hosting AI models\n• Outdated software with unpatched vulnerabilities"
         },
         {
           "number": 4,
-          "slidetitle": "Real-World Attack Scenarios",
-          "subtitle": "Attacks Unfolding Across Key Sectors",
-          "slidecontent": "• Energy grids targeted first\n• Water systems disrupted remotely\n• Crop sensors fed false data\n• Mining equipment hijacked silently\n• Food supply chains manipulated"
+          "slidetitle": "Attack Methods Across Sectors",
+          "subtitle": "How AI enables sophisticated targeting",
+          "slidecontent": "• Automated vulnerability scanning at machine speed\n• Data poisoning to corrupt AI decision-making\n• Sensor manipulation feeding false information\n• Model hijacking to control automated systems\n• Supply chain infiltration through connected devices"
         },
         {
           "number": 5,
-          "slidetitle": "Real-World Attack Scenarios",
-          "subtitle": "Attacks Unfolding Across Key Sectors",
-          "slidecontent": "• AI-driven attacks on a Texas power grid caused cascading blackouts by manipulating load-balancing algorithms\n• Automated drones, guided by compromised AI systems, disrupted open-pit mining operations in Australia\n• Precision irrigation networks in California farmland were hijacked, flooding crops and wasting millions of litres of water\n• Smart sensors hacked\n• A European gas pipeline's predictive maintenance AI was fed false data, masking a critical pressure fault before it escalated\n• Livestock monitoring systems in the UK were targeted, triggering false health alerts and forcing unnecessary quarantines"
+          "slidetitle": "Real-World Attack Examples",
+          "subtitle": "Documented incidents across critical infrastructure",
+          "slidecontent": "• Texas power grid blackouts from manipulated load-balancing algorithms\n• Australian mining disruption via compromised drone AI systems\n• California irrigation networks hijacked, flooding crops\n• European gas pipeline maintenance AI fed false pressure data\n• UK livestock monitoring systems triggering false quarantine alerts\n• Smart sensors compromised across multiple facilities"
         },
         {
           "number": 6,
-          "slidetitle": "Disrupting Energy Grid Operations",
-          "subtitle": "Exploiting Vulnerabilities in Power Infrastructure",
-          "slidecontent": "• Hackers target power grids\n• AI finds weak control systems\n• Outages disrupt homes, hospitals\n• Sensors manipulated remotely\n• Cascading failures spread fast"
+          "slidetitle": "Energy Grid Attack Dynamics",
+          "subtitle": "Why power infrastructure faces unique risks",
+          "slidecontent": "• AI rapidly identifies control system vulnerabilities\n• Remote sensor manipulation enables attacks from distance\n• Power outages cascade to hospitals, homes, essential services\n• Interconnected infrastructure spreads failures quickly\n• Critical timing makes grid attacks particularly damaging"
         },
         {
           "number": 7,
-          "slidetitle": "Defending Against AI-Driven Threats",
-          "subtitle": "Strategies to Strengthen Your Defences Now",
-          "slidecontent": "• Segment critical operational networks from internet-facing systems to limit attacker reach\n• Audit AI inputs regularly\n• Monitor for unusual patterns in sensor data, control commands, or automated decisions\n• Train staff to recognise AI-specific threats, such as manipulated data feeds or spoofed alerts\n• Apply strict access controls to any system that feeds data into AI-driven processes\n• Test your defences against AI-assisted attack scenarios before real attackers do"
+          "slidetitle": "Building Effective Defences",
+          "subtitle": "Practical steps to protect AI-driven systems",
+          "slidecontent": "• Segment operational networks from internet-facing systems\n• Regularly audit AI inputs and data sources\n• Monitor for unusual patterns in automated decisions\n• Train staff to recognise AI-specific threat indicators\n• Apply strict access controls to AI-feeding systems\n• Test defences against AI-assisted attack scenarios"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for staying vigilant today",
-          "slidecontent": "• AI attacks target critical infrastructure\n• Energy, mining, agriculture at risk\n• Small gaps enable big breaches\n• Verify all automated system changes\n• Report unusual sensor behaviour immediately\n• Stay curious, stay protected"
+          "slidetitle": "Key Takeaways for Vigilance",
+          "subtitle": "Essential actions for ongoing protection",
+          "slidecontent": "• AI attacks on critical infrastructure are active today\n• Small vulnerabilities enable major disruptions\n• Question and verify automated system changes\n• Report unusual sensor behaviour immediately\n• Maintain curiosity about emerging threats\n• Stay informed to stay protected"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to this lesson on targeting critical resources with AI-driven attacks. Now, this might sound like something from a science fiction film, but I want to reassure you straight away that this is very much a real and present concern. We are going to be looking at how artificial intelligence is increasingly being used to target the systems that keep our world running, things like power grids, mining operations, and agricultural networks. These are not abstract targets. They are the essential services that communities and entire economies depend on every single day. And what makes this particularly important right now is that the pace of these attacks is accelerating. Threat actors are becoming more sophisticated, and the consequences of a successful attack can be genuinely serious. The good news is that you do not need any prior experience to follow along here. This lesson is designed to be accessible for beginners, so we will build everything up from the ground. Let us get started."
+          "script": "Welcome to this lesson on targeting critical resources with AI-driven attacks. This might sound like science fiction, but it's a real and present concern affecting the systems that keep our world running. We're looking at how artificial intelligence targets power grids, mining operations, and agricultural networks - the essential services that communities and economies depend on daily. The pace of these attacks is accelerating as threat actors become more sophisticated, and the consequences can be genuinely serious. This lesson is designed for beginners, so we'll build everything up from the ground. Let's get started."
         },
         {
           "number": 2,
-          "script": "So let's start by setting the scene. The AI threat landscape has shifted dramatically in recent years, and one of the biggest changes is who can actually launch these attacks. You no longer need to be a highly skilled hacker. AI tools have made it much easier for people with limited technical knowledge to cause serious damage. At the same time, the sectors we depend on most, things like energy, mining, and agriculture, are becoming more connected and more automated, which means there are simply more entry points for attackers to exploit. And here is where it gets particularly concerning. AI allows attackers to scan for those weaknesses at a speed and scale that was simply not possible before. Traditional defences were built for a different era, and they are struggling to keep up. What makes AI-driven attacks so dangerous is that combination of speed, adaptability, and precision. These are not blunt instruments. They are targeted, intelligent, and fast-moving threats."
+          "script": "The AI threat landscape has shifted dramatically. One of the biggest changes is accessibility - you no longer need advanced hacking skills to launch these attacks. AI tools have lowered the technical barriers significantly. Meanwhile, critical sectors are becoming increasingly connected and automated, creating more entry points for exploitation. AI allows attackers to scan for vulnerabilities at unprecedented speed and scale. Traditional defences, built for a different era, struggle to keep up with threats that combine speed, adaptability, and precision targeting in ways older attack methods simply couldn't achieve."
         },
         {
           "number": 3,
-          "script": "When we talk about the AI attack surface, we're really asking: where can an attacker get in? And the honest answer is, there are quite a few options. In critical sectors like energy, water, or healthcare, AI systems are connected to sensors, data pipelines, and control interfaces, and any one of those connections is a potential door for an attacker. One of the most common weak spots is where modern AI meets older industrial equipment, because that legacy kit was never designed with today's threats in mind. Beyond that, the data used to train AI models, the inputs fed into them, and the API endpoints that connect everything together all carry real risk. Outdated software makes things worse by leaving known vulnerabilities unpatched. And then there's the gap between the AI layer and the physical systems it controls, which attackers are very good at exploiting. Cloud environments hosting AI models are also frequently misconfigured and overlooked entirely."
+          "script": "When mapping the AI attack surface, we're asking: where can attackers get in? The answer is concerning - there are numerous entry points. AI systems connect through sensors, data pipelines, and control interfaces, each representing potential attack vectors. Common weak spots exist where modern AI meets legacy industrial equipment never designed for today's threats. Training data, model inputs, and API endpoints all carry risk, while gaps between AI layers and physical control systems are expertly exploited. Misconfigured cloud environments hosting AI models are frequently overlooked, and outdated software leaves known vulnerabilities unpatched."
         },
         {
           "number": 4,
-          "script": "Let's look at how these AI-driven attacks actually play out in the real world, because this isn't just theoretical. Attackers are already targeting the systems that keep society running. Energy grids are often hit first, because disrupting power creates chaos across everything else. From there, water treatment and distribution systems become targets, and because they're managed remotely, they're surprisingly vulnerable. In agriculture, sensors that monitor crops can be fed false readings, tricking automated systems into making harmful decisions about irrigation or pesticides. Heavy machinery in mining operations can be quietly hijacked, putting workers at serious risk without any obvious warning signs. And food supply chains, which rely heavily on data and logistics software, can be manipulated to cause shortages or contamination scares. What's striking here is how interconnected all of these sectors are. An attack on one can very quickly ripple outward and affect the others. That's what makes this threat so significant."
+          "script": "AI doesn't just provide new targets - it transforms how attacks are executed. Automated vulnerability scanning operates at machine speed, identifying weaknesses faster than any human could. Data poisoning corrupts the information AI systems rely on, leading to harmful automated decisions. Sensor manipulation feeds false readings to control systems, while model hijacking gives attackers direct control over automated processes. Supply chain infiltration through connected devices creates backdoors throughout entire networks. These methods combine to create sophisticated, multi-vector attacks that traditional security measures weren't designed to handle."
         },
         {
           "number": 5,
-          "script": "These aren't hypothetical scenarios, they're real examples of what AI-driven attacks look like in practice across critical sectors. In Texas, attackers manipulated the algorithms managing a power grid's load balancing, and the result was cascading blackouts affecting thousands of people. In Australia, compromised AI systems were used to guide drones that disrupted open-pit mining operations. Over in California, hackers took control of precision irrigation networks and flooded crops, wasting millions of litres of water in the process. We also saw smart sensors being hacked, which is a reminder that even small connected devices are valid targets. A European gas pipeline had false data fed into its predictive maintenance AI, which masked a serious pressure fault until it nearly became a disaster. And closer to home, livestock monitoring systems here in the UK were targeted, triggering false health alerts and forcing farmers into costly, unnecessary quarantines. Each of these shows just how wide the attack surface really is."
+          "script": "These aren't hypothetical scenarios - they're documented real-world incidents. In Texas, attackers manipulated power grid load-balancing algorithms, causing cascading blackouts. Australian mining operations faced disruption when compromised AI systems guided attacking drones. California's precision irrigation networks were hijacked, flooding crops and wasting millions of litres of water. A European gas pipeline's predictive maintenance AI was fed false data, masking critical pressure faults. UK livestock monitoring systems triggered false quarantine alerts, and smart sensors across multiple facilities have been compromised. Each incident demonstrates the wide-ranging vulnerability of AI-dependent infrastructure."
         },
         {
           "number": 6,
-          "script": "Power grids are among the most attractive targets for attackers, and artificial intelligence is making those attacks far more effective. Rather than manually searching for weaknesses, AI can rapidly scan the complex control systems that manage electricity distribution, identifying vulnerabilities that a human attacker might miss entirely. When those systems are compromised, the consequences are immediate and serious. Homes lose power, hospitals struggle to maintain critical equipment, and essential services grind to a halt. What makes this particularly alarming is that attackers can manipulate the sensors and monitoring equipment remotely, meaning they never need to be physically present at a substation or control facility. And because power infrastructure is deeply interconnected, a problem in one area can trigger a chain reaction, causing failures to spread across a much wider region very quickly. So we are not just talking about a local inconvenience here. We are talking about potentially widespread disruption to entire communities."
+          "script": "Power grids face unique vulnerabilities that make them particularly attractive targets. AI can rapidly identify weaknesses in complex electrical distribution control systems that human attackers might miss entirely. The ability to manipulate sensors remotely means attackers never need physical access to substations or control facilities. When power systems are compromised, the impact is immediate and severe - homes lose electricity, hospitals struggle with critical equipment, essential services halt. The interconnected nature of power infrastructure means problems cascade quickly, spreading failures across wide regions and affecting entire communities."
         },
         {
           "number": 7,
-          "script": "So, we've looked at how these attacks work, and now let's talk about what you can actually do about them. The good news is that solid, practical defences do exist. Start by separating your critical operational networks from anything internet-facing, so attackers have far less room to move around. Regularly audit the data that feeds into your AI systems, because if that data is corrupted, your AI will make bad decisions. Keep a close eye on unusual patterns in sensor readings or automated commands, as these can be early warning signs. Make sure your staff understand AI-specific threats, like spoofed alerts or manipulated data feeds, because human awareness is still one of your strongest assets. Lock down access to any system that influences your AI-driven processes, and finally, don't wait for a real attack to find out whether your defences hold up. Run exercises against AI-assisted attack scenarios now, while you still have the advantage."
+          "script": "Effective defences against AI-driven threats require practical, implementable strategies. Network segmentation separates critical operational systems from internet-facing infrastructure, limiting attacker reach. Regular auditing of AI inputs ensures data integrity, while monitoring for unusual patterns helps detect early attack indicators. Staff training focused on AI-specific threats like manipulated data feeds and spoofed alerts strengthens human detection capabilities. Strict access controls protect systems feeding AI processes, and proactive testing against AI-assisted attack scenarios reveals defensive gaps before real attackers exploit them."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together from this lesson. The core message is this: AI-powered attacks are no longer theoretical. They are actively targeting the systems that keep our world running, things like power grids, mining operations, and food production. And what makes these attacks so dangerous is that they often exploit surprisingly small weaknesses, a misconfigured sensor, an unverified automated update, a gap that nobody thought to close. So what can you do right now? First, always question and verify any changes made by automated systems, even if they look routine. Second, if you notice unusual behaviour from sensors or control systems, report it straight away. Do not wait and wonder. And finally, stay curious. The more you understand about how these threats work, the better placed you are to spot them early and protect the systems you rely on. Vigilance really does start with awareness, and that is exactly what this lesson has been building."
+          "script": "Let's consolidate the key lessons from this course. AI-powered attacks on critical infrastructure are happening now, not in some distant future. These attacks exploit surprisingly small vulnerabilities to cause major disruptions across energy, mining, and agriculture. Your immediate actions should include questioning automated system changes, reporting unusual sensor behaviour promptly, and maintaining curiosity about emerging threats. The more you understand how these attacks work, the better positioned you are to spot them early and protect essential systems. Vigilance begins with awareness, which is exactly what this lesson has provided."
         }
       ]
     }

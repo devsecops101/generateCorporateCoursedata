@@ -25,39 +25,39 @@
         },
         {
           "number": 2,
-          "slidetitle": "Defining AI-Driven Game Mechanics",
-          "subtitle": "How AI shapes modern gameplay systems",
-          "slidecontent": "• AI systems that control enemy behaviour, difficulty scaling, and in-game economies in real time\n• Rules that adapt based on player actions\n• Procedural generation using algorithms to create levels, loot, or quests dynamically\n• Matchmaking systems that pair players using performance data and predictive models\n• Core to modern games"
+          "slidetitle": "What Are AI-Driven Game Mechanics?",
+          "subtitle": "Understanding dynamic gameplay systems",
+          "slidecontent": "• Enemy AI that adapts to player skill\n• Dynamic difficulty adjustment\n• Procedural content generation\n• Matchmaking algorithms\n• Real-time economy balancing"
         },
         {
           "number": 3,
-          "slidetitle": "Unbalanced AI Mechanics Explained",
-          "subtitle": "When AI tips the playing field",
-          "slidecontent": "• AI mechanics that favour certain playstyles or characters without intention\n• Creates unfair advantages\n• Often caused by poorly tuned reward systems or biased training data\n• Players notice when wins feel unearned or losses feel unavoidable\n• Subtle imbalances can quietly erode trust in a game over time"
+          "slidetitle": "When AI Creates Unfair Advantages",
+          "subtitle": "Recognizing imbalanced mechanics",
+          "slidecontent": "• Certain playstyles unintentionally favoured\n• Biased training data influences outcomes\n• Poorly tuned reward systems\n• Players sense unearned wins or unavoidable losses\n• Trust erodes over time"
         },
         {
           "number": 4,
-          "slidetitle": "Balancing AI-Driven Game Mechanics",
-          "subtitle": "Keeping gameplay fair and enjoyable",
-          "slidecontent": "• AI systems that control difficulty, loot drops, or enemy behaviour can unintentionally create unfair advantages or frustrating dead ends\n\n• Small miscalibrations in AI logic often snowball into big gameplay problems\n\n• Playtesting with diverse player skill levels helps expose hidden imbalances early\n\n• Transparent tuning parameters make it easier to spot and fix fairness issues quickly\n\n• Player perception matters as much as the actual numbers behind the mechanics\n\n• Regular balance reviews keep AI-driven systems fair as player behaviour evolves over time"
+          "slidetitle": "Proactive Balance Testing",
+          "subtitle": "Preventing issues before launch",
+          "slidecontent": "• Test with diverse skill levels early\n• Small miscalibrations become big problems\n• Transparent tuning parameters aid debugging\n• Player perception equals reality\n• Regular reviews catch evolving issues"
         },
         {
           "number": 5,
-          "slidetitle": "Balancing AI Without Bias",
-          "subtitle": "Designing fair systems for every player",
-          "slidecontent": "• AI systems trained on skewed player data can reinforce unfair advantages for certain playstyles\n• Diverse testing groups help catch bias early\n• Difficulty scaling should account for varied skill levels, not just average performance metrics\n• Regularly auditing AI behaviour across different player demographics keeps balance in check\n• Small, frequent adjustments to AI parameters are safer than large overhauls"
+          "slidetitle": "Eliminating Bias from AI Systems",
+          "subtitle": "Fair training data and diverse testing",
+          "slidecontent": "• Skewed training data reinforces unfairness\n• Diverse testing groups catch bias early\n• Design for all skill levels, not averages\n• Audit behaviour across demographics\n• Small frequent adjustments over major overhauls"
         },
         {
           "number": 6,
-          "slidetitle": "Addressing AI Fairness Concerns",
-          "subtitle": "Practical steps for equitable game design",
-          "slidecontent": "• Test across player types\n• Audit AI decisions regularly\n• Gather diverse player feedback\n• Fix bias before launch\n• Document fairness checks"
+          "slidetitle": "Pre-Launch Fairness Strategy",
+          "subtitle": "Building equity into development",
+          "slidecontent": "• Test across varied player types\n• Audit AI decisions regularly\n• Gather diverse player feedback\n• Fix bias before launch\n• Document fairness checks"
         },
         {
           "number": 7,
-          "slidetitle": "Addressing AI Fairness Concerns",
-          "subtitle": "Practical steps for equitable game design",
-          "slidecontent": "• Test with diverse player groups\n• Monitor win rates regularly\n• Adjust AI difficulty often\n• Collect and review feedback\n• Patch unfair mechanics quickly"
+          "slidetitle": "Post-Launch Monitoring and Response",
+          "subtitle": "Maintaining fairness after release",
+          "slidecontent": "• Monitor win rates and player data\n• Make frequent small adjustments\n• Actively collect player feedback\n• Patch unfair mechanics quickly\n• Show players you're listening"
         },
         {
           "number": 8,
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So before we dive into the risks, let's make sure we're all on the same page about what we actually mean by AI-driven game mechanics. Essentially, these are the systems running behind the scenes that make a game feel alive and responsive. Think about an enemy that gets smarter the better you play, or a game that quietly adjusts its difficulty so you're always just the right amount of challenged. That's AI at work. We also see it in procedural generation, where algorithms are building levels, quests, or loot on the fly rather than a designer placing everything by hand. And then there's matchmaking, which uses your performance data to find you opponents at a similar skill level. All of these systems share one thing in common: they're dynamic, they're constantly responding to player behaviour, and they're absolutely central to how modern games are designed and experienced. That's the foundation we're building on throughout this course."
+          "script": "So before we dive into the risks, let's make sure we're all on the same page about what we actually mean by AI-driven game mechanics. Essentially, these are the systems running behind the scenes that make a game feel alive and responsive. Think about an enemy that gets smarter the better you play, or a game that quietly adjusts its difficulty so you're always just the right amount of challenged. That's AI at work. We also see it in procedural generation, where algorithms are building levels, quests, or loot on the fly rather than a designer placing everything by hand. And then there's matchmaking, which uses your performance data to find you opponents at a similar skill level. All of these systems share one thing in common: they're dynamic, they're constantly responding to player behaviour, and they're absolutely central to how modern games are designed and experienced."
         },
         {
           "number": 3,
-          "script": "So let's talk about what unbalanced AI mechanics actually look like in practice. Sometimes, without anyone intending it, the AI in a game ends up favouring certain characters, playstyles, or strategies over others. This creates an unfair advantage, and it usually comes down to two main culprits: reward systems that haven't been tuned carefully enough, or training data that carried some kind of bias into the AI's behaviour. The tricky thing is that players are remarkably good at sensing when something feels off. If wins start to feel like luck rather than skill, or if losses feel completely unavoidable, people notice. And here's the really important part: these imbalances don't have to be dramatic to cause damage. Even subtle, hard-to-spot issues can quietly chip away at a player's trust in the game over time. Once that trust is gone, it's very difficult to win back. So getting this right from the start really does matter."
+          "script": "So let's talk about what unbalanced AI mechanics actually look like in practice. Sometimes, without anyone intending it, the AI in a game ends up favouring certain characters, playstyles, or strategies over others. This creates an unfair advantage, and it usually comes down to two main culprits: reward systems that haven't been tuned carefully enough, or training data that carried some kind of bias into the AI's behaviour. The tricky thing is that players are remarkably good at sensing when something feels off. If wins start to feel like luck rather than skill, or if losses feel completely unavoidable, people notice. And here's the really important part: these imbalances don't have to be dramatic to cause damage. Even subtle, hard-to-spot issues can quietly chip away at a player's trust in the game over time."
         },
         {
           "number": 4,
-          "script": "When AI controls things like difficulty scaling, loot drops, or how enemies behave, even a small miscalibration can quietly snowball into something that feels deeply unfair to players. Maybe the difficulty spikes at the wrong moment, or rewards feel completely random. These issues are often invisible until real players get their hands on the game, which is why playtesting across a wide range of skill levels is so valuable. It helps you catch hidden imbalances before they become serious problems. Keeping your tuning parameters transparent also makes a big difference, because when your team can clearly see how the AI is making decisions, fixing issues becomes much quicker. And here is something worth remembering: player perception is just as important as the actual numbers. If something feels unfair, it is unfair, regardless of what the data says. Finally, balance is not a one-time job. As players evolve and find new strategies, regular reviews help keep everything feeling fair and enjoyable."
+          "script": "When AI controls things like difficulty scaling, loot drops, or how enemies behave, even a small miscalibration can quietly snowball into something that feels deeply unfair to players. Maybe the difficulty spikes at the wrong moment, or rewards feel completely random. These issues are often invisible until real players get their hands on the game, which is why playtesting across a wide range of skill levels is so valuable. It helps you catch hidden imbalances before they become serious problems. Keeping your tuning parameters transparent also makes a big difference, because when your team can clearly see how the AI is making decisions, fixing issues becomes much quicker. And here is something worth remembering: player perception is just as important as the actual numbers."
         },
         {
           "number": 5,
-          "script": "So, once you're using AI to balance your game, the next challenge is making sure that balance is actually fair for everyone playing it. Here's the thing: if the data you've trained your AI on mostly reflects one type of player, the system will naturally favour that playstyle and leave others at a disadvantage. That's why it's so important to test with a genuinely diverse group of players early on, so you can spot those problems before they reach your audience. Your difficulty scaling also needs to consider the full range of skill levels, not just what an average player looks like. And fairness isn't a one-time fix. You should be regularly checking how your AI behaves across different player groups and adjusting as you go. When you do make changes, keep them small and frequent rather than doing one massive overhaul. Gradual tweaks are far easier to monitor and much less likely to break something else in the process."
+          "script": "Once you're using AI to balance your game, the next challenge is making sure that balance is actually fair for everyone playing it. Here's the thing: if the data you've trained your AI on mostly reflects one type of player, the system will naturally favour that playstyle and leave others at a disadvantage. That's why it's so important to test with a genuinely diverse group of players early on, so you can spot those problems before they reach your audience. Your difficulty scaling also needs to consider the full range of skill levels, not just what an average player looks like. When you do make changes, keep them small and frequent rather than doing one massive overhaul. Gradual tweaks are far easier to monitor and much less likely to break something else in the process."
         },
         {
           "number": 6,
-          "script": "So, how do we actually tackle fairness concerns in practice? The key is to be proactive rather than reactive. Start by testing your game with a wide range of player types, because what feels balanced to one group might feel completely unfair to another. From there, make a habit of auditing your AI systems on a regular basis, checking whether the decisions they are making are holding up over time. It is also really important to gather feedback from a diverse group of players, not just your core audience, because different perspectives will surface problems you might never spot on your own. If you do find bias, address it before the game launches rather than scrambling to fix it after players are already frustrated. And finally, keep clear records of all your fairness checks throughout development. That documentation becomes genuinely valuable, both for your team and for demonstrating accountability to your players."
+          "script": "So, how do we actually tackle fairness concerns during development? The key is to be proactive rather than reactive. Start by testing your game with a wide range of player types, because what feels balanced to one group might feel completely unfair to another. From there, make a habit of auditing your AI systems on a regular basis, checking whether the decisions they are making are holding up over time. It is also really important to gather feedback from a diverse group of players, not just your core audience, because different perspectives will surface problems you might never spot on your own. If you do find bias, address it before the game launches rather than scrambling to fix it after players are already frustrated."
         },
         {
           "number": 7,
-          "script": "So, how do we actually put fairness into practice? It starts before your game even launches. Make sure you're playtesting with a wide range of people, not just one type of player, because different skill levels and backgrounds will reveal problems you simply wouldn't spot otherwise. Once the game is live, keep a close eye on the data. If one team, character, or strategy is winning far more often than it should be, that's a signal something needs adjusting. And don't wait for a major update to fix it. Small, regular tweaks to AI difficulty can make a huge difference to how fair the experience feels day to day. Alongside that, actively encourage players to share their experiences and genuinely read what they're telling you. Player feedback is incredibly valuable. And when something unfair is identified, act on it quickly. A fast patch shows your players that you're listening and that you care about getting it right."
+          "script": "Once your game is live, maintaining fairness becomes an ongoing responsibility. Keep a close eye on the data. If one team, character, or strategy is winning far more often than it should be, that's a signal something needs adjusting. And don't wait for a major update to fix it. Small, regular tweaks to AI difficulty can make a huge difference to how fair the experience feels day to day. Alongside that, actively encourage players to share their experiences and genuinely read what they're telling you. Player feedback is incredibly valuable. And when something unfair is identified, act on it quickly. A fast patch shows your players that you're listening and that you care about getting it right."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with a few essential reminders to carry forward. First, testing your AI balance isn't a one-time job. It needs to happen regularly throughout development and even after launch. And trust me, players are sharp. If something feels unfair, they will notice, and they will talk about it. It's also worth remembering that bias doesn't always announce itself. It can quietly hide inside your training data, shaping outcomes in ways you never intended. That's why fairness has to be an active goal, not an afterthought, because when players feel the game is treating them fairly, they trust it, they enjoy it, and they keep coming back. The simplest way to think about your process is this: audit what you have, adjust what needs fixing, and then repeat that cycle continuously. Good AI design in games is never truly finished. It's an ongoing commitment to your players."
+          "script": "So let's bring everything together with a few essential reminders to carry forward. First, testing your AI balance isn't a one-time job. It needs to happen regularly throughout development and even after launch. And trust me, players are sharp. If something feels unfair, they will notice, and they will talk about it. It's also worth remembering that bias doesn't always announce itself. It can quietly hide inside your training data, shaping outcomes in ways you never intended. That's why fairness has to be an active goal, not an afterthought, because when players feel the game is treating them fairly, they trust it, they enjoy it, and they keep coming back. The simplest way to think about your process is this: audit what you have, adjust what needs fixing, and then repeat that cycle continuously."
         }
       ]
     }

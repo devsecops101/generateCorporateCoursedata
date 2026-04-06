@@ -26,44 +26,44 @@
         {
           "number": 2,
           "slidetitle": "What Is AI Phishing?",
-          "subtitle": "Scams crafted by intelligent machines",
-          "slidecontent": "• Phishing attacks that use artificial intelligence to write, personalise, and send scam messages at scale\n• Designed to trick you into clicking links, sharing passwords, or handing over money\n• Far more convincing than old-fashioned template scams\n• AI analyses your name, job, and online activity to make messages feel personal and legitimate\n• Delivered by email, text, voice call, or social media"
+          "subtitle": "How machines create convincing scams",
+          "slidecontent": "• Phishing attacks powered by artificial intelligence\n• AI writes, personalises, and scales scam messages\n• Uses your online data to craft realistic content\n• Delivered via email, text, calls, or social media\n• Far more sophisticated than traditional template scams"
         },
         {
           "number": 3,
-          "slidetitle": "Spotting AI-Crafted Scam Emails",
-          "subtitle": "What to look for in suspicious messages",
-          "slidecontent": "• Urgent or threatening language\n• Too-perfect grammar\n• Unfamiliar sender address\n• Suspicious links or attachments\n• Requests for personal details"
+          "slidetitle": "AI's Personalisation Advantage",
+          "subtitle": "Why these scams feel so convincing",
+          "slidecontent": "• AI analyses your name, job title, and online activity\n• Creates messages that feel genuinely personal\n• References recent purchases or interactions\n• Mimics writing style of trusted contacts\n• Builds false sense of legitimacy and familiarity"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting AI Phishing Attempts",
-          "subtitle": "Recognising the warning signs in messages",
-          "slidecontent": "• Messages that feel oddly personal, using your name, job title, or recent activity to seem legitimate\n• Suspiciously perfect grammar and polished writing from senders who previously made spelling errors\n• Urgent requests\n• Links or attachments arriving just after you've interacted with a service or made a purchase\n• A tone that mimics someone you trust, such as your manager or IT team, but something feels slightly off\n• Pressure to act immediately without giving you time to verify the request"
+          "slidetitle": "Red Flags in AI Messages",
+          "subtitle": "Warning signs that reveal the scam",
+          "slidecontent": "• Urgent requests for immediate action\n• Suspiciously perfect grammar and writing\n• Unexpected links or attachments\n• Pressure without time to verify\n• Tone feels familiar but slightly off"
         },
         {
           "number": 5,
-          "slidetitle": "Spotting AI Phishing Attempts",
-          "subtitle": "Recognising the warning signs to watch",
-          "slidecontent": "• Requests for urgent action or immediate decisions, especially around money or login details\n• Personalised details (your name, job title, or recent activity) used to build false trust\n• Suspiciously polished writing with no obvious spelling mistakes\n• Links or attachments you were not expecting\n• Sender addresses that look almost right but contain subtle differences\n• A tone that feels oddly familiar or overly friendly from an unknown contact"
+          "slidetitle": "Technical Warning Signs",
+          "subtitle": "What to check before you click",
+          "slidecontent": "• Sender addresses with subtle differences\n• Generic greetings despite personal details\n• Requests for passwords or login credentials\n• Links that don't match expected destinations\n• Messages arriving after recent online activity"
         },
         {
           "number": 6,
-          "slidetitle": "Spotting AI Phishing Attempts",
-          "subtitle": "Recognising the warning signs in messages",
-          "slidecontent": "• Urgent tone, act now\n• Too perfect, no typos\n• Unexpected sender address\n• Requests login details\n• Generic greeting used"
+          "slidetitle": "Common Attack Scenarios",
+          "subtitle": "How AI phishing typically unfolds",
+          "slidecontent": "• Fake urgent account closure warnings\n• Impersonated managers requesting transfers\n• False IT security alerts needing login\n• Bogus invoice confirmations with attachments\n• Phoney customer service follow-ups"
         },
         {
           "number": 7,
           "slidetitle": "Staying Safe From AI Scams",
-          "subtitle": "Practical steps to protect yourself online",
-          "slidecontent": "• Pause before clicking links\n• Verify senders independently\n• Use multi-factor authentication\n• Trust your instincts always\n• Report suspicious messages promptly"
+          "subtitle": "Practical steps to protect yourself",
+          "slidecontent": "• Pause before clicking any links\n• Verify senders through independent channels\n• Use multi-factor authentication everywhere\n• Trust your instincts when something feels wrong\n• Report suspicious messages to protect others"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Keep these points close to hand.",
-          "slidecontent": "• AI can now write phishing emails that sound personal, polished, and completely believable\n• Urgency and fear are the attacker's favourite tools\n• Always verify unexpected requests through a separate, trusted channel\n• Slow down before you click\n• No legitimate organisation will pressure you to act within seconds\n• If something feels off, trust that instinct and report it"
+          "slidetitle": "Key Takeaways",
+          "subtitle": "Remember these essential points",
+          "slidecontent": "• AI makes scams highly personal and polished\n• Urgency is the attacker's primary weapon\n• Always verify unexpected requests separately\n• No legitimate organisation demands instant action\n• Your instincts are your first line of defence"
         }
       ],
       "scripts": [
@@ -73,23 +73,23 @@
         },
         {
           "number": 2,
-          "script": "So, what exactly is AI phishing? Well, at the core, it is a type of scam where criminals use artificial intelligence to create and send fraudulent messages, but on a massive scale and with a level of sophistication we have never seen before. The goal is the same as any phishing attack: to trick you into clicking a dodgy link, giving away your password, or even transferring money. What makes AI phishing so dangerous, though, is how convincing it is. Forget the old-style scam emails full of spelling mistakes and obvious red flags. AI can analyse information about you, your name, your job title, things you have posted online, and use all of that to craft a message that feels genuinely personal and legitimate. And these scams do not just arrive by email. They can come through text messages, phone calls, or social media. Essentially, anywhere you communicate digitally is a potential target."
+          "script": "So, what exactly is AI phishing? At its core, it's a type of scam where criminals use artificial intelligence to create and send fraudulent messages, but on a massive scale and with unprecedented sophistication. The goal remains the same as traditional phishing: trick you into clicking malicious links, giving away passwords, or transferring money. What makes AI phishing so dangerous is how it leverages machine learning to craft messages that feel genuinely legitimate. These systems can analyse vast amounts of data about potential targets and generate personalised content that's far more convincing than the old template-based scams we used to see."
         },
         {
           "number": 3,
-          "script": "So, how do you actually spot one of these AI-generated scam emails? There are a few tell-tale signs to watch out for. First, pay attention to the tone. If a message feels urgent or even threatening, perhaps warning you that your account will be closed unless you act immediately, that is a classic tactic designed to panic you into making a hasty decision. Interestingly, AI-written emails can sometimes look a little too polished. If the grammar and phrasing seem unusually perfect, that can actually be a red flag. Always check who the email is genuinely from, because scammers often use addresses that look almost right but are slightly off. Before clicking anything, hover over any links to see where they actually lead, and be very cautious about unexpected attachments. Finally, any email asking you to hand over personal details like passwords or bank information should set alarm bells ringing straight away. Trust your instincts if something feels wrong."
+          "script": "Here's what makes AI phishing particularly insidious: the personalisation. AI systems can scrape information from social media, professional networks, public databases, and even data breaches to build detailed profiles of their targets. They'll use your real name, job title, company details, and recent activities to craft messages that feel like they're coming from someone who genuinely knows you. This isn't just adding your name to a form letter. AI can reference a purchase you made last week, mention a project you're working on, or even mimic the communication style of your colleagues. This level of personalisation makes people drop their guard because the message feels authentic and relevant to their lives."
         },
         {
           "number": 4,
-          "script": "So how do you actually spot one of these AI-generated phishing attempts? There are a few things to watch out for. First, if a message feels strangely personal, maybe it mentions your name, your job role, or something you did recently, that is not necessarily a sign it is trustworthy. AI can pull that information together very easily. You should also be suspicious if a message is written in unusually polished, perfect English, especially from someone who normally makes the odd spelling mistake. Another big warning sign is urgency. If someone is pressuring you to act immediately, whether that is clicking a link, opening an attachment, or approving something, without giving you time to think or verify, that is a red flag. And pay attention to tone. If a message sounds like your manager or your IT team but something just feels slightly off, trust that instinct. Your gut reaction is often your best first line of defence."
+          "script": "So how do you spot these AI-generated attacks? There are several warning signs to watch for. First, be suspicious of any message creating urgency, especially around financial matters or account access. AI-generated content often has suspiciously perfect grammar and spelling, so polished writing is no longer automatically trustworthy. Pay attention to the overall tone as well. If something sounds like it's from your boss or IT team but feels slightly off in some way you can't quite pinpoint, trust that instinct. Scammers also love to pressure you into acting immediately without giving you time to think or verify the request."
         },
         {
           "number": 5,
-          "script": "So how do you actually spot one of these AI-generated phishing attempts in the wild? There are a few warning signs worth keeping in mind. First, watch out for any message that pushes you to act urgently, particularly if it involves money or logging into an account. AI-generated messages can also feel unnervingly personal, using your name, your job title, or details about something you have recently done, all designed to make you lower your guard. And here is something that catches a lot of people off guard: a perfectly written email is no longer a sign that it is legitimate. AI produces very polished text, so the old advice of looking for spelling mistakes no longer holds up on its own. You should also be cautious about unexpected links or attachments, and always take a close look at the sender's email address, because it might look almost correct but have a subtle difference hidden in there. Trust your instincts if something feels a little off."
+          "script": "Let's look at some technical warning signs you can check before taking any action. Always examine sender email addresses carefully, because they often contain subtle differences from legitimate addresses. Be wary of messages that use generic greetings like 'Dear Customer' despite containing personal details about you. No legitimate organisation will ever ask for passwords or login credentials via email. Before clicking any links, hover over them to see where they actually lead. And be particularly cautious about messages that arrive suspiciously soon after you've made a purchase or interacted with a service online."
         },
         {
           "number": 6,
-          "script": "So how do you actually spot one of these AI-generated phishing messages? There are a few things to watch out for. First, if a message feels pushy or creates a sense of panic, telling you to act immediately or your account will be closed, that is a red flag. AI can also produce writing that looks almost too polished, so if an email is suspiciously flawless with no spelling mistakes at all, do not assume that makes it trustworthy. Always check who actually sent the message, because the sender address can look odd or slightly off even if the name appears familiar. Be very cautious if anything is asking you to hand over your password or login credentials, because legitimate organisations simply do not do that by email. And finally, watch out for vague greetings like \"Dear Customer\" rather than your actual name. None of these signs alone is definitive, but if you spot several together, treat that message with real suspicion."
+          "script": "To help you recognise these attacks in the wild, let's look at some common scenarios. You might receive a perfectly crafted email warning that your account will be suspended unless you verify your details immediately. Or perhaps a message appearing to come from your manager asking you to process an urgent payment while they're in meetings. IT security alerts claiming your password has been compromised are another favourite. Fake invoice confirmations with malicious attachments, or bogus customer service follow-ups after legitimate transactions, are also increasingly common. In each case, the AI crafts content that feels timely, relevant, and urgent."
         },
         {
           "number": 7,

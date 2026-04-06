@@ -25,79 +25,79 @@
         },
         {
           "number": 2,
-          "slidetitle": "Why Transparency Matters Here",
-          "subtitle": "Public trust depends on clear reasoning.",
+          "slidetitle": "The Public Trust Challenge",
+          "subtitle": "Why government AI must be different",
           "slidecontent": "• Citizens deserve clear explanations\n• Trust breaks without transparency\n• Errors must be catchable\n• Accountability needs visible reasoning\n• Opaque systems risk public harm"
         },
         {
           "number": 3,
-          "slidetitle": "Why Transparency Matters Here",
-          "subtitle": "Public trust depends on clear reasoning.",
-          "slidecontent": "• Government AI decisions affect real lives, from benefits to border control\n• Citizens have a right to understand why a system reached a conclusion about them\n• Opaque systems erode public confidence\n• Auditability allows errors and biases to be caught before they cause lasting harm\n• Legal frameworks in the UK already require explainability in many automated decisions\n• Transparency builds the accountability that democratic governance depends on"
+          "slidetitle": "Legal and Ethical Requirements",
+          "subtitle": "Explainability is not optional",
+          "slidecontent": "• UK legal frameworks already require explainability\n• Citizens have rights to understand automated decisions\n• Democratic governance depends on accountability\n• High-risk areas need special attention\n• Compliance protects both citizens and institutions"
         },
         {
           "number": 4,
-          "slidetitle": "Auditing AI Decision Trails",
-          "subtitle": "Tracing Every Decision Step by Step",
-          "slidecontent": "• A decision trail records every step an AI system takes when reaching a conclusion\n• Logs capture inputs, rules applied, and outputs\n• Auditors use these trails to spot errors or bias after the fact\n• Essential for accountability\n• Government systems must retain trails long enough to support formal reviews and appeals\n• Clear documentation helps non-technical staff understand and challenge AI outcomes"
+          "slidetitle": "Creating Decision Trails",
+          "subtitle": "Recording the AI decision process",
+          "slidecontent": "• Decision trails log inputs, rules, and outputs\n• Records must be kept for appeals processes\n• Documentation should be non-technical friendly\n• Essential for post-decision reviews\n• Clear trails enable accountability"
         },
         {
           "number": 5,
-          "slidetitle": "Auditing AI Decision Trails",
-          "subtitle": "Tracing Every Decision, Step by Step",
-          "slidecontent": "• A decision trail records every step an AI system takes when reaching an outcome\n• Logs capture inputs, rules applied, and the final result\n• Essential for accountability\n• Auditors can replay a decision to check whether it followed approved logic and policy\n• Gaps in the trail make it impossible to challenge or correct a flawed outcome\n• Regular audits help catch bias or errors before they affect large numbers of people"
+          "slidetitle": "Auditing for Quality Control",
+          "subtitle": "Using trails to catch problems early",
+          "slidecontent": "• Auditors can replay decisions step-by-step\n• Regular reviews spot bias before it spreads\n• Gaps in trails prevent proper oversight\n• Proactive auditing protects large populations\n• Verification ensures policy compliance"
         },
         {
           "number": 6,
-          "slidetitle": "Auditing AI Decision Trails",
-          "subtitle": "Tracing Every Decision Step by Step",
-          "slidecontent": "• A decision trail records every step an AI system takes when reaching a conclusion\n• Logs capture inputs, rules applied, and outputs\n• Auditors use these trails to spot errors or bias after the fact\n• Essential for accountability\n• Government bodies can replay a decision to check it was made fairly and consistently\n• Clear trails make it far easier to explain outcomes to affected citizens"
+          "slidetitle": "Explaining Decisions to Citizens",
+          "subtitle": "Making outcomes understandable",
+          "slidecontent": "• Citizens can request explanations of decisions\n• Trails enable clear, factual responses\n• Understanding reduces fear and frustration\n• Proper explanations support appeal processes\n• Transparency demonstrates fairness"
         },
         {
           "number": 7,
           "slidetitle": "Building Trust Through Transparency",
-          "subtitle": "Openness Builds Public Confidence and Accountability",
-          "slidecontent": "• Openness reduces public fear\n• Clear reasons build confidence\n• Hidden logic erodes trust\n• Transparency invites accountability\n• Honest systems earn respect"
+          "subtitle": "Openness builds public confidence",
+          "slidecontent": "• Openness reduces public fear\n• Clear reasons build confidence\n• Transparency invites accountability\n• Honest systems earn respect\n• Trust enables effective governance"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
-          "subtitle": "Core principles to carry forward always.",
-          "slidecontent": "• Explain every AI decision clearly\n• Audit trails build public trust\n• Plain language matters most\n• Document your reasoning always\n• Transparency protects citizens' rights\n• Start small, then scale up"
+          "subtitle": "Core principles to carry forward",
+          "slidecontent": "• Explain every AI decision clearly\n• Audit trails build public trust\n• Plain language matters most\n• Document your reasoning always\n• Start small, then scale up"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome, and thank you for joining this course on Explainability in Government AI Systems. Whether you work in policy, public services, or technology, this course has been designed with you in mind, and you do not need any prior knowledge of artificial intelligence to get started. Over the coming lessons, we will be exploring why transparency in AI really matters, particularly when the systems making decisions are ones that affect ordinary people's lives, from benefits assessments to planning applications and beyond. When government uses AI, the public has every right to understand how those decisions are being made, and that trust is only possible when there is genuine accountability behind the scenes. By the end of this course, you will have practical skills and a solid understanding of what explainability means in a real government context. So let us get started, and I hope you find this both useful and genuinely interesting."
+          "script": "Welcome, and thank you for joining this course on Explainability in Government AI Systems. Whether you work in policy, public services, or technology, this course has been designed with you in mind, and you do not need any prior knowledge of artificial intelligence to get started. Over the coming lessons, we will be exploring why transparency in AI really matters, particularly when the systems making decisions are ones that affect ordinary people's lives, from benefits assessments to planning applications and beyond. When government uses AI, the public has every right to understand how those decisions are being made, and that trust is only possible when there is genuine accountability behind the scenes. By the end of this course, you will have practical skills and a solid understanding of what explainability means in a real government context."
         },
         {
           "number": 2,
-          "script": "So why does transparency matter so much when we are talking about government AI specifically? Well, think about it this way. When a government system makes a decision that affects someone's life, whether that is a benefits claim, a visa application, or a school place allocation, that person has every right to understand why that decision was made. And if we cannot explain the reasoning clearly, trust starts to erode very quickly. Beyond trust, there is also the practical matter of catching mistakes. No AI system is perfect, and if the reasoning is hidden away, errors can go unnoticed and uncorrected, sometimes causing real harm to real people. Accountability is another piece of this. Decision makers need to be able to point to clear, visible reasoning if they are going to be held responsible for outcomes. Opaque systems make that almost impossible. So transparency here is not just a nice idea, it is genuinely essential for safe and fair governance."
+          "script": "Why does transparency matter so much when we are talking about government AI specifically? Think about it this way. When a government system makes a decision that affects someone's life, whether that is a benefits claim, a visa application, or a school place allocation, that person has every right to understand why that decision was made. If we cannot explain the reasoning clearly, trust starts to erode very quickly. Beyond trust, there is also the practical matter of catching mistakes. No AI system is perfect, and if the reasoning is hidden away, errors can go unnoticed and uncorrected, sometimes causing real harm to real people. Opaque systems make accountability almost impossible."
         },
         {
           "number": 3,
-          "script": "So why does transparency matter so much in this particular context? Well, unlike a product recommendation on a shopping website, government AI systems make decisions that can genuinely change people's lives. We're talking about whether someone receives benefits, whether they're allowed to cross a border, whether they're flagged as a risk. Citizens have every right to understand the reasoning behind those decisions, and when systems are opaque, trust breaks down very quickly. There's also a practical side to this. When AI systems can be audited and examined, it becomes much easier to spot mistakes and biases before they cause serious harm to real people. And it's worth noting that this isn't just a nice idea in the UK. Legal frameworks already require explainability in many automated decision-making contexts. So transparency here isn't optional, it's a foundation for accountability, and accountability is really what democratic governance is built on."
+          "script": "It is worth noting that explainability in government AI is not just a nice idea. Legal frameworks in the UK already require transparency in many automated decision-making contexts. Citizens have established rights to understand decisions that affect them, particularly in high-risk areas like benefits, healthcare, and law enforcement. This creates both an opportunity and an obligation. Democratic governance fundamentally depends on accountability, and you cannot have accountability without transparency. Government bodies have ethical responsibilities when deploying AI that go well beyond what private companies face, because the stakes and the power dynamics are completely different."
         },
         {
           "number": 4,
-          "script": "When an AI system makes a decision, we need a clear record of exactly how it got there. That record is called a decision trail, and it captures everything: the inputs that went in, the rules the system applied, and the output it produced. Think of it like a paper trail in a traditional bureaucratic process, but for automated decisions. Auditors can go back through these logs to check whether the system made an error or showed signs of bias. In a government context, this is especially important because decisions can be challenged through formal appeals, so those records need to be kept long enough to support that process. And it is not just about satisfying auditors. Clear, well-written documentation means that non-technical colleagues, whether that is a caseworker or a policy adviser, can actually understand what the system did and, if necessary, push back on it."
+          "script": "When an AI system makes a decision, we need a clear record of exactly how it got there. That record is called a decision trail, and it captures everything: the inputs that went in, the rules the system applied, and the output it produced. Think of it like a paper trail in a traditional bureaucratic process, but for automated decisions. In a government context, this is especially important because decisions can be challenged through formal appeals, so those records need to be kept long enough to support that process. Clear, well-written documentation means that non-technical colleagues, whether caseworkers or policy advisers, can actually understand what the system did."
         },
         {
           "number": 5,
-          "script": "When an AI system makes a decision, we need a clear record of exactly how it got there. That record is called a decision trail, and it logs everything: the inputs that went in, the rules that were applied, and the outcome that came out. Think of it like a paper trail in a traditional process, but for automated decisions. This matters enormously for accountability, because auditors can go back and replay that decision step by step, checking whether the system followed the correct logic and stayed within approved policy. If any part of that trail is missing or incomplete, it becomes very difficult to challenge a decision or put things right when something goes wrong. And that is why regular auditing is so important. By reviewing these trails routinely, organisations can spot problems like bias or errors early, before they end up affecting large numbers of people. A complete, auditable trail is not optional; it is fundamental."
+          "script": "Decision trails become powerful tools when used proactively for quality control. Auditors can go back and replay a decision step by step, checking whether the system followed approved logic and stayed within policy guidelines. This is not just about fixing things after they go wrong. Regular auditing of these trails helps organisations spot patterns like bias or systematic errors early, before they end up affecting large numbers of people. If any part of that trail is missing or incomplete, it becomes very difficult to challenge a decision or put things right when something goes wrong. A complete, auditable trail is fundamental to responsible AI deployment."
         },
         {
           "number": 6,
-          "script": "When an AI system makes a decision, we need to be able to look back and understand exactly how it got there. That is where a decision trail comes in. Think of it as a detailed log that records every step the system took, what information it was given, which rules it applied, and what conclusion it reached. Auditors can then go through that log after the fact to check whether anything went wrong, whether a mistake was made, or whether any bias crept into the process. For government bodies, this is particularly important because they can actually replay a decision, almost like rewinding a recording, to verify that it was handled fairly and consistently. And when a citizen wants to know why a particular outcome affected them, a clear and complete trail makes it far easier to give them a proper, honest explanation. Without that trail, accountability becomes very difficult indeed."
+          "script": "One of the most practical benefits of good decision trails is that they make it possible to give citizens proper explanations when they ask for them. When someone wants to know why a particular outcome affected them, a clear and complete trail makes it far easier to give them an honest, factual response. This is not just about satisfying curiosity. People have a right to understand decisions that affect their lives, and in many cases they need that understanding to decide whether to appeal or take further action. Good explanations reduce frustration and demonstrate that the system is working fairly. Without that trail, accountability becomes very difficult indeed."
         },
         {
           "number": 7,
-          "script": "When government systems make decisions that affect people's lives, those people deserve to understand why. And here's the thing: when organisations are open about how their AI works, it actually reduces fear. People are far less likely to distrust something they can see and understand. On the other hand, when the logic behind a decision is hidden, confidence quickly breaks down. If someone is refused a benefit or flagged by an automated system and they have no idea why, that feels deeply unfair, and rightly so. Transparency changes that dynamic entirely. It invites scrutiny, which in turn creates accountability. Departments and agencies have to think carefully about their systems precisely because they know those systems can be examined. And over time, when people see that an AI system is being used honestly and openly, it earns genuine respect and trust. Transparency is not just a nice idea here, it is the foundation of responsible government AI."
+          "script": "When government systems make decisions that affect people's lives, openness actually reduces fear and builds confidence. People are far less likely to distrust something they can see and understand. When the logic behind a decision is hidden, confidence quickly breaks down. If someone is refused a benefit or flagged by an automated system and they have no idea why, that feels deeply unfair. Transparency changes that dynamic entirely. It invites scrutiny, which in turn creates accountability. Departments have to think carefully about their systems precisely because they know those systems can be examined. Over time, honest and open AI systems earn genuine respect and trust."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with the core principles you'll want to keep in mind as you move forward. First, whenever an AI system makes a decision, you need to be able to explain it clearly to the person it affects. That explanation should be in plain, everyday language, not technical jargon. Alongside that, keeping proper audit trails is absolutely essential. They show the public that decisions are being made fairly and accountably, and that builds genuine trust over time. You should also be documenting your reasoning as you go, not as an afterthought. This protects citizens' rights and gives you a solid record if decisions are ever questioned or challenged. And finally, don't feel you need to implement everything at once. Start with something small and manageable, learn from it, and then scale up gradually. These principles aren't complicated, but they do require consistent effort and commitment. Keep them front of mind, and you'll be building AI systems that people can genuinely trust."
+          "script": "Let's bring everything together with the core principles to keep in mind as you move forward. Whenever an AI system makes a decision, you need to be able to explain it clearly to the person it affects, using plain language rather than technical jargon. Keeping proper audit trails shows the public that decisions are being made fairly and builds genuine trust over time. Document your reasoning as you go, not as an afterthought. This protects citizens' rights and gives you a solid record if decisions are questioned. Finally, don't feel you need to implement everything at once. Start with something small and manageable, learn from it, and scale up gradually. These principles require consistent effort, but they are the foundation of trustworthy government AI."
         }
       ]
     }

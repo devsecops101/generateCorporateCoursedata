@@ -1,0 +1,107 @@
+{
+  "Course Title": "Who Is Responsible in AI-Assisted Transport Incidents?",
+  "Category": "Transportation & Logistics: Aviation, Maritime, Logistics, Shipping, Automotive",
+  "Description": "Accountability across operators, manufacturers, and regulators.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how transport systems operate (such as experience working in or studying aviation, maritime, logistics, or automotive sectors) and a general awareness of how AI is being used in everyday technology will help you get the most from this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key parties responsible for AI-assisted transport incidents, including operators, manufacturers, and regulators, and explain how accountability is distributed across each group. You will also apply foundational frameworks to real-world transport scenarios, helping you recognise how legal and ethical responsibilities are assigned when AI systems contribute to incidents in aviation, maritime, and automotive contexts.",
+  "lessons": [
+    {
+      "lesson title": "Who Is Responsible in AI-Assisted Transport Incidents?",
+      "order": 1,
+      "Description": "When an AI-assisted vehicle or transport system is involved in an incident, it can be genuinely difficult to know who should be held responsible. This lesson explores the shared responsibilities of the key parties involved, including vehicle operators, technology manufacturers, and regulatory bodies. Using clear, real-world examples, you will learn how accountability is typically assigned and why it often involves more than one party. We will also look at the legal and ethical frameworks that are beginning to shape how these situations are handled in the United Kingdom and beyond. By the end of this lesson, you will have a practical understanding of how responsibility is distributed in AI-assisted transport incidents and why this matters for everyone involved.",
+      "status": "draft",
+      "content": "Accountability across operators, manufacturers, and regulators.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Who Is Responsible?",
+          "subtitle": "When AI Drives, Who Takes Blame?",
+          "slidecontent": "• AI is already making real-time decisions in cars, trains, and delivery vehicles\n• When something goes wrong, blame is rarely obvious\n• Multiple parties involved: manufacturers, operators, regulators, and sometimes users\n• Traditional road accident rules were not written with AI in mind\n• Accountability gaps exist\n• This course maps out who is responsible and why it matters"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Who Bears Legal Responsibility?",
+          "subtitle": "When AI acts, who answers?",
+          "slidecontent": "• Legal responsibility in AI transport incidents rarely falls on a single party\n• Operators, manufacturers, and regulators each carry a share of accountability\n• Fault depends on context\n• The level of human oversight at the time of an incident shapes who is liable\n• Existing road traffic law was not designed with autonomous systems in mind"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Who Bears Operator Responsibility?",
+          "subtitle": "Those who deploy, manage, and monitor.",
+          "slidecontent": "• Transport operators who choose to deploy AI systems in their services\n• Responsible for ensuring the technology is fit for purpose before launch\n• Must monitor AI behaviour continuously, not just at setup\n• Staff training matters too\n• Any failure to maintain or oversee the system can shift liability toward the operator"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Operators, Manufacturers, and Regulators",
+          "subtitle": "Shared duties, distinct responsibilities explained clearly.",
+          "slidecontent": "• Operators run daily services\n• Manufacturers build the systems\n• Regulators set the rules\n• Each role carries distinct duties\n• Failures can involve all three"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Shared Accountability in Practice",
+          "subtitle": "How accountability is shared in reality",
+          "slidecontent": "• Operators monitor daily performance\n• Manufacturers fix design faults\n• Regulators set safety standards\n• Blame is rarely one person's\n• All three parties share risk"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Gaps in Current Regulations",
+          "subtitle": "Where accountability falls through the cracks",
+          "slidecontent": "• Most transport regulations written before AI systems existed in vehicles\n• No single law clearly assigns blame when an algorithm makes a wrong decision\n• Operators, manufacturers, and regulators each assume someone else is responsible\n• Liability gaps grow wider as AI systems become more autonomous\n• Incident investigation frameworks rarely account for software behaviour as a contributing factor\n• Standards vary significantly across different countries and transport modes"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Gaps in Current Regulation",
+          "subtitle": "Where accountability frameworks fall short today",
+          "slidecontent": "• No clear liability owner\n• Laws lag behind technology\n• Regulators lack technical expertise\n• Cross-border rules conflict\n• Victims face complex claims\n• Gaps leave users unprotected"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for navigating AI accountability",
+          "slidecontent": "• AI shifts, not removes, responsibility\n• Operators, makers, regulators all accountable\n• Document every AI-assisted decision\n• Incidents need clear reporting chains\n• Laws are still catching up fast\n• Review your organisation's AI policies now"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course. Here is a question worth sitting with for a moment: if a self-driving car causes an accident, who is actually responsible? The driver? The company that built the software? The organisation that put the vehicle on the road? Right now, AI is already making split-second decisions in cars, trains, and delivery vehicles, and when things go wrong, the answer is rarely straightforward. The trouble is that our traditional rules around road accidents were written long before any of this technology existed, so there are real gaps in accountability that nobody has fully resolved yet. In this course, we are going to work through exactly that problem. We will look at all the different parties involved, from manufacturers and operators through to regulators and users, and we will explore where responsibility sits and why getting that right genuinely matters. Let us start by building a clear picture of the landscape."
+        },
+        {
+          "number": 2,
+          "script": "When something goes wrong involving an AI-driven vehicle, one of the first questions people ask is: who is to blame? And the honest answer is, it is rarely straightforward. Unlike a traditional road accident where you might point to a driver, in AI-assisted transport the responsibility can be spread across several different parties. The company that built the system, the operator running the service, and even the regulators overseeing it can all carry a portion of accountability. A great deal depends on the specific circumstances, and particularly on how much human oversight was in place at the moment the incident occurred. Was a driver expected to be in control? Was the system operating fully autonomously? These details matter enormously. There is also a broader challenge here, which is that our existing road traffic laws were simply not written with autonomous systems in mind, so the legal framework is still catching up with the technology."
+        },
+        {
+          "number": 3,
+          "script": "So when we talk about operator responsibility, we're really talking about the organisations that choose to bring AI into their transport services. That decision comes with real accountability. It's not enough to simply install a system and walk away. Operators have a duty to make sure the technology actually works safely before it ever goes near the public. And that responsibility doesn't end at launch. They need to keep a close eye on how the AI is performing over time, because these systems can behave unexpectedly in real-world conditions. There's also the question of staff. If your team doesn't understand how to work alongside the AI, or what to do when something goes wrong, that's a problem the operator owns. Essentially, if an operator fails to properly maintain, monitor, or train around an AI system, and something goes wrong as a result, the law is likely to look in their direction first."
+        },
+        {
+          "number": 4,
+          "script": "So when something goes wrong in an AI-assisted transport incident, the question of who is responsible rarely has a simple answer, because there are usually three distinct groups involved. First, you have the operators, the companies or organisations actually running the transport service day to day, whether that is a bus network, a railway, or an autonomous vehicle fleet. Then you have the manufacturers, the people who designed and built the AI systems powering those services. And finally, you have the regulators, the bodies responsible for setting the safety standards and legal frameworks that everyone else must follow. Now, here is the important point. Each of these groups has its own specific duties, and those duties do not cancel each other out. In fact, when an incident occurs, it is quite possible that all three have played some part in what went wrong. Understanding how these roles interact is really the foundation for everything else we are going to cover in this lesson."
+        },
+        {
+          "number": 5,
+          "script": "So when we talk about accountability in practice, it helps to think of it as a triangle with three distinct corners. At one corner, you have the operators, the transport companies and drivers who are responsible for keeping an eye on how the system is performing day to day. At another corner, you have the manufacturers, the people who built the technology and who are responsible for addressing any faults in the original design. And at the third corner, you have the regulators, the government bodies and agencies who set the rules and safety standards that everyone else must follow. Now here is the really important point: when something goes wrong, it is almost never the fault of just one party. In most real-world incidents, responsibility is spread across all three groups in different ways and to different degrees. That shared risk is not a loophole or an excuse. It is simply the reality of how complex, AI-assisted transport systems actually work."
+        },
+        {
+          "number": 6,
+          "script": "Here is the narration script for Slide 6:\n\nSo here is where things start to get uncomfortable. The truth is, most of the rules and regulations governing transport were written long before AI systems were ever part of the picture. Nobody sat down in the 1990s and thought, \"Right, we should probably plan for the day a computer algorithm causes a road accident.\" That means today we have a real accountability gap. When something goes wrong, operators point to manufacturers, manufacturers point to software developers, and regulators assume someone else has already sorted it out. Nobody is clearly in charge. And as these AI systems become more autonomous, that gap only gets wider. There is also a problem with how incidents are investigated. Most frameworks simply are not set up to examine software behaviour as a potential cause. On top of that, the rules differ enormously depending on which country you are in or which mode of transport is involved. It is, frankly, a bit of a patchwork."
+        },
+        {
+          "number": 7,
+          "script": "So here is the uncomfortable truth: the rules we have today simply were not written with AI-driven transport in mind. When something goes wrong, nobody can clearly point to one person or organisation and say, \"You are responsible.\" Our laws were designed for a world where a human was always in control, and technology has moved far faster than legislation has been able to keep up with. On top of that, many regulators honestly do not yet have the technical knowledge to oversee these systems effectively. And if you add an international dimension, say a vehicle crosses borders, suddenly you have conflicting rules from different countries creating even more confusion. For ordinary people caught up in an incident, this means navigating an incredibly complicated claims process, often with very little support. The honest summary is that right now, significant gaps exist in the framework, and it is everyday users who are most exposed to the consequences of that."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The most important thing to hold onto is this: when AI is involved in a transport decision, responsibility doesn't simply disappear. It shifts, and it spreads across multiple parties, including the operators using the technology, the companies that built it, and the regulators overseeing it. That means everyone has a role to play. On a practical level, if your organisation uses AI in any part of its transport operations, you need to be documenting decisions and making sure there are clear processes in place for reporting when something goes wrong. It's also worth knowing that the legal landscape around AI is moving quickly, so the rules today may look quite different in a year's time. My strong advice is to go back to your organisation and review your current AI policies sooner rather than later. Being prepared now will put you in a much stronger position as things continue to develop."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Transport managers, logistics coordinators, fleet operators, safety officers, compliance managers, operations managers, automotive engineers, aviation personnel, maritime operators, shipping coordinators, transport planners, regulatory affairs specialists",
+  "Team or Dept this is for": "Transportation, Operations, Safety, Compliance, Legal, Risk Management, Fleet Management, Logistics"
+}

@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI in Smart Buildings: Security Implications",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "Risks in automated building systems (HVAC, access control, etc.).",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how modern buildings operate, including general awareness of systems such as heating, ventilation, and access control, is all that is needed to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key security vulnerabilities present in AI-driven smart building systems, including HVAC controls, access management, and automated monitoring tools. You will also be able to explain how to apply practical risk mitigation strategies to protect critical building infrastructure from cyber threats and unauthorised access.",
+  "lessons": [
+    {
+      "lesson title": "AI in Smart Buildings: Security Implications",
+      "order": 1,
+      "Description": "This lesson introduces the security risks that arise when artificial intelligence is integrated into smart building systems, such as heating, ventilation, air conditioning, and access control. As buildings become increasingly automated, the potential for cyber threats, unauthorised access, and system failures grows significantly. You will explore how vulnerabilities in AI-driven building management systems can be exploited, and what the real-world consequences of such breaches might look like. The lesson is designed for beginners, so no prior technical knowledge is required, and all concepts are explained in a clear and practical way. By the end, you will have a solid foundation for understanding why securing AI systems in buildings is an essential priority for facility managers, security professionals, and building owners alike.",
+      "status": "draft",
+      "content": "Risks in automated building systems (HVAC, access control, etc.).",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "AI in Smart Buildings: Introduction",
+          "subtitle": "Where automation meets security risk",
+          "slidecontent": "• Smart buildings use AI to automate systems like heating, lighting, and door access\n• These systems are connected, often to the internet\n• Connectivity creates new security vulnerabilities\n• A single weak point can expose an entire building's infrastructure\n• Understanding these risks is the first step to managing them"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining Smart Building Systems",
+          "subtitle": "Connected systems, integrated risks, shared vulnerabilities.",
+          "slidecontent": "• Buildings run many connected systems\n• HVAC, lighting, access control\n• All systems share one network\n• One breach affects everything\n• Data flows between all systems"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Identifying Vulnerabilities in Smart Systems",
+          "subtitle": "Where Weaknesses Hide in Automated Systems",
+          "slidecontent": "• Legacy hardware in HVAC and access systems often running outdated, unpatched firmware\n• Default passwords left unchanged on networked sensors and controllers\n• Poorly segmented networks allowing one compromised device to reach critical systems\n• Vendor remote access portals as a common but overlooked entry point\n• No encryption on internal device communication\n• Insufficient logging, making it difficult to detect when something has already gone wrong"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Vulnerabilities in Access Control Systems",
+          "subtitle": "Where Automation Creates Entry Points",
+          "slidecontent": "• Weak default passwords persist\n• Remote access enables intrusion\n• Outdated firmware left unpatched\n• Shared credentials reduce accountability\n• Logs often go unmonitored"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Mitigating AI Security Risks",
+          "subtitle": "Strategies to Reduce Vulnerabilities Effectively",
+          "slidecontent": "• Patch systems regularly\n• Limit network access points\n• Use strong authentication always\n• Monitor activity continuously\n• Train staff on threats\n• Segment building system networks"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Mitigating AI Security Risks",
+          "subtitle": "Strategies to Reduce Vulnerabilities Effectively",
+          "slidecontent": "• Regular software patching and firmware updates across all connected building systems\n• Network segmentation to isolate critical systems like HVAC and access control from general traffic\n• Strong authentication\n• Continuous monitoring of AI system behaviour to detect unusual or unexpected actions early\n• Staff training on recognising social engineering and phishing attempts targeting building management platforms\n• Clear incident response plans tested regularly before a real breach occurs"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Mitigating Smart Building Risks",
+          "subtitle": "Practical Steps to Reduce Vulnerabilities",
+          "slidecontent": "• Patch systems regularly\n• Segment building networks\n• Enforce strong access controls\n• Monitor for unusual activity\n• Train staff on threats\n• Audit vendors and suppliers"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core principles for securing smart buildings",
+          "slidecontent": "• Every connected building system is a potential entry point for attackers\n• Segment your networks so HVAC, access control, and IT systems cannot freely communicate with each other\n• Default credentials must always be changed\n• Regular patching of firmware and software closes known vulnerabilities before they can be exploited\n• Assume breaches will happen and have an incident response plan ready in advance\n• As a next step, audit one building system this week and identify where its network connections could be better restricted"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this course on AI in Smart Buildings and the security implications that come with it. Modern buildings are becoming increasingly intelligent. Systems like heating, lighting, access control, and even lifts are now managed automatically using AI. That sounds impressive, and in many ways it is. But here is the thing: all of these systems are connected, and quite often that connection extends out to the internet. And whenever you have connectivity, you open the door to potential security risks. What makes this particularly important to understand is that these systems do not operate in isolation. They talk to each other, they share data, and that means a weakness in one area can quickly become a problem across the entire building. Think of it like a chain: it only takes one weak link. So throughout this course, we are going to explore exactly what those risks look like, why they matter, and what can be done to address them. Let us get started."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by getting a clear picture of what we actually mean when we talk about a smart building. Modern buildings are packed with connected systems, things like heating, ventilation, and air conditioning, the lighting throughout the building, and the access control systems that manage who can get in and out. Now, here's the important bit: all of these systems typically share the same underlying network. They're not isolated from one another; they're talking to each other constantly, passing data back and forth. That level of integration is genuinely useful, it makes buildings more efficient and easier to manage, but it also introduces a significant risk. Because everything is connected, a security breach in one system doesn't stay contained to that system. It can spread, giving an attacker a potential pathway into areas you'd really rather they didn't reach. So as we move through this course, keep that interconnected nature in mind, because it shapes everything we're going to discuss about security."
+        },
+        {
+          "number": 3,
+          "script": "So where exactly do the weaknesses sit in these smart building systems? Quite often, it comes down to the basics being overlooked. A lot of buildings are still running older hardware, things like heating controls and door access systems, on firmware that hasn't been updated in years. On top of that, many networked devices are installed and simply left with their default passwords in place. That's an open invitation. Then there's the issue of how these networks are structured. If everything is connected without proper separation, one compromised sensor could potentially give an attacker a route into far more critical systems. Vendors often need remote access to maintain their equipment, and those portals are frequently left unsecured. Internal communications between devices are sometimes sent without any encryption at all. And perhaps most concerning, many systems don't keep adequate logs, so when something does go wrong, there's very little trail to follow. These aren't exotic problems. They're surprisingly common."
+        },
+        {
+          "number": 4,
+          "script": "So let's talk about where things can go wrong with access control systems in smart buildings. One of the most common issues is that devices often ship with default passwords, and those passwords simply never get changed. That's an open invitation. On top of that, many of these systems can be accessed remotely, which is convenient, but it also means an attacker doesn't need to be anywhere near the building to cause serious harm. Then there's the problem of firmware, the software running on these devices, which often doesn't get updated, leaving known security gaps wide open. Another issue is shared credentials, where multiple people use the same login, so if something goes wrong, you have no way of knowing who did what. And finally, even when these systems do record activity logs, nobody is actually watching them. So the threats can go unnoticed for a very long time. These aren't exotic problems. They're everyday oversights that create real risk."
+        },
+        {
+          "number": 5,
+          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is that there are some straightforward steps that make a real difference. First, keep your systems updated. Outdated software is one of the easiest ways for attackers to get in, so patching regularly closes those gaps. Next, think carefully about who and what can connect to your network. The fewer entry points you have, the smaller your attack surface. Always use strong authentication, so that only authorised people can access critical systems. It is also really important to monitor what is happening on your network continuously, because catching unusual activity early can prevent a small issue from becoming a serious incident. Your staff are a crucial line of defence too, so make sure they know how to recognise threats like phishing. And finally, keep your building systems on separate network segments, so that if one area is compromised, it does not bring everything else down with it."
+        },
+        {
+          "number": 6,
+          "script": "So now that we understand the risks, let's talk about what we can actually do about them. The good news is that there are some very practical steps organisations can take. First, keeping all your software and firmware up to date is essential, because outdated systems are one of the easiest ways attackers get in. It's also wise to separate your critical systems, things like heating, ventilation, and access control, from your general network traffic, so that if one area is compromised, it doesn't bring everything down. Strong authentication, meaning proper passwords and multi-factor verification, adds another layer of protection. You also want continuous monitoring in place so that any unusual behaviour from your AI systems gets flagged quickly. Don't overlook your people either. Staff need regular training to spot phishing and social engineering attempts. And finally, make sure you have a clear incident response plan ready and tested well before anything goes wrong."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do about them. The good news is that most of these steps are straightforward. First, keep your systems updated. Attackers love outdated software, so regular patching closes those doors quickly. Next, think about how your network is structured. Separating your building systems from your main IT network means that if one area is compromised, it doesn't bring everything else down with it. You'll also want to make sure that only the right people have access to the right systems, and that those access credentials are properly managed. Beyond that, having some form of continuous monitoring in place helps you spot anything unusual before it becomes a serious problem. Don't forget your people either. Staff who understand the threats are far less likely to fall for phishing or social engineering attacks. And finally, make sure you're regularly reviewing the security practices of your vendors and suppliers, because their weaknesses can easily become yours."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. The single most important thing to understand is that in a smart building, every connected system is a door that an attacker could potentially walk through. That's why network segmentation matters so much. Your HVAC, your access control, and your IT systems should all be kept separate, so that if one is compromised, the others aren't immediately at risk. Always change default credentials on every device, no exceptions. And make sure you're patching firmware and software regularly, because most attacks exploit vulnerabilities that already have fixes available. Finally, don't just hope a breach never happens. Plan for it. Have an incident response process ready before you need it. Now, here's something practical you can do straight away. Pick just one building system this week and have a look at its network connections. Ask yourself whether those connections are as restricted as they should be. Small steps like that make a real difference."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Facility managers, building managers, property managers, security officers, maintenance supervisors, real estate developers, construction project managers, building engineers, operations managers",
+  "Team or Dept this is for": "Facilities Management, Operations, Security, Property Management, Real Estate Development, Construction, Building Engineering"
+}

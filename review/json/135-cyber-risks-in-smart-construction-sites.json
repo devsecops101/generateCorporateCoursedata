@@ -20,84 +20,84 @@
         {
           "number": 1,
           "slidetitle": "Connected Sites, Growing Cyber Risks",
-          "subtitle": "More connections mean more vulnerabilities.",
-          "slidecontent": "• Modern construction sites rely on dozens of connected devices, sensors, and systems working together\n• More connections mean more entry points for attackers\n• Smart sites are now targets\n• Building management systems, drones, and wearables all carry cyber risk\n• A single vulnerable device can compromise an entire site network\n• Most construction teams have little or no cyber security training in place"
+          "subtitle": "Why smart construction sites attract cyber attackers",
+          "slidecontent": "• Modern construction sites rely on interconnected devices, sensors, and systems\n• Each connected device creates a potential entry point for attackers\n• Smart sites have become attractive targets for cybercriminals\n• Most construction teams lack adequate cybersecurity training\n• A single compromised device can expose the entire site network"
         },
         {
           "number": 2,
-          "slidetitle": "Mapping the Attack Surface",
-          "subtitle": "Where vulnerabilities hide on site.",
-          "slidecontent": "• Drones, sensors, Wi-Fi networks\n• Site cameras and access controls\n• Connected plant and machinery\n• Contractor devices on site\n• Cloud-based project software"
+          "slidetitle": "Understanding Attack Surfaces",
+          "subtitle": "Mapping all the ways attackers can get in",
+          "slidecontent": "• Attack surface = all potential entry points on your site\n• Includes obvious targets: cameras, access controls, machinery\n• Extends to contractor devices and cloud-based software\n• Wi-Fi networks and communication systems add complexity\n• Even temporary connections expand vulnerability"
         },
         {
           "number": 3,
-          "slidetitle": "Connected Devices, Expanded Attack Surfaces",
-          "subtitle": "More devices mean more vulnerabilities.",
-          "slidecontent": "• Every smart device added to a site creates a new potential entry point for attackers\n• Sensors, drones, and connected machinery all count\n• More connections mean a larger attack surface\n• Poorly secured devices can be exploited to access wider site networks\n• Even low-value devices like smart lighting can serve as a gateway"
+          "slidetitle": "IoT Devices: Small Size, Big Risk",
+          "subtitle": "How seemingly minor devices create major vulnerabilities",
+          "slidecontent": "• Every IoT device represents a new potential entry point\n• Sensors, drones, and smart tools all count as risk factors\n• Low-priority devices like smart lighting can serve as gateways\n• Attackers often target less-secured devices to access broader networks\n• Device quantity directly correlates with attack surface size"
         },
         {
           "number": 4,
           "slidetitle": "Real-World Attack Scenarios",
-          "subtitle": "When Attacks Hit the Building Site",
-          "slidecontent": "• Crane controls hacked remotely\n• Stolen site access credentials\n• Ransomware locks project files\n• Sensors sending false readings\n• GPS equipment spoofed"
+          "subtitle": "How cyber threats manifest on construction sites",
+          "slidecontent": "• Remote hijacking of crane controls and heavy machinery\n• Stolen access credentials compromising site security\n• Ransomware attacks locking critical project files\n• Manipulated sensors providing false safety readings\n• GPS spoofing causing equipment positioning errors"
         },
         {
           "number": 5,
-          "slidetitle": "Securing Your Connected Site",
-          "subtitle": "Practical steps to reduce cyber exposure.",
-          "slidecontent": "• Change all default passwords\n• Update firmware regularly\n• Segment your site network\n• Limit device access strictly\n• Monitor traffic for anomalies"
+          "slidetitle": "Immediate Security Actions",
+          "subtitle": "Quick wins to improve site cybersecurity",
+          "slidecontent": "• Change all default passwords on new devices immediately\n• Keep device firmware updated with latest patches\n• Create network segments to contain potential breaches\n• Restrict device access based on legitimate need\n• Monitor network traffic for unusual patterns"
         },
         {
           "number": 6,
-          "slidetitle": "Securing Your Connected Site",
-          "subtitle": "Practical steps to reduce cyber exposure.",
-          "slidecontent": "• Segment your site network so that IoT devices sit separately from core business systems\n• Change default passwords immediately on every connected device\n• Keep firmware updated\n• Limit remote access to authorised personnel only, using multi-factor authentication\n• Audit connected devices regularly to spot anything unfamiliar or unauthorised\n• Train site staff to recognise suspicious activity, not just IT teams"
+          "slidetitle": "Building a Security Framework",
+          "subtitle": "Systematic approach to site protection",
+          "slidecontent": "• Separate IoT devices from core business systems\n• Implement multi-factor authentication for remote access\n• Conduct regular device audits to identify unauthorized connections\n• Train all site personnel to recognize and report threats\n• Establish clear protocols for incident response"
         },
         {
           "number": 7,
-          "slidetitle": "Reducing Your Cyber Attack Surface",
-          "subtitle": "Limit Access, Patch Systems Regularly",
-          "slidecontent": "• Every connected device on site is a potential entry point for attackers\n• Fewer open access points means less risk\n• Remove or disable any devices, accounts, or software no longer in active use\n• Apply security patches and firmware updates to all smart tools and systems as soon as they are released\n• Restrict who can log in to site networks, using strong passwords and multi-factor authentication\n• Regularly audit which devices are connected and revoke access that is no longer needed"
+          "slidetitle": "Minimizing Attack Exposure",
+          "subtitle": "Reducing the number of ways attackers can get in",
+          "slidecontent": "• Remove or disable unused devices, accounts, and software\n• Apply security updates immediately when available\n• Limit network access to essential personnel only\n• Use strong authentication methods consistently\n• Regularly review and revoke unnecessary access permissions"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Essential reminders for staying cyber secure.",
-          "slidecontent": "• Every device is a risk\n• Patch systems regularly\n• Limit access strictly\n• Report suspicious activity fast\n• Connected means exposed\n• Stay alert, stay secure"
+          "slidetitle": "Your Security Checklist",
+          "subtitle": "Daily practices for cyber-resilient construction sites",
+          "slidecontent": "• Treat every connected device as a potential risk\n• Maintain current patches and updates across all systems\n• Enforce strict access controls and authentication\n• Report suspicious activity immediately\n• Remember: connectivity equals exposure\n• Stay vigilant and follow established security processes"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Welcome to the course. Let's start by looking at why smart construction sites have become such an attractive target for cyber attackers. Modern sites are packed with connected technology: sensors monitoring equipment, drones surveying land, wearables tracking workers, and building management systems controlling everything from access to energy use. All of that connectivity is genuinely useful, but it comes with a serious downside. Every device you add to a network is another potential entry point for someone with bad intentions. And here is the part that often surprises people: it only takes one vulnerable device to put the entire site network at risk. A poorly secured sensor or an unpatched system can open the door to something much bigger. What makes this even more concerning is that most construction teams have had very little, if any, cyber security training. So throughout this course, we are going to change that and give you the knowledge you need to protect your site."
+          "script": "Welcome to this course on cyber risks in smart construction sites. Modern construction sites are packed with connected technology: sensors monitoring equipment, drones surveying land, wearables tracking workers, and building management systems controlling site operations. While this connectivity brings genuine benefits, it also creates serious security challenges. Every device you connect to your network becomes another potential entry point for cybercriminals. What makes this particularly concerning is that most construction teams have received little to no cybersecurity training. Throughout this course, we'll change that by giving you the knowledge and practical tools you need to protect your site from cyber threats."
         },
         {
           "number": 2,
-          "script": "Before we can protect a smart construction site, we need to understand just how many ways an attacker could get in. This is what we call the attack surface, and on a modern site, it is surprisingly large. Think about everything that is connected. You have got drones carrying out surveys, sensors monitoring conditions, and Wi-Fi networks keeping it all talking. Then there are the cameras watching the perimeter and the electronic systems controlling who can access the site. The plant and machinery itself is increasingly connected, often sending data back to manufacturers or management platforms. On top of that, every contractor who walks onto your site brings their own devices, laptops, phones, tablets, and each one is a potential weak point. And then there is the cloud software your teams use to manage drawings, schedules, and communications. All of these things together make up your attack surface, and in this lesson we are going to explore why each one matters."
+          "script": "Before we can protect a smart construction site, we need to understand what cybersecurity professionals call the 'attack surface' - essentially all the ways an attacker could potentially get into your systems. On a modern construction site, this surface is surprisingly large. It includes the obvious connected systems like site cameras and access controls, but extends far beyond that. Every contractor who walks onto your site brings their own devices. Your teams use cloud-based software for drawings, schedules, and communications. Wi-Fi networks keep everything connected. Even temporary connections for equipment updates or maintenance expand your vulnerability. Understanding this complete picture is the first step in effective protection."
         },
         {
           "number": 3,
-          "script": "So as we bring more and more connected devices onto a construction site, something important happens: the number of potential weak points grows with them. Every single device, whether that's a sensor monitoring structural conditions, a drone surveying the site, or a piece of connected machinery, represents a possible entry point for an attacker. This is what we mean by an \"attack surface,\" and the more devices you add, the larger that surface becomes. Now, you might think the risk only comes from critical systems, but that's not quite right. Even something as seemingly harmless as smart lighting can be exploited if it's poorly secured. An attacker doesn't necessarily need to target your most valuable system directly. They can find a way in through a low-priority device and then move across the network from there. So the key thing to understand here is that no connected device is too small or too insignificant to consider when thinking about security."
+          "script": "Let's focus specifically on IoT devices - the Internet of Things sensors, monitors, and smart tools that are becoming standard on construction sites. Here's what many people don't realize: an attacker doesn't need to target your most critical systems directly. They can find their way in through seemingly harmless devices like smart lighting or basic environmental sensors. Once inside your network through any connected device, skilled attackers can move laterally to access more valuable systems. This means that even low-priority IoT devices require security attention. The key principle to remember is that your attack surface grows with every device you add to the network."
         },
         {
           "number": 4,
-          "script": "Now let's look at some real examples of how these attacks can play out on an actual building site, because this is where it starts to feel very real. Imagine a crane being controlled remotely by someone who has no business being anywhere near your site. That is not science fiction, it is a genuine risk with connected machinery. Then there are stolen login credentials, where someone gains access to your site systems simply by using a worker's username and password. Ransomware is another big one, where criminals lock all your project files and demand payment to release them, potentially halting work for days or even weeks. On top of that, sensors can be manipulated to send false readings, which could lead to serious safety decisions being made on completely wrong data. And GPS equipment can be spoofed, meaning your machinery thinks it is somewhere it is not. Each of these scenarios has happened in the real world, and they are all worth taking seriously."
+          "script": "To make these risks feel more concrete, let's look at actual attack scenarios that have occurred on construction sites. Imagine your crane being controlled remotely by someone with malicious intent - this isn't science fiction, it's a documented risk with connected heavy machinery. Criminals have stolen login credentials to gain access to site systems, sometimes through simple phishing emails. Ransomware attacks have locked entire project file systems, halting work for days or weeks. Sensors have been manipulated to provide false readings, potentially compromising safety decisions. GPS equipment has been spoofed, causing machinery to operate in the wrong locations. Each of these scenarios represents a real threat that construction teams need to prepare for."
         },
         {
           "number": 5,
-          "script": "So let's talk about what you can actually do right now to make your connected site more secure. First, the moment any new device arrives on site, change its default password. Manufacturers ship equipment with the same credentials for thousands of units, so leaving those in place is like handing out copies of your front door key. Next, keep your device firmware up to date, because those updates often patch serious security vulnerabilities. It is also worth separating your site network into distinct zones, so that if one device is compromised, the problem cannot spread freely across everything else. Beyond that, be strict about who and what can connect to your network in the first place. Not every device or person needs full access. And finally, keep an eye on your network traffic. If something unusual starts happening, unusual patterns of data moving around, you want to catch that early. None of these steps require specialist knowledge, and together they make a real difference."
+          "script": "Now let's talk about immediate actions you can take today to improve your site's cybersecurity posture. The moment any new device arrives on site, change its default password. Manufacturers ship thousands of units with identical credentials, making them easy targets. Keep device firmware updated, as these updates often patch critical security vulnerabilities. Create network segments so that if one device is compromised, the problem can't spread freely across your entire system. Be strict about which devices and personnel can connect to your network. Finally, monitor your network traffic patterns - unusual data movement often signals a problem. These steps don't require deep technical expertise, but they make a significant difference in your security posture."
         },
         {
           "number": 6,
-          "script": "So, what can you actually do to protect a smart construction site? The good news is that the basics go a long way. Start by keeping your IoT devices, things like sensors and cameras, on a separate network from your core business systems. That way, if something is compromised, the damage is contained. Change the default passwords on every connected device straight away, because attackers know those factory settings just as well as you do. Make sure firmware is kept up to date, as updates often patch known security weaknesses. Restrict remote access so that only authorised people can connect, and require multi-factor authentication when they do. It is also worth doing regular audits of every device on your network, so you can spot anything that should not be there. And finally, do not leave this purely to your IT team. Everyone on site should know what suspicious activity looks like and feel confident reporting it."
+          "script": "Moving beyond quick fixes, let's discuss building a comprehensive security framework for your site. Start by architecting your network properly - keep IoT devices like sensors and cameras on separate network segments from your core business systems. This containment strategy limits damage if something is compromised. Implement multi-factor authentication for anyone accessing systems remotely. Conduct regular audits to identify any unauthorized devices that might have connected to your network. Crucially, don't limit security awareness to just your IT team. Train all site personnel to recognize suspicious activity and establish clear reporting procedures. A systematic approach to security creates layers of protection that work together."
         },
         {
           "number": 7,
-          "script": "So, let's talk about reducing your attack surface, which is essentially the number of ways an attacker could potentially get into your systems. Think of it like doors and windows on a building. The more you have unlocked, the easier it is for someone to break in. On a smart construction site, every connected device is another potential entry point, so the goal is to keep that number as low as possible. Start by removing or disabling anything that is no longer being actively used, whether that is old accounts, unused software, or devices that have been sitting idle. Make sure everything that is in use is kept up to date with the latest security patches and firmware updates, because outdated systems are a common target. Limit who can actually log in to your networks, use strong passwords, and enable multi-factor authentication wherever you can. And regularly check what is connected, revoking access the moment it is no longer needed."
+          "script": "One of the most effective security strategies is systematically reducing your attack surface - limiting the number of ways attackers can get into your systems. Think of it like securing a building: the fewer unlocked doors and windows, the harder it is to break in. Start by removing or disabling anything no longer in active use - old user accounts, unused software, idle devices. Keep everything that remains in use updated with the latest security patches. Restrict network access to only those who genuinely need it, using strong authentication methods. Regularly audit your connected devices and revoke access the moment it's no longer needed. This disciplined approach to access management significantly reduces your vulnerability."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together with a few essential reminders. Every single device on your site, whether it's a sensor, a tablet, or a piece of machinery, represents a potential entry point for attackers, so treat them all with caution. Keep your systems and software updated regularly, because those patches exist for a reason. Be strict about who has access to what, and make sure people can only get into the systems they genuinely need. If something looks wrong or feels out of place, report it straight away, because speed really does matter when it comes to cyber incidents. And perhaps the most important mindset shift of all: if something is connected to a network, it is exposed. That is simply the reality of working in a smart construction environment. The good news is that staying secure does not require you to be a technical expert. It just requires you to stay alert, follow the right processes, and take these risks seriously every single day."
+          "script": "Let's conclude with your practical cybersecurity checklist for daily operations. Remember that every connected device on your site, regardless of size or apparent importance, represents a potential entry point for attackers. Maintain current patches and updates across all systems as a standard practice. Enforce strict access controls and strong authentication consistently. If something looks suspicious or feels out of place, report it immediately - speed matters in cybersecurity incidents. Most importantly, internalize this mindset: if something is connected to a network, it's exposed to potential threats. Staying secure doesn't require you to become a technical expert, but it does require vigilance, following proper processes, and taking these risks seriously every day."
         }
       ]
     }

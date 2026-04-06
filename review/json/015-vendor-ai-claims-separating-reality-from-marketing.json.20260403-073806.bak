@@ -1,0 +1,107 @@
+{
+  "Course Title": "Vendor AI Claims: Separating Reality from Marketing",
+  "Category": "Corporate",
+  "Description": "How to evaluate “AI-powered” claims critically.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with everyday business software and a general awareness of how AI tools are being discussed in the workplace is all you need to get started with this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify common AI marketing claims and explain the key questions to ask when evaluating whether a vendor's technology delivers genuine value. You will also apply a practical framework to assess \"AI-powered\" products critically, helping you make more informed purchasing and procurement decisions for your organisation.",
+  "lessons": [
+    {
+      "lesson title": "Vendor AI Claims: Separating Reality from Marketing",
+      "order": 1,
+      "Description": "In today's marketplace, the term \"AI-powered\" appears on almost every new product and service, making it increasingly difficult to know what vendors actually mean when they use it. This lesson will help you cut through the noise by introducing practical frameworks for evaluating AI claims with confidence, even if you have no technical background. You will learn to ask the right questions, spot common marketing tactics, and identify the warning signs that suggest a claim may be exaggerated or misleading. By the end of the lesson, you will feel better equipped to assess whether a vendor's AI offering genuinely meets your needs or simply sounds impressive on paper.",
+      "status": "draft",
+      "content": "How to evaluate “AI-powered” claims critically.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome: AI Claims Unpacked",
+          "subtitle": "Cutting through the AI marketing noise",
+          "slidecontent": "• AI is everywhere in vendor marketing right now\n• Bold claims often outpace what the technology actually delivers\n• Knowing what questions to ask protects your budget and your team\n• Not all \"AI-powered\" labels mean the same thing\n• This course gives you practical tools to evaluate what vendors are really offering"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Vendors Actually Mean",
+          "subtitle": "Behind the buzzwords and bold claims",
+          "slidecontent": "• \"AI-powered\" often means a single automated rule or basic keyword matching\n• Vendors rarely explain which type of AI they actually use\n• Phrases like \"intelligent\" and \"smart\" are marketing language, not technical descriptions\n• No standard definition exists for what counts as AI in a product\n• The boldest claims tend to appear where the evidence is thinnest"
+        },
+        {
+          "number": 3,
+          "slidetitle": "How AI Claims Are Made",
+          "subtitle": "The language behind the labels",
+          "slidecontent": "• \"AI-powered\" means almost anything\n• Labels lack standard definitions\n• Marketing drives the wording\n• Buzzwords replace technical detail\n• Vague claims invite assumption"
+        },
+        {
+          "number": 4,
+          "slidetitle": "How AI Claims Are Tested",
+          "subtitle": "Benchmarks, audits, and independent reviews",
+          "slidecontent": "• Run standardised benchmark tests\n• Check independent audit results\n• Compare vendor claims to evidence\n• Look for third-party reviews\n• Verify reproducible performance data"
+        },
+        {
+          "number": 5,
+          "slidetitle": "What to Ask Vendors",
+          "subtitle": "Cut through the noise with confidence.",
+          "slidecontent": "• Ask vendors to show you a live demo, not just a polished video\n• Request specific accuracy figures with context about how they were measured\n• Find out whether the AI was trained on data relevant to your industry\n• Ask who is responsible when the system gets something wrong\n• Probe whether human review is still required at any stage"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Red Flags to Watch For",
+          "subtitle": "Warning signs that demand closer scrutiny",
+          "slidecontent": "• \"100% accurate\" claims\n• No error rate disclosed\n• Vague phrases like \"intelligent\"\n• Zero real-world examples\n• No independent testing cited\n• Guaranteed results promised"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Spotting Red Flags in Claims",
+          "subtitle": "Warning signs worth watching for",
+          "slidecontent": "• Vague phrases like \"AI-powered\" or \"intelligent automation\" with no explanation of what the AI actually does\n\n• No mention of training data, accuracy rates, or known limitations\n\n• Promises of \"100% accuracy\" or \"fully autonomous\" decision-making\n\n• Case studies that show only cherry-picked results\n\n• Pressure to decide quickly, before you can ask deeper questions\n\n• No clear answer when you ask \"what happens when it gets it wrong\""
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Keep these principles close at hand.",
+          "slidecontent": "• Ask for real evidence always\n• Test before you trust\n• Vague claims mean red flags\n• Demand specific, measurable results\n• Stay curious, stay sceptical"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thanks for joining this course. If you've spent any time looking at software or technology solutions recently, you'll have noticed that \"AI\" seems to appear in just about every vendor's marketing materials. It's on the brochures, the websites, the sales decks. But here's the thing: bold claims and actual capability are not always the same thing, and that gap can be costly if you don't know what to look for. Not every product labelled \"AI-powered\" is doing something genuinely intelligent, and some are doing far less than the marketing suggests. This course is designed to help you cut through that noise. We'll give you practical, straightforward tools to ask the right questions, spot the red flags, and make more confident decisions when vendors come to you with their latest pitch. Whether you're evaluating a new platform or reviewing an existing contract, understanding what's really on offer protects both your budget and your team."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by pulling back the curtain on some of the language you'll encounter constantly when vendors talk about AI. When a product is described as \"AI-powered,\" that phrase can mean almost anything. In many cases, it simply refers to a basic automated rule or a bit of keyword matching, nothing remotely sophisticated. And here's the thing: vendors rarely tell you which type of AI they're actually using, because the terminology is vague enough that they don't have to. Words like \"intelligent\" and \"smart\" are marketing choices, not technical ones. There's no agreed industry standard that defines what qualifies as AI in a product, so anyone can use the label freely. What you'll often find is that the loudest, boldest claims appear precisely where the actual evidence is weakest. So as we go through this lesson, I want to help you develop a habit of asking better questions whenever you see that kind of language."
+        },
+        {
+          "number": 3,
+          "script": "So let's look at how these AI claims actually get made, because this is where things start to get a little murky. When a vendor puts \"AI-powered\" on their product, that phrase has no agreed definition. There is no industry standard that says what it means or what it requires. What that means in practice is that the wording is driven almost entirely by marketing teams rather than technical ones. The goal is to sound impressive and modern, not to be precise. So instead of explaining what the technology actually does, vendors reach for buzzwords like \"intelligent,\" \"smart,\" or \"next-generation,\" and those words end up doing a lot of heavy lifting. And here is the real problem with vague language: it leaves a gap, and we naturally fill that gap with our own assumptions. We hear \"AI-powered\" and we imagine something far more sophisticated than what might actually be under the bonnet. That is exactly what we need to guard against."
+        },
+        {
+          "number": 4,
+          "script": "So how do we actually put vendor claims to the test? The most reliable starting point is standardised benchmarks. These are structured tests that measure AI performance in a consistent, repeatable way, so you can compare one system against another on a level playing field. But benchmarks alone are not enough. You also want to look for independent audits, which are assessments carried out by organisations that have no financial interest in making a product look good. From there, it is worth comparing what the vendor says against what the evidence actually shows. Do the numbers stack up? Are there credible third-party reviews from researchers or industry analysts who have examined the system independently? And importantly, can the performance results be reproduced? If a vendor's impressive figures only appear in their own marketing materials and nobody else can replicate them, that is a significant warning sign. These are the practical tools that help you cut through the noise and make genuinely informed decisions."
+        },
+        {
+          "number": 5,
+          "script": "So when you're sitting across the table from a vendor, or on a call with their sales team, here are some practical ways to cut through the polished pitch. First, ask for a live demonstration using real data, not a pre-recorded video where everything goes perfectly. Then push them on accuracy. Numbers like \"95% accurate\" mean very little without knowing how that figure was measured and in what conditions. You also want to know whether the AI was actually trained on data from your industry, because a system built for retail may behave very differently in healthcare or finance. And here is a question that often catches vendors off guard: who is accountable when the system makes a mistake? Finally, ask honestly whether a human still needs to review the output at any point. If the answer is yes, that is worth knowing upfront. These questions will tell you far more than any brochure ever will."
+        },
+        {
+          "number": 6,
+          "script": "So how do you spot a vendor who might be overselling their AI? There are a few warning signs worth keeping in mind. First, be sceptical of any claim that a system is \"100% accurate\" because no AI system is, full stop. If they cannot tell you the error rate, that is a problem in itself. Watch out for vague language too, words like \"intelligent\" or \"smart\" that sound impressive but actually tell you nothing about how the system works. If a vendor cannot point you to real-world examples of their product in action, that should give you pause. Similarly, if there is no mention of independent testing or third-party evaluation, you are essentially just taking their word for it. And finally, be very cautious about guaranteed results. AI systems operate in complex, unpredictable environments, and no responsible vendor should be making that kind of promise. These are the signals that tell you to slow down and ask harder questions."
+        },
+        {
+          "number": 7,
+          "script": "So how do you spot when a vendor's AI claims might not hold up to scrutiny? There are a few warning signs worth keeping in mind. First, watch out for vague language like \"AI-powered\" or \"intelligent automation\" with no real explanation of what the technology actually does. If they can't describe it clearly, that's a concern. Similarly, if there's no mention of training data, accuracy rates, or limitations, treat that as a gap worth probing. Be especially cautious of anyone promising perfect accuracy or fully autonomous decision-making, because those claims simply aren't realistic with current AI. Also pay attention to case studies that only show the best possible outcomes, and to any pressure to make a quick decision before you've had a chance to ask proper questions. And perhaps the most telling sign of all: if you ask what happens when the system gets it wrong and nobody can give you a straight answer, that tells you quite a lot."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with a few principles worth keeping in mind as you move forward. Whenever a vendor makes a bold claim about their AI, your first instinct should be to ask for real evidence. Not a brochure, not a case study written by their own marketing team, but genuine proof. And before you commit to anything, test it yourself in your own environment, because what works brilliantly for one organisation may not work for yours. If a vendor is being vague, that vagueness is a signal. It usually means there is nothing concrete behind the claim. Push for specific, measurable results. Numbers, benchmarks, real-world outcomes. And finally, hold onto your curiosity and your scepticism in equal measure. Being sceptical does not mean being negative. It means being smart. These principles will serve you well every time you sit across the table from someone promising that their AI will change everything."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Procurement managers, purchasing officers, business analysts, project managers, department heads, IT managers, operations managers, finance managers, executives making technology decisions",
+  "Team or Dept this is for": "Procurement, IT, Operations, Finance, Legal, Executive Leadership"
+}

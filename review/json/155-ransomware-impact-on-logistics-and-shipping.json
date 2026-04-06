@@ -25,15 +25,15 @@
         },
         {
           "number": 2,
-          "slidetitle": "Ransomware's Reach Into Logistics",
-          "subtitle": "Why logistics is a prime target",
-          "slidecontent": "• Logistics networks move goods 24/7, making any downtime immediately costly\n• Tight delivery windows leave little room to absorb disruption\n• Highly connected\n• AI-driven route planning and warehouse systems create single points of failure\n• Attackers know operators will pay quickly to restore critical shipments\n• Global supply chains mean one breach can ripple across multiple countries at once"
+          "slidetitle": "Why Logistics is a Prime Target",
+          "subtitle": "Industry characteristics that attract attackers",
+          "slidecontent": "• 24/7 operations make any downtime immediately costly\n• Tight delivery windows leave no buffer for disruption\n• Highly interconnected systems create widespread vulnerability\n• Operators will pay quickly to restore critical shipments\n• Global reach means one breach affects multiple countries"
         },
         {
           "number": 3,
           "slidetitle": "Mapping the Attack Surface",
           "subtitle": "Where vulnerabilities hide in plain sight",
-          "slidecontent": "• Ports, warehouses, and freight networks rely on dozens of interconnected digital systems\n• Each connection point is a potential entry for attackers\n• Legacy software common in logistics often lacks modern security patches\n• AI-driven route planning and inventory tools expand the attack surface further\n• Supplier portals and third-party integrations frequently go unmonitored\n• Even a single compromised login can cascade across an entire supply chain"
+          "slidecontent": "• Ports, warehouses, and freight networks rely on dozens of interconnected systems\n• Each connection point is a potential entry for attackers\n• Legacy software often lacks modern security patches\n• Supplier portals and third-party integrations go unmonitored\n• A single compromised login can cascade across entire operations"
         },
         {
           "number": 4,
@@ -43,27 +43,27 @@
         },
         {
           "number": 5,
-          "slidetitle": "Disruption Cascades Through AI Systems",
-          "subtitle": "Failures Ripple Across Interconnected Networks",
-          "slidecontent": "• One failure spreads quickly\n• AI systems share live data\n• Ports, trucks, warehouses connect\n• Disruption multiplies across networks\n• Recovery slows everything down"
+          "slidetitle": "How AI Amplifies the Damage",
+          "subtitle": "Connected intelligence becomes connected vulnerability",
+          "slidecontent": "• AI route-planning tools rely on live data feeds that ransomware cuts off\n• Automated warehouse systems halt when central software loses connectivity\n• One infected node corrupts decisions across dozens of dependent processes\n• Predictive systems fail silently, leaving problems undetected for days\n• Recovery requires retraining AI systems before normal operations resume"
         },
         {
           "number": 6,
-          "slidetitle": "Disruption Cascades Through AI Systems",
-          "subtitle": "Failures Ripple Across Interconnected Networks",
-          "slidecontent": "• AI route-planning tools rely on live data feeds that ransomware can instantly cut off\n• Automated warehouse systems halt when their central software loses connectivity\n• Ripple effects spread fast\n• A single infected node can corrupt decisions made by dozens of dependent AI processes\n• Predictive stock management fails silently, leaving shortages undetected for hours or days\n• Recovery is slow because AI systems must be retrained or recalibrated before resuming normal operations"
+          "slidetitle": "Real-World Attack Examples",
+          "subtitle": "When major logistics companies went dark",
+          "slidecontent": "• Maersk shipping giant lost 4,000 servers in 2017 NotPetya attack\n• Colonial Pipeline shutdown affected fuel supplies across US East Coast\n• JBS meatpacking plants worldwide halted for days\n• Attacks cost hundreds of millions in lost revenue and recovery\n• Each incident took weeks to fully restore operations"
         },
         {
           "number": 7,
           "slidetitle": "Rebuilding After a Ransomware Attack",
-          "subtitle": "Steps to Restore Operations and Trust",
+          "subtitle": "Steps to restore operations and trust",
           "slidecontent": "• Isolate affected systems immediately\n• Restore from clean backups\n• Notify partners and customers\n• Patch vulnerabilities before reconnecting\n• Rebuild supplier trust gradually"
         },
         {
           "number": 8,
           "slidetitle": "Key Points to Remember",
           "subtitle": "Core lessons for lasting cyber resilience",
-          "slidecontent": "• Ransomware can halt entire logistics networks within minutes, not just individual machines\n\n• AI-dependent systems multiply the damage\n\n• A single compromised entry point (such as a supplier portal) can cascade across your whole operation\n\n• Offline backups and tested recovery plans are non-negotiable\n\n• Staff awareness is your first line of defence against phishing and social engineering attacks\n\n• Start small: review your incident response plan this week and identify one gap to address"
+          "slidecontent": "• Ransomware can halt entire logistics networks within minutes\n• AI-dependent systems multiply the damage\n• Single entry points cascade across whole operations\n• Offline backups and tested recovery plans are essential\n• Staff awareness is your first line of defence\n• Start small: review your incident response plan this week"
         }
       ],
       "scripts": [
@@ -73,27 +73,27 @@
         },
         {
           "number": 2,
-          "script": "So why does ransomware hit logistics so hard? Well, think about what this industry actually does. Goods are moving around the clock, every single day, and the moment systems go down, the financial damage starts immediately. There is no quiet period to recover quietly in the background. On top of that, modern logistics relies heavily on interconnected technology, things like AI-driven route planning and automated warehouse systems. That level of connectivity is brilliant for efficiency, but it also means a single point of failure can bring a huge operation to its knees very quickly. Attackers understand this perfectly. They know that a shipping company facing missed deliveries and angry customers is far more likely to pay a ransom fast, rather than wait days for a fix. And because supply chains stretch across multiple countries, one successful attack does not just hurt one business. It can send disruption rippling across borders almost instantly."
+          "script": "So why does ransomware hit logistics so hard? Well, think about what this industry actually does. Goods are moving around the clock, every single day, and the moment systems go down, the financial damage starts immediately. There is no quiet period to recover quietly in the background. Modern logistics also operates on incredibly tight delivery windows, leaving little room to absorb any kind of disruption. On top of that, the industry relies heavily on interconnected technology throughout its operations. That level of connectivity is brilliant for efficiency, but it also creates widespread vulnerability. Attackers understand this perfectly. They know that a shipping company facing missed deliveries and angry customers is far more likely to pay a ransom fast, rather than wait days for a fix. And because supply chains stretch across multiple countries, one successful attack can send disruption rippling across borders almost instantly."
         },
         {
           "number": 3,
-          "script": "So let's think about where ransomware actually gets in. Logistics operations are built on dozens of digital systems all talking to each other, and every single connection point is essentially a door that an attacker could try to open. What makes this particularly challenging is that a lot of the software used in ports, warehouses, and freight networks is quite old, and old software often hasn't received the security updates it needs. On top of that, newer technologies like AI-powered route planning and inventory management are being added into the mix, which actually increases the number of potential entry points rather than reducing them. Then you've got supplier portals and third-party integrations that frequently sit outside of anyone's regular security checks. And here's the really sobering part: an attacker doesn't need to find a dramatic weakness. Sometimes all it takes is one stolen login, and from there, the damage can ripple across an entire supply chain remarkably quickly."
+          "script": "So let's think about where ransomware actually gets in. Logistics operations are built on dozens of digital systems all talking to each other, and every single connection point is essentially a door that an attacker could try to open. What makes this particularly challenging is that a lot of the software used in ports, warehouses, and freight networks is quite old, and old software often hasn't received the security updates it needs. Then you've got supplier portals and third-party integrations that frequently sit outside of anyone's regular security checks. And here's the really sobering part: an attacker doesn't need to find a dramatic weakness. Sometimes all it takes is one stolen login, and from there, the damage can ripple across an entire supply chain remarkably quickly."
         },
         {
           "number": 4,
-          "script": "When a ransomware attack hits a logistics company, the damage rarely stays contained to that one organisation. It spreads, quickly and widely, across the entire supply chain. Think about what happens when a major port loses access to its systems. Ships cannot be processed, containers cannot be cleared, and suddenly warehouses are backing up and shop shelves start to empty. But it does not stop there. The partners connected to that network, the freight forwarders, the hauliers, the customs brokers, they lose access too, because they rely on the same shared systems and data. Critical deliveries start missing their deadlines, and in logistics, timing is everything. A delayed shipment of medical supplies or automotive parts can have serious knock-on consequences for businesses and people further down the line. What starts as a single point of failure can bring an entire network to a standstill. That is the real scale of the problem we are looking at here."
+          "script": "When a ransomware attack hits a logistics company, the damage rarely stays contained to that one organisation. It spreads, quickly and widely, across the entire supply chain. Think about what happens when a major port loses access to its systems. Ships cannot be processed, containers cannot be cleared, and suddenly warehouses are backing up and shop shelves start to empty. But it does not stop there. The partners connected to that network, the freight forwarders, the hauliers, the customs brokers, they lose access too, because they rely on the same shared systems and data. Critical deliveries start missing their deadlines, and in logistics, timing is everything. A delayed shipment of medical supplies or automotive parts can have serious knock-on consequences for businesses and people further down the line. What starts as a single point of failure can bring an entire network to a standstill."
         },
         {
           "number": 5,
-          "script": "When ransomware hits one part of a modern logistics network, the damage rarely stays contained. That is because today's systems are deeply interconnected. Ports, trucking fleets, and warehouses are all sharing live data with each other, often powered by AI that is constantly making decisions based on that information. So when one system goes down, the others almost immediately start receiving bad or missing data, and that causes them to make poor decisions or stop functioning properly as well. Think of it like a row of dominoes. One falls, and the rest follow very quickly. What makes this even more challenging is the recovery phase. Getting these AI driven systems back online and synchronised again is not straightforward. It takes time, and while that process is underway, delays and errors continue to build up across the entire network. So a single attack can cause disruption that is far greater than you might initially expect."
-        },
-        {
-          "number": 6,
           "script": "Now, one of the reasons ransomware hits logistics so hard today is that so much of the industry runs on artificial intelligence. Route planning, warehouse automation, stock forecasting, these systems all depend on a constant flow of live data. The moment ransomware cuts that connection, everything starts to unravel. And here is the really troubling part: it does not stop at one system. Because these AI tools are all linked together, a single infected point can send bad decisions rippling outward across dozens of connected processes. Predictive stock management is a good example. If it fails, it often fails quietly, and nobody realises shelves are running low until hours or even days later. Then, when the attack is finally dealt with, recovery is not as simple as switching things back on. AI systems often need to be retrained or recalibrated before they can be trusted again, and that takes time the industry simply cannot afford to lose."
         },
         {
+          "number": 6,
+          "script": "Let me give you some real examples to show just how devastating these attacks can be. In 2017, the shipping giant Maersk was hit by the NotPetya ransomware, which took down over 4,000 of their servers and brought their global operations to a standstill. More recently, the Colonial Pipeline attack shut down fuel supplies across the US East Coast, causing widespread panic buying and shortages. JBS, one of the world's largest meatpacking companies, had to halt operations at plants worldwide for several days. Each of these incidents cost hundreds of millions in lost revenue, emergency response, and recovery efforts. And in every case, it took weeks to fully restore normal operations. These aren't theoretical scenarios, they're real events that show exactly what can happen when ransomware meets critical infrastructure."
+        },
+        {
           "number": 7,
-          "script": "So, you've been hit by ransomware. What happens next? The first thing you need to do is contain the damage by cutting off the affected systems from the rest of your network straight away. Think of it like isolating a fire before it spreads. Once that's done, you can begin restoring your operations using clean, uninfected backups, which is exactly why having reliable backups in place beforehand is so important. Now, you also need to be honest with your partners and customers. Let them know what's happened and what you're doing about it. People appreciate transparency, and it helps protect your reputation. Before you bring any systems back online, make sure you've fixed the weaknesses that allowed the attackers in the first place, otherwise you're just leaving the door open again. And finally, rebuilding trust with your suppliers takes time. Be consistent, communicate openly, and demonstrate that you've strengthened your defences. Recovery is a process, not a single event."
+          "script": "So, you've been hit by ransomware. What happens next? The first thing you need to do is contain the damage by cutting off the affected systems from the rest of your network straight away. Think of it like isolating a fire before it spreads. Once that's done, you can begin restoring your operations using clean, uninfected backups, which is exactly why having reliable backups in place beforehand is so important. Now, you also need to be honest with your partners and customers. Let them know what's happened and what you're doing about it. People appreciate transparency, and it helps protect your reputation. Before you bring any systems back online, make sure you've fixed the weaknesses that allowed the attackers in the first place, otherwise you're just leaving the door open again. And finally, rebuilding trust with your suppliers takes time. Be consistent, communicate openly, and demonstrate that you've strengthened your defences."
         },
         {
           "number": 8,

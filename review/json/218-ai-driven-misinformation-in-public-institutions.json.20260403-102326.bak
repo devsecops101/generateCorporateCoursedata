@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI-Driven Misinformation in Public Institutions",
+  "Category": "Education & Public Sector: Education, Government Services, Non-Profit organizations",
+  "Description": "How false information spreads faster with AI tools.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with using the internet and social media, along with a general awareness of current events, but no prior knowledge of artificial intelligence or data science is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways in which AI tools accelerate the spread of false information across public institutions, and explain the common tactics used to manipulate educational, governmental, and non-profit organisations. You will also apply practical strategies to recognise AI-driven misinformation in your own professional context, helping you respond with greater confidence and clarity.",
+  "lessons": [
+    {
+      "lesson title": "AI-Driven Misinformation in Public Institutions",
+      "order": 1,
+      "Description": "This lesson explores how artificial intelligence tools are accelerating the spread of false information across public institutions such as government bodies, healthcare services, and educational organisations. You will learn how AI can be used to create convincing fake content, including fabricated news articles, manipulated images, and realistic audio or video recordings. We will look at real-world examples that show how quickly misinformation can travel through digital channels and the damage it can cause to public trust. By the end of this lesson, you will have a clearer understanding of the key tactics used to spread AI-driven misinformation and why public institutions are particularly vulnerable. No prior technical knowledge is required, making this lesson accessible to anyone who wants to better understand this growing challenge.",
+      "status": "draft",
+      "content": "How false information spreads faster with AI tools.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to the Course",
+          "subtitle": "Exploring how AI spreads false information.",
+          "slidecontent": "• AI spreads lies fast\n• Public trust is at risk\n• Anyone can be misled\n• This course explains how\n• No tech background needed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "The Speed of AI Misinformation",
+          "subtitle": "Outpacing Human Fact-Checkers Every Time",
+          "slidecontent": "• AI tools can generate thousands of false stories in the time it takes a human to verify just one\n• Fact-checkers work slowly\n• Automated systems spread content across multiple platforms within seconds of it being created\n• No human review required at the point of publication\n• By the time a correction is issued, the original false claim has often reached millions of people\n• Volume and velocity working together make traditional fact-checking methods increasingly ineffective"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Spotting AI-Generated False Content",
+          "subtitle": "Recognising the telltale signs of fakery",
+          "slidecontent": "• Unnatural phrasing and oddly formal sentence structures that feel slightly \"off\"\n• Perfect grammar with no personality\n• Images showing distorted hands, blurred backgrounds, or mismatched lighting\n• Suspiciously consistent tone throughout a long piece of text, with no variation in style\n• Publication dates, author names, or source links that cannot be verified"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Spotting AI-Generated False Content",
+          "subtitle": "Recognising the telltale signs of fakery",
+          "slidecontent": "• Too smooth, too perfect\n• Faces blur at edges\n• Voices sound slightly robotic\n• Dates and facts conflict\n• Backgrounds look oddly warped\n• Reverse image search it"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting AI-Generated False Content",
+          "subtitle": "Recognising the telltale signs of fakery",
+          "slidecontent": "• Unnatural fluency with no typos, hesitations, or personal quirks\n• Images that look almost right but have blurred hands or distorted backgrounds\n• Suspiciously perfect\n• Text that stays vague when pressed for specific dates, names, or sources\n• Repeated phrasing patterns across multiple paragraphs in the same article\n• No clear author, publication history, or verifiable origin point"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting AI-Generated False Content",
+          "subtitle": "Recognising the telltale signs of fakery",
+          "slidecontent": "• Too smooth, too perfect\n• Faces blur at edges\n• Voices sound slightly robotic\n• Dates and facts conflict\n• Backgrounds look oddly uniform\n• Reverse image search it"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Spotting and Reporting AI Misinformation",
+          "subtitle": "Recognise, Verify, and Act Swiftly",
+          "slidecontent": "• Pause before you share\n• Check the original source\n• Use fact-checking websites\n• Report suspicious content quickly\n• Tell others what you found"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons from this course",
+          "slidecontent": "• AI tools can generate and spread false information at a scale and speed that humans alone cannot match\n• Spotting misinformation requires checking sources, not just content\n• Public institutions are high-value targets\n• Emotional or urgent-sounding content is often a warning sign worth pausing on\n• Simple habits like verifying before sharing can reduce the spread significantly\n• As a next step, practise applying one verification method to a news story you encounter this week"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI-driven misinformation in public institutions. Over the next few lessons, we are going to explore something that affects all of us, whether we realise it or not. Artificial intelligence has made it incredibly easy for false information to spread at a speed and scale we have never seen before. And when that misinformation targets public institutions, the consequences can be serious. It can shake people's confidence in governments, health services, schools, and the organisations we rely on every day. The worrying thing is that nobody is immune. Ordinary people, professionals, even experts can be misled. But here is the good news: you do not need a technical background to understand how this works. This course is designed to be accessible to everyone. By the end, you will have a much clearer picture of how AI-driven misinformation operates and why it matters so much right now."
+        },
+        {
+          "number": 2,
+          "script": "One of the most alarming things about AI-generated misinformation is just how fast it moves. While a human fact-checker might spend twenty or thirty minutes carefully verifying a single claim, an AI system can produce thousands of false stories in that same window. And the moment that content is created, automated platforms push it out across social media, news feeds, and messaging apps almost instantly, with no human ever stopping to ask whether it is actually true. By the time someone does catch the error and publishes a correction, the original false story has already reached an enormous audience. Many of those people will never see the correction at all. So we are dealing with two forces working together against us: sheer volume and incredible speed. That combination is what makes traditional fact-checking so difficult to rely on in the modern information environment. It was built for a slower world, and this problem is anything but slow."
+        },
+        {
+          "number": 3,
+          "script": "So, how do you actually spot AI-generated misinformation in the wild? There are a few things to look out for. First, pay attention to the writing itself. AI-generated text often feels slightly robotic, overly formal, or strangely consistent throughout. Real human writers vary their tone, make the occasional slip, and inject a bit of personality. If a piece reads like it was written by someone who has never had a bad day, that is worth questioning. With images, look closely at the details, particularly hands, which AI still struggles to render convincingly, as well as backgrounds that look blurry or lighting that does not quite match across the image. And finally, always check the basics: who wrote it, when was it published, and does the source actually exist? If you cannot verify any of those things with a quick search, treat the content with real caution. These small checks can make a surprisingly big difference."
+        },
+        {
+          "number": 4,
+          "script": "So how do you actually spot AI-generated content in the wild? There are some reliable clues to look out for. First, if something looks almost too polished, too perfect, that should raise a flag. AI-generated images and videos often have a kind of uncanny quality to them. Look closely at faces, particularly around the edges and the hair, because that is where the technology tends to fall apart. With audio, listen for a slightly flat or robotic tone that does not quite sound like a real human voice. It is also worth checking the facts and dates mentioned, because AI tools frequently get those wrong or contradict themselves. In videos, backgrounds can appear strangely distorted or warped in ways that do not make physical sense. And one of the simplest things you can do is run a reverse image search, which takes just a few seconds and can immediately tell you whether an image has been lifted from somewhere else or manipulated. These are practical skills anyone can develop."
+        },
+        {
+          "number": 5,
+          "script": "So how do you actually spot AI-generated false content in the wild? There are a few things worth looking out for. First, the writing often feels strangely polished. No typos, no awkward phrasing, no sense that a real person wrote it in a hurry. Images can be a giveaway too. They might look convincing at first glance, but zoom in and you will often find blurred or oddly shaped hands, or backgrounds that do not quite make sense. The text itself tends to be vague in a very specific way. Ask it for a date, a name, or a source, and it cannot deliver. You might also notice the same phrases cropping up repeatedly throughout the same article, which is a classic sign of machine-generated writing. And finally, there is rarely a clear author or any traceable publication history. If you cannot find out who wrote something or where it came from, that is a serious red flag worth paying attention to."
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually spot AI-generated content when you come across it? There are a few things worth looking out for. First, if something looks almost too polished, too perfect, that can be a red flag. AI-generated images often struggle with fine details, particularly around faces, where the edges can appear blurry or slightly off. With audio and video, listen carefully because voices can sound just a little too smooth or slightly robotic. It is also worth checking the facts and dates mentioned. AI tools sometimes produce content where the details simply do not add up or contradict each other. Look at the backgrounds in images too. They often appear strangely uniform or unrealistically neat. And here is a really practical habit to get into: if you see a suspicious image, do a reverse image search. Just right-click and search, and you can often trace where that image originally came from. These are simple checks, but they can make a real difference."
+        },
+        {
+          "number": 7,
+          "script": "So, we've talked about how AI misinformation spreads, but what can you actually do about it in your day-to-day work? The first thing is simply to pause. Before you forward or share anything, give yourself a moment to think. Does this feel right? Where did it come from? That leads nicely into the second point, which is to trace it back to the original source. If you can't find one, that's already a warning sign. There are also some brilliant fact-checking websites out there, such as Full Fact here in the UK, which can help you verify a claim in just a few minutes. If something does look suspicious, don't sit on it. Report it quickly through whatever channel your organisation has set up for this. And finally, share what you've learned with your colleagues. If you've spotted something misleading, the chances are someone else might encounter it too. A quick heads-up can make a real difference."
+        },
+        {
+          "number": 8,
+          "script": "So let us bring everything together. One of the most important things to understand is that AI can produce and push out false information far faster than any of us can keep up with manually, which is why awareness really matters. When you come across something suspicious, remember that checking the source is just as important as reading the content itself. Public institutions are particularly attractive targets for this kind of manipulation, so be especially alert in those contexts. If something feels urgent or stirs up a strong emotional reaction, that is actually a signal to slow down rather than share immediately. The good news is that small, consistent habits make a real difference. Verifying something before you pass it on is one of the simplest and most effective things you can do. As a practical next step, try applying one of the verification methods we have covered to a real news story you come across this week. Small steps genuinely add up."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Government employees, public administrators, educators, teachers, school administrators, healthcare workers, non-profit staff, public relations officers, communications managers, policy makers, civil servants",
+  "Team or Dept this is for": "Communications, Public Relations, Government Affairs, Education, Healthcare, Non-Profit Operations, Policy Development, Public Information"
+}

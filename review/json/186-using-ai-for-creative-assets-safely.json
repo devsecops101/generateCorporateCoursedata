@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Risks of AI-Generated Content",
-          "subtitle": "What could possibly go wrong here?",
-          "slidecontent": "• AI-generated images, music, and video can unintentionally copy existing copyrighted work\n• Ownership of AI outputs is legally unclear in most countries\n• Deepfakes and realistic synthetic media can cause serious reputational harm\n• Bias in training data leads to skewed or offensive results\n• No consent from real people whose likenesses may appear\n• Easy to misuse"
+          "slidetitle": "Copyright and Training Data Risks",
+          "subtitle": "When AI learns from existing work",
+          "slidecontent": "• AI trained on vast amounts of copyrighted content\n• Outputs may accidentally reproduce protected work\n• Training data sources rarely disclosed\n• Copyright holders can still claim infringement\n• Legal liability falls on the user, not the AI company"
         },
         {
           "number": 3,
-          "slidetitle": "Risks of AI-Generated Images",
-          "subtitle": "What could go wrong with visuals?",
-          "slidecontent": "• AI image tools can produce visuals that unintentionally resemble real people or existing artwork\n• Copyright ownership of AI-generated images remains legally unclear in many countries\n• Biased training data\n• Generated faces, hands, or text within images often contain subtle but noticeable errors\n• Using AI visuals in commercial work without checking licensing terms can expose your organisation to legal risk"
+          "slidetitle": "Ownership and Licensing Uncertainty",
+          "subtitle": "Who owns what AI creates?",
+          "slidecontent": "• Ownership of AI outputs legally unclear in most countries\n• Platform terms vary widely on usage rights\n• Some tools retain licenses to your creations\n• Commercial use may require additional permissions\n• No universal standard for AI-generated content rights"
         },
         {
           "number": 4,
-          "slidetitle": "Spotting Risks in AI Outputs",
-          "subtitle": "What to watch out for",
-          "slidecontent": "• Copied styles trigger copyright claims\n• Faces may be real people\n• Logos appear without permission\n• Outputs can spread misinformation\n• Bias hides in generated images"
+          "slidetitle": "Identity and Consent Issues",
+          "subtitle": "When real people appear without permission",
+          "slidecontent": "• AI can generate recognizable faces of real individuals\n• No consent obtained from people whose likenesses appear\n• Deepfakes create serious reputational risks\n• Voice cloning raises similar ethical concerns\n• Legal protections for personality rights vary by jurisdiction"
         },
         {
           "number": 5,
-          "slidetitle": "Avoiding Copyright and Ownership Pitfalls",
-          "subtitle": "Know what you own before publishing.",
-          "slidecontent": "• AI-generated images, music, and video may contain elements derived from copyrighted training data\n• Ownership of AI outputs varies by tool, so always read the platform's terms before publishing\n• Some tools retain a licence to your creations\n• Commercially sensitive or client work carries extra risk if ownership is unclear\n• Check whether your chosen tool offers indemnification cover for copyright claims\n• When in doubt, treat the output as unlicensed until you have confirmed otherwise"
+          "slidetitle": "Bias and Quality Problems",
+          "subtitle": "Technical limitations in AI outputs",
+          "slidecontent": "• Training data bias appears in generated content\n• Stereotypical representations of gender, race, profession\n• Technical errors in faces, hands, text elements\n• Factual inaccuracies in generated information\n• Brand safety concerns with inappropriate content"
         },
         {
           "number": 6,
-          "slidetitle": "Avoiding Common AI Pitfalls",
-          "subtitle": "Sidestep Mistakes Before They Happen",
-          "slidecontent": "• Check outputs for bias\n• Avoid copyrighted styles\n• Credit AI-generated work\n• Review before publishing\n• Never skip human oversight"
+          "slidetitle": "Pre-Publication Safety Checks",
+          "subtitle": "Essential review before going live",
+          "slidecontent": "• Verify no copyrighted styles or elements present\n• Check for real faces, logos, or branded content\n• Review for factual accuracy and bias\n• Confirm compliance with platform AI policies\n• Document generation process and prompts used"
         },
         {
           "number": 7,
-          "slidetitle": "Staying Safe: Quick Checklist",
-          "subtitle": "Before you publish or share anything",
-          "slidecontent": "• Check for copyright conflicts\n• Verify no real faces used\n• Review lyrics or melodies carefully\n• Confirm your platform's AI policy\n• Save your generation prompts"
+          "slidetitle": "Organizational Risk Management",
+          "subtitle": "Protecting your business and clients",
+          "slidecontent": "• Read platform terms before commercial use\n• Check if tools offer indemnification coverage\n• Establish clear disclosure policies for AI use\n• Train teams on safe AI practices\n• Create approval workflows for AI-generated content"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "Keep these principles close at hand.",
-          "slidecontent": "• Always check who owns the rights before using any AI-generated image, music, or video\n• Disclose AI use when your organisation or client requires it\n• Keep records\n• Avoid inputting real people's faces, voices, or private data into generation tools\n• Review outputs for bias, accuracy, and brand suitability before publishing\n• Start small, one tool, one project, then build your confidence from there"
+          "slidetitle": "Building Responsible AI Workflows",
+          "subtitle": "Practical steps for safe implementation",
+          "slidecontent": "• Start with low-risk, internal projects\n• Maintain human oversight at every stage\n• Keep detailed records of AI tool usage\n• Regularly update practices as laws evolve\n• Balance innovation with risk management"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So before we dive into the practical side of using AI for creative work, it is really important that we talk honestly about what can go wrong, because quite a lot can. First, AI tools are trained on vast amounts of existing content, which means the images, music, or video they produce can accidentally reproduce someone else's copyrighted work without you even realising it. On top of that, who actually owns the output is still a legal grey area in most countries, so you could find yourself in a tricky position. There are also serious concerns around deepfakes and synthetic media, where real people's likenesses can appear without their consent, which can cause genuine reputational damage. And because AI learns from human-generated data, it can inherit biases that lead to results that are skewed or even offensive. None of this means you should avoid AI entirely, but it does mean we need to use it thoughtfully, and that is exactly what this course is here to help you do."
+          "script": "Let's start with one of the most significant risks: copyright infringement through training data. AI tools are trained on massive datasets containing millions of images, songs, and videos, much of which is protected by copyright. When you ask an AI to generate content, it draws patterns from this training data, and sometimes those patterns can be close enough to existing work to cause problems. The challenge is that most AI companies don't disclose exactly what content was used to train their models, so you have no way of knowing if your output might be similar to someone's copyrighted work. And here's the crucial point: even if the AI company trained their model on copyrighted content without permission, the legal liability often falls on you as the end user, not on them. So you need to be particularly careful when generating content that might echo distinctive styles or famous works."
         },
         {
           "number": 3,
-          "script": "So let's talk about what can actually go wrong when you use AI to generate images. There are a few things worth being aware of. First, AI tools are trained on huge amounts of existing content, which means the images they produce can sometimes look a little too similar to real people or existing artwork, and that can cause problems. There's also a lot of legal uncertainty around who actually owns an AI-generated image, and that varies depending on where you are in the world. On top of that, if the data used to train the tool was biased in some way, that bias can show up in the visuals it creates. You might also notice that AI-generated images sometimes get small details wrong, like hands with too many fingers or garbled text. And finally, if you use these images in commercial work without checking the licensing terms, your organisation could face real legal exposure. So it's definitely worth pausing before you publish."
+          "script": "Now let's talk about ownership, because this is where things get really murky. In most countries, the law simply hasn't caught up with AI-generated content, so there's genuine uncertainty about who owns what when an AI creates something. Different platforms have wildly different terms of service too. Some grant you full commercial rights to outputs, others retain licenses to everything you create, and many fall somewhere in between. This matters enormously if you're doing client work or creating content for commercial use. You could find yourself in a situation where you can't actually deliver what you promised because the ownership isn't clear. Always read the fine print of whatever tool you're using, and if you're not certain about the rights situation, get legal advice before proceeding with anything commercially important."
         },
         {
           "number": 4,
-          "script": "So now that we know AI can generate creative assets quickly, let's talk about what can go wrong, because there are some genuine risks you need to be aware of. First, AI tools are trained on existing work, so the style or even the content they produce can be a little too close to someone else's copyrighted material, and that can land you in trouble. You might also find that generated images contain faces that look like real, identifiable people, or logos that belong to actual brands, neither of which you have permission to use. Beyond the legal side, there are other concerns too. AI can produce visuals or text that look convincing but are factually wrong or misleading, which matters a great deal if you are publishing content professionally. And finally, because of the data these tools are trained on, the images they generate can reflect hidden biases, for example, consistently showing certain roles as belonging to one gender or ethnicity. These are all things worth keeping a close eye on."
+          "script": "Another major concern is consent and identity rights. AI image and video generators can produce remarkably realistic faces, and sometimes these faces belong to real people who never gave permission for their likeness to be used. This isn't just an ethical issue, it's a legal one too. Many jurisdictions have strong personality rights laws that protect people from unauthorized use of their image or voice. The rise of deepfake technology makes this even more serious, because you can now generate convincing video of real people saying or doing things they never actually did. This creates enormous reputational risks, not just for the people whose likenesses are used without consent, but for you and your organization if you publish this kind of content. Voice cloning raises similar concerns, and the legal landscape around these technologies is evolving rapidly."
         },
         {
           "number": 5,
-          "script": "Now, one of the trickiest areas with AI-generated content is understanding who actually owns what you've created, and whether you're safe to publish it. The honest answer is: it depends entirely on the tool you're using. Many AI models are trained on vast amounts of existing content, which means the outputs could potentially include elements derived from copyrighted material. Before you publish anything commercially, always read the platform's terms and conditions, because some tools actually retain a licence over the content you generate. If you're working on client projects or anything commercially sensitive, that ambiguity becomes a real problem. It's also worth checking whether your tool offers any indemnification cover, meaning they'll back you up if a copyright claim arises. Some do, many don't. So as a general rule of thumb, if you're not completely certain about the ownership status of an AI output, treat it as unlicensed until you've confirmed otherwise. It's a simple habit that can save you a great deal of trouble."
+          "script": "Beyond legal risks, there are also quality and bias issues that can seriously damage your reputation. Because AI models learn from human-created content, they inevitably absorb the biases present in that training data. This means AI-generated content often reflects stereotypical or outdated representations of different groups of people. You might ask for a doctor and consistently get images of men, or ask for a CEO and see only certain ethnicities represented. There are technical limitations too. AI-generated images famously struggle with hands, often producing extra fingers or unnatural poses. Text within images is frequently garbled, and factual information can be completely wrong despite sounding convincing. All of these issues can undermine your credibility if they make it into published content, so careful human review is essential."
         },
         {
           "number": 6,
-          "script": "Now, even with the best tools at your disposal, there are some common mistakes that catch people out, so let us walk through how to avoid them. First, always look critically at what the AI produces. These systems can reflect biases that exist in their training data, so do not just accept the output at face value. Similarly, be careful about asking AI to mimic the style of a specific living artist or creator, as this can stray into murky copyright territory. When you do use AI-generated content, be transparent about it and credit it appropriately. Your audience and colleagues will appreciate the honesty. Before anything goes live, make sure a real human being has reviewed it properly. That might sound obvious, but it is surprisingly easy to skip that step when you are working quickly. The golden rule here is that AI is a tool to support your judgement, not replace it. Keep yourself in the loop at every stage."
+          "script": "So how do you protect yourself before publishing AI-generated content? Develop a systematic review process. First, check carefully for any copyrighted elements, especially if you've asked the AI to work in a particular style or reference specific works. Look for real faces, recognizable logos, or branded content that could cause legal problems. Review the content for factual accuracy and bias, particularly if it depicts people or makes any kind of informational claims. You also need to make sure you're complying with your platform's policies on AI-generated content, because these vary widely and change frequently. Finally, keep detailed records of how content was generated, including the prompts you used and which tool created it. This documentation can be crucial if questions arise later about the content's origins."
         },
         {
           "number": 7,
-          "script": "Before you hit publish on anything you've created with AI, run through this quick checklist. First, make sure there are no copyright conflicts lurking in your output, especially with images or audio that might echo existing protected work. Next, check that no real, identifiable faces have appeared in your visuals, because that can cause serious legal and ethical headaches. If you've generated any music or lyrics, listen and read carefully for anything that sounds too close to a known song. It's more common than you'd think. You'll also want to confirm what your specific platform actually allows when it comes to AI-generated content, because the rules vary quite a bit and they're changing all the time. And finally, get into the habit of saving your generation prompts. If a question ever arises about how something was created, having that record is genuinely useful. It only takes a couple of minutes, and it could save you a lot of trouble later on."
+          "script": "From an organizational perspective, you need to think strategically about managing AI risks. Before using any tool commercially, thoroughly review their terms of service and understand exactly what rights you're getting. Some platforms offer indemnification coverage, meaning they'll defend you if copyright claims arise, but many don't. Establish clear policies about when and how AI use should be disclosed, because transparency requirements vary by industry and client. Make sure your team is properly trained on these risks and knows how to evaluate AI outputs safely. Consider implementing approval workflows for AI-generated content, especially for client work or public-facing materials. The goal isn't to avoid AI entirely, but to use it in a way that protects your business and your clients from unnecessary legal and reputational exposure."
         },
         {
           "number": 8,
-          "script": "So before we wrap up this lesson, let's pull everything together into a few principles worth keeping in mind. First, always check the rights situation before you use anything AI has generated, whether that's an image, a piece of music, or a video clip. If your organisation or client needs you to disclose that AI was involved, make sure you do that, and keep a record of what tools you used and when. Be careful about what you put into these tools as well. Avoid uploading real people's faces, voices, or any private data. And once you have your output, don't just publish it straight away. Take a moment to review it for bias, accuracy, and whether it actually fits your brand. Finally, if all of this feels a little overwhelming, that's completely normal. Start small. Pick one tool, try it on one project, and build your confidence gradually from there. You don't need to do everything at once."
+          "script": "Finally, let's talk about building sustainable, responsible AI workflows. The key is to start small and build confidence gradually. Begin with low-risk, internal projects where you can experiment and learn without exposing your organization to significant problems. Always maintain human oversight throughout the process - AI should augment human creativity and judgment, not replace it. Keep detailed records of your AI usage, including which tools you used, when, and for what purpose. This documentation becomes increasingly important as regulations develop. Remember that this is a rapidly evolving field, so stay informed about changing laws, platform policies, and industry best practices. The goal is to find the right balance between innovation and risk management, allowing you to harness the creative power of AI while protecting yourself and others from potential pitfalls."
         }
       ]
     }

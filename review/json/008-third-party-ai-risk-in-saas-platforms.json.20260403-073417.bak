@@ -1,0 +1,107 @@
+{
+  "Course Title": "Third-Party AI Risk in SaaS Platforms",
+  "Category": "Corporate",
+  "Description": "When your existing tools quietly introduce AI-related risks.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have basic familiarity with using SaaS tools in a professional workplace setting, such as cloud-based software for communication, project management, or document collaboration.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key ways that AI features embedded in everyday SaaS platforms can introduce third-party risk, and explain why these risks often go unnoticed until they cause a problem. You will also be able to apply a practical framework to assess and prioritise the AI-related risks present in the tools your organisation already uses.",
+  "lessons": [
+    {
+      "lesson title": "Third-Party AI Risk in SaaS Platforms",
+      "order": 1,
+      "Description": "Many of the software tools your organisation already relies on, such as project management platforms, customer support systems, and productivity suites, are quietly adding AI features without making a big announcement. These changes can introduce new risks around data privacy, compliance, and security, often before your team has had a chance to review or approve them. This lesson will help you understand what third-party AI risk means in the context of SaaS platforms, why it matters even if your organisation has not deliberately chosen to adopt AI, and how to spot the warning signs. You do not need a technical background to follow along. By the end, you will have a clearer picture of where these risks tend to appear and what practical steps you can take to manage them responsibly.",
+      "status": "draft",
+      "content": "When your existing tools quietly introduce AI-related risks.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "When Your Tools Use AI",
+          "subtitle": "The hidden risks already around you",
+          "slidecontent": "• Your tools already use AI\n• You may not have noticed\n• Risks hide in plain sight\n• Small features, big consequences\n• It starts with awareness"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Third-Party AI Risk?",
+          "subtitle": "Defining the hidden risks within tools",
+          "slidecontent": "• AI features added to SaaS tools you already use, often without a formal procurement decision\n• Your data processed by models you never reviewed or approved\n• Risks that arrive quietly, through a software update or a new \"smart\" feature toggle\n• No new vendor contract, but new exposure\n• Compliance, privacy, and security implications that existing policies may not cover"
+        },
+        {
+          "number": 3,
+          "slidetitle": "What Changes When AI Arrives",
+          "subtitle": "Familiar tools, unfamiliar risks emerge",
+          "slidecontent": "• SaaS tools you already trust are quietly adding AI features to existing workflows\n• Your data trains or informs these models, often by default\n• Consent buried in updated terms\n• Outputs can be unpredictable, biased, or confidently wrong\n• Audit trails and explainability become much harder to maintain"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Data Sharing and Privacy Risks",
+          "subtitle": "Your data may travel further than expected.",
+          "slidecontent": "• SaaS tools with AI features often send your data to external model providers for processing\n• That data may include customer records, internal documents, or sensitive business information\n• Third-party providers have their own data retention and usage policies, which may differ from your vendor's promises\n• Some providers use submitted data to train or improve their models\n• Your data, shared without your knowledge"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Spotting Risk in Your Stack",
+          "subtitle": "Where hidden vulnerabilities quietly accumulate",
+          "slidecontent": "• AI hidden in familiar tools\n• Free tiers share your data\n• Integrations bypass your policies\n• Updates add features silently\n• Vendors change terms quietly"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Spotting Risk Before It Spreads",
+          "subtitle": "Early signals worth acting on fast",
+          "slidecontent": "• Unexpected data leaving your system\n• New AI toggle, no warning\n• Vendor terms quietly updated\n• Staff sharing sensitive prompts\n• Audit logs suddenly incomplete"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reducing Your Exposure to Risk",
+          "subtitle": "Practical steps to minimise your exposure",
+          "slidecontent": "• Review your SaaS tools regularly\n• Check AI opt-out settings\n• Limit data shared with tools\n• Train staff on AI risks\n• Audit vendor privacy policies"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "The essentials worth keeping in mind",
+          "slidecontent": "• SaaS tools can introduce AI risk without any action on your part\n• Check vendor release notes and privacy policies regularly\n• Data shared with AI features may leave your control\n• Not all AI risks are visible or announced\n• Start by auditing one tool you already use today\n• Small, consistent checks beat occasional deep reviews"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Let's start with something that might surprise you. The tools you're already using every day, your project management software, your email platform, your customer support system, very likely have AI built into them right now. Not as some future feature you opted into, but quietly, tucked away in the background, doing things on your behalf. And most people haven't stopped to think about what that actually means. The risk isn't always obvious. It doesn't announce itself. It hides inside a helpful little button that summarises your emails, or a smart reply suggestion, or an automated workflow that seemed harmless when you switched it on. Small features can carry surprisingly significant consequences, especially when sensitive data is involved. So before we get into the technical detail of how to manage third-party AI risk, we need to start at the beginning, with awareness. Because you can't protect against something you haven't noticed yet. That's exactly what this course is here to help you do."
+        },
+        {
+          "number": 2,
+          "script": "So, what do we actually mean by third-party AI risk? Well, here is the thing: most organisations are not going out and deliberately purchasing AI systems. Instead, AI is quietly arriving inside tools they already use. Your project management software, your CRM, your email platform. One day there is a new \"smart\" feature, or an update rolls out, and suddenly your data is being processed by an AI model that nobody in your team ever reviewed or approved. There was no new vendor contract, no formal procurement decision, no security review. It just appeared. And that is where the risk hides. Because your existing policies around compliance, privacy, and data security were almost certainly written before any of this was on the radar. So the exposure is real, but it is also easy to miss, precisely because it does not look like a big, obvious purchase. It looks like a helpful little feature toggle."
+        },
+        {
+          "number": 3,
+          "script": "So here's where things get interesting. The SaaS tools your teams already use every day, your CRM, your project management software, your document editors, they're quietly gaining AI capabilities. Often there's no big announcement. It just appears as a new button or a suggested feature. And here's the concern: when your staff start using those features, your organisation's data may be feeding into those models, sometimes by default, buried in a terms and conditions update that nobody read. That creates real problems. AI outputs can sound completely authoritative while being factually wrong or carrying hidden bias. And unlike a traditional software function, you often can't trace exactly why the system produced a particular result. That makes auditing decisions and demonstrating compliance significantly harder. So the risk here isn't that you've adopted some radical new technology. It's that familiar tools have changed underneath you, and the governance frameworks most organisations have in place simply weren't designed with this in mind."
+        },
+        {
+          "number": 4,
+          "script": "When you use a SaaS tool that has AI features built in, there is a good chance your data is not staying within that tool. It is often being sent to an external provider, the company whose AI model is actually doing the work behind the scenes. And that data can include some quite sensitive things: customer records, internal documents, financial information. Now, here is where it gets a little uncomfortable. That third-party provider has its own policies around how long they keep your data and what they do with it, and those policies may be very different from what your SaaS vendor has promised you. In some cases, the data you submit is actually used to train or improve the AI model itself. So information you shared, perhaps without even realising it was leaving your organisation, could be contributing to someone else's system. Your data may genuinely be travelling much further than you ever expected, and that is a risk worth taking seriously."
+        },
+        {
+          "number": 5,
+          "script": "So let's talk about where these risks actually live, because they're often hiding in plain sight. Many of the tools your team uses every day, things like document editors, project management apps, or customer support platforms, have quietly added AI features without making a big announcement about it. And if you're using a free or lower-cost tier of a service, there's a good chance your data is being used to train or improve those AI models. It gets more complicated when you start connecting tools together. Those integrations can pull data across systems in ways that completely bypass the security policies you've carefully put in place. On top of that, software updates can introduce new AI-powered features without any warning, and vendors can change their terms and conditions with very little fanfare. So the risk isn't always coming from a brand new tool someone has signed up for. It's often already sitting quietly inside your existing stack."
+        },
+        {
+          "number": 6,
+          "script": "So how do you actually catch third-party AI risk before it becomes a serious problem? There are a few early warning signs worth keeping your eyes open for. First, if you notice data moving out of your systems in ways you did not expect or authorise, that is worth investigating immediately. Similarly, if a new AI feature suddenly appears in a tool your team uses and nobody received any notice about it, that is a red flag. Vendors also have a habit of quietly updating their terms and conditions, so it pays to review those regularly rather than assuming nothing has changed. On the human side, watch for staff pasting sensitive information into AI prompt boxes, often without realising the risk they are creating. And finally, if your audit logs start showing gaps or incomplete records, do not ignore it. Each of these signals on its own might seem minor, but together they can point to a much bigger exposure building up beneath the surface."
+        },
+        {
+          "number": 7,
+          "script": "So now that we understand the risks, let's talk about what you can actually do to reduce your exposure. The good news is that most of these steps are straightforward. Start by regularly reviewing the SaaS tools your organisation uses, because new AI features get added all the time, often without much fanfare. When you do that review, look specifically for any settings that let you opt out of having your data used to train AI models, as many platforms offer this but bury it deep in the settings. It is also worth being mindful about what data you share with these tools in the first place. If a tool does not need certain information to do its job, do not give it. Make sure your staff understand these risks too, because your team is your first line of defence. And finally, get into the habit of reading vendor privacy policies, particularly when a tool updates its terms. Small changes there can have a big impact on how your data is handled."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. One of the most important things to understand is that AI risk in SaaS tools can arrive quietly, without you doing anything at all. A vendor ships an update, and suddenly your data is flowing through an AI feature you never switched on. That's why it pays to keep an eye on release notes and privacy policies, even just a quick scan every now and then. Because once data is shared with an AI system, you may have very little say over where it goes or how it's used. And the tricky part is that many of these changes simply aren't flagged up clearly. So rather than waiting until you have time for a big audit, start small. Pick one tool you're already using and have a look at it today. Consistent, regular checks, even brief ones, will serve you far better than a thorough review you only get round to once a year."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Project managers, operations managers, IT administrators, compliance officers, procurement specialists, department heads, team leads, office managers",
+  "Team or Dept this is for": "IT, Operations, Compliance, Legal, Procurement, Risk Management"
+}

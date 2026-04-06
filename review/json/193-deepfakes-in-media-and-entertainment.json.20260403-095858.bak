@@ -1,0 +1,107 @@
+{
+  "Course Title": "Deepfakes in Media and Entertainment",
+  "Category": "Media & Entertainment: Publishing, Film, Advertising & Communications, Gaming",
+  "Description": "Risks of synthetic actors, voices, and manipulated content.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with how media and entertainment content is produced and consumed, along with everyday use of digital platforms such as social media or streaming services, is all that is required to begin this course.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key risks associated with synthetic actors, manipulated voices, and deepfake content across publishing, film, advertising, and gaming. You will also be able to explain how deepfake technology is reshaping media and entertainment, and apply practical strategies to recognise and respond to manipulated content in professional contexts.",
+  "lessons": [
+    {
+      "lesson title": "Deepfakes in Media and Entertainment",
+      "order": 1,
+      "Description": "This lesson explores how deepfake technology is reshaping the media and entertainment industries, from synthetic actors and digitally recreated voices to manipulated footage that can be difficult to distinguish from genuine content. You will learn about the key risks these technologies pose, including issues around consent, copyright, and the potential for reputational harm to performers and public figures. We will look at real-world examples of how deepfakes have already been used within film, music, and online media, both creatively and harmfully. By the end of this lesson, you will have a clearer understanding of how to recognise manipulated content and why it matters for audiences, creators, and industry professionals alike.",
+      "status": "draft",
+      "content": "Risks of synthetic actors, voices, and manipulated content.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Deepfakes in Media and Entertainment",
+          "subtitle": "Synthetic Media's Risks and Realities",
+          "slidecontent": "• Synthetic media is reshaping how content is created, distributed, and trusted\n• Deepfakes use AI to swap faces, clone voices, or fabricate performances\n• Already widespread in film, music, advertising, and social media\n• Real risks for audiences, creators, and brands\n• This course covers what deepfakes are, how they spread, and how to respond"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Synthetic Media: Key Risks",
+          "subtitle": "Misinformation, fraud, and consent concerns explored.",
+          "slidecontent": "• Synthetic media can spread false information at scale, making it hard to distinguish real from fabricated content\n• Public figures are frequently targeted\n• Fraudsters use cloned voices and faces to impersonate executives, celebrities, or family members for financial gain\n• Performers risk losing control of their likeness, with synthetic versions used without permission or payment\n• Consent is rarely obtained before a person's image or voice is replicated"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Synthetic Actors and Deepfakes",
+          "subtitle": "Blurring the Line Between Real and Fake",
+          "slidecontent": "• Actors replaced by digital doubles\n• Voices cloned without consent\n• Faces swapped in real footage\n• Hard to spot the difference\n• Trust in media erodes fast"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Synthetic Voices and Audio Risks",
+          "subtitle": "When Voices Cannot Be Trusted",
+          "slidecontent": "• AI tools can now clone a person's voice from just a few seconds of audio\n• Cloned voices used in scam calls, fake interviews, and fraudulent voice authorisation\n• Entirely convincing\n• Audio deepfakes are harder to detect than video because listeners instinctively trust familiar voices\n• Public figures, executives, and journalists are frequent targets for voice impersonation"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Synthetic Voices and Audio Risks",
+          "subtitle": "When Voices Cannot Be Trusted",
+          "slidecontent": "• Voices cloned from recordings\n• Anyone can be imitated\n• Fake audio spreads quickly\n• Consent rarely obtained\n• Hard to detect by ear"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Protecting Audiences From Synthetic Media",
+          "subtitle": "Safeguarding Trust in Digital Content",
+          "slidecontent": "• Label synthetic content clearly\n• Verify sources before sharing\n• Use detection tools available\n• Question unexpected celebrity content\n• Report suspicious deepfakes online"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Protecting Yourself From Deepfakes",
+          "subtitle": "Staying Safe in a Synthetic World",
+          "slidecontent": "• Verify sources before sharing\n• Check for unnatural blinking\n• Use reverse image search\n• Trust official channels only\n• Report suspicious content promptly"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons for responsible media awareness",
+          "slidecontent": "• Deepfakes use AI to convincingly replace or fabricate faces, voices, and performances in video and audio content\n• Always question the source before trusting or sharing media that seems surprising or emotionally charged\n• Synthetic actors and cloned voices are already being used commercially, with or without proper consent\n• Verification tools exist\n• Look for subtle visual glitches, unnatural blinking, or mismatched audio as early warning signs\n• As a next step, explore a free media literacy resource (such as those from the BBC or Full Fact) to sharpen your detection skills"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to the course on Deepfakes in Media and Entertainment. Over the next few lessons, we're going to explore one of the most significant and frankly unsettling developments in modern media. Artificial intelligence can now generate incredibly convincing video and audio content, swapping someone's face onto another person's body, cloning a voice from just a few seconds of audio, or even fabricating an entire performance that never actually happened. This technology is already out there, being used across film, music, advertising, and social media, sometimes creatively, sometimes harmfully. And that's really what this course is about. Because whether you're a content creator, someone working in the media industry, or simply a person who consumes content online, deepfakes affect you. They raise serious questions about trust, consent, and reputation. So throughout this course, we'll break down what deepfakes actually are, how they spread, and most importantly, what you and your organisation can do to respond to them responsibly."
+        },
+        {
+          "number": 2,
+          "script": "So, now that we have a sense of what synthetic media actually is, let's talk about why it matters and what can go wrong. The most obvious concern is misinformation. When fabricated video or audio is convincing enough, people genuinely struggle to tell what's real, and false content can spread incredibly quickly online. Public figures are particularly vulnerable here, but the risks go beyond reputation damage. There's also a very real financial threat. Criminals are using cloned voices and faces to impersonate executives or even family members, tricking people into transferring money or sharing sensitive information. And then there's the question of consent, which is something the entertainment industry is grappling with right now. Performers and ordinary people alike are finding their likeness used in synthetic content without ever being asked, and certainly without being paid. So across the board, we're looking at risks that touch on truth, trust, money, and personal rights."
+        },
+        {
+          "number": 3,
+          "script": "So let's talk about what's actually happening in media and entertainment right now, because this is where deepfakes are becoming genuinely difficult to ignore. We're seeing actors being replaced by entirely digital versions of themselves, sometimes without their knowledge or agreement. Voices are being cloned, meaning someone can make it sound like a real person said something they never actually said. Faces are being swapped into existing footage so convincingly that even trained eyes can struggle to spot the difference. And that last point is really the heart of the problem. When we can no longer trust whether what we're seeing or hearing is real, our confidence in media as a whole starts to break down. It's not just a technical curiosity anymore. It has real consequences for performers, for audiences, and for the way we consume content. This slide sets the scene for everything we're going to explore throughout this course."
+        },
+        {
+          "number": 4,
+          "script": "So far we have looked at visual deepfakes, but the technology does not stop there. AI can now clone someone's voice using just a few seconds of recorded audio, and the results are genuinely alarming. These synthetic voices are being used in scam phone calls, fake interviews, and even to bypass voice recognition security systems. What makes this particularly dangerous is that audio deepfakes are actually harder to spot than video ones. When we hear a familiar voice, we instinctively trust it. We are not looking for visual glitches or unnatural blinking. We simply believe what we hear. That psychological response is exactly what makes voice cloning such a powerful tool for deception. And it is not just ordinary people being targeted. Public figures, senior executives, and journalists are frequently impersonated, sometimes to spread misinformation, sometimes for financial fraud. As we move through this course, it is worth keeping in mind that deepfakes are not just something you see. They are something you hear as well."
+        },
+        {
+          "number": 5,
+          "script": "So far we have looked at visual deepfakes, but the same technology applies to audio as well, and this is where things get particularly unsettling. Using just a short recording of someone's voice, perhaps a clip from a podcast, a YouTube video, or even a voicemail, AI tools can now clone that voice with remarkable accuracy. That means virtually anyone with a public presence, and increasingly private individuals too, can be imitated without their knowledge or permission. The problem is that fake audio clips can spread across social media incredibly quickly, often before anyone has had a chance to question whether they are genuine. And unlike manipulated images, where we might spot visual glitches, our ears are not well trained to detect synthetic speech. It sounds convincing because it is designed to. Consent is almost never sought, which raises serious ethical and legal questions. So as we move through this course, keep in mind that deepfakes are not just something you see. They are something you hear as well."
+        },
+        {
+          "number": 6,
+          "script": "So, how do we actually protect ourselves and others from being misled by synthetic media? Well, there are some really practical steps we can all take. First, if you're creating or sharing content, make sure it's clearly labelled as AI-generated or synthetic. Transparency goes a long way in building trust. Before you share anything online, take a moment to verify where it actually came from. Is it from a credible source? Does it check out? There are also detection tools available now that can help identify whether a video or image has been manipulated, and they're becoming more accessible all the time. If you see a celebrity appearing to say or do something completely out of character, that's a red flag worth pausing on. And finally, if you do come across something that looks suspicious, report it to the platform. We all have a role to play in keeping digital spaces honest and trustworthy."
+        },
+        {
+          "number": 7,
+          "script": "So, how do we actually protect ourselves in a world where synthetic media is becoming increasingly convincing? The good news is that there are some straightforward steps you can take right now. Before you share anything online, pause and ask yourself where it came from. Is it from a source you genuinely trust? When watching a video, pay close attention to the eyes. Deepfakes often struggle to replicate natural blinking, so anything that looks a little off there is worth questioning. If you come across a suspicious image, a quick reverse image search can reveal whether it has been manipulated or taken out of context. Stick to official channels and verified accounts when you are looking for reliable information, particularly around news or public figures. And finally, if you spot something that does not feel right, report it. Platforms rely on us to flag this content, and doing so helps protect everyone else in the community too."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together from this lesson. At its core, deepfake technology uses artificial intelligence to convincingly swap or fabricate faces, voices, and performances, and it's already being used commercially, sometimes without the proper consent of the people involved. That means we all need to develop a healthy habit of questioning what we see and hear, especially when something feels surprising or designed to provoke a strong emotional reaction. Before you share anything, ask yourself where it came from. The good news is that you don't have to rely on instinct alone. Verification tools are available to help, and there are also visual clues worth watching for, things like unnatural blinking, slight glitches around the face, or audio that doesn't quite match the mouth movements. As a practical next step, I'd encourage you to explore a free media literacy resource, the BBC and Full Fact both offer excellent ones, to help sharpen your detection skills going forward."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Content creators, video editors, social media managers, marketing specialists, brand managers, advertising executives, film producers, game developers, media planners, communications professionals, digital marketing managers",
+  "Team or Dept this is for": "Marketing, Communications, Creative, Brand Management, Media Production, Digital Content, Social Media, Advertising, Entertainment, Public Relations"
+}

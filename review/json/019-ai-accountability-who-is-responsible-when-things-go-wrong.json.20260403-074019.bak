@@ -1,0 +1,107 @@
+{
+  "Course Title": "AI Accountability: Who Is Responsible When Things Go Wrong?",
+  "Category": "Corporate",
+  "Description": "Clarifies roles across employees, managers, and leadership.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with how AI tools are used in a workplace setting, though no technical expertise or prior training in AI governance is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify the key roles and responsibilities of employees, managers, and leadership when AI systems produce unexpected or harmful outcomes. You will also be able to explain how to apply accountability frameworks within your organisation to ensure the right people are informed, involved, and empowered to respond effectively.",
+  "lessons": [
+    {
+      "lesson title": "AI Accountability: Who Is Responsible When Things Go Wrong?",
+      "order": 1,
+      "Description": "When AI tools are used in the workplace, questions about responsibility and accountability can quickly become unclear. This lesson explores what happens when AI produces an error, causes harm, or leads to an unexpected outcome, and examines who is responsible at each level of an organisation. Whether you are an employee using AI day to day, a manager overseeing its use, or a leader setting policy, you have a role to play in ensuring AI is used responsibly. By the end of this lesson, you will have a clearer understanding of how accountability is shared across teams and why no single person or system carries all the responsibility alone.",
+      "status": "draft",
+      "content": "Clarifies roles across employees, managers, and leadership.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Welcome to AI Accountability",
+          "subtitle": "Exploring responsibility in AI use",
+          "slidecontent": "• AI is already part of many everyday workplace decisions\n• When it goes wrong, knowing who is responsible matters\n• Roles vary across employees, managers, and leadership\n• This course makes those responsibilities clear and practical\n• No prior AI knowledge needed"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Defining AI Accountability Roles",
+          "subtitle": "Who owns what in AI use",
+          "slidecontent": "• Employees use AI tools\n• Managers oversee AI decisions\n• Leaders set accountability policy\n• Everyone shares some responsibility"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Who Decides? Roles Explained",
+          "subtitle": "Mapping accountability across every level",
+          "slidecontent": "• Employees flag issues\n• Managers investigate problems\n• Leaders set the rules\n• Vendors supply the tools\n• Regulators enforce compliance"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Managers: Oversight and Accountability",
+          "subtitle": "Ensuring Teams Use AI Responsibly",
+          "slidecontent": "• Responsible for ensuring their team understands and follows the organisation's AI policies\n• Must spot misuse early\n• Reviewing AI-assisted outputs before they reach clients or decision-makers\n• Setting clear expectations about when and how AI tools can be used at work\n• Escalating concerns to leadership when AI use raises ethical or compliance questions"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Managers: Oversight and Accountability",
+          "subtitle": "Ensuring Teams Use AI Responsibly",
+          "slidecontent": "• Responsible for ensuring their team understands and follows the organisation's AI policies\n\n• Must review AI-assisted outputs before they are acted upon or shared externally\n\n• Accountable when AI misuse occurs within their team\n\n• Should flag gaps in training or unclear guidance to senior leadership\n\n• Regularly checking in with staff about how AI tools are being used in day-to-day work"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Managers: Oversight and Accountability",
+          "subtitle": "Ensuring Teams Use AI Responsibly",
+          "slidecontent": "• Responsible for ensuring their team understands and follows the organisation's AI policies\n\n• Must review AI-assisted outputs before they are approved or acted upon\n\n• Accountable when poor AI use causes harm within their team\n\n• Should flag risks upward to leadership promptly\n\n• Provide clear guidance on which AI tools are permitted and how they should be used"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Reporting Concerns and Escalation",
+          "subtitle": "Speak Up, Escalate, Drive Change",
+          "slidecontent": "• Spot it, report it early\n• Tell your manager first\n• Use official reporting channels\n• Escalate if nothing changes\n• Document what you observed\n• Everyone can raise concerns"
+        },
+        {
+          "number": 8,
+          "slidetitle": "What to Remember",
+          "subtitle": "Core principles to carry forward always.",
+          "slidecontent": "• AI errors need human owners\n• Know your role clearly\n• Speak up when unsure\n• Document decisions always\n• Accountability starts with you"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome, and thank you for joining this course on AI accountability. Whether you realise it or not, artificial intelligence is already influencing decisions in many workplaces, from hiring and scheduling to customer service and beyond. And as AI becomes more embedded in how we work, a really important question starts to emerge: when something goes wrong, who is actually responsible? That is exactly what this course is designed to help you understand. We will look at how responsibility is shared across different roles, whether you are a frontline employee, a manager, or part of senior leadership. The good news is that you do not need any prior knowledge of AI to follow along. Everything is explained in plain, practical terms. By the end, you will have a much clearer sense of where your own responsibilities lie and what that means in your day-to-day role. So let us get started."
+        },
+        {
+          "number": 2,
+          "script": "So when we talk about AI accountability, one of the first questions people ask is, \"Well, who exactly is responsible?\" And the honest answer is that it depends on your role, but no one is completely off the hook. If you are an employee using an AI tool day to day, you are responsible for how you use it and for flagging anything that seems off. If you are a manager, your job is to keep an eye on how AI is influencing decisions within your team and to make sure things are being done properly. And if you are in a leadership position, you are the one setting the policies and the standards that shape how AI is used across the whole organisation. But here is the important bit: accountability does not sit neatly with just one person or one level. It is shared. Everyone plays a part, and understanding your specific role is where we need to start."
+        },
+        {
+          "number": 3,
+          "script": "So when something goes wrong with an AI system, who actually steps in? Well, the honest answer is that accountability is shared across several different groups, and each one plays a distinct role. On the ground, it is often everyday employees who first notice that something feels off, perhaps a decision looks unfair or a result seems wrong. They flag it. Their managers then take that concern seriously and investigate what has actually happened. Further up the chain, senior leaders are responsible for setting the policies and standards that govern how AI is used in the first place. Then you have the vendors, the companies that build and supply the AI tools, who carry responsibility for how those tools behave. And finally, regulators sit above all of this, making sure that organisations are following the rules and holding them to account when they are not. It is a whole ecosystem of responsibility, and understanding each layer is really where we need to start."
+        },
+        {
+          "number": 4,
+          "script": "When it comes to AI in the workplace, managers sit in a really important position. You're not just responsible for your own use of AI, you're responsible for how your entire team uses it. That means making sure everyone understands the organisation's policies, and spotting any misuse before it becomes a serious problem. It also means reviewing work that's been produced with AI assistance before it goes out to clients or reaches anyone making important decisions. Think of it as a quality control role. Beyond that, managers need to set clear expectations, being explicit about when AI tools are appropriate and when they're not. And if something comes up that feels ethically questionable or raises a compliance concern, it's your responsibility to escalate that to leadership rather than hoping it resolves itself. Managers are genuinely the first line of defence when it comes to responsible AI use within a team."
+        },
+        {
+          "number": 5,
+          "script": "Now let's talk about managers, because they sit in a really important position when it comes to AI accountability. It's not enough for an organisation to have policies in place if managers aren't actively making sure their teams understand and follow them. That responsibility sits squarely with you if you're in a leadership role. Managers also need to be reviewing AI-assisted work before it goes anywhere, whether that's being acted on internally or shared outside the organisation. And if something does go wrong within your team, accountability flows upward to you. But it's not just about catching problems after the fact. Good managers are having regular conversations with their staff about how AI tools are actually being used day to day. And if you spot gaps in training, or the guidance from above isn't clear enough, it's your job to raise that with senior leadership. Managers are the bridge between policy and practice."
+        },
+        {
+          "number": 6,
+          "script": "Now let's talk about managers, because they sit in a really important position when it comes to AI accountability. It's not enough for a manager to simply allow their team to use AI tools and hope for the best. Managers are responsible for making sure their people actually understand the organisation's AI policies and are following them in practice. They also need to be reviewing AI-assisted work before it gets approved or acted upon, because if something goes wrong within their team, accountability sits with them. That's a significant responsibility. Managers should also be proactive about flagging any concerns or risks upward to leadership, rather than waiting for problems to escalate. And practically speaking, they need to give their teams clear, straightforward guidance on which AI tools are permitted and how those tools should be used. Think of the manager as the bridge between organisational policy and day-to-day practice. That bridge needs to be solid."
+        },
+        {
+          "number": 7,
+          "script": "When something feels off with an AI system, the most important thing you can do is act early. Do not wait and hope the problem resolves itself. Start by raising it with your manager, because they can often address issues quickly at a local level. If your organisation has a formal reporting channel, such as an ethics hotline or an AI governance process, use it. And if you raise a concern and nothing happens, do not let it drop. Escalate it further up the chain. One practical habit that really helps here is keeping a record of what you noticed, when you noticed it, and what you did about it. That documentation can be genuinely valuable if the issue is investigated later. The broader message is this: you do not need to be a senior leader or a technical expert to speak up. Everyone in the organisation has both the right and the responsibility to raise concerns about AI."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together. When AI makes a mistake, a human being needs to own that and put it right. That means you need to be clear about your own role in any AI-driven process. Where does your responsibility begin and end? If something feels off, or you are not sure whether a decision is appropriate, say so. Raising a concern early is always better than staying silent and hoping for the best. And whatever decisions you make alongside AI systems, write them down. Documentation protects you, your team, and the people your work affects. Most importantly, accountability is not something that sits with a system or a policy document. It starts with each of us, individually, in the choices we make every single day. These five principles are simple, but they are genuinely powerful. Keep them close, and you will be far better placed to use AI responsibly and confidently."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Employees using AI tools, managers overseeing AI implementation, team leaders, department heads, executives, project managers, compliance officers, risk managers",
+  "Team or Dept this is for": "Management, Leadership, Compliance, Risk Management, Legal, HR, Operations"
+}

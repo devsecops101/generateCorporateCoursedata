@@ -25,45 +25,45 @@
         },
         {
           "number": 2,
-          "slidetitle": "Critical Systems at Risk",
-          "subtitle": "Healthcare AI systems face growing threats.",
-          "slidecontent": "• AI systems power patient care\n• Attacks disrupt critical decisions\n• Downtime risks patient safety\n• Data loss affects diagnoses\n• Threats are growing rapidly"
+          "slidetitle": "What Makes AI Systems Attractive Targets",
+          "subtitle": "Why attackers focus on healthcare AI",
+          "slidecontent": "• AI systems hold vast amounts of patient data\n• Healthcare organisations often pay ransoms quickly due to life-or-death urgency\n• Many AI platforms connect to multiple hospital systems\n• Security gaps exist where legacy systems meet new AI tools\n• High-value targets with significant disruption potential"
         },
         {
           "number": 3,
-          "slidetitle": "Disruption to AI-Driven Systems",
-          "subtitle": "When AI Fails, Patient Care Suffers",
-          "slidecontent": "• AI tools now handle critical tasks like diagnosing conditions, managing drug dosages, and flagging urgent patient alerts\n• A ransomware attack can freeze these systems instantly\n• Clinicians are left without real-time decision support at the worst possible moment\n• Delays in AI-assisted triage can mean slower treatment for time-sensitive conditions like stroke or cardiac arrest\n• Hospitals relying heavily on automation have fewer manual backup processes in place\n• The more integrated AI becomes, the greater the damage when it goes offline"
+          "slidetitle": "Immediate Impact on Clinical Care",
+          "subtitle": "When AI tools fail during active patient care",
+          "slidecontent": "• Diagnostic imaging systems freeze mid-scan\n• Drug interaction alerts disappear without warning\n• Patient monitoring alarms stop functioning\n• Treatment recommendations become unavailable\n• Emergency protocols revert to manual processes"
         },
         {
           "number": 4,
-          "slidetitle": "Disruption Amplified by AI Dependency",
-          "subtitle": "When AI Fails, So Does Care",
-          "slidecontent": "• AI runs critical care tools\n• Ransomware locks those tools\n• Diagnoses stop or slow\n• Patients face real danger\n• No backup means no care"
+          "slidetitle": "Cascading Effects Across Hospital Operations",
+          "subtitle": "How AI dependency amplifies ransomware damage",
+          "slidecontent": "• One compromised system affects interconnected workflows\n• Staff lose decision-support tools simultaneously\n• Manual backup procedures may be outdated or untested\n• Recovery time extends as AI systems require specialized restoration\n• Patient throughput slows significantly"
         },
         {
           "number": 5,
-          "slidetitle": "Disruption Amplified by AI Dependency",
-          "subtitle": "When AI fails, consequences multiply fast.",
-          "slidecontent": "• AI down, care stops\n• Diagnoses delayed instantly\n• Alerts silenced, patients harmed\n• One hack, many failures\n• Recovery takes days longer"
+          "slidetitle": "Time-Critical Scenarios",
+          "subtitle": "When seconds matter and AI fails",
+          "slidecontent": "• Stroke diagnosis tools become unavailable during suspected cases\n• Cardiac monitoring AI stops alerting to dangerous rhythms\n• ICU systems lose predictive analytics for patient deterioration\n• Emergency department triage algorithms go offline\n• Operating room navigation systems halt mid-procedure"
         },
         {
           "number": 6,
-          "slidetitle": "Disruption Amplified by AI Dependency",
-          "subtitle": "When AI Fails, So Does Care",
-          "slidecontent": "• AI-driven diagnostic tools and patient monitoring systems now sit at the heart of daily clinical workflows\n• A ransomware attack can lock these systems instantly\n• Clinicians lose access to AI-generated alerts, dosage recommendations, and real-time patient data all at once\n• Delays in care follow immediately\n• Hospitals relying heavily on AI face a steeper recovery curve than those using traditional paper-based backups\n• Staff trained primarily on AI-assisted processes may struggle to revert to manual procedures under pressure"
+          "slidetitle": "Staff Adaptation Challenges",
+          "subtitle": "Human factors in AI-dependent environments",
+          "slidecontent": "• Clinical staff trained primarily on AI-assisted workflows struggle with manual procedures\n• Muscle memory relies on automated prompts and alerts\n• Decision-making confidence decreases without AI support\n• Workflow efficiency drops dramatically during system outages\n• Training gaps emerge between experienced and newer staff"
         },
         {
           "number": 7,
-          "slidetitle": "Disruption Amplified by AI Dependency",
-          "subtitle": "When AI Fails, Consequences Multiply Fast",
-          "slidecontent": "• AI down, care stops\n• Diagnoses delayed instantly\n• Alerts silenced, patients harmed\n• Staff revert to paper\n• Backups often AI-dependent too"
+          "slidetitle": "Recovery Complications",
+          "subtitle": "Why AI systems take longer to restore",
+          "slidecontent": "• AI models require extensive data validation before restart\n• Machine learning algorithms need retraining after data corruption\n• Interconnected systems must be restored in specific sequences\n• Safety checks increase restoration time significantly\n• Backup AI systems may also be compromised"
         },
         {
           "number": 8,
-          "slidetitle": "Key Points to Remember",
-          "subtitle": "Core lessons for lasting cyber resilience",
-          "slidecontent": "• Ransomware attacks on AI-driven healthcare systems can delay diagnoses, disrupt treatment, and put lives at risk\n• Regular, tested backups are your strongest defence\n• Staff training reduces the risk of phishing, the most common entry point for attackers\n• AI tools need the same security controls as any other critical system\n• Patch early, patch often\n• As a next step, review your organisation's incident response plan and confirm it covers AI-dependent systems"
+          "slidetitle": "Building Resilience",
+          "subtitle": "Practical steps for protection and preparedness",
+          "slidecontent": "• Maintain and test manual backup procedures regularly\n• Implement network segmentation to isolate AI systems\n• Train staff on both AI-assisted and traditional workflows\n• Develop incident response plans specific to AI system failures\n• Conduct regular security assessments of AI infrastructure\n• Establish clear communication protocols during outages"
         }
       ],
       "scripts": [
@@ -73,31 +73,31 @@
         },
         {
           "number": 2,
-          "script": "So let's think about what's actually at risk here. Modern healthcare relies on AI systems far more than most people realise. These systems are helping clinicians make decisions about diagnoses, treatment plans, medication dosages, and patient monitoring, often in real time. Now, when a ransomware attack hits, those systems can go offline completely. And that is not just an inconvenience, it is genuinely dangerous. Doctors and nurses may suddenly find themselves without access to the tools and data they depend on to do their jobs safely. Patient records, scan results, test data, all of it can become inaccessible or, in the worst cases, corrupted or lost entirely. That directly affects the quality of care that patients receive. And here is the really concerning part: these attacks are not slowing down. Healthcare organisations are being targeted more frequently and more aggressively than ever before. So understanding why these systems are so vulnerable is absolutely the right place for us to start."
+          "script": "So why do cybercriminals specifically target healthcare AI systems? It comes down to a combination of value and vulnerability. These systems store enormous amounts of sensitive patient data, making them goldmines for attackers. But there's something else at play here: healthcare organisations are under intense pressure to restore services quickly because lives are literally on the line. That urgency often leads to faster ransom payments, which makes healthcare an attractive target. Add to that the fact that many AI platforms are deeply integrated with other hospital systems, so compromising one can give attackers access to many others. Finally, there's often a security gap where older legacy systems connect to newer AI tools, creating weak points that attackers can exploit."
         },
         {
           "number": 3,
-          "script": "So we've established that ransomware can bring hospital systems to a standstill, but let's think about what that actually means when AI is woven into everyday clinical care. These days, AI isn't just a nice extra feature. It's actively helping clinicians diagnose conditions, calculate safe drug dosages, and flag patients who need urgent attention. The moment a ransomware attack hits, all of that disappears. Doctors and nurses are suddenly working blind, without the real-time support they've come to rely on. And the timing couldn't be worse, because when someone is having a stroke or a cardiac arrest, every second genuinely counts. Here's another concern worth highlighting: hospitals that have embraced automation heavily often have fewer manual backup procedures in place, because they simply haven't needed them. So the deeper AI becomes embedded in how a hospital operates, the more vulnerable that hospital becomes when those systems go down."
+          "script": "Let's talk about what happens in the immediate moments when ransomware hits AI-powered clinical tools. Picture this: a radiologist is reviewing scan images when the AI diagnostic system suddenly freezes mid-analysis. Or a pharmacist preparing medications loses access to drug interaction alerts without any warning. Patient monitoring systems that normally catch dangerous heart rhythms go silent. Treatment recommendation engines that help doctors choose the safest therapies become completely unavailable. In these situations, clinical staff have to immediately switch to manual emergency protocols, often under intense pressure while patients are waiting for care."
         },
         {
           "number": 4,
-          "script": "Now, here is where things get really serious. In modern healthcare, artificial intelligence is not just a nice extra feature. It is actively running the tools that clinicians depend on every single day, things like diagnostic imaging systems, patient monitoring, and treatment planning software. So when ransomware strikes and locks down those systems, it is not simply an IT inconvenience. Care itself grinds to a halt. Doctors cannot get diagnoses. Nurses cannot access patient data. And in critical situations, that delay can genuinely cost lives. What makes this even more alarming is the dependency problem. If a hospital has built its workflows around AI-powered tools and has not maintained proper manual backups or fallback procedures, there is simply nothing to fall back on. The whole system freezes. This is why understanding the relationship between ransomware and AI is so important for anyone working in or around healthcare. The stakes could not be higher."
+          "script": "Here's where the AI dependency really shows its dark side. When one AI system goes down, it doesn't just affect that single tool. Because these systems are interconnected, the failure cascades across multiple workflows simultaneously. Suddenly, doctors lose their decision-support tools, nurses can't access patient alerts, and pharmacists are working without safety checks, all at the same time. The manual backup procedures that hospitals have in place may not have been tested recently or might not even exist for newer AI tools. What's particularly concerning is that recovering AI systems isn't like rebooting a computer. These complex systems require specialized restoration processes, which can take days or even weeks to complete safely."
         },
         {
           "number": 5,
-          "script": "Now, here's where things get really serious. Modern hospitals have become deeply reliant on AI systems to keep everything running smoothly. But when ransomware strikes and those systems go offline, the consequences don't just add up, they multiply. Think about it: if an AI tool that helps doctors interpret scans or flag urgent test results suddenly stops working, diagnoses get delayed immediately. Not eventually, straight away. And it's not just one department that feels it. Critical patient monitoring alerts can go silent, meaning staff simply don't receive the warnings they need to act quickly. What makes this especially alarming is that a single successful attack can trigger failures right across the hospital, because so many systems are connected and dependent on one another. And recovering from that isn't a matter of hours. It can take days, sometimes longer, to safely restore everything. So the more we rely on AI in healthcare, the higher the stakes become when something goes wrong."
+          "script": "Now let's consider the most frightening scenarios, where timing is absolutely critical. Imagine an elderly patient showing signs of stroke, but the AI tools that help doctors quickly analyze brain scans are offline. Or consider an ICU where predictive analytics normally warn staff hours in advance when a patient might deteriorate, but those early warning systems are silent. In the emergency department, triage algorithms that help prioritize the sickest patients stop working just when the department is at its busiest. Perhaps most alarming, there have been cases where surgical navigation systems have failed during active procedures, forcing surgeons to continue without the technological assistance they were counting on."
         },
         {
           "number": 6,
-          "script": "Now, here's where things get particularly concerning. Over the past few years, AI has become deeply woven into everyday clinical work. Diagnostic tools, patient monitoring systems, dosage alerts - these aren't optional extras anymore, they're central to how care is delivered. So when a ransomware attack hits and locks those systems down, the impact isn't just an IT inconvenience. Clinicians suddenly lose access to everything at once - the alerts, the recommendations, the real-time data they rely on to make decisions. And that translates directly into delays in patient care. What's more, hospitals that have leaned heavily into AI face a much harder recovery than those that kept traditional paper-based processes in place. There's also a very human challenge here. Staff who've been trained primarily on AI-assisted workflows may genuinely struggle to revert to manual procedures when they're under pressure. The dependency itself becomes a vulnerability."
+          "script": "There's a very human dimension to this challenge that often gets overlooked. Many clinical staff, particularly those who started their careers in the AI era, have been trained primarily on AI-assisted workflows. Their muscle memory and decision-making processes rely heavily on automated prompts, alerts, and recommendations. When those systems suddenly disappear, it's not just inconvenient - it can genuinely shake their confidence and slow their decision-making at critical moments. This creates an interesting generational divide too, where staff with more traditional training may adapt more easily to manual procedures than their colleagues who've always worked with AI support."
         },
         {
           "number": 7,
-          "script": "Now, here's where things get really serious. As healthcare becomes more dependent on AI, a ransomware attack doesn't just lock files, it can bring entire care pathways to a standstill. Think about what that means in practice. AI tools that flag urgent test results or monitor patient vitals go silent. Diagnoses that would normally be flagged within seconds are suddenly delayed by hours. Clinical staff, who may never have worked without these systems, are left scrambling to revert to paper-based processes they haven't used in years. And here's the part that often surprises people: even the backup systems aren't always safe, because many of them are also AI-driven or connected to the same compromised infrastructure. So when the attack hits, the safety nets can fall at the same time as everything else. The dependency on AI amplifies the disruption enormously, and that's precisely why understanding this risk matters so much in a healthcare context."
+          "script": "Recovery from a ransomware attack on AI systems presents unique challenges that many hospitals aren't fully prepared for. Unlike simple database systems, AI tools often require extensive data validation before they can be safely restarted. Machine learning models may need complete retraining if their underlying data has been corrupted. There's also a sequencing problem - interconnected AI systems must often be restored in a specific order, which significantly extends the recovery timeline. Safety checks that are absolutely necessary in healthcare settings add even more time to the process. Perhaps most concerning, backup AI systems may have been compromised in the same attack, leaving no immediate fallback option."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The core message here is simple: ransomware targeting AI-driven healthcare systems is not just an IT problem, it is a patient safety problem. Delayed diagnoses and disrupted treatments can have real consequences for real people. The good news is that the fundamentals of protection are well within reach. Keep your backups regular and actually test them. Invest in staff training, because most attacks still begin with a phishing email, and your people are your first line of defence. Remember that your AI tools are critical systems, so treat them with the same security rigour as everything else. And please, do not put off patching. Finally, here is something practical you can do this week: pull out your organisation's incident response plan and check whether it specifically accounts for AI-dependent systems. If it does not, that is your starting point. Small, consistent actions like these are what build lasting resilience over time."
+          "script": "So what can healthcare organizations do to build genuine resilience against these threats? The foundation is maintaining robust manual backup procedures and actually testing them regularly, not just assuming they'll work when needed. Network segmentation is crucial - isolating AI systems can prevent attacks from spreading throughout the entire hospital infrastructure. Staff training is equally important, ensuring everyone can work effectively both with and without AI assistance. Organizations need incident response plans that specifically address AI system failures, not just generic IT outages. Regular security assessments should include AI infrastructure, not treat it as separate from other critical systems. Finally, clear communication protocols help coordinate responses when systems fail and staff are working under pressure."
         }
       ]
     }

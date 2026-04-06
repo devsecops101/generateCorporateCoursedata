@@ -19,85 +19,85 @@
       "slides": [
         {
           "number": 1,
-          "slidetitle": "What Makes AI Policies Fail",
-          "subtitle": "Complexity, vagueness, and poor adoption.",
-          "slidecontent": "• Too long to read\n• Too vague to follow\n• Nobody trains staff\n• Rules change, docs don't\n• No one owns it"
+          "slidetitle": "Why AI Policies End Up Ignored",
+          "subtitle": "Five common structural problems",
+          "slidecontent": "• Too long to read (20+ pages)\n• Too vague to apply in practice\n• No staff training provided\n• Outdated when tools evolve\n• No clear ownership"
         },
         {
           "number": 2,
-          "slidetitle": "Why Most AI Policies Fail",
-          "subtitle": "They ignore how people actually work.",
-          "slidecontent": "• Written by legal or IT teams with no input from the people doing the work\n• Too long to read\n• Full of vague rules that nobody knows how to apply in real situations\n• No examples, just abstract guidance\n• Ignored from day one because staff weren't involved in creating them\n• Built around fear of AI rather than practical, realistic use"
+          "slidetitle": "The Root Problem with Failed Policies",
+          "subtitle": "Written for lawyers, not workers",
+          "slidecontent": "• Created by legal/IT without user input\n• Abstract guidance with no real examples\n• Built around fear rather than practical use\n• Disconnected from actual workflows\n• Lands in inbox, gets skimmed once, forgotten"
         },
         {
           "number": 3,
-          "slidetitle": "Why Most AI Policies Fail",
-          "subtitle": "They ignore how people actually work.",
-          "slidecontent": "• Too long, nobody reads\n• Full of jargon\n• Ignores real workflows\n• No clear examples\n• Written without staff input"
+          "slidetitle": "How Poor Design Kills Adoption",
+          "subtitle": "When policies ignore reality",
+          "slidecontent": "• Legal jargon instead of plain language\n• No connection to daily work tasks\n• Staff excluded from creation process\n• Zero practical scenarios provided\n• Feels punitive, not helpful"
         },
         {
           "number": 4,
-          "slidetitle": "What Effective AI Policies Include",
-          "subtitle": "Clear rules, real-world context included.",
-          "slidecontent": "• A clear statement of which AI tools are approved for use\n• Specific examples of tasks staff can and cannot do with AI\n• Simple language anyone can understand\n• Guidance on handling sensitive or confidential information\n• A named person or team responsible for questions and updates\n• A review date so the policy stays current"
+          "slidetitle": "Essential Components of Working Policies",
+          "subtitle": "Six elements that ensure compliance",
+          "slidecontent": "• Specific approved AI tools listed\n• Concrete task examples (allowed/prohibited)\n• Guidelines for sensitive information\n• Named policy owner for questions\n• Scheduled review dates\n• Plain language throughout"
         },
         {
           "number": 5,
-          "slidetitle": "What Good Policies Include",
-          "subtitle": "Clear, practical, and easy to follow.",
-          "slidecontent": "• Clear purpose and scope\n• Simple, plain language\n• Specific approved use cases\n• Guidance on what to avoid\n• Easy to update regularly"
+          "slidetitle": "Framework for Effective Policy Structure",
+          "subtitle": "Clear purpose drives better outcomes",
+          "slidecontent": "• Defined scope and purpose statement\n• Specific approved use cases\n• Clear boundaries and restrictions\n• Regular update expectations\n• Simple, conversational tone"
         },
         {
           "number": 6,
-          "slidetitle": "Keeping Policies Simple and Clear",
-          "subtitle": "Plain language builds lasting compliance.",
-          "slidecontent": "• Avoid jargon and acronyms\n• Write for real people\n• One rule, one sentence\n• Short policies get read\n• Simple means fewer mistakes"
+          "slidetitle": "The Power of Plain Language",
+          "subtitle": "Simplicity reduces errors and improves compliance",
+          "slidecontent": "• One rule per sentence\n• No jargon or acronyms\n• Fits on single page\n• Written for actual users\n• Clear expectations, fewer mistakes"
         },
         {
           "number": 7,
-          "slidetitle": "What Good Policies Include",
-          "subtitle": "Clear, simple, and actually followed.",
-          "slidecontent": "• A clear statement of which AI tools are approved for use\n• Specific examples of what staff can and cannot do\n• Simple enough to read in under five minutes\n• Guidance on handling sensitive or confidential information\n• A named person or team responsible for questions and updates\n• A review date so the policy stays current"
+          "slidetitle": "Practical Implementation Checklist",
+          "subtitle": "What your policy needs to function",
+          "slidecontent": "• 5-minute reading time maximum\n• Real examples for common situations\n• Sensitive data handling protocols\n• Designated point of contact\n• Built-in revision schedule\n• User-friendly language"
         },
         {
           "number": 8,
-          "slidetitle": "What to Remember",
-          "subtitle": "The essentials worth keeping in mind.",
-          "slidecontent": "• Simple, clear policies get followed; complex ones get ignored\n• Focus on behaviours, not just tools\n• Start small and update as you learn\n• Involve your team early\n• A one-page policy that people actually read beats a lengthy document that nobody opens\n• Your next step: pick one AI use case in your organisation and draft three short rules around it this week"
+          "slidetitle": "Key Principles and Next Steps",
+          "subtitle": "Start small, involve people, iterate",
+          "slidecontent": "• Simple beats comprehensive every time\n• Focus on behaviors, not just tools\n• Include your team in creation\n• Start with one use case\n• Action item: Draft 3 rules for one AI scenario this week"
         }
       ],
       "scripts": [
         {
           "number": 1,
-          "script": "Let's start by looking at why most AI usage policies fail, because understanding the problem is the first step to solving it. In my experience, there are five common reasons. First, the policy is simply too long. Nobody reads a forty-page document, full stop. Second, even when people do read it, the language is so vague that staff have no idea what they're actually allowed to do. Third, organisations write the policy and then do absolutely nothing to train their people on it. Fourth, AI tools move incredibly fast, and the written policy gets left behind, becoming outdated almost immediately. And fifth, nobody is clearly responsible for keeping it alive and up to date. When there's no owner, nothing gets maintained. So what we end up with is a document that exists on a shared drive somewhere, that nobody reads, nobody follows, and nobody updates. Sound familiar? Good, because that's exactly what this course is going to help you fix."
+          "script": "Let's start by looking at why most AI usage policies fail, because understanding the problem is the first step to solving it. In my experience, there are five common reasons. First, the policy is simply too long. Nobody reads a forty-page document, full stop. Second, even when people do read it, the language is so vague that staff have no idea what they're actually allowed to do. Third, organisations write the policy and then do absolutely nothing to train their people on it. Fourth, AI tools move incredibly fast, and the written policy gets left behind, becoming outdated almost immediately. And fifth, nobody is clearly responsible for keeping it alive and up to date. When there's no owner, nothing gets maintained. So what we end up with is a document that exists on a shared drive somewhere, that nobody reads, nobody follows, and nobody updates. Sound familiar?"
         },
         {
           "number": 2,
-          "script": "So why do most AI policies fail? Honestly, it usually comes down to one core problem: they're written for the organisation, not for the people actually doing the work. They tend to come from legal or IT teams who, with the best intentions, produce something lengthy, vague, and full of abstract guidance that nobody quite knows how to apply on a Tuesday afternoon when they're trying to get something done. There are no real examples, no practical scenarios, just rules that feel disconnected from reality. And because staff weren't involved in creating them, the policy lands in an inbox, gets skimmed once, and is never looked at again. There's also often a tone of anxiety running through them, as if AI is something to be feared and controlled rather than used sensibly. That approach doesn't build good habits. It just builds resentment. So in this course, we're going to do things differently."
+          "script": "The fundamental issue with most failed AI policies is that they're written for the organisation, not for the people actually doing the work. They tend to come from legal or IT teams who, with the best intentions, produce something lengthy and full of abstract guidance that nobody quite knows how to apply on a Tuesday afternoon when they're trying to get something done. There are no real examples, no practical scenarios, just rules that feel disconnected from reality. And because staff weren't involved in creating them, the policy lands in an inbox, gets skimmed once, and is never looked at again. There's also often a tone of anxiety running through them, as if AI is something to be feared and controlled rather than used sensibly."
         },
         {
           "number": 3,
-          "script": "So why do so many AI policies end up gathering dust? In my experience, it usually comes down to a handful of the same problems. The policy is twenty pages long and nobody actually reads it. It is packed with legal or technical jargon that means very little to the people who are supposed to follow it. It talks about AI in the abstract but completely ignores how staff actually do their jobs day to day. There are no practical examples, so people are left guessing what is and is not acceptable. And perhaps most importantly, the policy was written by someone in a back room without ever asking the people it affects. When staff have no input, the policy does not reflect reality, and it simply does not get followed. The good news is that all of these problems are avoidable, and that is exactly what we are going to work through together in this course."
+          "script": "Beyond the structural problems, there's a design issue that kills adoption before it even begins. When policies are packed with legal or technical jargon, they mean very little to the people who are supposed to follow them. They talk about AI in the abstract but completely ignore how staff actually do their jobs day to day. Most importantly, when staff have no input in the creation process, the policy doesn't reflect reality, and it simply doesn't get followed. Instead of feeling supported, people feel like they're being managed by someone who doesn't understand their work. That's not a recipe for compliance."
         },
         {
           "number": 4,
-          "script": "So what actually goes into a policy that people will use? First, it needs to spell out exactly which AI tools your organisation has approved, so staff are not left guessing. Alongside that, you want concrete examples of what is and is not acceptable, because vague rules tend to get ignored. The language should be plain and straightforward, written for everyone, not just the technical team. You also need a clear section on handling sensitive or confidential information, because that is where the real risk tends to sit. It is worth naming a specific person or team who owns the policy and can answer questions, so staff know exactly who to go to. And finally, include a review date. AI is moving quickly, and a policy written today will need revisiting before long. These six elements together give you something practical, something your team can actually follow day to day."
+          "script": "So what actually goes into a policy that people will use? First, it needs to spell out exactly which AI tools your organisation has approved, so staff aren't left guessing. Alongside that, you want concrete examples of what is and isn't acceptable, because vague rules tend to get ignored. You also need a clear section on handling sensitive or confidential information, because that's where the real risk tends to sit. It's worth naming a specific person or team who owns the policy and can answer questions, so staff know exactly who to go to. Include a review date, because AI is moving quickly and a policy written today will need revisiting before long. These six elements together give you something practical that your team can actually follow day to day."
         },
         {
           "number": 5,
-          "script": "So what actually makes a good AI usage policy? Let me walk you through the key ingredients. First, it needs to be clear about its purpose, who it applies to, and what it covers. People should be able to read it and immediately understand why it exists. Next, keep the language simple and plain. Avoid jargon, avoid legal-sounding phrases, and write it the way you would explain it to a colleague over a cup of tea. You also want to spell out the specific ways AI can be used in your organisation, so there is no guesswork involved. Alongside that, give people clear guidance on what to avoid, whether that is sharing sensitive data or using AI for certain types of decisions. And finally, build in the expectation that the policy will be updated regularly, because AI is moving fast and your policy needs to keep pace. Simple, practical, and genuinely useful. That is the goal."
+          "script": "Building on those components, your policy needs a solid structural framework. Start with a clear statement about the policy's purpose, who it applies to, and what it covers. People should be able to read it and immediately understand why it exists. Then spell out the specific ways AI can be used in your organisation, so there's no guesswork involved. Alongside that, give people clear guidance on what to avoid, whether that's sharing sensitive data or using AI for certain types of decisions. And build in the expectation that the policy will be updated regularly, because your guidance needs to keep pace with how quickly AI is evolving."
         },
         {
           "number": 6,
-          "script": "Now, one of the biggest mistakes I see organisations make when writing AI policies is trying to sound official. They load the document with technical jargon, acronyms, and legal-sounding language, and the result is that nobody actually reads it. So the golden rule here is to write for real people, the actual humans who will be using these tools day to day. If your policy reads like a contract, it will be treated like one, which means it gets filed away and forgotten. Instead, aim for one clear rule per sentence. Keep it short, keep it direct. A policy that fits on a single page will always outperform a fifty-page document that nobody gets past the introduction. And here is the practical reason this matters beyond just readability: when guidance is simple and clear, people make fewer mistakes. They understand what is expected, they remember it, and they follow it. Simplicity is not laziness. It is genuinely good policy design."
+          "script": "One of the biggest mistakes organisations make when writing AI policies is trying to sound official. They load the document with technical jargon, acronyms, and legal-sounding language, and the result is that nobody actually reads it. So the golden rule here is to write for real people, the actual humans who will be using these tools day to day. If your policy reads like a contract, it will be treated like one, which means it gets filed away and forgotten. Instead, aim for one clear rule per sentence. Keep it short, keep it direct. When guidance is simple and clear, people make fewer mistakes. They understand what's expected, they remember it, and they follow it."
         },
         {
           "number": 7,
-          "script": "So what does a good AI usage policy actually look like in practice? There are a few things that really make the difference. First, it should be crystal clear about which tools your staff are actually allowed to use, and it should give real, practical examples of what they can and cannot do with those tools. Crucially, it needs to be short. If someone has to set aside an afternoon to read your policy, it will not get read. Aim for something a person can get through in five minutes or less. You also want to include some guidance on how to handle sensitive or confidential information, because that is often where organisations run into trouble. Make sure there is a named person or team that staff can go to with questions, so nobody is left guessing. And finally, include a review date. AI is moving quickly, and a policy written today will need revisiting before long."
+          "script": "When it comes to practical implementation, there are some non-negotiables that make the difference between a policy that works and one that sits unused. Your policy should be readable in five minutes or less. If someone has to set aside an afternoon to read it, it won't get read. Include real, practical examples for common situations people encounter. Make sure there's guidance on sensitive information handling, and that staff know exactly who to contact with questions. Most importantly, build in a review schedule. AI is moving quickly, and a policy written today will need revisiting before long. These practical elements ensure your policy actually functions in the real world."
         },
         {
           "number": 8,
-          "script": "So let's bring everything together. The single most important thing to remember is this: simple works. If your policy is too complicated, people will ignore it, full stop. Focus on how you want people to behave, not just on listing which tools they can or cannot use. And please, start small. You do not need to solve everything on day one. Write something brief, share it with your team early so they feel part of the process, and then update it as you learn more. A one-page document that someone actually reads and follows is worth a hundred times more than a polished, lengthy policy that sits in a folder untouched. So here is your practical next step for this week: pick just one AI use case that is already happening in your organisation, and draft three short, clear rules around it. That is it. Small, simple, and genuinely useful. You can absolutely do this."
+          "script": "Let's bring everything together. The single most important thing to remember is this: simple works. If your policy is too complicated, people will ignore it. Focus on how you want people to behave, not just on listing which tools they can or cannot use. Start small - you don't need to solve everything on day one. Write something brief, share it with your team early so they feel part of the process, and then update it as you learn more. A one-page document that someone actually reads and follows is worth a hundred times more than a polished, lengthy policy that sits untouched. So here's your practical next step: pick just one AI use case that's already happening in your organisation, and draft three short, clear rules around it this week."
         }
       ]
     }

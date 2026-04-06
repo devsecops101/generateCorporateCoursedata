@@ -1,0 +1,107 @@
+{
+  "Course Title": "Sensor Spoofing and Data Manipulation Risks",
+  "Category": "Agriculture & Resources: Agriculture, Forestry, Fishing, Mining, Energy",
+  "Description": "How attackers could manipulate environmental or equipment data.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "Learners should have a basic familiarity with how sensors and monitoring systems are used in agricultural, industrial, or resource-based environments, though no technical or cybersecurity background is required.",
+  "Learning objectives": "By the end of this course, you will be able to identify common methods attackers use to spoof sensors or manipulate environmental and equipment data across agricultural, energy, and resource-based operations. You will also be able to explain the potential consequences of data manipulation on critical systems and apply basic protective measures to recognise and respond to suspicious sensor activity.",
+  "lessons": [
+    {
+      "lesson title": "Sensor Spoofing and Data Manipulation Risks",
+      "order": 1,
+      "Description": "This lesson explores how attackers can manipulate the data that sensors collect and transmit, potentially causing serious harm to industrial systems, infrastructure, and decision-making processes. You will learn how spoofing attacks work in practice, including how false readings can be injected into environmental monitoring systems or equipment telemetry to deceive operators and automated controls. The lesson covers real-world examples of sensor manipulation, helping you understand the conditions that make these attacks possible and the consequences they can cause. By the end, you will be able to recognise the warning signs of sensor spoofing and understand why protecting data integrity is a critical part of any security strategy.",
+      "status": "draft",
+      "content": "How attackers could manipulate environmental or equipment data.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Sensor Spoofing: An Introduction",
+          "subtitle": "When Data Lies, Decisions Fail",
+          "slidecontent": "• Sensors collect real-world data that machines and operators rely on to make critical decisions\n• When that data is falsified, systems respond to conditions that do not actually exist\n• Spoofing means feeding false inputs\n• Attackers can manipulate temperature, pressure, flow, or location readings without touching physical equipment\n• The consequences range from minor inefficiencies to catastrophic equipment failure or safety incidents"
+        },
+        {
+          "number": 2,
+          "slidetitle": "What Is Sensor Spoofing?",
+          "subtitle": "Feeding false data to fool systems",
+          "slidecontent": "• Sensor spoofing means deliberately feeding false readings into a system to make it behave incorrectly\n• Attackers target sensors that monitor temperature, pressure, flow rates, or equipment status\n• The system trusts the data it receives\n• Forged inputs can trigger automated responses, override safety controls, or mask real problems\n• No visible intrusion required, just manipulated data"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Real-World Spoofing Attack Examples",
+          "subtitle": "Attacks That Fooled Real-World Systems",
+          "slidecontent": "• GPS signals fooled military drones\n• Insulin pumps hacked remotely\n• Power grid sensors manipulated\n• Car speed data falsified\n• Water treatment readings spoofed"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Real-World Spoofing Attack Examples",
+          "subtitle": "Attacks That Deceived Real-World Systems",
+          "slidecontent": "• GPS spoofing misled military drones\n• Hackers faked industrial sensor readings\n• Stuxnet manipulated centrifuge data\n• Researchers fooled self-driving car sensors\n• Fake weather data disrupted operations"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Real-World Spoofing Attack Examples",
+          "subtitle": "Attacks That Shaped Security Thinking Today",
+          "slidecontent": "• Iranian nuclear centrifuges destroyed by Stuxnet malware after false sensor readings convinced operators everything was running normally\n• GPS spoofing used to redirect commercial drones and, in some cases, entire vessels off course\n• Researchers fooled a Tesla's autopilot by placing small stickers on road markings\n• Medical device sensors manipulated in lab tests to report false patient vitals\n• Cheap equipment, big consequences"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Real-World Spoofing Attack Examples",
+          "subtitle": "Attacks That Fooled Real-World Systems",
+          "slidecontent": "• GPS spoofing used to redirect military drones and commercial ships off course\n• Researchers fooled Tesla's autopilot by placing stickers on road markings\n• Insulin pumps hacked remotely by manipulating sensor readings\n• Industrial control systems targeted in the Stuxnet attack, which fed false data to operators while quietly damaging equipment\n• Traffic sensors tricked using simple software-defined radios\n• Medical monitors spoofed in lab tests to display normal readings during a simulated cardiac event"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Real-World Attack Scenarios",
+          "subtitle": "Attacks That Have Already Happened",
+          "slidecontent": "• GPS signals faked on ships\n• Hospital pumps hacked remotely\n• Factory sensors fed false data\n• Car brakes manipulated wirelessly\n• Power grid readings falsified"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "Core lessons to carry forward",
+          "slidecontent": "• Sensors can be fooled easily\n• Fake data causes real harm\n• Verify readings from multiple sources\n• Attackers target trust in systems\n• Stay alert to unusual readings\n• Report anomalies immediately"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on sensor spoofing and data manipulation risks. To understand why this matters, think about how modern industrial systems actually work. Machines, control systems, and human operators all rely on sensors to tell them what is happening in the real world, things like temperature, pressure, flow rates, and location. Now, what happens if that data is deliberately falsified? The system has no way of knowing the information is wrong, so it acts on it as though it were completely accurate. That is the essence of spoofing, feeding false inputs into a system to make it behave in a way the attacker wants. And here is what makes it particularly concerning: an attacker does not need to physically touch any equipment to do this. The effects can range from small inefficiencies that go unnoticed for a long time, all the way through to serious equipment damage or dangerous safety incidents. Let us explore how that happens."
+        },
+        {
+          "number": 2,
+          "script": "Let's start by making sure we're all clear on what sensor spoofing actually means. At its core, it's about deception. An attacker feeds false data into a system, so instead of receiving accurate readings from a temperature sensor, a pressure gauge, or a flow monitor, the system receives fabricated information. And here's the critical point: the system has no reason to doubt what it's being told. It simply trusts the data and acts on it. That means forged readings can trigger automated responses, cause safety controls to be bypassed, or hide a genuine problem that's developing in the background. What makes this particularly concerning is that there's no need for a dramatic, visible break-in. No doors forced open, no obvious signs of interference. The attack happens quietly, through the data itself. So as we work through this lesson, keep that idea in mind: sometimes the threat isn't someone breaking into your system, it's someone lying to it."
+        },
+        {
+          "number": 3,
+          "script": "These aren't just theoretical risks. Spoofing attacks have already caused real harm in the real world. Military drones have been tricked by false GPS signals, causing them to fly off course or land in the wrong location entirely. Medical devices like insulin pumps have been hacked remotely, which is genuinely frightening when you consider the consequences for a patient. Power grids have had their sensor readings manipulated, putting entire networks at risk of failure. In the automotive world, speed data has been falsified, which could easily lead to dangerous situations on the road. And water treatment facilities have had their monitoring systems spoofed, meaning operators were looking at completely false readings about the safety of the water supply. Each of these examples shows us that when sensors are compromised, the knock-on effects can be serious, sometimes life-threatening. So as we work through this course, keep these real cases in mind, because they illustrate exactly why this topic matters so much."
+        },
+        {
+          "number": 4,
+          "script": "Let's look at some real examples of spoofing attacks that have actually happened in the world. Military drones have been misled by GPS spoofing, causing them to navigate to completely wrong locations because they trusted false positioning signals. In industrial settings, hackers have fed fake readings into sensor systems, making operators believe everything was running normally when it wasn't. Perhaps the most famous case is Stuxnet, a piece of malware that secretly manipulated data from centrifuges in a nuclear facility, causing physical damage while the control systems reported everything was fine. Researchers have also demonstrated how self-driving vehicles can be fooled by manipulating the sensors they rely on to detect obstacles and road conditions. And even weather data systems have been targeted, with false information disrupting operations that depend on accurate forecasts. These aren't theoretical scenarios. They are documented incidents that show just how serious and far-reaching spoofing attacks can be."
+        },
+        {
+          "number": 5,
+          "script": "Let's look at some real examples that show just how serious sensor spoofing can be in practice. Perhaps the most famous is Stuxnet, a piece of malware that silently fed false readings to operators at an Iranian nuclear facility, convincing them everything was fine while the centrifuges were actually tearing themselves apart. Moving on, GPS spoofing has been used to push commercial drones and even large ships off their intended routes, sometimes with significant consequences. Closer to everyday life, security researchers managed to confuse a Tesla's autopilot system simply by placing small stickers on road markings, which is a remarkably low-tech approach to a high risk problem. And in controlled lab settings, scientists have successfully manipulated medical device sensors to report completely false patient readings. What ties all of these together is a rather uncomfortable truth: you do not need expensive, sophisticated equipment to carry out these attacks. The barrier to entry is lower than most people realise."
+        },
+        {
+          "number": 6,
+          "script": "These examples show just how wide-ranging sensor spoofing attacks can be in the real world. Military drones and commercial ships have been redirected off course using GPS spoofing, sometimes with serious consequences. Researchers managed to confuse Tesla's autopilot system simply by placing stickers on road markings, which is a remarkably low-tech approach. In healthcare, insulin pumps have been hacked remotely by feeding false sensor readings to the device, and in lab tests, medical monitors were tricked into displaying normal readings during a simulated cardiac event. That last one is particularly alarming when you think about patient safety. Then there is Stuxnet, one of the most sophisticated attacks ever recorded, where industrial control systems were fed false data so that operators saw everything as normal, while the equipment was quietly being destroyed. Even traffic sensors have been fooled using relatively cheap, off-the-shelf radio equipment. The point is, no sector is immune to this kind of threat."
+        },
+        {
+          "number": 7,
+          "script": "These aren't hypothetical scenarios or science fiction. They are real incidents that have already occurred. Ships in the Black Sea have had their GPS signals spoofed, causing navigation systems to show completely false positions. Insulin pumps and drug delivery devices in hospitals have been accessed remotely and tampered with, putting patients at serious risk. In industrial settings, attackers have fed false readings into factory sensors, causing machinery to behave erratically or shut down entirely. Researchers have demonstrated that car braking systems can be manipulated wirelessly, which is an alarming prospect given how much we rely on vehicle safety systems. And power grids have had their monitoring data falsified, meaning operators were making decisions based on information that simply wasn't true. The common thread here is that in every case, someone trusted the data their system was receiving, and that trust was exploited. That is exactly why understanding these risks matters so much."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring everything together with the core lessons from this session. The first thing to remember is that sensors are not infallible. They can be deceived, and when they are, the consequences in the real world can be serious. That is why you should never rely on a single reading alone. Cross-checking data from multiple sources is one of the simplest and most effective defences you have. It is also worth understanding that attackers deliberately target the trust we place in automated systems. They know that if a sensor says everything is fine, most people will believe it. So stay curious and stay alert. If something looks unusual or out of place, do not dismiss it. Trust your instincts and report it straight away. Even a small anomaly could be the early sign of something more significant. These habits, verifying data, questioning the unexpected, and reporting promptly, are what help keep systems and people safe."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Operations managers, facility supervisors, plant operators, field technicians, equipment managers, safety coordinators, production supervisors, maintenance staff, environmental monitoring personnel",
+  "Team or Dept this is for": "Operations, Maintenance, Safety, Environmental Health and Safety, Production, Facilities Management, Field Operations"
+}

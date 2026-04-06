@@ -31,33 +31,33 @@
         },
         {
           "number": 3,
-          "slidetitle": "Spotting the Warning Signs",
-          "subtitle": "Clues That Reveal a Fake",
-          "slidecontent": "• Unnatural blinking or eyes\n• Blurry edges around hair\n• Voice sounds slightly robotic\n• Lip sync looks off\n• Lighting shifts oddly mid-video"
+          "slidetitle": "How Criminals Use Deepfakes",
+          "subtitle": "Common attack methods targeting businesses",
+          "slidecontent": "• CEO fraud: fake video calls authorising wire transfers\n• Voice cloning for phone-based financial scams\n• Fabricated conference calls to manipulate stock prices\n• Fake customer service calls to extract sensitive data\n• Impersonating suppliers to redirect payments"
         },
         {
           "number": 4,
           "slidetitle": "Spotting the Warning Signs",
-          "subtitle": "What to look for in content",
-          "slidecontent": "• Unnatural blinking patterns or stiff, limited facial movement\n• Blurry or shifting edges around the hairline and face\n• Audio that feels slightly out of sync with lip movements\n• Odd lighting\n• Skin texture that looks too smooth or waxy under close inspection\n• Background details that blur, warp, or repeat unnaturally"
+          "subtitle": "Technical clues that reveal a fake",
+          "slidecontent": "• Unnatural blinking patterns or stiff, limited facial movement\n• Blurry or shifting edges around the hairline and face\n• Audio that feels slightly out of sync with lip movements\n• Odd lighting inconsistencies\n• Skin texture that looks too smooth or waxy\n• Background details that blur, warp, or repeat unnaturally"
         },
         {
           "number": 5,
-          "slidetitle": "Protecting Your Organisation From Deepfakes",
-          "subtitle": "Practical Steps to Stay Secure",
-          "slidecontent": "• Verify unexpected requests through a second, trusted channel before acting\n• Establish a code word system for sensitive communications between executives\n• Train staff regularly\n• Limit the amount of audio and video of key personnel shared publicly online\n• Create clear escalation procedures for reporting suspected deepfake attempts\n• Review and tighten access controls for financial and data systems"
+          "slidetitle": "Prevention Through Policy",
+          "subtitle": "Organisational safeguards and controls",
+          "slidecontent": "• Establish clear escalation procedures for financial requests\n• Require dual approval for transfers above threshold amounts\n• Limit publicly available audio and video of key personnel\n• Create written confirmation requirements for sensitive decisions\n• Implement access controls that prevent single-person authorisation"
         },
         {
           "number": 6,
-          "slidetitle": "Protecting Your Organisation From Deepfakes",
-          "subtitle": "Practical steps to reduce your exposure",
-          "slidecontent": "• Verify requests via second channel\n• Use code words for transfers\n• Train staff regularly\n• Slow down urgent requests\n• Report suspicious calls promptly"
+          "slidetitle": "Verification Techniques",
+          "subtitle": "How to confirm authenticity in real-time",
+          "slidecontent": "• Always verify unexpected requests through a second, trusted channel\n• Establish code word systems for high-risk communications\n• Ask specific questions only the real person would know\n• Request video calls for voice-only requests\n• Use predetermined callback numbers, never numbers provided in the request"
         },
         {
           "number": 7,
-          "slidetitle": "Protecting Your Organisation From Deepfakes",
-          "subtitle": "Practical steps to reduce your exposure",
-          "slidecontent": "• Verify unexpected requests through a second, trusted channel before acting\n• Establish a verbal code word system for senior leaders to confirm identity in high risk calls\n• Train staff regularly\n• Limit publicly available audio and video of executives to reduce the material available for cloning\n• Set clear internal policies for approving financial transfers and sensitive data requests, regardless of who appears to be asking"
+          "slidetitle": "Staff Training Essentials",
+          "subtitle": "Building awareness across your organisation",
+          "slidecontent": "• Regular training sessions on current deepfake threats\n• Practice scenarios using realistic examples\n• Clear reporting procedures for suspicious content\n• Emphasis on slowing down urgent requests\n• Updates on evolving attack methods and detection techniques"
         },
         {
           "number": 8,
@@ -77,7 +77,7 @@
         },
         {
           "number": 3,
-          "script": "So how do you actually spot a deepfake in the wild? There are a few telltale signs worth knowing about. First, pay close attention to the eyes. Deepfakes often struggle to replicate natural blinking, so if someone looks oddly still or their eyes seem glassy, that is a red flag. Look at the edges of the hair too, because the technology frequently leaves a slightly blurry or smudged border where the face meets the background. Then there is the voice. Even with advanced tools, synthesised audio can sound just a little too flat or mechanical. Listen carefully for that robotic quality. Watch the mouth as well, because the lip movements do not always match the words precisely, and that mismatch can be quite noticeable once you know to look for it. Finally, watch for strange shifts in lighting across the face mid-video. Real footage tends to be consistent, so sudden changes in shadow or brightness can be a strong indicator that something has been manipulated."
+          "script": "Let's look at how criminals are actually using this technology against businesses. The most common attack is CEO fraud, where someone creates a fake video call that appears to show your chief executive authorising a large wire transfer. Voice cloning is equally dangerous, with fraudsters calling finance teams using a perfect replica of a senior manager's voice. We've also seen cases where fake conference calls have been used to manipulate stock prices by spreading false information that appears to come from company leadership. Customer-facing attacks are growing too, with fake customer service representatives extracting sensitive data from unsuspecting clients. And increasingly, criminals are impersonating suppliers or vendors, redirecting legitimate payments to their own accounts. What makes these attacks particularly dangerous is that they exploit our natural trust in familiar faces and voices."
         },
         {
           "number": 4,
@@ -85,15 +85,15 @@
         },
         {
           "number": 5,
-          "script": "So, what can you actually do to protect your organisation? The good news is there are some straightforward steps you can take right now. First, if someone contacts you with an unexpected or urgent request, always verify it through a second channel before acting, perhaps a phone call or a message to a known number. It is also worth setting up a simple code word system with your senior team, so you can quickly confirm you are speaking to the right person. Make sure your staff receive regular training, because awareness really is your first line of defence. Think carefully about how much audio and video of your key people is publicly available online, as that material can be used to create fakes. Have a clear process in place so staff know exactly who to contact if something feels suspicious. And finally, review who has access to your financial and data systems, and tighten those controls where needed."
+          "script": "Strong organisational policies are your first line of defence against deepfake fraud. Start by establishing clear escalation procedures for any financial requests, especially those that come through video calls or unusual channels. No matter how convincing someone appears, transfers above a certain threshold should always require dual approval from verified sources. Think carefully about your digital footprint too. The less audio and video material of your senior executives that's publicly available, the harder it becomes for criminals to create convincing fakes. Consider implementing written confirmation requirements for sensitive decisions, so there's always a paper trail that can be verified later. And review your access controls to ensure that no single person, regardless of their apparent seniority, can authorise major financial or data decisions without proper verification."
         },
         {
           "number": 6,
-          "script": "So what can you actually do to protect your organisation? The good news is that some of the most effective defences are surprisingly straightforward. If someone calls asking you to transfer money or share sensitive information, always verify that request through a completely separate channel, a different phone number, an email, anything other than the original call. Some organisations go a step further and use agreed code words for financial transactions, so staff can instantly confirm they are speaking with a legitimate colleague. Regular training is essential too, because the threat is constantly evolving and your people need to stay sharp. One of the most important habits you can build is simply slowing down when something feels urgent. Fraudsters rely on panic and pressure to bypass your better judgement. And finally, if anyone receives a suspicious call or message, encourage them to report it straight away. Speed matters when it comes to limiting the damage."
+          "script": "When someone contacts you with an unexpected request, your verification process is critical. Always confirm through a completely separate channel, whether that's a phone call to a known number or an email to a verified address. Never use contact details provided in the original request. Code word systems work particularly well for high-risk communications, giving you an instant way to confirm someone's identity. Don't be afraid to ask specific questions that only the real person would know about recent conversations or company details. If someone calls you claiming to be a colleague, suggest switching to a video call so you can see them properly. And remember, always use predetermined callback numbers that you've verified in advance, not numbers that someone provides during a suspicious conversation."
         },
         {
           "number": 7,
-          "script": "So what can you actually do to protect your organisation? The good news is that some of the most effective defences are surprisingly straightforward. First, if you receive an unexpected request, whether by phone, video call, or message, always verify it through a separate, trusted channel before you act. A quick call back on a known number can stop an attack in its tracks. For senior leaders specifically, consider setting up a simple verbal code word that confirms someone's identity during high risk conversations. Beyond that, make sure your staff receive regular training so they know what to look out for. It is also worth being mindful about how much audio and video of your executives is publicly available online, because that material is exactly what fraudsters use to build convincing fakes. And finally, have clear, documented policies for approving financial transfers and sensitive data requests, so that no single voice or face, however convincing, can bypass your controls."
+          "script": "Your staff are your strongest asset in preventing deepfake fraud, but only if they know what to look for. Regular training sessions should cover the latest threats and show realistic examples of what these attacks actually look like. Practice scenarios are particularly valuable because they help people recognise the pressure tactics that fraudsters use. Make sure everyone knows exactly who to contact if they encounter something suspicious, and emphasise that there's no penalty for reporting a false alarm. One of the most important habits to build is simply slowing down when faced with urgent requests. Fraudsters rely on creating panic and time pressure to bypass people's better judgement. Keep your training updated too, because this technology is evolving rapidly and new attack methods are emerging all the time."
         },
         {
           "number": 8,

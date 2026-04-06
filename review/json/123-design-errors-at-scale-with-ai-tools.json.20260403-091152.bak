@@ -1,0 +1,107 @@
+{
+  "Course Title": "Design Errors at Scale with AI Tools",
+  "Category": "Infrastructure & Construction: Construction, Engineering, Building Materials, Real Estate Development",
+  "Description": "How small mistakes can propagate across entire projects.",
+  "Duration": "8",
+  "Difficulty": "Beginner",
+  "Price": "$29",
+  "Instructor": "AI Security",
+  "Published Status": "Draft",
+  "Prerequisites": "A basic familiarity with construction or engineering project workflows, along with a willingness to explore how AI tools are used in design and planning processes, is all you need to get started.",
+  "Learning objectives": "By the end of this course, you will be able to identify common design errors that occur in construction and engineering projects and explain how small mistakes can propagate across entire project workflows when AI tools are involved. You will also apply practical strategies to recognise early warning signs of error propagation, helping you to minimise risk and protect the integrity of large-scale infrastructure and building developments.",
+  "lessons": [
+    {
+      "lesson title": "Design Errors at Scale with AI Tools",
+      "order": 1,
+      "Description": "When working with AI tools, even a small design mistake can be copied and repeated across hundreds of files, components, or outputs in a matter of seconds. This lesson explores how errors propagate at scale, and why the speed and automation that make AI tools so powerful can also amplify the impact of poor decisions made early in the process. You will learn to recognise the types of mistakes that are most likely to spread, such as inconsistent naming conventions, misaligned grids, or incorrect colour values applied to reusable components. By understanding how these errors multiply, you will be better equipped to build in checkpoints and review stages before problems become difficult to unpick. This lesson is designed for beginners who are starting to use AI tools in their design workflow and want to develop good habits from the outset.",
+      "status": "draft",
+      "content": "How small mistakes can propagate across entire projects.",
+      "slides": [
+        {
+          "number": 1,
+          "slidetitle": "Design Errors at Scale",
+          "subtitle": "When Small Mistakes Multiply Fast",
+          "slidecontent": "• AI tools work fast\n• Errors spread instantly\n• Small mistakes, big impact\n• Scale amplifies everything\n• One flaw, thousands affected"
+        },
+        {
+          "number": 2,
+          "slidetitle": "Mistakes That Multiply Fast",
+          "subtitle": "When one error echoes through everything.",
+          "slidecontent": "• One mistake, many consequences\n• Errors copy themselves automatically\n• Small flaws scale instantly\n• Templates spread problems everywhere\n• Speed hides the damage"
+        },
+        {
+          "number": 3,
+          "slidetitle": "Errors Multiply Across Projects",
+          "subtitle": "Small mistakes grow into major problems.",
+          "slidecontent": "• One error, many files\n• Templates spread mistakes fast\n• Clients notice repeated flaws\n• Fixing late costs more\n• Scale amplifies every slip"
+        },
+        {
+          "number": 4,
+          "slidetitle": "Errors Compound Across Your Project",
+          "subtitle": "Small mistakes grow into bigger problems.",
+          "slidecontent": "• One error, many copies\n• Mistakes multiply fast\n• Early flaws spread furthest\n• Fixing late costs more\n• Scale amplifies every mistake"
+        },
+        {
+          "number": 5,
+          "slidetitle": "Errors Multiply Across Your Project",
+          "subtitle": "Scale amplifies every small design flaw.",
+          "slidecontent": "• A single misaligned spacing value copied across 50 components creates 50 separate problems\n• Errors compound quickly\n• Inconsistent colour tokens ripple through every screen that references them\n• The larger your project, the harder it becomes to trace a flaw back to its source\n• Small oversights become expensive fixes at the wrong moment in production"
+        },
+        {
+          "number": 6,
+          "slidetitle": "Catching Errors Before They Spread",
+          "subtitle": "Early checks save time and effort.",
+          "slidecontent": "• Reviewing designs early, before assets are reused or shared, stops one mistake from multiplying across dozens of files\n• Spot errors fast\n• A simple checklist run at the end of each design session catches inconsistencies before they become habits\n• Version control tools flag unexpected changes between saves, giving you a clear record of what shifted and when\n• Fresh eyes help\n• Asking a colleague to review even a rough draft surfaces blind spots that familiarity causes you to overlook"
+        },
+        {
+          "number": 7,
+          "slidetitle": "Preventing Errors Before They Spread",
+          "subtitle": "Catch mistakes before they multiply further.",
+          "slidecontent": "• Validate AI outputs at the component level before applying them project-wide\n• Check for pattern consistency early\n• Use version control to isolate changes and catch propagation before it spreads\n• Review a small sample of generated assets manually before bulk-applying any automated process\n• Flag anomalies immediately rather than assuming they will resolve later\n• Build a simple checklist for each AI-assisted task to catch recurring mistake types"
+        },
+        {
+          "number": 8,
+          "slidetitle": "Key Points to Remember",
+          "subtitle": "What to carry forward from here",
+          "slidecontent": "• Small errors in AI-generated content multiply fast across large projects\n• Always validate AI outputs before reusing them at scale\n• A single flawed template or prompt can corrupt dozens of downstream assets\n• Spot checks matter\n• Build review steps into your workflow from the start, not as an afterthought\n• Start small, test thoroughly, then scale with confidence"
+        }
+      ],
+      "scripts": [
+        {
+          "number": 1,
+          "script": "Welcome to this lesson on designing errors at scale with AI tools. Now, one of the most exciting things about AI is how fast it works. You can generate content, make decisions, or process data in seconds. But here is the thing: that speed cuts both ways. If something goes wrong, it does not go wrong slowly. It goes wrong everywhere, all at once. A tiny mistake, something you might barely notice in a small project, can ripple out across thousands of outputs before anyone has a chance to catch it. Think of it like a typo in a template. If you send one letter with a typo, that is embarrassing. If your AI tool sends ten thousand letters with that same typo, that is a crisis. Scale amplifies everything, the good and the bad. So throughout this lesson, we are going to look at how errors behave differently when AI is involved, and what you can do to get ahead of them."
+        },
+        {
+          "number": 2,
+          "script": "Here is the narration script for Slide 2:\n\nOne of the things that makes AI tools so powerful is also what makes them risky. When you work manually, a mistake tends to stay contained. You make an error on one page, and that is where it lives. But when you bring AI into the picture, especially at scale, that same mistake can copy itself across dozens, hundreds, or even thousands of outputs before you have even noticed anything is wrong. Think about a template with a flawed assumption baked in, or a prompt that consistently pulls the wrong tone. Every piece of content generated from that starting point carries the same problem. And because AI works so quickly, the damage can spread faster than your review process can catch it. That speed feels like a benefit, and it often is, but it can also mask just how far an error has travelled. So before we go any further, it is worth understanding why errors behave so differently when AI is involved."
+        },
+        {
+          "number": 3,
+          "script": "When you are working at scale, a single small error can ripple out across dozens or even hundreds of files before you have had a chance to catch it. Think about how templates work. You build one master layout, and then it gets applied everywhere. If there is a mistake baked into that template, every document that uses it inherits the same problem. And here is the thing: clients absolutely notice when the same flaw keeps showing up. It damages trust and makes your work look careless, even if the rest of it is excellent. The other issue is timing. The later you spot an error, the more expensive and time-consuming it becomes to fix, because you are not correcting one file, you are correcting many. Working with AI tools adds another layer to this, because AI can produce output very quickly. That speed is brilliant, but it also means any mistake gets amplified just as fast. Scale works in both directions."
+        },
+        {
+          "number": 4,
+          "script": "Here is the narration script for Slide 4:\n\nOne of the trickiest things about working at scale is that a single error does not stay a single error for very long. Imagine you make one small mistake early on, perhaps a slightly wrong colour value or an incorrect spacing token. Now imagine that mistake is copied across dozens of screens, or pulled into a shared component used throughout your entire project. Suddenly that one mistake exists everywhere. And the earlier it happens in your process, the further it spreads before anyone notices. That is what we mean when we say errors compound. They do not just add up, they multiply. And here is the really important part: the later you catch a problem, the more expensive it becomes to fix, whether that is in time, effort, or rework. Scale does not just make your good decisions more powerful, it makes your mistakes more powerful too. So getting things right early really does matter."
+        },
+        {
+          "number": 5,
+          "script": "Here is the narration script for Slide 5:\n\nThis is where things start to get really interesting, and honestly, a little uncomfortable. Imagine you have a spacing value that is slightly off. On its own, not a big deal. But the moment you copy that component across fifty screens, you now have fifty problems to fix instead of one. That is what scale does. It takes every small mistake and multiplies it. The same thing happens with colour tokens. If one token is wrong, every single screen that references it inherits that error. And the bigger your project grows, the harder it becomes to track down where the problem actually started. You end up spending time hunting through files rather than building. What might have been a two-minute fix early on can turn into a very expensive, very stressful problem right before a deadline. So the goal is to catch these things as early as possible, and that is exactly where AI tools can genuinely help us."
+        },
+        {
+          "number": 6,
+          "script": "Once a mistake gets baked into a shared asset or a reused component, it can spread across dozens of files before anyone notices. So the best habit you can build is catching errors early, right at the source. Something as simple as running through a short checklist at the end of each design session can stop small inconsistencies from quietly becoming the norm. Version control tools are brilliant for this too, because they flag unexpected changes between saves, so you always have a clear record of what shifted and when. And do not underestimate the value of a second pair of eyes. When you have been staring at the same design for hours, familiarity makes it very easy to miss things that are right in front of you. Asking a colleague to take a quick look, even at a rough draft, often surfaces blind spots you would never have spotted on your own. Small checks, done consistently, save a lot of rework later."
+        },
+        {
+          "number": 7,
+          "script": "Once an error starts spreading through a project, stopping it becomes much harder than preventing it in the first place. So the goal here is to catch mistakes early, before they multiply. Before you apply any AI-generated output across your entire project, test it at the component level first. Check that patterns are consistent, and use version control so you can isolate changes and spot any unwanted propagation quickly. It is also worth manually reviewing a small sample of generated assets before you commit to a bulk process. Do not assume that something odd you notice will sort itself out later. Flag it straight away. And one of the simplest habits you can build is a short checklist for each AI-assisted task, tailored to the kinds of mistakes that tend to crop up repeatedly. These are not complicated steps, but together they create a reliable safety net that keeps small problems from quietly growing into much bigger ones."
+        },
+        {
+          "number": 8,
+          "script": "So let's bring this all together. The big thing to hold onto is that AI tools can move incredibly quickly, and that speed is genuinely useful, but it also means that a small mistake can spread across your entire project before you even notice it. One dodgy template, one flawed prompt, and suddenly you have got the same error baked into dozens of files. That is why validation matters so much. Do not just trust the output because it looks right at first glance. Build in those review steps from the very beginning of your workflow, not as something you bolt on at the end when things have already gone wrong. Spot checks are your friend here. And the practical advice is simply this: start small, test what you have got properly, and only then scale up. That way, you are growing with confidence rather than just hoping for the best. Keep those habits in mind as you move forward."
+        }
+      ]
+    }
+  ],
+  "Who is this for": "Construction managers, project managers, civil engineers, structural engineers, architects, building designers, real estate developers, construction supervisors, engineering technicians, design coordinators",
+  "Team or Dept this is for": "Engineering, Construction, Project Management, Operations, Design, Real Estate Development"
+}
