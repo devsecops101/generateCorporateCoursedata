@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: What Is AI Data Leakage?
+
+Subtitle: When AI reveals what it should not
+
+Content:
+• AI systems can accidentally reveal sensitive information in their responses
+• This happens when private data used to train or prompt the AI surfaces unexpectedly
+• Examples include names, medical details, financial records, or internal business data appearing in outputs
+• Users often unaware the information was ever stored or accessible
+• Not always caused by hacking, sometimes just a poorly worded question is enough
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Why Data Leakage Matters
+
+Subtitle: The hidden reach of AI outputs
+
+Content:
+• AI outputs are often logged and stored by systems
+• Responses can be read by administrators, third-party providers, or other users
+• What appears as helpful answers may contain hidden sensitive information
+• Most users cannot spot when leakage has occurred
+• The risk extends beyond what you see on your screen
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Two Main Sources of Leakage
+
+Subtitle: Training data and user inputs combined
+
+Content:
+• Training datasets: AI systems learn from vast amounts of real-world data
+• User inputs: Sensitive details fed directly into the system during use
+• Repeated or patterned inputs increase exposure risk
+• No deliberate intent required for a leak to occur
+• Both sources can combine to create unexpected revelations
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: How Training Data Creates Risk
+
+Subtitle: What AI learns can resurface later
+
+Content:
+• Large datasets may absorb sensitive information without deliberate intent
+• Personal details, internal documents, or confidential records can reappear
+• No automatic filter scrubs sensitive content before training
+• Even anonymised data carries risk if patterns allow identification
+• Information doesn't disappear after training completes
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Common Leakage Scenarios
+
+Subtitle: Everyday situations where data slips through
+
+Content:
+• Chatbot repeats user's salary details from earlier conversation
+• AI recalls and surfaces colleague's medical condition inappropriately
+• System exposes confidential client names in suggestions
+• Output accidentally includes private login credentials
+• AI reveals restricted project data in responses
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Industry Examples of Leakage
+
+Subtitle: Real incidents across different sectors
+
+Content:
+• Writing tools suggest colleague names in documents
+• Email autocomplete exposes previous recipients inappropriately
+• Generated reports include unintended salary or budget figures
+• Healthcare AI summaries surface patient medical details
+• Coding assistants include real passwords in suggested snippets
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Prevention Strategies
+
+Subtitle: Practical steps to protect sensitive information
+
+Content:
+• Avoid pasting real names and personal details into prompts
+• Use dummy or synthetic data for testing purposes
+• Review all outputs carefully before sharing with others
+• Keep prompts general rather than including sensitive specifics
+• Stay alert for unexpected or out-of-place information in responses
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Principles to Remember
+
+Subtitle: Building safe AI habits
+
+Content:
+• Pause before pasting: consider if information is sensitive
+• Treat AI outputs like shareable emails that others might see
+• When in doubt about sensitivity, leave it out
+• Your organisation's data policies apply to AI tools too
+• Review one recent AI interaction this week to identify missed risks

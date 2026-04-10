@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import io
 import json
 import os
 import re
@@ -15,6 +16,17 @@ try:
     import anthropic
 except ImportError:
     anthropic = None  # type: ignore[assignment, misc]
+
+try:
+    import openpyxl
+    from openpyxl import Workbook
+    from openpyxl.styles import Font
+    from openpyxl.worksheet.datavalidation import DataValidation
+except ImportError:
+    openpyxl = None  # type: ignore[assignment, misc]
+    Workbook = None  # type: ignore[assignment, misc]
+    Font = None  # type: ignore[assignment, misc]
+    DataValidation = None  # type: ignore[assignment, misc]
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -238,6 +250,198 @@ def _backup_file(path: Path) -> Path:
     bak = path.with_suffix(path.suffix + f".{ts}.bak")
     shutil.copy2(path, bak)
     return bak
+
+
+_CHECKLIST_V1_ROWS: tuple[tuple[str, str], ...] = (
+    ("Video", "Slides must not lose animation"),
+    ("Video", "Slide flow fits narration as per script"),
+    ("Audio", "Must be in stereo"),
+    ("Audio", "Remove gaps of silence"),
+    ("Audio", "Be between 6db and 12db"),
+    ("Audio", "Remove any out of place sounds (clicks, bangs etc) if discovered"),
+    ("Video", "Export to respective export folder when editing is complete"),
+    ("General", "Ensure all working updated files are stored in the appropriate folder"),
+)
+
+_TRACKER_STATUSES: tuple[str, ...] = (
+    "Not started",
+    "In progress",
+    "On hold",
+    "Blocked",
+    "Complete",
+)
+
+_TRACKER_PRIORITIES: tuple[str, ...] = ("Low", "Normal", "High", "Urgent")
+
+_TRACKER_EDIT_STAGES: tuple[str, ...] = (
+    "Pre-production",
+    "Ready for editing",
+    "In edit",
+    "Ready for review",
+    "Changes requested",
+    "Ready for publishing",
+    "Published",
+)
+
+
+def _tracker_row_from_course_json(fp: Path) -> tuple[str, str, str]:
+    """Returns (video_title, category, notes_suffix). notes_suffix is empty or an error hint."""
+    try:
+        d = _load_json(fp)
+        title = _as_str(d.get("Course Title", "")).strip() or fp.stem
+        cat = _as_str(d.get("Category", "")).strip()
+        return title, cat, ""
+    except Exception as e:
+        return fp.stem, "", f"(JSON load error: {e!s})"
+
+
+def _build_video_production_tracker_xlsx(json_paths: list[Path]) -> bytes:
+    """Multi-sheet workbook: production tracker, QC checklist, lookups and guidance."""
+    if openpyxl is None or Workbook is None or Font is None or DataValidation is None:
+        raise RuntimeError("openpyxl is not installed; run: pip install openpyxl")
+
+    wb = Workbook()
+    ws_t = wb.active
+    ws_t.title = "Tracker"
+
+    headers = [
+        "Video Title",
+        "Category",
+        "Owner",
+        "Status",
+        "Priority",
+        "Due Date",
+        "Edit Stage",
+        "Version",
+        "Notes",
+    ]
+    ws_t.append(headers)
+    for c in range(1, len(headers) + 1):
+        ws_t.cell(row=1, column=c).font = Font(bold=True)
+
+    for fp in json_paths:
+        title, category, err_note = _tracker_row_from_course_json(fp)
+        ws_t.append([title, category, "", "", "", "", "", "", err_note])
+
+    ws_t.freeze_panes = "A2"
+    widths_t = {"A": 44, "B": 36, "C": 18, "D": 22, "E": 12, "F": 14, "G": 22, "H": 10, "I": 48}
+    for col, w in widths_t.items():
+        ws_t.column_dimensions[col].width = w
+
+    # --- Checklist sheet (tab 2) ---
+    ws_c = wb.create_sheet("Checklist")
+    ws_c.merge_cells("A1:D1")
+    ws_c["A1"] = "Check List v1.0"
+    ws_c["A1"].font = Font(bold=True)
+    ws_c["A3"] = "Category"
+    ws_c["B3"] = "Checklist item"
+    ws_c["C3"] = "Done"
+    ws_c["D3"] = "Notes"
+    for c in range(1, 5):
+        ws_c.cell(row=3, column=c).font = Font(bold=True)
+    r = 4
+    for cat, item in _CHECKLIST_V1_ROWS:
+        ws_c.cell(row=r, column=1, value=cat)
+        ws_c.cell(row=r, column=2, value=item)
+        r += 1
+    ws_c.column_dimensions["A"].width = 12
+    ws_c.column_dimensions["B"].width = 72
+    ws_c.column_dimensions["C"].width = 8
+    ws_c.column_dimensions["D"].width = 36
+
+    # --- Lookups sheet (tab 3): documentation + list columns for data validation ---
+    ws_l = wb.create_sheet("Lookups")
+    ws_l["A1"] = "Tracker column"
+    ws_l["B1"] = "Description / how to use"
+    doc_rows: list[tuple[str, str]] = [
+        ("Video Title", "Course title from JSON (fallback: JSON filename stem). One row per course/video."),
+        ("Category", "Copied from the course JSON Category field."),
+        ("Owner", "Primary owner for this row (often the video editor)."),
+        ("Status", "High-level state — pick from Status values (column F). Use Edit Stage for pipeline step."),
+        ("Priority", "Pick from Priority list (column H)."),
+        ("Due Date", "Target completion; use a date Excel recognises (YYYY-MM-DD)."),
+        ("Edit Stage", "Pipeline step (pre-production → published) — pick from Edit stage values (column J)."),
+        ("Version", "e.g. v1, v1.1 after review rounds."),
+        ("Notes", "Blockers, links, timestamps, reviewer feedback, export path reminders."),
+    ]
+    for i, (col_name, desc) in enumerate(doc_rows, start=2):
+        ws_l.cell(row=i, column=1, value=col_name)
+        ws_l.cell(row=i, column=2, value=desc)
+
+    ws_l["D1"] = "Team role"
+    ws_l["E1"] = "Typical responsibilities"
+    team_rows: list[tuple[str, str]] = [
+        (
+            "Reviewer",
+            "Watches drafts against script and learning goals; logs change requests and sign-off.",
+        ),
+        (
+            "Course designer",
+            "Owns slide content, narration script accuracy, and learning structure; answers content questions.",
+        ),
+        (
+            "Video editor",
+            "Builds timeline, audio levels, animations/export; owns technical quality checklist items.",
+        ),
+    ]
+    for i, (role, resp) in enumerate(team_rows, start=2):
+        ws_l.cell(row=i, column=4, value=role)
+        ws_l.cell(row=i, column=5, value=resp)
+
+    ws_l["F1"] = "Status values"
+    for i, v in enumerate(_TRACKER_STATUSES, start=2):
+        ws_l.cell(row=i, column=6, value=v)
+    status_end = 1 + len(_TRACKER_STATUSES)
+
+    ws_l["H1"] = "Priority values"
+    for i, v in enumerate(_TRACKER_PRIORITIES, start=2):
+        ws_l.cell(row=i, column=8, value=v)
+    pri_end = 1 + len(_TRACKER_PRIORITIES)
+
+    ws_l["J1"] = "Edit stage values"
+    for i, v in enumerate(_TRACKER_EDIT_STAGES, start=2):
+        ws_l.cell(row=i, column=10, value=v)
+    stage_end = 1 + len(_TRACKER_EDIT_STAGES)
+
+    ws_l["A12"] = "Generated"
+    ws_l["B12"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+    ws_l["A13"] = "Checklist tab"
+    ws_l["B13"] = "Use per video or per export batch; mark Done when each line item is verified."
+
+    for cell in (ws_l["A1"], ws_l["B1"], ws_l["D1"], ws_l["E1"], ws_l["F1"], ws_l["H1"], ws_l["J1"]):
+        cell.font = Font(bold=True)
+
+    last_row = max(2, 1 + len(json_paths))
+    dv_status = DataValidation(
+        type="list",
+        formula1=f"=Lookups!$F$2:$F${status_end}",
+        allow_blank=True,
+    )
+    dv_status.error = "Pick a status from the list (see Lookups tab)."
+    ws_t.add_data_validation(dv_status)
+    dv_status.add(f"D2:D{last_row}")
+
+    dv_pri = DataValidation(
+        type="list",
+        formula1=f"=Lookups!$H$2:$H${pri_end}",
+        allow_blank=True,
+    )
+    dv_pri.error = "Pick a priority from the list (see Lookups tab)."
+    ws_t.add_data_validation(dv_pri)
+    dv_pri.add(f"E2:E{last_row}")
+
+    dv_stage = DataValidation(
+        type="list",
+        formula1=f"=Lookups!$J$2:$J${stage_end}",
+        allow_blank=True,
+    )
+    dv_stage.error = "Pick an edit stage from the list (see Lookups tab)."
+    ws_t.add_data_validation(dv_stage)
+    dv_stage.add(f"G2:G{last_row}")
+
+    buf = io.BytesIO()
+    wb.save(buf)
+    return buf.getvalue()
 
 
 def _as_str(v: Any) -> str:
@@ -978,6 +1182,29 @@ with top_right:
         "`CourseInfo/course_title_description.txt` under the package export folder "
         "(existing files are not overwritten)."
     )
+
+    tracker_ok = openpyxl is not None
+    if tracker_ok:
+        tracker_bytes = _build_video_production_tracker_xlsx(files)
+        safe_folder = re.sub(r"[^\w.\-]+", "_", json_dir.name).strip("_")[:48] or "courses"
+        tracker_name = f"video_production_tracker_{safe_folder}_{datetime.now():%Y%m%d}.xlsx"
+    else:
+        tracker_bytes = b""
+        tracker_name = "video_production_tracker.xlsx"
+    st.download_button(
+        label="Download production tracker (Excel)",
+        file_name=tracker_name,
+        data=tracker_bytes,
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        disabled=not tracker_ok,
+        help=(
+            "Builds a workbook from every JSON in the selected folder: Tracker (titles & categories "
+            "from course data), Checklist v1.0, and Lookups with dropdown lists and team roles."
+        ),
+        key="download_production_tracker_xlsx",
+    )
+    if not tracker_ok:
+        st.caption("Install **openpyxl** to enable the production tracker: `pip install openpyxl`")
 
     st.subheader("Raw JSON")
     st.download_button(

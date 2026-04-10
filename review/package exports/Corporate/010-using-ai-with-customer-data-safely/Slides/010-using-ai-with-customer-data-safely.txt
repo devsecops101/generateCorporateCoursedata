@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Using AI with Customer Data
+
+Subtitle: Practical guardrails for every interaction.
+
+Content:
+• AI tools are everywhere in modern workplaces
+• Customer data requires careful handling at every step
+• Small mistakes can lead to serious privacy breaches
+• This course gives you practical, easy-to-follow guardrails
+• No technical background needed
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Why This Matters Now
+
+Subtitle: AI use is growing fast, act now.
+
+Content:
+• AI tools are now embedded in everyday business software, from email to spreadsheets
+• Staff are using them whether policies exist or not
+• Customer data is being shared with these tools, often without realising it
+• Regulators are paying close attention
+• The risks are real and the time to act is now
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Recognising Sensitive Customer Data
+
+Subtitle: What counts as sensitive information
+
+Content:
+• Names, addresses, phone numbers
+• Payment and banking details
+• Health or medical records
+• Login credentials and passwords
+• Purchase history and preferences
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: The Anonymisation Process
+
+Subtitle: Strip identifiers before sharing.
+
+Content:
+• Remove names first
+• Delete contact details
+• Swap IDs for codes
+• Check dates and locations
+• Then share safely
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Your Daily Checklist
+
+Subtitle: Practical steps to protect customer data
+
+Content:
+• Use fictional examples when testing AI features
+• Check your organisation's policy before sharing data
+• Treat AI input fields like public spaces
+• Keep a record of data types used with AI tools
+• Apply the minimum data needed principle
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Building Safe Workflows
+
+Subtitle: Creating repeatable data protection habits.
+
+Content:
+• Develop a standard cleaning routine before AI use
+• Use placeholder codes consistently
+• Double-check for overlooked identifiers
+• Test your anonymisation with sample data first
+• Make data protection automatic, not optional
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Red Flags to Watch For
+
+Subtitle: Warning signs that demand your attention
+
+Content:
+• AI requests full customer databases
+• Output includes real names unexpectedly
+• No opt-out option offered
+• Tool stores your inputs automatically
+• Vague privacy policy or none
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: What to Remember
+
+Subtitle: Keep these principles close at hand.
+
+Content:
+• Never paste real customer data into unverified AI tools
+• Anonymise first, then prompt
+• Always check your organisation's policy
+• If in doubt, leave it out
+• Start small, review results, build confidence gradually

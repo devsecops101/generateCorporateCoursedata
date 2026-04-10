@@ -298,95 +298,6 @@
                   {
                     "id" : 13,
                     "_type" : "AMFile",
-                    "src" : 3,
-                    "trackNumber" : 0,
-                    "attributes" : {
-                      "ident" : "Rec 4-5-2026 48",
-                      "gain" : 1.0,
-                      "mixToMono" : false,
-                      "loudnessNormalization" : true
-                    },
-                      "channelNumber" : "0,1",
-                    "effects" : [
-
-                    ],
-                    "start" : 2148,
-                    "duration" : 850,
-                    "mediaStart" : 0,
-                    "mediaDuration" : 850,
-                    "scalar" : 1,
-                    "metadata" : {
-                      "clipSpeedAttribute" : false,
-                      "effectApplied" : "none"
-                    },
-                    "animationTracks" : {
-
-                    }
-                  },
-                  {
-                    "id" : 14,
-                    "_type" : "AMFile",
-                    "src" : 5,
-                    "trackNumber" : 0,
-                    "attributes" : {
-                      "ident" : "Rec 4-5-2026 50",
-                      "gain" : 1.0,
-                      "mixToMono" : false,
-                      "loudnessNormalization" : true
-                    },
-                      "channelNumber" : "0,1",
-                    "effects" : [
-
-                    ],
-                    "start" : 3340,
-                    "duration" : 770,
-                    "mediaStart" : 0,
-                    "mediaDuration" : 770,
-                    "scalar" : 1,
-                    "metadata" : {
-                      "clipSpeedAttribute" : false,
-                      "effectApplied" : "none"
-                    },
-                    "animationTracks" : {
-
-                    }
-                  },
-                  {
-                    "id" : 15,
-                    "_type" : "AMFile",
-                    "src" : 7,
-                    "trackNumber" : 0,
-                    "attributes" : {
-                      "ident" : "Rec 4-5-2026 52",
-                      "gain" : 1.0,
-                      "mixToMono" : false,
-                      "loudnessNormalization" : true
-                    },
-                      "channelNumber" : "0,1",
-                    "effects" : [
-
-                    ],
-                    "start" : 5129,
-                    "duration" : 2634,
-                    "mediaStart" : 0,
-                    "mediaDuration" : 2634,
-                    "scalar" : 1,
-                    "metadata" : {
-                      "clipSpeedAttribute" : false,
-                      "effectApplied" : "none"
-                    },
-                    "animationTracks" : {
-
-                    }
-                  }
-                ]
-              },
-              {
-                "trackIndex" : 1,
-                "medias" : [
-                  {
-                    "id" : 16,
-                    "_type" : "AMFile",
                     "src" : 2,
                     "trackNumber" : 0,
                     "attributes" : {
@@ -399,7 +310,7 @@
                     "effects" : [
 
                     ],
-                    "start" : 1927,
+                    "start" : 1947,
                     "duration" : 227,
                     "mediaStart" : 0,
                     "mediaDuration" : 227,
@@ -413,7 +324,35 @@
                     }
                   },
                   {
-                    "id" : 17,
+                    "id" : 14,
+                    "_type" : "AMFile",
+                    "src" : 3,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-5-2026 48",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 2174,
+                    "duration" : 850,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 850,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 15,
                     "_type" : "AMFile",
                     "src" : 4,
                     "trackNumber" : 0,
@@ -427,7 +366,7 @@
                     "effects" : [
 
                     ],
-                    "start" : 2992,
+                    "start" : 3024,
                     "duration" : 353,
                     "mediaStart" : 0,
                     "mediaDuration" : 353,
@@ -441,7 +380,35 @@
                     }
                   },
                   {
-                    "id" : 18,
+                    "id" : 16,
+                    "_type" : "AMFile",
+                    "src" : 5,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-5-2026 50",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 3377,
+                    "duration" : 770,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 770,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 17,
                     "_type" : "AMFile",
                     "src" : 6,
                     "trackNumber" : 0,
@@ -455,10 +422,38 @@
                     "effects" : [
 
                     ],
-                    "start" : 4105,
+                    "start" : 4147,
                     "duration" : 1030,
                     "mediaStart" : 0,
                     "mediaDuration" : 1030,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 18,
+                    "_type" : "AMFile",
+                    "src" : 7,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-5-2026 52",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 5177,
+                    "duration" : 2634,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 2634,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
@@ -483,7 +478,7 @@
                     "effects" : [
 
                     ],
-                    "start" : 7740,
+                    "start" : 7811,
                     "duration" : 2052,
                     "mediaStart" : 0,
                     "mediaDuration" : 2052,
@@ -496,6 +491,11 @@
 
                     }
                   }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
                 ]
               }            ]
           }
