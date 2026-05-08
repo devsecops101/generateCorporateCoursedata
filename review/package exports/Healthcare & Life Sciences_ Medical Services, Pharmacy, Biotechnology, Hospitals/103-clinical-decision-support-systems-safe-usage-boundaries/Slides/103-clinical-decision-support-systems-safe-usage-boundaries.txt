@@ -1,0 +1,105 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Welcome and Course Overview
+
+Subtitle: Defining where AI support must end
+
+Content:
+• Clinical decision support systems (CDSS) are becoming standard tools across NHS and private healthcare settings
+• This course focuses on one critical question: where should AI assistance stop
+• Designed for clinicians, nurses, and allied health professionals new to working alongside these systems
+• No prior technical knowledge required
+• You will leave with clear, practical boundaries you can apply in your daily practice
+• Real-world scenarios throughout to ground every concept in clinical reality
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Fundamental AI Limitations in Healthcare
+
+Subtitle: What AI cannot safely decide alone
+
+Content:
+• AI tools trained on population data, not your individual patient's full context
+• Unable to account for a patient's values, fears, or personal circumstances
+• No legal or professional accountability
+• Cannot interpret ambiguous symptoms the way a clinician with physical presence can
+• Blind spots in training data mean rare or atypical presentations are often missed
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Data Quality and Bias Issues
+
+Subtitle: When historical data fails current patients
+
+Content:
+• Training data gaps and biases get embedded in AI recommendations
+• Systems struggle with underrepresented populations and conditions
+• Missing or incomplete patient records lead to flawed suggestions
+• AI cannot detect when key information is absent from the dataset
+• Population patterns may not apply to your specific patient demographics
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Real-Time Clinical Context
+
+Subtitle: What happens between the data points
+
+Content:
+• AI cannot observe patient distress, sudden deterioration, or behavioral changes
+• No awareness of family dynamics, social circumstances, or patient fears
+• Cannot factor in clinical intuition from years of bedside experience
+• Misses subtle cues that indicate something beyond the recorded symptoms
+• Local protocols and institutional knowledge remain outside AI scope
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Complex and Rare Presentations
+
+Subtitle: When patterns break down
+
+Content:
+• Rare conditions have insufficient training examples for reliable AI guidance
+• Atypical symptom combinations confuse pattern-based algorithms
+• Multi-comorbidity cases exceed most AI training scenarios
+• Emergency situations require immediate human judgment, not delayed AI processing
+• Novel conditions or drug interactions may not exist in training data
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Professional Accountability Boundaries
+
+Subtitle: Where responsibility cannot be delegated
+
+Content:
+• AI carries no legal liability—you remain fully accountable for patient outcomes
+• Professional bodies expect human oversight of all clinical decisions
+• Insurance and medico-legal protection requires documented clinical reasoning
+• Patient consent involves human judgment about risks and benefits
+• Duty of care cannot be transferred to an algorithm
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: When to Override AI Recommendations
+
+Subtitle: Trusting clinical instinct over algorithms
+
+Content:
+• Clinical gut feeling conflicts with AI suggestion—investigate further
+• Patient presentation doesn't match algorithmic expectations
+• High-stakes decisions require human confirmation regardless of AI confidence
+• Vulnerable populations need individualized assessment beyond AI recommendations
+• Emergency situations where human speed and adaptability are essential
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Safe Practice Framework
+
+Subtitle: Implementing AI boundaries in daily practice
+
+Content:
+• Always verify AI suggestions against your clinical assessment
+• Document your reasoning process, not just AI outputs
+• Maintain heightened oversight for high-risk patients and situations
+• Know your organization's CDSS policies and escalation procedures
+• Regular training on system limitations and appropriate use cases
+• Establish clear protocols for when to seek senior clinical input

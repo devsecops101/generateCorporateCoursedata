@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI in Clinical Trials: Overview
+
+Subtitle: Understanding the Promise and Perils
+
+Content:
+• AI transforms clinical research workflows
+• Accelerates patient identification and data analysis
+• Introduces new types of bias risks
+• Requires careful oversight and validation
+• Human judgment remains essential
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Types of Bias in AI Systems
+
+Subtitle: Where Problems Originate
+
+Content:
+• Historical bias: Learning from past inequities
+• Selection bias: Skewed training datasets
+• Algorithmic bias: Flawed model assumptions
+• Confirmation bias: Favouring expected results
+• Measurement bias: Inconsistent data collection
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Patient Selection Bias
+
+Subtitle: How AI Perpetuates Recruitment Inequities
+
+Content:
+• AI trained on historical data reflects past exclusions
+• Underrepresented groups filtered out automatically
+• Geographic and socioeconomic biases in hospital networks
+• Eligibility algorithms embed existing clinical preferences
+• Results may not generalise to broader populations
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Real-World Selection Examples
+
+Subtitle: Concrete Cases of AI Recruitment Bias
+
+Content:
+• Cardiovascular trials excluding women due to historical patterns
+• Cancer research skewing toward younger patients
+• Rare disease studies missing ethnic diversity
+• Mental health trials favouring urban populations
+• Automated screening missing comorbid conditions
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Analysis and Interpretation Bias
+
+Subtitle: When AI Distorts Data Processing
+
+Content:
+• Pattern recognition prioritises speed over accuracy
+• Confounding variables go undetected
+• Statistical assumptions built into algorithms
+• Outcome definitions influenced by training data
+• Small systematic errors compound at scale
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Strategies to Reduce Bias
+
+Subtitle: Practical Steps for Fairer Trials
+
+Content:
+• Pre-register analysis plans before data collection
+• Use diverse, representative training datasets
+• Implement regular algorithmic audits
+• Apply standardised reporting frameworks (CONSORT-AI)
+• Maintain detailed audit trails of AI decisions
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Reporting and Publication Transparency
+
+Subtitle: Preventing Selective Disclosure
+
+Content:
+• Disclose all AI tools and training data sources
+• Report negative and null results equally
+• Include independent reviewer validation
+• Document known limitations and uncertainties
+• Share methodology for reproducibility
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Building Responsible AI Practices
+
+Subtitle: Your Next Steps Forward
+
+Content:
+• Audit current datasets for representation gaps
+• Establish bias monitoring protocols
+• Train teams on AI limitation awareness
+• Collaborate with diverse stakeholders
+• Question every automated recommendation

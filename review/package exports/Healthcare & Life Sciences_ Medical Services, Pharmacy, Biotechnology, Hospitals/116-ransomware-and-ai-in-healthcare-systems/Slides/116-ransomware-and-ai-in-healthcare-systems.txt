@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Ransomware and AI in Healthcare
+
+Subtitle: When AI Meets Ransomware Risk
+
+Content:
+• Healthcare now relies on AI tools for diagnosis, treatment planning, and patient monitoring
+• Ransomware targets these systems with growing frequency
+• When AI-driven systems go down, the impact spreads fast
+• Patient care suffers immediately
+• This course explains the risks and how to respond
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: What Makes AI Systems Attractive Targets
+
+Subtitle: Why attackers focus on healthcare AI
+
+Content:
+• AI systems hold vast amounts of patient data
+• Healthcare organisations often pay ransoms quickly due to life-or-death urgency
+• Many AI platforms connect to multiple hospital systems
+• Security gaps exist where legacy systems meet new AI tools
+• High-value targets with significant disruption potential
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Immediate Impact on Clinical Care
+
+Subtitle: When AI tools fail during active patient care
+
+Content:
+• Diagnostic imaging systems freeze mid-scan
+• Drug interaction alerts disappear without warning
+• Patient monitoring alarms stop functioning
+• Treatment recommendations become unavailable
+• Emergency protocols revert to manual processes
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Cascading Effects Across Hospital Operations
+
+Subtitle: How AI dependency amplifies ransomware damage
+
+Content:
+• One compromised system affects interconnected workflows
+• Staff lose decision-support tools simultaneously
+• Manual backup procedures may be outdated or untested
+• Recovery time extends as AI systems require specialized restoration
+• Patient throughput slows significantly
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Time-Critical Scenarios
+
+Subtitle: When seconds matter and AI fails
+
+Content:
+• Stroke diagnosis tools become unavailable during suspected cases
+• Cardiac monitoring AI stops alerting to dangerous rhythms
+• ICU systems lose predictive analytics for patient deterioration
+• Emergency department triage algorithms go offline
+• Operating room navigation systems halt mid-procedure
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Staff Adaptation Challenges
+
+Subtitle: Human factors in AI-dependent environments
+
+Content:
+• Clinical staff trained primarily on AI-assisted workflows struggle with manual procedures
+• Muscle memory relies on automated prompts and alerts
+• Decision-making confidence decreases without AI support
+• Workflow efficiency drops dramatically during system outages
+• Training gaps emerge between experienced and newer staff
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Recovery Complications
+
+Subtitle: Why AI systems take longer to restore
+
+Content:
+• AI models require extensive data validation before restart
+• Machine learning algorithms need retraining after data corruption
+• Interconnected systems must be restored in specific sequences
+• Safety checks increase restoration time significantly
+• Backup AI systems may also be compromised
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Building Resilience
+
+Subtitle: Practical steps for protection and preparedness
+
+Content:
+• Maintain and test manual backup procedures regularly
+• Implement network segmentation to isolate AI systems
+• Train staff on both AI-assisted and traditional workflows
+• Develop incident response plans specific to AI system failures
+• Conduct regular security assessments of AI infrastructure
+• Establish clear communication protocols during outages

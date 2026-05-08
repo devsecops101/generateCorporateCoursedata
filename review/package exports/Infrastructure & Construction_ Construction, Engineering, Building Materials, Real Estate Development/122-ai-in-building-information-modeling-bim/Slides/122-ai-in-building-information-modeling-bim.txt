@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI and BIM: An Introduction
+
+Subtitle: Exploring digital construction's intelligent future
+
+Content:
+• BIM creates detailed digital models of buildings before construction begins
+• AI adds intelligence to these models
+• Together, they help teams spot errors, predict problems, and improve accuracy across complex projects
+• Used widely in UK construction and infrastructure
+• Poor data quality in BIM models can lead to costly mistakes on site
+• This lesson introduces how AI is changing the way we build digitally
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Common Data Accuracy Risks
+
+Subtitle: Understanding threats to model reliability
+
+Content:
+• Human input errors corrupt measurements and element placement
+• Design clashes between building systems cause expensive rework
+• Version control failures mislead teams with outdated files
+• Poor quality inputs generate unreliable outputs
+• Security breaches threaten sensitive project data
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Silent Model Integrity Failures
+
+Subtitle: Where errors hide without visible warnings
+
+Content:
+• AI tools can introduce subtle errors without triggering alerts
+• Corrupted geometry and mismatched parameters compound quickly
+• Automated sensor data may conflict with existing model information
+• Version control gaps create inconsistent working states
+• Small integrity issues cascade into larger system failures
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: AI-Powered Error Detection
+
+Subtitle: Automated quality checking capabilities
+
+Content:
+• Instant identification of clashing geometry between components
+• Early detection of missing data fields and specifications
+• Automatic flagging of duplicate elements and object IDs
+• Rule violation alerts against predefined standards
+• Comprehensive error logging for systematic resolution
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Proactive Quality Assurance
+
+Subtitle: Preventing costly on-site corrections
+
+Content:
+• Continuous model scanning across thousands of components
+• Real-time clash detection between structural and MEP systems
+• Automated specification completeness validation
+• Geometry error highlighting before manual review
+• Significant reduction in construction-phase mistakes
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Data Accuracy Standards Framework
+
+Subtitle: Building precision into everyday workflows
+
+Content:
+• Regular audits prevent error accumulation across models
+• Consistent naming conventions eliminate labelling confusion
+• Stage-gate validation checks embedded in project workflows
+• Clear data ownership assignments for model sections
+• Documented measurement tolerances shared team-wide
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Risk Mitigation Strategies
+
+Subtitle: Practical safeguards for model protection
+
+Content:
+• Pre-upload data validation as quality gateway
+• Mandatory version control for change tracking
+• Carefully restricted editing permissions by role
+• Scheduled model audits for early issue detection
+• Team training on standardized input procedures
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Implementation Action Plan
+
+Subtitle: Next steps for safer BIM practice
+
+Content:
+• Cross-verify AI outputs against trusted source documents
+• Establish regular clash detection routines
+• Maintain detailed audit trails for all model changes
+• Preserve human oversight at every workflow stage
+• Identify one workflow area for AI-supported quality enhancement

@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Introducing AI in Medical Imaging
+
+Subtitle: Transforming diagnostics with promise and peril
+
+Content:
+• AI reads medical scans fast
+• Errors still happen often
+• Missed findings harm patients
+• Confidence can mislead clinicians
+• Human oversight remains essential
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: What Is False Confidence?
+
+Subtitle: When AI certainty doesn't match reality
+
+Content:
+• AI displays confidence scores even when findings are wrong
+• False confidence occurs when clinicians trust AI without critical review
+• Missed tumors flagged as normal create direct patient safety risks
+• Both over-detection and under-detection mislead clinical decisions
+• Confidence percentages don't reflect real-world diagnostic accuracy
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: How Overreliance Develops
+
+Subtitle: The gradual erosion of clinical skepticism
+
+Content:
+• High confidence scores bypass independent image review
+• Anchoring bias makes clinicians defer to AI flags
+• Overreliance grows gradually and often goes unnoticed
+• Time pressure increases tendency to trust AI outputs
+• Subtle findings get overlooked when AI appears certain
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Training Data Limitations
+
+Subtitle: Why AI knowledge has blind spots
+
+Content:
+• Rare conditions underrepresented in training datasets
+• Poor image quality confuses AI algorithms
+• Certain patient populations may be excluded from training
+• Unusual presentations not seen during AI development
+• Dataset gaps create systematic weaknesses in AI performance
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Confidence Scores Explained
+
+Subtitle: What those percentages really mean
+
+Content:
+• 95% confidence reflects model certainty, not diagnostic accuracy
+• Scores based on training data behavior, not clinical outcomes
+• High confidence can occur even with incorrect findings
+• Score inflation happens with unrepresentative training datasets
+• Early-stage lesions often misclassified with false certainty
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Common AI Failure Points
+
+Subtitle: Where algorithms struggle most
+
+Content:
+• Rare conditions often completely missed
+• Motion artifacts and poor image quality reduce accuracy
+• Atypical disease presentations fool pattern recognition
+• Edge cases outside training parameters
+• Overlapping or complex pathologies challenge AI interpretation
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Reducing Risk in Practice
+
+Subtitle: Practical steps to safeguard patient outcomes
+
+Content:
+• Always verify AI findings with independent clinical assessment
+• Check both flagged and unflagged areas equally
+• Use structured checklists to maintain diagnostic rigor
+• Report discrepancies to improve system performance
+• Involve senior colleagues when AI conflicts with clinical presentation
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Maintaining Diagnostic Skills
+
+Subtitle: Preventing skill erosion from AI dependence
+
+Content:
+• Regular training keeps independent diagnostic abilities sharp
+• Practice image interpretation without AI assistance
+• Stay informed about AI limitations and updates
+• Never stay silent when uncertain about AI outputs
+• Treat AI as supportive tool, not definitive authority

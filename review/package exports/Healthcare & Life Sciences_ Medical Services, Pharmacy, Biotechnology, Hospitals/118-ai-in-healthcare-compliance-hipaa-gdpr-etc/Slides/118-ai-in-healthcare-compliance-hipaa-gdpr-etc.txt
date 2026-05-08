@@ -1,0 +1,105 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Why AI Raises Compliance Risks
+
+Subtitle: Unpacking the hidden risks of AI
+
+Content:
+• AI processes sensitive patient data
+• Errors can harm real people
+• Bias hides in training data
+• Audits become harder to conduct
+• Regulations struggle to keep pace
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: HIPAA and GDPR Exposure Points
+
+Subtitle: Where well-intentioned AI deployments breach regulations
+
+Content:
+• Automated clinical decisions trigger additional legal obligations
+• Incomplete audit trails prevent accountability demonstration
+• Regulators scrutinise both AI vendors and healthcare users
+• Non-compliance results in fines, reputational damage, and lost patient trust
+• Even careful implementations can breach regulations without proper safeguards
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Data Minimisation Principles
+
+Subtitle: Why collecting only essential data reduces risk
+
+Content:
+• GDPR and HIPAA require collecting only strictly necessary data
+• Excess patient data creates larger regulatory targets
+• More data means more breach and misuse potential
+• Anonymising data before AI processing reduces compliance exposure
+• Regulators question whether AI data consumption justifies volume
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Implementing Data Limits
+
+Subtitle: Practical design choices to minimise compliance burden
+
+Content:
+• Restrict AI access to specific data fields only
+• Address over-collection at the design stage
+• Smaller data inputs create smaller breach surfaces
+• Fewer inputs simplify audits and reduce penalties
+• Design decisions directly impact compliance liability
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Ongoing Data Governance
+
+Subtitle: Regular monitoring prevents compliance drift
+
+Content:
+• Audit AI data inputs regularly
+• Data requirements can expand without notice
+• Strip non-essential information before training
+• Monitor for gradual increases in data collection
+• Maintain strict purpose limitation throughout AI lifecycle
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Audit Trails and Accountability
+
+Subtitle: Tracking every AI decision made
+
+Content:
+• AI logs every action automatically
+• Records who approved each decision
+• Timestamps prove regulatory compliance
+• Auditors can trace AI choices
+• Gaps in logs mean liability
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Reducing Your Compliance Risk
+
+Subtitle: Practical steps to protect your organisation
+
+Content:
+• Audit all AI tools used
+• Train staff on data rules
+• Document every AI decision
+• Limit data access strictly
+• Review vendor contracts regularly
+• Report breaches without delay
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles for responsible AI use
+
+Content:
+• AI does not reduce your compliance obligations, it adds new ones
+• Always know where patient data goes when it enters an AI tool
+• Audit trails matter
+• Consent, transparency, and data minimisation remain non-negotiable under GDPR and HIPAA
+• Your organisation is accountable for AI outputs, even when the vendor is at fault
+• As a next step, review your current AI tools against your data processing agreements and flag any gaps to your compliance team

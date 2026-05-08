@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Design Errors at Scale
+
+Subtitle: When Small Mistakes Multiply Fast
+
+Content:
+• AI tools work at incredible speed
+• Errors spread instantly across outputs
+• Small mistakes create massive impact
+• Scale amplifies both good and bad
+• One flaw can affect thousands of files
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: The Amplification Problem
+
+Subtitle: Why AI makes errors more dangerous
+
+Content:
+• Manual work contains errors naturally
+• AI copies mistakes automatically
+• Templates inherit and spread flaws
+• Speed masks damage until it's widespread
+• Traditional review cycles can't keep up
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Common Error Types That Propagate
+
+Subtitle: Mistakes that spread fastest in AI workflows
+
+Content:
+• Inconsistent naming conventions
+• Misaligned grid systems
+• Incorrect colour values in reusable components
+• Flawed spacing tokens
+• Wrong material specifications
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: The Compounding Effect
+
+Subtitle: How errors multiply exponentially over time
+
+Content:
+• Early errors spread furthest
+• Each copied instance becomes a separate fix
+• Later discovery means exponential rework
+• Costs increase with project size
+• Client trust erodes with repeated flaws
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Real-World Impact Examples
+
+Subtitle: Concrete scenarios of error propagation
+
+Content:
+• Misaligned spacing copied to 50 components
+• Wrong colour token affecting every screen
+• Flawed building code reference in all plans
+• Incorrect material grade in structural elements
+• Template errors across hundreds of documents
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Early Detection Strategies
+
+Subtitle: Catching problems before they multiply
+
+Content:
+• Review designs before asset reuse
+• Run checklists after each session
+• Use version control to track changes
+• Get fresh eyes on rough drafts
+• Validate shared components thoroughly
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: AI-Specific Prevention Methods
+
+Subtitle: Tailored approaches for AI-generated content
+
+Content:
+• Test AI outputs at component level first
+• Sample review before bulk application
+• Flag anomalies immediately
+• Build task-specific checklists
+• Isolate changes using version control
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Building Error-Resistant Workflows
+
+Subtitle: Sustainable practices for long-term success
+
+Content:
+• Integrate validation from day one
+• Start small, test thoroughly, then scale
+• Build review checkpoints, not afterthoughts
+• Create feedback loops for continuous improvement
+• Balance AI speed with human oversight

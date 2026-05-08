@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI and Patient Data Privacy
+
+Subtitle: Protecting sensitive health data with AI
+
+Content:
+• AI handles sensitive health data
+• Risks are real and serious
+• Privacy rules must be followed
+• You play a key role
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: What Counts as Patient Data
+
+Subtitle: More than just names and diagnoses
+
+Content:
+• Full names, dates of birth, and NHS numbers
+• Home addresses, phone numbers, and email addresses
+• Photos, voice recordings, or any biometric data
+• Clinical notes, test results, diagnoses, and prescriptions
+• Anything that could identify a patient when combined with other details
+• Even appointment times and attendance records
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Risks of AI Data Misuse
+
+Subtitle: When data falls into wrong hands
+
+Content:
+• Unauthorised access to AI systems can expose patient diagnoses, medications, and personal identifiers
+• Data breaches affecting AI tools often involve large volumes of records at once
+• Re-identification of anonymised data using AI pattern recognition
+• Third-party AI vendors may store or process data outside NHS governance controls
+• Leaked health data can be used for discrimination, fraud, or targeted scams
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Legal and Regulatory Framework
+
+Subtitle: Your obligations under data protection law
+
+Content:
+• UK GDPR requires explicit consent for processing health data
+• Data Protection Act 2018 sets specific rules for NHS organisations
+• ICO can impose significant fines for privacy breaches
+• Common law duty of confidentiality applies to all patient information
+• Professional bodies have clear guidance on data handling responsibilities
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Safe Tool Selection
+
+Subtitle: Choosing approved AI platforms
+
+Content:
+• Use approved tools only
+• Avoid general-purpose AI platforms for patient data
+• Check your organisation's approved software list
+• Verify data processing locations and storage policies
+• Ensure proper contractual safeguards are in place
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Data Preparation Best Practices
+
+Subtitle: Making data safe before AI processing
+
+Content:
+• Anonymise data before sharing
+• Remove all direct identifiers first
+• Consider indirect identifiers that could combine
+• Use pseudonymisation where full anonymisation isn't possible
+• Document your anonymisation methods
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Access Control and Monitoring
+
+Subtitle: Managing who sees what
+
+Content:
+• Limit access strictly to need-to-know basis
+• Log every data interaction for audit trails
+• Review permissions regularly as roles change
+• Monitor for unusual access patterns
+• Report breaches immediately when they occur
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles for safe AI practice
+
+Content:
+• Never enter real patient names, dates of birth, or NHS numbers into any AI tool
+• Anonymise first, always
+• Even seemingly harmless details can combine to identify a patient
+• Check your organisation's approved AI policy before using any new tool
+• If in doubt, leave it out
+• Speak to your information governance lead for guidance on safe next steps

@@ -1,0 +1,31 @@
+Script 1 (Slide 1)
+------------------------------------------------------------------------
+Welcome to this lesson on design errors at scale with AI tools. AI's incredible speed is both its greatest strength and its biggest risk. When things go right, you can generate thousands of outputs in minutes. But when things go wrong, that same speed means errors spread everywhere before you can catch them. Think of it like a typo in a template - one wrong letter in a manual document is embarrassing, but that same typo automatically copied to ten thousand AI-generated documents becomes a crisis. Throughout this lesson, we'll explore how errors behave differently when AI is involved and what you can do to stay ahead of them.
+
+Script 2 (Slide 2)
+------------------------------------------------------------------------
+Traditional manual work naturally contains errors to specific instances. You make a mistake on one drawing, and that's where it stays. But AI fundamentally changes this dynamic. When you use templates, prompts, or automated processes, every mistake gets copied automatically. A flawed assumption in your prompt becomes a flawed output in every generated file. The speed that makes AI so valuable also masks how far damage has spread - by the time you notice something's wrong, it may already exist in hundreds of places. Traditional review cycles simply weren't designed for this kind of rapid proliferation.
+
+Script 3 (Slide 3)
+------------------------------------------------------------------------
+Certain types of mistakes are particularly dangerous in AI workflows because they spread so easily. Inconsistent naming conventions might seem minor, but they create chaos when scaled across large projects. Misaligned grid systems compound into major layout problems. Incorrect colour values in reusable components affect every instance where they're applied. These aren't random errors - they're systematic flaws that AI tools excel at propagating. Understanding which mistakes spread fastest helps you focus your prevention efforts where they matter most.
+
+Script 4 (Slide 4)
+------------------------------------------------------------------------
+Here's where the mathematics of error propagation become really sobering. Errors don't just add up - they multiply exponentially. An early mistake in your process has maximum time to spread before discovery. Each copied instance becomes a separate problem requiring individual attention. What starts as a two-minute fix in isolation becomes hours of systematic correction across an entire project. The compounding effect means timing isn't just important - it's everything. Catching problems early isn't just good practice, it's economic survival.
+
+Script 5 (Slide 5)
+------------------------------------------------------------------------
+Let's make this concrete with real scenarios you might face. Imagine a spacing value that's slightly off - say 8 pixels instead of 12. When that component gets copied across 50 screens, you now have 50 individual problems to fix. Or consider a colour token with the wrong hex value - every screen referencing that token inherits the error instantly. In construction, a flawed building code reference in your template means every generated plan contains the same compliance issue. These aren't hypothetical problems - they're the kind of systematic errors that can derail entire projects when discovered late in the process.
+
+Script 6 (Slide 6)
+------------------------------------------------------------------------
+The best defense against error propagation is catching problems before they have a chance to spread. This means reviewing designs before any assets get reused or shared with others. Simple habits make a huge difference - running through a checklist after each design session catches inconsistencies before they become normalized. Version control tools are invaluable here, flagging unexpected changes between saves and giving you clear records of what shifted when. Never underestimate fresh perspective either - asking a colleague to review even rough work surfaces blind spots that familiarity causes you to miss.
+
+Script 7 (Slide 7)
+------------------------------------------------------------------------
+AI-generated content requires specialized prevention approaches. Never apply AI outputs across your entire project without testing them at the component level first. Before committing to any bulk process, manually review a representative sample of generated assets. When you spot something unusual, flag it immediately rather than assuming it will resolve itself. Build task-specific checklists that target the kinds of mistakes your particular AI tools tend to make repeatedly. Use version control to isolate changes and spot unwanted propagation quickly. These targeted approaches create safety nets specifically designed for AI workflows.
+
+Script 8 (Slide 8)
+------------------------------------------------------------------------
+Building truly error-resistant workflows means making prevention systematic rather than accidental. Integrate validation steps from day one - they're much harder to retrofit later. Always start small, test thoroughly, then scale with confidence rather than hope. Build review checkpoints as integral parts of your process, not afterthoughts when problems emerge. Create feedback loops so you learn from each project and continuously improve your prevention methods. The goal isn't to eliminate AI's speed advantage, but to balance it with appropriate human oversight. This approach lets you harness AI's power while protecting against its risks.

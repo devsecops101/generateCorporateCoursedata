@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI in Drug Discovery: Introduction
+
+Subtitle: Where data quality shapes discovery outcomes.
+
+Content:
+• AI accelerates drug discovery
+• Data quality matters greatly
+• Flawed data risks patient safety
+• Errors spread fast at scale
+• Integrity underpins every result
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Data Sources and Their Risks
+
+Subtitle: Where data originates shapes its risks.
+
+Content:
+• Public databases, often incomplete
+• Lab instruments can malfunction
+• Human entry causes errors
+• Legacy data, poorly formatted
+• Third-party sources, unverified
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: How Errors Compound in AI Pipelines
+
+Subtitle: Flawed inputs corrupt AI-driven discoveries.
+
+Content:
+• AI models trained on incomplete data produce unreliable predictions
+• Errors compound at every stage
+• Single corrupted dataset skews entire programmes
+• Poor data quality goes undetected until late stages
+• Real consequences for patients
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Population Bias in Training Data
+
+Subtitle: When datasets exclude key demographics.
+
+Content:
+• Training data drawn mainly from Western, male, younger populations
+• Underrepresented groups left out entirely
+• Models predict drug efficacy poorly for excluded demographics
+• Historical clinical trial gaps feed directly into AI learning
+• Biased outputs advance flawed candidates into pipeline
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Rare Disease Data Challenges
+
+Subtitle: Special vulnerabilities in small datasets.
+
+Content:
+• Rare diseases severely underrepresented in datasets
+• Small patient pools amplify any data errors
+• Incomplete medical histories common
+• Limited diversity within already small cohorts
+• AI struggles with insufficient training examples
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Data Governance and Controls
+
+Subtitle: Foundational practices for data integrity.
+
+Content:
+• Validate training data sources before AI pipeline entry
+• Implement version control for all datasets
+• Separate raw data from processed outputs
+• Document every data transformation step
+• Establish clear audit trails for traceability
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Ongoing Monitoring and Quality Assurance
+
+Subtitle: Continuous practices to catch problems early.
+
+Content:
+• Regularly audit outputs for unexpected patterns
+• Assign clear ownership of data quality checks
+• Train research teams to spot common issues
+• Start small, test rigorously, then scale
+• Build systematic review processes
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Principles for Success
+
+Subtitle: Core takeaways for responsible AI implementation.
+
+Content:
+• Garbage in, garbage out applies absolutely
+• Validate data before use, always
+• Bias corrupts AI models silently
+• Clean data protects patient safety
+• Start small and build confidence gradually

@@ -1,0 +1,108 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI in Healthcare Resource Allocation
+
+Subtitle: The current reality of automated decisions
+
+Content:
+• Hospitals already use algorithms to assign beds, schedule staff, and distribute equipment
+• These systems make consequential decisions, often without direct human review
+• Decisions happen in milliseconds rather than hours
+• Speed and efficiency can mask issues with fairness or transparency
+• Real patients and workers are affected when the logic goes wrong
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: The Operational Benefits
+
+Subtitle: Why healthcare organisations adopt AI allocation systems
+
+Content:
+• Faster decision-making reduces bottlenecks in patient flow
+• Consistent application of allocation criteria across all shifts
+• Optimisation algorithms can improve resource utilisation rates
+• Reduced administrative workload for clinical staff
+• 24/7 operation without human fatigue or availability constraints
+• Data-driven insights can reveal inefficiencies in current processes
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Operational Risks of Automation
+
+Subtitle: When systems fail or perform unexpectedly
+
+Content:
+• Small errors can scale rapidly across entire organisations
+• Over-reliance may erode staff clinical judgement skills
+• Edge cases and emergencies often fall outside system design parameters
+• Technical failures can create allocation chaos without backup processes
+• Staff may not understand how to properly override automated decisions
+• Accountability gaps arise when no individual owns the outcome
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Bias in Training Data
+
+Subtitle: How historical inequalities become algorithmic decisions
+
+Content:
+• AI systems trained on historical data inherit past allocation inequalities
+• Certain patient groups may be systematically under-prioritised
+• Proxy variables like postcode or employment status can introduce hidden discrimination
+• Minority populations often received less care in historical datasets
+• Algorithms can amplify existing disparities rather than correct them
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: The Challenge of Defining Fairness
+
+Subtitle: Why algorithmic fairness is technically complex
+
+Content:
+• Multiple mathematical definitions of fairness exist and can contradict each other
+• Equal treatment may not result in equitable outcomes across different groups
+• Fairness requires deliberate testing across demographic categories
+• Active monitoring is essential as patient populations and needs change
+• Unchecked bias can widen existing health inequalities rather than reduce them
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Transparency and Accountability
+
+Subtitle: Understanding how decisions are made
+
+Content:
+• Black box algorithms make it difficult to understand decision reasoning
+• Staff need to know what metrics the system is optimising for
+• Lack of explainability complicates error correction and appeals processes
+• Unclear responsibility chains emerge when humans and AI share decisions
+• Patients and families may struggle to understand why resources were allocated
+• Documentation requirements become more complex with automated systems
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Risk Mitigation Strategies
+
+Subtitle: Practical steps for safer AI implementation
+
+Content:
+• Conduct regular audits of AI allocation decisions for bias and accuracy
+• Maintain human oversight with clear override protocols
+• Flag low-confidence outputs for manual review
+• Train staff on when and how to challenge automated decisions
+• Log all allocation changes with reasoning for accountability
+• Establish clear escalation procedures for edge cases and emergencies
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Responsible Implementation Framework
+
+Subtitle: Core principles for ethical AI use in healthcare
+
+Content:
+• AI supports human decision-making rather than replacing clinical judgement
+• Question outputs that contradict clinical experience or seem unusual
+• Actively monitor for bias across all patient demographic groups
+• Ensure transparency in system objectives and decision criteria
+• Maintain clear accountability structures for automated decisions
+• Review and update AI governance policies regularly to address emerging risks

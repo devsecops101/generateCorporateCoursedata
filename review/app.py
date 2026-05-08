@@ -873,7 +873,7 @@ def _ensure_numbered_items(
 st.set_page_config(page_title="JSON Course Reviewer", layout="wide")
 
 st.title("JSON Course Reviewer")
-st.caption("Open, edit, validate, and save course JSON files.")
+st.caption("Open, edit, validate, and save course JSON files. Usage: for existing folder, goto index number, press Export as Package then Export course info (current file), this can then be shared with the course builder")
 
 with st.sidebar:
     st.subheader("Files")

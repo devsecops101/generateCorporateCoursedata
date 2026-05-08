@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Using AI with EHRs
+
+Subtitle: Risks, Rewards, and Responsible Use
+
+Content:
+• AI tools are increasingly being used alongside Electronic Health Records in clinical settings
+• Understanding the risks matters
+• Incorrect summarisation and data exposure are two of the most pressing concerns for healthcare staff
+• This lesson covers both the potential benefits and the responsibilities that come with using AI in patient care
+• No prior technical knowledge needed
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Data Exposure Risks
+
+Subtitle: How Patient Information Can Be Compromised
+
+Content:
+• Sensitive data may be exposed if AI tools are not properly secured
+• Consumer AI applications lack clinical-grade privacy protections
+• Data can be stored on external servers without your knowledge
+• Third-party AI vendors may have different data retention policies
+• Audit trails can become unclear when AI contributes to clinical documentation
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Human Factors in AI Risk
+
+Subtitle: Why Good Clinicians Make AI Mistakes
+
+Content:
+• Over-reliance develops when AI outputs look polished and confident
+• Time pressure leads to skipping verification steps
+• Trust in technology can reduce clinical scrutiny
+• Errors can go unnoticed without proper oversight
+• Multiple AI interactions create cumulative risk exposure
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Risks of Incorrect Summarisation
+
+Subtitle: When AI Gets the Summary Wrong
+
+Content:
+• Wrong drugs listed
+• Missed allergies
+• Incorrect diagnoses recorded
+• Outdated information shown
+• Patient safety at risk
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Approved Tools and Data Protection
+
+Subtitle: Safe AI Usage Guidelines
+
+Content:
+• Always use NHS-approved or trust-approved AI tools only
+• Never paste identifiable patient data into consumer AI applications
+• Understand your organisation's AI policy and approved vendor list
+• Report any suspected data breach immediately using your organisation's standard incident process
+• Keep a brief record of when and how AI was used in any clinical task
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Clinical Verification Protocols
+
+Subtitle: Essential Checks for AI Outputs
+
+Content:
+• Double-check every AI-generated summary before acting on it
+• Verify patient identity matches at multiple data points
+• Cross-reference critical information with original records
+• Look for temporal inconsistencies in patient history
+• Document your verification process in clinical notes
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Protecting Patients From AI Errors
+
+Subtitle: Safeguards every clinician should implement
+
+Content:
+• Always verify AI summaries
+• Check patient details carefully
+• Flag unexpected AI outputs
+• Never skip manual review
+• Report errors promptly
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Protect data, verify AI outputs always.
+
+Content:
+• Never share patient data carelessly
+• Always verify AI summaries
+• Errors cause real patient harm
+• Report concerns to your supervisor
+• Stay curious, keep learning

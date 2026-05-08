@@ -1,0 +1,110 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Using AI in Healthcare
+
+Subtitle: Balancing Innovation With Patient Safety
+
+Content:
+• AI transcription tools now widely used in GP surgeries, hospitals, and clinics across the UK
+• Saves clinicians time on documentation
+• But these tools carry real risks around patient privacy and accuracy
+• Understanding those risks is essential before adopting any tool
+• This course gives practical, beginner-friendly guidance for safe use
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Overview of Transcription Risks
+
+Subtitle: What can go wrong, and why
+
+Content:
+• Misheard words leading to incorrect medication names or dosages in patient notes
+• Patient data sent to external servers without clear consent
+• Accidental recording of sensitive disclosures
+• Transcripts stored insecurely or shared beyond intended recipients
+• Dialect and accent variation reducing accuracy for some patients
+• No automatic flag when the tool is uncertain or has made an error
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Clinical Accuracy Challenges
+
+Subtitle: Common transcription errors in healthcare
+
+Content:
+• Homophones create dangerous confusion (e.g., "hyper" vs "hypo")
+• Medical jargon and terminology frequently misinterpreted
+• Background noise in clinical environments affects accuracy
+• Complex drug names sound similar and get confused
+• Accents and speech patterns reduce reliability for some patients
+• AI systems lack medical context to catch implausible results
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Error Propagation in Records
+
+Subtitle: How mistakes spread through patient care
+
+Content:
+• Unchecked transcription errors persist in permanent medical records
+• Downstream clinicians rely on inaccurate information without knowing the source
+• Wrong patient details can attach to incorrect medical files
+• Missed allergies or contraindications create safety risks
+• Errors compound when notes are referenced for future treatment decisions
+• Manual review is the only reliable way to catch mistakes before they spread
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Privacy and Data Security Risks
+
+Subtitle: Protecting sensitive patient information
+
+Content:
+• Audio recordings may be transmitted to third-party servers without patient knowledge
+• Sensitive disclosures captured inadvertently during consultations
+• Data retention policies unclear with many transcription services
+• Patient identifiers embedded in transcripts create privacy exposure
+• Cloud storage without proper data processing agreements violates regulations
+• No guarantee of secure deletion when switching tools or providers
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Minimising Risk in Practice
+
+Subtitle: Practical steps to reduce everyday risks
+
+Content:
+• Always verify transcribed notes before saving or sharing
+• Anonymise patient data immediately after transcription
+• Use only organisation-approved tools with proper contracts
+• Log and report transcription errors to improve systems
+• Obtain explicit patient consent before recording consultations
+• Delete audio recordings promptly after transcription is complete
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Choosing Appropriate Tools
+
+Subtitle: Evaluating transcription solutions for clinical use
+
+Content:
+• Verify data processing agreements meet healthcare standards
+• Ensure tools comply with GDPR and medical confidentiality requirements
+• Assess accuracy performance with medical terminology and diverse accents
+• Check for local data storage options vs cloud-based processing
+• Confirm audit trails and error reporting capabilities
+• Avoid consumer-grade apps that lack clinical safeguards
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles for safe, responsible use
+
+Content:
+• Always verify AI transcriptions before finalising notes
+• Protect patient data through proper consent and anonymisation
+• Report transcription errors to help improve safety systems
+• Use only approved tools with appropriate data agreements
+• Review all notes carefully before adding to medical records
+• Remember that human oversight remains essential for patient safety

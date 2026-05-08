@@ -1,0 +1,106 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Introducing AI Triage Risks
+
+Subtitle: When AI gets triage dangerously wrong
+
+Content:
+• AI triage systems sort patients by urgency, deciding who gets care first
+• Sometimes the algorithm gets it wrong
+• Urgent cases can be deprioritised, delayed, or missed entirely
+• Real patients face real harm when this happens
+• Understanding these risks is the first step to preventing them
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: What Is Misclassification?
+
+Subtitle: When AI assigns the wrong priority level
+
+Content:
+• AI incorrectly ranks patient urgency
+• Serious cases marked as low priority
+• Non-urgent cases flagged as critical
+• Errors appear legitimate on the surface
+• Staff may not immediately question AI decisions
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Technical Causes of Misclassification
+
+Subtitle: System limitations that lead to errors
+
+Content:
+• Training data underrepresents certain patient groups
+• Poor input quality causes misreading of symptoms
+• Rare conditions absent from training datasets
+• Systems overweight single metrics while ignoring context
+• Informal symptom descriptions not recognised
+• Historical bias embedded in learning algorithms
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Common Vulnerability Patterns
+
+Subtitle: Which patients are most at risk
+
+Content:
+• Older adults and non-native speakers
+• Patients with atypical symptom presentations
+• Those with rare but serious conditions
+• Cases requiring complex contextual assessment
+• Patients describing symptoms in non-medical language
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Impact of Delayed Critical Care
+
+Subtitle: How misclassification harms patients
+
+Content:
+• Time-sensitive conditions like stroke and sepsis deteriorate rapidly
+• Wrong priority queue means extended waiting times
+• Permanent damage can occur within minutes
+• Families and clinicians lack accurate information for decisions
+• Patient outcomes worsen significantly with delay
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Beyond Patient Harm
+
+Subtitle: Wider consequences of triage errors
+
+Content:
+• Healthcare system loses patient and family trust
+• Legal liability for preventable outcomes
+• Staff morale affected by missed cases
+• Resource allocation becomes inefficient
+• Quality metrics and reputation suffer
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Prevention Strategies
+
+Subtitle: Building safer AI triage processes
+
+Content:
+• Regular audits comparing AI outputs to patient outcomes
+• Mandatory clinician override capabilities
+• Frequent training data updates reflecting current demographics
+• Clear escalation protocols for low-confidence AI decisions
+• Staff education on critical evaluation of AI recommendations
+• Error feedback loops for continuous system improvement
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Essential Takeaways
+
+Subtitle: Your role in safer AI triage
+
+Content:
+• Never assume AI has identified all urgent cases
+• Apply independent clinical judgement to verify outputs
+• Maintain human oversight as essential safety layer
+• Report suspected errors to improve system performance
+• Advocate for diverse, high-quality training data
+• Stay alert to bias patterns in AI recommendations

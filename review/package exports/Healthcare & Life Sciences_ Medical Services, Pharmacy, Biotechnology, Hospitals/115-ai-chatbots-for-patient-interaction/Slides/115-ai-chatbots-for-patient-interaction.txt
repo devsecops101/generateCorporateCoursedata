@@ -1,0 +1,105 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Welcome to the Course
+
+Subtitle: Exploring risks in AI patient care
+
+Content:
+• AI chatbots are everywhere now
+• Patients already use them
+• Risks are real and serious
+• This course explains the key risks
+• No prior knowledge needed
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Advice Accuracy Risks
+
+Subtitle: When AI misinterprets symptoms
+
+Content:
+• AI chatbots can misinterpret symptoms and suggest the wrong level of urgency
+• No ability to ask follow-up questions the way a clinician would
+• Patients may act on incorrect advice without seeking further help
+• Vulnerable groups (elderly, those with low health literacy) at higher risk
+• A single missed red flag can have serious consequences
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Critical Triage Failures
+
+Subtitle: Life-threatening conditions missed by AI
+
+Content:
+• Chest pain flagged as anxiety
+• Stroke symptoms deemed stress
+• Sepsis missed, delays treatment
+• No escalation to clinicians
+• Algorithms lack clinical judgement
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Systemic Triage Limitations
+
+Subtitle: Why AI triage systems fail patients
+
+Content:
+• Wrong urgency assignments delay care
+• Context-dependent conditions overlooked
+• No human oversight to catch errors
+• Patients trust harmful recommendations
+• System design lacks safety fallbacks
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Trust Erosion Factors
+
+Subtitle: How chatbots damage patient relationships
+
+Content:
+• Wrong information destroys credibility
+• Patients feel unheard by impersonal responses
+• Privacy concerns create anxiety
+• Cold, robotic tone alienates users
+• Errors cascade into healthcare system distrust
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Over-reliance Dangers
+
+Subtitle: When patients trust AI too much
+
+Content:
+• Patients bypass professional consultation
+• Reassuring but wrong advice delays urgent care
+• Vulnerable populations most susceptible
+• Chatbots miss emotional and physical cues
+• Clear boundaries must be designed upfront
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Error Recovery Protocol
+
+Subtitle: Steps to restore patient confidence
+
+Content:
+• Acknowledge the error promptly and without deflection
+• Apologise clearly, using plain language
+• Explain what went wrong
+• Outline concrete prevention steps
+• Offer direct access to human clinicians
+• Document and report the incident properly
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Implementation Guidelines
+
+Subtitle: Core principles for safer AI use
+
+Content:
+• AI supports but never replaces clinical judgement
+• Always verify chatbot outputs before acting
+• Maintain transparency about AI involvement
+• Keep humans in the loop at every stage
+• Review your organisation's AI policies
+• Focus on patient safety above efficiency
