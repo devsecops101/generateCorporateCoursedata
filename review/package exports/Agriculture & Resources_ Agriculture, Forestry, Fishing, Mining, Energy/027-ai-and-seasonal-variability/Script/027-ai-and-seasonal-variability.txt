@@ -1,0 +1,31 @@
+Script 1 (Slide 1)
+------------------------------------------------------------------------
+Welcome to this course on AI and Seasonal Variability. This might sound technical, but it affects real businesses every day. Here's the core problem: AI systems are trained on historical data, and when seasons change, so do the patterns. Suddenly, the AI faces conditions it's never properly seen before, and predictions can go badly wrong. We're not talking about minor inaccuracies—these failures lead to financial losses, poor decisions, and missed opportunities. The good news is that understanding why this happens puts you in a stronger position to spot warning signs and take action before things go wrong.
+
+Script 2 (Slide 2)
+------------------------------------------------------------------------
+Before exploring how AI fits in, let's clarify what seasonal variability actually means. It refers to predictable, recurring patterns in demand and behaviour throughout the year. Weather plays a huge role—when temperatures change, so does what people need. Holidays and events shift patterns dramatically too. The key point is these changes aren't random—they follow cycles that repeat year after year, making them largely foreseeable. You see this across industries: retailers in buying habits, energy suppliers in consumption, travel companies in booking volumes. That predictability makes this such an important area for AI applications.
+
+Script 3 (Slide 3)
+------------------------------------------------------------------------
+Let's examine how AI models actually learn. When an AI is trained, it studies historical data and becomes very good at spotting patterns in that information. It builds an understanding of what 'normal' looks like based entirely on past examples. The model assumes these patterns will continue and has no built-in awareness that conditions might change with seasons or other factors. This training approach works well when future conditions match the past, but creates vulnerabilities when the world shifts in ways the historical data didn't capture.
+
+Script 4 (Slide 4)
+------------------------------------------------------------------------
+Here's where problems start. When seasons shift patterns dramatically—consumer behaviour in December looks nothing like July—models trained on limited historical periods begin to struggle. Weather, demand, and foot traffic all change, but if your model learned from one period, it starts failing when the world looks different. This gradual loss of accuracy is called model drift, and the tricky part is it doesn't announce itself. There's no alarm. Predictions quietly become less reliable over time, and you might not notice until damage is done. Small seasonal shifts compound into large, costly errors.
+
+Script 5 (Slide 5)
+------------------------------------------------------------------------
+So what happens when seasons don't behave as your AI expects? The solution is retraining your model with fresh, current data. Think of it like recalibrating a compass after moving to a new location. Even small changes in input data can make surprisingly big differences to prediction accuracy. The key insight is that retraining shouldn't be something you do once and forget. It needs to be regular maintenance, not something reserved for when things go badly wrong. Building consistent retraining habits keeps your model sharp and reliable as conditions change.
+
+Script 6 (Slide 6)
+------------------------------------------------------------------------
+Rather than reacting to problems, the smarter approach is proactive monitoring and management. This means continuously tracking your model's performance to catch drift early, before it causes real damage. Schedule updates around known seasonal transitions—before winter demand or ahead of busy retail periods. Flag high-variability windows like holidays, harvests, or weather events in advance. Monitor for gradual accuracy declines that signal the model is losing touch with current conditions. Frequent small adjustments typically outperform large annual overhauls in maintaining model reliability.
+
+Script 7 (Slide 7)
+------------------------------------------------------------------------
+Building seasonal awareness into your AI management means preparing for change before it arrives. Retrain models on recent seasonal data before peak periods begin, and build regular review schedules around predictable calendar events. During transition periods when models are adjusting to new patterns, add human oversight to catch problems early. Use data from similar seasonal periods rather than whatever historical data happens to be available. Create systematic approaches to model updates rather than ad-hoc responses to problems. This preparation prevents many seasonal failures from occurring.
+
+Script 8 (Slide 8)
+------------------------------------------------------------------------
+Let's bring this together. AI systems are only as reliable as their training data, and if that data comes from limited seasonal conditions, models struggle when things change. Seasonal change is one of the most common ways AI tools fail in the real world, yet it often catches people off guard. Always question whether your AI was trained on data matching your current context. Small condition shifts can quietly build into much bigger problems over time. A practical next step is asking your AI provider how often their models are retrained and what data they use. That one question could save you from costly mistakes.

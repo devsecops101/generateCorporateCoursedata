@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Edge AI in Remote Locations
+
+Subtitle: Where Isolation Meets Intelligent Risk
+
+Content:
+• AI runs without nearby support
+• Remote means harder to protect
+• Attacks can go unnoticed longer
+• Physical access risks increase
+• Unique threats need unique solutions
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Physical Vulnerabilities of Remote Deployment
+
+Subtitle: What Makes Isolated AI Devices Attractive Targets
+
+Content:
+• Devices left unattended for weeks or months
+• No guards, cameras, or locked facilities
+• Easy targets for theft and vandalism
+• Environmental hazards compound security risks
+• Brief physical access can compromise entire system
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Consequences of Physical Compromise
+
+Subtitle: What Attackers Can Achieve With Device Access
+
+Content:
+• Extract sensitive data and AI model weights
+• Install malicious hardware or firmware
+• Access stored credentials and system keys
+• Tamper with sensors to corrupt input data
+• Steal proprietary algorithms and operational intelligence
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Detection-Based Security Measures
+
+Subtitle: Knowing When Devices Have Been Compromised
+
+Content:
+• Tamper-evident seals show signs of interference
+• Motion sensors trigger intrusion alerts
+• Regular inspection schedules catch problems early
+• Remote monitoring logs access attempts
+• Security cameras deter opportunistic attacks
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Prevention-Based Physical Protection
+
+Subtitle: Making Devices Harder to Access and Steal
+
+Content:
+• Lockable, reinforced enclosures resist tampering
+• Anchor devices to fixed structures
+• Use security screws requiring special tools
+• Position devices in less accessible locations
+• Robust casing protects against environmental damage
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Network Security in Low-Connectivity Environments
+
+Subtitle: Protecting Communication When Bandwidth Is Limited
+
+Content:
+• Encrypt all data in transit and at rest
+• Limit network access to essential connections only
+• Handle software updates in low-bandwidth conditions
+• Secure authentication despite intermittent connectivity
+• Plan for extended offline operation periods
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Data Integrity and Autonomous Operation
+
+Subtitle: Ensuring Reliable Performance Without Supervision
+
+Content:
+• Validate sensor inputs for tampering or corruption
+• Implement local data backup and recovery systems
+• Design fail-safe behaviors for suspicious conditions
+• Monitor system health with automated diagnostics
+• Establish secure communication protocols for alerts
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Points to Remember
+
+Subtitle: Core principles for securing remote deployments
+
+Content:
+• Physical security matters as much as digital security in remote deployments
+• Encrypt data both in transit and at rest
+• Assume the device could be stolen or tampered with
+• Regular firmware updates reduce vulnerability windows significantly
+• Limit network access to only what the device genuinely needs
+• As a next step, audit one existing remote device against the principles covered in this course

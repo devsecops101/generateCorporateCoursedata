@@ -1,0 +1,71 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI in Industrial Operations Today
+
+Subtitle: From Automation to Critical Control
+
+Content:
+['• AI manages power grids, water treatment, and manufacturing lines', '• Systems make real-time decisions about valves, pressure, and switching', '• AI has moved from background tool to critical infrastructure', '• Interconnected systems create dependencies across facilities', '• Industrial AI operates physical processes, not just data']
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Ransomware Targeting Industrial Sectors
+
+Subtitle: Why Critical Infrastructure Attracts Attackers
+
+Content:
+['• Energy, water, and manufacturing sectors see increasing attacks', '• Attackers lock operators out of control systems entirely', '• Industrial downtime causes immediate real-world impact', '• Public safety implications make organizations pay faster', '• Connected environments expand attack surfaces']
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: AI Manipulation vs Disruption
+
+Subtitle: Two Distinct Attack Approaches
+
+Content:
+['• Disruption: Shutting down AI systems completely', '• Manipulation: Feeding false data to cause bad decisions', '• Manipulation attacks often go undetected longer', "• Both approaches target AI's decision-making capabilities", '• Physical damage can result from either method']
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Speed Amplifies Vulnerability
+
+Subtitle: When Fast Automation Becomes Fast Failure
+
+Content:
+['• AI makes split-second decisions too fast for manual backup', "• Ransomware can freeze the AI 'brain' instantly", '• Automated speed means cascading failures happen in minutes', '• Human operators cannot compensate quickly enough', '• Backup systems lack the speed to prevent cascade effects']
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Operational Cascade Effects
+
+Subtitle: How One System Failure Spreads
+
+Content:
+['• Production lines halt when control systems lock up', '• Sensors lose AI guidance and provide no visibility', '• Safety systems dependent on real-time data go offline', '• Failures trigger more failures across connected equipment', '• Full recovery requires days, not hours']
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Extended Business Impact
+
+Subtitle: Disruption Beyond the Factory Floor
+
+Content:
+['• Supply chain partners feel immediate effects', '• Emergency response costs mount by the hour', '• AI models require retraining before safe restart', '• Customer confidence takes months to rebuild', '• Financial losses reach millions within hours']
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Cost and Recovery Realities
+
+Subtitle: The True Price of AI System Compromise
+
+Content:
+['• Industrial downtime costs millions per day', '• Recovery complexity increases with AI dependencies', '• Regulatory penalties often follow safety incidents', '• Insurance may not cover all ransomware-related losses', '• Rebuilding trust takes longer than rebuilding systems']
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Practical Protection Steps
+
+Subtitle: Building Resilience Against AI-Targeted Attacks
+
+Content:
+['• Audit AI-connected systems by risk level', '• Segment networks to contain attack spread', '• Maintain offline backups and test them regularly', '• Prepare incident response plans before attacks occur', '• Focus protection efforts on highest-risk AI systems first']

@@ -15,8 +15,322 @@
     "platform" : "Mac",
     "version" : "2020.0.19"
   },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "./media/1776075029.070896/Rec 4-13-2026 52.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100055",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 19458],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.1945446448117,
+          "peakLevel" : 0.308717370033264,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100055.273671"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "./media/1776075029.071381/Rec 4-13-2026 53.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100131",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 24079],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.9827918877713,
+          "peakLevel" : 0.277239739894867,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100131.710968"
+      }
+    },
+    {
+      "id" : 3,
+      "src" : "./media/1776075029.071735/Rec 4-13-2026 54.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100205",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 25263],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.5563511731693,
+          "peakLevel" : 0.322219341993332,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100205.396947"
+      }
+    },
+    {
+      "id" : 4,
+      "src" : "./media/1776075029.072049/Rec 4-13-2026 55.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100307",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 51037],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.0663984536046,
+          "peakLevel" : 0.331546187400818,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100307.366033"
+      }
+    },
+    {
+      "id" : 5,
+      "src" : "./media/1776075029.072350/Rec 4-13-2026 56.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100346",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 28676],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.3480888380025,
+          "peakLevel" : 0.375217974185944,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100346.857998"
+      }
+    },
+    {
+      "id" : 6,
+      "src" : "./media/1776075029.072638/Rec 4-13-2026 57.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100437",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 31532],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.0397205652046,
+          "peakLevel" : 0.318747967481613,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100437.847514"
+      }
+    },
+    {
+      "id" : 7,
+      "src" : "./media/1776075029.072916/Rec 4-13-2026 58.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100506",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 5944],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -69.0042790581884,
+          "peakLevel" : 0.00358576700091362,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100506.882661"
+      }
+    },
+    {
+      "id" : 8,
+      "src" : "./media/1776075029.073190/Rec 4-13-2026 59.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100614",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 62484],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.3955519299324,
+          "peakLevel" : 0.32930588722229,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100614.600593"
+      }
+    },
+    {
+      "id" : 9,
+      "src" : "./media/1776075029.073472/Rec 4-13-2026 60.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100702",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 40263],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.4126208010389,
+          "peakLevel" : 0.338058739900589,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100702.511326"
+      }
+    },
+    {
+      "id" : 10,
+      "src" : "./media/1776075029.073756/Rec 4-13-2026 61.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100829",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 79760],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.3827603851918,
+          "peakLevel" : 0.324016600847244,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100829.576436"
+      }
+    },
+    {
+      "id" : 11,
+      "src" : "./media/1776075029.074023/Rec 4-13-2026 62.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T100935",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 54566],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.2213874925356,
+          "peakLevel" : 0.397905111312866,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T100935.973701"
+      }
+    },
+    {
+      "id" : 12,
+      "src" : "./media/1776075029.074290/Rec 4-13-2026 63.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T101007",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 22430],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -29.1605230189479,
+          "peakLevel" : 0.249142602086067,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T101007.164366"
+      }
+    },
+    {
+      "id" : 13,
+      "src" : "./media/1776075029.074533/Rec 4-13-2026 64.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20260413T101027",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 13374],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -28.4142731131749,
+          "peakLevel" : 0.250914573669434,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20260413T101027.855086"
+      }
+    }
+  ],
   "timeline" : {
-    "id" : 1,
+    "id" : 14,
     "sceneTrack" : {
       "scenes" : [
         {
@@ -25,6 +339,342 @@
               {
                 "trackIndex" : 0,
                 "medias" : [
+                  {
+                    "id" : 15,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 52",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 444,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 444,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 16,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 53",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 444,
+                    "duration" : 722,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 722,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 17,
+                    "_type" : "AMFile",
+                    "src" : 3,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 54",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 1166,
+                    "duration" : 483,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 483,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 18,
+                    "_type" : "AMFile",
+                    "src" : 4,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 55",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 1649,
+                    "duration" : 1345,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1345,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 19,
+                    "_type" : "AMFile",
+                    "src" : 5,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 56",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 2994,
+                    "duration" : 721,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 721,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 20,
+                    "_type" : "AMFile",
+                    "src" : 6,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 57",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 3715,
+                    "duration" : 826,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 826,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 21,
+                    "_type" : "AMFile",
+                    "src" : 8,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 59",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 4541,
+                    "duration" : 1760,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1760,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 22,
+                    "_type" : "AMFile",
+                    "src" : 9,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 60",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 6301,
+                    "duration" : 1064,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1064,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 23,
+                    "_type" : "AMFile",
+                    "src" : 10,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 61",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 7365,
+                    "duration" : 2245,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 2245,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 24,
+                    "_type" : "AMFile",
+                    "src" : 11,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 62",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 9610,
+                    "duration" : 1506,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1506,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 25,
+                    "_type" : "AMFile",
+                    "src" : 12,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 63",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 11116,
+                    "duration" : 535,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 535,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 26,
+                    "_type" : "AMFile",
+                    "src" : 13,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 4-13-2026 64",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 11651,
+                    "duration" : 401,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 401,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
                 ]
               },
               {
@@ -77,11 +727,16 @@
     },
     "gain" : 1.0,
     "legacyAttenuateAudioMix" : false,
-    "backgroundColor" : [ 0, 0, 0, 255]
+    "backgroundColor" : [ 0, 0, 0, 255],
+    "metadata" : {
+      "RecordingHeight" : "0",
+      "RecordingWidth" : "0"
+    }
   },
   "metadata" : {
     "activeThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
     "audiateSessionId" : "",
+    "firstMedia" : true,
     "hasNotifiedAboutHFRMedia" : false
   }
 }

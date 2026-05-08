@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Sensor Spoofing: An Introduction
+
+Subtitle: When Data Lies, Decisions Fail
+
+Content:
+• Sensors collect real-world data that machines and operators rely on to make critical decisions
+• When that data is falsified, systems respond to conditions that do not actually exist
+• Spoofing means feeding false inputs
+• Attackers can manipulate temperature, pressure, flow, or location readings without touching physical equipment
+• The consequences range from minor inefficiencies to catastrophic equipment failure or safety incidents
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: How Sensor Spoofing Works
+
+Subtitle: The mechanics of deception
+
+Content:
+• Attackers intercept or replace legitimate sensor communications
+• False data is injected between sensors and control systems
+• Systems trust incoming data without verifying its authenticity
+• Automated responses trigger based on fabricated readings
+• No physical access to equipment required—attacks happen through data streams
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Critical Infrastructure Attacks
+
+Subtitle: When spoofing targets essential services
+
+Content:
+• Power grid sensors manipulated to hide system overloads
+• Water treatment readings spoofed to mask contamination
+• Nuclear facility centrifuges destroyed by Stuxnet malware
+• Industrial control systems fed false temperature and pressure data
+• Operators made decisions based on completely fabricated information
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Transportation and Navigation Spoofing
+
+Subtitle: Misdirecting vehicles and vessels
+
+Content:
+• GPS spoofing redirected military drones and commercial ships
+• Tesla autopilot confused by simple stickers on road markings
+• Aircraft navigation systems tricked with false position data
+• Shipping vessels pushed off course in busy waterways
+• Low-cost equipment can disrupt high-value navigation systems
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Healthcare Device Manipulation
+
+Subtitle: Life-critical systems under attack
+
+Content:
+• Insulin pumps hacked remotely to deliver wrong dosages
+• Medical monitors spoofed to hide cardiac events in lab tests
+• Patient vital signs falsified to mask deteriorating conditions
+• Drug delivery systems manipulated to alter medication timing
+• Wireless medical devices particularly vulnerable to interference
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Environmental and Agricultural Threats
+
+Subtitle: Spoofing in outdoor operations
+
+Content:
+• Weather monitoring systems fed false climate data
+• Soil moisture sensors manipulated to trigger incorrect irrigation
+• Air quality monitors spoofed to hide pollution levels
+• Equipment tracking systems given false location information
+• Resource extraction operations misled about environmental conditions
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Consequences of Successful Attacks
+
+Subtitle: Real-world impact when spoofing succeeds
+
+Content:
+• Equipment damage from operating outside safe parameters
+• Safety incidents when protective systems are bypassed
+• Financial losses from poor operational decisions
+• Environmental harm from undetected contamination
+• Loss of public trust when critical systems fail
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Protective Measures and Response
+
+Subtitle: Defending against sensor spoofing
+
+Content:
+• Verify readings from multiple independent sources
+• Implement data validation checks and range limits
+• Monitor for sudden or unexplained changes in sensor data
+• Use encrypted communications between sensors and systems
+• Report anomalies immediately to security teams

@@ -1,0 +1,102 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Introducing AI Seasonal Variability
+
+Subtitle: When AI meets changing seasonal conditions
+
+Content:
+• AI struggles with seasonal shifts
+• Patterns change, predictions fail
+• Real costs, real consequences
+• Understanding helps prevent failures
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: What is Seasonal Variability
+
+Subtitle: Recurring patterns across the year
+
+Content:
+• Weather drives demand changes
+• Holidays shift consumer behaviour
+• Predictable, cyclical patterns
+• Examples: retail peaks, energy usage
+• Agricultural growing seasons
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: How AI Models Learn Patterns
+
+Subtitle: Understanding AI training foundations
+
+Content:
+• Models trained on historical data
+• Learn what 'normal' looks like
+• Detect patterns from past examples
+• No built-in calendar awareness
+• Assume patterns will continue
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: When Seasonal Shifts Break AI
+
+Subtitle: Model drift in action
+
+Content:
+• Old patterns become outdated
+• Predictions lose accuracy gradually
+• Models unaware of seasonal context
+• Small errors compound over time
+• No automatic alerts for drift
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: The Retraining Solution
+
+Subtitle: Updating models with fresh data
+
+Content:
+• New data improves accuracy
+• Regular updates beat annual ones
+• Fresh inputs recalibrate predictions
+• Consistent maintenance required
+• Small changes make big differences
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Proactive Model Management
+
+Subtitle: Staying ahead of seasonal drift
+
+Content:
+• Monitor performance continuously
+• Schedule updates around transitions
+• Flag high-variability periods
+• Catch drift before damage occurs
+• Frequent small adjustments work best
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Building Seasonal Awareness
+
+Subtitle: Preparing AI systems for change
+
+Content:
+• Retrain before peak periods
+• Plan around known calendar events
+• Add human oversight during transitions
+• Use recent seasonal data
+• Create review schedules
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Takeaways
+
+Subtitle: Essential lessons for AI users
+
+Content:
+• Question your AI's training data
+• Seasonal mismatch causes failures
+• Ask providers about update frequency
+• Small shifts create large problems
+• Preparation beats reaction

@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Remote Sensing Data Vulnerabilities
+
+Subtitle: Understanding the growing threat landscape
+
+Content:
+• Satellites and drones collect sensitive data on infrastructure, resources, and operations daily
+• Agriculture, mining, energy, and forestry sectors increasingly depend on this technology
+• Data breaches can expose critical business intelligence to competitors
+• Security gaps in remote sensing systems create real operational risks
+• Understanding these vulnerabilities is essential for responsible technology adoption
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Technical Accuracy Limitations
+
+Subtitle: When sensor data leads you astray
+
+Content:
+• Sensor calibration drifts over time, reducing measurement accuracy
+• Weather conditions distort readings and image quality
+• GPS positioning errors compound during data collection
+• Equipment malfunctions create systematic errors in datasets
+• Poor data quality leads to flawed decision-making in critical operations
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: GPS Spoofing Attacks
+
+Subtitle: Redirecting aircraft through false signals
+
+Content:
+• Attackers broadcast fake GPS signals to deceive drone navigation systems
+• Aircraft unknowingly follow false coordinates to unintended locations
+• Cargo and valuable data can be intercepted during spoofed flights
+• Remote attacks require no physical access to the aircraft
+• Both military and civilian operations face this growing threat
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Signal Jamming and Interference
+
+Subtitle: Blocking navigation systems entirely
+
+Content:
+• Radio frequency interference overwhelms weak GPS signals
+• Aircraft lose navigation capability and may enter emergency protocols
+• Critical infrastructure sites experience frequent jamming incidents
+• Border zones and conflict areas see the highest interference rates
+• Operations in high-risk areas require alternative navigation backup systems
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Data Collection Corruption
+
+Subtitle: How navigation attacks compromise survey accuracy
+
+Content:
+• Corrupted positioning data invalidates entire survey missions
+• Location timestamps become unreliable when GPS is compromised
+• Survey boundaries shift unpredictably during spoofing attacks
+• Geographic analysis fails when coordinate systems are manipulated
+• Resource mapping and monitoring lose accuracy without reliable positioning
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Attack Accessibility and Impact
+
+Subtitle: Why signal threats are becoming more common
+
+Content:
+• Jamming and spoofing equipment is increasingly affordable and available
+• Technical knowledge barriers continue to decrease
+• Attack range extends for miles from the interference source
+• Multiple aircraft can be affected simultaneously
+• Detection and attribution of attacks remains technically challenging
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Industry-Specific Consequences
+
+Subtitle: Real-world impacts across sectors
+
+Content:
+• Agricultural surveys produce inaccurate crop yield predictions
+• Mining operations lose precision in resource identification
+• Energy infrastructure monitoring fails to detect actual conditions
+• Forestry management decisions based on corrupted boundary data
+• Emergency response efforts misdirected by compromised location intelligence
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Risk Mitigation Strategies
+
+Subtitle: Practical steps for data protection
+
+Content:
+• Verify data sources and validate positioning accuracy before use
+• Encrypt sensitive imagery and maintain secure data transmission
+• Confirm legal permissions and airspace clearances before operations
+• Implement backup navigation systems for critical missions
+• Establish incident response procedures for suspected data breaches
+• Regularly audit and update security protocols as threats evolve

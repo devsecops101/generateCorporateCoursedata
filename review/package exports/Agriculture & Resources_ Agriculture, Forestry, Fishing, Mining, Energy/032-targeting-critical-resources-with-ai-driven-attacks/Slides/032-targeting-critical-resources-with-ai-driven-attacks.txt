@@ -1,0 +1,107 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Targeting Critical Resources: An Introduction
+
+Subtitle: AI threats to essential sector systems
+
+Content:
+• AI targets critical infrastructure
+• Energy, mining, agriculture at risk
+• Attacks are growing fast
+• Real systems, real consequences
+• Beginners welcome here
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: The Evolving AI Threat Landscape
+
+Subtitle: How accessible tools change the game
+
+Content:
+• AI tools now accessible to less skilled attackers
+• Critical sectors increasingly rely on connected systems
+• Attackers scan vulnerabilities at unprecedented speed and scale
+• Traditional defences struggle to keep pace
+• AI combines speed, adaptability, and precision targeting
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Mapping Vulnerable Entry Points
+
+Subtitle: Where attackers find their way in
+
+Content:
+• Sensors, data pipelines, and control interfaces as attack vectors
+• Legacy industrial equipment integration weaknesses
+• Training data, model inputs, and API endpoints carry risk
+• Gaps between AI layer and physical control systems
+• Misconfigured cloud environments hosting AI models
+• Outdated software with unpatched vulnerabilities
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Attack Methods Across Sectors
+
+Subtitle: How AI enables sophisticated targeting
+
+Content:
+• Automated vulnerability scanning at machine speed
+• Data poisoning to corrupt AI decision-making
+• Sensor manipulation feeding false information
+• Model hijacking to control automated systems
+• Supply chain infiltration through connected devices
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Real-World Attack Examples
+
+Subtitle: Documented incidents across critical infrastructure
+
+Content:
+• Texas power grid blackouts from manipulated load-balancing algorithms
+• Australian mining disruption via compromised drone AI systems
+• California irrigation networks hijacked, flooding crops
+• European gas pipeline maintenance AI fed false pressure data
+• UK livestock monitoring systems triggering false quarantine alerts
+• Smart sensors compromised across multiple facilities
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Energy Grid Attack Dynamics
+
+Subtitle: Why power infrastructure faces unique risks
+
+Content:
+• AI rapidly identifies control system vulnerabilities
+• Remote sensor manipulation enables attacks from distance
+• Power outages cascade to hospitals, homes, essential services
+• Interconnected infrastructure spreads failures quickly
+• Critical timing makes grid attacks particularly damaging
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Building Effective Defences
+
+Subtitle: Practical steps to protect AI-driven systems
+
+Content:
+• Segment operational networks from internet-facing systems
+• Regularly audit AI inputs and data sources
+• Monitor for unusual patterns in automated decisions
+• Train staff to recognise AI-specific threat indicators
+• Apply strict access controls to AI-feeding systems
+• Test defences against AI-assisted attack scenarios
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Takeaways for Vigilance
+
+Subtitle: Essential actions for ongoing protection
+
+Content:
+• AI attacks on critical infrastructure are active today
+• Small vulnerabilities enable major disruptions
+• Question and verify automated system changes
+• Report unusual sensor behaviour immediately
+• Maintain curiosity about emerging threats
+• Stay informed to stay protected

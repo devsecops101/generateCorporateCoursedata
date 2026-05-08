@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: AI and ICS: An Introduction
+
+Subtitle: Where operational technology meets artificial intelligence
+
+Content:
+• Industrial control systems (ICS) manage physical processes like power grids, water treatment, and manufacturing lines
+• AI is increasingly embedded in these environments to optimise performance and predict faults
+• New capability, new risk
+• Every AI component added to an ICS creates a potential entry point for attackers
+• Understanding these risks is the first step toward protecting critical infrastructure
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Legacy Systems Meet Modern Threats
+
+Subtitle: Why traditional defences fall short against AI-powered attacks
+
+Content:
+• ICS were designed decades before AI existed, leaving security gaps that modern threats exploit
+• AI enables dynamic, adaptive attacks that evade signature-based detection
+• Attackers use AI to learn normal system patterns and disguise malicious activity as routine operations
+• Legacy and new systems running side by side create unpredictable vulnerabilities
+• Traditional security tools struggle to identify AI-driven attack patterns
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: New Attack Vectors in AI-Enhanced ICS
+
+Subtitle: How AI components expand the attack surface
+
+Content:
+• Machine learning models and data pipelines create entirely new entry points
+• Training data corruption allows attackers to influence decisions before operators notice
+• Remote connectivity for AI updates significantly widens exposure
+• AI-powered anomaly detection tools can be manipulated to ignore genuine threats
+• Each connected AI component multiplies potential vulnerabilities
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Critical AI Vulnerabilities in Industrial Settings
+
+Subtitle: Where AI creates exploitable weak points
+
+Content:
+• Biased or corrupted training data leads to dangerous operational decisions
+• Opaque AI models hide failures until catastrophic outcomes occur
+• Sensor spoofing tricks AI systems with false environmental data
+• Automated responses can trigger unpredictable cascading effects
+• Black box algorithms make troubleshooting and forensics nearly impossible
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Supply Chain AI Security Risks
+
+Subtitle: Hidden threats in third-party AI components
+
+Content:
+• Pre-trained models may contain hidden backdoors or data poisoning
+• Third-party libraries introduce unverified code into critical systems
+• Vendor updates can silently introduce new vulnerabilities
+• Many AI suppliers lack rigorous security audit processes
+• Compromised shared libraries can affect multiple industrial systems
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Operational Impact of AI Compromises
+
+Subtitle: Real-world consequences of AI security failures
+
+Content:
+• Manufacturing disruption from manipulated production algorithms
+• Power grid instability through compromised load balancing systems
+• Water treatment contamination via altered chemical dosing controls
+• Equipment damage from AI-driven maintenance schedule corruption
+• Safety system failures when AI bypasses critical protection mechanisms
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Defending AI-Integrated ICS Networks
+
+Subtitle: Practical strategies to protect AI-enhanced systems
+
+Content:
+• Segment AI components from core ICS networks using strict access controls
+• Monitor AI model inputs and outputs for unusual patterns signaling manipulation
+• Validate training data sources to prevent poisoned datasets
+• Limit AI system privileges to prevent direct critical command execution
+• Maintain regular patching schedules for all AI components and dependencies
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Building AI Security Awareness
+
+Subtitle: Preparing your team for AI-related threats
+
+Content:
+• Train operations staff to recognise abnormal AI behaviour patterns
+• Establish incident response procedures specific to AI security events
+• Create documentation standards for AI system configurations and changes
+• Develop testing protocols for AI component security before deployment
+• Foster a security-first culture when adopting new AI technologies

@@ -1,0 +1,104 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: When AI Predictions Fail
+
+Subtitle: The reality of misplaced confidence
+
+Content:
+• AI predictions sometimes fail
+• Equipment breaks unexpectedly despite good forecasts
+• High confidence scores can mislead maintenance teams
+• Unplanned downtime costs escalate rapidly
+• Verification strategies are essential
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Common Causes of Model Failures
+
+Subtitle: Why predictions go wrong
+
+Content:
+• Faulty or miscalibrated sensors feeding bad data
+• Rare faults missing from training datasets
+• Equipment aging beyond model experience
+• Seasonal changes catching systems off guard
+• Over-reliance on single sensor readings
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: Reading Early Warning Signs
+
+Subtitle: Detecting problems before visible failure
+
+Content:
+• Subtle shifts in vibration, temperature, or sound appear days before visible faults
+• Establish baseline data for normal operating ranges
+• Monitor trends over time, not just threshold crossings
+• Small deviations signal early component wear
+• Continuous sensor monitoring catches what inspections miss
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Practical Verification Strategies
+
+Subtitle: Cross-checking before you act
+
+Content:
+• Cross-reference predictions with recent sensor data
+• Review model's historical accuracy on similar equipment
+• Spot-check high-priority alerts manually
+• Set clear action thresholds versus investigation triggers
+• Consider confidence scores in context of equipment familiarity
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: Financial Impact of Missed Failures
+
+Subtitle: When trust becomes costly
+
+Content:
+• Emergency repairs cost significantly more than planned maintenance
+• Unplanned downtime creates cascading production losses
+• False alarms waste maintenance resources and erode team confidence
+• Late warnings offer little protection against breakdown costs
+• Blind trust amplifies financial exposure
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Diagnosing Model Performance Issues
+
+Subtitle: Identifying patterns in prediction failures
+
+Content:
+• Data drift occurs when current conditions don't match training data
+• Spikes in false negatives indicate model degradation
+• Clustered failures in asset types reveal training gaps
+• Seasonal variations expose model blind spots
+• Overconfidence patterns highlight sensor dependency issues
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Learning From Prediction Errors
+
+Subtitle: Turning failures into improvements
+
+Content:
+• Wrong predictions reveal model limitations and data gaps
+• Failed alerts provide valuable retraining opportunities
+• Error patterns guide sensor placement and calibration
+• Bias in training data creates predictable blind spots
+• Systematic failure analysis strengthens future predictions
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Building Reliable AI-Human Partnership
+
+Subtitle: Smart strategies for sustainable success
+
+Content:
+• Treat AI outputs as probabilities, not certainties
+• Pair model predictions with human judgment
+• Monitor data quality continuously
+• Start with small implementations and expand gradually
+• Build trust through verified results, not assumptions
+• Use failures as learning opportunities for model improvement

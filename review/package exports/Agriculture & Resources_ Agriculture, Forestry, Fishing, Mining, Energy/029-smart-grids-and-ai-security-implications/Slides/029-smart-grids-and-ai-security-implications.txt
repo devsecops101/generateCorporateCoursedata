@@ -1,0 +1,100 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Smart Grids and AI: Introduction
+
+Subtitle: Where AI Meets Energy Security
+
+Content:
+• AI now manages power grids
+• Demand balancing happens automatically
+• Security risks are growing fast
+• Attacks can cut electricity supply
+• This course explains the risks
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Mapping the Smart Grid Landscape
+
+Subtitle: From generation to consumer endpoints
+
+Content:
+• Power plants generate electricity
+• Transmission lines carry power
+• Substations step voltage down
+• Smart meters track usage
+• Consumers receive and respond
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: AI Training and Data Vulnerabilities
+
+Subtitle: How historical bias and manipulation create risks
+
+Content:
+• AI systems trained on historical data may misread unusual but legitimate demand spikes
+• Adversarial inputs (small, deliberate data tweaks) can silently steer AI decisions in dangerous directions
+• Overconfident predictions with no uncertainty flagging
+• Single points of failure in data sources can cascade
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: AI Operational Failures
+
+Subtitle: When automated decisions go wrong
+
+Content:
+• Sensor malfunctions trigger cascading grid responses
+• AI models cannot explain their reasoning to operators
+• System interconnectedness amplifies small errors
+• Diagnosis and correction become slower during incidents
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: AI Design Trade-offs and Limitations
+
+Subtitle: How optimization choices create vulnerabilities
+
+Content:
+• AI optimized for efficiency may sacrifice resilience
+• Systems appear stable under normal conditions but fail under stress
+• Limited ability to handle unprecedented scenarios
+• Performance metrics may not capture security considerations
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Foundational Security Measures
+
+Subtitle: Basic protections for AI-managed grids
+
+Content:
+• Patch systems regularly and promptly
+• Encrypt all grid data transmissions
+• Train staff to recognize emerging threats
+• Monitor networks continuously for anomalies
+• Limit AI system access rights
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Advanced Resilience Strategies
+
+Subtitle: Sophisticated approaches to grid protection
+
+Content:
+• Segment networks to contain attacks and errors
+• Audit AI decision logs for unusual patterns
+• Maintain human override capabilities at all times
+• Deploy independent backup systems
+• Share threat intelligence with security agencies
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Implementation Roadmap
+
+Subtitle: Practical steps for secure smart grid deployment
+
+Content:
+• Plan incident response before crises occur
+• Verify all user access and permissions
+• Start with small pilots, scale gradually
+• Coordinate across teams and partners
+• Build monitoring into every system from day one

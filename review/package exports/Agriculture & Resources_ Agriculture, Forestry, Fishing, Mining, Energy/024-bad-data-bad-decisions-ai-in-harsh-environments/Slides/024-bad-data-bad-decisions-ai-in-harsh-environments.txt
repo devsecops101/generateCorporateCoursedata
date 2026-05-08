@@ -1,0 +1,103 @@
+Slide 1 (Slide 1)
+------------------------------------------------------------------------
+Title: Bad Data, Bad Decisions
+
+Subtitle: How AI fails when data does
+
+Content:
+• AI needs data to work
+• Bad data breaks AI
+• Sensors fail in the field
+• Weather corrupts readings
+• Garbage in, garbage out
+
+Slide 2 (Slide 2)
+------------------------------------------------------------------------
+Title: Common Sensor Failure Modes
+
+Subtitle: How sensors break down in harsh conditions
+
+Content:
+• Drift: readings slowly shift over time
+• Signal noise from electrical interference
+• Complete dropouts and communication loss
+• Physical damage from weather and vibration
+• Harsh conditions accelerate all failures
+
+Slide 3 (Slide 3)
+------------------------------------------------------------------------
+Title: AI's Blind Trust Problem
+
+Subtitle: Why AI can't detect bad data on its own
+
+Content:
+• AI accepts all sensor input as valid
+• No built-in quality checks
+• Cannot distinguish real from corrupted signals
+• Trained on clean lab data, not messy field conditions
+• Missing context to question unrealistic readings
+
+Slide 4 (Slide 4)
+------------------------------------------------------------------------
+Title: Weather Interference Effects
+
+Subtitle: How environmental conditions corrupt field data
+
+Content:
+• Rain and moisture cause electrical faults
+• Temperature extremes affect sensor accuracy
+• Wind and vibration create false readings
+• Dust and debris block or damage sensors
+• Electromagnetic storms disrupt wireless signals
+
+Slide 5 (Slide 5)
+------------------------------------------------------------------------
+Title: The Cascade Effect
+
+Subtitle: How single corrupted signals spread through systems
+
+Content:
+• One faulty sensor affects thousands of data points
+• Bad readings train models incorrectly
+• Predictions drift silently in wrong direction
+• Small errors compound into major mistakes
+• Problem often unnoticed until damage is done
+
+Slide 6 (Slide 6)
+------------------------------------------------------------------------
+Title: Prevention Strategies
+
+Subtitle: Building resilience against data corruption
+
+Content:
+• Cross-check readings from multiple sensors
+• Apply smoothing to filter sudden spikes
+• Install redundant sensors as backup
+• Train AI on degraded data scenarios
+• Set confidence thresholds for uncertain outputs
+
+Slide 7 (Slide 7)
+------------------------------------------------------------------------
+Title: Recovery and Cleanup
+
+Subtitle: Restoring integrity after corruption occurs
+
+Content:
+• Identify corrupted data sources first
+• Use backup streams to fill gaps
+• Flag suspect records, don't delete them
+• Retrain models on cleaned datasets
+• Document all recovery steps thoroughly
+
+Slide 8 (Slide 8)
+------------------------------------------------------------------------
+Title: Key Takeaways
+
+Subtitle: Essential principles for reliable AI in harsh environments
+
+Content:
+• Always question your data sources
+• Context matters more than raw numbers
+• Build in human oversight points
+• Start small and verify before scaling
+• Plan for sensor failures from day one
